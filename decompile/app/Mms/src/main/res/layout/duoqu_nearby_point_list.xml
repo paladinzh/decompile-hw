@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/duoqu_web_near_bg" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:background="@color/duoqu_split_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/duoqu_ll_nearby_point_loading" android:background="@color/duoqu_web_near_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1401" android:src="@drawable/duoqu_nearby_point_origin" />
+        <TextView android:textSize="14sp" android:textColor="@color/duoqu_nearby_point_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duoqu_tip_nearby_point_loading" android:layout_marginStart="10dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/duoqu_ll_nearby_point_not_find" android:background="@color/duoqu_web_network_fail_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:background="@color/duoqu_web_near_fail" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+            <ImageView android:id="@+id/duoqu_web_location_fail_icon" android:layout_width="UNKNOWN_DATA_0xe01" android:layout_height="UNKNOWN_DATA_0xe01" android:layout_marginTop="15dp" android:src="@drawable/duoqu_web_network_fail" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true" />
+            <TextView android:textSize="13dp" android:textColor="@color/duoqu_setting_bottom_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/duoqu_web_network_fail_find" android:layout_centerVertical="true" android:layout_toEndOf="@+id/duoqu_web_location_fail_icon" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/duoqu_ll_nearby_point_network_lose" android:background="@color/duoqu_web_network_fail_bg_color" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:background="@color/duoqu_setting_bg_color" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001">
+            <ImageView android:id="@+id/duoqu_img_woring" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duoqu_nonetwork" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15dp" android:textColor="@color/duoqu_web_network_fail_text_color" android:id="@+id/duoqu_error_lable1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/duoqu_web_network_refresh" android:layout_centerVertical="true" android:layout_toEndOf="@+id/duoqu_img_woring" />
+            <TextView android:textSize="13dp" android:textColor="@color/duoqu_web_network_setting_text_color" android:id="@+id/duoqu_network_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duoqu_web_network_setting" android:layout_centerVertical="true" android:paddingEnd="32dp" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@+id/duoqu_img_next" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duoqu_networksetting" android:layout_centerVertical="true" android:paddingStart="5dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/duoqu_ll_nearby_point_list" android:background="@color/duoqu_web_near_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/duoqu_lv_nearby_point" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:overScrollMode="never" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/duoqu_web_near_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="9sp" android:textColor="@color/duoqu_nearby_point_gray" android:paddingTop="4dp" android:paddingBottom="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duoqu_tip_data_source" android:paddingEnd="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/duoqu_nearby_point_error_page" android:background="@color/duoqu_web_near_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duoqu_errortext" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

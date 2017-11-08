@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/prv/res/android" androidprv:sharedUserId="android.uid.systemui" androidprv:versionCode="50000001" androidprv:versionName="5.0.0.1" package="com.android.systemui" coreApp="true" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk androidprv:minSdkVersion="24" androidprv:targetSdkVersion="24" />
+    <uses-permission androidprv:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission androidprv:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission androidprv:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission androidprv:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission androidprv:name="android.permission.WAKE_LOCK" />
+    <uses-permission androidprv:name="android.permission.INJECT_EVENTS" />
+    <uses-permission androidprv:name="android.permission.DUMP" />
+    <uses-permission androidprv:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission androidprv:name="android.permission.STATUS_BAR_SERVICE" />
+    <uses-permission androidprv:name="android.permission.STATUS_BAR" />
+    <uses-permission androidprv:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission androidprv:name="android.permission.REMOTE_AUDIO_PLAYBACK" />
+    <uses-permission androidprv:name="android.permission.MANAGE_USERS" />
+    <uses-permission androidprv:name="android.permission.READ_PROFILE" />
+    <uses-permission androidprv:name="android.permission.READ_CONTACTS" />
+    <uses-permission androidprv:name="android.permission.CONFIGURE_WIFI_DISPLAY" />
+    <uses-permission androidprv:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission androidprv:name="android.permission.GET_APP_OPS_STATS" />
+    <uses-permission androidprv:name="android.permission.BLUETOOTH" />
+    <uses-permission androidprv:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission androidprv:name="android.permission.BLUETOOTH_PRIVILEGED" />
+    <uses-permission androidprv:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission androidprv:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission androidprv:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission androidprv:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission androidprv:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission androidprv:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission androidprv:name="android.permission.OVERRIDE_WIFI_CONFIG" />
+    <uses-permission androidprv:name="android.permission.MANAGE_NETWORK_POLICY" />
+    <uses-permission androidprv:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission androidprv:name="android.permission.TETHER_PRIVILEGED" />
+    <uses-permission androidprv:name="android.permission.READ_NETWORK_USAGE_HISTORY" />
+    <uses-permission androidprv:name="android.permission.CONTROL_VPN" />
+    <uses-permission androidprv:name="android.permission.PEERS_MAC_ADDRESS" />
+    <uses-permission androidprv:name="android.permission.MANAGE_USB" />
+    <uses-permission androidprv:name="android.permission.DEVICE_POWER" />
+    <uses-permission androidprv:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission androidprv:name="android.permission.MASTER_CLEAR" />
+    <uses-permission androidprv:name="android.permission.VIBRATE" />
+    <uses-permission androidprv:name="android.permission.READ_PRECISE_PHONE_STATE" />
+    <uses-permission androidprv:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission androidprv:name="android.permission.GET_DETAILED_TASKS" />
+    <uses-permission androidprv:name="android.permission.REORDER_TASKS" />
+    <uses-permission androidprv:name="android.permission.REMOVE_TASKS" />
+    <uses-permission androidprv:name="android.permission.STOP_APP_SWITCHES" />
+    <uses-permission androidprv:name="android.permission.SET_SCREEN_COMPATIBILITY" />
+    <uses-permission androidprv:name="android.permission.START_ANY_ACTIVITY" />
+    <uses-permission androidprv:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission androidprv:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission androidprv:name="android.permission.GET_TOP_ACTIVITY_INFO" />
+    <uses-permission androidprv:name="android.permission.MANAGE_ACTIVITY_STACKS" />
+    <uses-permission androidprv:name="android.permission.START_TASKS_FROM_RECENTS" />
+    <uses-permission androidprv:name="android.permission.GET_INTENT_SENDER_INTENT" />
+    <uses-permission androidprv:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission androidprv:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
+    <uses-permission androidprv:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission androidprv:name="android.permission.READ_FRAME_BUFFER" />
+    <uses-permission androidprv:name="android.permission.MANAGE_APP_TOKENS" />
+    <uses-permission androidprv:name="android.permission.REGISTER_WINDOW_MANAGER_LISTENERS" />
+    <uses-permission androidprv:name="android.permission.SET_ORIENTATION" />
+    <uses-permission androidprv:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission androidprv:name="android.permission.READ_DREAM_STATE" />
+    <uses-permission androidprv:name="android.permission.WRITE_DREAM_STATE" />
+    <uses-permission androidprv:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission androidprv:name="android.permission.MANAGE_FINGERPRINT" />
+    <uses-permission androidprv:name="android.permission.CONTROL_KEYGUARD" />
+    <uses-permission androidprv:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission androidprv:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission androidprv:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission androidprv:name="android.permission.BIND_DEVICE_ADMIN" />
+    <uses-permission androidprv:name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" />
+    <uses-permission androidprv:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission androidprv:name="android.permission.ACCESS_KEYGUARD_SECURE_STORAGE" />
+    <uses-permission androidprv:name="android.permission.TRUST_LISTENER" />
+    <uses-permission androidprv:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission androidprv:name="android.permission.RESET_FINGERPRINT_LOCKOUT" />
+    <uses-permission androidprv:name="com.huawei.hwresolver.resolverReceiver" />
+    <uses-permission androidprv:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE" />
+    <uses-permission androidprv:name="com.huawei.hwSdCryptd.permission.RECV_HWSDCRYPTD_RESULT" />
+    <uses-permission androidprv:name="android.permission.SET_WALLPAPER" />
+    <uses-permission androidprv:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission androidprv:name="huawei.permission.RECEIVE_WIFI_PRO_STATE" />
+    <uses-permission androidprv:name="android.permission.CAMERA" />
+    <uses-permission androidprv:name="android.permission.MANAGE_MEDIA_PROJECTION" />
+    <uses-permission androidprv:name="android.permission.ACCESS_VOICE_INTERACTION_SERVICE" />
+    <uses-permission androidprv:name="android.permission.TABLET_MODE" />
+    <permission androidprv:name="com.android.systemui.permission.SELF" androidprv:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.android.systemui.permission.SELF" />
+    <uses-permission androidprv:name="com.huawei.HwMultiScreenShot.permission.START" />
+    <permission androidprv:name="com.android.systemui.permission.SCREEN_SHOT" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.huawei.intelligent.permission.HWINTELLIGENT_START_COMPONENT" />
+    <uses-permission androidprv:name="android.permission.BIND_QUICK_SETTINGS_TILE" />
+    <uses-permission androidprv:name="android.permission.UPDATE_APP_OPS_STATS" />
+    <uses-permission androidprv:name="android.permission.BATTERY_STATS" />
+    <uses-permission androidprv:name="android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS" />
+    <uses-permission androidprv:name="android.permission.MANAGE_DEVICE_ADMINS" />
+    <uses-permission androidprv:name="android.permission.RECEIVE_MEDIA_RESOURCE_USAGE" />
+    <uses-permission androidprv:name="android.permission.MANAGE_NOTIFICATIONS" />
+    <uses-permission androidprv:name="android.permission.ACCESS_VR_MANAGER" />
+    <uses-permission androidprv:name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME" />
+    <uses-permission androidprv:name="com.huawei.skytone.permission.VSIM_BUSSINESS" />
+    <uses-permission androidprv:name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" />
+    <permission androidprv:name="com.android.systemui.permission.BackgrounCallingLayout" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.huawei.ims.permission.GET_IMS_SERVICE_STATE" />
+    <permission androidprv:name="com.huawei.permission.recent.READ_LOCK_STATE" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.huawei.permission.recent.WRITE_LOCK_STATE" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.android.systemui.permission.removeTask" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.android.systemui.permission.removeTask" />
+    <uses-permission androidprv:name="com.huawei.ims.permission.GET_IMS_SERVICE_VOWIFI_STATE" />
+    <uses-permission androidprv:name="com.huawei.screenrecorder.permission.SCREENRECORDER_SERVICE_PERMISSION" />
+    <uses-permission androidprv:name="com.huawei.instantshare.permission.HUAWEI_INSTANTSHARE" />
+    <uses-permission androidprv:name="android.permission.HW_CAMCFG_SERVICE" />
+    <uses-permission androidprv:name="com.huawei.instantshare.permission.HUAWEI_INSTANTSHARE" />
+    <permission androidprv:name="com.android.huawei.magazineunlock.permission.READ" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.android.huawei.magazineunlock.permission.WRITE" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.android.huawei.magazineunlock.permission.READ" />
+    <uses-permission androidprv:name="com.android.huawei.magazineunlock.permission.WRITE" />
+    <uses-permission androidprv:name="android.permission.READ_PHONE_STATE" />
+    <permission androidprv:name="com.android.keyguard.FINGERPRINT_UNLOCK" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.android.keyguard.permission.SWITCHTHEME" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.android.keyguard.permission.SHOW_LYRICS" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission androidprv:name="com.android.keyguard.permission.SHOW_LYRICS" />
+    <uses-permission androidprv:name="android.permission.HwFLASHLIGHT" />
+    <uses-permission androidprv:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission androidprv:name="com.android.launcher.permission.LAUNCHER_ANIMATION" />
+    <uses-permission androidprv:name="com.huawei.locksettings.permission.ACCESS_HWKEYGUARD_SECURE_STORAGE" />
+    <uses-permission androidprv:name="com.android.providers.media.permission.SCAN_FOLDER" />
+    <uses-permission androidprv:name="com.huawei.alarm.provider.readPermission" />
+    <uses-permission androidprv:name="com.huawei.alarm.provider.writePermission" />
+    <uses-permission androidprv:name="com.android.keyguard.FINGERPRINT_UNLOCK" />
+    <uses-permission androidprv:name="com.huawei.wallet.permission.QUICK_PAY" />
+    <uses-permission androidprv:name="android.permission.READ_CALL_LOG" />
+    <uses-permission androidprv:name="android.permission.READ_SMS" />
+    <uses-permission androidprv:name="android.permission.BIND_KEYGUARD_APPWIDGET" />
+    <uses-permission androidprv:name="huawei.android.permission.RESET_NEW_PASSWORD" />
+    <uses-permission androidprv:name="com.huawei.android.thememanager.permission.THEME_PROVIDER_ACCESS" />
+    <uses-permission androidprv:name="com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER" />
+    <uses-permission androidprv:name="com.huawei.authentication.HW_ACCESS_AUTH_SERVICE" />
+    <uses-permission androidprv:name="com.android.keyguard.permission.SEND_STEP_INFO_COUNTER" />
+    <uses-permission androidprv:name="com.android.keyguard.permission.RECEIVE_COVERSCREEN_STATE" />
+    <permission androidprv:name="com.android.keyguard.permission.SEND_STEP_INFO" />
+    <uses-permission androidprv:name="com.android.keyguard.permission.SEND_STEP_INFO" />
+    <uses-permission androidprv:name="com.android.keyguard.permission.RECEIVE_COVER_STATE" />
+    <permission androidprv:name="com.android.keyguard.permission.RECEIVE_COVER_STATE" />
+    <uses-permission androidprv:name="android.permission.REBOOT" />
+    <uses-permission androidprv:name="com.huawei.deskclock.broadcast.permission" />
+    <uses-permission androidprv:name="com.huawei.scanner.permission.PRIVATE" />
+    <uses-permission androidprv:name="com.huawei.permission.MANAGE_TRUSTSPACE" />
+    <uses-permission androidprv:name="com.huawei.hwsdlock.permission.ACCESS_HWSDCARD_SECURE" />
+    <uses-permission androidprv:name="com.huawei.hwsdlock.permission.RECV_HWSDLOCK_STATE" />
+    <uses-permission androidprv:name="com.huawei.android.FloatTasks.readPermission" />
+    <uses-permission androidprv:name="huawei.android.permission.RESTORE_DEFAULT_SETTINGS" />
+    <uses-permission androidprv:name="com.huawei.parentcontrol.permission.provider" />
+    <uses-permission androidprv:name="huawei.permmisons.floatmms.RECEIVE_REQUEST" />
+    <uses-permission androidprv:name="huawei.permmisons.mms.HEADSUP_NOTIFICATION_REMAIN_ACTION" />
+    <uses-permission androidprv:name="com.huawei.vdrive.providers.READ_ONLY" />
+    <uses-permission androidprv:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <permission androidprv:name="com.android.systemui.permission.BACKUP_RESTORE" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission androidprv:name="com.huawei.keyguard.permission.ACCESS_HIAD" androidprv:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <application androidprv:theme="@style/systemui_theme" androidprv:label="@string/app_label" androidprv:icon="@drawable/icon" androidprv:name=".HwSystemUIApplication" androidprv:allowClearUserData="false" androidprv:persistent="true" androidprv:process="com.android.systemui" androidprv:allowBackup="false" androidprv:hardwareAccelerated="true" androidprv:supportsRtl="true" androidprv:defaultToDeviceProtectedStorage="true" androidprv:directBootAware="true">
+        <uses-library androidprv:name="com.huawei.hwpostcamera" androidprv:required="false" />
+        <service androidprv:name="SystemUIService" androidprv:exported="true" />
+        <service androidprv:name=".FloatTipsService" />
+        <service androidprv:name="SystemUISecondaryUserService" androidprv:permission="com.android.systemui.permission.SELF" androidprv:exported="true" />
+        <service androidprv:name=".screenshot.TakeScreenshotService" androidprv:permission="com.android.systemui.permission.SCREEN_SHOT" androidprv:exported="true" androidprv:process=":screenshot" />
+        <receiver androidprv:name=".screenshot.ScreenshotServiceErrorReceiver" androidprv:exported="false" androidprv:process=":screenshot">
+            <intent-filter>
+                <action androidprv:name="com.android.systemui.screenshot.SHOW_ERROR" />
+            </intent-filter>
+        </receiver>
+        <service androidprv:name=".LoadAverageService" androidprv:exported="true" />
+        <service androidprv:name=".ImageWallpaper" androidprv:permission="android.permission.BIND_WALLPAPER" androidprv:exported="true" />
+        <service androidprv:name=".HwImageWallpaper" androidprv:permission="android.permission.BIND_WALLPAPER" androidprv:exported="true" />
+        <receiver androidprv:name=".BootReceiver" androidprv:systemUserOnly="true">
+            <intent-filter androidprv:priority="1000">
+                <action androidprv:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity androidprv:theme="@style/TunerSettings" androidprv:label="@string/system_ui_tuner" androidprv:icon="@drawable/tuner" androidprv:name=".tuner.TunerActivity" androidprv:enabled="false" androidprv:exported="true" androidprv:process=":tuner">
+            <intent-filter>
+                <action androidprv:name="com.android.settings.action.EXTRA_SETTINGS" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data androidprv:name="com.android.settings.category" androidprv:value="com.android.settings.category.system" />
+        </activity>
+        <activity-alias androidprv:theme="@style/TunerSettings" androidprv:label="@string/demo_mode" androidprv:icon="@drawable/tuner" androidprv:name=".DemoMode" androidprv:exported="true" androidprv:process=":tuner" androidprv:targetActivity=".tuner.TunerActivity">
+            <intent-filter>
+                <action androidprv:name="com.android.settings.action.DEMO_MODE" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <service androidprv:name=".recents.RecentsSystemUserService" androidprv:permission="com.android.systemui.permission.SELF" androidprv:exported="false" />
+        <activity androidprv:theme="@style/RecentsTheme.Wallpaper" androidprv:label="@string/accessibility_desc_recent_apps" androidprv:name=".recents.RecentsActivity" androidprv:exported="false" androidprv:stateNotNeeded="true" androidprv:excludeFromRecents="true" androidprv:launchMode="singleInstance" androidprv:screenOrientation="behind" androidprv:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" androidprv:resumeWhilePausing="true" androidprv:resizeableActivity="true">
+            <intent-filter>
+                <action androidprv:name="com.android.systemui.recents.TOGGLE_RECENTS" />
+            </intent-filter>
+        </activity>
+        <activity androidprv:theme="@style/RecentsTvTheme.Wallpaper" androidprv:label="@string/accessibility_desc_recent_apps" androidprv:name=".recents.tv.RecentsTvActivity" androidprv:exported="false" androidprv:stateNotNeeded="true" androidprv:excludeFromRecents="true" androidprv:launchMode="singleInstance" androidprv:screenOrientation="behind" androidprv:resumeWhilePausing="true">
+            <intent-filter>
+                <action androidprv:name="com.android.systemui.recents.TOGGLE_RECENTS" />
+            </intent-filter>
+        </activity>
+        <activity androidprv:theme="@style/ForcedResizableTheme" androidprv:name=".stackdivider.ForcedResizableInfoActivity" androidprv:exported="false" androidprv:stateNotNeeded="true" androidprv:excludeFromRecents="true" androidprv:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" />
+        <receiver androidprv:name=".screenshot.GlobalScreenshot$TargetChosenReceiver" androidprv:exported="false" androidprv:process=":screenshot" />
+        <receiver androidprv:name=".screenshot.HwScreenshotNotifications$HwDeleteScreenshotReceiver" androidprv:exported="false" androidprv:process=":screenshot" />
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbConfirmActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbPermissionActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbResolverActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbAccessoryUriActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.HwUsbDebuggingActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbDebuggingActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@style/Theme.SystemUI.Dialog.Alert" androidprv:name=".usb.UsbDebuggingSecondaryUserActivity" androidprv:excludeFromRecents="true" androidprv:finishOnCloseSystemDialogs="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="@*androidprv:style/Theme.DeviceDefault.Light.Panel" androidprv:name=".net.NetworkOverLimitActivity" androidprv:permission="android.permission.MANAGE_NETWORK_POLICY" androidprv:exported="true" androidprv:taskAffinity="com.android.systemui.net" androidprv:excludeFromRecents="true" androidprv:launchMode="singleTop" androidprv:finishOnCloseSystemDialogs="true" />
+        <activity androidprv:theme="@style/Theme.AlertDialogHost" androidprv:name=".media.MediaProjectionPermissionActivity" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:launchMode="singleTop" androidprv:finishOnCloseSystemDialogs="true" />
+        <activity androidprv:theme="@style/PipTheme" androidprv:name="com.android.systemui.tv.pip.PipMenuActivity" androidprv:exported="true" androidprv:taskAffinity="" androidprv:excludeFromRecents="true" androidprv:launchMode="singleTop" androidprv:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" androidprv:resizeableActivity="true" androidprv:supportsPictureInPicture="true" androidprv:alwaysFocusable="true" />
+        <activity androidprv:theme="@style/PipTheme" androidprv:name="com.android.systemui.tv.pip.PipOverlayActivity" androidprv:exported="true" androidprv:taskAffinity="" androidprv:excludeFromRecents="true" androidprv:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" androidprv:resizeableActivity="true" androidprv:supportsPictureInPicture="true" />
+        <activity androidprv:theme="@style/PipTheme" androidprv:name="com.android.systemui.tv.pip.PipOnboardingActivity" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:launchMode="singleTop" />
+        <service androidprv:name=".keyguard.KeyguardService" androidprv:enabled="@bool/config_enableKeyguardService" androidprv:exported="true" />
+        <activity androidprv:theme="@*androidprv:style/Theme.Wallpaper.NoTitleBar" androidprv:label="@string/start_dreams" androidprv:icon="@mipmap/ic_launcher_dreams" androidprv:name=".Somnambulator" androidprv:exported="true" androidprv:excludeFromRecents="true">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.MAIN" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+                <category androidprv:name="android.intent.category.DESK_DOCK" />
+            </intent-filter>
+        </activity>
+        <activity androidprv:theme="@*androidprv:style/Theme.DeviceDefault.Dialog" androidprv:label="@string/quick_settings_brightness_dialog_title" androidprv:name=".settings.BrightnessDialog" androidprv:exported="true" androidprv:excludeFromRecents="true" androidprv:launchMode="singleInstance" androidprv:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service androidprv:name=".doze.DozeService" androidprv:permission="android.permission.BIND_DREAM_SERVICE" androidprv:exported="true" androidprv:singleUser="true" />
+        <receiver androidprv:name=".tuner.TunerService$ClearReceiver" androidprv:exported="false">
+            <intent-filter>
+                <action androidprv:name="com.android.systemui.action.CLEAR_TUNER" />
+            </intent-filter>
+        </receiver>
+        <receiver androidprv:name=".statusbar.KeyboardShortcutsReceiver">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.DISMISS_KEYBOARD_SHORTCUTS" />
+                <action androidprv:name="android.intent.action.SHOW_KEYBOARD_SHORTCUTS" />
+            </intent-filter>
+        </receiver>
+        <activity androidprv:label="@string/sdcard_guider_title" androidprv:name=".usb.HwSDCardGuiderActivity" androidprv:exported="false" androidprv:excludeFromRecents="true">
+            <intent-filter>
+                <action androidprv:name="com.android.systemui.HW_SDCARD_GUIDER" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity androidprv:theme="0x1030485" androidprv:name=".usb.HwSDcardPasswordDialogActivity" androidprv:permission="android.permission.MANAGE_USB" androidprv:excludeFromRecents="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity androidprv:theme="0x1030485" androidprv:name=".usb.HwSDCardFormatActivity" androidprv:excludeFromRecents="true">
+            <meta-data androidprv:name="hwc-theme" androidprv:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <provider androidprv:name=".usb.HwSDCardLockProvider" androidprv:exported="false" androidprv:authorities="com.android.systemui.usb.HwSDCardLockProvider" />
+        <provider androidprv:name=".recents.HwRecentsLockProdiver" androidprv:readPermission="com.huawei.permission.recent.READ_LOCK_STATE" androidprv:writePermission="com.huawei.permission.recent.WRITE_LOCK_STATE" androidprv:exported="true" androidprv:authorities="com.android.systemui.recent.HwRecentsLockProdiver" />
+        <activity androidprv:theme="@style/FlashlightBackground" androidprv:label="@string/flashlight_name" androidprv:icon="@drawable/ic_icon_flashlight" androidprv:name=".flashlight.FlashlightActivity" androidprv:permission="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" androidprv:excludeFromRecents="true" androidprv:launchMode="singleTop" androidprv:screenOrientation="portrait" androidprv:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.MAIN" />
+                <category androidprv:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider androidprv:name="com.huawei.keyguard.database.MagazineProvider" androidprv:readPermission="com.android.huawei.magazineunlock.permission.READ" androidprv:writePermission="com.android.huawei.magazineunlock.permission.WRITE" androidprv:exported="true" androidprv:multiprocess="false" androidprv:authorities="com.android.huawei.magazineunlock" />
+        <receiver androidprv:name=".apksimcardadapter.DisableCloudAppReceiver">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.SIM_STATE_CHANGED" />
+                <action androidprv:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <provider androidprv:name=".database.BackupProvider" androidprv:permission="com.android.systemui.permission.BACKUP_RESTORE" androidprv:exported="true" androidprv:authorities="com.android.systemui.backup.BackupRestore" />
+        <service androidprv:name="com.huawei.keyguard.hiad.HiAdService" androidprv:permission="com.huawei.keyguard.permission.ACCESS_HIAD" androidprv:exported="true">
+            <intent-filter>
+                <action androidprv:name="com.android.keyguard.magazineunlock.report.ACCESS_HIAD" />
+            </intent-filter>
+        </service>
+        <service androidprv:name="com.huawei.keyguard.onekeylock.PowerIntentService" androidprv:exported="false" androidprv:singleUser="true" />
+        <activity androidprv:theme="@*androidprv:style/Theme.Translucent.NoTitleBar.Fullscreen" androidprv:label="@r$string/LauncherIcon_Home_ScreenLock" androidprv:icon="@drawable/ic_onekey_widget_preview" androidprv:name="com.huawei.keyguard.onekeylock.OneKeyLockActivity" androidprv:excludeFromRecents="true" androidprv:launchMode="singleInstance" androidprv:singleUser="true">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.MAIN" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity androidprv:theme="@*androidprv:style/Theme.Translucent.NoTitleBar.Fullscreen" androidprv:label="@r$string/LauncherIcon_Home_ScreenLock" androidprv:icon="@drawable/ic_onekey_widget_preview" androidprv:name="com.huawei.keyguard.onekeylock.shortcut.ApproachActivity" androidprv:excludeFromRecents="true" androidprv:launchMode="singleInstance">
+            <intent-filter>
+                <action androidprv:name="android.intent.action.MAIN" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+                <category androidprv:name="com.android.keyguard.SHORTCUT" />
+            </intent-filter>
+            <intent-filter>
+                <action androidprv:name="android.intent.action.CREATE_SHORTCUT" />
+                <category androidprv:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

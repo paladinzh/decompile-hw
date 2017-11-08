@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50000001" android:versionName="5.0.0.1" package="com.android.mms" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <original-package android:name="com.android.mms" />
+    <uses-permission android:name="com.huawei.phone.permission.MMS_ADD_FDN_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="com.huawei.permission.USE_LEGACY_INTERFACE" />
+    <uses-permission android:name="huawei.permission.SET_SMSC_ADDRESS" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_PRE_INSTALLED" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.RECEIVE_WAP_PUSH" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.huawei.permission.OUTSIDE_STOP_FM" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INSTALL_DRM" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="com.android.contacts.permission.READ_CONTACTS_PRIVATE_INFO" />
+    <uses-permission android:name="com.android.contacts.permission.WRITE_CONTACTS_PRIVATE_INFO" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="com.huawei.notepad.provider.readPermission" />
+    <uses-permission android:name="com.huawei.notepad.provider.writePermission" />
+    <uses-permission android:name="com.android.keyguard.permission.RECEIVE_COVER_STATE" />
+    <uses-permission android:name="com.huawei.cryptosms.SERVICE_USE" />
+    <uses-permission android:name="com.huawei.permission.read_csp_configuration" />
+    <uses-permission android:name="com.huawei.ims.permission.GET_IMS_SERVICE_VOWIFI_STATE" />
+    <uses-permission android:name="com.cequint.ecid.CALLER_ID_LOOKUP" />
+    <permission android:label="@string/label_mms_send_outbox_msg" android:name="android.permission.MMS_SEND_OUTBOX_MSG" android:protectionLevel="dangerous|signature|signatureOrSystem" android:description="@string/desc_mms_send_outbox_msg" />
+    <uses-permission android:name="android.permission.MMS_SEND_OUTBOX_MSG" />
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="24" android:maxSdkVersion="24" />
+    <uses-permission android:name="huawei.permmisons.mms.CHANGE_FOLLOW_FLAG" />
+    <permission android:name="huawei.permmisons.mms.CHANGE_FOLLOW_FLAG" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="huawei.permmisons.floatmms.RECEIVE_REQUEST" />
+    <permission android:name="huawei.permmisons.mms.SEND_REQUEST" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.contacts.huawei.permission.NOTIFICATION_UPDATE_ACTION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="huawei.permmisons.mms.READ_TEMP_FILE" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="huawei.permmisons.mms.HEADSUP_NOTIFICATION_REMAIN_ACTION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="huawei.permmisons.mms.HEADSUP_NOTIFICATION_REMAIN_ACTION" />
+    <permission android:name="com.android.contacts.huawei.permission.REFRESH_DRAFT" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.huawei.vdrive.providers.settings.permission.READ_ONLY" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.huawei.hwradar.permission.SEND_RADAR_DATA" />
+    <uses-permission android:name="com.android.permission.system_manager_interface" />
+    <uses-permission android:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE" />
+    <uses-permission android:name="huawei.permmisons.mms.SEND_REQUEST" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL" />
+    <uses-permission android:name="com.huawei.sprint.chameleon.permission.READ_DATA" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="org.gsma.joyn.RCS_READ_CAPABILITIES" />
+    <uses-permission android:name="huawei.permission.RCS_READ_CONFIGURATION" />
+    <uses-permission android:name="com.huawei.rcs.ACCESS_SERVICE" />
+    <uses-permission android:name="org.gsma.joyn.RCS_USE_CHAT" />
+    <uses-permission android:name="org.gsma.joyn.RCS_FILETRANSFER_READ" />
+    <uses-permission android:name="com.huawei.rcs.RCS_BROADCASTER" />
+    <uses-permission android:name="com.huawei.rcs.READ_MESSAGE" />
+    <uses-permission android:name="com.huawei.rcs.WRITE_MESSAGE" />
+    <uses-permission android:name="android.permission.USES_HW_LOG_SERVICE" />
+    <uses-permission android:name="com.huawei.lives.permission.USE_SERVICE" />
+    <uses-permission android:name="com.huawei.android.permission.GET_CHR_DATA" />
+    <uses-permission android:name="com.huawei.hwid.permission.ACCESS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.huawei.hwid.permission.CONTENT_PROVIDER" />
+    <uses-permission android:name="com.huawei.hwid.ACTION_MAIN_SETTING_ACCESS" />
+    <uses-permission android:name="com.huawei.cryptosms.MANAGE_STATE" />
+    <uses-permission android:name="com.huawei.cryptosms.CRYPTO_DATA" />
+    <uses-permission android:name="huawei.permission.RECEIVE_SMS_INTERCEPTION" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.huawei.contacts.permission.CHOOSE_SUBSCRIPTION_HUAWEI" />
+    <uses-permission android:name="com.huawei.contacts.permission.HW_CONTACTS_ALL" />
+    <uses-permission android:name="com.huawei.hicloud.permission.QUERY_SWITCH" />
+    <uses-permission android:name="com.huawei.hicloud.permission.hicloudLogin" />
+    <permission android:name="huawei.permmisons.floatmms.RECEIVE_REQUEST" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="huawei.permissions.mms.EMERGENCY_SEND_SMS" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.permission.ADDRESS_CHANGE" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.mms.provider.backup.permission.READ_PERMISSION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.mms.provider.backup.permission.WRITE_PERMISSION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.android.calendar.huawei.permission.GET_EVENTS" />
+    <permission android:name="com.android.mms.provider.DEFAULTCHANGED_PERMISSION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="xy.permmisons.smartsms.GET_TRIAN_STATION_SELECTED" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="xy.permmisons.smartsms.GET_TRIAN_STATION_SELECTED" />
+    <permission android:name="xy.permmisons.smartsms.GET_EXPRESS_STATUS" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="xy.permmisons.smartsms.GET_EXPRESS_STATUS" />
+    <permission android:name="xy.permmisons.smartsms.GET_FLIGHT_STATUS" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="xy.permmisons.smartsms.GET_FLIGHT_STATUS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <permission android:name="huawei.permmisons.mmsandsms.SEND_PERMISSION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <application android:theme="@style/MmsHoloTheme" android:label="@string/app_label" android:icon="@mipmap/ic_launcher_icon" android:name="MmsApp" android:taskAffinity="android.task.mms" android:allowTaskReparenting="true" android:allowBackup="false" android:hardwareAccelerated="true" android:supportsRtl="true">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="ea5fa32c6b39d936003a641c4bb01f30" />
+        <meta-data android:name="com.google.android.gms.version" android:value="8487000" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAfU3prT5VlGMMq86dLlpn268bXRNFEtsI" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.android.mms.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+        <service android:name=".transaction.TransactionService" android:exported="false" />
+        <service android:name=".transaction.SmsReceiverService" android:exported="false" />
+        <service android:name="com.huawei.mms.service.HwFloatMmsService" android:permission="huawei.permmisons.floatmms.RECEIVE_REQUEST" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.actions.HwFloatMmsService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.rcs.incallui.service.MessagePlusService" android:permission="huawei.permmisons.mmsandsms.SEND_PERMISSION" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.actions.MessagePlusService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.android.mms.transaction.ReplyService" android:exported="false" />
+        <activity android:label="@string/app_label" android:name=".ui.ConversationList" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value="com.android.mms.HwQuickActionService" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.APP_MESSAGING" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/mms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android-dir/mms-sms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.kris.contasts.file.trans.action" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/mms_title_edit_conversation" android:name=".ui.ConversationEditor" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".ui.ConversationEditor" />
+        <activity android:label="@string/mms_common_notification" android:name="com.android.mms.ui.NotificationList" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:name=".ui.ComposeMessageActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".ui.ConversationList">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android-dir/mms-sms" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.SENDTO" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="mms" />
+                <data android:scheme="mmsto" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.MMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="audio/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.MMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/x-vcalendar" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MessageFullScreenActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".ui.ComposeMessageActivity" />
+        <activity android:name=".ui.ContactItemPickActivity" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity-alias android:name=".ui.ForwardMessageActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:targetActivity=".ui.ComposeMessageActivity" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".ui.ComposeMessageActivityNoLockScreen" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:label="@string/delivery_report_activity" android:name=".ui.DeliveryReportActivity" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Dialog" android:label="@string/storage_limits_activity" android:name=".ui.WarnOfStorageLimitsActivity" android:excludeFromRecents="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/change_duration_activity" android:name=".ui.EditSlideDurationActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:label="@string/edit_slideshow_activity" android:name=".ui.SlideshowEditActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/mms" android:name=".ui.SlideSmootShowActivity" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:label="@string/check_recipient_list_activity" android:name=".ui.RecipientListActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/edit_slide_activity" android:name=".ui.SlideEditorActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.DeviceDefault.Light" android:label="@string/slideshow_activity" android:name=".ui.SlideshowActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/class_0_message_activity" android:name=".ui.ClassZeroActivity" android:taskAffinity="android.task.mms.classzeroactivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".ui.FdnIndicateDialogActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:label="@string/preferences_title" android:name=".ui.MessagingPreferenceActivity" android:exported="false" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.android.settings.MANUFACTURER_MESSAGING_SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/pref_ringTong_and_vibrate" android:name="com.huawei.mms.ui.RingToneAndVibrateSettings" android:exported="false" android:configChanges="mcc|mnc|keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/mms_myfavorite_common" android:name=".ui.FavoritesActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:label="@string/msg_detail" android:name=".ui.GroupSmsDetailsActivity" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <receiver android:name=".transaction.WapPushReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH" android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_RECEIVED" />
+                <data android:mimeType="application/vnd.wap.sic" />
+                <data android:mimeType="application/vnd.wap.slc" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.MmsPermReceiver" android:permission="huawei.permmisons.mms.SEND_REQUEST" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.mms.NOTIFICATION_DELETED_ACTION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.mms.action.headsup.clicked" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.mms.action.headsup.viewmsg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.mms.action.headsup.subuser.viewmsg" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.huawei.permission.NOTIFICATION_UPDATE_ACTION" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.mms.action.subuser.event" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.intent.mms.action.SCHEDUL_MMS" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.PushReceiver" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER" />
+                <data android:mimeType="application/vnd.wap.mms-message" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.MmsPushOutboxMessages" android:permission="android.permission.MMS_SEND_OUTBOX_MSG">
+            <intent-filter>
+                <action android:name="android.intent.action.MMS_SEND_OUTBOX_MSG" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.MmsSystemEventReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.CONTENT_CHANGED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/sim_manage_messages_title" android:name=".ui.ManageSimMessages" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".transaction.PrivilegedSmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.SmsReceiver" android:permission="android.permission.SEND_SMS">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mms.transaction.MESSAGE_SENT" />
+                <data android:scheme="content" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.im.broadcast.MESSAGE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.rcs.message.errorcode" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.rcs.ft.file.invite" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.rcs.ft.image.invite" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.rcs.message.groupinvite" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.rcs.message.groupcreated" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.MessageStatusReceiver">
+            <intent-filter>
+                <action android:name="com.android.mms.transaction.MessageStatusReceiver.MESSAGE_STATUS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".transaction.MessageStatusService" />
+        <receiver android:name=".transaction.SimFullReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SIM_FULL" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.SmsRejectedReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_REJECTED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Dialog" android:name=".ui.ConfirmRateLimitActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+            <intent-filter>
+                <action android:name="com.android.mms.RATE_LIMIT_SURPASSED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/search" android:name=".ui.SearchActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.mms.action.SEARCH_GOLBAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" android:host="com.android.mms.SuggestionsProvider" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <meta-data android:name="android.app.default_searchable" android:value=".ui.SearchActivity" />
+        <activity android:name=".ui.HwSmsCenterNumberEditerActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/common_phrase" android:name=".ui.CommonPhrase" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustPan|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <provider android:name="SuggestionsProvider" android:readPermission="android.permission.READ_SMS" android:exported="true" android:authorities="com.android.mms.SuggestionsProvider">
+            <path-permission android:readPermission="android.permission.GLOBAL_SEARCH" android:pathPrefix="/search_suggest_query" />
+            <path-permission android:readPermission="android.permission.GLOBAL_SEARCH" android:pathPrefix="/search_suggest_shortcut" />
+        </provider>
+        <service android:name=".ui.NoConfirmationSendService" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="sms" />
+                <data android:scheme="smsto" />
+            </intent-filter>
+        </service>
+        <provider android:name="TempFileProvider" android:exported="true" android:multiprocess="true" android:authorities="mms_temp_file">
+            <path-permission android:permission="huawei.permmisons.mms.READ_TEMP_FILE" android:pathPrefix="/vcalendar_temp.vcs" />
+            <path-permission android:permission="huawei.permmisons.mms.READ_TEMP_FILE" android:pathPrefix="/vcard_temp.vcf" />
+        </provider>
+        <provider android:name="com.android.mms.attachment.datamodel.MmsFileProvider" android:exported="false" android:authorities="com.android.mms.attachment.camera.data.MmsFileProvider" android:grantUriPermissions="true" />
+        <provider android:name="com.android.mms.attachment.datamodel.MediaScratchFileProvider" android:exported="false" android:authorities="com.android.mms.attachment.camera.data.MediaScratchFileProvider" android:grantUriPermissions="true" />
+        <activity android:name=".ui.MessageComposeBackground" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:name="com.huawei.rcs.ui.RcsGroupChatComposeMessageActivity" android:permission="android.permission.SEND_SMS" android:exported="true" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".ui.ConversationList" />
+        <activity android:theme="@style/trans_status_bar" android:name="com.huawei.rcs.ui.RcsGroupChatConversationDetailActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/trans_status_bar" android:label="@string/delivery_report_activity" android:name="com.huawei.rcs.ui.RcsGroupChatDeliveryReportActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Dialog" android:name="com.huawei.rcs.ui.GroupInviteActivity" android:taskAffinity="com.huawei.mms" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+        </activity>
+        <receiver android:name=".ui.SmsStorageMonitor">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_FULL" />
+                <action android:name="android.intent.action.DEVICE_STORAGE_NOT_FULL" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".widget.MmsWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+        <service android:name="com.huawei.rcs.utils.RcsFileStatusUpdateService" />
+        <receiver android:name="com.huawei.mms.util.PrivacyModeReceiver" android:permission="android.permission.SEND_PRIVACY_MODE_CHANGED" android:protectionLevel="dangerous|signature|signatureOrSystem" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.actions.PRIVACY_MODE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.mms.util.FloatMmsRequsetReceiver" android:permission="huawei.permmisons.mms.SEND_REQUEST" android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.actions.floatmms.request" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".transaction.ServiceStateChangeReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SERVICE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.mms.transaction.EmergencySendSmsReceiver" android:permission="huawei.permissions.mms.EMERGENCY_SEND_SMS">
+            <intent-filter>
+                <action android:name="com.android.phone.EMERGENCY_SEND_SMS" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.mms.transaction.SendSmsService" android:exported="false" />
+        <activity android:name="com.huawei.mms.ui.SmartArchiveSettings" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.android.mms.ui.AddSignature" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@style/translucent" android:name="com.huawei.rcs.ui.RcsUserGuide" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.huawei.mms.ui.SmsEncryptSetting" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.mms.ui.MsimSmsEncryptSetting" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.mms.crypto.account.ui.PwdCheckActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.api.common.apkimpl.DummyActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:name="com.android.mms.activities.MmsAllActivity" android:taskAffinity="" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="" android:name="cn.com.xy.sms.sdk.ui.popu.web.SdkWebActivity" android:enabled="@bool/show_smartsms" android:exported="false" android:process="com.xy.web" android:excludeFromRecents="true" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="cn.com.xy.sms.sdk.ui.popu.web.NearbyPointList" android:enabled="@bool/show_smartsms" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustPan|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/duoqu_setting_name" android:name="cn.com.xy.sms.sdk.ui.settings.SmartSmsSettingActivity" android:enabled="@bool/show_smartsms" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:name="cn.com.xy.sms.sdk.ui.notification.DoActionActivity" android:enabled="@bool/show_smartsms" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+        </activity>
+        <activity android:name="cn.com.xy.sms.sdk.ui.dialog.DialogActivity" android:enabled="@bool/show_smartsms" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+        </activity>
+        <activity android:name="cn.com.xy.sms.sdk.ui.settings.PermissionRequestActivity" android:enabled="@bool/show_smartsms" android:exported="false" android:screenOrientation="sensor" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.NoDisplay" />
+        </activity>
+        <activity android:name="com.android.mms.ui.RecyclerSmsListActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.rcs.ui.RcsMediaCompressActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.rcs.ui.RcsVideoPreviewActivity" android:screenOrientation="portrait" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_app_name" android:name="com.huawei.hwid.ui.common.login.LoginActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.manager.AccountManagerActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" android:configChanges="locale|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_register_email" android:name="com.huawei.hwid.ui.common.login.RegisterViaEmailActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_register_via_phone_number" android:name="com.huawei.hwid.ui.common.login.SetRegisterPhoneNumPasswordActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_register_via_phone_number" android:name="com.huawei.hwid.ui.common.login.RegisterViaPhoneNumberActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.FindpwdByHwIdActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.hwid.ACTION_FIND_PWD_BY_HWID" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.FindpwdTypeActivity" android:exported="false" android:configChanges="orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.FindpwdbyPhonenumberActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.FindpwdbyEmailActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_modify_pwd_title" android:name="com.huawei.hwid.ui.common.setting.ModifyPasswordActivity" android:exported="false" android:taskAffinity="com.android.settings" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.hwid.MODIFY_PWD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.ui.common.login.PrivacyPolicyActivity" android:exported="false" android:taskAffinity="com.android.settings" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.ResetPwdByPhoneNumberActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <service android:name="com.huawei.hwid.core.model.service.FetchCountryIPService" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.api.common.apkimpl.DummyActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_reset_pwd_label" android:name="com.huawei.hwid.ui.common.password.ResetPwdByPhoneNumberVerificationActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_register_now" android:name="com.huawei.hwid.ui.common.login.RegisterViaPhoneNumVerificationActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_app_name" android:name="com.huawei.hwid.ui.common.login.StartUpGuideLoginForAPPActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.hwid.START_BY_SDK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_app_name" android:name="com.huawei.hwid.ui.common.login.SetRegisterEmailPasswordActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/CS_app_name" android:name="com.huawei.hwid.ui.common.login.RegisterResetVerifyEmailActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.ui.common.login.CheckUidPwdActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.huawei.hwid.UID_AUTH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:name="com.huawei.rcs.ui.RcsSettingsPreferenceActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".ui.PermissionCheckActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.huawei.rcs.ui.RcsAboutMessagePagerActivity" android:exported="false" android:configChanges="keyboardHidden|screenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <service android:name="com.android.mms.HwQuickActionService" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.android.quickaction.QuickActionService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.android.mms.ui.HwQuickActionActivity" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE" android:excludeFromRecents="true" android:launchMode="singleInstance">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.mms.action.QUICK_ACTION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.mms.ui.GalleryCompressActivity" android:exported="false" android:configChanges="orientation|screenSize" />
+        <service android:name="com.huawei.mms.util.RiskUrlCheckService" android:exported="false" />
+        <receiver android:name="com.huawei.rcs.CarrierConfigChangeBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <provider android:name=".provider.MmsBackupContentProvider" android:readPermission="com.android.mms.provider.backup.permission.READ_PERMISSION" android:writePermission="com.android.mms.provider.backup.permission.WRITE_PERMISSION" android:enabled="true" android:exported="true" android:authorities="com.android.mms.backup" />
+        <activity android:name="com.huawei.rcs.utils.map.impl.RcsGaodeLocationActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.rcs.utils.map.impl.RcsMapSearchActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:name="com.huawei.rcs.utils.map.impl.RcsGoogleMapActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <service android:name="com.amap.api.location.APSService" android:exported="false" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+    </application>
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+</manifest>

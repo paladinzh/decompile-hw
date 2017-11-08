@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="7010032" android:versionName="7.1.32" package="com.huawei.powergenie" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="24" />
+    <permission android:name="com.huawei.powergenie.readPermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.powergenie.writePermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.powergenie.receiverPermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.powergenie.stateServicePermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.android.permission.system_manager_interface" />
+    <uses-permission android:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE" />
+    <uses-permission android:name="com.huawei.camera.permission.PRIVATE" />
+    <uses-permission android:name="com.android.bluetooth.permission.BLUETOOTH_FREEZE_POWER_GENIE" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+    <uses-permission android:name="com.huawei.vrsdk.permission.thermal" />
+    <uses-permission android:name="android.permission.ACCESS_VR_MANAGER" />
+    <application android:label="@string/app_name" android:name=".core.PGApp" android:allowClearUserData="false" android:persistent="true" android:allowBackup="false" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true">
+        <uses-library android:name="com.android.location.provider" android:required="false" />
+        <receiver android:name="com.huawei.powergenie.integration.eventhub.SysBroadcastReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.thermal.StartBroadcastReceiver" android:permission="com.huawei.powergenie.receiverPermission" android:exported="false">
+            <intent-filter>
+                <action android:name="huawei.intent.action.START_THERMAL_ACTION" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".core.CoreService" android:exported="false" android:singleUser="true" />
+        <service android:name=".core.contextaware.PGActivityRecognitionService" android:permission="android.permission.WRITE_SECURE_SETTINGS" android:exported="true" android:singleUser="true">
+            <intent-filter>
+                <action android:name="com.android.location.service.ActivityRecognitionProvider" />
+            </intent-filter>
+            <meta-data android:name="serviceVersion" android:value="100" />
+        </service>
+        <provider android:name=".core.policy.PolicyProvider" android:readPermission="com.huawei.powergenie.readPermission" android:writePermission="com.huawei.powergenie.writePermission" android:multiprocess="true" android:authorities="com.huawei.powergenie" android:singleUser="true" />
+        <provider android:name=".core.policy.IntelligentProvider" android:readPermission="com.huawei.powergenie.readPermission" android:writePermission="com.huawei.powergenie.writePermission" android:multiprocess="true" android:authorities="com.huawei.powergenie.stats" android:singleUser="true" />
+        <service android:name="com.huawei.powergenie.modules.ashmanage.PGASHStateService" android:permission="com.huawei.powergenie.stateServicePermission" android:enabled="true" android:exported="true" android:singleUser="true">
+            <intent-filter>
+                <action android:name="com.huawei.powergenie.modules.ashmanage.IPGASHStateService" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

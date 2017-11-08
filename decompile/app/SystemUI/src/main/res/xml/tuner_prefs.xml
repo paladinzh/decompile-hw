@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:title="@string/system_ui_tuner"
+    <PreferenceScreen androidhwext:title="@string/status_bar" androidhwext:key="status_bar">
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/status_bar_settings_auto_rotation" androidhwext:key="rotate" androidhwext:preferenceID="@id/id_rotate" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/headset" androidhwext:key="headset" androidhwext:preferenceID="@id/id_headset" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/status_bar_work" androidhwext:key="managed_profile" androidhwext:preferenceID="@id/id_managed_profile" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_cast_title" androidhwext:key="cast" androidhwext:preferenceID="@id/id_cast" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_hotspot_label" androidhwext:key="hotspot" androidhwext:preferenceID="@id/id_hotspot" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_bluetooth_label" androidhwext:key="bluetooth" androidhwext:preferenceID="@id/id_bluetooth" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_dnd_label" androidhwext:key="zen" androidhwext:preferenceID="@id/id_zen" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="0x10403ba" androidhwext:key="volume" androidhwext:preferenceID="@id/id_volume" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_wifi_label" androidhwext:key="wifi" androidhwext:preferenceID="@id/id_wifi" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/status_bar_ethernet" androidhwext:key="ethernet" androidhwext:preferenceID="@id/id_ethernet" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/quick_settings_cellular_detail_title" androidhwext:key="mobile" androidhwext:preferenceID="@id/id_mobile" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/status_bar_airplane" androidhwext:key="airplane" androidhwext:preferenceID="@id/id_airplane" />
+        <com.android.systemui.tuner.BatteryPreference androidhwext:entries="@array/battery_options" androidhwext:title="@string/battery" androidhwext:summary="%s" />
+        <com.android.systemui.tuner.StatusBarSwitch androidhwext:title="@string/status_bar_alarm" androidhwext:key="alarm_clock" androidhwext:preferenceID="@id/id_alarm_clock" />
+        <com.android.systemui.tuner.ClockPreference androidhwext:entries="@array/clock_options" androidhwext:title="@string/tuner_time" androidhwext:summary="%s" />
+    </PreferenceScreen>
+    <PreferenceScreen androidhwext:title="@string/volume_and_do_not_disturb" androidhwext:key="volume_and_do_not_disturb">
+        <com.android.systemui.tuner.TunerSwitch androidhwext:title="@string/tuner_full_zen_title" androidhwext:key="sysui_show_full_zen" androidhwext:preferenceID="@id/id_sysui_show_full_zen" androidhwext:metricsAction="314" />
+        <com.android.systemui.tuner.TunerSwitch androidhwext:title="@string/volume_dnd_silent" androidhwext:key="sysui_volume_down_silent,sysui_volume_up_silent" androidhwext:preferenceID="@id/id_sysui_volume_silent" androidhwext:defValue="true" androidhwext:metricsAction="315" />
+    </PreferenceScreen>
+    <Preference androidhwext:title="@string/other" androidhwext:key="other" androidhwext:fragment="com.android.systemui.tuner.OtherPrefs" androidhwext:preferenceID="@id/id_other" />
+    <Preference androidhwext:selectable="false" androidhwext:summary="@string/tuner_persistent_warning" androidhwext:preferenceID="@id/id_warning" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/home_app_pref" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RadioButton android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/home_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="10.0dip" android:layout_marginEnd="4.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:minWidth="48.0dip" android:layout_marginEnd="@android:dimen/preference_item_padding_inner" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/home_divider" android:background="#ffd1d1d1" android:layout_width="1.0dip" android:layout_height="36.0dip" android:layout_centerVertical="true" />
+    <ImageView android:layout_gravity="center" android:id="@id/home_app_uninstall" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_delete_holo_dark" android:contentDescription="@string/home_app_uninstall_button" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+</LinearLayout>

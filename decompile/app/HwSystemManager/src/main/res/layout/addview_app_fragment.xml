@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/addview_app" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="13sp" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/addview_explain_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:lineSpacingMultiplier="1.2" android:layout_marginStart="18dp" android:layout_marginEnd="18dp" />
+        <View android:id="@+id/divider" style="@style/divider_line" />
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/main_switcher_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="@string/all" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_alignParentStart="true" />
+            <Switch android:id="@+id/main_switcher" android:layout_width="UNKNOWN_DATA_0x3601" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <View style="@style/divider_line" />
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/addview_app_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/no_addview_app_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/no_addview_app_icon" android:background="@drawable/ic_no_apps" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/empty_addview_app" android:layout_below="@+id/no_addview_app_icon" android:layout_centerHorizontal="true" android:layout_marginStart="28dp" android:layout_marginEnd="28dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/gallery_main_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <huawei.android.widget.SubTabWidget android:id="@id/subTab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_alignParentTop="true" />
+    <com.huawei.gallery.ui.GalleryViewPager android:id="@id/fragment_viewpage" android:background="@color/album_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/subTab_layout" android:layout_alignParentBottom="true" />
+    <include layout="@layout/layout_gallery_actionbar" />
+</RelativeLayout>

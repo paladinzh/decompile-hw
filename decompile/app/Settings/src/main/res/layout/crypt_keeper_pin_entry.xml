@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/crypt_keeper_password_top_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/crypt_keeper_status" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/crypt_keeper_pin_field_margin_top" android:layout_marginStart="@dimen/crypt_keeper_pin_field_margin_start" android:layout_marginEnd="8.0dip">
+        <include layout="@layout/crypt_keeper_pin_field" />
+    </LinearLayout>
+    <include layout="@layout/crypt_keeper_emergency_button" />
+</LinearLayout>

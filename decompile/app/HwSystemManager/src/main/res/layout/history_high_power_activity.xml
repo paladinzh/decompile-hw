@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" empty:orientation="vertical" empty:layout_width="match_parent" empty:layout_height="match_parent">
+    <ListView empty:id="@+id/history_high_power_app_list" empty:layout_width="match_parent" empty:layout_height="match_parent" />
+    <com.huawei.systemmanager.power.util.EmptyViewLinearLayout empty:orientation="vertical" empty:id="@+id/no_history_item_layout" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:empty_src="@drawable/ic_app_emptypage" empty:empty_text="@string/no_history_high_power_app_text" />
+</LinearLayout>

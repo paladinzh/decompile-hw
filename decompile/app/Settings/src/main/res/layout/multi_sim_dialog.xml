@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/type" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_name" android:paddingStart="@dimen/sim_content_padding" />
+            <EditText android:textColor="@android:color/black" android:id="@id/sim_name" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/sim_name_hint" android:singleLine="true" android:maxLength="@integer/sim_name_length" android:inputType="textNoSuggestions" android:paddingStart="@dimen/sim_content_padding" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/color_title" android:paddingStart="@dimen/sim_content_padding" />
+            <Spinner android:id="@id/spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/sim_content_padding" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_carrier" android:paddingStart="@dimen/sim_content_padding" />
+            <TextView android:textColor="@android:color/black" android:id="@id/carrier" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/sim_content_padding" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sim_dialog_margin_top" android:text="@string/sim_editor_number" android:paddingStart="@dimen/sim_content_padding" />
+            <TextView android:textColor="@android:color/black" android:id="@id/number" android:paddingBottom="@dimen/sim_dialog_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/sim_content_padding" style="?android:attr/textAppearanceMedium" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

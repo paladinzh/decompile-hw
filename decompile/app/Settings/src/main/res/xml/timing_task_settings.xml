@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/timing_task_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/timing_shutdown_title" android:key="timing_shutdown_category">
+        <SwitchPreference android:persistent="false" android:title="@string/timing_shutdown_title" android:key="timing_shutdown_switch" />
+        <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/shutdown_time_title" android:key="shutdown_time" android:summary="23:00" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="timing_shutdown_switch" />
+        <ListPreference android:persistent="false" android:entries="@array/List_alarmsetting_setrepeat" android:layout="@layout/preference_status" android:title="@string/alarm_repeat" android:key="shutdown_repeat" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="timing_shutdown_switch" android:entryValues="@array/entryvalues_timing_boot" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/timing_boot_title" android:key="timing_boot_category">
+        <SwitchPreference android:persistent="false" android:title="@string/timing_boot_title" android:key="timing_boot_switch" />
+        <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/boot_time_title" android:key="boot_time" android:summary="07:00" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="timing_boot_switch" />
+        <ListPreference android:persistent="false" android:entries="@array/List_alarmsetting_setrepeat" android:layout="@layout/preference_status" android:title="@string/alarm_repeat" android:key="boot_repeat" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="timing_boot_switch" android:entryValues="@array/entryvalues_timing_boot" />
+    </PreferenceCategory>
+</PreferenceScreen>

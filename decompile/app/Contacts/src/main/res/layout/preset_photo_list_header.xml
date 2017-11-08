@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/contact_section_background" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d026e">
+    <View android:id="@+id/header_extra_top_padding" android:layout_alignParentTop="true" style="@style/contact_horizontal_divider_style" />
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/preset_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d026e" android:maxLines="1" android:layout_below="@+id/header_extra_top_padding" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contact_left_margin" style="@style/contact_section_text_style" />
+    <View android:layout_below="@+id/preset_title" android:layout_alignParentBottom="true" style="@style/contact_horizontal_divider_style" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/eyecare_padding_bottom_top" android:paddingBottom="@dimen/eyecare_padding_bottom_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/eyecare_padding_right_left" android:paddingEnd="@dimen/eyecare_padding_right_left">
+        <TextView android:textSize="@dimen/eye_comfort_warm_size" android:textColor="@color/eye_comfort_warm_color" android:id="@id/lesswarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eyes_comfort_lesswarm" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/eye_comfort_warm_size" android:textColor="@color/eye_comfort_warm_color" android:id="@id/morewarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eyes_comfort_morewarm" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <SeekBar android:id="@id/warm_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/eye_comfort_warm_topmargin" android:max="100" />
+</LinearLayout>

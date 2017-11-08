@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<power_levels xmlns:android="http://schemas.android.com/apk/res/android" version="1">
+    <level name="power_level0" id="400">
+        <item name="go_performance">
+            <context value="0" />
+            <state value="350" />
+            <mode value="3" />
+        </item>
+        <item name="stationary_performance">
+            <context value="5" />
+            <state value="0" />
+            <mode value="3" />
+        </item>
+    </level>
+    <level name="power_level3" id="403">
+        <item name="go_normal">
+            <context value="0" />
+            <state value="350" />
+            <mode value="2" />
+        </item>
+        <item name="stationary_normal">
+            <context value="5" />
+            <state value="0" />
+            <mode value="2" />
+        </item>
+    </level>
+    <level name="power_level5" id="405">
+        <item name="go_super">
+            <context value="0" />
+            <state value="350" />
+            <mode value="1" />
+        </item>
+        <item name="stationary_super">
+            <context value="5" />
+            <state value="0" />
+            <mode value="1" />
+        </item>
+        <item name="walking normal">
+            <context value="2" />
+            <state value="0" />
+            <mode value="2" />
+        </item>
+        <item name="running normal">
+            <context value="4" />
+            <state value="0" />
+            <mode value="2" />
+        </item>
+    </level>
+    <level name="power_level6" id="406">
+        <item name="sleeping normal">
+            <context value="1" />
+            <state value="0" />
+            <mode value="2" />
+        </item>
+        <item name="running super">
+            <context value="4" />
+            <state value="0" />
+            <mode value="1" />
+        </item>
+        <item name="walking super">
+            <context value="2" />
+            <state value="0" />
+            <mode value="1" />
+        </item>
+    </level>
+    <level name="power_level7" id="407">
+        <item name="go_extreme">
+            <context value="0" />
+            <state value="350" />
+            <mode value="4" />
+        </item>
+        <item name="stationary_extreme">
+            <context value="5" />
+            <state value="0" />
+            <mode value="4" />
+        </item>
+        <item name="sleeping super">
+            <context value="1" />
+            <state value="0" />
+            <mode value="1" />
+        </item>
+    </level>
+</power_levels>

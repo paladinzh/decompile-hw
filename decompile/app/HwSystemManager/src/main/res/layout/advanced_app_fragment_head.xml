@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:layout_above="@+id/head_view" style="@style/divider_line" />
+    <RelativeLayout android:id="@+id/head_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="@string/all_select_checkbox_abridge" android:layout_centerVertical="true" android:paddingStart="16dp" android:layout_marginEnd="8dp" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+        <LinearLayout android:id="@+id/wrap" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <CheckBox android:id="@+id/background_head_checked" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" />
+                    <CheckBox android:id="@+id/background_head_unchecked" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="false" />
+                </FrameLayout>
+                <TextView android:textSize="9dp" android:textColor="@color/emui_list_primary_text" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/background_head_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_detail_background_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <CheckBox android:id="@+id/roaming_head_checked" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" />
+                    <CheckBox android:id="@+id/roaming_head_unchecked" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="false" />
+                </FrameLayout>
+                <TextView android:textSize="9dp" android:textColor="@color/emui_list_primary_text" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/roaming_head_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_detail_roaming_title" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x7f0a00f5" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:layout_below="@+id/head_view" style="@style/divider_line" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/FlashLight" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/lightOn" android:layout_width="UNKNOWN_DATA_0xf801" android:layout_height="UNKNOWN_DATA_0xf801" android:src="@drawable/flashlight_bg_on" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/lightOff" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xf801" android:layout_height="UNKNOWN_DATA_0xf801" android:src="@drawable/flashlight_bg_off" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/clickBtn" android:background="@drawable/flashlight_btn_bg" android:layout_width="UNKNOWN_DATA_0x5801" android:layout_height="UNKNOWN_DATA_0x5801" android:layout_centerInParent="true" />
+</RelativeLayout>

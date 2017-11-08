@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/account_container" android:background="@color/select_all_background" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:paddingStart="@dimen/account_container_left_padding" android:paddingEnd="28dp"
+    <LinearLayout android:orientation="vertical" android:id="@+id/account" android:background="?unknown_attr_ref: 101030e" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="end" android:id="@+id/account_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010212" android:ellipsize="end" android:id="@+id/account_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/noneditableaccountlayout" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" style="?unknown_attr_ref: 1010048">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@drawable/button_tab_textcolor" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/noneditableaccount_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="10dp" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/secondary_button_color" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/noneditableaccount_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="10dp" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/account_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+    </FrameLayout>
+</LinearLayout>

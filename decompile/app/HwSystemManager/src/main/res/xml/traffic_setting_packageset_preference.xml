@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <com.huawei.systemmanager.netassistant.ui.setting.subpreference.PackageLimitSetPreference androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference1" />
+    <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new1" />
+    <com.huawei.systemmanager.netassistant.ui.setting.subpreference.CitySetPreference androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference2" />
+    <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new2" />
+    <com.huawei.systemmanager.netassistant.ui.setting.subpreference.OperaterSetPreference androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference2" />
+    <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new3" />
+    <com.huawei.systemmanager.netassistant.ui.setting.subpreference.StartDayPreference androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference3" />
+    <PreferenceCategory androidhwext:title="@string/net_assistant_setting_more_package_set_title" androidhwext:key="more_flow_package">
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.ExtraTrafficPreference androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference4" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new4" />
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.RoamingTafficSetPreference />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new5" />
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.LeisureTrafficSetPrefer androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference5" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new6" />
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.NoTafficAppPrefer androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_preference5" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_traffic_setting_packageset_divider_line_new7" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+    <TextView android:textSize="13sp" android:textColor="#80000000" android:id="@id/tv_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="4dp" />
+    <CheckBox android:textSize="12sp" android:textColor="#80000000" android:id="@id/permission_remind" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:checked="false" android:text="@string/m_DO_NOT_REMIND" />
+</LinearLayout>

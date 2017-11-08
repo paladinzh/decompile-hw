@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/adblock_app_loading" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/adblock_loading_progress_layout" />
+    <TextView android:id="@+id/adblock_count_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_item_description_style" />
+    <View style="@style/divider_line" />
+    <include android:id="@+id/adblock_all_op_switch_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/common_list_item_singleline_switch" />
+    <View style="@style/divider_line" />
+    <ListView android:id="@+id/adblock_list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" android:footerDividersEnabled="false" />
+</LinearLayout>

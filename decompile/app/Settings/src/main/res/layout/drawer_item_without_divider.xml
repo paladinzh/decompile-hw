@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tile_item_last" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/dashboard_tile_image_size" android:layout_height="@dimen/dashboard_tile_image_size" android:scaleType="centerInside" android:layout_marginStart="@dimen/dashboard_tile_image_margin_start" android:layout_marginEnd="@dimen/dashboard_tile_image_margin_end" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

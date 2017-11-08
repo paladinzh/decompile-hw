@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.cover.widget.NewCoverDigitalClock xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/cover_music_clock_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="117dp">
+        <TextView android:textSize="50dp" android:textColor="#ffffffff" android:id="@r$id/cover_digital_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:layout_below="@r$id/cover_am_pm_textview" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-116dp" android:layout_above="@id/linearLayout">
+        <TextView android:textSize="15dp" android:id="@r$id/cover_am_pm_textview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/cover_am_pm_text_style" />
+    </RelativeLayout>
+    <TextView android:textSize="15dp" android:id="@r$id/cover_date_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@id/linearLayout" style="@style/cover_date_text_style" />
+</com.huawei.keyguard.cover.widget.NewCoverDigitalClock>

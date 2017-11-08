@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.contacts.hap.widget.HapViewPager android:id="@+id/tab_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" />
+    <ViewStub android:id="@+id/contacts_unavailable_view_stub" android:layout="@layout/contacts_unavailable_view_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</merge>

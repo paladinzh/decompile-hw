@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.mms.ui.HwFrameLayoutListItem xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <com.android.mms.ui.RecyclerSmsListItem android:id="@+id/mms_animation_list_item_view" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+            <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <TextView android:textSize="@dimen/mms_main_text_size" android:textColor="@color/mms_main_text_color" android:ellipsize="end" android:id="@+id/recycler_sms_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/mms_item_from_max_width" android:singleLine="true" android:layout_marginEnd="3dp" />
+                <TextView android:textSize="11sp" android:id="@+id/recycler_sms_date_leaving" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignTop="@+id/recycler_sms_from" android:layout_marginEnd="5dp" android:layout_alignParentEnd="true" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/recycler_sms_from" android:layout_alignParentStart="true">
+                    <ViewStub android:id="@+id/encrypt_mms_image_view_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginEnd="3dp" />
+                    <TextView android:textSize="@dimen/mms_sub_text_size" android:textColor="@color/mms_sub_text_color" android:ellipsize="end" android:id="@+id/recycler_sms_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/recycler_sms_from" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/conv_item_padding_end" android:layout_alignParentEnd="true">
+                <CheckBox android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/recycler_sms_select" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3dp" android:layout_marginEnd="8dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.android.mms.ui.RecyclerSmsListItem>
+    <View android:id="@+id/list_item_shadow" android:background="@drawable/hw_graphics_list_item_shadow" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0" />
+</com.huawei.mms.ui.HwFrameLayoutListItem>

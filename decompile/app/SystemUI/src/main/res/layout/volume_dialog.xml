@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/volume_dialog" android:background="@drawable/volume_popup" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:translationZ="4dp">
+    <LinearLayout android:orientation="vertical" android:id="@id/volume_dialog_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/volume_zen_footer" />
+        <include layout="@layout/volume_silent_footer" />
+        <include layout="@layout/tuner_zen_mode_panel" />
+    </LinearLayout>
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:layout_below="@id/volume_dialog_content" />
+    <ImageView android:id="@id/volume_expand_button" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0e0268" android:layout_height="UNKNOWN_DATA_0x7f0e0268" android:layout_marginTop="@dimen/volume_row_spacing" android:layout_alignTop="@id/volume_dialog_content" android:soundEffectsEnabled="false" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

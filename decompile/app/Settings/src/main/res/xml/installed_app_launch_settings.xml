@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_info_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/app_launch_domain_links_title" android:key="app_launch_domain_links">
+        <com.android.settings.applications.AppDomainsPreference android:title="@string/app_launch_supported_domain_urls_title" android:key="app_launch_supported_domain_urls" android:dependency="app_link_state" />
+        <ListPreference android:layout="@layout/preference_status" android:title="@string/app_launch_open_domain_urls_title_emui" android:key="app_link_state" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/app_launch_other_defaults_title" android:key="app_launch_other_defaults">
+        <com.android.settings.applications.ClearDefaultsPreference android:key="app_launch_clear_defaults" />
+    </PreferenceCategory>
+</PreferenceScreen>

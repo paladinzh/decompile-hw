@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 101004d">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/select_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="86dp" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/pref_view_select_item_margin" android:layout_alignParentEnd="true">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="120dp" android:maxLines="2" />
+        <ImageView android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow_right" android:contentDescription="0x0" android:layout_marginStart="4dp" android:layout_marginEnd="16dp" />
+    </LinearLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/setting_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/pref_view_setting_info_margin" android:layout_marginEnd="28dp" android:layout_toStartOf="@id/select_item" android:layout_alignParentStart="true">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="end" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tips_gallery_roatesettings" android:layout_below="0x1020016" />
+    </RelativeLayout>
+</RelativeLayout>

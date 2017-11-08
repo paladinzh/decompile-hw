@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_plus_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="false" android:title="@string/wifi_plus_title" android:key="smart_network_switching" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/help_label" android:key="description_category">
+        <Preference android:icon="@drawable/ic_wifi_plus_smart_switch" android:persistent="false" android:layout="@layout/preference_wifi_plus_description" android:title="@string/wifi_plus_smart_switch_title" android:key="wifi_plus_smart_switch" android:summary="@string/wifi_plus_smart_switch_summary" />
+        <Preference android:icon="@drawable/ic_wifi_plus_auto_turn" android:persistent="false" android:layout="@layout/preference_wifi_plus_description" android:title="@string/wifi_plus_auto_turn_title" android:key="wifi_plus_auto_turn" android:summary="@string/wifi_plus_auto_turn_summary" />
+        <Preference android:icon="@drawable/ic_wifi_plus_quality_evaluation" android:persistent="false" android:layout="@layout/preference_wifi_plus_description" android:title="@string/wifi_plus_quality_evaluation_title" android:key="wifi_plus_quality_evaluation" android:summary="@string/wifi_plus_quality_evaluation_summary" />
+        <Preference android:icon="@drawable/ic_wifi_plus_fast_connect" android:persistent="false" android:layout="@layout/preference_wifi_plus_description" android:title="@string/wifi_plus_fast_connect_title" android:key="wifi_plus_fast_connect" android:summary="@string/wifi_plus_fast_connect_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vibration_type" android:key="vibrate_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:enabled="true" android:layout="@layout/preference_status" android:title="@string/incoming_calls_vibrate" android:key="incoming_calls_vibrate" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:enabled="true" android:layout="@layout/preference_status" android:title="@string/message_vibrate" android:key="message_vibrate" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:enabled="true" android:layout="@layout/preference_status" android:title="@string/email_vibrate" android:key="email_vibrate" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:enabled="true" android:layout="@layout/preference_status" android:title="@string/alarm_vibrate" android:key="alarm_vibrate" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:enabled="true" android:layout="@layout/preference_status" android:title="@string/calendar_vibrate" android:key="calendar_vibrate" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

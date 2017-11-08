@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/normal_l_ui_sector" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/normal_ui_sector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="9.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/launcher_mode_title_margin_start">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/normal_ui_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/normal_home_title" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:gravity="start" android:id="@id/normal_ui_summary" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/standard_summary" android:maxLines="1" style="@style/EmuiSecondaryTextFontStyle" />
+            </LinearLayout>
+            <RadioButton android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/normal_ui_checkbox" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="9.0dip" android:singleLine="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/normal_ui_img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_style_standard_1" android:adjustViewBounds="true" />
+            <View android:visibility="invisible" android:layout_width="14.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/normal_ui_img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_style_standard_2" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/tile_divider" android:background="@color/preference_divider_grey" android:layout_width="@dimen/preference_divider_height" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/Drawer_l_ui_sector" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/Drawer_ui_sector" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="9.0dip" android:layout_weight="1.0" android:layout_marginStart="@dimen/launcher_mode_title_margin_start">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/drawer_ui_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/drawer_home_title" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:gravity="start" android:id="@id/drawer_ui_summary" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/drawer_summary" android:maxLines="1" style="@style/EmuiSecondaryTextFontStyle" />
+            </LinearLayout>
+            <RadioButton android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/drawer_ui_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="9.0dip" android:singleLine="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/Drawer_ui_img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_style_drawer_1" android:adjustViewBounds="true" />
+            <View android:visibility="invisible" android:layout_width="14.0dip" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/Drawer_ui_img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_style_drawer_2" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

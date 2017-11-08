@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>test</item>
+        <item>Skanner ...</item>
+        <item>Kobler til …</item>
+        <item>Autentiserer ...</item>
+        <item>Henter IP-adresse …</item>
+        <item>Tilkoblet</item>
+        <item>Stoppet</item>
+        <item>Kobler fra ...</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlige forbindelser midlertidig</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>test</item>
+        <item>Skanner ...</item>
+        <item>Kobler til %1$s …</item>
+        <item>Autentiserer med %1$s …</item>
+        <item>Henter IP-adresse fra %1$s …</item>
+        <item>Koblet til %1$s</item>
+        <item>Stoppet</item>
+        <item>Kobler fra %1$s …</item>
+        <item>Frakoblet</item>
+        <item>Mislyktes</item>
+        <item>Blokkert</item>
+        <item>Unngår dårlige forbindelser midlertidig</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Kontroller aldri</item>
+        <item>Se kun etter DRM-innhold</item>
+        <item>Kontroller alltid</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Bruk aldri HDCP-kontroll</item>
+        <item>Bruk HDCP-kontroll kun for DRM-innhold</item>
+        <item>Bruk alltid HDCP-kontroll</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB per loggbuffer</item>
+        <item>256 KB per loggbuffer</item>
+        <item>1 MB per loggbuffer</item>
+        <item>4 MB per loggbuffer</item>
+        <item>16 MB per loggbuffer</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animasjon deaktivert</item>
+        <item>Animasjonsskala 0,5 x</item>
+        <item>Animasjonsskala 1 x</item>
+        <item>Animasjonsskala 1,5 x</item>
+        <item>Animasjonsskala 2 x</item>
+        <item>Animasjonsskala 5 x</item>
+        <item>Animasjonsskala 10 x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Ingen</item>
+        <item>480p</item>
+        <item>480p (sikker)</item>
+        <item>720p</item>
+        <item>720p (sikker)</item>
+        <item>1080p</item>
+        <item>1080p (sikker)</item>
+        <item>4K</item>
+        <item>4K (sikker)</item>
+        <item>4K (oppskalert)</item>
+        <item>4K (oppskalert, sikker)</item>
+        <item>720p, 1080p (dobbel skjerm)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Ingen</item>
+        <item>Logcat</item>
+        <item>Systrace (grafikk)</item>
+        <item>Ring stabel på glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Av</item>
+        <item>Tegn ikke-rektangulært utklippsområde i blått</item>
+        <item>Uthev testede tegnekommandoer i grønt</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Av</item>
+        <item>På skjermen som streker</item>
+        <item>På skjermen som linjer</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Av</item>
+        <item>Vis overtegningsområder</item>
+        <item>Vis områder for fargeblindhet</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standard grense</item>
+        <item>Ingen bakgrunnsprosesser</item>
+        <item>Maksimalt én prosess</item>
+        <item>Maksimalt to prosesser</item>
+        <item>Maksimalt tre prosesser</item>
+        <item>Maksimalt fire prosesser</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Bare lading</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Lydkilde</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Svært langsom</item>
+        <item>Langsom</item>
+        <item>Normal</item>
+        <item>Rask</item>
+        <item>Raskere</item>
+        <item>Veldig rask</item>
+        <item>Rask</item>
+        <item>Veldig rask</item>
+        <item>Raskest</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Krystallklar (standard)</item>
+        <item>Naturlig</item>
+        <item>Standard</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Forbedrede farger</item>
+        <item>Naturlige farger – som øyet ser dem</item>
+        <item>Farger som er optimalisert for digitalt innhold</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Asia</item>
+        <item>Australia</item>
+        <item>Stillehavet</item>
+        <item>Alle</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Aldri</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Umiddelbart</item>
+        <item>5 sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Ekstra stor</item>
+        <item>Kjempestor</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Svært lav</item>
+        <item>Lav</item>
+        <item>Normal</item>
+        <item>Høy</item>
+        <item>Svært høy</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Åpne</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>Passord</item>
+        <item>SIM-kort</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>Passord</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Trykk på knappen</item>
+        <item>Personlig kode fra motpart</item>
+        <item>Kode fra enheten</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Tilkoblet</item>
+        <item>Kobler til…</item>
+        <item>Koble til denne enheten</item>
+        <item>Tilgjengelig</item>
+        <item>Utenfor rekkevidde</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>To minutter</item>
+        <item>Fem minutter</item>
+        <item>Én time</item>
+        <item>Aldri tidsavbrudd</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Dårlig</item>
+        <item>Middels</item>
+        <item>Bra</item>
+        <item>Utmerket</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Alltid</item>
+        <item>Bare når tilkoblet strøm</item>
+        <item>Aldri (økt databruk)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Alltid</item>
+        <item>Bare når tilkoblet strøm</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>De siste 30 dagene</item>
+        <item>Angi brukssyklus</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatisk</item>
+        <item>Kun 5 GHz</item>
+        <item>Kun 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Brukstid</item>
+        <item>Start telling</item>
+        <item>Navn på app</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>Passord</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ingen</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Av</item>
+        <item>Knapp for automatisk konfigurasjon</item>
+        <item>Pers. kode fra tilg.punkt</item>
+        <item>Pers. kode fra enheten</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statisk</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ingen</item>
+        <item>Manuelt</item>
+        <item>Automatisk</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Av</item>
+        <item>Varsel</item>
+        <item>Vibrering</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ingen</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP eller CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Uspesifisert</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Ingen</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Intern lagringsenhet</item>
+        <item>Flyttbart minnekort</item>
+        <item>La systemet bestemme</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Posisjon</item>
+        <item>Personlig</item>
+        <item>Meldinger</item>
+        <item>Medier</item>
+        <item>Enhet</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>omtrentlig posisjon</item>
+        <item>nøyaktig posisjon</item>
+        <item>GPS</item>
+        <item>vibrer</item>
+        <item>lese kontakter</item>
+        <item>endre kontakter</item>
+        <item>lar appen lese anropsloggen</item>
+        <item>endre anropslogg</item>
+        <item>lese kalender</item>
+        <item>endre kalender</item>
+        <item>wi-fi-skanning</item>
+        <item>varsel</item>
+        <item>celleskanning</item>
+        <item>ringe telefon</item>
+        <item>lese SMS</item>
+        <item>skrive SMS</item>
+        <item>motta SMS</item>
+        <item>motta nøds-SMS</item>
+        <item>motta MMS</item>
+        <item>motta WAP-push</item>
+        <item>sende SMS</item>
+        <item>lese ICC SMS</item>
+        <item>skrive ICC SMS</item>
+        <item>endre innstillinger</item>
+        <item>tegn over</item>
+        <item>tilgangsvarsler</item>
+        <item>kamera</item>
+        <item>ta opp lyd</item>
+        <item>spille av lyd</item>
+        <item>lese utklippstavle</item>
+        <item>endre utklippstavle</item>
+        <item>medieknapper</item>
+        <item>lydfokus</item>
+        <item>hovedvolum</item>
+        <item>stemmevolum</item>
+        <item>ringevolum</item>
+        <item>medievolum</item>
+        <item>alarmvolum</item>
+        <item>varslingsvolum</item>
+        <item>Bluetooth-volum</item>
+        <item>behold aktiv</item>
+        <item>overvåke posisjon</item>
+        <item>overvåk posisjonstjenester med høyt strømforbruk</item>
+        <item>få bruksstatistikk</item>
+        <item>slå mikrofonen av eller på</item>
+        <item>projiser media</item>
+        <item>aktivér VPN</item>
+        <item>angi bakgrunn</item>
+        <item>assistansestruktur</item>
+        <item>assistanseskjermdump</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Sted</item>
+        <item>Sted</item>
+        <item>Sted</item>
+        <item>Vibrer</item>
+        <item>Lese kontakter</item>
+        <item>Endre kontakter</item>
+        <item>lar appen lese anropsloggen</item>
+        <item>Endre anropslogg</item>
+        <item>Lese kalender</item>
+        <item>Endre kalender</item>
+        <item>Sted</item>
+        <item>Legg ut varsel</item>
+        <item>Sted</item>
+        <item>Ringe telefon</item>
+        <item>Lese SMS/MMS</item>
+        <item>Skrive SMS/MMS</item>
+        <item>Motta SMS/MMS</item>
+        <item>Motta SMS/MMS</item>
+        <item>Motta SMS/MMS</item>
+        <item>Motta SMS/MMS</item>
+        <item>Sende SMS/MMS</item>
+        <item>Lese SMS/MMS</item>
+        <item>Skrive SMS/MMS</item>
+        <item>Endre innstillinger</item>
+        <item>Tegn over</item>
+        <item>Tilgangsvarsler</item>
+        <item>Kamera</item>
+        <item>Ta opp lyd</item>
+        <item>Spille av lyd</item>
+        <item>Lese utklippstavle</item>
+        <item>Endre utklippstavle</item>
+        <item>Medieknapper</item>
+        <item>Lydfokus</item>
+        <item>Hovedvolum</item>
+        <item>Stemmevolum</item>
+        <item>Ringevolum</item>
+        <item>Medievolum</item>
+        <item>Alarmvolum</item>
+        <item>Varslingsvolum</item>
+        <item>Bluetooth-volum</item>
+        <item>Behold aktiv</item>
+        <item>Sted</item>
+        <item>Sted</item>
+        <item>Få bruksstatistikk</item>
+        <item>Slå på/av lyden på mikrofonen</item>
+        <item>Projiser media</item>
+        <item>Aktivér VPN</item>
+        <item>Angi bakgrunn</item>
+        <item>Assistansestruktur</item>
+        <item>Assistanseskjermdump</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kort</item>
+        <item>Middels</item>
+        <item>Lang</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Standard</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif fortettet</item>
+        <item>Serif</item>
+        <item>Serif</item>
+        <item>Uformell</item>
+        <item>Uformell</item>
+        <item>Kursiv</item>
+        <item>Små stor bokstaver</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Veldig liten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Veldig stor</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Std.</item>
+        <item>Ingen</item>
+        <item>Omriss</item>
+        <item>Skygge</item>
+        <item>Relieff</item>
+        <item>Preget</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Bruk standardinnstillingene i appen</item>
+        <item>Hvitt på svart</item>
+        <item>Svart på hvitt</item>
+        <item>Gult på svart</item>
+        <item>Gult på blått</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN med forhåndsdelte nøkler</item>
+        <item>L2TP/IPSec VPN med sertifikater</item>
+        <item>IPSec VPN med forhåndsdelte nøkler og Xauth-autentisering</item>
+        <item>IPSec VPN med sertifikater og Xauth-autentisering</item>
+        <item>IPSec VPN med sertifikater og hybridautentisering</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Frakoblet</item>
+        <item>Initialiserer …</item>
+        <item>Kobler til …</item>
+        <item>Tilkoblet</item>
+        <item>Tidsavbrudd</item>
+        <item>Mislyktes</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>WAPI PSK heksadesimal</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>Av</item>
+        <item>Musikk</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>1 bruker</item>
+        <item>2 brukere</item>
+        <item>3 brukere</item>
+        <item>4 brukere</item>
+        <item>5 brukere</item>
+        <item>6 brukere</item>
+        <item>7 brukere</item>
+        <item>8 brukere</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>AB 1</item>
+        <item>AB 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Spør</item>
+        <item>Aldri tillat</item>
+        <item>Alltid tillat</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>Normal</item>
+        <item>moderat</item>
+        <item>Lav</item>
+        <item>kritisk</item>
+        <item>Ukjent</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normal</item>
+        <item>Moderat</item>
+        <item>Lav</item>
+        <item>Kritisk</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Vedvarende</item>
+        <item>Høyeste aktivitet</item>
+        <item>Viktig (i forgrunnen)</item>
+        <item>Viktig (i bakgrunnen)</item>
+        <item>Sikkerhetskopiering</item>
+        <item>Tungvekt</item>
+        <item>Tjeneste (kjører)</item>
+        <item>Tjeneste (starter på nytt)</item>
+        <item>Mottaker</item>
+        <item>Startside</item>
+        <item>Siste aktivitet</item>
+        <item>Bufret (aktivitet)</item>
+        <item>Bufret (aktivitetsklient)</item>
+        <item>Bufret (tom)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Blågrønn</item>
+        <item>Blå</item>
+        <item>Indigo</item>
+        <item>Lilla</item>
+        <item>Rosa</item>
+        <item>Rød</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>Automatisk</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Koble til automatisk</item>
+        <item>Koble til manuelt</item>
+        <item>Spør alltid</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 minutter</item>
+        <item>15 minutter</item>
+        <item>30 minutter</item>
+        <item>Én time</item>
+        <item>Alltid</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Starter</item>
+        <item>Samtale</item>
+        <item>Meldinger</item>
+        <item>Kamera</item>
+        <item>Galleri</item>
+        <item>Musikk</item>
+        <item>E-post</item>
+        <item>Nettleser</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>Liten</item>
+        <item>Middels</item>
+        <item>Stor</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>Ved batteriikonet</item>
+        <item>I batteriikonet</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>Ikke vis</item>
+        <item>Ved siden av ikonet</item>
+        <item>I ikonet</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>Bare én gang</item>
+        <item>Mandag til fredag</item>
+        <item>Arbeidsdager (ikke helligdager)</item>
+        <item>Hver dag</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>Mandag</item>
+        <item>Tirsdag</item>
+        <item>Onsdag</item>
+        <item>Torsdag</item>
+        <item>Fredag</item>
+        <item>Lørdag</item>
+        <item>Søndag</item>
+    </string-array>
+    <string-array name="agps_location_method_key">
+        <item>Autonom</item>
+        <item>Basert på mobilstasjon</item>
+        <item>Assistert av mobilstasjon</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>Aktiver for lokale nettverk</item>
+        <item>Aktiver for lokale og roamingnettverk</item>
+    </string-array>
+    <string-array name="gps_start_method_key">
+        <item>Varmt</item>
+        <item>Varm</item>
+        <item>Kaldt</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>Google</item>
+        <item>Kina Mobil</item>
+        <item>Andre</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>Mandag til fredag</item>
+        <item>Lørdag og søndag</item>
+        <item>Hver dag</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>Alle nettverk (øker databruk)</item>
+        <item>Bare via Wi-Fi</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>Alle nettverk</item>
+        <item>Bare via Wi-Fi</item>
+        <item>Aldri</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>Ikoner</item>
+        <item>Antall</item>
+        <item>Ingen</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>Standard</item>
+        <item>Hvitt på svart</item>
+        <item>Svart på hvitt</item>
+        <item>Gult på svart</item>
+        <item>Gult på blått</item>
+        <item>Egendefinert</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Wi-Fi foretrukket</item>
+        <item>Mobil er foretrukket</item>
+        <item>Bare Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>Wi-Fi er foretrukket</item>
+        <item>Mobilnett er foretrukket</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>Ringetone</item>
+        <item>Lokal musikk</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>Wi-Fi foretrekkes</item>
+        <item>Mobildata foretrekkes</item>
+        <item>Bare Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>Wi-Fi foretrekkes</item>
+        <item>Mobildata foretrekkes</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>Wi-Fi foretrekkes</item>
+        <item>Mobilnettverk foretrukket</item>
+        <item>4G-nettverk foretrukket</item>
+        <item>Bare Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>Wi-Fi foretrekkes</item>
+        <item>Mobilnettverk foretrukket</item>
+        <item>4G-nettverk foretrukket</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>Wi-Fi foretrekkes</item>
+        <item>4G-nettverk foretrukket</item>
+        <item>Bare Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>Wi-Fi foretrekkes</item>
+        <item>4G-nettverk foretrukket</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>Ti sekunder</item>
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>1 minutt</item>
+        <item>2 minutter</item>
+        <item>5 minutter</item>
+        <item>10 minutter</item>
+        <item>30 minutter</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>5 min. inaktivitet</item>
+        <item>10 minutters inaktivitet</item>
+        <item>Alltid på</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>Etter 5 minutter</item>
+        <item>Etter 10 minutter</item>
+        <item>Alltid på</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>PPTP VPN</item>
+        <item>L2TP</item>
+        <item>L2TP/IPSec VPN med forhåndsdelte nøkler</item>
+        <item>L2TP/IPSec VPN med sertifikater</item>
+        <item>IPSec VPN med forhåndsdelte nøkler og Xauth-autentisering</item>
+        <item>IPSec VPN med sertifikater og Xauth-autentisering</item>
+        <item>IPSec VPN med sertifikater og hybridautentisering</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 sekunder</item>
+        <item>30 sekunder</item>
+        <item>60 sekunder</item>
+        <item>90 sekunder</item>
+        <item>120 sekunder</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>Type 1</item>
+        <item>Type 2</item>
+        <item>Type 3</item>
+        <item>Type 4</item>
+        <item>Type 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>Beijing-tid</item>
+        <item>Lokal tid</item>
+    </string-array>
+    <string-array name="display_mode_entries_special">
+        <item>Kompakt</item>
+        <item>Liten</item>
+        <item>Standard</item>
+        <item>Zoom</item>
+    </string-array>
+</resources>

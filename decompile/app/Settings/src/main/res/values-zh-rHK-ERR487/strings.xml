@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">已通過 WLAN 助手連線</string>
+    <string name="accessibility_wifi_off">WLAN 已關閉。</string>
+    <string name="accessibility_no_wifi">WLAN 已中斷連接。</string>
+    <string name="accessibility_wifi_one_bar">WLAN 訊號一格。</string>
+    <string name="accessibility_wifi_two_bars">WLAN 訊號兩格。</string>
+    <string name="accessibility_wifi_three_bars">WLAN 訊號三格。</string>
+    <string name="accessibility_wifi_signal_full">WLAN 訊號格已滿。</string>
+    <string name="wifi_verbose_logging">啟用 WLAN 詳細資訊記錄</string>
+    <string name="wifi_aggressive_handover">主動式 WLAN 至流動網絡轉換</string>
+    <string name="wifi_allow_scan_with_traffic">永遠允許 WLAN 漫遊掃描</string>
+    <string name="wifi_verbose_logging_summary">提升 WLAN 記錄級別并在 WLAN 選擇器中顯示每個 SSID RSSI</string>
+    <string name="wifi_aggressive_handover_summary">當啟用時，WLAN 將在信號欠佳時更主動地轉換數據連接至流動網絡</string>
+    <string name="wifi_allow_scan_with_traffic_summary">基於介面上顯示的資料流量總計允許/限制 WLAN 漫遊掃描</string>
+    <string name="mobile_data_always_on_summary">永遠保持流動數據開啟，即使 WLAN 開啟（以供快速網絡切換）</string>
+    <string name="radio_controls_summary">管理 WLAN、藍牙、飛行模式、行動網絡和 VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">開啟 WLAN</string>
+    <string name="wifi_settings">WLAN 設定</string>
+    <string name="wifi_settings_category">WLAN 設定</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">選取 WLAN</string>
+    <string name="wifi_select_network">選擇 WLAN 網絡</string>
+    <string name="wifi_starting">開啟 WLAN 中...</string>
+    <string name="wifi_stopping">關閉中...</string>
+    <string name="wifi_poor_network_detection_summary">避免連線不佳時連線至 WLAN</string>
+    <string name="wifi_automatically_connect_title">自動使用開放的 WLAN</string>
+    <string name="wifi_automatically_connect_summary">讓 WLAN 助手自動連線至開放，而且有優質互聯網連接的網絡</string>
+    <string name="wifi_scan_notify_text">若要改善定位準確性，系統應用程序和服務仍然可以掃描 WLAN 網絡。您可以於LINK_BEGIN掃描設定LINK_END中更改。</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN 休眠設定</string>
+    <string name="wifi_suspend_optimizations">WLAN 最佳化</string>
+    <string name="wifi_suspend_optimizations_summary">當 WLAN 開啟後請盡量減低電池使用量</string>
+    <string name="wifi_add_network">新增 WLAN 網路</string>
+    <string name="wifi_access_points">WLAN 網絡</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">檢視可用網絡，請開啟WLAN。</string>
+    <string name="wifi_empty_list_wifi_on">正在搜尋 WLAN 網絡…</string>
+    <string name="wifi_empty_list_user_restricted">您沒有更改 WLAN 網絡的權限。</string>
+    <string name="wifi_wps_onstart_pbc">按下路由器上的 WLAN 保護設定按鈕。該按鈕可稱為 「WPS」或包含這個符號：</string>
+    <string name="wifi_wps_onstart_pin">請在 WLAN 路由器上輸入 PIN 碼%1$s。 設定需時最多兩分鐘才會完成。</string>
+    <string name="wifi_wps_connected">已連線至 WLAN 網絡 %s</string>
+    <string name="wifi_scan_always_turnon_message">"為了改善定位精度和出於其他目的，即使 WLAN 關閉時，%1$s 仍會開啟網絡掃描。
+
+允許所有要掃描的應用程式進行此操作？"</string>
+    <string name="wifi_skipped_message">"警告：您可能要額外繳付營運商數據費用。
+
+手機設定可能需要顯著網絡活動。"</string>
+    <string name="wifi_and_mobile_skipped_message">警告：手機無法確認您的軟體版本是否最新。</string>
+    <string name="wifi_connect_failed_message">手機無法連接至此 WLAN 網絡。</string>
+    <string name="wifi_advanced_titlebar">進階 WLAN 設定</string>
+    <string name="wifi_configure_titlebar">設定 WLAN</string>
+    <string name="wifi_advanced_not_available">這位使用者無法查看或變更 WLAN 進階設定</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">可攜式 WLAN 無線基地台</string>
+    <string name="wifi_tether_failed_subtext">可攜式 WLAN 無線基地台發生錯誤</string>
+    <string name="wifi_tether_configure_ap_text">設定 WLAN 無線基地台</string>
+    <string name="wifi_tether_configure_subtext">%1$s%2$s 可攜式 WLAN 無線基地台</string>
+    <string name="wifi_calling_settings_title">WLAN 通話設定</string>
+    <string name="wifi_calling_suggestion_title">開啟「WLAN 通話」功能</string>
+    <string name="wifi_calling_suggestion_summary">使用 WLAN 而不是流動網絡</string>
+    <string name="wifi_calling_mode_title">WLAN 通話</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN 通話模式</string>
+    <string name="wifi_calling_off_explanation">當開啟 WLAN 通話時，您的手機可根據偏好設定及訊號強弱，選擇使用 WLAN 網絡或流動網絡供應商的網絡安排來電轉接。開啟此功能前，請向您的流動網絡供應商查詢收費及其他詳情。</string>
+    <string name="status_wifi_mac_address">WLAN MAC 位址</string>
+    <string name="reset_network_desc">"這將重設所有網絡設定，包括：
+
+"<li>WLAN</li>"
+"<li>流動網絡數據</li>"
+"<li>藍牙</li></string>
+    <string name="network_scorer_change_active_dialog_title">變更 WLAN Assistant？</string>
+    <string name="location_mode_high_accuracy_description">使用 GPS、WLAN 和流動網絡來估計位置</string>
+    <string name="location_mode_battery_saving_description">使用 WLAN 和流動網絡來估計位置</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN 掃瞄</string>
+    <string name="location_scanning_wifi_always_scanning_description">允許系統應用程序及服務在任何時間偵測 WLAN 網絡以改善定位</string>
+    <string name="location_network_based">WLAN 和 手機網絡位置</string>
+    <string name="location_neighborhood_level">允許應用程式根據 WLAN 和/或手機網絡判定位置</string>
+    <string name="location_neighborhood_level_wifi">由 WLAN 決定位置</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">開啟 WLAN 的時間</string>
+    <string name="bluetooth_on_time">開啟 WLAN 的時間</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN 執行中</string>
+    <string name="usage_type_data_wifi_send">數據已透過 WLAN 傳送</string>
+    <string name="usage_type_data_wifi_recv">數據已透過 WLAN 接收</string>
+    <string name="battery_action_wifi">WLAN 設定</string>
+    <string name="battery_desc_wifi">WLAN 耗電量</string>
+    <string name="battery_sugg_wifi">未使用或無法使用 WLAN 時即關閉 WLAN</string>
+    <string name="gadget_toggle_wifi">正在更新 WLAN 設定</string>
+    <string name="gadget_state_template">%1$s %2$s</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">將應用程式資料、WLAN 密碼，以及其他設定備份到 Google 伺服器</string>
+    <string name="backup_erase_dialog_message">您確定要停止備份您的 WLAN 密碼、書籤及他設定，以及應用程式資料，並清除 Google 伺服器上的所有相關資料嗎？</string>
+    <string name="fullbackup_erase_dialog_message">停止備份裝置數據（例如 WLAN 密碼和通話記錄）及應用程序資料（例如設定和應用程序儲存的檔案），並清除 Google 雲端硬碟上的所有副本？</string>
+    <string name="fullbackup_data_summary">"自動遙距備份裝置資料 (例如 WLAN 密碼和通話記錄) 和應用程式資料 (例如由應用程式儲存的設定和檔案)。
+
+啟用自動備份功能後，裝置和應用程式資料會定時以遙距方式儲存。應用程式資料可以是由應用程式儲存的任何資料 (視乎開發設定而定)，包括可能視為敏感的資料，如通訊錄、訊息及相片。"</string>
+    <string name="wifi_setup_title">WLAN 設定</string>
+    <string name="wifi_setup_title_editing_network">連接至 WLAN 網絡%s</string>
+    <string name="wifi_setup_title_connecting_network">正在連接至 WLAN 網絡%s…</string>
+    <string name="wifi_setup_add_network">新增 WLAN 網路</string>
+    <string name="wifi_setup_eap_not_supported">您無法在安裝時設定 EAP WLAN 接線。完成安裝後，您可以於 [設定] > [無線及網絡] 中進行該操作。</string>
+    <string name="wifi_setup_description_connected">輕按<b>[下一步]</b>"繼續安裝。
+
+輕按"<b>[返回]</b>連接至另一個 WLAN 網絡。</string>
+    <string name="data_usage_menu_show_wifi">顯示 WLAN 用量</string>
+    <string name="data_usage_menu_hide_wifi">隱藏 WLAN</string>
+    <string name="data_usage_disable_wifi_limit">設定 WLAN 數據限制</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">只停用流動數據網絡的背景資料。如 WLAN 可用便可以連接 WLAN。</string>
+    <string name="data_usage_app_restrict_dialog">"如果 WLAN 不可用，這項功能可能導致依靠背景資料的應用程式停止運作。
+
+您可能要在應用程式提供的設定中尋找更多合適的資料用量控制。"</string>
+    <string name="data_usage_restrict_background">如您限制背景流動數據，您必須連線至 WLAN 網絡才能使用特定的應用程式與服務。</string>
+    <string name="data_usage_restrict_background_multiuser">"如您限制背景流動數據，除非您已連接至 WLAN 網絡，否則某些應用程式及服務則無法運作。
+
+此設定會影響這部手機的所有使用者。"</string>
+    <string name="data_usage_metered_body">選取是流動熱點的 WLAN 網絡。背景應用程式在使用這類網絡時可能會受到限制。透過這些網絡下載大量資料時，應用程式可能會提出警告。</string>
+    <string name="data_usage_metered_wifi">WLAN 網絡</string>
+    <string name="data_usage_metered_wifi_disabled">如要選擇流動熱點，請開啟 WLAN。</string>
+    <string name="user_add_user_message_long">"您可與其他人分享此裝置，只需建立額外使用者。每位使用者均有自己的空間，可讓他們自訂自己的應用程式，牆紙等等。使用者也可以調整針對所有人的平板電腦設定，例如 WLAN。
+
+您建立新的使用者後，該使用者需要完成設定程序。
+
+任何使用者可代表所有其他使用者接受已更新的應用程式權限。"</string>
+    <string name="restriction_wifi_config_title">WLAN 和流動數據</string>
+    <string name="restriction_wifi_config_summary">允許修改 WLAN 和流動網絡設定</string>
+    <string name="keywords_wifi">WLAN 網絡連線</string>
+    <string name="keywords_wifi_calling">WLAN WLAN 通話 通話中</string>
+    <string name="setup_wifi_nfc_tag">設定 WLAN NFC 標籤</string>
+    <string name="condition_hotspot_summary">便攜式 WLAN 熱點%1$s已開啟，此裝置的 WLAN 已關閉。</string>
+    <string name="condition_airplane_summary">已關閉 WLAN、藍牙和流動網絡。您將無法撥打電話或連線至互聯網。</string>
+    <string name="condition_cellular_summary">您必須使用 WLAN 才能連線至互聯網</string>
+    <string name="condition_bg_data_summary">您必須連接 WLAN 才能使用背景數據。在沒有 WLAN 的情況下，使用背景數據可能會影響部分應用程式或服務。</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN 橋接</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN 橋接設定</string>
+    <string name="wifi_tether_configure_bridge_text">設定 WLAN 橋接</string>
+    <string name="wifi_bridge_settings_summary">設定橋接名稱、密碼和更多設定</string>
+    <string name="wifi_bridge_use_help_title">說明</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN 橋接可以大幅改善傳輸覆蓋和 WLAN 訊號強度。其他裝置可以通過您的裝置連線至當前的 WLAN 網絡。
+2. WLAN 橋接最多支援 4 個裝置連線。
+3. WLAN 橋接不支援與 WLAN 熱點和 WLAN Direct 功能同時使用。啟用 WLAN 橋接後，某些使用 P2P 服務的應用程序可能無法正常運作。
+4. 使用 WLAN 橋接可能加快電池量消耗速度。"</string>
+    <string name="wifi_bridge_switch_nowifi_summary">需要 WLAN 連接</string>
+    <string name="wifi_bridge_switch_wifi_summary">分享已連線的 WLAN 網絡</string>
+    <string name="wifi_setup_title_connected_network_Toast">連接至 WLAN 網絡%s</string>
+    <string name="huawei_beam_explained">華為 Beam 讓您從您的裝置和其他兼容 NFC 的裝置之間傳輸檔案，如圖片、影片、聯絡人和 URL。將兩部裝置緊靠放置在一起（通常背靠背）然後輕觸屏幕啟動華為 Beam。請注意藍牙或 WLAN 可能在傳輸檔案前自動啟用。</string>
+    <string name="wifi_display_settings_summary">透過 WLAN 連線在另一顯示上顯示手機螢幕</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN 網絡%s可供使用。您想停止數據服務然後連線到 WLAN 網絡嗎？</string>
+    <string name="switch_to_wifi_manual_prompt">發现 WLAN 信号，是否要使用 WLAN 網路？</string>
+    <string name="switch_to_wifi_query_prompt">WLAN 網絡%s可供使用。您想連線到 WLAN 網絡嗎？</string>
+    <string name="wifi_to_wifi_prompt">當前 WLAN 連線信號較弱，是否切換到其他 WLAN 網絡？</string>
+    <string name="advanced_wifi_settings_title">進階設定</string>
+    <string name="huawei_beam_front_explained">"華為 Beam 讓您透過緊靠放置裝置在一起以傳輸檔案至其他 NFC 裝置。例如，您可以在兩部兼容 NFC 的裝置之間無線傳輸圖片、影片、聯絡人、URL 和更多其他內容。只需：
+1.將您的裝置的前面板接觸另一台 NFC 裝置，然後在聽到鈴聲後拿起您的裝置。
+2.在聽到鈴聲三秒內輕觸屏幕。
+3.再次將您的裝置的前面板接觸剛才那一台 NFC 裝置以完成傳輸。請注意藍牙或 WLAN 可能在傳輸檔案前自動啟用。"</string>
+    <string name="wifiap_use_help_details">"1. 您可使用便攜式 WLAN 熱點裝置作為互聯網存取點。週邊設備可通過 WLAN 連線到您的裝置，已連線的裝置將通過流動數據網絡存取互聯網。
+2. 使用便攜式 WLAN 熱點將需要您開啟流動網絡數據連接，並將使用一些流動網絡數據流量。
+3. 使用便攜式 WLAN 熱點可能縮短電池待機時間。"</string>
+    <string name="wifiap_connect_help_details_open">"手動連接:
+1.於目標裝置開啟 WLAN，然後尋找熱點 %1$s。
+2.連線到熱點。"</string>
+    <string name="wifi_connected_to_cmcc_title">中國移動 WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">您已連線至中國移動 WLAN 網絡。 使用此網絡可能會產生相應的 WLAN 用量費用。</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">中國移動 WLAN 提醒</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">當我連線到中國移動 WLAN 網絡時提醒我</string>
+    <string name="wifi_cmcc_no_notification_summary">切換網絡時不要顯示任何通知（從流動數據切換至 WLAN，反之亦然，或從 WLAN 網絡之間切換）</string>
+    <string name="location_mode_high_accuracy_description_wifionly">使用 GPS 和 WLAN 預測位置</string>
+    <string name="location_mode_battery_saving_description_wifionly">使用 WLAN 預測位置</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">智能選擇 WLAN 或流動數據網絡</string>
+    <string name="wifi_plus_description">"WLAN+ 啟用後，將會對您的 WLAN 連接性做出評估，以提供智能網絡切換（WLAN 數據用量可能會增加）。WLAN+ 的功能包括︰
+1.自動切換 WLAN 網絡與流動數據網絡 (切換時會發出通知)，以提供順暢的互聯網體驗。
+2.在已知 WLAN 網絡範圍內時，自動開啟 WLAN 並連接 WLAN 網絡。"</string>
+    <string name="wifi_plus_settings_title">WLAN+ 設定</string>
+    <string name="wifi_plus_intelligent_switch_description">智能切換 WLAN 網絡與流動數據網絡，獲得更佳的互聯網體驗。</string>
+    <string name="wifi_plus_auto_turn_on_description">當您接近已知位置時，將會自動開啟 WLAN。</string>
+    <string name="wifi_plus_global_description">"WLAN+ 啟用後，將會對您的 WLAN 連接性做出評估，以提供智能網絡切換（WLAN 數據用量可能會增加）。WLAN+ 的功能包括︰
+1.自動切換 WLAN 網絡與流動數據網絡，以提供順暢的互聯網體驗。
+2.在已知 WLAN 網絡範圍內時，自動開啟 WLAN 並連接 WLAN 網絡。"</string>
+    <string name="location_mode_high_accuracy_title_emui">使用 GPS、WLAN 和流動網絡</string>
+    <string name="location_mode_battery_saving_title_emui">使用 WLAN 和流動網絡</string>
+    <string name="pgps_switch_summary">允許 GPS 收集附近的流動電話網絡基站及 WLAN 數據以提供更快及更準確的定位服務</string>
+    <string name="find_no_wlan_ap">無法找到 WLAN 熱點</string>
+    <string name="cannot_connect_wlan">無法連線至 WLAN</string>
+    <string name="cannot_login_internet_with_wlan">無法通過 WLAN 存取互聯網</string>
+    <string name="wfd_connect_fail">WLAN Direct 連接失敗</string>
+    <string name="find_no_wfd_device">無法找到 WLAN Direct 裝置</string>
+    <string name="wfd_search_no_devices_causes">"找不到可用的裝置，可能原因如下：
+1. 已配對的裝置不可被偵測。
+2. 已配對的裝置出現技術問題，請嘗試重新啟動 WLAN 和重新啟動 WLAN Direct。
+3. 您的裝置發生技術錯誤，請嘗試重新啟動 WLAN 和重新啟動 WLAN Direct。"</string>
+    <string name="wfd_connected_failed_causes">"無法建立連線，可能原因如下：
+1. 已配對裝置不接受該連接請求。
+2. 其中一台裝置已建立另一個 WLAN Direct 連接。
+3. 已配對的裝置出現技術問題，請嘗試重新啟動該裝置。"</string>
+    <string name="wifi_qrcode_share_notice">掃描QR碼以連線至此WLAN網絡</string>
+    <string name="devices_not_found_solution_title">若找不到裝置，請嘗試以下方法：</string>
+    <string name="devices_not_found_solution_message">"1. 確保裝置正掃描其他裝置。
+2. 若對方的裝置遇到問題，重新啟動 WLAN 及再次存取 WLAN Direct。
+3. 若您的裝置遇到問題，重新啟動 WLAN 及再次存取 WLAN Direct。"</string>
+    <string name="devices_not_connected_solution_message">"1. 確保對方的裝置已接受連接請求。
+2. 確保雙方裝置未連線至其他裝置。
+3. 若對方的裝置遇到問題，嘗試重新連線。"</string>
+    <string name="wifi_plus_description_emui">"當 WLAN+ 啟用時，您的 WLAN 連線能力將被評估以提供智能網絡切換（可能增加 WLAN 數據用量）。WLAN+ 將自動：
+1. 在 WLAN 與流動網絡數據之間切換（您可以在流動網絡數據設定中選擇預設切換模式）以提供更流暢的互聯網體驗。
+2. 在處於已知的 WLAN 覆蓋範圍時，開啟 WLAN 並連線。"</string>
+    <string name="link_plus_live_update_description">當啟用 Link+ 即時更新後，您的手機將通過無線網絡（預設為 WLAN）自動更新通訊參數的資料，以改善 Link+ 相關的功能。</string>
+    <string name="wifi_plus_description_emui2">"啟用 WLAN+ 後，將評估您的 WLAN 連線能力以提供智能網絡切換（WLAN 數據用量可能增加）。WLAN+ 將自動地：
+1. 從 WLAN 和流動網絡數據之間切換（您可以在流動網絡設定選擇預設切換模式）以提供流暢的互聯網體驗。
+2. 在位處已知的 WLAN 網絡覆蓋範圍時，開啟 WLAN 並連線。
+3. 評估可用的 WLAN 網絡。裝置將不會自動連線至已儲存但沒有互聯網連接的網絡。
+4. 在連線至某些免費 WLAN 熱點時，從傳入的 SMS 訊息取得驗證碼並通過瀏覽器登入網絡（目前僅支援中國地區）。"</string>
+    <string name="wifi_plus_global_description2">"啟用 WLAN+ 後，將評估您的 WLAN 連線能力以提供智能網絡切換（WLAN 數據用量可能增加）。WLAN+ 將自動地：
+1. 從 WLAN 和流動網絡數據之間切換以提供流暢的互聯網體驗。
+2. 在位處已知的 WLAN 網絡覆蓋範圍時，開啟 WLAN 並連線。
+3. 評估可用的 WLAN 網絡。裝置將不會自動連線至已儲存但沒有互聯網連接的網絡。"</string>
+    <string name="help_message">"1. 您的打印機和手機並沒有連線至相同的 WLAN 網絡。
+2. 您的打印機不支援此特定打印服務（請與生產商確認）。
+3. 搜尋已逾時，如發生此情況，請再試一次。
+4. 您的打印機已當機，請重新啟動打印機並再試一次。"</string>
+    <string name="wifi_cloud_security_check_title">WLAN 安全檢查</string>
+    <string name="wifi_cloud_security_check_summary">通過手機總管檢查已連線的 WLAN 網絡的安全級別，並暫停自動連線至構成安全風險的已儲存網絡</string>
+    <string name="wifi_plus_description_emui3">"啟用 WLAN+ 後，您的 WLAN 連線能力將被評估，以提供智能網絡切換。WLAN+ 亦將自動通過 WLAN 更新優化參數（可能增加 WLAN 數據用量）。WLAN+ 將自動：
+1. 從 WLAN 與流動網絡數據之間切換（您可以在流動網絡設定中選擇預設的切換模式），提供更流暢的互聯網體驗。
+2. 在處於已知的 WLAN 覆蓋範圍時，開啟 WLAN 並連線。
+3. 評估可用的 WLAN 網絡。但凡已儲存的網絡無法存取互聯網，將暫停自動連線。
+4. 在某些免費 WLAN 熱點，從傳入的 SMS 驗證訊息偵測及存取驗證碼，並自動通過瀏覽器登入有關網絡（目前僅支援在中國國內使用）。"</string>
+    <string name="user_add_user_message">"您可通過建立額外的用戶，與其他人分享此裝置。每位用戶均有自已的空間，他們可以自訂化應用程序、桌布和更多內容。用戶亦可以調整 WLAN 等影響每一位用戶的裝置設定。
+
+當您加入新用戶後，該用戶必須設定他的空間。
+
+任何一位用戶均可為所有其他用戶更新應用程序。"</string>
+    <string name="print_user_warning">當您啟用列印服務時，您的裝置將通過 WLAN 連接搜尋附近的印表機，這將產生 WLAN 流量。</string>
+    <string name="wifi_calling_settings_title_emui">WLAN 通話</string>
+    <string name="wifi_calling_dialog_title">啟用 WLAN 通話</string>
+    <string name="wifi_calling_dialog_message">啟用後，您將無法通過 WLAN 撥打緊急電話，啟用？</string>
+    <string name="device_name_settings_summary">使用藍牙時，WLAN Direct，網絡共享和便攜式熱點，其他裝置會看見此名稱。</string>
+    <string name="device_name_settings_dialog">修改裝置名稱將中斷連線目前 WLAN 熱點連接，要修改？</string>
+    <string name="write_wifi_nfc_tag">寫入 WLAN NFC 標籤</string>
+    <string name="wifi_plus_smart_switch_title">在WLAN和流動網絡數據之間進行智能切換</string>
+    <string name="wifi_plus_smart_switch_summary">評估 WLAN 連線能力並在 WLAN （可能增加流量）和流動網絡數據之間切換，以選擇最流暢網絡連接。預設切換模式可於流動網絡設定中進行</string>
+    <string name="wifi_plus_smart_switch_summary_global">評估 WLAN 連線能力並在 WLAN （可能增加流量）和流動數據之間切換，以選擇最佳網絡連接</string>
+    <string name="wifi_plus_auto_turn_title">自動開關 WLAN</string>
+    <string name="wifi_plus_auto_turn_summary">在已知 WLAN 網絡範圍內時開啟 WLAN 並進行連線</string>
+    <string name="wifi_plus_quality_evaluation_title">評估可用 WLAN 網絡</string>
+    <string name="wifi_plus_quality_evaluation_summary">評測可用的 WLAN 網絡。 已暫停自動連接至沒有互聯網存取的已儲存網絡</string>
+    <string name="wifi_plus_fast_connect_title">優化登入體驗，享受免費WLAN熱點</string>
+    <string name="wifi_plus_fast_connect_summary">要使用某些免費 WLAN 熱點，偵測並存取短訊驗證訊息的驗證碼，然後通過瀏覽器自動登入網絡（目前不支援中國大陸）</string>
+    <string name="link_plus_live_update_description_EMUI_5">啟動 Link+ 即時更新後，您的手機將通過無線網絡（預設為 WLAN）自動更新通訊參數的資料，以便改善相關的通訊功能。</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>流動網絡數據</li>"
+"<li>藍牙</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>藍牙</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">使用全球定位系統 (GPS) 和 WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">使用 WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN 橋接可大幅提升 WLAN 訊號的傳輸範圍和強度。其他裝置可通過您的裝置，連線至目前使用中的 WLAN 網絡。
+2.WLAN 橋接最多支援 4 台裝置存取。
+3.WLAN 橋接不支援 WLAN 熱點和 WLAN Direct 功能。啟動 WLAN 橋接後，某些使用 P2P 服務的應用程序可能無法正常運作。
+4.使用 WLAN 橋接更快耗損電池量。
+5.如您收到訊息通知有關 WLAN 資源被其他服務使用，請前往「設定」>「WLAN」>「WLAN Direct」，然後中斷連線所有已連線的裝置。或關閉 WLAN，然後重新啟動以自動中斷連線所有裝置。"</string>
+    <string name="wifi_qrcode_share_notice_new">掃描以連線至此 WLAN 網絡</string>
+    <string name="location_help_scheme_body_one">"1. 確保已啟用「存取我的位置」。
+2. 在「位置模式」中選擇「使用 GPS、WLAN 和流動網絡」。
+3. 連線至 WLAN 熱點或啟用流動數據。
+4. 檢查您使用的應用程式是否已存取「手機總管」>「權限管理員」>「存取位置資訊」中的位置權限。
+5. 如果您將位置模式設為「僅使用 GPS」，請確保您在開敞空曠，且 GPS 訊號能被正常接收的環境下使用位置存取功能。
+6. 如果您已連接至公共熱點，嘗試關閉 WLAN 並啟用流動數據，然後重試位置存取。"</string>
+    <string name="location_help_scheme_body_two">"1. 在「位置模式」中選擇「使用 GPS、WLAN 和流動網絡」以獲取更精確的位置存取服務。
+2. 如果您的裝置使用金屬保護殼，請將該保護殼移除或使用非金屬保護殼然後重試。
+3. 檢查您使用的應用程式是否已存取「手機總管」>「權限管理員」>「存取位置資訊」中的位置權限。
+4. 導航功能在開闊空曠的區域中使用效果更佳，將您的手機放置在靠近您汽車擋風玻璃的位置，如儀表班或您車上其他不受遮蔽的區域。"</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN 橋接可大幅提升 WLAN 訊號的傳輸範圍和強度。其他裝置可通過您的裝置，連線至目前使用中的 WLAN 網絡。
+%2$d. WLAN 橋接最多支援 %6$d 台裝置存取。
+%3$d. WLAN 橋接不支援 WLAN 熱點和 WLAN Direct 功能。啟動 WLAN 橋接後，某些使用 P2P 服務的應用程式可能無法正常運作。
+%4$d. 使用 WLAN 橋接更快耗損電池量。
+%5$d. 如您收到訊息通知有關 WLAN 資源被其他服務使用，請前往「設定」>「WLAN」>「WLAN Direct」，然後中斷連線所有已連線的裝置。或關閉 WLAN，然後重新啟動以自動中斷連線所有裝置。"</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. 您可以使用便攜式 WLAN 熱點裝置作為您的互聯網存取點，周邊設備可透過 WLAN 與您的裝置連接，連接裝置將透過移動網絡存取互聯網。
+%2$d. 使用便攜式 WLAN 熱點需要啟用流動數據連線，且會消耗部分流動數據。
+%3$d 使用便攜式 WLAN 熱點將可能更快耗損電池量。"</string>
+    <string name="wifiap_connect_help_details_open_ex">"手動連線：
+%2$d. 於目標裝置啟用 WLAN，然後尋找熱點 %1$s。
+%3$d. 連線至熱點。"</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. 確保已啟用「存取我的位置」。
+%2$d. 在「位置模式」中選擇「使用 GPS、WLAN 和流動網絡」。
+%3$d. 連線至 WLAN 熱點或啟用流動數據。
+%4$d. 檢查您使用的應用程式是否已存取「手機總管」>「權限管理員」>「存取位置資訊」中的位置權限。
+%5$d. 如果您將位置模式設為「僅使用 GPS」，請確保您在開敞空曠，且 GPS 訊號能被正常接收的環境下使用位置存取功能。
+%6$d. 如果您已連接至公共熱點，嘗試關閉 WLAN 並啟用流動數據，然後重試位置存取。"</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. 在「位置模式」中選擇「使用 GPS、WLAN 和流動網絡」以獲取更精確的位置存取服務。
+%2$d. 如果您的裝置使用金屬保護殼，請將該保護殼移除或使用非金屬保護殼然後重試。
+%3$d. 檢查您使用的應用程式是否已存取「手機總管」>「權限管理員」>「存取位置資訊」中的位置權限。
+%4$d. 導航功能在開闊空曠的區域中使用效果更佳，將您的手機放置在靠近您汽車擋風玻璃的位置，如儀表班或您車上其他不受遮蔽的區域。"</string>
+    <string name="turn_off_data_saver_message">使用可攜式 WLAN 熱點需停用流動數據節省模式。關閉？</string>
+    <string name="first_wlan_hotspot_text">WLAN 熱點讓您和他人分享您的網絡連接，但可能加速消耗電池和增加流動數據用量費用。</string>
+    <string name="hotspot_power_notification_title">WLAN 熱點已停用</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN 熱點已停用</string>
+    <string name="toast_entitle_wifi_need_close">WLAN 開啟時無法使用此功能。 請先關閉 WLAN。</string>
+    <string name="wifi_activated_warning_Title">已開啟 WLAN</string>
+    <string name="wifi_turn_off_warning_message_wifiap">流動熱點和 WLAN 不能同時開啟，要關閉 WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN 現在必須關閉，當你的電話與 AT&amp;T 的伺服器取得通訊後會自重新開啟。</string>
+    <string name="broadcast_ssid_is_show_dialog">如果您關閉廣播網絡名稱（SSID/服務設定識別碼）選項，其他裝置將無法看到您的手機，您的手機也不會出現在可用 WLAN 網絡清單中。其他裝置則可透過手動輸入您的網絡名稱連線至您的熱點。</string>
+    <string name="enable">自動連線至 AT&amp;T WLAN</string>
+    <string name="disable">不要自動連線至 AT&amp;T WLAN</string>
+    <string name="auto_connect_wifi_suggestion">重新啟動 WLAN 以使自動連線設定生效。</string>
+    <string name="wifi_network_detect_summary">"連線至 WLAN 熱點時檢查互聯網協助工具 "</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN 已被裝置管理員停用</string>
+    <string name="wifi_required_info_text">若要完成設定，您的平板電腦需要存取 WLAN 網絡。完成設定後，您可以在流動數據及 WLAN 之間切換。</string>
+    <string name="wifi_setting_frequency_band_title">WLAN 頻率頻道</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s 將管理您的裝置，並且不允許您修改或刪除此 WLAN 網絡。如欲了解更多資訊，請聯絡您的管理員。</string>
+</resources>

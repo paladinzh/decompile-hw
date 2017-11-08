@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0043">
+    <com.android.contacts.detail.ActionsViewContainer android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/actions_view_container" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/contact_list_item_padding_top" android:paddingBottom="@dimen/contact_list_item_padding_bottom" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/detail_min_line_item_height" android:paddingStart="@dimen/detail_item_side_margin" android:paddingEnd="@dimen/detail_item_button_margin_end">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/primary_action_view" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@+id/data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/ContactDetailItemData" />
+            <CheckBox android:id="@+id/privacy_mode_check_box" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/detail_item_vertical_margin" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </com.android.contacts.detail.ActionsViewContainer>
+</RelativeLayout>

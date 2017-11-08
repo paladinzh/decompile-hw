@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/copy_message_action_bar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/mms_actionbar_edit_view" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@+id/scroll_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <TextView android:textSize="26sp" android:textColor="@color/mms_main_text_color" android:id="@+id/text_copy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/text_copy_view_padding" android:lineSpacingMultiplier="1.1" android:textIsSelectable="true" />
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

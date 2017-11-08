@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.EmergencyCarrierArea xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:orientation="vertical" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+    <com.android.keyguard.CarrierText androidprv:ellipsize="marquee" androidprv:id="@r$id/carrier_text" androidprv:visibility="gone" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:allCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+    <LinearLayout androidprv:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:orientation="horizontal" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+        <com.android.keyguard.EmergencyButton androidprv:id="@r$id/emergency_call_button" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="wrap_content" androidprv:text="0x1040291" androidprv:layout_weight="1.0" androidprv:textAllCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+        <Button androidprv:id="@r$id/forgot_password_button" androidprv:visibility="invisible" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="wrap_content" androidprv:layout_weight="1.0" style="@style/security_text_style" />
+        <com.huawei.keyguard.view.widget.KeyguardButtonView androidprv:id="@r$id/back_to_keyguard" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="wrap_content" androidprv:text="@string/kg_back" androidprv:layout_weight="1.0" androidprv:textAllCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+    </LinearLayout>
+</com.android.keyguard.EmergencyCarrierArea>

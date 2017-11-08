@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/empty_print_state" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/printer_empty_top">
+        <ImageView android:id="@id/empty_icon" android:layout_width="@dimen/empty_state_empty_icon_size_width" android:layout_height="@dimen/empty_state_empty_icon_size_height" android:contentDescription="@null" />
+        <TextView android:id="@id/empty_message" android:focusable="true" android:layout_marginTop="1.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" style="@style/EmuiEmptyTextFontStyle" />
+        <Button android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:layout_gravity="center" android:id="@id/add_new_service" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/print_menu_item_add_service" android:textAllCaps="true" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</ScrollView>

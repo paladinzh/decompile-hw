@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lock_settings_picker_title" android:key="lock_settings_picker"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.MultiLinePreference android:icon="@drawable/ic_lock_list_icon" android:persistent="false" android:key="encrypt_require_password" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:icon="@drawable/ic_skip" android:persistent="false" android:key="encrypt_dont_require_password" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

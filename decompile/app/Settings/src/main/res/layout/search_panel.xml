@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_suggestions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/list_suggestions" android:paddingTop="@dimen/dashboard_padding_top" android:paddingBottom="@dimen/dashboard_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@drawable/list_divider" android:headerDividersEnabled="false" android:paddingStart="@dimen/dashboard_padding_start" android:paddingEnd="@dimen/dashboard_padding_end" android:elevation="@dimen/search_panel_elevation" />
+            <ImageView android:id="@id/suggestions_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_results" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/list_results" android:paddingTop="@dimen/dashboard_padding_top" android:paddingBottom="@dimen/dashboard_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:headerDividersEnabled="false" android:paddingStart="@dimen/dashboard_padding_start" android:paddingEnd="@dimen/dashboard_padding_end" android:elevation="@dimen/search_panel_elevation" />
+        </LinearLayout>
+        <include layout="@layout/empty_state" />
+    </LinearLayout>
+</FrameLayout>

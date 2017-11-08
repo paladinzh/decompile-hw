@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_tether_bridge_tittle_text"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifi_switch_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/wifi_tether_bridge_checkbox_text" android:key="wifi_bridge_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifi_tether_bridge_checkbox_text">
+        <Preference android:persistent="false" android:title="@string/wifi_tether_configure_bridge_text" android:key="config_wifi_bridge" android:summary="@string/wifi_bridge_settings_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifi_bridge_use_help_title" android:key="wifi_bridge_use_help_category">
+        <Preference android:persistent="false" android:layout="@layout/preference_text" android:selectable="false" android:key="wifi_bridge_use_help" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+</PreferenceScreen>

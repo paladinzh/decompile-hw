@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="64.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider_with_icon" />
+    <TextView android:textSize="@dimen/preference_empty_list_text_size" android:textColor="@color/empty_text_color" android:gravity="center" android:id="@id/not_find_out_destinative_device" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/preference_item_padding_top" android:text="@string/not_find_out_destinative_device" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_end" />
+</LinearLayout>

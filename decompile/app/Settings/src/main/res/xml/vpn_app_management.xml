@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/vpn_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:textColor="?android:textColorSecondary" android:selectable="false" android:key="version" />
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/vpn_menu_lockdown" android:key="always_on_vpn" android:defaultValue="false" settings:userRestriction="no_config_vpn" />
+    <com.android.settings.DimmableIconPreference android:icon="@drawable/ic_menu_delete" android:title="@string/vpn_forget_long" android:key="forget_vpn" settings:userRestriction="no_config_vpn" settings:useAdminDisabledSummary="true" />
+</PreferenceScreen>

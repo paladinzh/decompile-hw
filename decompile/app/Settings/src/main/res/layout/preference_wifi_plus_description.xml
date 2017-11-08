@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="@dimen/wireless_icon_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/preference_icon_margin_end">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/wireless_icon_size" android:layout_height="@dimen/wireless_icon_size" android:contentDescription="@null" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/preference_item_margin_top" android:paddingBottom="@dimen/preference_item_margin_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@android:id/summary" android:layout_marginTop="2.0dip" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

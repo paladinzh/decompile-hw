@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/clone_app_icon" android:layout_width="@dimen/preference_bigger_icon_size" android:layout_height="@dimen/preference_bigger_icon_size" android:scaleType="centerInside" android:contentDescription="@string/applications_settings" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_icon_margin_end" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:minHeight="@dimen/preference_item_min_height" android:layout_weight="1.0" android:layout_marginEnd="6.0dip">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/clone_app_name" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:id="@id/clone_app_summary" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_below="@id/clone_app_name" android:layout_alignStart="@id/clone_app_name" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <Switch android:layout_gravity="end|center" android:id="@id/clone_app_switche" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/preference_item_padding_end" />
+</LinearLayout>

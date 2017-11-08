@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/rcs_mapitem_view" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/rcs_mapitem" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/mapitem_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_location" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/mapitem_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_toEndOf="@+id/address_image">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="15sp" android:textColor="#000000" android:id="@+id/mapitem_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13sp" android:textColor="@color/attachment_tab_button_unselected" android:id="@+id/mapitem_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/conversation_item_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+</LinearLayout>

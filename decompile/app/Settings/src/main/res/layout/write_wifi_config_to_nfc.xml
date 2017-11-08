@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end" style="@style/wifi_section"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/password_layout" android:layout_marginTop="14.0dip" style="@style/wifi_item_full_screen">
+        <FrameLayout android:id="@id/password_frame" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="14.0sp" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edittext_min_height" android:hint="@string/wifi_password" android:singleLine="true" android:maxLength="64" android:inputType="textPassword" android:paddingEnd="50.0dip" />
+            <CheckBox android:gravity="center" android:layout_gravity="end|center" android:id="@id/show_password" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="10.0dip" style="@style/PasswordCheckboxStyle" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/password_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="3.0dip" android:alpha="@dimen/preference_item_title_alpha" android:textAlignment="viewStart" android:layout_marginStart="5.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+</LinearLayout>

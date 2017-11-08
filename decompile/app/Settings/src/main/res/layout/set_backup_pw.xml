@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_end">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/prompt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/current_backup_pw_prompt" />
+            <EditText android:id="@id/current_backup_pw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:password="true" android:singleLine="true" android:layout_below="@id/prompt1" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/prompt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/new_backup_pw_prompt" android:layout_below="@id/current_backup_pw" />
+            <EditText android:id="@id/new_backup_pw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:password="true" android:singleLine="true" android:layout_below="@id/prompt2" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/prompt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_new_backup_pw_prompt" android:layout_below="@id/new_backup_pw" />
+            <EditText android:id="@id/confirm_new_backup_pw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:password="true" android:singleLine="true" android:layout_below="@id/prompt3" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/backup_pw_cancel_button" android:text="@string/backup_pw_cancel_button_text" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/backup_pw_set_button" android:text="@string/dlg_ok" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

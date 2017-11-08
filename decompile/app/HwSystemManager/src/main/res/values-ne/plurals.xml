@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">%1$d दिन भन्दा बढी प्रयोग नभएको</item>
+        <item quantity="one">%1$d दिन भन्दा बढी प्रयोग नभएको</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d एपहरू स्क्रिन बन्द भएपछि पनि चलिरहेका छन्, पावर बचत गर्न तिनीहरूलाई बन्द गर्नुहोस्</item>
+        <item quantity="zero">%1$d एपहरू स्क्रिन बन्द भएपछि पनि चलिरहेका छन्, पावर बचत गर्न तिनीहरूलाई बन्द गर्नुहोस्</item>
+        <item quantity="one">%1$d एप स्क्रिन बन्द भएपछि पनि चलिरहेको छ, पावर बचत गर्न यसलाई बन्द गर्नुहोस्</item>
+        <item quantity="two">%1$d एपहरू स्क्रिन बन्द भएपछि पनि चलिरहेका छन्, पावर बचत गर्न तिनीहरूलाई बन्द गर्नुहोस्</item>
+        <item quantity="few">%1$d एपहरू स्क्रिन बन्द भएपछि पनि चलिरहेका छन्, पावर बचत गर्न तिनीहरूलाई बन्द गर्नुहोस्</item>
+        <item quantity="many">%1$d एपहरू स्क्रिन बन्द भएपछि पनि चलिरहेका छन्, पावर बचत गर्न तिनीहरूलाई बन्द गर्नुहोस्</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">धेरै पावर खपत गर्ने %1$d एपहरूलाई बन्द गरियो</item>
+        <item quantity="zero">धेरै पावर खपत गर्ने %1$d एपहरूलाई बन्द गरियो</item>
+        <item quantity="one">धेरै पावर खपत गर्ने %1$d एपलाई बन्द गरियो</item>
+        <item quantity="two">धेरै पावर खपत गर्ने %1$d एपहरूलाई बन्द गरियो</item>
+        <item quantity="few">धेरै पावर खपत गर्ने %1$d एपहरूलाई बन्द गरियो</item>
+        <item quantity="many">धेरै पावर खपत गर्ने %1$d एपहरूलाई बन्द गरियो</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d एपहरूले गुप्त रूपमा पावर खपत गरिरहेका छन्। यी एपहरूलाई बन्द गरियो भने, ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ</item>
+        <item quantity="zero">%1$d एपहरूले गुप्त रूपमा पावर खपत गरिरहेका छन्। यी एपहरूलाई बन्द गरियो भने, ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ</item>
+        <item quantity="one">%1$d एपले गुप्त रूपमा पावर खपत गरिरहेको छ। यो एपलाई बन्द गरियो भने ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ।</item>
+        <item quantity="two">%1$d एपहरूले गुप्त रूपमा पावर खपत गरिरहेका छन्। यी एपहरूलाई बन्द गरियो भने, ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ</item>
+        <item quantity="few">%1$d एपहरूले गुप्त रूपमा पावर खपत गरिरहेका छन्। यी एपहरूलाई बन्द गरियो भने, ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ</item>
+        <item quantity="many">%1$d एपहरूले गुप्त रूपमा पावर खपत गरिरहेका छन्। यी एपहरूलाई बन्द गरियो भने, ब्याट्रीको आयु %2$s ले बढाउन सकिन्छ</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">%d एपहरूलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई मोबाइल डाटा अन गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d एपहरूलाई Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एप Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई Wi-Fi अन गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">%d एपहरूलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई ब्लुटूथ अन गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">यो बिशेषतालाई सक्षम हुन निम्न अनुमतिहरू आवश्यक पर्छ, सेटिङमा गएर यिनीहरूलाई सक्षम गर्ने?</item>
+        <item quantity="one">यो बिशेषतालाई सक्षम हुन निम्न अनुमति आवश्यक पर्छ, सेटिङमा गएर यसलाई सक्षम गर्ने?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">तपाईंले यी अनुमतिहरूलाई कुनै पनि समय एप सेटिङहरूबाट अक्षम गराउन सक्नुहुन्छ।</item>
+        <item quantity="one">तपाईंले यो अनुमतिलाई कुनै पनि समय एप सेटिङहरूबाट अक्षम गराउन सक्नुहुन्छ।</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">%1$d एपहरूलाई स्क्रिन बन्द भएपछि पनि चलिरहन दिनुहोस्</item>
+        <item quantity="one">%1$d एपलाई स्क्रिन बन्द भएपछि पनि चलिरहन दिनुहोस्</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">%1$d नियमहरू चयन गरियो</item>
+        <item quantity="one">%1$d नियम चयन गरियो</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">चयन गरिएको %1$d फाइलहरू मेटाउने?</item>
+        <item quantity="one">चयन गरिएको %1$d फाइल मेटाउने?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">फाइलहरू पुनः प्राप्त गर्न सकिने छैन।</item>
+        <item quantity="one">फाइल पुनः प्राप्त गर्न सकिने छैन।</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">डेटाबाट चयन गरिएको %1$d वस्तुहरू मेटाउने?</item>
+        <item quantity="one">डेटाबाट चयन गरिएको %1$d वस्तु मेटाउने?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">डेटा पुनः प्राप्त गर्न सकिने छैन।</item>
+        <item quantity="one">डेटा पुनः प्राप्त गर्न सकिने छैन।</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">चयन गरिएको %1$d अनुप्रयोगहरूको स्थापना हटाउने?</item>
+        <item quantity="one">चयन गरिएको %1$d अनुप्रयोगको स्थापना हटाउने?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">चयन गरिएको %1$d अनुप्रयोगहरू पुनरस्थापना गर्ने?</item>
+        <item quantity="one">चयन गरिएको %1$d अनुप्रयोग पुनरस्थापना गर्ने?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">सबै अनुप्रयोग डेटा मेटिने छ। अनुप्रयोगहरू तिनिहरूको प्रारम्भिक स्थापना स्थितिमा पुनरस्थापना गरिनेछ।</item>
+        <item quantity="one">सबै अनुप्रयोग डेटा मेटिने छ। यो अनुप्रयोगलाई त्यसको प्रारम्भिक स्थापना स्थितिमा पुनरस्थापना गरिनेछ।</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d भाइरसहरू</item>
+        <item quantity="one">%1$d भाइरस</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d सफ्टवेयर जोखिमहरू</item>
+        <item quantity="zero">%1$d सफ्टवेयर जोखिमहरू</item>
+        <item quantity="one">%1$d सफ्टवेयर जोखिम</item>
+        <item quantity="two">%1$d सफ्टवेयर जोखिमहरू</item>
+        <item quantity="few">%1$d सफ्टवेयर जोखिमहरू</item>
+        <item quantity="many">%1$d सफ्टवेयर जोखिमहरू</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d अनौपचारिक सफ्टवेयर</item>
+        <item quantity="zero">%1$d अनाधिकारीक सफ्टवेयर</item>
+        <item quantity="one">%1$d अनौपचारिक सफ्टवेयर</item>
+        <item quantity="two">%1$d अनाधिकारीक सफ्टवेयर</item>
+        <item quantity="few">%1$d अनाधिकारीक सफ्टवेयर</item>
+        <item quantity="many">%1$d अनाधिकारीक सफ्टवेयर</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">%d एपहरूलाई सन्देशहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई सन्देशहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एप सन्देशहरू पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई सन्देशहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई सन्देशहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई सन्देशहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">%d एपहरूलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई कल लगको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">%d एपहरूलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई सम्पर्कहरूको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">%d एपहरूलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई पात्रोको पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">%d एपहरूलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई तपाईंको स्थान जानकारी पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">%d एपहरूलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई तपाईंको फोन ID को पहुँच गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">%d एपहरूलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई अडियो रेकर्ड गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">%d एपहरूलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई कलहरू गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d एपहरू</item>
+        <item quantity="zero">%d एपहरू</item>
+        <item quantity="one">%d एप</item>
+        <item quantity="two">%d एपहरू</item>
+        <item quantity="few">%d एपहरू</item>
+        <item quantity="many">%d एपहरू</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d भाइरस</item>
+        <item quantity="zero">%d भाइरस</item>
+        <item quantity="one">%d भाइरस</item>
+        <item quantity="two">%d भाइरस</item>
+        <item quantity="few">%d भाइरस</item>
+        <item quantity="many">%d भाइरस</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+        <item quantity="zero">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+        <item quantity="one">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+        <item quantity="two">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+        <item quantity="few">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+        <item quantity="many">विज्ञापन भएका %d एपहरू फेला परेका छन्, जसलाई मानवचालित रूपमा स्थापना रद्द गर्न सकिन्छ</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">%1$d घण्टा अघि अद्यावधिक गरिएको</item>
+        <item quantity="one">%1$d घण्टा अघि अद्यावधिक गरिएको</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">%1$d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="one">%1$d दिन अघि अद्यावधिक गरिएको</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">%1$d महिना अघि अद्यावधिक गरिएको</item>
+        <item quantity="one">%1$d महिना अघि अद्यावधिक गरिएको</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">चयन गरिएको %d सम्पर्कहरू मेटाउने?</item>
+        <item quantity="one">चयन गरिएको %d सम्पर्क मेटाउने?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+        <item quantity="zero">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+        <item quantity="one">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+        <item quantity="two">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+        <item quantity="few">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+        <item quantity="many">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो। %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">प्रयोग नभएको: %1$d दिन, आकार: %2$s</item>
+        <item quantity="one">प्रयोग नभएको: %1$d दिन, आकार: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">%2$s मेमोरी खाली गर्न %1$d एपहरू बन्द गर्नुहोस्</item>
+        <item quantity="zero">%2$s मेमोरी खाली गर्न %1$d एपहरू बन्द गर्नुहोस्</item>
+        <item quantity="one">%2$s मेमोरी खाली गर्न %1$d एप बन्द गर्नुहोस्</item>
+        <item quantity="two">%2$s मेमोरी खाली गर्न %1$d एपहरू बन्द गर्नुहोस्</item>
+        <item quantity="few">%2$s मेमोरी खाली गर्न %1$d एपहरू बन्द गर्नुहोस्</item>
+        <item quantity="many">%2$s मेमोरी खाली गर्न %1$d एपहरू बन्द गर्नुहोस्</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$d एपहरू बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+        <item quantity="zero">%1$d एपहरू बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+        <item quantity="one">%1$d एप बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+        <item quantity="two">%1$d एपहरू बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+        <item quantity="few">%1$d एपहरू बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+        <item quantity="many">%1$d एपहरू बन्द गरियो, %2$s मेमोरी खाली गरियो</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">%d एपहरूलाई MMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई MMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपहरूलाई MMS सन्देशहरू पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई MMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई MMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई MMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">%d एपहरूलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई कल लग प्रविष्टिहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">%d एपहरूलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई सम्पर्कहरू परिमार्जन गर्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">%d एपहरूलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई कल लग प्रविष्टिहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">%d एपहरूलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई सम्पर्कहरू मेटाउनबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">%d एपहरूलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई फोटो वा भिडियोहरू खिच्नबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="zero">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="one">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="two">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="few">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+        <item quantity="many">%d एपहरूलाई SMS सन्देश पठाउनबाट प्रतिबन्धित गरियो</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">%1$d एपहरूलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+        <item quantity="zero">%1$d एपहरूलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+        <item quantity="one">%1$d एपलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+        <item quantity="two">%1$d एपहरूलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+        <item quantity="few">%1$d एपहरूलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+        <item quantity="many">%1$d एपहरूलाई ड्रपजोन देखाउन अनुमति दिइयो</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">दिन</item>
+        <item quantity="one">दिन</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d एपहरू लक छन्</item>
+        <item quantity="zero">%1$d एपहरू लक छन्</item>
+        <item quantity="one">%1$d एप लक छ</item>
+        <item quantity="two">%1$d एपहरू लक छन्</item>
+        <item quantity="few">%1$d एपहरू लक छन्</item>
+        <item quantity="many">%1$d एपहरू लक छन्</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d एपहरू चलिरहेका छन्</item>
+        <item quantity="zero">%1$d एपहरू चलिरहेका छन्</item>
+        <item quantity="one">%1$d एप चलिरहेका छन्</item>
+        <item quantity="two">%1$d एपहरू चलिरहेका छन्</item>
+        <item quantity="few">%1$d एपहरू चलिरहेका छन्</item>
+        <item quantity="many">%1$d एपहरू चलिरहेका छन्</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">चयन गरिएका एपहरूको स्थापना रद्द गर्ने हो?</item>
+        <item quantity="one">चयन गरिएको एपको स्थापना रद्द गर्ने हो?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d वस्तुहरू</item>
+        <item quantity="one">%1$d वस्तु</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d अनुमतिहरू</item>
+        <item quantity="zero">%1$d अनुमतिहरू</item>
+        <item quantity="one">%1$d अनुमति</item>
+        <item quantity="two">%1$d अनुमतिहरू</item>
+        <item quantity="few">%1$d अनुमतिहरू</item>
+        <item quantity="many">%1$d अनुमतिहरू</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">निम्न फाइलहरू मेट्ने? तिनीहरूलाई पूर्वावस्थामा ल्याउन सकिँदैन।</item>
+        <item quantity="one">निम्न फाइल मेट्ने? त्यसलाई पूर्वावस्थामा ल्याउन सकिँदैन।</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">निम्न फाइलहरू मेट्ने? तिनीहरूलाई पूर्वावस्थामा ल्याउन सकिँदैन।</item>
+        <item quantity="one">निम्न फाइल मेट्ने? त्यसलाई पूर्वावस्थामा ल्याउन सकिँदैन।</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">प्रणालीले चयन गरिएका एप्लिकेसनहरूमा भएका सबै डाटा स्थायी रूपमा मेट्नेछ। एप्लिकेसनहरू त्यसको प्रारम्भिक स्थापना स्थितिमा पूर्वावस्थामा ल्याइनेछ।</item>
+        <item quantity="one">प्रणालीले चयन गरिएको एप्लिकेसनमा सबै डाटा स्थायी रूपमा मेट्नेछ। एप्लिकेसनलाई त्यसको प्रारम्भिक स्थापना स्थितिमा पूर्वावस्थामा ल्याइनेछ।</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+        <item quantity="zero">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+        <item quantity="one">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+        <item quantity="two">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+        <item quantity="few">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+        <item quantity="many">प्रयोग समयलाई %1$d मिनेटले बढाइयो।</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+        <item quantity="zero">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+        <item quantity="one">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+        <item quantity="two">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+        <item quantity="few">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+        <item quantity="many">%1$d एपहरू बन्द गरियो र %2$s ठाउँ खाली गरियो।</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d मिनेट</item>
+        <item quantity="zero">%1$d मिनेट</item>
+        <item quantity="one">%1$d मिनेट</item>
+        <item quantity="two">%1$d मिनेट</item>
+        <item quantity="few">%1$d मिनेट</item>
+        <item quantity="many">%1$d मिनेट</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d घण्टा</item>
+        <item quantity="zero">%1$d घण्टा</item>
+        <item quantity="one">%1$d घण्टा</item>
+        <item quantity="two">%1$d घण्टा</item>
+        <item quantity="few">%1$d घण्टा</item>
+        <item quantity="many">%1$d घण्टा</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">%1$s मिनेट बाँकी</item>
+        <item quantity="zero">%1$s मिनेट बाँकी</item>
+        <item quantity="one">%1$s मिनेट बाँकी</item>
+        <item quantity="two">%1$s मिनेट बाँकी</item>
+        <item quantity="few">%1$s मिनेट बाँकी</item>
+        <item quantity="many">%1$s मिनेट बाँकी</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">पूर्ण हुन %1$s बाँकी</item>
+        <item quantity="zero">पूर्ण हुन %1$s बाँकी</item>
+        <item quantity="one">पूर्ण हुन %1$s बाँकी</item>
+        <item quantity="two">पूर्ण हुन %1$s बाँकी</item>
+        <item quantity="few">पूर्ण हुन %1$s बाँकी</item>
+        <item quantity="many">पूर्ण हुन %1$s बाँकी</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">%1$d मिनेट बढाउन सकिन्छ</item>
+        <item quantity="zero">%1$d मिनेट बढाउन सकिन्छ</item>
+        <item quantity="one">%1$d मिनेट बढाउन सकिन्छ</item>
+        <item quantity="two">%1$d मिनेट बढाउन सकिन्छ</item>
+        <item quantity="few">%1$d मिनेट बढाउन सकिन्छ</item>
+        <item quantity="many">%1$d मिनेट बढाउन सकिन्छ</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">%1$s मिनेट बढाइयो</item>
+        <item quantity="zero">%1$s मिनेट बढाइयो</item>
+        <item quantity="one">%1$s मिनेट बढाइयो</item>
+        <item quantity="two">%1$s मिनेट बढाइयो</item>
+        <item quantity="few">%1$s मिनेट बढाइयो</item>
+        <item quantity="many">%1$s मिनेट बढाइयो</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$d सेकेण्ड</item>
+        <item quantity="zero">%1$d सेकेण्ड</item>
+        <item quantity="one">%1$d सेकेण्ड</item>
+        <item quantity="two">%1$d सेकेण्ड</item>
+        <item quantity="few">%1$d सेकेण्ड</item>
+        <item quantity="many">%1$d सेकेण्ड</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d पटक (सिफारिस गरिन्छ)</item>
+        <item quantity="one">%d पटक (सिफारिस गरिन्छ)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d पटक</item>
+        <item quantity="one">%d पटक</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">%d मानिसहरूद्वारा चिन्ह लगाइएको</item>
+        <item quantity="one">%d व्यक्तिद्वारा चिन्ह लगाइएको</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">%1$d एपहरू उपलब्ध</item>
+        <item quantity="one">%1$d एप उपलब्ध</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d अप्टिमाइज गर्न सकिन्छ</item>
+        <item quantity="one">%1$d अप्टिमाइज गर्न सकिन्छ</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एपहरू बन्द गरिएका छन्, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+        <item quantity="zero">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एपहरू बन्द गरिएका छन्, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+        <item quantity="one">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एप बन्द गरिएको छ, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+        <item quantity="two">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एपहरू बन्द गरिएका छन्, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+        <item quantity="few">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एपहरू बन्द गरिएका छन्, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+        <item quantity="many">अतिरिक्त पावर प्रयोगको कारणले गर्दा %1$d एपहरू बन्द गरिएका छन्, विवरणहरू हेर्नको लागि छुनुहोस्</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d फोटोहरू</item>
+        <item quantity="zero">%1$d फोटोहरू</item>
+        <item quantity="one">%1$d फोटो</item>
+        <item quantity="two">%1$d फोटोहरू</item>
+        <item quantity="few">%1$d फोटोहरू</item>
+        <item quantity="many">%1$d फोटोहरू</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">%d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="zero">%d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="one">%d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="two">%d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="few">%d दिन अघि अद्यावधिक गरिएको</item>
+        <item quantity="many">%d दिन अघि अद्यावधिक गरिएको</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d दिन सफा गरिएन, सफा गर्नको लागि छुनुहोस्</item>
+        <item quantity="one">%d दिन सफा गरिएन, सफा गर्नको लागि छुनुहोस्</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">%d एपहरूलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+        <item quantity="zero">%d एपहरूलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+        <item quantity="one">%d एपलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+        <item quantity="two">%d एपहरूलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+        <item quantity="few">%d एपहरूलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+        <item quantity="many">%d एपहरूलाई गृहस्क्रिन सर्टकटहरू सिर्जना गर्नबाट प्रतिबन्धित गरियो।</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">सफा क्रियाको बेला %1$d एपहरूलाई छाडिनेछ।</item>
+        <item quantity="zero">सफा क्रियाको बेला %1$d एपहरूलाई छाडिनेछ।</item>
+        <item quantity="one">सफा क्रियाको बेला %1$d एपलाई छाडिनेछ।</item>
+        <item quantity="two">सफा क्रियाको बेला %1$d एपहरूलाई छाडिनेछ।</item>
+        <item quantity="few">सफा क्रियाको बेला %1$d एपहरूलाई छाडिनेछ।</item>
+        <item quantity="many">सफा क्रियाको बेला %1$d एपहरूलाई छाडिनेछ।</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">%d एपहरूलाई स्थापित एपहरूका सूचीमा पहुँच गर्नबाट प्रतिबन्धित गर्यो।</item>
+        <item quantity="one">%d एपलाई स्थापित एपहरूहरूका सूचीलाई पहुँच गर्नबाट प्रतिबन्धित गर्यो।</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d एपहरू सफा गरियो।</item>
+        <item quantity="zero">%d एपहरू सफा गरियो।</item>
+        <item quantity="one">%d एप सफा गरियो।</item>
+        <item quantity="two">%d एपहरू सफा गरियो।</item>
+        <item quantity="few">%d एपहरू सफा गरियो।</item>
+        <item quantity="many">%d एपहरू सफा गरियो।</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d एपहरूले तपाईंको स्वस्थता डाटामा पहुँच गर्नबाट प्रतिबन्धित गरिएको छ (चरण गणना र हल्लाउने उपलब्ध गर्न</item>
+        <item quantity="one">%d एपले तपाईंको स्वस्थता डाटामा पहुँच गर्नबाट प्रतिबन्धित गरिएको छ (चरण गणना र हल्लाउने उपलब्ध गर्नको लागि)</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">स्वास्थ्य डाटा पहुँच गर्नाबट %d एपहरू प्रतिबन्धित छ।</item>
+        <item quantity="one">स्वास्थ्य डाटा पहुँच गर्नाबट %d एप प्रतिबन्धित छ</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d वस्तुहरूलाई म्यानुअलहरूमा अप्टिमाइज गर्न आवश्यक</item>
+        <item quantity="zero">%1$d वस्तुहरूलाई म्यानुअलहरूमा अप्टिमाइज गर्न आवश्यक</item>
+        <item quantity="one">%1$d वस्तुलाई म्यानुअल रूपमा अप्टिमाइज गर्न आवश्यक</item>
+        <item quantity="two">%1$d वस्तुहरूलाई म्यानुअलहरूमा अप्टिमाइज गर्न आवश्यक</item>
+        <item quantity="few">%1$d वस्तुहरूलाई म्यानुअलहरूमा अप्टिमाइज गर्न आवश्यक</item>
+        <item quantity="many">%1$d वस्तुहरूलाई म्यानुअलहरूमा अप्टिमाइज गर्न आवश्यक</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">स्थापना गर्नको लागि %1$d प्याचहरू</item>
+        <item quantity="zero">स्थापना गर्नको लागि %1$d प्याचहरू</item>
+        <item quantity="one">स्थापना गर्नको लागि %1$d प्याच</item>
+        <item quantity="two">स्थापना गर्नको लागि %1$d प्याचहरू</item>
+        <item quantity="few">स्थापना गर्नको लागि %1$d प्याचहरू</item>
+        <item quantity="many">स्थापना गर्नको लागि %1$d प्याचहरू</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d एपहरूले विज्ञापनहरू समावेश गर्दछ</item>
+        <item quantity="zero">%1$d एपहरूले विज्ञापनहरू समावेश गर्दछ</item>
+        <item quantity="one">%1$d एपले विज्ञापनहरू समावेश गर्दछ</item>
+        <item quantity="two">%1$d एपहरूले विज्ञापनहरू समावेश गर्दछ</item>
+        <item quantity="few">%1$d एपहरूले विज्ञापनहरू समावेश गर्दछ</item>
+        <item quantity="many">%1$d एपहरूले विज्ञापनहरू समावेश गर्दछ</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d एपहरूलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+        <item quantity="zero">%d एपहरूलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+        <item quantity="one">%d एपलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+        <item quantity="two">%d एपहरूलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+        <item quantity="few">%d एपहरूलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+        <item quantity="many">%d एपहरूलाई स्वाचालित रूपमा सुरु हुन अनुमति गरिएको छ।</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d एपहरूलाई अन्य एपहरूद्वारा सुरुवात गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। यो कार्यलाई प्रतिबन्धित गर्न सिफारिस गरिएको छ।</item>
+        <item quantity="one">%d एपलाई अन्य एपहरूद्वारा सुरुवात गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। यो कार्यलाई प्रतिबन्धित गर्न सिफारिस गरिएको छ।</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d एपहरूलाई अन्य एपहरूद्वारा सुरुवात गर्न सकिन्छ। यसले तपाईंको %2$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। यो कार्यलाई प्रतिबन्धित गर्न सिफारिस गरिएको छ।</item>
+        <item quantity="one">%1$d एपलाई अन्य एपहरूद्वारा सुरुवात गर्न सकिन्छ। यसले तपाईंको %2$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। यो कार्यलाई प्रतिबन्धित गर्न सिफारिस गरिएको छ।</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="zero">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="one">निम्न %d परिदृश्यमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="two">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="few">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="many">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="zero">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="one">निम्न %d परिदृश्यमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="two">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="few">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="many">निम्न %d परिदृश्यहरूमा एप स्वचालित रूपमा सुरु हुन सक्छ। प्रतिबन्धित गर्ने?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">निम्न %d परिस्थितिहरूमा एप र यसको जुडुवा स्वतः लन्च हुनेछ। रोक लगाउने?</item>
+        <item quantity="one">निम्न %d परिस्थितिमा एप र यसको जुडुवा स्वतः लन्च हुनेछ। रोक लगाउने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। अनुमति दिने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्नेछ। प्रतिबन्धित गर्ने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। अनुमति दिने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। प्रतिबन्धित गर्ने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। अनुमति दिने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। प्रतिबन्धित गर्ने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। अनुमति दिने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%1$s लाई %2$d एपहरूद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। प्रतिबन्धित गर्ने?</item>
+        <item quantity="one">%1$s लाई %2$d एपद्वारा सुरु गर्न सकिन्छ। यसले तपाईंको %3$s लाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउँछ। प्रतिबन्धित गर्ने?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">लन्च गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+        <item quantity="one">लन्च गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">प्रतिबन्ध गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+        <item quantity="one">प्रतिबन्ध गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">लन्च गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+        <item quantity="one">लन्च गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">प्रतिबन्ध गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+        <item quantity="one">प्रतिबन्ध गरिएको: %1$d पटक | पछिल्लो पटक: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">%d स्वचालित सुरुवात एपहरू फेला पर्‍यो</item>
+        <item quantity="zero">%d स्वचालित सुरुवात एपहरू फेला पर्‍यो</item>
+        <item quantity="one">%d स्वचालित सुरुवात एप फेला पर्‍यो</item>
+        <item quantity="two">%d स्वचालित सुरुवात एपहरू फेला पर्‍यो</item>
+        <item quantity="few">%d स्वचालित सुरुवात एपहरू फेला पर्‍यो</item>
+        <item quantity="many">%d स्वचालित सुरुवात एपहरू फेला पर्‍यो</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">%1$s फाइलहरू जम्मा</item>
+        <item quantity="one">%1$s फाइल जम्मा</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">स्क्यान नगरेको %d दिन, पूर्ण स्क्यान गर्न छुनुहोस्</item>
+        <item quantity="one">स्क्यान नगरेको %d दिन, पूर्ण स्क्यान गर्न छुनुहोस्</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d एप्लिकेसनहरूमा संवेदनशिल अनुमतिहरू छन्</item>
+        <item quantity="one">%1$d एप्लिकेसनमा संवेदनशिल अनुमतिहरू छन्</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">‌औँठाछाप पहिचान गर्न असमर्थ, तपाईंले अझै %1$d प्रयासहरू गर्न सक्नुहुन्छ</item>
+        <item quantity="one">‌औँठाछाप पहिचान गर्न असमर्थ, तपाईंले अझै %1$d प्रयास गर्न सक्नुहुन्छ</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">‌औँठाछाप निलम्बित। %1$d सेकेण्डमा पुनः प्रयास गर्नुहोस्</item>
+        <item quantity="one">‌औँठाछाप निलम्बित। %1$d सेकेण्डमा पुन: प्रयास गर्नुहोस्</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">गलत जवाफ। तपाईंसँग %1$d प्रयासहरू बाँकी छन्।</item>
+        <item quantity="one">गलत जवाफ। तपाईंसँग %1$d प्रयास बाँकी छ।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">कृपया %1$d घण्टापछि पुन: प्रयास गर्नुहोस्।</item>
+        <item quantity="one">कृपया %1$d घण्टापछि पुन: प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">कृपया %1$d मिनेटपछि पुन: प्रयास गर्नुहोस्।</item>
+        <item quantity="one">कृपया %1$d मिनेटपछि पुन: प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">कृपया %1$d सेकेण्डपछि पुन: प्रयास गर्नुहोस्।</item>
+        <item quantity="one">कृपया %1$d सेकेण्डपछि पुन: प्रयास गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">ब्याट्रि प्रयोग गर्ने शीर्ष %1$d अनुप्रयोगहरू</item>
+        <item quantity="one">ब्याट्रि प्रयोग गर्ने शीर्ष %1$d अनुप्रयोग</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d दिन</item>
+        <item quantity="one">%1$d दिन</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">अनुप्रयोग तथा उनीहरूको ट्विनको सम्पूर्ण चयन गरिएको डेटा मेटिनेछ। अनुप्रयोगहरू तिनिहरूको प्रारम्भिक स्थापना स्थितिमा पुनरस्थापना गरिनेछ।</item>
+        <item quantity="one">यो एप र यसको जुडुवाको चयन गरिएका सबै डाटा मेटिनेछ। एपलाई यसको प्रारम्भिक स्थपना स्थितिमा पूर्वावस्थामा ल्याइनेछ।</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">निम्न %1$d परिदृश्यहरूमा अनुप्रयोग र यसको ट्विन स्वतः सुरु हुन सक्छ। अनुमति दिने?</item>
+        <item quantity="one">निम्न %1$d परिदृश्यमा अनुप्रयोग र यसको ट्विन स्वतः सुरु हुन सक्छ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s र यसको ट्विन %2$d अनुप्रयोगहरूद्वारा सुरु गर्न सकिँदैन। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। अनुमति दिने?</item>
+        <item quantity="one">%1$s र यसको ट्विन %2$d अनुप्रयोगद्वारा सुरु गर्न सकिँदैन। यसले तपाईंको फोनलाई बिस्तारै चल्ने वा धेरै पावर उपभोग गर्ने बनाउन सक्छ। अनुमति दिने?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">स्क्रिन लक भएपछि %1$d एपहरू बन्द हुनेछैनन्</item>
+        <item quantity="one">स्क्रिन लक भएपछि %1$d एप बन्द हुनेछैन</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">स्क्रिन लक भएपछि %1$d एपहरू बन्द हुनेछन्</item>
+        <item quantity="one">स्क्रिन लक भएपछि %1$d एप बन्द हुनेछ</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">%d एपहरूलाई पात्रोमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+        <item quantity="one">%d एपलाई पात्रोमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">%d एपहरूलाई पात्रो परिमार्जन गर्नबाट रोक लगाइयो।</item>
+        <item quantity="one">%d एपलाई पात्रो परिमार्जन गर्नबाट रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">%d एपहरूलाई पात्रोमा समावेश कार्यक्रमहरू मेटाउनबाट रोक लगाइयो।</item>
+        <item quantity="one">%d एपलाई पात्रोमा समावेश कार्यक्रमहरू मेटाउनबाट रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">%d एपहरूलाई ब्राउजरको इतिहासमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+        <item quantity="one">%d एपलाई ब्राउजरको इतिहासमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">%d एपहरूलाई कल फर्वार्डिङमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+        <item quantity="one">%d एपलाई कल फर्वार्डिङमाथि पहुँच गर्नबाट रोक लगाइयो।</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">%1$d एपहरूमा विज्ञापनहरू ब्लक गरियो</item>
+        <item quantity="one">%1$d एपमा विज्ञापनहरू ब्लक गरियो</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d वस्तुहरूलाई तपाईं आफैले अनुकूलन गर्न जरूरी छ</item>
+        <item quantity="one">%1$d वस्तुलाई तपाईं आफैले अनुकूलन गर्न जरूरी छ</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">पृष्ठभूमिमा शक्ति खपत गर्ने %1$d एपहरू बन्द गरियो</item>
+        <item quantity="one">पृष्ठभूमिमा शक्ति खपत गर्ने %1$d एप बन्द गरियो</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d वस्तुहरू</item>
+        <item quantity="one">%1$d वस्तु</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d वस्तुहरू</item>
+        <item quantity="one">%1$d वस्तु</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d एपहरू स्क्रिन अफ हुँदा पनि चलिरहेका छन्, ब्याट्रीको शक्ति बचत गर्न ती एपहरू बन्द गर्नुहोस्</item>
+        <item quantity="one">%1$d एप स्क्रिन अफ हुँदा पनि चलिरहेको छ, ब्याट्रीको शक्ति बचत गर्न सो एप बन्द गर्नुहोस्</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">%1$s जोखिमपूर्ण एप डाउनलोडहरू ब्लक गरिए</item>
+        <item quantity="one">%1$s जोखिमपूर्ण एप डाउनलोड ब्लक गरियो</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">%1$d नन-प्रिसेट एपहरू पाइयो, कृपया स्थापना रद्द गर्नुहोस्</item>
+        <item quantity="one">%1$d नन-प्रिसेट एप पाइयो, कृपया स्थापना रद्द गर्नुहोस्</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">%2$s गैर पूर्व-स्थापित एपहरू फेला पर्यो (उदाहरण: %1$s)। कृपया विस्थापित गर्नुहोस्।</item>
+        <item quantity="one">%2$s गैर पूर्व-स्थापित एप फेला पर्यो (उदाहरण: %1$s)। कृपया विस्थापित गर्नुहोस्।</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d एपहरूलाई सफलतापूर्वक बन्द गरियो।</item>
+        <item quantity="zero">%d एपहरूलाई सफलतापूर्वक बन्द गरियो।</item>
+        <item quantity="one">%d एपलाई सफलतापूर्वक बन्द गरियो।</item>
+        <item quantity="two">%d एपहरूलाई सफलतापूर्वक बन्द गरियो।</item>
+        <item quantity="few">%d एपहरूलाई सफलतापूर्वक बन्द गरियो।</item>
+        <item quantity="many">%d एपहरूलाई सफलतापूर्वक बन्द गरियो।</item>
+    </plurals>
+</resources>

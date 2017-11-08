@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>test</item>
+        <item>Trwa skanowanie...</item>
+        <item>Trwa łączenie...</item>
+        <item>Trwa uwierzytelnianie...</item>
+        <item>Uzyskiwanie adresu IP...</item>
+        <item>Połączono</item>
+        <item>Zawieszona</item>
+        <item>Trwa rozłączanie...</item>
+        <item>Rozłączona</item>
+        <item>Niepowodzenie</item>
+        <item>Zablokowana</item>
+        <item>Tymczasowo, by uniknąć połączenia o niskiej jakości</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>test</item>
+        <item>Trwa skanowanie...</item>
+        <item>Trwa łączenie z siecią %1$s...</item>
+        <item>Trwa uwierzytelnianie w sieci %1$s...</item>
+        <item>Uzyskiwanie adresu IP z sieci %1$s...</item>
+        <item>Połączono z siecią %1$s</item>
+        <item>Zawieszona</item>
+        <item>Trwa rozłączanie z siecią %1$s...</item>
+        <item>Rozłączona</item>
+        <item>Niepowodzenie</item>
+        <item>Zablokowana</item>
+        <item>Tymczasowo, by uniknąć połączenia o niskiej jakości</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nigdy nie sprawdzaj</item>
+        <item>Sprawdzaj tylko w przypadku treści chronionych DRM</item>
+        <item>Zawsze sprawdzaj</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nie sprawdzaj HDCP</item>
+        <item>Użyj sprawdzania HDCP tylko w przypadku treści chronionych DRM</item>
+        <item>Zawsze używaj sprawdzania HDCP</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB na bufor rejestru</item>
+        <item>256 KB na bufor rejestru</item>
+        <item>1 MB na bufor rejestru</item>
+        <item>4 MB na bufor rejestru</item>
+        <item>16 MB na bufor rejestru</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacja wyłączona</item>
+        <item>Skala animacji 0,5x</item>
+        <item>Skala animacji 1x</item>
+        <item>Skala animacji 1,5x</item>
+        <item>Skala animacji 2x</item>
+        <item>Skala animacji 5x</item>
+        <item>Skala animacji 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacja wyłączona</item>
+        <item>Skala animacji 0,5x</item>
+        <item>Skala animacji 1x</item>
+        <item>Skala animacji 1,5x</item>
+        <item>Skala animacji 2x</item>
+        <item>Skala animacji 5x</item>
+        <item>Skala animacji 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacja wyłączona</item>
+        <item>Skala animacji 0,5x</item>
+        <item>Skala animacji 1x</item>
+        <item>Skala animacji 1,5x</item>
+        <item>Skala animacji 2x</item>
+        <item>Skala animacji 5x</item>
+        <item>Skala animacji 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Brak</item>
+        <item>480p</item>
+        <item>480p (tryb bezpieczny)</item>
+        <item>720p</item>
+        <item>720p (tryb bezpieczny)</item>
+        <item>1080p</item>
+        <item>1080p (tryb bezpieczny)</item>
+        <item>4K</item>
+        <item>4K (tryb bezpieczny)</item>
+        <item>4K (większa rozdzielczość)</item>
+        <item>4K (większa rozdzielczość, bezp.)</item>
+        <item>720p, 1080p (dwa ekrany)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Brak</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Stos wywołań funkcji glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Wyłączone</item>
+        <item>Rysowanie nieprostokątnych obszarów przycięcia na niebiesko</item>
+        <item>Podświetlanie testowanych poleceń rysowania na zielono</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Wyłączony</item>
+        <item>Na ekranie jako paski</item>
+        <item>Na ekranie jako linie</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Wyłączone</item>
+        <item>Pokaż obszary przeciągnięć</item>
+        <item>Pokaż obszary dla ślepoty barw</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardowy limit</item>
+        <item>Brak procesów w tle</item>
+        <item>Maksymalnie 1 proces</item>
+        <item>Maksymalnie 2 procesy</item>
+        <item>Maksymalnie 3 procesy</item>
+        <item>Maksymalnie 4 procesy</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Tylko ładowanie</item>
+        <item>MTP (protokół transmisji multimediów)</item>
+        <item>PTP (protokół transmisji zdjęć)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Źródło dźwięku</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Bardzo wolno</item>
+        <item>Wolno</item>
+        <item>Normalnie</item>
+        <item>Szybko</item>
+        <item>Szybciej</item>
+        <item>Jeszcze szybciej</item>
+        <item>Błyskawicznie</item>
+        <item>Bardzo błyskawicznie</item>
+        <item>Najszybciej</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Żywe (domyślnie)</item>
+        <item>Naturalne</item>
+        <item>Standardowe</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Bogatsze kolory</item>
+        <item>Naturalne kolory widziane przez ludzkie oko</item>
+        <item>Kolory dostosowane do wyświetlania treści cyfrowych</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Ameryka</item>
+        <item>Europa</item>
+        <item>Afryka</item>
+        <item>Azja</item>
+        <item>Australia</item>
+        <item>Pacyfik</item>
+        <item>Wszystkie</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nigdy</item>
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Natychmiast</item>
+        <item>5 sekund</item>
+        <item>15 sekund</item>
+        <item>30 sekund</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Duży</item>
+        <item>Bardzo duża</item>
+        <item>Wielka</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Bardzo niskie</item>
+        <item>Niskie</item>
+        <item>Normalne</item>
+        <item>Wysokie</item>
+        <item>Bardzo wysokie</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Otwarta</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Naciśnij przycisk</item>
+        <item>Kod PIN z drugiego urządzenia</item>
+        <item>Kod PIN z tego urządzenia</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Połączono</item>
+        <item>Łączenie...</item>
+        <item>Połącz z tym urządzeniem</item>
+        <item>Dostępne</item>
+        <item>Poza zasięgiem</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>1 godzina</item>
+        <item>Brak limitu czasu</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Słaba</item>
+        <item>Dostateczna</item>
+        <item>Dobra</item>
+        <item>Doskonała</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Zawsze</item>
+        <item>Tylko, gdy podłączony</item>
+        <item>Nigdy (zwiększa użycie danych)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Zawsze</item>
+        <item>Tylko, gdy podłączony</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Ostatnie 30 dni</item>
+        <item>Ustaw cykl danych...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatyczna</item>
+        <item>Tylko 5 GHz</item>
+        <item>Tylko 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Czas użycia</item>
+        <item>Licznik uruchomień</item>
+        <item>Nazwa aplikacji</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Brak</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Brak</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Wyłącz</item>
+        <item>Naciśnij przycisk</item>
+        <item>Kod PIN z punktu dostępu</item>
+        <item>Kod PIN z tego urządzenia</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statyczny</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Brak</item>
+        <item>Ręcznie</item>
+        <item>Automatycznie</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Wyłącz</item>
+        <item>Alarm</item>
+        <item>Wibracje</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Brak</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP lub CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Nie określono</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Brak</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Wewnętrzna pamięć urządzenia</item>
+        <item>Wymienna karta SD</item>
+        <item>Zastosuj ustawienie systemowe</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokalizacja</item>
+        <item>Osobiste</item>
+        <item>Wiadomości</item>
+        <item>Multimedia</item>
+        <item>Urządzenie</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>przybliżona lokalizacja</item>
+        <item>dokładna lokalizacja</item>
+        <item>GPS</item>
+        <item>wibrowanie</item>
+        <item>odczyt kontaktów</item>
+        <item>modyfikowanie kontaktów</item>
+        <item>czytanie rejestru połączeń</item>
+        <item>modyfikowanie rejestru połączeń</item>
+        <item>odczyt kalendarza</item>
+        <item>modyfikowanie kalendarza</item>
+        <item>wyszukiwanie wi-fi</item>
+        <item>powiadomienie</item>
+        <item>wyszukiwanie kom.</item>
+        <item>łączenie z telefonem</item>
+        <item>odczyt SMS</item>
+        <item>pisanie SMS</item>
+        <item>odbieranie wiadomości SMS</item>
+        <item>odbieranie alarmowych SMS</item>
+        <item>odbieranie wiadomości MMS</item>
+        <item>odbieranie WAP push</item>
+        <item>wysyłanie SMS</item>
+        <item>odczyt ICC SMS</item>
+        <item>pisanie ICC SMS</item>
+        <item>modyfikowanie ustawień</item>
+        <item>pisanie na wierzchu</item>
+        <item>dostęp do powiadomień</item>
+        <item>aparat</item>
+        <item>nagrywanie dźwięku</item>
+        <item>odtwarzanie dźwięku</item>
+        <item>odczyt schowka</item>
+        <item>modyfikowanie schowka</item>
+        <item>przyciski multimedialne</item>
+        <item>upraw. do dźwięku</item>
+        <item>głośność główna</item>
+        <item>głośność głosu</item>
+        <item>głośność dzwonka</item>
+        <item>głośność multimediów</item>
+        <item>głośność alarmu</item>
+        <item>głośność powiadomień</item>
+        <item>Głośność Bluetooth</item>
+        <item>utrzymywanie aktywności</item>
+        <item>monitorowanie położenia</item>
+        <item>monitoruj lokalizacje o dużym zużyciu energii</item>
+        <item>pobierz statystykę użycia</item>
+        <item>wycisz mikrofon/wyłącz wyciszenie</item>
+        <item>wyświetl multimedia</item>
+        <item>aktywuj VPN</item>
+        <item>zapis tapety</item>
+        <item>wsparcie struktury</item>
+        <item>wsparcie robienia zrzutów ekranu</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokalizacja</item>
+        <item>Lokalizacja</item>
+        <item>Lokalizacja</item>
+        <item>Wibracje</item>
+        <item>Odczyt kontaktów</item>
+        <item>Modyfikowanie kontaktów</item>
+        <item>czytanie rejestru połączeń</item>
+        <item>Modyfikowanie rejestru połączeń</item>
+        <item>Odczyt kalendarza</item>
+        <item>Modyfikowanie kalendarza</item>
+        <item>Lokalizacja</item>
+        <item>Wysyłanie powiadomień</item>
+        <item>Lokalizacja</item>
+        <item>Łączenie z telefonem</item>
+        <item>Odczyt SMS/MMS</item>
+        <item>Pisanie SMS/MMS</item>
+        <item>Odbieranie SMS/MMS</item>
+        <item>Odbieranie SMS/MMS</item>
+        <item>Odbieranie SMS/MMS</item>
+        <item>Odbieranie SMS/MMS</item>
+        <item>Wysyłanie SMS/MMS</item>
+        <item>Odczyt SMS/MMS</item>
+        <item>Pisanie SMS/MMS</item>
+        <item>Modyfikowanie ustawień</item>
+        <item>Pisanie na wierzchu</item>
+        <item>Dostęp do powiadomień</item>
+        <item>Aparat</item>
+        <item>Nagraj dźwięk</item>
+        <item>Odtwarzanie dźwięku</item>
+        <item>Odczyt schowka</item>
+        <item>Modyfikowanie schowka</item>
+        <item>Przyciski multimedialne</item>
+        <item>Upraw. do dźwięku</item>
+        <item>Głośność główna</item>
+        <item>Głośność głosu</item>
+        <item>Głośność dzwonka</item>
+        <item>Głośność multimediów</item>
+        <item>Głośność alarmu</item>
+        <item>Głośność powiadomień</item>
+        <item>Głośność Bluetooth</item>
+        <item>Utrzymanie aktywności</item>
+        <item>Lokalizacja</item>
+        <item>Lokalizacja</item>
+        <item>Pobierz statystykę użycia</item>
+        <item>Wycisz/włącz mikrofon</item>
+        <item>Wyświetl multimedia</item>
+        <item>Aktywuj VPN</item>
+        <item>Zapis tapety</item>
+        <item>Wsparcie struktury</item>
+        <item>Wsparcie robienia zrzutów ekranu</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Krótki</item>
+        <item>Średni</item>
+        <item>Długi</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Domyślna</item>
+        <item>Bezszeryfowa</item>
+        <item>Bezszeryfowa zagęszczona</item>
+        <item>Szeryfowa</item>
+        <item>Szeryfowa</item>
+        <item>Zwykły</item>
+        <item>Kursywa</item>
+        <item>Kapitaliki</item>
+        <item>Kapitaliki</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Bardzo mały</item>
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Duży</item>
+        <item>Bardzo duży</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Domyślne</item>
+        <item>Brak</item>
+        <item>Plan</item>
+        <item>Cień</item>
+        <item>Uniesione</item>
+        <item>Obniżone</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Użyj ustawień domyślnych aplikacji</item>
+        <item>Biały na czarnym</item>
+        <item>Czarny na białym</item>
+        <item>Żółty na czarnym</item>
+        <item>Żółty na niebieskim</item>
+        <item>Niestandardowy</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>Sieć VPN wykorzystująca protokół PPTP</item>
+        <item>Sieć VPN wykorzystująca protokół L2TP/IPSec z kluczami wspólnymi</item>
+        <item>Sieć VPN wykorzystująca protokół L2TP/IPSec z certyfikatami</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z kluczami wspólnymi i uwierzytelnianiem Xauth</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem Xauth</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem hybrydowym</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Rozłączono</item>
+        <item>Inicjowanie…</item>
+        <item>Łączenie…</item>
+        <item>Połączono</item>
+        <item>Przekroczono czas oczekiwania</item>
+        <item>Niepowodzenie</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>ASCII WAPI PSK</item>
+        <item>Szesnastkowy WAPI PSK</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>Wyłącz</item>
+        <item>Muzyka</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>1 użytkownik</item>
+        <item>2 użytkowników</item>
+        <item>3 użytkowników</item>
+        <item>4 użytkowników</item>
+        <item>5 użytkowników</item>
+        <item>6 użytkowników</item>
+        <item>7 użytkowników</item>
+        <item>8 użytkowników</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>ABO 1</item>
+        <item>ABO 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Zapytaj</item>
+        <item>Nigdy nie zezwalaj</item>
+        <item>Zawsze zezwalaj</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>normalna</item>
+        <item>średni</item>
+        <item>niski</item>
+        <item>krytyczny</item>
+        <item>Nieznany</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Normalny</item>
+        <item>Umiarkowany</item>
+        <item>Niski</item>
+        <item>Krytyczny</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Niezmienny</item>
+        <item>Najczęstsza aktywność</item>
+        <item>Ważny (pierwszy plan)</item>
+        <item>Ważny (w tle)</item>
+        <item>Kopia zapasowa</item>
+        <item>Duże obciążenie</item>
+        <item>Usługa (uruchomiona)</item>
+        <item>Usługa (ponowne uruchamianie)</item>
+        <item>Odbiornik</item>
+        <item>Ekran główny</item>
+        <item>Ostatnia aktywność</item>
+        <item>Pamięć podręczna (aktywność)</item>
+        <item>Pamięć podręczna (klient aktywności)</item>
+        <item>Pamięć podręczna (pusta)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Morski</item>
+        <item>Niebieski</item>
+        <item>Indygo</item>
+        <item>Fioletowy</item>
+        <item>Różowy</item>
+        <item>Czerwony</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>Auto</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Połącz automatycznie</item>
+        <item>Połącz ręcznie</item>
+        <item>Zawsze pytaj</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 godzina</item>
+        <item>Zawsze</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Program uruchamiający</item>
+        <item>Połączenie</item>
+        <item>Wiadomości</item>
+        <item>Aparat</item>
+        <item>Galeria</item>
+        <item>Muzyka</item>
+        <item>E-mail</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>Mały</item>
+        <item>Średni</item>
+        <item>Duży</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>Ikona obok baterii</item>
+        <item>Ikona w baterii</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>Nie pokazuj</item>
+        <item>Obok ikony</item>
+        <item>Na ikonie</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>Tylko raz</item>
+        <item>Od poniedziałku do piątku</item>
+        <item>Dni robocze (pomiń dni wolne)</item>
+        <item>Codziennie</item>
+        <item>Własne</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>poniedziałek</item>
+        <item>wtorek</item>
+        <item>środa</item>
+        <item>czwartek</item>
+        <item>piątek</item>
+        <item>sobota</item>
+        <item>niedziela</item>
+    </string-array>
+    <string-array name="agps_location_method_key">
+        <item>Tryb autonomiczny</item>
+        <item>Tryb MSB</item>
+        <item>Tryb MSA</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>Włącz w sieciach lokalnych</item>
+        <item>Włącz w sieciach lokalnych i roamingowych</item>
+    </string-array>
+    <string-array name="gps_start_method_key">
+        <item>Gorący</item>
+        <item>Ciepły</item>
+        <item>Zimny</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>Google</item>
+        <item>China Mobile</item>
+        <item>Pozostałe</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>Od poniedziałku do piątku</item>
+        <item>Sobota, niedziela</item>
+        <item>Codziennie</item>
+        <item>Niestandardowe</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>Wszystkie sieci (zwiększa użycie danych)</item>
+        <item>Tylko przez Wi-Fi</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>Wszystkie sieci</item>
+        <item>Tylko przez Wi-Fi</item>
+        <item>Nigdy</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>Ikony</item>
+        <item>Cyfry</item>
+        <item>Brak</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>Domyślna</item>
+        <item>Biały na czarnym</item>
+        <item>Czarny na białym</item>
+        <item>Żółty na czarnym</item>
+        <item>Żółty na niebieskim</item>
+        <item>Niestandardowy</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferowane Wi‑Fi</item>
+        <item>Preferuj sieć komórkową</item>
+        <item>Tylko Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>Preferuj Wi-Fi</item>
+        <item>Preferuj sieć komórkową</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>Dzwonek</item>
+        <item>Muzyka</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana tr. komórkowa</item>
+        <item>Tylko Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana tr. komórkowa</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana sieć komórkowa</item>
+        <item>Preferowana sieć LTE</item>
+        <item>Tylko Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana sieć komórkowa</item>
+        <item>Preferowana sieć LTE</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana sieć LTE</item>
+        <item>Tylko Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>Preferowana sieć Wi-Fi</item>
+        <item>Preferowana sieć LTE</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>10 sekund</item>
+        <item>15 sek.</item>
+        <item>30 sek.</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>30 min</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>5 minut bezczynności</item>
+        <item>10 minut bezczynności</item>
+        <item>Zawsze aktywny</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>Po 5 minutach</item>
+        <item>Po 10 minutach</item>
+        <item>Zawsze aktywny</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>Sieć VPN wykorzystująca protokół PPTP</item>
+        <item>L2TP</item>
+        <item>Sieć VPN wykorzystująca protokół L2TP/IPSec z kluczami wspólnymi</item>
+        <item>Sieć VPN wykorzystująca protokół L2TP/IPSec z certyfikatami</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z kluczami wspólnymi i uwierzytelnianiem Xauth</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem Xauth</item>
+        <item>Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem hybrydowym</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>60 s</item>
+        <item>90 s</item>
+        <item>120 s</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>Typ 1</item>
+        <item>Typ 2</item>
+        <item>Typ 3</item>
+        <item>Typ 4</item>
+        <item>Typ 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>Czas pekiński</item>
+        <item>Czas lokalny</item>
+    </string-array>
+    <string-array name="display_mode_entries_special">
+        <item>Upakowany</item>
+        <item>Mały</item>
+        <item>Normalny</item>
+        <item>Większy</item>
+    </string-array>
+    <string-array name="entries_zen_mode">
+        <item>Wył.</item>
+        <item>Nieliczne powiadomienia</item>
+        <item>Brak powiadomień</item>
+    </string-array>
+</resources>

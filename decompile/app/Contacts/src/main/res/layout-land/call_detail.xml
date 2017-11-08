@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.contacts" ex:id="@+id/call_detail" ex:visibility="gone" ex:layout_width="match_parent" ex:layout_height="match_parent" ex:paddingStart="@dimen/call_log_outer_margin" ex:paddingEnd="@dimen/call_log_outer_margin">
+    <ListView ex:id="@+id/history" ex:background="0x106000d" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_alignParentTop="true" ex:paddingStart="@dimen/call_detail_sideview_land" ex:layout_alignParentStart="true" />
+    <RelativeLayout ex:id="@+id/controls" ex:layout_width="match_parent" ex:layout_height="match_parent" ex:layout_alignParentTop="true">
+        <FrameLayout ex:id="@+id/voicemail_status" ex:visibility="gone" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_alignParentTop="true" ex:layout_alignParentStart="true">
+            <include layout="@layout/call_log_voicemail_status" />
+        </FrameLayout>
+        <LinearLayout ex:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ex:orientation="vertical" ex:id="@+id/contact_background_sizer" ex:paddingTop="15dp" ex:paddingBottom="@dimen/call_log_contact_photo_spacing" ex:layout_width="UNKNOWN_DATA_0x7f0d011e" ex:layout_height="wrap_content" ex:paddingEnd="@dimen/call_log_contact_detail_header_padding" ex:layout_alignParentStart="true">
+            <ImageView ex:id="@+id/contact_background" ex:layout_width="UNKNOWN_DATA_0x7f0d00ba" ex:layout_height="UNKNOWN_DATA_0x7f0d00ba" ex:scaleType="centerCrop" ex:contentDescription="@string/description_contact_photo" />
+            <LinearLayout ex:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:orientation="vertical" ex:layout_width="match_parent" ex:layout_height="wrap_content">
+                <com.android.contacts.util.AutoEllipseTextView ex:textAppearance="?unknown_attr_ref: 1010041" ex:textSize="22sp" ex:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/header_name" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:maxHeight="@dimen/call_log_photo_size" ex:singleLine="true" />
+                <TextView ex:textAppearance="?unknown_attr_ref: 1010042" ex:ellipsize="end" ex:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/numbermark_info" ex:visibility="gone" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:maxHeight="@dimen/call_log_photo_size" ex:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout ex:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:id="@+id/call_display_buttons" ex:paddingTop="@dimen/call_log_contact_photo_spacing" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:paddingEnd="@dimen/call_log_indent_margin"
+                <LinearLayout ex:orientation="vertical" ex:id="@+id/call_unknown_contact_separator_container" ex:layout_width="match_parent" ex:layout_height="wrap_content">
+                    <Button ex:textAppearance="?unknown_attr_ref: 1010041" ex:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/call_new_contact" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:minHeight="@dimen/calllog_detail_button_min_hegiht" ex:text="@string/pickerNewContactText" ex:layout_weight="0.5" />
+                    <Button ex:textAppearance="?unknown_attr_ref: 1010041" ex:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/call_add_contact" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:minHeight="@dimen/calllog_detail_button_min_hegiht" ex:text="@string/contact_saveto_existed_contact" ex:layout_weight="0.5" />
+                </LinearLayout>
+                <LinearLayout ex:id="@+id/view_known_contact" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_weight="1.0">
+                    <Button ex:textAppearance="?unknown_attr_ref: 1010041" ex:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/view_contact" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:minHeight="@dimen/calllog_detail_button_min_hegiht" ex:text="@string/menu_viewContact" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:id="@+id/call_and_sms_container" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_toEndOf="@+id/contact_background_sizer"
+            <LinearLayout ex:orientation="vertical" ex:id="@+id/call_and_sms_inner_container" ex:layout_width="match_parent" ex:layout_height="wrap_content">
+                <RelativeLayout ex:id="@+id/call_and_sms_main_action" ex:background="?unknown_attr_ref: 101030e" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d012b">
+                    <LinearLayout ex:orientation="vertical" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_centerVertical="true" ex:paddingStart="@dimen/call_log_indent_margin" ex:layout_toStartOf="@+id/sim_calls" ex:layout_alignParentStart="true">
+                        <TextView ex:textAppearance="?unknown_attr_ref: 1010041" ex:ellipsize="marquee" ex:id="@+id/call_and_sms_text" ex:focusable="true" ex:focusableInTouchMode="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:maxLines="1" ex:scrollHorizontally="true" />
+                        <TextView ex:textAppearance="?unknown_attr_ref: 1010042" ex:id="@+id/call_and_sms_label" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:textAllCaps="false" />
+                    </LinearLayout>
+                    <LinearLayout ex:orientation="horizontal" ex:id="@+id/sim_calls" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_centerVertical="true" ex:paddingEnd="@dimen/call_log_indent_margin" ex:layout_alignParentEnd="true">
+                        <ImageView ex:id="@+id/sim1_call" ex:focusable="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:contentDescription="@string/description_dialbutton1" />
+                        <ImageView ex:id="@+id/sim2_call" ex:focusable="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:contentDescription="@string/description_dialbutton2" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <RelativeLayout ex:id="@+id/dualsim_sms_container" ex:background="?unknown_attr_ref: 101030e" ex:clickable="true" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d012b">
+                    <TextView ex:textAppearance="?unknown_attr_ref: 1010041" ex:ellipsize="marquee" ex:focusable="true" ex:focusableInTouchMode="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:text="@string/contact_menu_send_message" ex:maxLines="1" ex:scrollHorizontally="true" ex:layout_centerVertical="true" ex:paddingStart="@dimen/call_log_indent_margin" ex:layout_toStartOf="@+id/dualsim_sms" ex:layout_alignParentStart="true" />
+                    <ImageView ex:id="@+id/dualsim_sms" ex:focusable="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_centerVertical="true" ex:contentDescription="@string/contact_menu_send_message" ex:paddingEnd="@dimen/call_log_indent_margin" ex:layout_alignParentEnd="true" />
+                    <View style="@style/contact_horizontal_divider_style" />
+                </RelativeLayout>
+                <RelativeLayout ex:id="@+id/sim_call_ip_container" ex:background="?unknown_attr_ref: 101030e" ex:clickable="true" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d012b">
+                    <TextView ex:textAppearance="?unknown_attr_ref: 1010041" ex:ellipsize="marquee" ex:focusable="true" ex:focusableInTouchMode="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:text="@string/IPCall" ex:maxLines="1" ex:scrollHorizontally="true" ex:layout_centerVertical="true" ex:paddingStart="@dimen/call_log_indent_margin" ex:layout_toStartOf="@+id/sim_call_ip" ex:layout_alignParentStart="true" />
+                    <ImageView ex:id="@+id/sim_call_ip" ex:focusable="true" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_centerVertical="true" ex:contentDescription="@string/IPCall" ex:paddingEnd="@dimen/call_log_indent_margin" ex:layout_alignParentEnd="true" />
+                    <View style="@style/contact_horizontal_divider_style" />
+                </RelativeLayout>
+                <RelativeLayout ex:id="@+id/call_plus_container" ex:background="?unknown_attr_ref: 101030e" ex:visibility="gone" ex:clickable="true" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d012b">
+                    <View style="@style/contact_horizontal_divider_style" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout ex:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:orientation="vertical" ex:id="@+id/call_log_separator_container" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d00bb">
+                <TextView ex:textAppearance="?unknown_attr_ref: 1010041" ex:textSize="14sp" ex:textStyle="bold" ex:textColor="@color/people_app_theme_color" ex:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:id="@+id/call_log_list_label" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:text="@string/recentCallsIconLabel" ex:textAllCaps="true" ex:paddingStart="@dimen/call_log_indent_margin" />
+                <View ex:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x201" style="?unknown_attr_ref: 1010208" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageButton ex:id="@+id/main_action_push_layer" ex:background="?unknown_attr_ref: 101030e" ex:layout_width="match_parent" ex:layout_height="match_parent" ex:layout_alignTop="@+id/contact_background_sizer" ex:layout_alignBottom="@+id/contact_background_sizer" ex:contentDescription="0x0" ex:layout_alignStart="@+id/contact_background_sizer" ex:layout_alignEnd="@+id/contact_background_sizer" />
+        <LinearLayout ex:id="@+id/voicemail_container" ex:paddingBottom="@dimen/call_detail_button_spacing" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_below="@+id/contact_background_sizer" />
+    </RelativeLayout>
+    <View ex:id="@+id/blank" ex:background="@color/call_detail__blank_backgroud_color" ex:visibility="gone" ex:clickable="true" ex:layout_width="match_parent" ex:layout_height="match_parent" ex:layout_alignParentTop="true" ex:layout_alignParentStart="true" />
+</RelativeLayout>

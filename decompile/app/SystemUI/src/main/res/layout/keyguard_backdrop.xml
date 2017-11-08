@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.HwBackDropView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/backdrop" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.keyguard.view.widget.MagazineSwitchViewPager android:id="@id/backdrop_back" android:tag="backdrop_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/backdrop_front" android:tag="backdrop_front" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@r$id/wallpaper_mask" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/mask_statusbar" android:background="@drawable/statusbar_mask_dark" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <ImageView android:id="@r$id/mask_bottom" android:background="@drawable/mask_control_center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <com.android.keyguard.hwlockscreen.HwLockScreenPanel android:id="@id/keyguard_lock_screen_panel" android:tag="hw_lock_screen" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.huawei.keyguard.view.HwBackDropView>

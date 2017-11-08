@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu" android:id="@+id/call_detail_overflow_menu" android:title="@string/contacts_title_menu" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_trash" android:title="@string/recentCalls_trashVoicemail" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_remove_from_call_log" android:title="@string/str_delete_call_log_entry" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_edit_number_before_call" android:title="@string/recentCalls_editBeforeCall" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_send_number" android:title="@string/recentCalls_sendNumberByMMS" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_ip_call" android:title="@string/IPCall" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/contact_menu_add_to_blacklist" android:title="@string/contact_menu_add_to_blacklist" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_mark_as" android:title="@string/menu_mark_as" android:showAsAction="UNKNOWN_DATA_0x0" />
+        </menu> />
+</menu>

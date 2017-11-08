@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/head_line" android:background="@drawable/divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <ExpandableListView android:id="@+id/expandableListView" android:layout_width="match_parent" android:layout_height="match_parent" android:groupIndicator="0x0" android:childDivider="@drawable/divider_horizontal_gray_emui" android:divider="@drawable/divider_horizontal_gray_emui" android:dividerHeight="1px" android:layout_below="@+id/head_line" />
+</RelativeLayout>

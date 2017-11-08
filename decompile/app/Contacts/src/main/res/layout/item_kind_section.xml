@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.KindSectionView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contact_editor_item_left_margin" android:layout_marginEnd="@dimen/contact_editor_item_right_margin">
+    <ImageView android:id="@+id/fields_image_type" android:layout_width="UNKNOWN_DATA_0x7f0d001e" android:layout_height="UNKNOWN_DATA_0x7f0d024a" android:layout_marginTop="@dimen/contact_editor_text_padding" android:scaleType="centerInside" android:layout_marginStart="@dimen/editor_item_label_left_margin" android:layout_marginEnd="@dimen/contact_editor_item_right_margin" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:id="@+id/kind_editors" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/kind_add_items" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_editor_name_margin_top">
+                <TextView android:textSize="@dimen/contact_editor_item_name_size" android:textColor="@color/contact_eidtor_item_name_color" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/add_item_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="@dimen/contact_editor_item_height" android:maxLines="2" android:layout_weight="1.0" android:layout_toStartOf="@+id/add_item_button" />
+                <ImageButton android:id="@+id/add_item_button" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contact_icon_add_selector" android:contentDescription="@string/add_label" android:layout_alignParentEnd="true" style="@style/item_kind_section_add_button_style" />
+            </LinearLayout>
+            <View style="@style/contact_horizontal_divider_style" />
+        </LinearLayout>
+    </LinearLayout>
+</com.android.contacts.editor.KindSectionView>

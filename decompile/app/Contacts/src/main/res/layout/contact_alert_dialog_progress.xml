@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/alert_dialog_left_padding" android:paddingEnd="@dimen/alert_dialog_left_padding">
+    <TextView android:textSize="13sp" android:textColor="@color/contact_dialog_content" android:id="@+id/textProgress01" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_importing_contacts" android:singleLine="true" android:paddingEnd="4dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="13sp" android:textColor="@color/contact_dialog_content" android:id="@+id/textProgress02" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_importing_finished" />
+        <TextView android:textSize="13sp" android:textColor="@color/contact_dialog_content" android:id="@+id/textProgress03" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="2dp" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/dialog_progress02" android:paddingTop="16dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminateOnly="false" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010078" />
+    </RelativeLayout>
+</LinearLayout>

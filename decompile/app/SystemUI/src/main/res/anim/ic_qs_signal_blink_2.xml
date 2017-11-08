@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="0x10a000b" android:duration="@integer/carrier_network_change_anim_time" android:repeatCount="infinite">
+    <propertyValuesHolder android:valueType="UNKNOWN_DATA_0x3" android:propertyName="fillColor">
+        <keyframe android:value="#4dffffff" android:fraction="0.0" />
+        <keyframe android:value="#4dffffff" android:fraction="0.32" />
+        <keyframe android:value="#ffffffff" android:fraction="0.33" />
+        <keyframe android:value="#ffffffff" android:fraction="0.66" />
+        <keyframe android:value="#4dffffff" android:fraction="0.67" />
+        <keyframe android:value="#4dffffff" android:fraction="1.0" />
+    </propertyValuesHolder>
+</objectAnimator>

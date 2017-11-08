@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/fingerprint_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/fp_function_category" android:key="fp_function_category">
+        <Preference android:title="@string/fp_settings_entry_title" android:key="fp_settings_entry" android:summary="@string/fp_settings_entry_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.fingerprint.FingerprintSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/fp_touch_function_category_single" android:key="fp_touch_function_category_single">
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_go_back_title" android:key="key_fp_go_back" android:summary="@string/fp_go_back_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/fp_touch_function_category_longpress" android:key="fp_touch_function_category_longpress">
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_return_desk_title" android:key="key_fp_return_desk" android:summary="@string/fp_return_desk_summary" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_take_photo_title" android:key="key_fp_take_photo" android:summary="@string/fp_take_photo_summary" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_answer_call_title" android:key="key_fp_answer_call" android:summary="@string/fp_answer_call_summary" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_stop_alarm_title" android:key="key_fp_stop_alarm" android:summary="@string/fp_stop_alarm_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/fp_touch_function_category_slip" android:key="fp_touch_function_category">
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_recent_application_title" android:key="key_fp_recent_application" android:summary="@string/fp_recent_application_summary" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_show_notification_title" android:key="key_fp_show_notification" android:summary="@string/fp_show_notification_summary" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_browse_picture_title" android:key="key_fp_browse_picture" android:summary="@string/fp_browse_picture_summary" />
+        <Preference android:key="fp_main_settings_comment" android:summary="@string/fp_main_settings_comments" />
+    </PreferenceCategory>
+</PreferenceScreen>

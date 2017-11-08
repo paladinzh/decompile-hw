@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.deskclock" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:minHeight="@dimen/list_item_height" custom:paddingStart="@dimen/alarm_view_margin_leftright" custom:paddingEnd="@dimen/alarm_view_margin_leftright"
+    <RelativeLayout custom:id="@id/rl_switch" custom:layout_width="wrap_content" custom:layout_height="UNKNOWN_DATA_0x7f0a008d" custom:layout_centerVertical="true" custom:layout_marginStart="@dimen/alarm_item_switch_margin" custom:layout_alignParentEnd="true">
+        <Switch custom:id="@id/clock_onoff" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.android.deskclock.DigitalClock custom:id="@id/digitalClock" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_centerVertical="true" custom:layout_marginEnd="@dimen/alarm_DigitalClock_margin_right" custom:layout_toStartOf="@id/rl_switch" custom:layout_alignParentStart="true" custom:clockMode="2">
+        <LinearLayout custom:orientation="horizontal" custom:id="@id/number_time" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layoutDirection="ltr" custom:layout_alignParentStart="true">
+            <TextView custom:textSize="@dimen/alarm_clock_item_digital_apmpm_tvfontsize" custom:id="@id/digital_left_ampm" custom:paddingBottom="6dp" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginEnd="@dimen/alarm_digitalclock_ampm_margin" />
+            <TextView custom:textSize="@dimen/digital_full_time_textsize" custom:id="@id/digital_full_time" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:fontFamily="sans-serif-thin" />
+            <TextView custom:textSize="@dimen/alarm_clock_item_digital_apmpm_tvfontsize" custom:id="@id/digital_right_ampm" custom:paddingBottom="6dp" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginStart="@dimen/alarm_digitalclock_ampm_margin" />
+        </LinearLayout>
+        <com.android.deskclock.alarmclock.DayOfWeekLayout custom:id="@id/daysOfWeek" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="@dimen/daysOfWeek_marginTop" custom:layout_marginBottom="9dp" custom:layout_below="@id/number_time" custom:layout_alignParentStart="true">
+            <TextView custom:textSize="@dimen/alarm_clock_item_digital_apmpm_tvfontsize_dayofweek" custom:textColor="@color/transparency_100_color" custom:ellipsize="end" custom:id="@id/am_digital" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" custom:layout_alignParentStart="true" />
+            <TextView custom:textSize="@dimen/alarm_clock_item_digital_apmpm_tvfontsize_dayofweek" custom:textColor="@color/transparency_50_color" custom:ellipsize="end" custom:id="@id/dayWeek_digital" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" custom:layout_toEndOf="@id/am_digital" />
+        </com.android.deskclock.alarmclock.DayOfWeekLayout>
+    </com.android.deskclock.DigitalClock>
+</RelativeLayout>

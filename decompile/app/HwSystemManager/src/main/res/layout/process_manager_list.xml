@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/dragview" android:background="@color/hsm_scan_items_bg" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@+id/name" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/progress_manager_running_app_info" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001" android:paddingStart="@dimen/progress_manager_app_info_padding_start" style="?unknown_attr_ref: 1010208" />
+        <View android:background="@color/process_manager_line_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a001c" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/progress_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-94dp" layout="@layout/common_empty_layout" />
+    <com.huawei.systemmanager.comm.widget.StickyListView.StickyListHeadersListView android:id="@+id/content_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

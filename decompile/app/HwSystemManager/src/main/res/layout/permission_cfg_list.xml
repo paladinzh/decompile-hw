@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/viewstub_set_default_mms" android:layout="@layout/set_default_mms_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@+id/permission_header_view" layout="@layout/permission_header" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:footerDividersEnabled="false" android:paddingStart="0dp" android:paddingEnd="0dp" />
+    <RelativeLayout android:id="0x1020004" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+        <ImageView android:id="@+id/no_app_icon" android:layout_width="UNKNOWN_DATA_0x7f0a0066" android:layout_height="UNKNOWN_DATA_0x7f0a0066" android:layout_marginTop="@dimen/permission_emptyview_topspace" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:id="@+id/empty_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permissionCfgAppsListEmptyText" android:layout_below="@+id/no_app_icon" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

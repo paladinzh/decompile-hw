@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="settings">
+    <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/virus_cloud_scan_title" androidhwext:key="cloud_scan_switch" androidhwext:summary="@string/virus_cloud_scan_summery" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_cloud_scan_switch" />
+    <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui21" />
+    <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/virus_global_scan_timer_setting_title" androidhwext:key="global_timer_remind" androidhwext:summary="@string/virus_global_scan_timer_remind_summery" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_global_timer_remind" />
+    <PreferenceCategory androidhwext:title="@string/virus_scan_mode" androidhwext:key="category_antivirus_scan_mode">
+        <com.huawei.systemmanager.comm.widget.WrappingRadioPreference androidhwext:title="@string/virus_quick_scan_setting" androidhwext:key="quick_scan" androidhwext:summary="@string/virus_quick_scan_setting_summry" androidhwext:widgetLayout="@layout/virus_setting_radiobutton" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_quick_scan" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui22" />
+        <com.huawei.systemmanager.comm.widget.WrappingRadioPreference androidhwext:title="@string/virus_global_scan_setting" androidhwext:key="global_can" androidhwext:summary="@string/virus_global_scan_setting_summry" androidhwext:widgetLayout="@layout/virus_setting_radiobutton" androidhwext:defaultValue="false" androidhwext:preferenceID="@+id/prefs_virus_global_scan_setting" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/title_virus_lib" androidhwext:key="category_virus_lib">
+        <Preference androidhwext:title="@string/title_manual_update_Virus_lib" androidhwext:key="manual_update_virus_lib" androidhwext:preferenceID="@+id/prefs_manual_update_virus_lib" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui23" />
+        <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/title_auto_update_virus_lib" androidhwext:key="is_auto_update_virus_lib" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_is_auto_update_virus_lib" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui24" />
+        <SwitchPreference androidhwext:title="@string/title_is_wifi_only_update" androidhwext:key="is_wifi_only_update" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_is_wifi_only_update" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui26" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:stretchColumns="0" android:shrinkColumns="1" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:maxWidth="@dimen/preference_title_max_width_shorter" android:minWidth="@dimen/preference_title_min_width" android:layout_weight="3.0" android:paddingEnd="@dimen/preference_item_margin_end" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="end" android:layout_gravity="center_vertical" android:id="@android:id/summary" android:minWidth="@dimen/preference_summary_min_width_longer" android:maxLines="4" android:layout_weight="1.0" style="@style/EmuiSecondaryTextFontStyle" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </TableRow>
+</TableLayout>

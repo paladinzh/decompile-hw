@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>სკანირება…</item>
+        <item>დაკავშირება…</item>
+        <item>ავტორიზაცია…</item>
+        <item>IP მისამართის მიღება…</item>
+        <item>დაკავშირებულია</item>
+        <item>შეჩერებული</item>
+        <item>გათიშვა…</item>
+        <item>გათიშულია</item>
+        <item>ვერ შესრულდა</item>
+        <item>დაბლოკილია</item>
+        <item>ცუდი ხარისხის კავშირების დროებით აკრძალვა</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>სკანირება…</item>
+        <item>დაკავშირება %1$s-თან…</item>
+        <item>ავტორიზაცია %1$s-ით…</item>
+        <item>IP მისამართის მიღება %1$s-დან…</item>
+        <item>დაკავშირებულია %1$s-თან</item>
+        <item>შეჩერებული</item>
+        <item>გათიშვა %1$s-დან…</item>
+        <item>გათიშულია</item>
+        <item>ვერ შესრულდა</item>
+        <item>დაბლოკილია</item>
+        <item>ცუდი ხარისხის კავშირების დროებით აკრძალვა</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>არასოდეს შეამოწმო</item>
+        <item>მხოლოდ DRM შიგთავსის შემოწმება</item>
+        <item>ყოველთვის შემოწმება</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>არასოდეს გამოიყენო HDCP შემოწმება</item>
+        <item>HDCP შემოწმების გამოყენება მხოლოდ DRM შიგთავსისთვის</item>
+        <item>ყოველთვის გამოიყენე HDCP შემოწმება</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 კბაიტი</item>
+        <item>256 კბაიტი</item>
+        <item>1 მბაიტი</item>
+        <item>4 მბაიტი</item>
+        <item>16 მბაიტი</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 კბაიტი</item>
+        <item>256 კბაიტი</item>
+        <item>1 მბაიტი</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 კბაიტი რეგისტრაციის ბუფერისთვის</item>
+        <item>256 კბაიტი რეგისტრაციის ბუფერისთვის</item>
+        <item>1 მბაიტი რეგისტრაციის ბუფერისთვის</item>
+        <item>4 მბაიტი რეგისტრაციის ბუფერისთვის</item>
+        <item>16 მბაიტი რეგისტრაციის ბუფერისთვის</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>ანიმაციის გამორთვა</item>
+        <item>ანიმაციის მასშტაბი ,5x</item>
+        <item>ანიმაციის მასშტაბი 1x</item>
+        <item>ანიმაციის მასშტაბი 1,5x</item>
+        <item>ანიმაციის მასშტაბი 2x</item>
+        <item>ანიმაციის მასშტაბი 5x</item>
+        <item>ანიმაციის მასშტაბი 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>ანიმაციის გამორთვა</item>
+        <item>ანიმაციის მასშტაბი ,5x</item>
+        <item>ანიმაციის მასშტაბი 1x</item>
+        <item>ანიმაციის მასშტაბი 1,5x</item>
+        <item>ანიმაციის მასშტაბი 2x</item>
+        <item>ანიმაციის მასშტაბი 5x</item>
+        <item>ანიმაციის მასშტაბი 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>ანიმაციის გამორთვა</item>
+        <item>ანიმაციის მასშტაბი 0,5x</item>
+        <item>ანიმაციის მასშტაბი 1x</item>
+        <item>ანიმაციის მასშტაბი 1,5x</item>
+        <item>ანიმაციის მასშტაბი 2x</item>
+        <item>ანიმაციის მასშტაბი 5x</item>
+        <item>ანიმაციის მასშტაბი 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>არცერთი</item>
+        <item>480p</item>
+        <item>480p (დაცული)</item>
+        <item>720p</item>
+        <item>720p (დაცული)</item>
+        <item>1080p</item>
+        <item>1080p (დაცული)</item>
+        <item>4K</item>
+        <item>4K (დაცული)</item>
+        <item>4K (გადიდებული მასშტაბით)</item>
+        <item>4K (გადიდებული მასშტაბით, დაცული)</item>
+        <item>720p, 1080p (ორმაგი ეკრანი)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>არცერთი</item>
+        <item>Logcat</item>
+        <item>Systrace (გრაფიკა)</item>
+        <item>გამოძახებების სია glGetError-ზე</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>გამორთვა</item>
+        <item>არა-მართკუთხა კლიპის რეგიონის ასახვა ლურჯი ფერით</item>
+        <item>ასახვის შემოწმებული ბრძანებების მონიშვნა მწვანე ფერით</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>გამორთვა</item>
+        <item>ეკრანზე ზოლების სახით</item>
+        <item>ეკრანზე ხაზების სახით</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>გამორთვა</item>
+        <item>ზედმეტი ვიზუალიზაციის ზონების ჩვენება</item>
+        <item>დეიტერანომალიის ზონების ჩვენება</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>სტანდარტული ლიმიტი</item>
+        <item>ფონური პროცესები არ არსებობს</item>
+        <item>მაქსიმუმ 1 პროცესი</item>
+        <item>მაქსიმუმ 2 პროცესი</item>
+        <item>მაქსიმუმ 3 პროცესი</item>
+        <item>მაქსიმუმ 4 პროცესი</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>მხოლოდ დატენვა</item>
+        <item>მედ.გადაც.პროტოკ. (MTP)</item>
+        <item>სურ.გადაც.პროტოკ. (PTP)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>აუდიო წყარო</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>ძალიან ნელი</item>
+        <item>ნელი</item>
+        <item>ჩვეულებრივი</item>
+        <item>სწრაფი</item>
+        <item>უფრო სწრაფი</item>
+        <item>ძალიან სწრაფი</item>
+        <item>ჩქარი</item>
+        <item>ძალიან ჩქარი</item>
+        <item>ყველაზე სწრაფი</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>მკვეთრი (ნაგულისხმევი)</item>
+        <item>ბუნებრივი</item>
+        <item>სტანდარტული</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>გაჯერებული ფერები</item>
+        <item>თვალისთვის ხილული ბუნებრივი ფერები</item>
+        <item>ციფრული კონტენტისთვის ოპტიმიზებული ფერები</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>ამერიკა</item>
+        <item>ევროპა</item>
+        <item>აფრიკა</item>
+        <item>აზია</item>
+        <item>ავსტრალია</item>
+        <item>წყნაროკეანური</item>
+        <item>ყველა</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>1 წუთი</item>
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>10 წუთი</item>
+        <item>30 წუთი</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>არასოდეს</item>
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>1 წუთი</item>
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>10 წუთი</item>
+        <item>30 წუთი</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>დაუყოვნებლივ</item>
+        <item>5 წამი</item>
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>1 წუთი</item>
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>10 წუთი</item>
+        <item>30 წუთი</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>პატარა</item>
+        <item>ჩვეულებრივი</item>
+        <item>დიდი</item>
+        <item>ძალიან დიდი</item>
+        <item>უზარმაზარი</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>ძალიან დაბალი</item>
+        <item>დაბალი</item>
+        <item>ჩვეულებრივი</item>
+        <item>მაღალი</item>
+        <item>ძალიან მაღალი</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_eap_cmcc">
+        <item>PEAP</item>
+        <item>SIM</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Push ღილაკი</item>
+        <item>PIN ამ ერთრანგიანი მოწყობილობიდან</item>
+        <item>PIN ამ მოწყობილობიდან</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>დაკავშირებულია</item>
+        <item>დაკავშირება...</item>
+        <item>ამ მოწყობილობასთან დაკავშირება</item>
+        <item>ხელმისაწვდომი</item>
+        <item>დიაპაზონის გარეთ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>1 საათი</item>
+        <item>არასოდეს გამოიყენო ლოდინის დრო</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ცუდი</item>
+        <item>საშუალო</item>
+        <item>კარგი</item>
+        <item>საუკეთესო</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ყოველთვის</item>
+        <item>მხოლოდ როცა მიერთებულია</item>
+        <item>ყოველთვის გაითიშოს (ზრდის მობილური ტრაფიკის მოცულობას)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ყოველთვის</item>
+        <item>მხოლოდ როცა მიერთებულია</item>
+        <item>არასოდეს</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>ბოლო 30 დღე</item>
+        <item>გამოყენების ციკლის დაყენება...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>ავტომატური</item>
+        <item>მხოლოდ 5 გჰც</item>
+        <item>მხოლოდ 2,4 გჰც</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>გამოყენების დრო</item>
+        <item>გამოთვლის გაშვება</item>
+        <item>პროგრამის სახელი</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>არცერთი</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>არცერთი</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>გამორთვა</item>
+        <item>Push ღილაკი</item>
+        <item>PIN წვდომის წერტილიდან</item>
+        <item>PIN ამ მოწყობილობიდან</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>სტატიკური</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>არცერთი</item>
+        <item>ხელით</item>
+        <item>ავტომატური</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>გამორთვა</item>
+        <item>გაფრთხილება</item>
+        <item>ვიბრაცია</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>არცერთი</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ან CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>განუსაზღვრელი</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>არცერთი</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>მოწყობილობის შიდა მეხსიერება</item>
+        <item>ამოღებადი SD ბარათი</item>
+        <item>სისტემამ გადაწყვიტოს</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>მდებარეობა</item>
+        <item>პირადი</item>
+        <item>მიმოწერა</item>
+        <item>მედია</item>
+        <item>მოწყობილობა</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>მიახლოებითი მდებარეობა</item>
+        <item>ზუსტი მდებარეობა</item>
+        <item>GPS</item>
+        <item>ვიბრირება</item>
+        <item>კონტაქტების წაკითხვა</item>
+        <item>კონტაქტების შეცვლა</item>
+        <item>ზარების ჟურნალის წაკითხვა</item>
+        <item>ზარების ჟურნალის შეცვლა</item>
+        <item>კალენდრის წაკითხვა</item>
+        <item>კალენდრის შეცვლა</item>
+        <item>wi-fi სკანირება</item>
+        <item>შეტყობინება</item>
+        <item>ფიჭური კავშირის სკანირება</item>
+        <item>ზარი ტელეფონზე</item>
+        <item>SMS-ის წაკითხვა</item>
+        <item>SMS-ის ჩაწერა</item>
+        <item>SMS-ის მიღება</item>
+        <item>საგანგებო SMS-ის მიღება</item>
+        <item>MMS-ის მიღება</item>
+        <item>WAP Push ტექნოლოგიის მიღება</item>
+        <item>SMS-ის გაგზავნა</item>
+        <item>ICC SMS-ის წაკითხვა</item>
+        <item>ICC SMS-ის ჩაწერა</item>
+        <item>პარამეტრების შეცვლა</item>
+        <item>შედგენა ზემოთ</item>
+        <item>წვდომა შეტყობინებებზე</item>
+        <item>კამერა</item>
+        <item>აუდიოს ჩაწერა</item>
+        <item>აუდიოს დაკვრა</item>
+        <item>გაცვლის ბუფერის წაკითხვა</item>
+        <item>გაცვლის ბუფერის შეცვლა</item>
+        <item>მედიის ღილაკები</item>
+        <item>აუდიო ფოკუსი</item>
+        <item>ძირითადი ხმა</item>
+        <item>ხმის სიძლიერე</item>
+        <item>ზარის ხმის სიძლიერე</item>
+        <item>მედიის ხმის სიძლიერე</item>
+        <item>სიგნალის ხმის სიძლიერე</item>
+        <item>შეტყობინების ხმის სიძლიერე</item>
+        <item>Bluetooth-ის ხმის სიძლიერე</item>
+        <item>დარჩეს აქტიური</item>
+        <item>მდებარეობის მონიტორინგი</item>
+        <item>მაღალი სიძლიერის მდებარეობების მონიტორინგი</item>
+        <item>გამოყენების სტატისტიკის მიღება</item>
+        <item>მიკროფონის ხმის გამორთვა/ჩართვა</item>
+        <item>პროექტის მედია</item>
+        <item>VPN-ის გააქტიურება</item>
+        <item>ფონის ჩაწერა</item>
+        <item>დახმარების სტრუქტურა</item>
+        <item>დახმარების ეკრანის ანაბეჭდი</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>მდებარეობა</item>
+        <item>მდებარეობა</item>
+        <item>მდებარეობა</item>
+        <item>ვიბრირება</item>
+        <item>კონტაქტების წაკითხვა</item>
+        <item>კონტაქტების შეცვლა</item>
+        <item>ზარების ჟურნალის წაკითხვა</item>
+        <item>ზარების ჟურნალის შეცვლა</item>
+        <item>კალენდრის წაკითხვა</item>
+        <item>კალენდრის შეცვლა</item>
+        <item>მდებარეობა</item>
+        <item>შეტყობინების გამოქვეყნება</item>
+        <item>მდებარეობა</item>
+        <item>ზარი ტელეფონზე</item>
+        <item>SMS/MMS-ის წაკითხვა</item>
+        <item>SMS/MMS-ის ჩაწერა</item>
+        <item>SMS/MMS-ის მიღება</item>
+        <item>SMS/MMS-ის მიღება</item>
+        <item>SMS/MMS-ის მიღება</item>
+        <item>SMS/MMS-ის მიღება</item>
+        <item>SMS/MMS-ის გაგზავნა</item>
+        <item>SMS/MMS-ის წაკითხვა</item>
+        <item>SMS/MMS-ის ჩაწერა</item>
+        <item>პარამეტრების შეცვლა</item>
+        <item>შედგენა ზემოთ</item>
+        <item>წვდომა შეტყობინებებზე</item>
+        <item>კამერა</item>
+        <item>აუდიოს ჩაწერა</item>
+        <item>აუდიოს დაკვრა</item>
+        <item>გაცვლის ბუფერის წაკითხვა</item>
+        <item>გაცვლის ბუფერის შეცვლა</item>
+        <item>მედიის ღილაკები</item>
+        <item>აუდიო ფოკუსი</item>
+        <item>ძირითადი ხმა</item>
+        <item>ხმის სიძლიერე</item>
+        <item>ზარის ხმის სიძლიერე</item>
+        <item>მედიის ხმის სიძლიერე</item>
+        <item>სიგნალის ხმის სიძლიერე</item>
+        <item>შეტყობინების ხმის სიძლიერე</item>
+        <item>Bluetooth-ის ხმის სიძლიერე</item>
+        <item>დარჩეს აქტიური</item>
+        <item>მდებარეობა</item>
+        <item>მდებარეობა</item>
+        <item>გამოყენების სტატისტიკის მიღება</item>
+        <item>მიკროფონის ხმის გამორთვა/ჩართვა</item>
+        <item>პროექტის მედია</item>
+        <item>VPN-ის გააქტიურება</item>
+        <item>ფონის ჩაწერა</item>
+        <item>დახმარების სტრუქტურა</item>
+        <item>დახმარების ეკრანის ანაბეჭდი</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>მოკლე</item>
+        <item>საშუალო</item>
+        <item>გრძელი</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>ნაგულისხმევი</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif შეკუმშული</item>
+        <item>Serif</item>
+        <item>Serif</item>
+        <item>თავისუფალი</item>
+        <item>ჩვეულებრივი</item>
+        <item>კურსივი</item>
+        <item>პატარა მთავრულები</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>ძალიან პატარა</item>
+        <item>პატარა</item>
+        <item>ჩვეულებრივი</item>
+        <item>დიდი</item>
+        <item>ძალიან დიდი</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>ნაგულისხმევი</item>
+        <item>არცერთი</item>
+        <item>კონტური</item>
+        <item>ჩრდილი</item>
+        <item>ამაღლებული</item>
+        <item>დაკლებული</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25 %</item>
+        <item>50 %</item>
+        <item>75 %</item>
+        <item>100 %</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>აპის ნაგულისხმევი პარამეტრები</item>
+        <item>თეთრი შავზე</item>
+        <item>შავი თეთრზე</item>
+        <item>ყვითელი შავზე</item>
+        <item>ყვითელი ლურჯზე</item>
+        <item>მორგებული</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN წინასწარი გასაღებით</item>
+        <item>L2TP/IPSec VPN სერტიფიკატებით</item>
+        <item>IPSec VPN წინასწარი გასაღებით და Xauth ავტორიზაციით</item>
+        <item>IPSec VPN სერტიფიკატებით და Xauth ავტორიზაციით</item>
+        <item>IPSec VPN სერტიფიკატებით და ჰიბრიდული ავტორიზაციით</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>გათიშულია</item>
+        <item>ინიციალიზაცია…</item>
+        <item>დაკავშირება…</item>
+        <item>დაკავშირებულია</item>
+        <item>ლოდინის დრო</item>
+        <item>ვერ შესრულდა</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>WAPI PSK თექვსმეტობითი</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>გამორთვა</item>
+        <item>მუსიკა</item>
+        <item>ფილმი</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>1 მომხმარებელი</item>
+        <item>2 მომხმარებელი</item>
+        <item>3 მომხმარებელი</item>
+        <item>4 მომხმარებელი</item>
+        <item>5 მომხმარებელი</item>
+        <item>6 მომხმარებელი</item>
+        <item>7 მომხმარებელი</item>
+        <item>8 მომხმარებელი</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>სუბ. 1</item>
+        <item>სუბ. 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>კითხვა</item>
+        <item>არასდროს ჰქონდეს ნება</item>
+        <item>ყოველთვის მიეცი ნებართვა</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ჩვეულებრივი</item>
+        <item>საშუალო</item>
+        <item>დაბალი</item>
+        <item>კრიტიკული</item>
+        <item>უცნობი</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ჩვეულებრივი</item>
+        <item>საშუალო</item>
+        <item>დაბალი</item>
+        <item>კრიტიკული</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>მუდმივი</item>
+        <item>ტოპ აქტივობა</item>
+        <item>მნიშვნელოვანი (წინა პლანი)</item>
+        <item>მნიშვნელოვანი (ფონი)</item>
+        <item>დარეზერვება</item>
+        <item>მძიმე წონა</item>
+        <item>სერვისი (გაშვებული)</item>
+        <item>სერვისი (გადატვირთვა)</item>
+        <item>მიმღები</item>
+        <item>საწყისი</item>
+        <item>ბოლო აქტივობა</item>
+        <item>ქეშირებული (აქტივობა)</item>
+        <item>ქეშირებული (აქტივობის კლიენტი)</item>
+        <item>ქეშირებული (ცარიელი)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>ზურმუხტისფერი</item>
+        <item>ლურჯი</item>
+        <item>მუქი ლურჯი</item>
+        <item>მეწამული</item>
+        <item>ვარდისფერი</item>
+        <item>წითელი</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>ავტომატური</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>ავტომატური დაკავშირება</item>
+        <item>ხელით დაკავშირება</item>
+        <item>ყოველთვის მკითხეთ</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 წუთი</item>
+        <item>15 წუთი</item>
+        <item>30 წუთი</item>
+        <item>1 საათი</item>
+        <item>ყოველთვის</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>გამშვები</item>
+        <item>ზარი</item>
+        <item>მიმოწერა</item>
+        <item>კამერა</item>
+        <item>გალერეა</item>
+        <item>მუსიკა</item>
+        <item>ელფოსტა</item>
+        <item>ბრაუზერი</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>პატარა</item>
+        <item>საშუალო</item>
+        <item>დიდი</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>ელ-კვების ელემენტის პიქტოგრამის შემდეგ</item>
+        <item>ელ-კვების ელემენტის პიქტოგრამაზე</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>არ გამოჩნდეს</item>
+        <item>პიქტოგრამის გვერდით</item>
+        <item>პიქტოგრამაზე</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>1 წუთი</item>
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>10 წუთი</item>
+        <item>არასოდეს</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>მხოლოდ ერთხელ</item>
+        <item>ორშაბათიდან პარასკევამდე</item>
+        <item>სამუშაო დღეები (დასვენების დღეების გამოტოვება)</item>
+        <item>ყოველდღე</item>
+        <item>მორგებული</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>ორშაბათი</item>
+        <item>სამშაბათი</item>
+        <item>ოთხშაბათი</item>
+        <item>ხუთშაბათი</item>
+        <item>პარასკევი</item>
+        <item>შაბათი</item>
+        <item>კვირა</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>ჩართვა ადგილობრივი ქსელებისთვის</item>
+        <item>ჩართვა ადგილობრივი და როუმინგის ქსელებისთვის</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>Google</item>
+        <item>China Mobile</item>
+        <item>სხვა</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>ორშაბათიდან პარასკევამდე</item>
+        <item>შაბათი, კვირა</item>
+        <item>ყოველდღე</item>
+        <item>მორგებული</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>ყველა ქსელი (ზრდის მონაცემთა მოხმარებას)</item>
+        <item>მხოლოდ Wi-Fi-თ</item>
+        <item>არასოდეს</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>ყველა ქსელი</item>
+        <item>მხოლოდ Wi-Fi-თ</item>
+        <item>არასოდეს</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>პიქტოგრამები</item>
+        <item>ნომრები</item>
+        <item>არცერთი</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>ნაგულ.</item>
+        <item>თეთრი შავზე</item>
+        <item>შავი თეთრზე</item>
+        <item>ყვითელი შავზე</item>
+        <item>ყვითელი ლურჯზე</item>
+        <item>მორგებული</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>სასურველია Wi‑Fi</item>
+        <item>სასურველია ფიჭური ინტერნეტი</item>
+        <item>მხოლოდ Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>სასურველია Wi-Fi</item>
+        <item>სასურველია ფიჭური ინტერნეტი</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>ზარის მელოდია</item>
+        <item>ლოკალური მუსიკა</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>უპირატესია Wi-Fi</item>
+        <item>უპირატესია მობილური მონაცემები</item>
+        <item>მხოლოდ Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>უპირატესია Wi-Fi</item>
+        <item>უპირატესია მობილური მონაცემები</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>უპირატესია Wi-Fi</item>
+        <item>სასურველია მობილური ქსელი</item>
+        <item>სასურველია 4G ქსელი</item>
+        <item>მხოლოდ Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>უპირატესია Wi-Fi</item>
+        <item>სასურველია მობილური ქსელი</item>
+        <item>სასურველია 4G ქსელი</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>უპირატესია Wi-Fi</item>
+        <item>სასურველია 4G ქსელი</item>
+        <item>მხოლოდ Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>უპირატესია Wi-Fi</item>
+        <item>სასურველია 4G ქსელი</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>10 წამი</item>
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>1 წუთი</item>
+        <item>2 წუთი</item>
+        <item>5 წუთი</item>
+        <item>10 წუთი</item>
+        <item>30 წუთი</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>არა-აქტიურობის 5 წუთი</item>
+        <item>არა-აქტიურობის 10 წუთი</item>
+        <item>ყოველთვის ჩართვა</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>5 წუთის შემდეგ</item>
+        <item>10 წუთის შემდეგ</item>
+        <item>ყოველთვის ჩართვა</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>PPTP VPN</item>
+        <item>L2TP</item>
+        <item>L2TP/IPSec VPN წინასწარი გასაღებით</item>
+        <item>L2TP/IPSec VPN სერტიფიკატებით</item>
+        <item>IPSec VPN წინასწარი გასაღებით და Xauth ავტორიზაციით</item>
+        <item>IPSec VPN სერტიფიკატებით და Xauth ავტორიზაციით</item>
+        <item>IPSec VPN სერტიფიკატებით და ჰიბრიდული ავტორიზაციით</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 წამი</item>
+        <item>30 წამი</item>
+        <item>60 წამი</item>
+        <item>90 წამი</item>
+        <item>120 წამი</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>ტიპი 1</item>
+        <item>ტიპი 2</item>
+        <item>ტიპი 3</item>
+        <item>ტიპი 4</item>
+        <item>ტიპი 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>პეკინის დრო</item>
+        <item>ადგილობრივი დრო</item>
+    </string-array>
+    <string-array name="display_mode_entries_special">
+        <item>კომპაქტური</item>
+        <item>პატარა</item>
+        <item>სტანდარტული</item>
+        <item>მასშტაბ.</item>
+    </string-array>
+</resources>

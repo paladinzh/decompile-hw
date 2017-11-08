@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <SearchView android:id="@+id/search" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_result_textview" android:paddingTop="10dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAllCaps="true" android:paddingStart="16dp" android:paddingEnd="16dp" style="?unknown_attr_ref: 1010208" />
+    <ListView android:id="@+id/list_search" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/empty_search" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="24dp" android:layout_marginEnd="24dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_app_icon" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginBottom="1dp" android:src="@drawable/ic_search_emptypage" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/empty_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Security_Patch_No_Match" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Security_Patch_Input_Wrong_Tip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <huawei.android.widget.SubTabWidget android:id="@+id/subTab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@+id/warning_layout" layout="@layout/common_warning_layout" />
+    <android.support.v4.view.ViewPager android:id="@+id/interception_records_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

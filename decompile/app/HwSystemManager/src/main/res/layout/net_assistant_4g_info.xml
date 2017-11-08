@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/empty_view" android:layout="@layout/netassistant_4ginfo_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/netassistant_month_explain" android:text="@string/netassistant_month_explain_4g" android:fontFamily="chnfzxh" style="@style/list_item_description_style" />
+    <View android:id="@+id/divline_month_explain" style="@style/divider_line" />
+    <ListView android:id="@+id/net_assistant_4g_info" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/rImageFrame" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@+id/sending_layout" android:paddingLeft="@dimen/message_item_text_padding_left_right" android:paddingTop="@dimen/message_item_text_padding_top" android:paddingRight="@dimen/message_item_text_padding_left_right" android:layout_width="UNKNOWN_DATA_0x14001" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_margin="0dp"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/fileTransfer_image_frame" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x14001" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_margin="0dp">
+            <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/fileTransfer_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:adjustViewBounds="true" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

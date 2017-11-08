@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <transition android:interpolator="0x10c000e" android:duration="500" android:slideEdge="bottom" class="android.support.v17.leanback.transition.SlideNoPropagation">
+        <targets>
+            <target android:excludeId="@r$id/title_badge" />
+            <target android:excludeId="@r$id/title_text" />
+            <target android:excludeId="@r$id/title_orb" />
+        </targets>
+    </transition>
+    <fade android:interpolator="0x10c000e" android:duration="350" />
+</transitionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/single_hand_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/singlehandmode_click_hint_message" android:key="single_hand_screen_zoom_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SingleHandScreenZoomSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/single_hand_keyboard_title" android:key="single_hand_keyboard" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SingleHandeSettingsActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

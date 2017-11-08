@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.networkspeed.NetworkSpeedView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/network_speed_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="4dp" android:paddingEnd="2dp">
+    <com.android.systemui.tint.TintTextView android:textAppearance="@style/network_speed" android:textSize="12dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/speed" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:fontFamily="@string/font_roboto_regular" />
+</com.android.systemui.networkspeed.NetworkSpeedView>

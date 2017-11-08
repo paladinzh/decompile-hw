@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:persistent="false" android:title="@string/wifi_tether_checkbox_text" android:key="wifi_ap_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$WifiApSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/wifi_tether_bridge_checkbox_text" android:key="wifi_bridge_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.WIFI_BRIDGE_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="wifiap_settings">
+        <com.android.settings.CustomSwitchPreference android:title="@string/bluetooth_tether_checkbox_text" android:key="enable_bluetooth_tethering" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/usb_tethering_button_text" android:key="usb_tether_settings" />
+        <com.android.settings.DividerPreference android:selectable="false" android:key="disabled_on_data_saver" android:summary="@string/tether_settings_disabled_on_data_saver" settings:allowDividerAbove="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

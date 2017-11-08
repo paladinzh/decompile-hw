@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.systemmanager.spacecleanner.view.SquareImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="0x0" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/play_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_spacemanager_play" android:scaleType="center" android:contentDescription="0x0" />
+    <com.huawei.systemmanager.spacecleanner.view.SquareImageView android:id="@+id/shadow" android:background="@color/space_manager_squareimageview_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:contentDescription="0x0" />
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/checkbox_area" android:paddingTop="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10dp">
+        <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

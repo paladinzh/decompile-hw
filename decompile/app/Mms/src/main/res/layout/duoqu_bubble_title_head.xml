@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/duoqu_code_bubble_head" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/duoqu_part_head_pading_left_right" android:paddingEnd="@dimen/duoqu_part_head_pading_left_right">
+    <RelativeLayout android:id="@+id/duoqu_code_head_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/duoqu_part_head_pading_top" android:layout_marginBottom="@dimen/duoqu_part_head_pading_bottom">
+        <TextView android:textSize="@dimen/duoqu_part_head_title_size" android:textColor="@color/duoqu_theme_color_3010" android:id="@+id/duoqu_head_main_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_centerVertical="true" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/duoqu_head_list_select_linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/duoqu_part_head_title_pading_left" android:layout_toEndOf="@+id/duoqu_head_main_title">
+            <TextView android:textSize="@dimen/duoqu_part_head_title_size" android:textColor="@color/duoqu_theme_color_3010" android:id="@+id/duoqu_head_list_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <ImageView android:id="@+id/duoqu_head_list_select_iction" android:layout_width="UNKNOWN_DATA_0x7f0a0004" android:layout_height="UNKNOWN_DATA_0x7f0a0004" android:layout_marginStart="@dimen/duoqu_part_head_title_pading_left" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/duoqu_part_head_satate_size" android:textColor="@color/duoqu_theme_color_3010" android:id="@+id/duoqu_head_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/duoqu_head_list_sec_title_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.5dp">
+        <TextView android:textSize="@dimen/duoqu_part_head_subtitle_size_normal" android:textColor="@color/duoqu_theme_color_3010" android:id="@+id/duoqu_head_sub_title_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+        <View android:id="@+id/duoqu_head_sub_title_2_space" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a000d" />
+        <TextView android:textSize="@dimen/duoqu_part_head_subtitle_size_normal" android:textColor="@color/duoqu_theme_color_3010" android:id="@+id/duoqu_head_sub_title_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

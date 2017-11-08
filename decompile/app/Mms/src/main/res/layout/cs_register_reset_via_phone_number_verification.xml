@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/CS_background" android:paddingLeft="@dimen/cs_page_padding_layout" android:paddingTop="@dimen/cs_page_padding_top" android:paddingRight="@dimen/cs_page_padding_layout" android:paddingBottom="@dimen/cs_page_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/cs_page_padding_layout" android:paddingEnd="@dimen/cs_page_padding_layout">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:paddingLeft="@dimen/cs_page_padding_scrollView" android:paddingRight="@dimen/cs_page_padding_scrollView" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:paddingStart="@dimen/cs_page_padding_scrollView" android:paddingEnd="@dimen/cs_page_padding_scrollView">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cs_edittext_button_margin">
+                <include layout="@layout/cs_verification_auto" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/receive_msg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/cs_checkbox_min_auto" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:paddingLeft="@dimen/cs_page_padding_scrollView" android:paddingRight="@dimen/cs_page_padding_scrollView" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/cs_page_padding_scrollView" android:paddingEnd="@dimen/cs_page_padding_scrollView">
+        <include layout="@layout/cs_button_auto" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/spaceclean_expand_list_item_twolines_tip_lock_image_summary_checkbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/expandlist_item_padding_start_start_emui" android:paddingEnd="@dimen/list_item_padding_start_end_emui">
+    <com.huawei.systemmanager.spacecleanner.view.FrameBorderImageView android:id="@+id/image" android:layout_width="UNKNOWN_DATA_0x7f0a0048" android:layout_height="UNKNOWN_DATA_0x7f0a0049" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_alignParentStart="true" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/list_item_summary" android:layout_toEndOf="@+id/image" layout="@layout/simple_list_item_twolines_tip_lock" />
+    <RelativeLayout android:id="@+id/indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <com.huawei.systemmanager.spacecleanner.view.EnsureCheckBox android:id="@+id/list_item_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@+id/imageview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_scan_finish" android:contentDescription="@string/image_view_content" />
+    </RelativeLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/indicator_container" layout="@layout/common_list_item_summary" />
+</RelativeLayout>

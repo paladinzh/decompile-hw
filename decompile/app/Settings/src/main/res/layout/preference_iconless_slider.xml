@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip">
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="@dimen/preference_item_title_size" android:textColor="?android:textColorPrimary" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <SeekBar android:layout_gravity="center_vertical" android:id="@android:id/seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

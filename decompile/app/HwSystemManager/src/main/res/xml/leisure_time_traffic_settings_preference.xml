@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="harassment_settings">
+    <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/leisure_time_traffic_settings" androidhwext:key="leisure_time_traffic_switch" androidhwext:defaultValue="fasle" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic_switch" />
+    <TextArrowPreference androidhwext:title="@string/leisure_time_traffic_size" androidhwext:key="leisure_time_traffic_size" androidhwext:widgetLayout="0x2070013" androidhwext:dependency="leisure_time_traffic_switch" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic_size" />
+    <TextArrowPreference androidhwext:title="@string/leisure_time_traffic_start_time" androidhwext:key="leisure_time_traffic_start_time" androidhwext:widgetLayout="0x2070013" androidhwext:dependency="leisure_time_traffic_switch" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic_start_time" />
+    <TextArrowPreference androidhwext:title="@string/leisure_time_traffic_end_time" androidhwext:key="leisure_time_traffic_end_time" androidhwext:widgetLayout="0x2070013" androidhwext:dependency="leisure_time_traffic_switch" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic_end_time" />
+    <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/leisure_time_traffic_notify_switch" androidhwext:key="leisure_time_traffic_notify_switch" androidhwext:dependency="leisure_time_traffic_switch" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic_notify_switch" />
+</PreferenceScreen>

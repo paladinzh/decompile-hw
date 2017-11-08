@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/attachment_selector" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/vcalendar_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="14sp" android:textColor="#ff000000" android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/vcalendar_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

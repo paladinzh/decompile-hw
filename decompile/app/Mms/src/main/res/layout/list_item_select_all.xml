@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp"
+    <RelativeLayout android:id="@+id/select_all" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:paddingStart="6dp" android:paddingEnd="6dp" style="?unknown_attr_ref: 101032f">
+        <TextView android:textSize="@dimen/multi_choicd_mode_text_size" android:textColor="@color/text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/all" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a01e0" android:text="@string/select_all_title" android:layout_alignParentStart="true" />
+        <CheckBox android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/select" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a01e0" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x73333331" android:layout_alignBottom="@+id/select_all" />
+</RelativeLayout>

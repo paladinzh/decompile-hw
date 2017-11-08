@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.deskclock" custom:layout_width="wrap_content" custom:layout_height="wrap_content">
+    <LinearLayout custom:gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:orientation="vertical" custom:id="@id/time_show" custom:layout_width="match_parent" custom:layout_height="match_parent">
+        <RelativeLayout custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/cur_time" custom:layout_width="match_parent" custom:layout_height="wrap_content">
+            <com.android.alarmclock.WorldAnalogClock custom:id="@id/analog_clock" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:dial="@drawable/img_clock_worldclock_dial_light" custom:hand_hour="@drawable/img_clock_worldclock_dial_hourhand_light" custom:hand_minute="@drawable/img_clock_worldclock_dial_minutehand_light" custom:layout_centerInParent="true" custom:analogClockMode="0" />
+            <com.android.deskclock.DigitalClock custom:id="@id/digital_clock" custom:paddingBottom="2dp" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_centerInParent="true" custom:clockMode="0" custom:fontType="0" custom:formatTime="1">
+                <LinearLayout custom:orientation="horizontal" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layoutDirection="ltr" custom:layout_alignParentStart="true">
+                    <TextView custom:textSize="13dp" custom:ellipsize="end" custom:id="@id/digital_left_ampm" custom:paddingBottom="13dp" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" />
+                    <TextView custom:textSize="60dp" custom:ellipsize="end" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/digital_full_time" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" custom:fontFamily="sans-serif-thin" />
+                    <TextView custom:textSize="13dp" custom:ellipsize="end" custom:id="@id/digital_right_ampm" custom:paddingBottom="13dp" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" />
+                </LinearLayout>
+            </com.android.deskclock.DigitalClock>
+        </RelativeLayout>
+        <RelativeLayout custom:id="@id/cur_timezone_date" custom:paddingTop="8dp" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginStart="@dimen/world_clock_head_item_timezone_margin" custom:layout_marginEnd="@dimen/world_clock_head_item_timezone_margin">
+            <TextView custom:textSize="15dp" custom:ellipsize="end" custom:id="@id/cur_timezone" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:singleLine="true" custom:layout_centerHorizontal="true" custom:fontFamily="HwChinese-medium" />
+            <TextView custom:textSize="13dp" custom:ellipsize="end" custom:id="@id/cur_date_time" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginTop="2dp" custom:singleLine="true" custom:layout_below="@id/cur_timezone" custom:layout_centerHorizontal="true" custom:alpha="0.5" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

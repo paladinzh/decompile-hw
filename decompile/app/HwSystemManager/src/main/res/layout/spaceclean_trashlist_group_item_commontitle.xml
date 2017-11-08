@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+        <TextView android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250dp" android:text="@string/simple_text_stub" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/ListviewItemTextPrimary" />
+        <TextView android:textSize="@dimen/space_cleaner_group_title_count_font_size" android:textColor="@color/space_cleaner_group_title_count_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/number" android:background="@drawable/pic_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="50dp" android:text="@string/simple_text_stub" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="2dp" android:paddingEnd="2dp" android:layout_marginStart="5dp" android:layout_toEndOf="@+id/title" />
+    </RelativeLayout>
+    <TextView android:id="@+id/total_Size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simple_text_stub" style="@style/ListviewItemTextSecondary" />
+</LinearLayout>

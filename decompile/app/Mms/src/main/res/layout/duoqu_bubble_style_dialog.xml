@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/privacy_agree_id" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/contact_info_panel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <ImageView android:id="@+id/duoqu_normal_style_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duoqu_style_dialog_left" android:layout_weight="1.0" android:contentDescription="@string/duoqu_normal_style" />
+        <ImageView android:id="@+id/duoqu_bubble_style_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duoqu_style_dialog_right" android:layout_weight="1.0" android:contentDescription="@string/duoqu_bubble_style" />
+    </LinearLayout>
+    <RadioGroup android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/duoqu_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/contact_info_panel">
+        <RadioButton android:textSize="13sp" android:textColor="@color/duoqu_bubble_style_text_color" android:id="@+id/duoqu_normal_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp" android:text="@string/duoqu_normal_style" android:layout_weight="1.0" android:paddingStart="10dp" android:layout_marginStart="20dp" />
+        <RadioButton android:textSize="13sp" android:textColor="@color/duoqu_bubble_style_text_color" android:id="@+id/duoqu_bubble_style" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="36dp" android:text="@string/duoqu_bubble_style" android:layout_weight="1.0" android:paddingStart="10dp" android:layout_marginStart="20dp" />
+    </RadioGroup>
+</RelativeLayout>

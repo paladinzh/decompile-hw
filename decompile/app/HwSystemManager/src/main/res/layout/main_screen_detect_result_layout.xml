@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" ratio:orientation="vertical" ratio:id="@+id/contaner_optimize" ratio:layout_width="match_parent" ratio:layout_height="match_parent"
+    <RelativeLayout ratio:id="@+id/contaner_start" ratio:layout_width="match_parent" ratio:layout_height="match_parent">
+        <com.huawei.systemmanager.mainscreen.view.CustomLayout ratio:id="@+id/upper_layout_optimize" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:width_weight="4" ratio:height_weight="3" ratio:height_offset="?unknown_attr_ref: 10102eb">
+            <View ratio:layout_alignParentBottom="true" style="@style/divider_line" />
+            <TextView ratio:textSize="15sp" ratio:id="@+id/indicate_optimize" ratio:layout_width="wrap_content" ratio:layout_height="wrap_content" ratio:layout_marginBottom="@dimen/hsm_nuoyi_circleinfo_marginbottom" ratio:text="@string/space_optimize_info" ratio:layout_alignParentBottom="true" ratio:layout_centerHorizontal="true" />
+            <include ratio:id="@+id/circle_layout_optimize" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_above="@+id/indicate_optimize" layout="@layout/main_screen_main_view_circle_layout_optimize" />
+        </com.huawei.systemmanager.mainscreen.view.CustomLayout>
+        <RelativeLayout ratio:id="@+id/btn_container" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:layout_marginTop="16dp" ratio:layout_marginBottom="16dp" ratio:layout_alignParentBottom="true">
+            <Button ratio:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ratio:id="@+id/complete_btn" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:text="@string/main_screen_detect_btn_cancel" ratio:layout_centerInParent="true" ratio:fontFamily="chnfzxh" ratio:layout_marginStart="@dimen/main_scan_btn_layout_margin" ratio:layout_marginEnd="@dimen/main_scan_btn_layout_margin" />
+        </RelativeLayout>
+        <include ratio:id="@+id/container" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_above="@+id/btn_container" ratio:layout_below="@+id/upper_layout_optimize" layout="@layout/main_screen_optimize_process_content" />
+    </RelativeLayout>
+    <RelativeLayout ratio:orientation="vertical" ratio:id="@+id/contaner_end" ratio:visibility="gone" ratio:layout_width="match_parent" ratio:layout_height="match_parent"
+        <RelativeLayout ratio:id="@+id/btn_container_end" ratio:visibility="gone" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:layout_marginTop="16dp" ratio:layout_marginBottom="16dp" ratio:layout_alignParentBottom="true">
+            <Button ratio:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ratio:id="@+id/complete_btn_end" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:text="@string/main_screen_detect_btn_cancel" ratio:layout_centerInParent="true" ratio:fontFamily="chnfzxh" ratio:layout_marginStart="@dimen/main_scan_btn_layout_margin" ratio:layout_marginEnd="@dimen/main_scan_btn_layout_margin" />
+        </RelativeLayout>
+        <ScrollView ratio:id="@+id/scroll_view_end" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_above="@+id/btn_container_end">
+            <LinearLayout ratio:orientation="vertical" ratio:id="@+id/scroll_view_end_content" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:layout_marginTop="@dimen/scroll_view_end_content_margin_top" />
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>

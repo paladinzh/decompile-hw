@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSDetailItems xmlns:android="http://schemas.android.com/apk/res-auto" sysui:paddingTop="@dimen/qs_detail_items_padding_top" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:paddingStart="16dp" sysui:paddingEnd="16dp">
+    <com.android.systemui.qs.AutoSizingList sysui:orientation="vertical" sysui:id="0x102000a" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:itemHeight="@dimen/qs_detail_item_height" />
+    <LinearLayout sysui:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sysui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" sysui:orientation="vertical" sysui:id="0x1020004" sysui:layout_width="wrap_content" sysui:layout_height="wrap_content">
+        <ImageView sysui:id="0x1020006" sysui:layout_width="UNKNOWN_DATA_0x3801" sysui:layout_height="UNKNOWN_DATA_0x3801" />
+        <TextView sysui:textAppearance="@style/TextAppearance.QS.DetailEmpty" sysui:id="0x1020016" sysui:layout_width="wrap_content" sysui:layout_height="wrap_content" sysui:layout_marginTop="20dp" />
+    </LinearLayout>
+</com.android.systemui.qs.QSDetailItems>

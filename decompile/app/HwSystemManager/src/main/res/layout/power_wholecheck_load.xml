@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/scroll_view_load" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/power_optimize_load_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:id="@+id/power_wholecheck_close_bgApps_item" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/power_whole_check_load_small_mode" android:layout_marginBottom="@dimen/power_whole_check_load_small_mode" android:maxWidth="250dp" android:text="@string/power_wholecheck_close_bgApps_item" android:layout_weight="2.0" android:lineSpacingMultiplier="1.1" android:paddingStart="24dp" />
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/end_icon_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4dp" android:paddingEnd="24dp">
+                <com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeItemRollingView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/bg_consume_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:id="@+id/optimized_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/power_whole_check_load_small_mode" android:layout_marginBottom="@dimen/power_whole_check_load_small_mode" android:maxWidth="250dp" android:text="@string/power_wholecheck_optimized_settings_item" android:layout_weight="2.0" android:lineSpacingMultiplier="1.1" android:paddingStart="24dp" />
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4dp" android:paddingEnd="24dp">
+                <com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeItemRollingView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/optimized_items_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:id="@+id/manualTitle" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/power_whole_check_load_small_mode" android:layout_marginBottom="@dimen/power_whole_check_load_small_mode" android:maxWidth="250dp" android:text="@string/power_wholecheck_manual_optimized_item" android:layout_weight="2.0" android:lineSpacingMultiplier="1.1" android:paddingStart="24dp" />
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4dp" android:paddingEnd="24dp">
+                <com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeItemRollingView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/manual_items_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:id="@+id/bestSavingTitle" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/power_whole_check_load_small_mode" android:layout_marginBottom="@dimen/power_whole_check_load_small_mode" android:maxWidth="250dp" android:text="@string/power_wholecheck_best_saving_item" android:layout_weight="2.0" android:lineSpacingMultiplier="1.1" android:paddingStart="24dp" />
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="4dp" android:paddingEnd="24dp">
+                <com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeItemRollingView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/bestsaving_items_success" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

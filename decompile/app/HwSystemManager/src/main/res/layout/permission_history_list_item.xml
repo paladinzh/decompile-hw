@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/indicate_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@+id/icon" android:layout_width="UNKNOWN_DATA_0x7f0a0014" android:layout_height="UNKNOWN_DATA_0x7f0a0014" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginStart="16dp" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/indicate_arrow" android:layout_toEndOf="@+id/icon">
+        <TextView android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simple_text_stub" style="@style/ListviewItemTextPrimary" />
+        <TextView android:ellipsize="end" android:id="@+id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simple_text_stub" style="@style/ListviewItemTextSecondary" />
+    </LinearLayout>
+</RelativeLayout>

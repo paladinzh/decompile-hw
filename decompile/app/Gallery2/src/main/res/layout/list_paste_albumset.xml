@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gallery_statelist_view" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@id/list_item_content" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d009c" android:layout_alignParentBottom="true">
+        <com.android.gallery3d.ui.MultiImageView android:id="@id/album_cover_image" style="@style/multi_image_view_default" />
+        <ImageView android:id="@id/frame_overlay_mask" android:background="@drawable/bg_frame_bottom" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x4401" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_marginBottom="4dp" android:layout_alignBottom="@id/album_cover_image" android:layout_alignStart="@id/album_cover_image" />
+        <ImageView android:id="@id/frame_overlay_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_alignBottom="@id/album_cover_image" android:layout_marginStart="4dp" android:layout_alignStart="@id/album_cover_image" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/albumset_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toStartOf="@id/right_icons" android:layout_toEndOf="@id/album_cover_image">
+            <TextView android:textSize="14sp" android:ellipsize="end" android:id="@id/album_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:alpha="@dimen/textview_text_alpha_high" />
+            <TextView android:textSize="11sp" android:ellipsize="end" android:id="@id/photo_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/album_name" android:alpha="@dimen/textview_text_alpha_middle" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/list_item_shadow" android:background="@drawable/hw_graphics_list_item_shadow" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5401" android:alpha="0.0" />
+</FrameLayout>

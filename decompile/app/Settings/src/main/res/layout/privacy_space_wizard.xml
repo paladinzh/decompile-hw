@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/help_text_margin_top" android:layout_weight="1.0">
+        <TextView android:textColor="@color/emui_secondary_text" android:id="@android:id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_space_introduction" android:lineSpacingMultiplier="@dimen/help_text_line_spacing_multiplier" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end" />
+    </ScrollView>
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="300.0dip" android:layout_marginTop="@dimen/help_text_margin_top" />
+    <com.android.settings.views.pagerHelper.PagerHelperSpotsView android:layout_gravity="center_horizontal" android:id="@id/nav_spots_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="16.0dip" />
+    <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" />
+    <FrameLayout android:id="@id/button_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/button_bar" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/search_result_item_image_size" android:layout_height="@dimen/search_result_item_image_size" android:scaleType="centerInside" android:layout_marginStart="@dimen/dashboard_tile_image_margin_start" android:layout_marginEnd="@dimen/dashboard_tile_image_margin_end" />
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include android:id="@id/arrow_section" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/preference_widget_arrow" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/content_section" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_toStartOf="@id/arrow_section" android:layout_alignParentStart="true">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/title" android:bufferType="spannable" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@id/summary" android:bufferType="spannable" android:maxLines="4" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0020" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+    <View android:id="@+id/phone_space_diliver" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_centerHorizontal="true" />
+    <include android:id="@+id/inner_circle" android:layout_width="UNKNOWN_DATA_0x7f0a0146" android:layout_height="UNKNOWN_DATA_0x7f0a0146" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/spaceclear_doublecircle_deep_layout_margin" android:layout_toStartOf="@+id/phone_space_diliver" layout="@layout/spaceclean_doublecircle_normal_item" />
+    <include android:id="@+id/sdcard_circle" android:layout_width="UNKNOWN_DATA_0x7f0a0146" android:layout_height="UNKNOWN_DATA_0x7f0a0146" android:layout_alignParentTop="true" android:layout_marginStart="@dimen/spaceclear_doublecircle_deep_layout_margin" android:layout_toEndOf="@+id/phone_space_diliver" layout="@layout/spaceclean_doublecircle_normal_item" />
+</RelativeLayout>

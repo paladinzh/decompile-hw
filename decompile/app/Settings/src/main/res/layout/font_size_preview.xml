@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:id="@id/frame" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.android.settings.TouchBlockingFrameLayout">
+        <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/help_text_margin_start" android:paddingEnd="@dimen/help_text_margin_end"> /* DTS2016113002346 gugen/wx394242 20161206 begin */
+<TextView android:textAppearance="@android:style/TextAppearance.Material.Headline" android:id="@id/sample_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Title" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/preview_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:id="@id/text_body" android:layout_width="fill_parent" android:layout_height="wrap_content" /> /* DTS2016113002346 gugen/wx394242 20161206 end */
+</LinearLayout>
+    </view>
+</ScrollView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/emui_secondary_text" android:id="@id/receiver_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/display_mode_mail_receiver_title_ex" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/color_yalan" android:id="@id/receiver_title_email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/display_mode_mail_receiver_title_email" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_expand_more" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/emui_text_dark" android:id="@id/subject_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/display_mode_mail_subject_title_ex" android:fontFamily="chnfzxh" />
+        </LinearLayout>
+        <TextView android:textSize="33.0px" android:textColor="@color/emui_secondary_text" android:id="@id/sent_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/display_mode_mail_subject_date_title" android:fontFamily="chnfzxh" android:layout_marginStart="14.0dip" android:layout_marginEnd="11.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/emui_text_dark" android:id="@id/content_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/display_mode_mail_content_1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/emui_text_dark" android:id="@id/content_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/display_mode_mail_content_2" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <ImageView android:layout_width="@dimen/display_mode_pic_width" android:layout_height="@dimen/display_mode_pic_height" android:layout_marginTop="16.0dip" android:src="@drawable/display_mode_image_1" android:scaleType="fitStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <ImageView android:layout_width="@dimen/display_mode_pic_width" android:layout_height="@dimen/display_mode_pic_height" android:layout_marginTop="10.0dip" android:src="@drawable/display_mode_image_2" android:scaleType="fitStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</ScrollView>

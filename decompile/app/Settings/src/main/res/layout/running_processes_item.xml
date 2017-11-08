@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:columnCount="2" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/preference_bigger_icon_size" android:layout_height="@dimen/preference_bigger_icon_size" android:contentDescription="@null" android:layout_rowSpan="2" android:layout_marginEnd="@dimen/preference_icon_margin_end" />
+    <LinearLayout android:layout_gravity="fill_horizontal|center" android:layout_width="0.0dip">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/name" android:layout_width="0.0dip" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="fill_horizontal|center|top" android:paddingTop="2.0dip" android:layout_width="0.0dip">
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@id/description" android:layout_width="0.0dip" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/EmuiSecondaryTextFontStyle" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/uptime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+</GridLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.setupwizardlib.view.Illustration android:id="@id/suw_layout_decor" android:background="@drawable/suw_layout_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/suw_card_port_margin_sides" android:paddingRight="@dimen/suw_card_port_margin_sides" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/suw_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuwCardTitle" />
+            <FrameLayout android:background="?suwCardBackground" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:elevation="@dimen/suw_card_elevation">
+                <FrameLayout android:id="@id/suw_layout_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <include layout="@layout/suw_progress_bar_stub" />
+            </FrameLayout>
+        </LinearLayout>
+    </com.android.setupwizardlib.view.Illustration>
+    <com.android.setupwizardlib.view.NavigationBar android:id="@id/suw_layout_navigation_bar" android:layout_width="fill_parent" android:layout_height="@dimen/suw_navbar_height" style="@style/SuwNavBarTheme" />
+</LinearLayout>

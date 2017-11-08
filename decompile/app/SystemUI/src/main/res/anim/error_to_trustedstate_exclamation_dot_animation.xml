@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@interpolator/error_to_trustedstate_animation_interpolator_0" android:duration="133" android:pathData="M -0.00391,5.333 c 0.00065,-0.22217 0.00326,-1.11083 0.00391,-1.333" android:propertyXName="translateX" android:propertyYName="translateY" />
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="0x10c000b" android:duration="83" android:valueFrom="1.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="0x10c000b" android:duration="16" android:valueFrom="1.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="0x10c000b" android:duration="83" android:valueFrom="1.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="0x10c000b" android:duration="16" android:valueFrom="1.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+</set>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/previewImageLayout" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/imageView1" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+        <RelativeLayout android:id="@+id/confirmView" android:background="@drawable/rcs_ab_top_pic" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_above="@+id/previewImageLayout" android:layout_alignParentTop="true">
+            <ImageView android:id="@+id/confirm_cancel" android:background="@drawable/rcs_ic_cancel_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="15dp" />
+            <ImageView android:id="@+id/confirm_send" android:background="@drawable/rcs_ic_send_msg_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/fileInfoView" android:background="@color/gallery_foot_background_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0358" android:layout_alignParentBottom="true">
+            <RadioButton android:theme="0x20600cd" android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="false" android:layout_marginStart="16dp" android:layout_marginEnd="4dp" />
+            <TextView android:textSize="16sp" android:textColor="0x106000b" android:id="@+id/textView1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/rbtn_text_full_size" android:includeFontPadding="false" android:layout_toEndOf="@+id/imageView2" />
+        </RelativeLayout>
+        <ViewStub android:id="@+id/video_button_play" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

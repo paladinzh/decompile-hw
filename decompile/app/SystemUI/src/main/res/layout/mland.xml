@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.egg.MLand android:id="@id/world" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/welcome" android:background="#a0000000" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/play_button" android:background="@drawable/ripplebg" android:focusable="true" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="UNKNOWN_DATA_0x4801" android:onClick="startButtonPressed">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/play_button_image" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/play" android:scaleType="fitCenter" android:tint="#000000" />
+            <TextView android:textSize="40dp" android:textColor="#000000" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/play_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/player_setup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/player_minus_button" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/minus" android:scaleType="centerInside" android:onClick="playerMinus" style="@*style/Widget.Material.Button.Borderless" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/scores" android:padding="12dp" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x4001" />
+        <ImageButton android:id="@id/player_plus_button" android:padding="10dp" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/plus" android:scaleType="centerInside" android:onClick="playerPlus" style="@*style/Widget.Material.Button.Borderless" />
+    </LinearLayout>
+</FrameLayout>

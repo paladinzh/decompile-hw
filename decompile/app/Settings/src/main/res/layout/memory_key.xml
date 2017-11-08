@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@color/memory_avg_use" android:scaleType="centerInside" android:contentDescription="@null" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:id="@id/memory_avg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/memory_avg_use" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    <ImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@color/memory_max_use" android:scaleType="centerInside" android:contentDescription="@null" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:textColorSecondary" android:id="@id/memory_max" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/memory_max_use" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

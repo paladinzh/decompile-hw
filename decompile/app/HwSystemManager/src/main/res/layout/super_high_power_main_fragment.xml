@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" empty:layout_width="match_parent" empty:layout_height="match_parent">
+    <LinearLayout empty:orientation="vertical" empty:id="@+id/super_high_power_fragment_layout" empty:layout_width="match_parent" empty:layout_height="match_parent">
+        <ListView empty:scrollbarStyle="outsideOverlay" empty:id="@+id/super_high_power_list_view" empty:layout_width="match_parent" empty:layout_height="match_parent" />
+    </LinearLayout>
+    <ProgressBar empty:id="@+id/loading_progressbar" empty:layout_width="wrap_content" empty:layout_height="wrap_content" empty:layout_centerInParent="true" />
+    <com.huawei.systemmanager.power.util.EmptyViewLinearLayout empty:orientation="vertical" empty:id="@+id/no_app_layout" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:empty_src="@drawable/ic_app_emptypage" empty:empty_text="@string/super_high_power_no_apps" />
+</RelativeLayout>

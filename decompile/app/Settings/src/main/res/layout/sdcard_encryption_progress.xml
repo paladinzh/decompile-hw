@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sdcard_encryption_progress" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/circle_layout" android:layout_width="182.0dip" android:layout_height="182.0dip" android:layout_marginTop="38.0dip" android:layout_centerHorizontal="true" layout="@layout/sdcard_encryption_circle_layout_progress" />
+            <TextView android:textColor="@color/gray_7f000000" android:id="@id/sdcard_cryption_state" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:layout_below="@id/circle_layout" android:layout_centerHorizontal="true" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <TextView android:id="@id/sdcard_cryption_description" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_below="@id/sdcard_cryption_state" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.1" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button android:layout_gravity="bottom" android:id="@id/sdcard_cryption_btn" android:visibility="gone" style="@style/bottom_single_button" />
+</LinearLayout>

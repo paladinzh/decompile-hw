@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pressure_response_settings_title" android:key="pressure_response_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_shortcut_category" android:key="edge_press_category">
+        <Preference android:title="@string/pressure_edge_title" android:key="virtual_notification_key_screen" android:summary="@string/pressure_edge_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.pressure.EdgePressSettingsActivity" />
+        </Preference>
+        <Preference android:title="@string/pressure_shortcut_title" android:key="launcher_shortcut_toggle" android:summary="@string/pressure_shortcut_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.pressure.PressureLauncherShortcutActivity" />
+        </Preference>
+        <Preference android:title="@string/pressure_icon_magnify_title" android:key="picture_largen_toggle" android:summary="@string/pressure_icon_magnify_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.pressure.PicturePressSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_preview_category" android:key="pressure_preview_category">
+        <Preference android:title="@string/pressure_preview_title" android:key="pressure_preview_settings" android:summary="@string/pressure_preview_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.pressure.PressureContentPreviewActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_sensity_category" android:key="pressure_sensity_category">
+        <Preference android:title="@string/pressure_sensity_title" android:key="pressure_sensitivity_settings" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.pressure.PressureSensitySettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

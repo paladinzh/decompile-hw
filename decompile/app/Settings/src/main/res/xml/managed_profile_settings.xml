@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/managed_profile_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/work_mode_label" android:key="work_mode" android:summary="@string/work_mode_summary" />
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/managed_profile_contact_search_title" android:key="contacts_search" android:summary="@string/managed_profile_contact_search_summary" settings:useAdditionalSummary="true" />
+</PreferenceScreen>

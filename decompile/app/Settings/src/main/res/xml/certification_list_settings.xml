@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/legal_information" android:key="legal_information"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/safety_info_european_union" android:key="ce" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.SAFETY_INFO_SETTINGS">
+            <extra android:name="file_name" android:value="instance_si_phone_internet_CE.html" />
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/safety_info_european_union" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/safety_info_canada" android:key="ic" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.SAFETY_INFO_SETTINGS">
+            <extra android:name="file_name" android:value="instance_si_phone_internet_IC.html" />
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/safety_info_canada" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/safety_info_united_state" android:key="fcc" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.SAFETY_INFO_SETTINGS">
+            <extra android:name="file_name" android:value="instance_si_phone_internet_FCC.html" />
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/safety_info_united_state" />
+        </intent>
+    </Preference>
+    <Preference android:title="@string/safety_info_hac" android:key="hac" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.SAFETY_INFO_SETTINGS">
+            <extra android:name="file_name" android:value="instance_si_phone_internet_HAC.html" />
+            <extra android:name="android.intent.extra.TITLE" android:value="@string/safety_info_hac" />
+        </intent>
+    </Preference>
+</PreferenceScreen>

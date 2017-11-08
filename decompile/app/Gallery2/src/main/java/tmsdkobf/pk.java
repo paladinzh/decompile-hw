@@ -1,0 +1,798 @@
+package tmsdkobf;
+
+import android.content.Context;
+import android.os.Handler;
+import android.os.HandlerThread;
+import android.os.Message;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.concurrent.atomic.AtomicInteger;
+import tmsdk.common.ErrorCode;
+import tmsdk.common.TMSDKContext;
+import tmsdk.common.utils.d;
+import tmsdkobf.po.b;
+
+/* compiled from: Unknown */
+public class pk extends px implements b, tmsdkobf.ps.a {
+    private static long HO = 15000;
+    private static int HR = 300;
+    private static long HU = 20000;
+    private static long HV = 60;
+    private static long HW = 180;
+    public static int HX = 300;
+    public static boolean HY = false;
+    private static Object Ik = new Object();
+    private static pk Il = null;
+    static final /* synthetic */ boolean fJ = (!pk.class.desiredAssertionStatus());
+    private on Et;
+    private li FR;
+    protected ph.b FS;
+    pj HE;
+    private ps HJ;
+    private AtomicInteger HK;
+    private pw HL;
+    private or HM;
+    private long HN;
+    private boolean HP;
+    private Object HQ;
+    private Runnable HS;
+    private byte HT;
+    private int HZ;
+    private AtomicInteger Ia;
+    private om Ib;
+    private op Ic;
+    private op Id;
+    private pt<ow> Ie;
+    private LinkedList<ow> If;
+    private byte Ig;
+    boolean Ih;
+    Handler Ii;
+    private a Ij;
+    private Context context;
+    HandlerThread vZ;
+
+    /* compiled from: Unknown */
+    public interface a {
+        void a(boolean z, boolean z2, long j, ArrayList<bm> arrayList, pb.b bVar);
+    }
+
+    private pk() {
+        this.HK = new AtomicInteger(0);
+        this.HL = null;
+        this.context = null;
+        this.HN = 0;
+        this.HP = false;
+        this.HQ = new Object();
+        this.HS = new Runnable(this) {
+            final /* synthetic */ pk Im;
+
+            {
+                this.Im = r1;
+            }
+
+            public void run() {
+                if (this.Im.HP) {
+                    synchronized (this.Im.HQ) {
+                        if (this.Im.HP) {
+                            pa.b("TmsTcpManager", "keep timeout, decrease ref", null, null);
+                            this.Im.closeConnection();
+                            this.Im.HP = false;
+                        }
+                    }
+                }
+            }
+        };
+        this.HT = (byte) 0;
+        this.HZ = 0;
+        this.Ia = new AtomicInteger(0);
+        this.Ic = new op(this, 10999) {
+            final /* synthetic */ pk Im;
+
+            protected void ca(int i) {
+                pa.b("TmsTcpManager", "hb fail : " + i, null, null);
+                mj.bA(-10018);
+            }
+
+            protected void onSuccess() {
+                pa.b("TmsTcpManager", "hb success", null, null);
+            }
+        };
+        this.Id = new op(this, 10997) {
+            final /* synthetic */ pk Im;
+
+            protected void ca(int i) {
+                this.Im.Ig = (byte) (byte) 0;
+                pa.b("TmsTcpManager", "fp fail : " + i, null, null);
+                mj.bA(-10024);
+                this.Im.Et.av(i);
+                this.Im.a(5, null, i, 0, true);
+            }
+
+            protected void onSuccess() {
+                pa.b("TmsTcpManager", "fp success", null, null);
+                this.Im.Ig = (byte) (byte) 1;
+                pa.b("TmsTcpManager", "check wait fp success tasks", null, null);
+                this.Im.a(3, null, 0, 0, true);
+                this.Im.Et.av(0);
+            }
+        };
+        this.Ie = new pt(new Comparator<ow>(this) {
+            final /* synthetic */ pk Im;
+
+            {
+                this.Im = r1;
+            }
+
+            public int a(ow owVar, ow owVar2) {
+                return lk.bg(owVar2.qM) - lk.bg(owVar.qM);
+            }
+
+            public /* synthetic */ int compare(Object obj, Object obj2) {
+                return a((ow) obj, (ow) obj2);
+            }
+        });
+        this.If = new LinkedList();
+        this.Ig = (byte) 0;
+        this.Ih = false;
+        this.vZ = null;
+        this.Ii = null;
+        this.context = TMSDKContext.getApplicaionContext();
+        this.HL = new pw(this.context);
+        this.HL.a((px) this);
+        int currentTimeMillis = (int) System.currentTimeMillis();
+        if (currentTimeMillis < 0) {
+            currentTimeMillis = -currentTimeMillis;
+        }
+        this.Ia.set(currentTimeMillis / 100);
+        this.vZ = jq.ct().bF("sendHandlerThread");
+        this.vZ.start();
+        if (!fJ) {
+            if (!(HV < ((long) HX))) {
+                throw new AssertionError();
+            }
+        }
+        this.Ii = new Handler(this, this.vZ.getLooper()) {
+            private boolean Fk = false;
+            final /* synthetic */ pk Im;
+
+            private void b(ow owVar, int i) {
+                if (owVar != null && owVar.Fm != null) {
+                    owVar.Fm.a(false, i, owVar.Fn);
+                }
+            }
+
+            public void handleMessage(Message message) {
+                if (this.Im.gY()) {
+                    ow owVar;
+                    switch (message.what) {
+                        case 0:
+                            if (!this.Im.Ie.isEmpty()) {
+                                int i = -900000;
+                                ow owVar2 = (ow) this.Im.Ie.get();
+                                if (owVar2 != null) {
+                                    i = this.Im.gV();
+                                    if (i == 0) {
+                                        int x;
+                                        this.Fk = owVar2.Fk;
+                                        ll llVar = owVar2.Fl;
+                                        if (llVar != null) {
+                                            llVar.setState(1);
+                                            if (llVar.dC()) {
+                                                i = -11;
+                                            } else {
+                                                x = this.Im.HL.x(owVar2.data);
+                                                llVar.setState(2);
+                                            }
+                                        } else {
+                                            x = this.Im.HL.x(owVar2.data);
+                                        }
+                                        i = x;
+                                        this.Im.Et.at(i);
+                                        if (i == 0) {
+                                            this.Im.Ie.poll();
+                                            if (owVar2.Fn != null && owVar2.Fn.Gf) {
+                                                this.Im.w(owVar2.data);
+                                            }
+                                            if (!this.Fk) {
+                                                this.Im.HL.hz();
+                                                if (!this.Im.HP) {
+                                                    synchronized (this.Im.HQ) {
+                                                        if (!this.Im.HP) {
+                                                            this.Im.gU();
+                                                            this.Im.HP = true;
+                                                            pa.b("TmsTcpManager", "remain connection", null, null);
+                                                        }
+                                                    }
+                                                }
+                                                mk.eU().cu("remain_connect_action");
+                                                mk.eU().a("remain_connect_action", (long) (pk.HR * 1000), this.Im.HS);
+                                                pa.b("TmsTcpManager", "refresh remain connection time, tcp will derease ref after " + pk.HR + " s.", null, null);
+                                            }
+                                            if (!this.Im.Ie.isEmpty()) {
+                                                this.Im.a(0, null, 0, 0, true);
+                                            }
+                                        }
+                                    }
+                                }
+                                if (!(i == 0 || i == -11)) {
+                                    this.Im.a(owVar2, i);
+                                }
+                                b(owVar2, i);
+                                break;
+                            }
+                            return;
+                        case 1:
+                            this.Im.gV();
+                            break;
+                        case 2:
+                            this.Im.If.add((ow) message.obj);
+                            break;
+                        case 3:
+                            if (this.Im.If != null && this.Im.If.size() > 0) {
+                                this.Im.cm(3);
+                                pa.b("TmsTcpManager", "fp success. send waiting fp queue : " + this.Im.If.size(), null, null);
+                                Iterator it = this.Im.If.iterator();
+                                while (it.hasNext()) {
+                                    owVar = (ow) it.next();
+                                    if (owVar != null) {
+                                        this.Im.Ie.add(owVar);
+                                    }
+                                }
+                                this.Im.If.clear();
+                                this.Im.a(0, null, 0, 0, true);
+                                break;
+                            }
+                            return;
+                        case 4:
+                            this.Im.gW();
+                            break;
+                        case 5:
+                            this.Im.cm(5);
+                            if (this.Im.If != null && this.Im.If.size() > 0) {
+                                int i2 = message.arg1;
+                                pa.b("TmsTcpManager", "send wait fp tasks change to http : " + this.Im.If.size(), null, null);
+                                Iterator it2 = this.Im.If.iterator();
+                                while (it2.hasNext()) {
+                                    owVar = (ow) it2.next();
+                                    if (owVar != null) {
+                                        this.Im.HM.a(owVar.Fm, owVar.Fn, i2, owVar.data);
+                                    }
+                                }
+                                this.Im.If.clear();
+                                break;
+                            }
+                            return;
+                            break;
+                        case 6:
+                            this.Im.gZ();
+                            this.Im.Et.aw(-50000);
+                            this.Im.v(null);
+                            if (this.Im.HK.get() > 0) {
+                                if (this.Im.hg() < this.Im.hh()) {
+                                    pa.x("TmsTcpManager", "no resp data, reconnect : " + this.Im.gX());
+                                    break;
+                                }
+                                this.Im.a(5, null, 0, 0, true);
+                                pa.x("TmsTcpManager", "no resp data, no more reconnect");
+                                break;
+                            }
+                            return;
+                        case 7:
+                            this.Im.gZ();
+                            if (this.Im.HK.get() > 0) {
+                                switch (this.Im.gX()) {
+                                    case -230000:
+                                        pa.b("TmsTcpManager", "don't allow connect, no try reconnect more", null, null);
+                                        break;
+                                    case -220000:
+                                        pa.b("TmsTcpManager", "no network, no try reconnect more", null, null);
+                                        break;
+                                    case 0:
+                                        pa.b("TmsTcpManager", "try to connect success", null, null);
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            return;
+                        case 8:
+                            this.Im.v((byte[]) message.obj);
+                            break;
+                        case 9:
+                            this.Im.cm(9);
+                            this.Im.cm(6);
+                            this.Im.cm(7);
+                            mj.bA(ErrorCode.ERR_CORRECTION_FEEDBACK_UPLOAD_FAIL);
+                            if (this.Im.HK.get() > 0) {
+                                pa.b("TmsTcpManager", "no connection -> has connection : connectionState : " + this.Im.HT, null, null);
+                                break;
+                            }
+                            return;
+                        case 10:
+                            this.Im.cm(10);
+                            this.Im.cm(6);
+                            this.Im.cm(7);
+                            mj.bA(ErrorCode.ERR_CORRECTION_BAD_SMS);
+                            pa.b("TmsTcpManager", "has connection -> no connection : " + this.Im.HT, null, null);
+                            this.Im.HT = (byte) (byte) 0;
+                            this.Im.Ig = (byte) (byte) 0;
+                            break;
+                        case 11:
+                            this.Im.hd();
+                            break;
+                    }
+                }
+            }
+        };
+    }
+
+    private static void L(boolean z) {
+        HY = z;
+        if (z) {
+            HU = 10000;
+            HV = 20;
+            HW = 20;
+            HX = 10;
+            HR = 60;
+            HO = 15000;
+        }
+    }
+
+    private synchronized void M(boolean z) {
+        this.Ih = z;
+    }
+
+    private pl<Long, Integer, fs> a(long j, e eVar) {
+        d.e("TmsTcpManager", "handleSharkConfPush()");
+        if (this.Ib == null) {
+            pa.b("TmsTcpManager", "handleSharkConfPush() null == mIConfigOutlet", null, null);
+            return null;
+        } else if (eVar != null) {
+            pa.b("TmsTcpManager", "hash : " + eVar.hash, null, null);
+            pa.b("TmsTcpManager", "set hb interval and ports", null, null);
+            if (eVar.interval > 0) {
+                cn(eVar.interval);
+                this.Ib.ap(eVar.interval);
+                pa.b("TmsTcpManager", "hb interval : " + eVar.interval, null, null);
+            }
+            if (eVar.l != null && eVar.l.size() > 0) {
+                if (this.HE != null) {
+                    this.HE.gJ();
+                }
+                Iterator it = eVar.l.iterator();
+                while (it.hasNext()) {
+                    Integer num = (Integer) it.next();
+                    if (!(this.HE == null || num == null)) {
+                        this.HE.cl(num.intValue());
+                    }
+                    pa.b("TmsTcpManager", "port : " + num, null, null);
+                }
+                this.Ib.k(eVar.l);
+                pa.w("TmsTcpManager", "handleSharkConfPush() interval: " + eVar.interval + " ports.size(): " + eVar.l.size() + " hash: " + eVar.hash);
+            } else {
+                pa.w("TmsTcpManager", "handleSharkConfPush() interval: " + eVar.interval + " hash: " + eVar.hash);
+            }
+            if (eVar.n > 0) {
+                HR = eVar.n;
+                this.Ib.aq(eVar.n);
+                pa.b("TmsTcpManager", "remain connection time : " + eVar.interval, null, null);
+            }
+            if (eVar.m != null) {
+                this.Ib.l(eVar.m);
+                pg.gB().a(this.Ib);
+            }
+            b bVar = new b();
+            bVar.hash = eVar.hash;
+            return new pl(Long.valueOf(j), Integer.valueOf(1101), bVar);
+        } else {
+            pa.b("TmsTcpManager", "handleSharkConfPush() scSharkConf == null", null, null);
+            return null;
+        }
+    }
+
+    private final void a(int i, Object obj, int i2, long j, boolean z) {
+        if (this.Ii != null) {
+            if (z) {
+                this.Ii.removeMessages(i);
+            }
+            try {
+                this.Ii.sendMessageDelayed(Message.obtain(this.Ii, i, i2, 0, obj), j);
+            } catch (NullPointerException e) {
+            }
+        }
+    }
+
+    private void a(ow owVar, int i) {
+        if (owVar != null) {
+            pa.b("TmsTcpManager", "tcp fial, go to http. retCode : " + i, null, null);
+            if (this.HM != null) {
+                this.HM.a(owVar.Fm, owVar.Fn, i, owVar.data);
+            }
+            a(5, null, i, 0, true);
+        }
+    }
+
+    private void a(tmsdkobf.pb.a aVar) {
+        this.FR = new li(this) {
+            final /* synthetic */ pk Im;
+
+            {
+                this.Im = r1;
+            }
+
+            public pl<Long, Integer, fs> a(int i, long j, int i2, fs fsVar) {
+                if (fsVar != null) {
+                    switch (i2) {
+                        case 11101:
+                            return this.Im.a(j, (e) fsVar);
+                        default:
+                            return null;
+                    }
+                }
+                pa.b("TmsTcpManager", "onRecvPush() null == push", null, null);
+                return null;
+            }
+        };
+        aVar.a(0, 11101, new e(), 0, this.FR, false);
+    }
+
+    private final void cm(int i) {
+        if (this.Ii != null) {
+            try {
+                this.Ii.removeMessages(i);
+            } catch (NullPointerException e) {
+            }
+        }
+    }
+
+    public static pk gQ() {
+        if (Il == null) {
+            synchronized (Ik) {
+                if (Il == null) {
+                    Il = new pk();
+                }
+            }
+        }
+        return Il;
+    }
+
+    private int gV() {
+        int i;
+        if (this.HL.hs()) {
+            i = 0;
+        } else if (this.HL.hv()) {
+            i = this.HL.hx();
+            pa.b("TmsTcpManager", "open connection : " + i, null, null);
+        } else {
+            i = -220000;
+            pa.b("TmsTcpManager", "open connection no network.", null, null);
+        }
+        int bW = oi.bW(i);
+        switch (bW) {
+            case -220000:
+                this.HT = (byte) 0;
+                break;
+            case 0:
+                this.HT = (byte) 1;
+                break;
+            default:
+                this.HT = (byte) 0;
+                a(7, null, 0, HU, true);
+                break;
+        }
+        this.Et.au(bW);
+        return bW;
+    }
+
+    private boolean gY() {
+        return this.Ih;
+    }
+
+    private final void gZ() {
+        cm(9);
+        cm(10);
+        cm(6);
+        cm(7);
+    }
+
+    private void ha() {
+        M(false);
+        v(null);
+        hb();
+    }
+
+    private void hb() {
+        cm(0);
+        cm(1);
+        cm(2);
+        cm(3);
+        cm(4);
+        cm(5);
+        cm(6);
+        cm(7);
+        cm(8);
+        cm(9);
+        cm(10);
+        cm(11);
+    }
+
+    private void u(byte[] bArr) {
+        if (bArr != null) {
+            a(8, bArr, 0, 0, true);
+        }
+    }
+
+    private void v(byte[] bArr) {
+        cm(8);
+        cm(6);
+    }
+
+    private void w(byte[] bArr) {
+        a(6, null, 0, HW * 1000, false);
+    }
+
+    public void a(int i, Object obj) {
+        switch (i) {
+            case 11:
+            case 12:
+                if (this.HK != null && this.HK.get() > 0) {
+                    a(7, null, 0, HU, true);
+                    break;
+                }
+        }
+        pa.w("TmsTcpManager", "handleCode Exception Code : " + i);
+    }
+
+    void a(long j, boolean z, boolean z2, byte[] bArr, tmsdkobf.ph.a aVar, pb.d dVar) {
+        if (z && z2) {
+            if (!fJ) {
+                throw new AssertionError();
+            }
+        } else if (mu.fb()) {
+            pa.b("TmsTcpManager", "could not connect", null, null);
+            mj.bA(-10020);
+            this.FS.a(true, -230000, null);
+        } else {
+            boolean hv = this.HL.hv();
+            pa.a("TmsTcpManager", "isNetworkConnected : " + hv, null, null);
+            if (hv) {
+                if ((j < ((long) (HR * 1000)) ? 1 : null) == null) {
+                    gU();
+                    mk.eU().a("set_remain_connect_action", j, new Runnable(this) {
+                        final /* synthetic */ pk Im;
+
+                        {
+                            this.Im = r1;
+                        }
+
+                        public void run() {
+                            this.Im.closeConnection();
+                        }
+                    });
+                }
+                M(true);
+                boolean z3 = false;
+                if (z || z2) {
+                    z3 = true;
+                }
+                ow owVar = new ow(bArr, 32, z3, null, aVar, dVar);
+                if (!(dVar == null || dVar.Gj == null || dVar.Gj.size() <= 0)) {
+                    StringBuilder stringBuilder = new StringBuilder();
+                    Iterator it = dVar.Gj.iterator();
+                    while (it.hasNext()) {
+                        bm bmVar = (bm) it.next();
+                        if (bmVar != null) {
+                            stringBuilder.append("|cmdid|");
+                            stringBuilder.append(bmVar.aZ);
+                        }
+                    }
+                    pa.a("TmsTcpManager", stringBuilder.toString(), null, null);
+                }
+                if (this.Ig == (byte) 1 || z2) {
+                    this.Ie.add(owVar);
+                    a(0, null, 0, 0, true);
+                } else if (this.Ig != (byte) 2) {
+                    if (this.Ig == (byte) 0) {
+                        pa.b("TmsTcpManager", "fp not send, send fp, enqueue task", null, null);
+                        a(2, owVar, 0, 0, false);
+                        hd();
+                    }
+                } else if (z) {
+                    pa.b("TmsTcpManager", "wait fp, ignore hb", null, null);
+                } else {
+                    pa.b("TmsTcpManager", "wait fp, enqueue task", null, null);
+                    a(2, owVar, 0, 0, false);
+                }
+                return;
+            }
+            this.FS.a(true, -220000, null);
+        }
+    }
+
+    public void a(om omVar, on onVar, pj pjVar, ph.b bVar, a aVar, or orVar, tmsdkobf.pb.a aVar2) {
+        this.HE = pjVar;
+        L(pjVar.ae());
+        if (this.HL != null) {
+            this.HL.cn(HX);
+            this.HL.a(pjVar);
+            this.HL.a(onVar);
+        }
+        this.Ib = omVar;
+        this.Et = onVar;
+        pu.IE = onVar;
+        this.FS = bVar;
+        this.HM = orVar;
+        this.Ij = aVar;
+        a(aVar2);
+        this.HJ = ps.t(this.context);
+        if (this.HJ != null) {
+            this.HJ.b(this);
+        }
+        if (this.Ib != null) {
+            int aA = this.Ib.aA();
+            if (aA > 0) {
+                cn(aA);
+                pa.b("TmsTcpManager", "hb interval : " + aA, null, null);
+            }
+            aA = this.Ib.aD();
+            if (aA > 0) {
+                HR = aA;
+                pa.b("TmsTcpManager", "remain connection (s) : " + HR, null, null);
+            }
+        }
+    }
+
+    void a(byte[] bArr, tmsdkobf.ph.a aVar, pb.d dVar) {
+        if (mu.fb()) {
+            pa.b("TmsTcpManager", "could not connect", null, null);
+            mj.bA(-10020);
+            this.FS.a(true, -230000, null);
+        } else if (dVar.Gb) {
+            a(-1, true, false, bArr, aVar, dVar);
+        } else {
+            M(true);
+            this.Ie.add(new ow(bArr, 32, true, null, aVar, dVar));
+            a(0, null, 0, 0, true);
+        }
+    }
+
+    public void b(int i, byte[] bArr) {
+        u(bArr);
+        hf();
+        this.FS.a(true, 0, bArr);
+    }
+
+    void closeConnection() {
+        int decrementAndGet = this.HK.decrementAndGet();
+        pa.b("TmsTcpManager", "decrease ref : " + decrementAndGet, null, null);
+        if (decrementAndGet <= 0) {
+            this.HK.set(0);
+            pa.b("TmsTcpManager", "reset ref : " + this.HK.get(), null, null);
+            a(4, null, 0, 0, true);
+        }
+    }
+
+    public void cn() {
+        a(10, null, 0, 3000, true);
+    }
+
+    void cn(int i) {
+        this.HL.cn(i);
+    }
+
+    public void co() {
+        a(9, null, 0, 3000, true);
+    }
+
+    synchronized void gR() {
+        this.HL.a(true, this);
+    }
+
+    synchronized void gS() {
+        this.HL.a(false, this);
+    }
+
+    public synchronized void gT() {
+        gS();
+        gR();
+    }
+
+    void gU() {
+        if (this.HK.get() < 0) {
+            this.HK.set(0);
+        }
+        pa.b("TmsTcpManager", "increase ref : " + this.HK.incrementAndGet(), null, null);
+    }
+
+    void gW() {
+        this.HT = (byte) 0;
+        this.Ig = (byte) 0;
+        pa.b("TmsTcpManager", "close connection immediately", null, null);
+        hf();
+        gS();
+        ha();
+        this.Ie.clear();
+        this.HL.close();
+        this.HK.set(0);
+    }
+
+    int gX() {
+        this.Ig = (byte) 0;
+        pa.b("TmsTcpManager", "reconnect() connection state : " + this.HT, null, null);
+        int gX = this.HL.gX();
+        if (gX == 0) {
+            this.HT = (byte) 1;
+            pa.b("TmsTcpManager", "reconnect success : " + gX, null, null);
+            hd();
+        } else {
+            pa.b("TmsTcpManager", "reconnect fail : " + gX, null, null);
+            this.HT = (byte) 0;
+            if (!(gX == -220000 || gX == -230000)) {
+                a(7, null, 0, HU, true);
+            }
+        }
+        this.Et.au(gX);
+        return gX;
+    }
+
+    synchronized void gw() {
+        pa.b("TmsTcpManager", "get couldNotConnect cmd", null, null);
+        if (mu.fb()) {
+            pa.b("TmsTcpManager", "could not connect", null, null);
+            a(4, null, 0, 0, true);
+        }
+    }
+
+    void hc() {
+        bm bmVar = new bm();
+        bmVar.aZ = 999;
+        bmVar.dG = oz.gj().fQ();
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(bmVar);
+        this.Ij.a(true, false, 0, arrayList, this.Ic);
+    }
+
+    void hd() {
+        if (this.Ig == (byte) 1 || this.Ig == (byte) 2) {
+            pa.b("TmsTcpManager", "sending or receive fp, no more send : firstPkgState : " + this.Ig, null, null);
+            return;
+        }
+        long currentTimeMillis = System.currentTimeMillis();
+        if (Math.abs(currentTimeMillis - this.HN) >= HO) {
+            this.HN = currentTimeMillis;
+            this.Ig = (byte) 2;
+            cm(11);
+            pa.b("TmsTcpManager", "send fp", null, null);
+            bm bmVar = new bm();
+            bmVar.aZ = 997;
+            bmVar.dG = oz.gj().fQ();
+            ArrayList arrayList = new ArrayList();
+            arrayList.add(bmVar);
+            this.Ij.a(false, true, 0, arrayList, this.Id);
+            return;
+        }
+        pa.x("TmsTcpManager", "first pkg too frequency : firstPkgState : " + this.Ig);
+        a(11, null, 0, HO, true);
+    }
+
+    public void he() {
+        pa.b("TmsTcpManager", "send hb", null, null);
+        hc();
+    }
+
+    void hf() {
+        this.HZ = 0;
+    }
+
+    int hg() {
+        int i = this.HZ + 1;
+        this.HZ = i;
+        return i;
+    }
+
+    int hh() {
+        return 2;
+    }
+}

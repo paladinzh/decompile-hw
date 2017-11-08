@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/photo_name_and_number_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <QuickContactBadge android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/quick_contact_photo" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:src="@drawable/ic_contact_picture_normal_widget" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/name_and_number_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:paddingStart="10dp">
+        <TextView android:textSize="@dimen/contact_list_item_text_size" android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:ellipsize="end" android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

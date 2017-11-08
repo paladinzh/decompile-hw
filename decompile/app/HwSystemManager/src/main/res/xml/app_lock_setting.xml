@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="settings">
+    <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/ActionBar_EnterAppLock_Title" androidhwext:key="app_lock_setting_func_app_lock" androidhwext:summary="@string/ListViewSecondLine_AddAppSettings_Introductions" androidhwext:preferenceID="@+id/prefs_app_lock_setting_func_app_lock" />
+    <TextArrowPreference androidhwext:title="@string/AppLockSettings_ChangePassword" androidhwext:key="app_lock_setting_func_change_password" androidhwext:preferenceID="@+id/prefs_app_lock_setting_func_change_password" />
+    <TextArrowPreference androidhwext:title="@string/AppLockSettings_ChangePasswordProtect" androidhwext:key="app_lock_setting_func_change_password_protect" androidhwext:preferenceID="@+id/prefs_app_lock_setting_func_change_password_protect" />
+</PreferenceScreen>

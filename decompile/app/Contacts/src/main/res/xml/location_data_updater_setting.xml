@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:persistent="false" android:title="@string/update_call_locations_title">
+    <PreferenceCategory android:persistent="false" android:title="@string/location_data_manual_update_setting" android:key="button_location_data_manual_update_category_key">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/location_data_manual_update" android:title="@string/location_data_manual_update_setting_option" android:key="button_location_data_manual_update" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/location_data_auto_update_setting" android:key="button_location_data_auto_update_category_key">
+        <ListPreference android:persistent="true" android:entries="@array/preferred_location_data_auto_update_mode_choices" android:layout="@layout/location_data_update" android:title="@string/location_data_auto_update_setting_option" android:key="button_location_data_auto_update" android:defaultValue="Every 15 days" android:dialogTitle="@string/location_data_auto_update_setting_option" android:entryValues="@array/preferred_location_data_auto_update_mode_values" />
+        <SwitchPreference android:persistent="false" android:title="@string/location_data_auto_update_setting_wlan_only" android:key="button_location_data_update_wlan_only" />
+    </PreferenceCategory>
+</PreferenceScreen>

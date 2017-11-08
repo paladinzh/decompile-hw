@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:minHeight="64dp"
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18dp" android:layout_marginEnd="8dp">
+        <CheckBox android:id="@+id/whitelist_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/listview_item_font_size_1" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:id="@+id/whitelist_contact" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="20dp" android:layout_toStartOf="@+id/whitelist_checkbox" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentStart="true">
+        <TextView android:textSize="13dp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/item_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:alpha="0.85" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentEnd="true">
+        <RadioButton android:id="@+id/item_rb" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

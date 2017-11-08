@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sv_slide" android:background="@drawable/dialog_background" android:padding="16dp" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_slide_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/slide_settings_title" />
+        <TextView android:textSize="15sp" android:textColor="@color/CS_black_65_percent" android:id="@id/tv_start_from" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/start_from" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/slide_radiogp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="15sp" android:id="@id/current_indx_radiobtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="0x0" android:text="@string/current_use" android:drawablePadding="16dp" android:drawableEnd="@drawable/btn_radio_emui" />
+            <TextView android:id="@id/tv_" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.68" />
+            <RadioButton android:textSize="15sp" android:id="@id/start_indx_radiobtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="0x0" android:text="@string/start_from_begin" android:drawablePadding="16dp" android:drawableEnd="@drawable/btn_radio_emui" />
+        </RadioGroup>
+        <TextView android:textSize="15sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tv_seekbar_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/ll_seekbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15sp" android:id="@id/tv_seekbar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/duration" android:layout_centerVertical="true" />
+            <SeekBar android:id="@id/sb_time_interval" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_toEndOf="@id/tv_seekbar_title" />
+        </RelativeLayout>
+        <CheckBox android:textSize="15sp" android:id="@id/ckBoxAddMusic" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/audio_msg" />
+        <LinearLayout android:id="@id/btn_grps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <Button android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:onClick="onCancel" />
+            <Button android:id="@id/btn_OK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/start" android:layout_weight="1.0" android:onClick="onConfirmation" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

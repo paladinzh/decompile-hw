@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1">
+    <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x100">
+        <requestFocus />
+    </View>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <SearchView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_view" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:maxLength="@integer/search_editor_char_limit" android:layout_weight="1.0" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberPassword|phone|date|time" android:iconifiedByDefault="false" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textSize="26sp" android:textColor="@color/action_bar_button_text_color" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/selected_item_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingEnd="10dp" />
+    </LinearLayout>
+</FrameLayout>

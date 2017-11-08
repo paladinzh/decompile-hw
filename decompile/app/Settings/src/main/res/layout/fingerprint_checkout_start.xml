@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:gravity="center_vertical" android:text="@string/fp_verification_title" android:singleLine="true" android:layout_centerVertical="true" android:contentDescription="@string/fp_verification_title" android:layout_alignParentStart="true" style="@style/fpStartupTitleStyle" />
+        <TextView android:textColor="@color/color_yalan" android:gravity="end" android:id="@id/more_information_checkout" android:text="@string/fp_more_information" android:singleLine="true" android:layout_centerVertical="true" android:contentDescription="@string/fp_more_information" android:layout_alignParentEnd="true" style="@style/fpStartupSummaryStyle" />
+    </RelativeLayout>
+    <TextView android:gravity="center_vertical" android:id="@id/fp_checkout_description" android:layout_marginTop="8.0dip" android:text="@string/fp_verification_description" android:lineSpacingMultiplier="1.5" android:contentDescription="@string/fp_verification_description" style="@style/fpStartupSummaryStyle" />
+</LinearLayout>

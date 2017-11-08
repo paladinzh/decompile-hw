@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/usb_connected_notification_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@id/bt_imageview" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="12.0dip" android:src="@drawable/settings_bluetooth_icon" android:scaleType="center" android:contentDescription="@null" android:layout_alignParentEnd="true" />
+            <TextView android:ellipsize="end" android:id="@id/bt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/bluetooth_notif_title" android:lines="1" android:layout_marginStart="16.0dip" style="@style/notifaction_title" />
+            <TextView android:ellipsize="end" android:id="@id/bt_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_whistle_pair_request" android:lines="2" android:layout_below="@id/bt_title" android:layout_alignStart="@id/bt_title" style="@style/notifaction_content" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/usb_connected_notification_choose_layout_height" android:layout_marginTop="6.0dip" android:layout_marginBottom="14.0dip" android:layout_marginStart="48.0dip" android:layout_marginEnd="14.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <Button android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/bt_cancel" android:background="@drawable/sub_tab_normal" android:paddingTop="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" android:alpha="@dimen/preference_item_title_alpha" style="@style/notifaction_title" />
+        <Button android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/bt_agree" android:background="@drawable/sub_tab_normal" android:paddingTop="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/button_agree_text" android:layout_weight="1.0" android:alpha="@dimen/preference_item_title_alpha" android:layout_marginStart="18.0dip" style="@style/notifaction_title" />
+    </LinearLayout>
+</LinearLayout>

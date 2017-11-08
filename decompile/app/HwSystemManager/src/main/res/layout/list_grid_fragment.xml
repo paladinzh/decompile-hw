@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tips" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_view_tips_style_normal" />
+        <View android:background="@color/divider_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a001c" />
+        <ListView android:id="@+id/listview" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:divider="0x0" />
+    </LinearLayout>
+    <ViewStub android:id="@+id/empty_view_stub" android:layout="@layout/list_grid_empty_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</RelativeLayout>

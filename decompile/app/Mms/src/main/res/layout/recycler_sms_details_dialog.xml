@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="14dp" android:weightSum="5.0" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/dialog_padding_style"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+        <ViewStub android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/encrypt_mms_image_view_stub" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:scrollbarStyle="outsideInset" android:textSize="13sp" android:textColor="@color/recycler_sms_details_trash_body_text_color" android:id="@+id/trash_sms_body" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="3" android:lineSpacingMultiplier="1.2" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" />
+    </LinearLayout>
+    <Button android:id="@+id/btn_restore_trash_sms" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/restore_trash_message" android:singleLine="true" android:layout_weight="1.0" />
+    <Button android:textColor="0x1060016" android:id="@+id/btn_delete_trash_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/delete" android:singleLine="true" android:layout_weight="1.0" />
+    <Button android:id="@+id/btn_cancel_trash_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" android:text="@string/no" android:singleLine="true" android:layout_weight="1.0" />
+</LinearLayout>

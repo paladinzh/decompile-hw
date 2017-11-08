@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/content_list" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <include android:id="@+id/empty_view_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/common_empty_layout" />
+    <RelativeLayout android:id="@+id/progress_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

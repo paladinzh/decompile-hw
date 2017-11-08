@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/head_select_left" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0171" android:layout_height="UNKNOWN_DATA_0x7f0d0171" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_alignParentStart="true" />
+        <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/head_select_middle" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0171" android:layout_height="UNKNOWN_DATA_0x7f0d0171" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_centerHorizontal="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d0171" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/head_select_right">
+            <com.huawei.gallery.app.plugin.PhotoExtraButton android:id="@id/plugin_button1" android:background="0x106000d" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d0171" android:layout_height="UNKNOWN_DATA_0x7f0d0171" />
+            <com.huawei.gallery.app.plugin.PhotoExtraButton android:id="@id/plugin_button" android:background="0x106000d" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d0171" android:layout_height="UNKNOWN_DATA_0x7f0d0171" android:layout_marginStart="24dp" />
+        </LinearLayout>
+        <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/head_select_right" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0171" android:layout_height="UNKNOWN_DATA_0x7f0d0171" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:layout_marginStart="24dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <Space android:id="@id/margin" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="match_parent" />
+</LinearLayout>

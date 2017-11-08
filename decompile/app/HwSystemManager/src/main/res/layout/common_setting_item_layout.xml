@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/cloud_switch_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Switch android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/switcher" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_item_padding_start_end_emui" android:layout_alignParentEnd="true" />
+    <include android:id="@+id/list_item_twolines" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="0dp" android:layout_marginEnd="56dp" android:layout_alignParentStart="true" layout="0x2070011" />
+    <View android:id="@+id/divider" android:layout_below="@+id/list_item_twolines" style="@style/divider_line" />
+</com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>

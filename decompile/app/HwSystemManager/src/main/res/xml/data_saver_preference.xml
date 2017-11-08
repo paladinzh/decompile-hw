@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <Preference androidhwext:layout="@layout/preference_summary_no_line_limit" androidhwext:selectable="false" androidhwext:summary="@string/data_saver_mode_summary_section1" androidhwext:preferenceID="@+id/prefs_data_saver_mode_summary_section1" />
+    <Preference androidhwext:layout="@layout/preference_summary_no_line_limit1" androidhwext:selectable="false" androidhwext:summary="@string/data_saver_mode_summary_section2" androidhwext:preferenceID="@+id/prefs_data_saver_mode_summary_section2" />
+    <SwitchPreference androidhwext:title="@string/data_saver_switch_summary" androidhwext:key="key_pref_data_saver_switch" androidhwext:preferenceID="@+id/prefs_key_pref_data_saver_switch" />
+</PreferenceScreen>

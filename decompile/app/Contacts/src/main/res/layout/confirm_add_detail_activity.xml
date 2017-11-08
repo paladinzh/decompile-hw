@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/root_view" android:visibility="invisible" style="@style/ConfirmAddDetailViewStyle">
+    <RelativeLayout style="@style/ConfirmAddDetailHeaderViewStyle">
+        <ImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/contact_avatar_180_holo" android:scaleType="centerCrop" android:contentDescription="@string/description_contact_photo" />
+        <View android:id="@+id/photo_text_bar" android:background="@color/confirm_add_detail_photo_text_backgroup_color" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_alignBottom="@+id/photo" android:layout_alignStart="@+id/photo" android:layout_alignEnd="@+id/photo" />
+        <ImageButton android:id="@+id/open_details_button" android:background="?unknown_attr_ref: 101030e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/ic_contacts_holo_dark" android:layout_alignBottom="@+id/photo_text_bar" android:contentDescription="@string/image_content_description" android:layout_marginEnd="16dp" android:layout_alignEnd="@+id/photo_text_bar" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_alignBottom="@+id/photo" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_toStartOf="@+id/open_details_button" android:layout_alignStart="@+id/photo">
+            <TextView android:textSize="16sp" android:textColor="0x106000b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="8dp" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x106000b" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/extra_info" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:maxLines="1" android:layout_weight="1.0" android:paddingStart="8dp" />
+        </LinearLayout>
+        <View android:id="@+id/open_details_push_layer" android:background="?unknown_attr_ref: 101030e" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/read_only_warning" android:padding="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="60dp" />
+    <FrameLayout android:id="@+id/editor_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="60dp" android:layout_marginEnd="15dp" />
+    <View android:id="@+id/divider" android:background="?unknown_attr_ref: 1010214" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?unknown_attr_ref: 101032e">
+        <Button android:id="@+id/btn_cancel" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="0x1040000" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+        <Button android:id="@+id/btn_done" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="0x104000a" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+    </LinearLayout>
+</LinearLayout>

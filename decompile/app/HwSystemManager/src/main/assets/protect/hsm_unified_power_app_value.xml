@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- the unified power app xml for HwSystemMaanger and PowerGenie and google doze -->
+    <!-- the default strategy:  system apps with the blacklist  and third apps with the whitelist -->
+    <!-- specification of the items:  pkg_name:the package name ;  is_protected: true-protected defaultvalue:false;    is_show: true-show on the UI;  defaultvalue:true  -->
+    <!-- Top Super important apps -->
+    <package name="com.tencent.mobileqq" is_protected="true" is_show="true" />
+    <package name="com.tencent.mm" is_protected="true" is_show="true" />
+    <package name="com.tencent.qq" is_protected="true" is_show="true" />
+    <package name="com.tencent.mqq" is_protected="true" is_show="true"/>
+    <package name="com.tencent.android.pad" is_protected="true" is_show="true"/>
+    <package name="com.tencent.minihd.qq" is_protected="true" is_show="true" />
+    <package name="com.whatsapp" is_protected="true" is_show="true"/>
+    <package name="com.google.android.talk" is_protected="true" is_show="true"/>
+    <package name="com.facebook.orca" is_protected="true" is_show="true"/>
+    <package name="com.facebook.katana" is_protected="true" is_show="true"/>
+    <package name="com.twitter.android" is_protected="true" is_show="true"/>
+    <package name="cn.com.fetion" is_protected="true" is_show="true"/>
+    <package name="im.yixin" is_protected="true" is_show="true"/>
+    <package name="com.codoon.gps" is_protected="true" is_show="true"/>
+    <package name="com.alibaba.mobileim" is_protected="true" is_show="true"/>
+    <package name="com.immomo.momo" is_protected="true" is_show="true"/>
+    <package name="com.eg.android.AlipayGphone" is_protected="true" is_show="true"/>
+    <package name="com.skype.raider" is_protected="true" is_show="true"/>
+    <package name="com.tencent.hd.qq" is_protected="true" is_show="true"/>
+    <package name="com.skype.rover" is_protected="true" is_show="true"/>
+    <package name="com.antivirus" is_protected="true" is_show="true"/>
+    <package name="com.opera.mini.native" is_protected="true" is_show="true"/>
+    <package name="com.kakao.talk" is_protected="true" is_show="true"/>
+    <package name="com.viber.voip" is_protected="true" is_show="true"/>
+    <package name="jp.naver.line.android" is_protected="true" is_show="true"/>
+    <package name="com.yahoo.mobile.client.android.mail" is_protected="true" is_show="true"/>
+    <package name="com.skype.rover" is_protected="true" is_show="true"/>
+    <package name="com.jb.gosms.aemoji" is_protected="true" is_show="true"/>
+    <package name="com.bbm" is_protected="true" is_show="true"/>
+    <package name="kik.android" is_protected="true" is_show="true"/>
+    <package name="com.opera.browser" is_protected="true" is_show="true"/>
+    <package name="com.imo.android.imoim" is_protected="true" is_show="true"/>
+    <package name="org.telegram.messenger" is_protected="true" is_show="true"/>
+    <package name="com.rounds.android" is_protected="true" is_show="true"/>
+    <package name="com.instanza.cocovoice" is_protected="true" is_show="true"/>
+    <package name="com.igg.android.im" is_protected="true" is_show="true"/>
+    <package name="com.snapchat.android" is_protected="true" is_show="true"/>
+    <package name="com.tinder" is_protected="true" is_show="true"/>
+    <package name="com.yahoo.mobile.client.android.im" is_protected="true" is_show="true"/>
+    <package name="com.chikka.gero" is_protected="true" is_show="true"/>
+    <package name="com.beetalk" is_protected="true" is_show="true"/>
+    <package name="com.vkontakte.android" is_protected="true" is_show="true"/>
+    <package name="com.icq.mobile.client" is_protected="true" is_show="true"/>
+    <package name="com.doublegis.dialer" is_protected="true" is_show="true"/>
+    <package name="com.modoohut.dialer" is_protected="true" is_show="true"/>
+    <package name="com.appstar.callrecorder" is_protected="true" is_show="true"/>
+    <package name="pixelrush.xphonefree" is_protected="true" is_show="true"/>
+    <package name="com.truecaller.phoneapp" is_protected="true" is_show="true"/>
+    <package name="com.android.hangouts" is_protected="true" is_show="true"/>
+    <package name="com.yahoo.mobile.client.android.im" is_protected="true" is_show="true"/>
+    <package name="com.nimbuzz" is_protected="true" is_show="true"/>
+    <package name="com.sgiggle.production" is_protected="true" is_show="true"/>
+    <package name="com.myyearbook.m" is_protected="true" is_show="true"/>
+    <package name="com.jnj.mocospace.android" is_protected="true" is_show="true"/>
+    <package name="net.lovoo.android" is_protected="true" is_show="true"/>
+
+    <!--  android preload apps -->
+    <!--<package name="com.android.providers.downloads" is_protected="true" is_show="false"/> -->
+    <!-- GmsCore must always have network access for GCM and other things. -->
+    <!--<package name="com.google.android.gms" is_protected="true" is_show="false"/> -->
+    <!-- Play Store likewise must have network access to support other apps. -->
+    <!--<package name="com.android.vending" is_protected="true" is_show="false"/> -->
+
+    <!-- system apps -->
+    <package name="com.huawei.kidsmode" is_protected="true" is_show="true"/>
+    <package name="com.huawei.phonediagnose" is_protected="true" is_show="true"/>
+    <package name="com.huawei.bone" is_protected="true" is_show="true"/>
+    <package name="com.huawei.skytone" is_protected="true" is_show="true"/>
+    <package name="com.huawei.android.lta" is_protected="true" is_show="true"/>
+    <package name="com.huawei.cloudwifi" is_protected="true" is_show="false"/>
+    <package name="com.sohu.inputmethod.sogou.huawei"  is_protected="true" is_show="true"/>
+    <package name="com.baidu.input_huawei"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.wallet" is_protected="true" is_show="true"/>
+    <package name="com.inveno.hwread" is_protected="false" is_show="true"/>
+    <package name="com.android.hwmirror"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.fans"  is_protected="false" is_show="true"/>
+    <package name="com.lifevibes.grouprecorder"  is_protected="false" is_show="true"/>
+    <package name="com.android.webview"  is_protected="true" is_show="true"/>
+    <package name="com.google.android.webview"  is_protected="true" is_show="true"/>
+    <package name="com.android.musicvis"  is_protected="false" is_show="true"/>
+    <package name="com.android.dreams.phototable"  is_protected="false" is_show="true"/>
+    <package name="com.android.phasebeam"  is_protected="false" is_show="true"/>
+    <package name="com.android.noisefield"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.magnifier"  is_protected="false" is_show="true"/>
+    <package name="com.android.wallpaper.livepicker"  is_protected="false" is_show="true"/>
+    <package name="com.android.mediacenter"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.vdrive"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.hwmwlauncher"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.hidisk"  is_protected="false" is_show="true"/>
+    <package name="com.android.wallpaper.holospiral"  is_protected="false" is_show="true"/>
+    <package name="com.android.galaxy4"  is_protected="false" is_show="true"/>
+    <package name="com.android.dreams.basic"  is_protected="true" is_show="true"/>
+    <package name="com.android.wallpapercropper"  is_protected="false" is_show="true"/>
+    <package name="com.baidu.map.location"  is_protected="true" is_show="true"/>
+    <package name="com.android.gallery3d"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.camera"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.appmarket"  is_protected="false" is_show="true"/>
+    <package name="com.example.android.notepad"  is_protected="false" is_show="true"/>
+    <package name="com.android.browser"  is_protected="false" is_show="true"/>
+    <package name="com.android.email"  is_protected="true" is_show="true"/>
+    <package name="com.android.backupconfirm"  is_protected="true" is_show="true"/>
+    <package name="com.android.nfc"  is_protected="true" is_show="true"/>
+    <package name="com.android.exchange"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.android.airsharing"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.voiceVQM"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.bd"  is_protected="true" is_show="false"/>
+    <package name="com.android.location.fused"  is_protected="true" is_show="false"/>
+    <package name="com.huawei.geofence"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.android.hwaps"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.android.nfctag"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.snow"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.android.karaokeeffect"  is_protected="false" is_show="true"/>
+    <package name="com.huawei.samplepedometer"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.screenrecorder"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.KoBackup"  is_protected="true" is_show="true"/>
+    <package name="com.huawei.health" is_protected="true" is_show="true"/>
+</resources>
+

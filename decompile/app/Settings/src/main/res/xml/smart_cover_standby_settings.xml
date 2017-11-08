@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:key="smart_cover_standby_tutorial" android:summary="@string/smart_cover_standby_text" settings:drawable="@drawable/abc_ic_menu_paste_mtrl_am_alpha" />
+    <SwitchPreference android:title="@string/cover_standby_settings_title" android:key="smart_cover_standby_switch" />
+    <PreferenceCategory android:title="@string/cover_standby_mode_category" android:key="cover_standby_mode_category">
+        <com.android.settings.smartcover.RadioButtonPreference android:persistent="false" android:title="@string/cover_standby_only_time_title" android:key="standby_only_time" />
+        <com.android.settings.smartcover.RadioButtonPreference android:persistent="false" android:title="@string/cover_standby_time_word_title" android:key="standby_time_word" />
+        <PreferenceScreen android:title="@string/cover_standby_word_setting_title" android:key="cover_standby_word_setting_title" android:summary="@string/cover_standby_word_setting_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="interception_rule_choosing">
+    <PreferenceCategory androidhwext:layout_height="UNKNOWN_DATA_0x3c00" androidhwext:title="@string/rcs_harassment_interception_rule_title_common" androidhwext:key="harassment_interceptionsetting_rule_call_msg" />
+    <PreferenceCategory androidhwext:layout_height="UNKNOWN_DATA_0x3c00" androidhwext:title="@string/rcs_harassment_interception_rule_title" androidhwext:key="harassment_interceptionsetting_rule_rcs">
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/interception_rule_blacklist_title" androidhwext:key="harassment_interception_blacklist_rcs" androidhwext:preferenceID="@+id/prefs_harassment_interception_blacklist_rcs" />
+    </PreferenceCategory>
+</PreferenceScreen>

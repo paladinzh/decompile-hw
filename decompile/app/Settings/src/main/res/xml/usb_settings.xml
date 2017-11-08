@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_title_usb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/usb_connection_category" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_mtp_emotion_title" android:key="usb_mtp" android:summary="@string/usb_mtp_emotion_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_ptp_title" android:key="usb_ptp" android:summary="@string/usb_ptp_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_mass_storage_emotion_title" android:key="usb_mass_storage" android:summary="@string/usb_mass_storage_emotion_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_hisuite_emotion_title" android:key="usb_hisuite" android:summary="@string/usb_hisuite_emotion_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_midi_title" android:key="usb_midi" android:summary="@string/usb_midi_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:title="@string/usb_only_charging_title" android:key="usb_only_charging" android:summary="@string/usb_only_charging_summary" android:widgetLayout="@layout/radioview" />
+    <CheckBoxPreference android:layout="@layout/check_preference" android:title="@string/usb_donot_reask_on_plug_title" android:key="usb_ask_on_plug" />
+    <Preference android:layout="@layout/usbsetting_preference" android:key="usb_install_help" />
+</PreferenceScreen>

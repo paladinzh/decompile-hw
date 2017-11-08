@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:key="single_hand_screen_zoom_tutorial" android:summary="@string/singlehandmode_slide_hint_message" settings:drawable="@drawable/single_hand_screen_zoom_animation" />
+    <SwitchPreference android:persistent="false" android:title="@string/singlehandmode_click_hint_message" android:key="single_hand_screen_zoom_switch" />
+</PreferenceScreen>

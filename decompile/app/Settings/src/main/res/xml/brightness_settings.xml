@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/brightness" settings:keywords="@string/brightness"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/automatic_brightness" android:key="auto_adjust_preference" />
+    <com.android.settings.BrightnessSeekBarPreference android:key="seekbar_preference" />
+</PreferenceScreen>

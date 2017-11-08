@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/child_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="14dp" android:paddingEnd="8dp">
+    <com.huawei.systemmanager.spacecleanner.view.EnsureCheckBox android:id="@+id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0a014f" android:layout_height="UNKNOWN_DATA_0x7f0a014f" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:id="@+id/process_manager_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/checkbox" android:layout_alignParentStart="true" style="@style/common_listview_title_margin">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/trash_icon" android:layout_width="UNKNOWN_DATA_0x7f0a0014" android:layout_height="UNKNOWN_DATA_0x7f0a0014" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_alignParentStart="true" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/title_Size_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_marginEnd="8dp" android:layout_toEndOf="@+id/trash_icon">
+            <TextView android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simple_text_stub" android:layout_alignParentTop="true" style="@style/list_view_item_title_text_style" />
+            <TextView android:id="@+id/trash_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title" style="@style/ListviewItemTextSecondary" />
+            <TextView android:id="@+id/trash_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/title" android:layout_marginStart="2dp" android:layout_toEndOf="@+id/trash_size" style="@style/ListviewItemTextSecondary" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>

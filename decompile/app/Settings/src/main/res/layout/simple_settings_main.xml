@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip">
+        <com.android.settings.SettingsExtandableGridView android:gravity="center" android:id="@id/gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:horizontalSpacing="6.0dip" android:verticalSpacing="6.0dip" android:stretchMode="columnWidth" android:numColumns="3" />
+    </LinearLayout>
+</ScrollView>

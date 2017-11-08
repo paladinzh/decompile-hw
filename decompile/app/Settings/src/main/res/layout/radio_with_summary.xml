@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.CheckableLinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/list_divider" android:minHeight="?android:listPreferredItemHeightSmall" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CheckableLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <CheckedTextView android:textAppearance="?android:textAppearanceListItemSmall" android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="?android:dialogPreferredPadding" android:layout_marginStart="20.0dip" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="10" android:layout_below="@android:id/title" android:fontFamily="chnfzxh" android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@id/optimization_radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    </com.android.settings.CheckableLinearLayout>
+</com.android.settings.CheckableLinearLayout>

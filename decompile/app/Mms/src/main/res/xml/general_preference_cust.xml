@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="pref_key_root">
+    <PreferenceCategory android:title="@string/pref_rcs_settings_title" android:key="pref_key_rcs_settings">
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/pref_title_rcs_enabled" android:key="pref_key_mms_rcs_settings" android:summary="@string/pref_summary_rcs" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

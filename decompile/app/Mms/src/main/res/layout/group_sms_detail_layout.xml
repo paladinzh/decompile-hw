@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/compose_message_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/mms_actionbar_edit_view" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:drawSelectorOnTop="false" android:layout_weight="1.0" android:headerDividersEnabled="true" android:footerDividersEnabled="false" />
+    <com.huawei.mms.ui.SplitActionBarView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/group_sms_detail_bottom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

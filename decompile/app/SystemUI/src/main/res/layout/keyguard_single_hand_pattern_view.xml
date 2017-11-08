@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.KeyguardSingleHandPatternView xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:orientation="vertical" androidprv:id="@r$id/keyguard_single_hand_pattern_view" androidprv:clipChildren="false" androidprv:clipToPadding="false" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:contentDescription="@string/keyguard_accessibility_pattern_unlock" androidprv:layout_maxWidth="@dimen/keyguard_security_width" androidprv:layout_maxHeight="UNKNOWN_DATA_0x7f0e0047">
+    <include androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+    <LinearLayout androidprv:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent">
+        <FrameLayout androidprv:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:clipChildren="false" androidprv:clipToPadding="false" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+            <View androidprv:id="@r$id/place_holder_left" androidprv:paddingBottom="@dimen/single_hand_pattern_eca_view_height" androidprv:layout_width="UNKNOWN_DATA_0x1401" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0423" />
+            <ImageButton androidprv:id="@r$id/switch_mode_left" androidprv:background="0x0" androidprv:paddingBottom="@dimen/single_hand_pattern_eca_view_height" androidprv:layout_width="UNKNOWN_DATA_0x7f0e03b8" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0423" androidprv:src="@drawable/singlehand_arrow_left" />
+            <View androidprv:id="@id/place_holder_right" androidprv:paddingBottom="@dimen/single_hand_pattern_eca_view_height" androidprv:layout_width="UNKNOWN_DATA_0x1401" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0423" androidprv:translationX="@dimen/single_hand_left_btn_translationx" />
+            <ImageButton androidprv:id="@r$id/switch_mode_right" androidprv:background="0x0" androidprv:paddingBottom="@dimen/single_hand_pattern_eca_view_height" androidprv:layout_width="UNKNOWN_DATA_0x7f0e03b8" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0423" androidprv:src="@drawable/singlehand_arrow_right" androidprv:translationX="@dimen/single_hand_left_btn_translationx" />
+            <com.huawei.keyguard.view.widget.GravityView androidprv:id="@r$id/gravity_pin_numpad" androidprv:layout_width="UNKNOWN_DATA_0x7f0e041f" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0423">
+                <FrameLayout androidprv:id="@r$id/container" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent">
+                    <com.android.internal.widget.LockPatternView androidprv:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:id="@r$id/lockPatternView" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" androidprv:contentDescription="@string/keyguard_accessibility_pattern_area" />
+                    <include androidprv:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:id="@r$id/keyguard_selector_fade_container" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_eca" />
+                </FrameLayout>
+            </com.huawei.keyguard.view.widget.GravityView>
+        </FrameLayout>
+    </LinearLayout>
+</com.huawei.keyguard.KeyguardSingleHandPatternView>

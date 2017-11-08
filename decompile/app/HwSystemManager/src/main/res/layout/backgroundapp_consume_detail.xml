@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_padding_start_end_emui" android:paddingEnd="@dimen/list_item_padding_start_end_emui">
+    <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/ic_launcher" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@+id/RelativeLayout1" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="46dp" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="8dp" android:layout_toStartOf="@+id/app_active" android:layout_toEndOf="@+id/app_icon">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/app_consumeInfo_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/consume_layout">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15sp" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:id="@+id/app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3" android:layout_centerVertical="true" android:lineSpacingMultiplier="1.1" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/isShareUidApp" />
+                <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/isShareUidApp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:text="@string/shareuid_app_title" android:singleLine="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/consume_level_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/consume_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/consume_value" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <CheckBox android:id="@+id/app_active" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

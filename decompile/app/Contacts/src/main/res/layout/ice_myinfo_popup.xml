@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:windowIsTranslucent="true" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/contact_translucent_background" android:paddingTop="@dimen/contact_detail_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:colorBackgroundCacheHint="0x0" android:paddingStart="@dimen/contact_detail_padding_start" android:paddingEnd="@dimen/contact_detail_padding_end"
+    <LinearLayout android:orientation="vertical" android:id="@+id/my_dtails_info_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d021b">
+        <include android:id="@+id/included_detail_header_contact_without_updates" layout="@layout/ice_my_info_header_view" />
+        <LinearLayout android:orientation="vertical" android:background="@color/people_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="@dimen/my_info_popup_bottom_margin" android:layout_weight="1.0">
+            <ListView android:id="@+id/my_info_listView" android:clickable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@color/general_lisg_divider_normal" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/menu_layout" android:background="@drawable/contact_detail_card_menu_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4">
+                <ImageView android:id="@+id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/contacts_ic_edit" />
+                <TextView android:textSize="10dp" android:textColor="@color/menu_selector_color" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_editContact" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

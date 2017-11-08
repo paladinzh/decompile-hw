@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Повезан путем помоћника WLAN</string>
+    <string name="accessibility_wifi_off">WLAN искључен.</string>
+    <string name="accessibility_no_wifi">WLAN веза је прекинута.</string>
+    <string name="accessibility_wifi_one_bar">WLAN сигнал има једну црту.</string>
+    <string name="accessibility_wifi_two_bars">WLAN сигнал има две црте.</string>
+    <string name="accessibility_wifi_three_bars">WLAN сигнал има три црте.</string>
+    <string name="accessibility_wifi_signal_full">WLAN сигнал је најјачи.</string>
+    <string name="wifi_verbose_logging">Omog. WLAN det. prijav.</string>
+    <string name="wifi_aggressive_handover">Agr. WLAN ka mob. pred.</string>
+    <string name="wifi_allow_scan_with_traffic">Uvek om. WLAN sk. u rom.</string>
+    <string name="wifi_verbose_logging_summary">Pov. nivo WLAN prij. i pr. SSID RSSI u WLAN bir.</string>
+    <string name="wifi_aggressive_handover_summary">Kada se omogući, WLAN će biti agresivniji u predaji veze za prenosne podatke mobilnoj vezi kada je WLAN signal nizak</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Omogući/ograniči WLAN skeniranje u romingu na osnovu količine saobraćaja podataka prisutnom na interfejsu</string>
+    <string name="mobile_data_always_on_summary">Neka prenosni podaci budu uvek aktivni, čak i kada je WLAN aktivan (radi brze promene mreže)</string>
+    <string name="radio_controls_summary">Управљање WLAN мрежом, Bluetooth-ом, режимом рада у авиону, мобилним мрежама и VPN-ом</string>
+    <string name="wifi_assistant_title">WLAN Ассистант</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Укључивање WLAN мреже</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN подешавања</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Избор WLAN мреже</string>
+    <string name="wifi_select_network">Изаберите WLAN мрежу</string>
+    <string name="wifi_starting">Укључује се WLAN…</string>
+    <string name="wifi_stopping">Искључује се WLAN…</string>
+    <string name="wifi_poor_network_detection_summary">Немојте да се повезујете на WLAN мрежу уколико нема добру повезаност са Интернетом</string>
+    <string name="wifi_automatically_connect_title">Аут. користи отворени WLAN</string>
+    <string name="wifi_automatically_connect_summary">Дозволи да се WLAN асистент аутоматски повезује на отворене мреже са добрим Интернет везама</string>
+    <string name="wifi_scan_notify_text">Да би се побољшала прецизност одређивања локације, системске апликације и услуге могу и даље да претражују WLAN мреже. Ово можете променити у оквиру ЛИНК_БЕГИНподешавања претраживањаЛИНК_ЕНД.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN укљ. током стања спавања</string>
+    <string name="wifi_suspend_optimizations">WLAN оптимизација</string>
+    <string name="wifi_suspend_optimizations_summary">Смањи коришћење батерије када је WLAN укључен</string>
+    <string name="wifi_access_points">WLAN мреже</string>
+    <string name="wifi_menu_p2p">WLAN Дирецт</string>
+    <string name="wifi_empty_list_wifi_off">Да бисте видели доступне мреже, укључите WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Тражење WLAN мрежа...</string>
+    <string name="wifi_empty_list_user_restricted">Немате дозволу да измените WLAN мрежу.</string>
+    <string name="wifi_wps_setup_title">Заштићено подешавање WLAN-ја</string>
+    <string name="wifi_wps_onstart_pbc">Притисните дугме Заштићено подешавање WLAN-ја на рутеру. Можда се зове „WPS“ или садржи овај симбол:</string>
+    <string name="wifi_wps_onstart_pin">Унесите PIN %1$s на WLAN рутеру. Подешавање ће бити довршено за највише два минута.</string>
+    <string name="wifi_wps_connected">Повезано са WLAN мрежом %s</string>
+    <string name="wifi_scan_always_turnon_message">"Ради побољшања тачности одређивања локације, као и у друге сврхе, %1$s жели да укључи скенирање мреже чак и када је WLAN искључен.
+
+Дозволити ово за све апликације које желе да изврше скенирање?"</string>
+    <string name="wifi_skipped_message">"UPOZORENJE: Можете да будете изложени додатном тарифирању оператера за пренос података.
+
+Подешавање телефона може да захтева пренос значајне количине података."</string>
+    <string name="wifi_and_mobile_skipped_message">УПОЗОРЕЊЕ: Телефон неће моћи да верификује да је софтвер ажуриран.</string>
+    <string name="wifi_connect_failed_message">Телефон није могао да се повеже са овом WLAN мрежом.</string>
+    <string name="wifi_advanced_titlebar">Напредна подешавања WLAN функције</string>
+    <string name="wifi_configure_titlebar">Конфигуришите WLAN</string>
+    <string name="wifi_advanced_not_available">Напредна подешавања WLAN мреже нису доступна за овог корисника</string>
+    <string name="wifi_p2p_settings_title">WLAN Дирецт</string>
+    <string name="wifi_tether_checkbox_text">Преносна WLAN приступна тачка</string>
+    <string name="wifi_tether_failed_subtext">Грешка у преносној WLAN приступној тачки</string>
+    <string name="wifi_tether_configure_ap_text">Подеси WLAN приступну тачку</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s преносна WLAN приступна тачка</string>
+    <string name="wifi_calling_settings_title">Поставке за позивање путем WLAN везе</string>
+    <string name="wifi_calling_suggestion_title">Позивање преко WLAN-ја</string>
+    <string name="wifi_calling_suggestion_summary">Користите WLAN уместо мобилне мреже</string>
+    <string name="wifi_calling_mode_title">Позивање путем WLAN везе</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN режим позивања</string>
+    <string name="wifi_calling_off_explanation">Када је Позивање преко WLAN-ја укључено, телефон може да преусмерава позиве преко WLAN мрежа или мреже мобилног оператера у зависности од тога које сте подешавање изабрали и који сигнал је јачи. Пре него што укључите ову функцију, информишите се код мобилног оператера о накнадама и другим детаљима.</string>
+    <string name="status_wifi_mac_address">WLAN MAC адреса</string>
+    <string name="reset_network_desc">"Ово ће ресетовати све мрежне поставке укључујући i:
+
+"<li>WLAN</li>"
+"<li>Преносне податке</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Желите да промените WLAN ассистант-а?</string>
+    <string name="location_mode_high_accuracy_description">"Користи GPS, WLAN и мобилне мреже за одређивање локације "</string>
+    <string name="location_mode_battery_saving_description">Користи WLAN и мобилне мреже за одређивање локације</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN скенирање</string>
+    <string name="location_scanning_wifi_always_scanning_description">Побољшај локацију дозвољавајући системским апликацијама и услугама да детектују WLAN мреже у сваком тренутку</string>
+    <string name="location_network_based">WLAN и мобилна мрежа</string>
+    <string name="location_neighborhood_level">Дозволи апликацијама да користе податке из извора као што су WLAN и мобилне мреже за одређивање приближне локације</string>
+    <string name="location_neighborhood_level_wifi">Локација се одређује помоћу WLAN мреже</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Време укључености WLAN мреже</string>
+    <string name="bluetooth_on_time">Време укључености WLAN мреже</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN је активан</string>
+    <string name="usage_type_data_wifi_send">Подаци послати путем WLAN мреже</string>
+    <string name="usage_type_data_wifi_recv">Подаци примљени путем WLAN мреже</string>
+    <string name="battery_action_wifi">WLAN подешавања</string>
+    <string name="battery_desc_wifi">Батерија коју користи WLAN</string>
+    <string name="battery_sugg_wifi">Искључите·WLAN када га не користите или када није доступан</string>
+    <string name="gadget_toggle_wifi">Ажурирање WLAN подешавања</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Прављење резервних копија података апликација, WLAN лозинки и других подешавања и њихово слање на Google сервере</string>
+    <string name="backup_erase_dialog_message">Желите ли да прекинете прављење резервних копија WLAN лозинки, обележивача, других подешавања и података о апликацијама, као и да избришете све копије на Google серверима?</string>
+    <string name="fullbackup_erase_dialog_message">Зауставити прављење резервне копије података уређаја (као што су WLAN лозинке и историја позива) и податке апликација (као што су поставке и датотеке које чувају апликације) и обрисати све копије које се налазе на локацији Google Дриве?</string>
+    <string name="fullbackup_data_summary">"Аутоматски правите резервне копије података уређаја (попут WLAN лозинки и историје позива) и података апликација (попут подешавања и датотека сачуваних у апликацијама) даљински.
+
+Када укључите аутоматско прављење резервних копија, подаци уређаја и апликација се повремено чувају даљински. Подаци апликација могу да буду било који подаци које је апликација сачувала (на основу подешавања програмера), укључујући потенцијално осетљиве податке као што су контакти, поруке и слике."</string>
+    <string name="wifi_setup_title">Подешавање WLAN везе</string>
+    <string name="wifi_setup_title_editing_network">Повежи са WLAN мрежом %s</string>
+    <string name="wifi_setup_title_connecting_network">Повезивање са WLAN мрежом %s…</string>
+    <string name="wifi_setup_eap_not_supported">Не можете да конфигуришете EAP WLAN везу током подешавања. Након подешавања, то можете да урадите у менију Подешавања > Бежична веза и мреже.</string>
+    <string name="wifi_setup_description_connected">Додирните <b>Даље</b>" да бисте наставили са подешавањем.
+
+Додирните "<b>Назад</b> да бисте се повезали са другом WLAN мрежом.</string>
+    <string name="data_usage_menu_show_wifi">Прикажи WLAN употребу</string>
+    <string name="data_usage_menu_hide_wifi">Сакриј WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Подеси ограничење WLAN података</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Онемогући позадинске податке само у мобилној мрежи. WLAN ће се користити уколико је доступан.</string>
+    <string name="data_usage_app_restrict_dialog">"Ова функција може да изазове прекид рада апликације која зависи од позадинских података када WLAN није доступан.
+
+Можете да пронађете адекватније контроле коришћења података у подешавањима доступним у оквиру апликације."</string>
+    <string name="data_usage_restrict_background">Ако ограничите позадинске податке за мобилне уређаје, неке апликације и услуге неће функционисати осим уколико нисте повезани са WLAN мрежом.</string>
+    <string name="data_usage_restrict_background_multiuser">"Ако ограничите позадинске податке за мобилне уређаје, неке апликације и услуге неће функционисати ако нисте повезани са WLAN мрежом.
+
+Ово подешавање утиче на све кориснике овог телефона."</string>
+    <string name="data_usage_metered_body">Изаберите WLAN мреже које су мобилне приступне тачке. Апликацијама може бити забрањено да користе ове мреже када су активне у позадини. Апликације могу и да генеришу упозорења приликом коришћења ових мрежа за велика преузимања.</string>
+    <string name="data_usage_metered_wifi">WLAN мреже</string>
+    <string name="data_usage_metered_wifi_disabled">Да бисте изабрали мобилне хотспотове, укључите WLAN.</string>
+    <string name="user_add_user_message_long">"Можете да делите овај уређај са другим људима тако што ћете направити додатне кориснике. Сваки корисник има сопствени простор, који може да прилагођава помоћу својих апликација, позадина итд. Корисници могу да прилагођавају и подешавања таблета као што је WLAN, а која утичу на свакога.
+
+Када направите новог корисника, та особа треба да обави подешавање.
+
+Сваки корисник може да прихвата ажуриране дозволе апликација у име свих осталих корисника."</string>
+    <string name="restriction_wifi_config_title">WLAN и мобилни подаци</string>
+    <string name="restriction_wifi_config_summary">Дозволи измене подешавања WLAN и мобилних мрежа</string>
+    <string name="keywords_wifi">WLAN мрежа веза</string>
+    <string name="keywords_wifi_calling">WLAN WLAN позив позивање</string>
+    <string name="setup_wifi_nfc_tag">Подеси WLAN NFC ознаку</string>
+    <string name="condition_hotspot_summary">Преносни WLAN хотспот %1$s је активан, WLAN за овај уређај је искључен.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth и мобилна мрежа су искључени. Не можете да упућујете телефонске позиве или да се повезујете на интернет.</string>
+    <string name="condition_cellular_summary">Интернет је доступан само преко WLAN-ја</string>
+    <string name="condition_bg_data_summary">Позадински подаци су доступни само преко WLAN-ја. То може да утиче на неке апликације или услуге када WLAN није доступан.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN мост</string>
+    <string name="wifi_tether_bridge_tittle_text">Поставке за WLAN мост</string>
+    <string name="wifi_tether_configure_bridge_text">Конфигуришите WLAN мост</string>
+    <string name="wifi_bridge_settings_summary">Подесите назив моста, лозинку и др.</string>
+    <string name="wifi_bridge_use_help_title">Помоћ</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN мост може значајно да побољша домет преноса и јачину WLAN сигнала. Други уређаји могу да се повежу на вашу тренутну WLAN мрежу путем вашег уређаја.
+2. WLAN мост подржава приступ са максимално 4 уређаја.
+3. WLAN мост не ради са функцијама WLAN хотспот и WLAN Дирецт. Ако је омогућен WLAN мост, неке апликације које користе П2П услуге можда неће радити правилно.
+4. Коришћење WLAN моста брже троши енергију батерије."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">Обавезна је WLAN веза</string>
+    <string name="wifi_bridge_switch_wifi_summary">Дели повезану WLAN мрежу</string>
+    <string name="wifi_setup_title_connected_network_Toast">Успостављена је веза са WLAN мрежом %s</string>
+    <string name="huawei_beam_explained">Huawei Беам вам омогућава да пренесете датотеке, као што су слике, видео, контакти и URL адресе са вашег уређаја на други уређај на коме је омогућен NFC. Huawei Беам ћете активирати тако што ћете приближити уређаје, један до другог (обично леђа о леђа), и додирнути екран. Имајте у виду да Bluetooth или WLAN могу да се аутоматски укључе пре преношења датотека.</string>
+    <string name="wifi_display_settings_summary">Прикажите екран телефона на другом дисплеју преко WLAN везе</string>
+    <string name="cell_switch_to_wifi_prompt">Доступно је %s WLAN мрежа. Желите ли да прекинете коришћење услуге података и да се повежете на WLAN мрежу?</string>
+    <string name="switch_to_wifi_manual_prompt">WLAN сигнал је пронађен. Желите ли да користите ову WLAN мрежу?</string>
+    <string name="switch_to_wifi_query_prompt">Доступно је %s WLAN мрежа. Желите ли да се повежете на WLAN мрежу?</string>
+    <string name="wifi_to_wifi_prompt">Актуелни сигнал везе је слаб. Желите ли да користите другу WLAN мрежу?</string>
+    <string name="advanced_wifi_settings_title">Напредна подешавања</string>
+    <string name="huawei_beam_front_explained">"Huawei Беам вам омогућава да пренесете датотеке на друге NFC уређаје тако што ћете приближити уређаје, један до другог. На пример, можете бежично да преносите слике, видео, контакте, URL адресе и још много тога с једног уређаја на коме је омогућен NFC на други. Једноставнo:
+1. Наслоните предњи панел вашег уређаја на други NFC уређај и, након што чујете тон, узмите уређај.
+2. Додирните екран у року од три секунде од тренутка када чујете тон.
+3. Да бисте довршили пренос, поново наслоните предњи панел вашег уређаја на NFC уређај. Имајте у виду да Bluetooth или WLAN могу да се аутоматски укључе пре преношења датотека."</string>
+    <string name="wifiap_use_help_details">"1. Можете да користите преносиви WLAN хотспот уређај као приступну тачку за Интернет. Периферијски уређаји могу да се повежу на ваш уређај путем WLAN везе, и повезани уређаји ће приступати Интернету преко мобилне мреже.
+2. Коришћење преносног WLAN хотспота ће захтевати да веза преносних података буде укључена и трошиће саобраћај података.
+3. Коришћење преносног WLAN хотспота ће брже истрошити батерију."</string>
+    <string name="wifiap_connect_help_details_open">"Ручно успостављање везe:
+1. Укључите WLAN на циљном уређају и пронађите приступну тачку %1$s.
+2. Повежите се на ту приступну тачку."</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">Повезани сте на China Mobile WLAN мрежу. Коришћење ове мреже може да произведе накнаде за коришћење WLAN мреже.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Подсетник на China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Подсети ме када будем повезан/а на China Mobile WLAN мрежу</string>
+    <string name="wifi_cmcc_no_notification_summary">Не приказуј обавештења током замене мрежа (преносни подаци и WLAN и обрнуто, или између WLAN мрежа)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Користи GPS и WLAN за процену локације</string>
+    <string name="location_mode_battery_saving_description_wifionly">Користи WLAN за процену локације</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Паметно изабери WLAN или мрежу преносних података</string>
+    <string name="wifi_plus_description">"Када је WLAN+ омогућен, ваша могућност повезивања на WLAN ће се проверавати како би се омогућила паметна промена мреже (може доћи до већег коришћења WLAN података). WLAN+ аутоматскi:
+1. Прелази са WLAN мреже на мрежу за преносне податке (уз обавештења) како би се омогућило једноставно коришћење интернета.
+2. Укључује WLAN када се налази у опсегу познате WLAN мреже и повезује се на њу."</string>
+    <string name="wifi_plus_settings_title">Поставке WLAN+ везе</string>
+    <string name="wifi_plus_intelligent_switch_description">Интелигентно пребацивање између WLAN везе и мрежа за пренос мобилних података за бољи доживљај Интернета.</string>
+    <string name="wifi_plus_auto_turn_on_description">Аутоматски укључује WLAN када се приближите познатој локацији.</string>
+    <string name="wifi_plus_global_description">"Када је омогућена WLAN+ веза, WLAN повезаност ће се проценити да би се обезбедило паметно мрежно пребацивање (WLAN коришћење података може да се повећа). WLAN+ ће аутоматски: 
+1. Обавити пребацивање са WLAN мреже на пренос података путем мобилне мреже и обратно како би се обезбедио непрекидан доживљај Интернета.
+2. Укључити WLAN када је у домету познатих WLAN мрежа и повезати се на њих."</string>
+    <string name="location_mode_high_accuracy_title_emui">Користи GPS, WLAN и мобилне мреже</string>
+    <string name="location_mode_battery_saving_title_emui">Користи WLAN и мобилне мреже</string>
+    <string name="pgps_switch_summary">Дозволи да GPS сак. под. оближ. моб. базних станица и WLAN мрежа да би пружао брже и тачније услуге одређ. локације.</string>
+    <string name="find_no_wlan_ap">Проналажење WLAN хотспот није могуће</string>
+    <string name="cannot_connect_wlan">Повезивање на WLAN није могуће</string>
+    <string name="cannot_login_internet_with_wlan">Приступање интернету преко WLAN није могуће</string>
+    <string name="wfd_connect_fail">Успостављање WLAN Дирецт везе није успело</string>
+    <string name="find_no_wfd_device">Проналажење WLAN Дирецт уређаја није могуће</string>
+    <string name="wfd_search_no_devices_causes">"Нису пронађени доступни уређаји, разлог може бити следећi:
+1. Упарени уређај није видљив.
+2. Упарени уређај има техничке проблеме. Покушајте да поново покренете WLAN и поново отворите WLAN Дирецт.
+3. Ваш уређај има техничке проблеме. Покушајте да поново покренете WLAN и поново отворите WLAN Дирецт."</string>
+    <string name="wfd_connected_failed_causes">"Веза није могла да се успостави. Могући разлози: 
+1. Упарени уређај није прихватио захтев за повезивање.
+2. Било који уређај је већ успоставио другу WLAN Дирецт везу.
+3. Упарени уређај има техничке проблеме. Покушајте да поново покренете."</string>
+    <string name="wifi_qrcode_share_notice">Скенирајте QR код да бисте се повезали на WLAN мрежу</string>
+    <string name="devices_not_found_solution_title">Ако не можете пронаћи уређај, покушајте следеће:</string>
+    <string name="devices_not_found_solution_message">"1. Проверите да ли уређај скенира друге уређаје.
+2. Ако постоји проблем на равноправном уређају, поново покрените WLAN и поново приступите WLAN Дирецт-у.
+3. Ако постоји проблем на вашем уређају, поново покрените WLAN и поново приступите WLAN Дирецт-у."</string>
+    <string name="devices_not_connected_solution_message">"1. Проверите да ли је равноправни уређај прихватио захтев за повезивање.
+2. Уверите се да ниједан од уређаја није повезан са другим уређајима.
+3. Ако постоји проблем са равноправним уређајем, поново покушајте да се повежете."</string>
+    <string name="wifi_plus_description_emui">"Када је омогућен WLAN+, могућност повезивања ваше WLAN мреже биће процењена да би се обезбедило паметно пребацивање мреже (потрошња WLAN података се може повећати). WLAN+ аутоматскi:
+1. Пребацује између WLAN и мобилних података (Можете изабрати подразумевани режим пребацивања у подешавањима мобилне мреже) да бисте обезбедили пријатан доживљај Интернета.
+2. Укључује WLAN када се нађе у домету познате WLAN мреже и повезује се на њу."</string>
+    <string name="link_plus_live_update_description">Када је ажурирање за Линк+ ливе омогућено, ваш телефон аутоматски ажурира податке о параметрима комуникације преко ваше бежичне мреже (WLAN подразумевано) како би побољшао битне Линк+ функције.</string>
+    <string name="wifi_plus_description_emui2">"Када је омогућен WLAN+, могућност повезивања ваше WLAN мреже биће процењена да би се обезбедило паметно пребацивање мреже (потрошња WLAN података се може повећати). WLAN+ аутоматскi:
+1. Прелази са WLAN мреже на преносне податке (можете да изаберете подразумевани режим пребацивања у оквиру поставки мобилних мрежа) да би се омогућио неометани доживљај интернета.
+2. Укључује WLAN када је у опсегу познат WLAN мреже и повезује се на њу.
+3. Процењује доступне WLAN мреже. Уређај се неће аутоматски повезивати на сачуване мреже без интернет везе.
+4. За неке бесплатне WLAN приступне тачке, набавља верификациони код из долазне SMS поруке и пријављује се на мрежу путем прегледача (тренутно је подржана само у Кини)."</string>
+    <string name="wifi_plus_global_description2">"Када је омогућен WLAN+, могућност повезивања ваше WLAN мреже биће процењена да би се обезбедило паметно пребацивање мреже (потрошња WLAN података се може повећати). WLAN+ аутоматскi:
+1. Прелази са WLAN мреже на преносне податке пребацивања у оквиру поставки мобилних мрежа да би се омогућио неометани доживљај интернета.
+2. Укључује WLAN када је у опсегу познат WLAN мреже и повезује се на њу.
+3. Процењује доступне WLAN мреже. Уређај се неће аутоматски повезивати на сачуване мреже без интернет везе."</string>
+    <string name="help_message">"1. Ваш штампач и телефон нису повезани на исту WLAN мрежу.
+2. Ваш штампач не подржава ову одређену услугу штампања (проверите код произвођача).
+3. Претраживање је истекло. У том случају, покушајте поново.
+4. Систем вашег штампача је пао. Поново покрените штампач и покушајте поново."</string>
+    <string name="wifi_cloud_security_check_title">Провера безбедности WLAN мреже</string>
+    <string name="wifi_cloud_security_check_summary">Провери ниво безбедности повезане WLAN мреже путем апликације Менаџер телефона и паузирај аутоматско повезивање на сачуване мреже које представљају безбедносни ризик</string>
+    <string name="wifi_plus_description_emui3">"Када се омогући WLAN+, процениће се ваша повезаност на WLAN да би се обезбедило паметно пребацивање с једне мреже на другу и аутоматски ће се ажурирати параметри за оптимизацију путем WLAN мреже (може се увећати коришћење података WLAN мреже). WLAN+ аутоматскi:
+1. Пребацује између WLAN и мобилних података (Можете изабрати подразумевани режим пребацивања у подешавањима мобилне мреже) да бисте обезбедили пријатан доживљај интернета.
+2. Укључује WLAN када се нађе у домету познате WLAN мреже и повезује се на њу.
+3. Процењује доступне WLAN мреже. За сачуване мреже које немају приступ интернету, аутоматско повезивање је паузирано.
+4. За одређене бесплатне WLAN хотспот-ове, детектује верификациони код и приступа му из долазне верификационе SMS поруке и пријављује се аутоматски на мрежу путем прегледача (тренутно је подржано само у Кини)."</string>
+    <string name="user_add_user_message">"Овај уређај можете да делите са другима тако што ћете креирати додатне кориснике. Сваки корисник има свој простор који може да прилагоди апликацијама, позадинама и многим другим. Корисници могу да прилагоде и посатвке уређаја, као што је WLAN, што ће утицати на све.
+
+Када додате новог корисника, та особа треба да подеси свој простор.
+
+Сваки корисник може да ажурира апликације за све остале кориснике."</string>
+    <string name="print_user_warning">Ваш уређај ће претражити штампаче у близини преко WLAN везе када омогућите услугу штампања, која ће користити WLAN саобраћај.</string>
+    <string name="wifi_calling_settings_title_emui">Позивање путем WLAN везе</string>
+    <string name="wifi_calling_dialog_title">Омогућите WLAN позивање</string>
+    <string name="wifi_calling_dialog_message">Ако се омогући, нећете моћи да обављате позиве за хитне случајеве преко WLAN везе. Омогућити?</string>
+    <string name="device_name_settings_summary">Када користите Bluetooth, WLAN Дирецт, дељење везе и преносиву приступну тачку, други уређаји ће видети овај назив.</string>
+    <string name="device_name_settings_dialog">Измена назива уређаја ће прекинути тренутну WLAN хотспот везу. Изменити га?</string>
+    <string name="write_wifi_nfc_tag">Уписивање у WLAN NFC ознаку</string>
+    <string name="wifi_plus_smart_switch_title">Паметна промена WLAN и преносних података</string>
+    <string name="wifi_plus_smart_switch_summary">Проверите могућност повезивања на WLAN мрежу и прелазите са WLAN мреже на преносне податке да бисте одабрали најбољу мрежну везу (то може да повећа саобраћај). Подразумевани режим за промену се подешава у поставкама мобилне мреже</string>
+    <string name="wifi_plus_smart_switch_summary_global">Проверите могућност повезивања на WLAN мрежу и прелазите са WLAN мреже на преносне податке да бисте одабрали најбољу мрежну везу (ово може да повећа саобраћај)</string>
+    <string name="wifi_plus_auto_turn_title">Аутоматски укључи/искључи WLAN</string>
+    <string name="wifi_plus_auto_turn_summary">Укључи WLAN када се нађе у домету познате WLAN мреже и повежи се на њу</string>
+    <string name="wifi_plus_quality_evaluation_title">Проверите доступне WLAN мреже</string>
+    <string name="wifi_plus_quality_evaluation_summary">Процени доступне WLAN мреже. Аутоматско повезивање је паузирано за сачуване мреже које немају приступ интернету</string>
+    <string name="wifi_plus_fast_connect_title">Оптимизујте искуство пријаве за бесплатне WLAN хотспот-ове</string>
+    <string name="wifi_plus_fast_connect_summary">За одређене бесплатне WLAN хотспот-ове, детектујте верификациони код и приступајте му из долазне верификационе SMS поруке и пријављујте се аутоматски на мрежу путем прегледача (тренутно је подржано само у Копненој Кини)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Када је ажурирање за Линк+ ливе омогућено, ваш телефон аутоматски ажурира податке о параметрима комуникације преко ваше бежичне мреже (WLAN подразумевано) како би побољшао битне функције комуникације.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Преносне податке</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Користи GPS и WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Користи WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN мрежни мост значајно побољшава опсег преноса и интензитет WLAN сигнала. Други уређаји могу да се повежу на вашу тренутну WLAN мрежу преко вашег уређаја.
+2. WLAN мрежни мост подржава приступ за максимално 4 уређаја.
+3. WLAN мрежни мост не ради са функцијама WLAN хотспот и WLAN Дирецт. Ако је омогућен WLAN мрежни мост, неке апликације које користе П2П услуге можда неће радити правилно.
+4. Коришћење WLAN мрежног моста доводи до брже потрошње батерије.
+5. Ако примите поруку са обавештењем да нека друга услуга користи WLAN ресурсе, изаберите Подешавања > WLAN > WLAN Дирецт, а затим прекините везу са свим повезаним уређајима. Можете и да искључите WLAN мрежу, а затим поново да је укључите да бисте аутоматски прекинули везу са свим уређајима."</string>
+    <string name="wifi_qrcode_share_notice_new">Скенирај за повезивање на ову WLAN мрежу</string>
+    <string name="location_help_scheme_body_one">"1. Проверите да ли је опција Приступи мојој локацији омогућена.
+2. У режиму Локација изаберите Користи GPS, WLAN и мобилне мреже.
+3. Повежите се на WLAN приступну тачку или омогућите мобилне податке.
+4. Проверите да ли апликација коју користите има приступ дозволи за локације у менију Менаџер телефона > Менаџер дозвола > Приступ информацијама о локацији.
+5. Ако сте режим Локација поставили као Користи само GPS, проверите да ли приступ локацији користите у отвореном и неометаном окружењу у коме се GPS сигнали могу нормално примати.
+6. Ако сте повезани на јавну приступну тачку, покушајте да искључите WLAN и омогућите мобилне податке. Затим поново покушајте да приступите локацији."</string>
+    <string name="location_help_scheme_body_two">"1. У режиму Локација изаберите Користи GPS, WLAN и мобилне мреже за прецизнији приступ локацији.
+2. Ако на свом уређају користите металну маску, уклоните маску или користите маску која није метална и покушајте поново.
+3. Проверите да ли апликација коју користите има приступ дозволи за локације у менију Менаџер телефона > Менаџер дозвола > Приступ информацијама о локацији.
+4. Навигација функционише боље у широким, неометаним областима. Ставите телефон у положај близу ветробранског стакла на возилу, на пример на инструмент таблу или у друге неометане области у свом аутомобилу."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN мрежни мост значајно побољшава опсег преноса и интензитет WLAN сигнала. Други уређаји могу да се повежу на вашу тренутну WLAN мрежу преко вашег уређаја.
+%2$d. WLAN мрежни мост подржава приступ за максимално %6$d уређаја.
+%3$d. WLAN мрежни мост не ради са функцијама WLAN приступна тачка и WLAN Дирецт. Ако је омогућен WLAN мрежни мост, неке апликације које користе П2П услуге можда неће радити правилно.
+%4$d. Коришћење WLAN мрежног моста доводи до брже потрошње батерије.
+%5$d. Ако примите поруку са обавештењем да нека друга услуга користи WLAN ресурсе, изаберите Подешавања > WLAN > WLAN Дирецт, а затим прекините везу са свим повезаним уређајима. Можете и да искључите WLAN мрежу, а затим да је поново укључите да бисте аутоматски прекинули везу са свим уређајима."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Можете да користите преносиву WLAN приступну тачку као приступну тачку за интернет. Периферни уређаји се могу повезати са вашим уређајем преко WLAN мреже и повезани уређаји ће приступати интернету преко мобилне мреже.
+%2$d. Коришћење преносиве WLAN приступне тачке подразумева да ваша мобилна веза за пренос података буде омогућена и притом се користе одређени подаци.
+%3$d. При коришћењу преносиве WLAN приступне тачке ваша батерија се може празнити брже."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Ручно повезивањe:
+%2$d. Омогућите WLAN функцију на циљном уређају и пронађите приступну тачку %1$s.
+%3$d. Повежите са приступном тачком."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Проверите да ли је опција Приступи мојој локацији омогућена.
+%2$d. У режиму Локација изаберите Користи GPS, WLAN и мобилне мреже.
+%3$d. Повежите се на WLAN приступну тачку или омогућите мобилне податке.
+%4$d. Проверите да ли апликација коју користите има приступ дозволи за локације у менију Менаџер телефона > Менаџер дозвола > Приступ информацијама о локацији.
+%5$d. Ако сте режим Локација поставили као Користи само GPS, проверите да ли приступ локацији користите у отвореном и неометаном окружењу у коме се GPS сигнали могу нормално примати.
+%6$d. Ако сте повезани на јавну приступну тачку, покушајте да искључите WLAN и омогућите мобилне податке. Затим поново покушајте да приступите локацији."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. У режиму Локација изаберите Користи GPS, WLAN и мобилне мреже за прецизнији приступ локацији.
+%2$d. Ако на свом уређају користите металну маску, уклоните маску или користите маску која није метална и покушајте поново.
+%3$d. Проверите да ли апликација коју користите има приступ дозволи за локације у менију Менаџер телефона > Менаџер дозвола > Приступ информацијама о локацији.
+%4$d. Навигација функционише боље у широким, неометаним областима. Ставите телефон у положај близу ветробранског стакла на возилу, на пример на инструмент таблу или у друге неометане области у свом аутомобилу."</string>
+    <string name="turn_off_data_saver_message">Употреба преносиве приступне тачке захтева онемогућавање Чувара података. Онемогућити?</string>
+    <string name="first_wlan_hotspot_text">WLAN хотспот вам дозвољава да делите мрежну везу са другима, али може да троши више батерије и да повећава трошкове коришћења података.</string>
+    <string name="hotspot_power_notification_title">WLAN хотспот је онемогућен</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN хотспот је онемогућен</string>
+    <string name="toast_entitle_wifi_need_close">Ову функцију није могуће користити док је WLAN укључен. Прво искључите WLAN.</string>
+    <string name="wifi_activated_warning_Title">WLAN је укључен</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Мобилна приступна тачка и WLAN не могу истовремено да се укључе. Искључити WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">"WLAN мора бити искључен. Биће поново укључен аутоматски након што телефон комуницира са AT&amp;Т'с серверима."</string>
+    <string name="broadcast_ssid_is_show_dialog">Уколико искључите опцију Емитовање имена мреже (SSID), ваш телефон неће бити видљив другим уређајима и неће се појавити на листи доступних WLAN мрежа. Други уређаји и даље могу да се повежу на вашу притступну тачку ручним уносом имена ваше мреже.</string>
+    <string name="enable">Аутоматско повезивање на AT&amp;Т WLAN је омогућено</string>
+    <string name="disable">Аутоматско повезивање на AT&amp;Т WLAN је онемогућено</string>
+    <string name="auto_connect_wifi_suggestion">Поново покрените WLAN да би се применила подешавања аутоматског повезивања.</string>
+    <string name="wifi_network_detect_summary">Проверите приступачност Интернета када се повезујете на WLAN хотспот</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN је онемогућио administrator уређаја</string>
+    <string name="wifi_required_info_text">Tabletu je potreban pristup WLAN mreži da bi dovršio podešavanje. Kada se podešavanje dovrši, možete da prelazite između veze za prenos mobilnih podataka i WLAN-ja.</string>
+    <string name="wifi_setting_frequency_band_title">Opseg WLAN frekvencija</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s upravlja vašim uređajem i ne dozvoljava vam da promenite niti izbrišete ovu WLAN mrežu. Za više informacija, kontaktirajte vašeg administratora.</string>
+</resources>

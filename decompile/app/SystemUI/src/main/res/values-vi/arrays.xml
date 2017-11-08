@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối…</item>
+        <item>Đang xác thực…</item>
+        <item>Đang lấy địa chỉ IP…</item>
+        <item>Đã kết nối</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đang ngắt kết nối…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Bị chặn</item>
+        <item>Tạm thời tránh kết nối kém</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối tới %1$s</item>
+        <item>Đang xác thực với %1$s…</item>
+        <item>Đang lấy địa chỉ IP từ %1$s…</item>
+        <item>Đã kết nối tới %1$s</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đăng ngắt kết nối khỏi %1$s…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Bị chặn</item>
+        <item>Tạm thời tránh kết nối kém</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Không bao giờ kiểm tra</item>
+        <item>Chỉ kiểm tra nội dung DRM</item>
+        <item>Luôn kiểm tra</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Không bao giờ sử dụng kiểm tra HDCP</item>
+        <item>Chỉ sử dụng kiểm tra HDCP cho nội dung DRM</item>
+        <item>Luôn sử dụng kiểm tra HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Tắt</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Tắt</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Tắt</item>
+        <item>64K/lần tải nhật ký</item>
+        <item>256K/lần tải nhật ký</item>
+        <item>1M/lần tải nhật ký</item>
+        <item>4M/lần tải nhật ký</item>
+        <item>16M/lần tải nhật ký</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Tắt hình động</item>
+        <item>Tỷ lệ hình động 0,5x</item>
+        <item>Tỷ lệ hình động 1x</item>
+        <item>Tỷ lệ hình động 1,5x</item>
+        <item>Tỷ lệ hình động 2x</item>
+        <item>Tỷ lệ hình động 5x</item>
+        <item>Tỷ lệ hình động 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Không có</item>
+        <item>480p</item>
+        <item>480p (bảo mật)</item>
+        <item>720p</item>
+        <item>720p (bảo mật)</item>
+        <item>1080p</item>
+        <item>1080p (bảo mật)</item>
+        <item>4k</item>
+        <item>4k (bảo mật)</item>
+        <item>4k (đã nâng cấp)</item>
+        <item>4K (đã nâng cấp, bảo mật)</item>
+        <item>720p, 1080p (màn hình đôi)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Không có</item>
+        <item>Logcat</item>
+        <item>Systrace (Đồ họa)</item>
+        <item>Chồng lệnh trên glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Tắt</item>
+        <item>Vẽ vùng clip khác hình chữ nhật bằng màu lam</item>
+        <item>Đánh dấu lệnh vẽ đã kiểm tra bằng màu lục</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Tắt</item>
+        <item>Trên màn hình dưới dạng thanh</item>
+        <item>Trong adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Tắt</item>
+        <item>Hiển thị các vùng vẽ quá</item>
+        <item>Hiển thị các vùng mô phỏng mù màu lục</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Giới hạn tiêu chuẩn</item>
+        <item>Không có quá trình nền</item>
+        <item>Tối đa 1 quá trình</item>
+        <item>Tối đa 2 quá trình</item>
+        <item>Tối đa 3 quá trình</item>
+        <item>Tối đa 4 quá trình</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Đang sạc</item>
+        <item>MTP (Giao thức truyền phương tiện)</item>
+        <item>PTP (Giao thức truyền hình ảnh)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Nguồn âm</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Rất chậm</item>
+        <item>Chậm</item>
+        <item>Bình thường</item>
+        <item>Nhanh</item>
+        <item>Nhanh hơn</item>
+        <item>Rất nhanh</item>
+        <item>Nhanh</item>
+        <item>Rất nhanh</item>
+        <item>Nhanh nhất</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Sống động (mặc định)</item>
+        <item>Tự nhiên</item>
+        <item>Tiêu chuẩn</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Màu tăng cường</item>
+        <item>Màu tự nhiên giống như nhìn bằng mắt</item>
+        <item>Màu được tối ưu hóa cho nội dung kỹ thuật số</item>
+    </array>
+    <array name="clock_options">
+        <item>Hiển thị giờ, phút và giây</item>
+        <item>Hiển thị giờ và phút (mặc định)</item>
+        <item>Không hiển thị biểu tượng này</item>
+    </array>
+    <array name="battery_options">
+        <item>Luôn hiển thị phần trăm</item>
+        <item>Hiển thị phần trăm khi sạc (mặc định)</item>
+        <item>Không hiển thị biểu tượng này</item>
+    </array>
+</resources>

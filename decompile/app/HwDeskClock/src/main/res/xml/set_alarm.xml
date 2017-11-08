@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <com.android.deskclock.alarmclock.CalendarPreference androidhwext:persistent="false" androidhwext:key="calendar_layout" androidhwext:preferenceID="@id/calendar_preference_layout" />
+    <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/alarm_repeat" androidhwext:key="repeat_layout" androidhwext:detail="0x0" androidhwext:netherSummary="0x0" androidhwext:preferenceID="@id/textarrow_repeat_layout" />
+    <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/alert" androidhwext:key="Ringtone_layout" androidhwext:detail="0x0" androidhwext:netherSummary="0x0" androidhwext:preferenceID="@id/textarrow_ringtone_layout" />
+    <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/alarm_vibrate" androidhwext:key="Vibrate_layout" androidhwext:summary="" androidhwext:preferenceID="@id/switch_vibrate_layout" />
+    <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/label" androidhwext:key="label_layout" androidhwext:detail="0x0" androidhwext:netherSummary="0x0" androidhwext:preferenceID="@id/textarrow_label_layout" />
+</PreferenceScreen>

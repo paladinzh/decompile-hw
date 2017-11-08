@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.huawei.gallery.editor.category.VolatileViewTrack android:orientation="horizontal" android:id="@id/filter_seekbarlist" android:background="@color/ic_choosed_number_bg_light_color" android:paddingLeft="11dp" android:paddingRight="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/transparent" />
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/filter_seekbar_button" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginBottom="8dp" android:layout_marginStart="0dp" android:layout_marginEnd="8dp">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_filter_btn" android:contentDescription="@string/simple_editor_filter" />
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_adjust" android:contentDescription="@string/simple_editor_filter" />
+        </FrameLayout>
+    </FrameLayout>
+    <com.huawei.gallery.editor.ui.FilterBar android:orientation="horizontal" android:id="@id/filter_bar" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <FrameLayout android:id="@id/filter_sub_menu_root" android:layout_width="wrap_content" android:layout_height="match_parent" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.huawei.gallery.editor.ui.PaintFilterMenu android:orientation="vertical" android:id="@id/filter_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </ScrollView>
+            <include layout="@layout/editor_scroll_background_land" />
+            <include layout="@layout/editor_foot_bar_land" />
+        </FrameLayout>
+    </com.huawei.gallery.editor.ui.FilterBar>
+</LinearLayout>

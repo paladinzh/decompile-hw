@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+        <TextView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/alert_dialog_content" android:paddingTop="@dimen/alert_dialog_top_padding" android:paddingBottom="@dimen/alert_dialog_top_padding" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="20" android:minLines="3" android:singleLine="false" android:paddingStart="@dimen/alert_dialog_rl_padding" android:paddingEnd="@dimen/alert_dialog_rl_padding" style="@style/alert_dialog_content_text_style" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/call_buttons_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:layout_marginStart="6dp" android:layout_marginEnd="6dp">
+            <include android:id="@+id/sim1" android:padding="0px" android:layout_width="UNKNOWN_DATA_0x7f0d0278" android:layout_height="UNKNOWN_DATA_0x7f0d01db" android:layout_marginEnd="3dp" layout="@layout/dialpad_additonal_dial_button" />
+            <include android:id="@+id/sim2" android:layout_width="UNKNOWN_DATA_0x7f0d0278" android:layout_height="UNKNOWN_DATA_0x7f0d01db" layout="@layout/dialpad_additonal_dial_button" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

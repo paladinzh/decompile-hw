@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:orientation="vertical" sm:background="@drawable/power_bg" sm:layout_width="match_parent" sm:layout_height="match_parent">
+    <com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout sm:gravity="top|bottom|center_vertical|fill_vertical|center|fill" sm:id="@+id/sliding_layout" sm:layout_width="match_parent" sm:layout_height="match_parent" sm:shadowHeight="4dp" sm:paralaxOffset="100dp" sm:dragView="@+id/dragview" sm:showShadow="false" sm:panelMarginTop="@dimen/phone_space_scan_view_margin_top" sm:pullView="@+id/content_list">
+        <include layout="@layout/process_manager_layout" />
+        <include sm:id="@+id/dragview_container" sm:visibility="invisible" layout="@layout/process_manager_list" />
+    </com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout>
+</LinearLayout>

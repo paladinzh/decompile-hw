@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/fingerprint_layout_theme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SuwContentFrame">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suw_description_margin_top">
+            <TextView android:id="@id/start_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_start_message" style="@style/TextAppearance.FingerprintMessage" />
+            <TextView android:id="@id/repeat_message" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_repeat_message" style="@style/TextAppearance.FingerprintMessage" />
+        </FrameLayout>
+        <include android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fingerprint_enrolling_content_margin_top" layout="@layout/fingerprint_enroll_enrolling_content" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/error_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:accessibilityLiveRegion="polite" style="@style/TextAppearance.FingerprintErrorText" />
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

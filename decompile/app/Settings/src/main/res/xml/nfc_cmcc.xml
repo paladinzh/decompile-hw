@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/nfc_quick_toggle_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/nfc_quick_toggle_title" android:key="nfc_switch" android:summary="@string/nfc_quick_toggle_summary" />
+    <PreferenceCategory android:persistent="false" android:title="@string/nfc_pay_title" android:key="nfc_pay_title" />
+    <PreferenceScreen android:title="@string/nfc_pay_title" android:key="nfc_pay_no_card" android:summary="@string/nfc_disable_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/nfc_pay_title" android:key="nfc_pay_one_card" android:summary="@string/card1" android:widgetLayout="@layout/preference_widget_arrow" />
+    <ListPreference android:layout="@layout/preference_status_summary" android:title="@string/nfc_pay_title" android:key="nfc_pay_both_card" android:summary="@string/card1" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceCategory android:persistent="false" android:title="@string/nfc_security_chip" android:key="security_chip_title" />
+    <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/card1" android:key="card1" />
+    <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/card2" android:key="card2" />
+    <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/embeded_security_chip" android:key="embeded" />
+    <PreferenceCategory android:persistent="false" android:title="@string/nfc_payment_settings_title" android:key="payment_setting_title" />
+    <Preference android:persistent="false" android:title="@string/nfc_payment_default" android:key="pre_default_pay_settings" android:summary="@string/nfc_payment_default_not_set" android:widgetLayout="@layout/preference_widget_arrow" />
+    <ListPreference android:persistent="false" android:title="@string/settings_label" android:key="pay_default_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

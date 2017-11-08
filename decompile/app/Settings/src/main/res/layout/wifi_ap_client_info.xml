@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end">
+        <LinearLayout style="@style/wifi_item_in_dialog">
+            <TextView android:text="@string/wifi_ap_textview_allowed_device_name" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" style="@style/wifi_item_label" />
+            <EditText android:gravity="center_vertical" android:id="@id/client_device_name" android:singleLine="true" android:maxLength="32" android:inputType="textNoSuggestions" style="@style/wifi_item_content" />
+        </LinearLayout>
+        <LinearLayout style="@style/wifi_item_in_dialog">
+            <TextView android:text="@string/wifi_ap_textview_allowed_device_mac" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" style="@style/wifi_item_label" />
+            <EditText android:gravity="center_vertical" android:id="@id/client_device_mac" android:singleLine="true" android:maxLength="32" android:inputType="textNoSuggestions" style="@style/wifi_item_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

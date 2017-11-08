@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@interpolator/cubic_bezier_interpolator_type_20_90" android:ordering="sequentially">
+    <objectAnimator android:interpolator="@interpolator/cubic_bezier_interpolator_type_33_33" android:duration="83" android:valueFrom="@color/qs_tile_tint_off" android:valueTo="@color/qs_tile_tint_on" android:propertyName="fillColor" />
+    <set android:ordering="together">
+        <objectAnimator android:interpolator="@interpolator/cubic_bezier_interpolator_type_33_33" android:duration="10" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="fillAlpha" />
+        <objectAnimator android:duration="120" android:valueFrom="M46,79c0,0 0,0 0,0V79l0,0v0L46,79l0,1c0,0 0,0 0,0H46z" android:valueTo="M46,79c-8.6,0 -10,-15.1 -10,-24.6V36.7l-6,0v0L30,36.7l0,0c0,30,1.4,38.2,5.2,42.3 H46z" android:valueType="pathType" android:propertyName="pathData" />
+    </set>
+    <objectAnimator android:duration="60" android:valueFrom="M46,79c-8.6,0 -10,-15.1 -10,-24.6V36.7l-6,0v0L30,36.7l0,0c0,30,1.4,38.2,5.2,42.3 H46z" android:valueTo="M46,79c-8.6,0 -10,-15.1 -10,-24.6V35l0,0v-9L30,20l0,16.7c0,30,1.4,38.2,5.2,42.3 H46z" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:duration="120" android:valueFrom="M46,79c-8.6,0 -10,-15.1 -10,-24.6V35l0,0v-9L30,20l0,16.7c0,30,1.4,38.2,5.2,42.3 H46z" android:valueTo="M46,79c-8.6,0 -10 -15.1 -10-24.6V35l19,19v-9L30,20l0,16.7c0,30,1.4,38.2,5.2,42.3 H46z" android:valueType="pathType" android:propertyName="pathData" />
+</set>

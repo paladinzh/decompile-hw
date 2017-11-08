@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Terhubung via WLAN assistant</string>
+    <string name="accessibility_wifi_off">WLAN mati.</string>
+    <string name="accessibility_no_wifi">WLAN terputus.</string>
+    <string name="accessibility_wifi_one_bar">WLAN satu bilah.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dua bilah.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tiga bilah.</string>
+    <string name="accessibility_wifi_signal_full">Sinyal WLAN penuh.</string>
+    <string name="wifi_verbose_logging">Aktifkan pencatatan verbose WLAN</string>
+    <string name="wifi_aggressive_handover">WLAN agresif utk penyerahan seluler</string>
+    <string name="wifi_allow_scan_with_traffic">Selalu izinkan pindaian roaming WLAN</string>
+    <string name="wifi_verbose_logging_summary">Tingkatkan level pencatatan WLAN &amp; tampilkan per SSID RSSI di pemilih WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Saat diaktifkan, WLAN lbh agresif dlm menyerahkan koneksi data ke seluler wkt WLAN lemah</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Izinkan/Batasi pindaian roaming WLAN sesuai la-lin data di antarmuka tsb</string>
+    <string name="mobile_data_always_on_summary">Selalu aktifkan data seluler, bahkan ketika WLAN aktif (agar peralihan jaringan cepat)</string>
+    <string name="radio_controls_summary">Kelola WLAN, Bluetooth, mode pesawat, jaringan seluler, &amp; VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Hidupkan WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Pengaturan WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Pilih WLAN</string>
+    <string name="wifi_select_network">Pilih jaringan WLAN</string>
+    <string name="wifi_starting">Hidupkan WLAN…</string>
+    <string name="wifi_stopping">Mematikan WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Hindari sambungan ke jaringan WLAN berkualitas buruk</string>
+    <string name="wifi_automatically_connect_title">Penggunaan otomatis utk membuka WLAN</string>
+    <string name="wifi_automatically_connect_summary">Izinkan asisten WLAN tersambung otomatis untuk membuka jaringan dgn koneksi Internet yg baik</string>
+    <string name="wifi_scan_notify_text">Untuk meningkatkan akurasi lokasi, aplikasi dan layanan sistem masih dapat memindai jaringan WLAN. Anda dapat mengubah ini di dalam LINK_BEGINpengaturan pemindaianLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Selalu aktifkan WLAN dlm mode tidur</string>
+    <string name="wifi_suspend_optimizations">Pengoptimalan WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimalkan penggunaan baterai saat WLAN aktif</string>
+    <string name="wifi_access_points">Jaringan WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Langsung</string>
+    <string name="wifi_empty_list_wifi_off">Utk melihat jaringan yg tersedia, hidupkan WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Menelusuri jaringan WLAN...</string>
+    <string name="wifi_empty_list_user_restricted">Anda tidak berhak untuk mengubah jaringan WLAN.</string>
+    <string name="wifi_wps_setup_title">Penyiapan WLAN yang Dilindungi</string>
+    <string name="wifi_wps_onstart_pbc">Tekan tombol Penyiapan WLAN yang Dilindungi di router Anda. Ini dapat disebut \"WPS\" atau berisi simbol ini:</string>
+    <string name="wifi_wps_onstart_pin">Masukkan pin %1$s pada router WLAN Anda. Penyiapan memerlukan waktu hingga dua menit untuk selesai.</string>
+    <string name="wifi_wps_connected">Tersambung ke jaringan WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Untuk meningkatkan akurasi lokasi dan kegunaan lain, %1$s ingin menghidupkan pemindaian jaringan, bahkan ketika WLAN mati.
+
+Izinkan ini untuk semua aplikasi yang ingin memindai?"</string>
+    <string name="wifi_skipped_message">"PERINGATAN: Anda dapat dikenakan biaya data tambahan.
+
+Pengaturan ponsel membutuhkan aktivitas jaringan yang signifikan."</string>
+    <string name="wifi_and_mobile_skipped_message">PERINGATAN: Ponsel tidak akan dapat memverifikasi bahwa perangkat lunak Anda sudah diperbarui.</string>
+    <string name="wifi_connect_failed_message">Ponsel tidak dapat menyambung ke jaringan WLAN ini.</string>
+    <string name="wifi_advanced_titlebar">Pengaturan WLAN lanjutan</string>
+    <string name="wifi_configure_titlebar">Mengonfigurasi WLAN</string>
+    <string name="wifi_advanced_not_available">Setelan lanjutan WLAN tidak tersedia untuk pengguna ini</string>
+    <string name="wifi_p2p_settings_title">WLAN DIRECT</string>
+    <string name="wifi_tether_checkbox_text">Hotspot WLAN portabel</string>
+    <string name="wifi_tether_failed_subtext">Galat hotspot WLAN portabel</string>
+    <string name="wifi_tether_configure_ap_text">Konfigurasikan hotspot WLAN</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s hotspot WLAN portabel</string>
+    <string name="wifi_calling_settings_title">Pengaturan panggilan WLAN</string>
+    <string name="wifi_calling_suggestion_title">Mengaktifkan Panggilan WLAN</string>
+    <string name="wifi_calling_suggestion_summary">Gunakan WLAN, alih-alih jaringan seluler</string>
+    <string name="wifi_calling_mode_title">Panggilan WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Mode panggilan WLAN</string>
+    <string name="wifi_calling_off_explanation">Jika panggilan WLAN aktif, ponsel dapat merutekan panggilan telepon melalui jaringan WLAN atau jaringan operator, bergantung pada preferensi dan sinyal mana yang lebih kuat. Sebelum mengaktifkan fitur ini, sebaiknya tanyakan info biaya dan detail lainnya ke operator.</string>
+    <string name="status_wifi_mac_address">Alamat MAC WLAN</string>
+    <string name="reset_network_desc">"Ini akan mengatur ulang semua pengaturan jaringan, termasuk:
+
+"<li>WLAN</li>"
+"<li>Data seluler</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Ubah WLAN Assistant?</string>
+    <string name="location_mode_high_accuracy_description">"Gunakan jaringan seluler, WLAN, dan GPS untuk estimasi lokasi "</string>
+    <string name="location_mode_battery_saving_description">Gunakan jaringan seluler dan WLAN untuk estimasi lokasi</string>
+    <string name="location_scanning_wifi_always_scanning_title">Pemindaian WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Tingkatkan lokasi dengan mengizinkan aplikasi dan layanan sistem untuk mendeteksi jaringan WLAN kapan pun</string>
+    <string name="location_network_based">Lokasi jaringan WLAN &amp; seluler</string>
+    <string name="location_neighborhood_level">Izinkan aplikasi menggunakan data dari sumber seperti jaringan WLAN dan seluler untuk menentukan perkiraan lokasi</string>
+    <string name="location_neighborhood_level_wifi">Lokasi yang dipastikan oleh WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN berdasarkan waktu</string>
+    <string name="bluetooth_on_time">WLAN berdasarkan waktu</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN berjalan</string>
+    <string name="usage_type_data_wifi_send">Data WLAN terkirim</string>
+    <string name="usage_type_data_wifi_recv">Data WLAN diterima</string>
+    <string name="battery_action_wifi">Setelan WLAN</string>
+    <string name="battery_desc_wifi">Baterai digunakan oleh WLAN</string>
+    <string name="battery_sugg_wifi">Matikan WLAN ketika tidak digunakan atau ketika tidak tersedia</string>
+    <string name="gadget_toggle_wifi">Memperbarui setelan WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Mencadangkan pengaturan data aplikasi, sandi WLAN, dan lainnya ke server Google</string>
+    <string name="backup_erase_dialog_message">Hentikan mencadangkan sandi WLAN, bookmark, setelan lainnya, dan data apl, serta menghapus semua salinan di server Google?</string>
+    <string name="fullbackup_erase_dialog_message">Hentikan mencadangkan data perangkat (seperti sandi WLAN dan riwayat panggilan) dan data aplikasi (seperti pengaturan dan file yang tersimpan oleh aplikasi), dan hapus semua salinan pada Google Drive?</string>
+    <string name="fullbackup_data_summary">"Otomatis cadangkan data perangkat (seperti sandi WLAN dan riwayat panggilan) dan data aplikasi (seperti setelan dan file yang disimpan oleh aplikasi) dari jarak jauh.
+
+Jika Anda mengaktifkan cadangan otomatis, data perangkat dan aplikasi secara berkala disimpan dari jarak jauh. Data aplikasi dapat berupa data apa saja yang telah disimpan oleh aplikasi (menurut setelan pengembang), termasuk data yang berpotensi sensitif seperti kontak, pesan, dan foto."</string>
+    <string name="wifi_setup_title">Penyiapan WLAN</string>
+    <string name="wifi_setup_title_editing_network">Sambungkan ke jaringan WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Menyambung ke jaringan WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">Anda tidak dapat mengonfigurasi sambungan WLAN EAP selama penyiapan. Setelah penyiapan, Anda dapat melakukannya di Setelan > Nirkabel &amp; jaringan.</string>
+    <string name="wifi_setup_description_connected">Sentuh <b>Berikutnya</b>" untuk melanjutkan penyiapan. 
+
+Sentuh "<b>Kembali</b> untuk menyambung dengan jaringan WLAN yang berbeda.</string>
+    <string name="data_usage_menu_show_wifi">"Tmplkan p'gnaan WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">Sembunyikan WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Tetapkan batas data WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Nonaktifkan data latar belakang pada jaringan data seluler saja. WLAN akan digunakan jika tersedia.</string>
+    <string name="data_usage_app_restrict_dialog">"Fitur ini dapat menyebabkan sebuah aplikasi yang bergantung pada data latar belakang berhenti bekerja ketika WLAN tidak tersedia.
+
+Anda dapat menemukan kontrol penggunaan data yang tepat dalam setelan yang tersedia dalam apl."</string>
+    <string name="data_usage_restrict_background">Jika Anda membatasi data latar belakang seluler, beberapa apl dan layanan tidak akan berfungsi kecuali jika Anda terhubung ke jaringan WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Jika Anda membatasi data seluler latar belakang, beberapa aplikasi dan layanan tidak akan bekerja kecuali Anda tersambung ke jaringan WLAN.
+
+Setelan ini memengaruhi semua pengguna di ponsel ini."</string>
+    <string name="data_usage_metered_body">Pilih jaringan WLAN yang merupakan hotspot selular. Apl dapat dibatasi dari menggunakan jaringan ini saat berjalan di latar belakang. Aplikasi juga dapat memperingatkan ketika menggunakan jaringan ini untuk unduhan yang besar.</string>
+    <string name="data_usage_metered_wifi">Jaringan WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Untuk memilih hotspot seluler, nyalakan WLAN.</string>
+    <string name="user_add_user_message_long">"Anda dapat membagikan perangkat ini dengan orang lain dengan membuat pengguna tambahan. Setiap pengguna memiliki ruangnya sendiri, yang dapat mereka sesuaikan dengan aplikasi, wallpaper, dan lainnya. Pengguna juga dapat menyesuaikan setelan tablet seperti WLAN yang memengaruhi siapa saja.
+
+Setelah Anda membuat pengguna baru, orang tersebut perlu menjalani proses penyiapan.
+
+Setiap pengguna dapat menerima izin aplikasi yang diperbarui atas nama semua pengguna lain."</string>
+    <string name="restriction_wifi_config_title">WLAN dan data seluler</string>
+    <string name="restriction_wifi_config_summary">Izinkan modifikasi pengaturan jaringan WLAN dan seluler</string>
+    <string name="keywords_wifi">WLAN network connection sambungan jaringan</string>
+    <string name="keywords_wifi_calling">WLAN WLAN panggilan memanggil</string>
+    <string name="setup_wifi_nfc_tag">Siapkan tag NFC WLAN</string>
+    <string name="condition_hotspot_summary">Hotspot WLAN portabel %1$s aktif, WLAN untuk perangkat ini dinonaktifkan.</string>
+    <string name="condition_airplane_summary">Jaringan WLAN, Bluetooth, dan seluler dinonaktifkan. Anda tidak dapat melakukan panggilan telepon atau menyambung ke internet.</string>
+    <string name="condition_cellular_summary">Internet hanya tersedia melalui WLAN</string>
+    <string name="condition_bg_data_summary">Data latar belakang hanya tersedia melalui WLAN. Hal ini dapat memengaruhi beberapa aplikasi atau layanan saat WLAN tidak tersedia.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">Jembatan WLAN</string>
+    <string name="wifi_tether_bridge_tittle_text">Pengaturan jembatan WLAN</string>
+    <string name="wifi_tether_configure_bridge_text">Konfigurasikan jembatan WLAN</string>
+    <string name="wifi_bridge_settings_summary">Atur nama jembatan, sandi, dan lainnya</string>
+    <string name="wifi_bridge_use_help_title">Bantuan</string>
+    <string name="wifi_bridge_use_help_details">"1. Jembatan WLAN dapat secara signifikan meningkatkan kisaran transmisi dan intensitas sinyal WLAN. Perangkat lainnya dapat dihubungkan ke jaringan WLAN saat ini melalui perangkat Anda.
+2. Jembatan WLAN mendukung akses dari hingga 4 perangkat.
+3. Jembatan WLAN tidak berfungsi dengan fitur hotspot WLAN dan WLAN Direct. Jika jembatan WLAN diaktifkan, beberapa aplikasi yang menggunakan layanan P2P tidak akan berfungsi dengan benar.
+4. Menggunakan jembatan WLAN akan menghabiskan daya baterai Anda dengan lebih cepat."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">Diperlukan koneksi WLAN</string>
+    <string name="wifi_bridge_switch_wifi_summary">Bagikan jaringan WLAN terhubung</string>
+    <string name="wifi_setup_title_connected_network_Toast">Tersambung ke jaringan WLAN %s</string>
+    <string name="huawei_beam_explained">Huawei Beam memungkinkan Anda untuk menransfer file, seperti gambar, video, kontak, dan URL, antara perangkat Anda dan perangkat yang mendukung NFC lainnya. Huawei Beam diaktifkan dengan cara mendekatkan dua perangkat (biasanya saling membelakangi) dan mengetuk layar Anda. Harap dicatat bahwa Bluetooth atau WLAN Anda akan dihidupkan secara otomatis sebelum melakukan transmisi file.</string>
+    <string name="wifi_display_settings_summary">Tampilkan layar ponsel Anda di layar lain melalui sambungan WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">Jaringan WLAN %s tersedia. Anda ingin menghentikan layanan data dan terhubung ke jaringan WLAN?</string>
+    <string name="switch_to_wifi_manual_prompt">Sinyal WLAN ditemukan, Anda ingin menggunakan jaringan WLAN ini?</string>
+    <string name="switch_to_wifi_query_prompt">Jaringan WLAN %s tersedia. Anda ingin terhubung ke jaringan WLAN?</string>
+    <string name="wifi_to_wifi_prompt">Sinyal koneksi saat ini lemah, Anda ingin menggunakan jaringan WLAN yang lain?</string>
+    <string name="advanced_wifi_settings_title">Pengaturan lanjutan</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam memungkinkan Anda untuk menransferkan file ke perangkat NFC lain dengan cara mendekatkan perangkat. Misalnya, Anda dapat menransferkan gambar, video, kontak, URL, dan file lainnya secara nirkabel antara dua perangkat yang mendukung NFC. Cukup dengan:
+1. Letakkan panel depan perangkat Anda terhadap perangkat NFC lainnya, dan angkat perangkat Anda setelah Anda mendengar nada.
+2. Sentuh layar Anda dalam waktu tiga detik setelah mendengar nada tersebut.
+3. Letakkan panel depan perangkat Anda terhadap perangkat NFC lain untuk menyelesaikan transfer. Harap dicatat bahwa Bluetooth atau WLAN Anda dapat dimatikan secara otomatis sebelum melakukan transmisi file."</string>
+    <string name="wifiap_use_help_details">"1. Anda dpt menggunakan perangkat hotspot WLAN portabel sbg titik akses Internet. Periferal dpt dihubungkan ke prgkt Anda melalui WLAN dan perangkat yg terhubung tsb akan mengakses Internet via jaringan seluler.
+2. Menggunakan hotspot WLAN portabel akan mengharuskan koneksi data seluler dinyalakan, dan akan menggunakan lalu-lintas data.
+3. Menggunakan hotspot WLAN portabel dpt lbh cpt menguras baterai."</string>
+    <string name="wifiap_connect_help_details_open">"Koneksi manual:
+1. Hidupkan WLAN di perangkat target, dan temukan hotspot %1$s.
+2. Hubungkan ke hotspot tersebut."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Anda tersambung ke jaringan WLAN China Mobile. Menggunakan jaringan ini dapat menghasilkan biaya penggunaan WLAN yang berlaku.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Pengingat WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Ingatkan saya saat tersambung ke jaringan WLAN China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Jangan tampilkan notifikasi apa pun saat beralih jaringan (data seluler ke WLAN dan sebaliknya, atau antar jaringan WLAN)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Gunakan GPS dan WLAN untuk memperkirakan lokasi</string>
+    <string name="location_mode_battery_saving_description_wifionly">Gunakan WLAN untuk memperkirakan lokasi</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Dengan pintar memilih WLAN atau jaringan data seluler</string>
+    <string name="wifi_plus_description">"Ketika WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk menyediakan pengalihan jaringan cerdas (penggunaan data WLAN mungkin meningkat). WLAN+ secara otomatis:
+1. Beralih antara WLAN dan data mobile (tanpa notifikasi) untuk memberikan pengalaman Internet yang lancar.
+2. Menghidupkan WLAN ketika berada dalam jangkauan jaringan WLAN yang dikenal dan terhubung padanya."</string>
+    <string name="wifi_plus_settings_title">Pengaturan WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Beralih secara cerdas antara WLAN dan jaringan data seluler untuk mendapatkan pengalaman Internet yang lebih baik.</string>
+    <string name="wifi_plus_auto_turn_on_description">Menyalakan WLAN secara otomatis ketika Anda mendekat lokasi yang dikenal.</string>
+    <string name="wifi_plus_global_description">"Jika WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk memberikan pengalihan jaringan pintar (penggunaan data WLAN dapat meningkat). WLAN+ secara otomatis:
+1. Beralih antara WLAN dan jaringan data seluler untuk memberikan pengalaman Internet yang lancar.
+2. Menyalakan WLAN ketika berada dalam jangkauan jaringan WLAN yang dikenal dan menghubungkannya."</string>
+    <string name="location_mode_high_accuracy_title_emui">Pakai GPS, WLAN, &amp; jaringan seluler</string>
+    <string name="location_mode_battery_saving_title_emui">Pakai WLAN dan jaringan seluler</string>
+    <string name="pgps_switch_summary">Izinkan GPS mengumpulkan data stasiun basis seluler &amp; WLAN terdekat utk memberi layanan lokasi yg lebih cepat &amp; akurat</string>
+    <string name="find_no_wlan_ap">Tidak bisa menemukan hotspot WLAN Direct</string>
+    <string name="cannot_connect_wlan">Tidak bisa terhubung ke WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Tidak bisa mengakses Internet lewat WLAN</string>
+    <string name="wfd_connect_fail">Koneksi WLAN Direct gagal</string>
+    <string name="find_no_wfd_device">Tidak bisa menemukan perangkat WLAN Direct</string>
+    <string name="wfd_search_no_devices_causes">"Perangkat yang tersedia tidak ditemukan, mungkin karena:
+1. Perangkat yang dipasangkan tidak dapat ditemukan.
+2. Perangkat yang dipasangkan mengalami masalah teknis. Coba memulai ulang WLAN dan membuka ulang WLAN Direct.
+3. Perangkat Anda sendiri mengalami masalah teknis. Coba memulai ulang WLAN dan membuka ulang WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"Koneksi tidak dapat dilakukan. Kemungkinan alasan:
+1. Perangkat yang dipasangkan tidak menerima permintaan koneksi.
+2. Kedua perangkat sudah mendapatkan koneksi WLAN Direct lainnya.
+3. Perangkat yang dipasangkan mengalami masalah teknis. Coba untuk memulainya ulang."</string>
+    <string name="wifi_qrcode_share_notice">Pindai kode QR untuk menghubungkan ke jaringan WLAN ini</string>
+    <string name="devices_not_found_solution_title">Jika peranti tidak ditemukan, cobalah berikut ini:</string>
+    <string name="devices_not_found_solution_message">"1. Pastikan peranti memindai peranti lain. 
+2. Jika peranti rekan mengalami masalah, hidupkan ulang WLAN dan akses lagi WLAN Direct. 
+3. Jika peranti Anda mengalami masalah, hidupkan ulang WLAN dan akses lagi WLAN Direct."</string>
+    <string name="devices_not_connected_solution_message">"1. Pastikan peranti rekan telah menerima permintaan koneksi. 
+2. Pastikan kedua peranti belum terhubung satu sama lain. 
+3. Jika peranti rekan mengalami masalah, cobalah koneksi ulang."</string>
+    <string name="wifi_plus_description_emui">"Sewaktu WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk memudahkan perpindahan jaringan cerdas (penggunaan data WLAN bisa meningkat). WLAN+ secara otomatis:
+1. Berpindah antara WLAN dan data seluler (Anda dapat memilih modus perpindahan bawaan pada pengaturan jaringan seluler) untuk mendapatkan pengalaman Internet yang lancar. 
+2. Hidupkan WLAN sewaktu berada dalam jangkauan jaringan WLAN yang diketahui dan hubungkan dengan jaringan itu."</string>
+    <string name="link_plus_live_update_description">Ketika pembaruan langsung Link+ diaktifkan, ponsel Anda secara otomatis memperbarui data parameter komunikasi melalui jaringan nirkabel Anda (WLAN secara standar) untuk dapat meningkatkan fitur Link+ yang relevan.</string>
+    <string name="wifi_plus_description_emui2">"Saat WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk menyediakan pengalihan jaringan pintar (penggunaan data WLAN dapat meningkat). WLAN+ secara otomatis:
+1. Mengalihkan antara WLAN dan data seluler (Anda dapat memilih mode pengalihan standar dalam pengaturan jaringan seluler) untuk menyediakan pengalaman Internet yang mulus.
+2. Menghidupkan WLAN saat ada di dalam jangkauan jaringan WLAN yang diketahui dan menghubungkan ke jaringan tersebut.
+3. Mengevaluasi jaringan WLAN yang tersedia. Perangkat tidak akan terhubung-otomatis ke jaringan tersimpan tanpa koneksi Internet.
+4. Untuk beberapa hotspot WLAN gratis, dapatkan kode verifikasi dari pesan SMS masuk dan masuk ke jaringan tersebut melalui browser (saat ini hanya didukung di Tiongkok)."</string>
+    <string name="wifi_plus_global_description2">"Saat WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk menyediakan pengalihan jaringan pintar (penggunaan data WLAN dapat meningkat). WLAN+ secara otomatis:
+1. Mengalihkan antara WLAN dan data seluler untuk menyediakan pengalaman Internet yang mulus.
+2. Menghidupkan WLAN saat ada di dalam jangkauan jaringan WLAN yang diketahui dan menghubungkan ke jaringan tersebut.
+3. Mengevaluasi jaringan WLAN yang tersedia. Perangkat tidak akan terhubung-otomatis ke jaringan tersimpan tanpa koneksi Internet."</string>
+    <string name="help_message">"1. Printer dan ponsel Anda tidak terhubung ke jaringan WLAN yang sama.
+2. Printer Anda tidak mendukung layanan pencetakan khusus ini (konfirmasikan dengan produsen).
+3. Pencarian telah habis waktu. Coba lagi jika ini masalahnya.
+4. Printer Anda mengalami crash. Mulai ulang printer lalu coba lagi."</string>
+    <string name="wifi_cloud_security_check_title">Pemeriksaan keamanan WLAN</string>
+    <string name="wifi_cloud_security_check_summary">Periksa level keamanan dari jaringan WLAN terhubung melalui Pengelola Ponsel, dan jeda koneksi-otomatis ke jaringan tersimpan yang menimbulkan risiko keamanan</string>
+    <string name="wifi_plus_description_emui3">"Saat WLAN+ diaktifkan, konektivitas WLAN Anda akan dievaluasi untuk menyediakan pengalihan jaringan pintar, dan secara otomatis akan memperbarui parameter pengoptimalan melalui WLAN (penggunaan data WLAN dapat meningkat). WLAN+ secara otomatis:
+1. Mengalihkan antara WLAN dan data seluler (Anda dapat memilih mode pengalihan standar dalam pengaturan jaringan seluler) untuk menyediakan pengalaman Internet yang mulus.
+2. Menghidupkan WLAN saat ada di dalam jangkauan jaringan WLAN yang diketahui dan menghubungkan ke jaringan tersebut.
+3. Mengevaluasi jaringan WLAN yang tersedia. Untuk jaringan tersimpan yang tidak memiliki akses Internet, koneksi-otomatis dijeda.
+4. Untuk hotspot WLAN gratis tertentu, akan mendeteksi dan mengakses kode verifikasi dari pesan verifikasi SMS masuk dan secara otomatis masuk ke jaringan tersebut melalui browser (saat ini hanya didukung di Tiongkok)."</string>
+    <string name="user_add_user_message">"Anda dapat berbagi perangkat ini dengan orang lain dengan cara membuat pengguna tambahan. Setiap pengguna memiliki ruang penyimpanannya sendiri, yang dapat mereka ubah suai dengan aplikasi, wallpaper, dan lainnya. Pengguna dapat juga menyesuaikan pengaturan perangkat seperti WLAN yang berdampak pada semua orang.
+
+Saat Anda menambahkan pengguna baru, orang itu perlu menyiapkan ruang penyimpanan mereka sendiri.
+
+Setiap pengguna dapat memperbarui aplikasi untuk semua pengguna lainnya."</string>
+    <string name="print_user_warning">Perangkat Anda akan mencari printer di dekatnya melalui koneksi WLAn saat Anda mengaktifkan layanan pencetakan, yang akan menimbulkan lalu lintas WLAN.</string>
+    <string name="wifi_calling_settings_title_emui">Panggilan WLAN</string>
+    <string name="wifi_calling_dialog_title">Aktifkan panggilan WLAN</string>
+    <string name="wifi_calling_dialog_message">Jika diaktifkan, Anda tidak akan bisa melakukan panggilan darurat melalui WLAN. Aktifkan?</string>
+    <string name="device_name_settings_summary">Saat Anda menggunakan Bluetooth, WLAN Direct, dan penambatan &amp; hotspot portabel, perangkat lain akan melihat nama ini.</string>
+    <string name="device_name_settings_dialog">Memodifikasi nama perangkat akan memutuskan koneksi hotspot WLAN saat ini. Modifikasikan?</string>
+    <string name="write_wifi_nfc_tag">Tulis ke tag NFC WLAN</string>
+    <string name="wifi_plus_smart_switch_title">Pengalihan pintar antara WLAN &amp; data seluler</string>
+    <string name="wifi_plus_smart_switch_summary">Evaluasi konektivitas WLAN dan beralih antara WLAN (dapat meningkatkan lalu lintas) dan data seluler untuk memilih koneksi jaringan terbaik. Mode pengalihan standar diatur dalam pengaturan jaringan seluler</string>
+    <string name="wifi_plus_smart_switch_summary_global">Evaluasi konektivitas WLAN dan beralih antara WLAN (dapat meningkatkan lalu lintas) dan data seluler untuk memilih koneksi jaringan terbaik</string>
+    <string name="wifi_plus_auto_turn_title">Hidupkan/matikan WLAN secara otomatis</string>
+    <string name="wifi_plus_auto_turn_summary">Hidupkan WLAN sewaktu berada dalam jangkauan jaringan WLAN yang diketahui dan hubungkan ke jaringan itu</string>
+    <string name="wifi_plus_quality_evaluation_title">Evaluasi jaringan WLAN yang tersedia</string>
+    <string name="wifi_plus_quality_evaluation_summary">Evaluasi jaringan WLAN yang tersedia. Koneksi otomatis dijeda untuk jaringan tersimpan yang tidak memiliki akses Internet</string>
+    <string name="wifi_plus_fast_connect_title">Optimalkan pengalaman login untuk hotspot WLAN gratis</string>
+    <string name="wifi_plus_fast_connect_summary">Untuk hotspot WLAN gratis tertentu, akan mendeteksi dan mengakses kode verifikasi dari pesan verifikasi SMS masuk dan secara otomatis masuk ke jaringan tersebut melalui browser (saat ini hanya didukung di Tiongkok Daratan)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Ketika pembaruan langsung Link+ diaktifkan, ponsel Anda secara otomatis memperbarui data parameter komunikasi melalui jaringan nirkabel Anda (WLAN secara standar) untuk dapat meningkatkan fitur komunikasi yang relevan.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Data seluler</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Gunakan GPS dan WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Gunakan WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. Jembatan WLAN dapat secara signifikan meningkatkan kisaran transmisi dan intensitas sinyal WLAN. Perangkat lainnya dapat terhubung ke jaringan WLAN saat ini melalui perangkat Anda.
+2. Jembatan WLAN mendukung akses dari hingga 4 perangkat.
+3. Jembatan WLAN tidak berfungsi dengan fitur hotspot WLAN dan WLAN Direct. Jika jembatan WLAN diaktifkan, beberapa aplikasi yang menggunakan layanan P2P tidak akan berfungsi dengan benar.
+4. Menggunakan jembatan WLAN lebih cepat menghabiskan daya baterai.
+5. Jika Anda menerima pesan yang memberi tahu bahwa sumber daya WLAN sedang digunakan oleh layanan lain, buka Pengaturan > WLAN > WLAN Direct dan putuskan sambungan setiap perangkat yang terhubung. Atau Anda dapat mematikan WLAN lalu menghidupkannya lagi untuk memutuskan otomatis semua perangkat."</string>
+    <string name="wifi_qrcode_share_notice_new">Pindai untuk terhubung ke jaringan WLAN ini.</string>
+    <string name="location_help_scheme_body_one">"1. Pastikan fungsi Akses lokasi saya diaktifkan.
+2. Pilih Gunakan GPS, WLAN, dan jaringan seluler di dalam mode Lokasi.
+3. Hubungkan ke hotspot WLAN atau aktifkan data seluler.
+4. Periksa apakah aplikasi yang Anda gunakan memiliki akses ke Izin lokasi di dalam Pengelola ponsel > Pengelola izin > Akses info lokasi.
+5. Jika Anda telah mengatur mode Lokasi sebagai Gunakan GPS saja, harap pastikan Anda menggunakan akses lokasi di lingkungan yang terbuka dan tidak terhalangi, di mana sinyal GPS dapat diterima secara normal.
+6. Jika Anda terhubung ke hotspot publik, cobalah mematikan WLAN dan mengaktifkan data seluler. Lalu coba akses lagi lokasi tersebut."</string>
+    <string name="location_help_scheme_body_two">"1. Pilih Gunakan GPS, WLAN, dan jaringan seluler di mode Lokasi untuk mendapatkan akses lokasi yang lebih akurat.
+2. Jika Anda menggunakan casing logam pada perangkat Anda, lepaskan casing tersebut atau gunakan casing non-logam dan coba lagi.
+3. Periksa apakah aplikasi yang Anda gunakan memiliki akses ke Izin lokasi di dalam Pengelola ponsel > Pengelola izin > Akses info lokasi.
+4. Navigasi berfungsi lebih baik di area yang luas, tidak terhalangi. Letakkan ponsel Anda pada posisi di dekat jendela kendaraan Anda, seperti dashboard atau area lain yang tidak terhalangi di dalam mobil Anda."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. Jembatan WLAN dapat secara signifikan meningkatkan jangkauan transmisi dan intensitas sinyal WLAN. Perangkat lainnya dapat terhubung ke jaringan WLAN saat ini melalui perangkat Anda.
+%2$d. Jembatan WLAN mendukung akses dari hingga %6$d perangkat.
+%3$d. Jembatan WLAN tidak berfungsi dengan fitur hotspot WLAN dan WLAN Direct. Jika jembatan WLAN diaktifkan, beberapa aplikasi yang menggunakan layanan P2P tidak akan berfungsi dengan benar.
+%4$d. Menggunakan jembatan WLAN lebih cepat menghabiskan daya baterai.
+%5$d. Jika Anda menerima pesan yang memberi tahu bahwa sumber daya WLAN sedang digunakan oleh layanan lain, buka Pengaturan > WLAN > WLAN Direct dan putuskan sambungan setiap perangkat yang terhubung. Atau Anda dapat mematikan WLAN lalu menghidupkannya lagi untuk memutuskan otomatis semua perangkat."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Anda dapat menggunakan perangkat hotspot WLAN portabel sebagai titik akses Internet Anda. Peranti periferal dapat dihubungkan ke perangkat Anda melalui WLAN dan peranti terhubung tersebut akan mengakses Internet melalui jaringan seluler.
+%2$d. Menggunakan hotspot WLAN portabel akan memerlukan pengaktifan koneksi data seluler Anda, dan akan menggunakan sejumlah data.
+%3$d. Menggunakan hotspot WLAN portabel dapat lebih cepat menguras daya baterai Anda."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Koneksi manual:
+%2$d. Aktifkan WLAN pada peranti target, dan temukan hotspot %1$s.
+%3$d. Hubungkan ke hotspot."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Pastikan fungsi Akses lokasi saya diaktifkan.
+%2$d. Pilih Gunakan GPS, WLAN, dan jaringan seluler di dalam mode Lokasi.
+%3$d. Hubungkan ke hotspot WLAN atau aktifkan data seluler.
+%4$d. Periksa apakah aplikasi yang Anda gunakan memiliki akses ke Izin lokasi di dalam Pengelola ponsel > Pengelola izin > Akses info lokasi.
+%5$d. Jika Anda telah mengatur mode Lokasi sebagai Gunakan GPS saja, harap pastikan Anda menggunakan akses lokasi di lingkungan yang terbuka dan tidak terhalangi, di mana sinyal GPS dapat diterima secara normal.
+%6$d. Jika Anda terhubung ke hotspot publik, cobalah mematikan WLAN dan mengaktifkan data seluler. Lalu coba akses lagi lokasi tersebut."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Pilih Gunakan GPS, WLAN, dan jaringan seluler di mode Lokasi untuk mendapatkan akses lokasi yang lebih akurat.
+%2$d. Jika Anda menggunakan casing logam pada perangkat Anda, lepaskan casing tersebut atau gunakan casing non-logam dan coba lagi.
+%3$d. Periksa apakah aplikasi yang Anda gunakan memiliki akses ke Izin lokasi di dalam Pengelola ponsel > Pengelola izin > Akses info lokasi.
+%4$d. Navigasi berfungsi lebih baik di area yang luas, tidak terhalangi. Letakkan ponsel Anda pada posisi di dekat jendela kendaraan Anda, seperti dashboard atau area lain yang tidak terhalangi di dalam mobil Anda."</string>
+    <string name="turn_off_data_saver_message">Untuk menggunakan hotspot portabel, Anda perlu menonaktifkan Penghemat data. Nonaktifkan?</string>
+    <string name="first_wlan_hotspot_text">Hotspot WLAN memungkinkan Anda berbagi koneksi jaringan dengan orang lain, tetapi dapat lebih cepat menguras baterai dan meningkatkan biaya penggunaan data.</string>
+    <string name="hotspot_power_notification_title">Hotspot WLAN dinonaktifkan</string>
+    <string name="hotspot_power_notification_ticker_text">Hotspot WLAN dinonaktifkan</string>
+    <string name="toast_entitle_wifi_need_close">Tidak dapat menggunakan fungsi ini saat WLAN nyala. Harap matikan WLAN terlebih dulu.</string>
+    <string name="wifi_activated_warning_Title">WLAN dihidupkan</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Hotspot seluler dan WLAN tidak dapat dihidupkan bersamaan. Matikan WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN harus dimatikan sekarang. Dia akan otomatis dihidupkan lagi setelah ponsel Anda berkomunikasi dengan server AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">Jika Anda mematikan opsi Nama jaringan siaran (SSID), ponsel Anda tidak akan terlihat bagi perangkat lain dan tidak akan muncul di dalam daftar jaringan WLAN yang tersedia. Perangkat lain masih dapat terhubung ke hotspot Anda dengan memasukkan nama jaringan Anda secara manual.</string>
+    <string name="enable">Koneksi-otomatis ke WLAN AT&amp;T diaktifkan</string>
+    <string name="disable">Koneksi-otomatis ke WLAN AT&amp;T dinonaktifkan</string>
+    <string name="auto_connect_wifi_suggestion">Mulai ulang WLAN agar pengaturan Koneksi-otomatis dapat berefek.</string>
+    <string name="wifi_network_detect_summary">Periksa aksesibilitas Internet saat menghubungkan ke hotspot WLAN</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN telah dinonaktifkan oleh administrator perangkat</string>
+    <string name="wifi_required_info_text">Untuk menyelesaikan pengaturan ini, tablet Anda harus mengakses jaringan WLAN. Setelah pengaturan selesai, Anda dapat beralih antara data seluler dan WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">Pita frekuensi WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s mengelola perangkat Anda dan tidak memungkinkan Anda untuk mengubah atau menghapus jaringan WLAN ini. Untuk informasi lainnya, hubungi administrator Anda.</string>
+</resources>

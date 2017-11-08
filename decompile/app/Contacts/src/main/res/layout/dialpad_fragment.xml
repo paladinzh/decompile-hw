@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/dialpad_fragment_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/frg_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/calllog_fragment_container" android:layout="@layout/calllog_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ViewStub android:id="@+id/list_container_stub" android:layout="@layout/dialpad_fragment_list_container" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/gravity_framelayout" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+        <ViewStub android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/right_hand_mode_view_stub" android:background="@drawable/contact_dialpad" android:layout="@layout/dialer_right_hand" android:layout_width="UNKNOWN_DATA_0x7f0d01f7" android:layout_height="wrap_content" />
+        <ViewStub android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/left_hand_mode_view_stub" android:background="@drawable/contact_dialpad" android:layout="@layout/dialer_left_hand" android:layout_width="UNKNOWN_DATA_0x7f0d01f7" android:layout_height="wrap_content" style="@style/left_hand_mode_view_style" />
+        <com.android.contacts.dialpad.gravity.GravityView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/dialer_container" android:background="@drawable/contact_dialpad" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0062" android:baselineAligned="true" android:layoutDirection="locale">
+            <com.android.contacts.hap.widget.DialpadLinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/dialpad_huawei_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0" />
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/layout_additional_button_with_ip_call" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/dialpad_additional_buttions_ip" />
+            </LinearLayout>
+        </com.android.contacts.dialpad.gravity.GravityView>
+    </FrameLayout>
+    <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/stub_menu_view" android:layout="@layout/dialpad_splitactionbar_viewstub" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</FrameLayout>

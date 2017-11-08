@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/menu_style_root" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/menu_bold" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_label_text_bold" android:layout_marginEnd="24dp" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/menu_italic" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_label_text_italic" android:layout_marginEnd="24dp" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/menu_shadow" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_label_text_shadow" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+        <ImageView android:id="@id/menu_color_1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_1" />
+        <ImageView android:id="@id/menu_color_2" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_2" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_3" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_3" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_4" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_4" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_5" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_5" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_6" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_6" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_7" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_7" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_8" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_8" android:layout_marginStart="8dp" />
+        <ImageView android:id="@id/menu_color_9" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_menu_color_9" android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

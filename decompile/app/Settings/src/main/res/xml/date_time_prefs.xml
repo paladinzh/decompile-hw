@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time_settings_title" settings:keywords="@string/keywords_date_and_time"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settingslib.RestrictedSwitchPreference android:title="@string/date_time_auto" android:key="auto_time" android:summaryOn="@string/date_time_auto_summaryOn" android:summaryOff="@string/date_time_auto_summaryOff" settings:useAdditionalSummary="true" settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/date_time_set_date" android:key="date" android:summary="03/10/2008" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/date_time_set_time" android:key="time" android:summary="12:00am" android:widgetLayout="@layout/preference_widget_arrow" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/zone_auto" android:key="auto_zone" android:summaryOn="@string/zone_auto_summaryOn" android:summaryOff="@string/zone_auto_summaryOff" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/date_time_set_timezone" android:key="timezone" android:summary="GMT-8:00" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.ZonePicker" />
+    <com.android.settings.CustomSwitchPreference android:key="24 hour" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="dual_clocks_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/dual_clocks_title" android:key="dual_clocks" android:summary="@string/dual_clocks_summary" />
+        <com.android.settings.TwoSummaryPreference android:persistent="false" android:layout="@layout/preference_two_summay" android:title="@string/home_city_title" android:key="set_home_city" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="com.huawei.android.action.SET_HOME_CITY" />
+        </com.android.settings.TwoSummaryPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_send_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send" />
+    <com.baidu.mapapi.map.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/btn_send_back" />
+</RelativeLayout>

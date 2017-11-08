@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.SmartCoverSelectionPreference android:key="smart_cover_tutorial" android:summary="@string/smart_cover_type_selection_summary" />
+    <SwitchPreference android:title="@string/cover_enable_settings_title" android:key="smart_cover_switch" />
+    <SwitchPreference android:title="@string/pedometer_settings" android:key="show_pedometer_switch" />
+</PreferenceScreen>

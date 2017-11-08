@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.TextFieldsEditorView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/mainLayout" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toEndOf="@+id/fields_image_type">
+        <View android:id="@+id/spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d024a" android:layout_marginTop="@dimen/contact_editor_text_padding" android:layout_marginEnd="@dimen/contact_editor_text_padding" />
+        <View android:id="@+id/line" android:visibility="gone" style="@style/contact_horizontal_divider_style" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_editor_text_padding"
+            <LinearLayout android:orientation="vertical" android:id="@+id/editors" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d024a" android:layout_weight="1.0" />
+            <include android:id="@+id/delete_button_container" android:visibility="gone" layout="@layout/edit_delete_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_below="@+id/mainLayout" android:layout_alignStart="@+id/mainLayout" android:layout_alignEnd="@+id/mainLayout" style="@style/contact_horizontal_divider_style" />
+</com.android.contacts.editor.TextFieldsEditorView>

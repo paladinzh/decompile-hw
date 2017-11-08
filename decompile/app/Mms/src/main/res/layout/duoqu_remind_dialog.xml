@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <TextView android:textSize="15sp" android:id="@+id/tv_dialog_content" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="180dp" />
+    <CheckBox android:textSize="13sp" android:id="@+id/ckb_remind" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:checked="true" android:text="@string/duoqu_no_remind" />
+</LinearLayout>

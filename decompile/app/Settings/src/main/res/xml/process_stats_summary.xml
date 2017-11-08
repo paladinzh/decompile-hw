@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_memory_use" android:key="app_list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/memory_performance" android:key="performance" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/total_memory" android:key="total_memory" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/average_used" android:key="average_used" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/free_memory" android:key="free" />
+    <Preference android:title="@string/memory_usage_apps" android:key="apps_list" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

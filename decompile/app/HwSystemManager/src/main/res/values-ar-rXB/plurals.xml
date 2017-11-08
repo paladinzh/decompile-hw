@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮days‬‏</item>
+        <item quantity="zero">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮days‬‏</item>
+        <item quantity="one">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮day‬‏</item>
+        <item quantity="two">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮days‬‏</item>
+        <item quantity="few">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮days‬‏</item>
+        <item quantity="many">‏‮Unused‬‏ ‏‮for‬‏ ‏‮over‬‏ ‏‮%1$d‬‏ ‏‮days‬‏</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮are‬‏ ‏‮still‬‏ ‏‮running‬‏ ‏‮after‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮turns‬‏ ‏‮off,‬‏ ‏‮close‬‏ ‏‮them‬‏ ‏‮to‬‏ ‏‮save‬‏ ‏‮power‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮is‬‏ ‏‮still‬‏ ‏‮running‬‏ ‏‮after‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮turns‬‏ ‏‮off,‬‏ ‏‮close‬‏ ‏‮it‬‏ ‏‮to‬‏ ‏‮save‬‏ ‏‮power‬‏</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮power-intensive‬‏ ‏‮apps‬‏ ‏‮closed‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮power-intensive‬‏ ‏‮app‬‏ ‏‮closed‬‏</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮are‬‏ ‏‮consuming‬‏ ‏‮power‬‏ ‏‮secretly.‬‏ ‏‮Battery‬‏ ‏‮life‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮extended‬‏ ‏‮by‬‏ ‏‮%2$s‬‏ ‏‮if‬‏ ‏‮the‬‏ ‏‮apps‬‏ ‏‮are‬‏ ‏‮closed‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮is‬‏ ‏‮consuming‬‏ ‏‮power‬‏ ‏‮secretly.‬‏ ‏‮Battery‬‏ ‏‮life‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮extended‬‏ ‏‮by‬‏ ‏‮%2$s‬‏ ‏‮if‬‏ ‏‮the‬‏ ‏‮app‬‏ ‏‮is‬‏ ‏‮closed‬‏</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮mobile‬‏ ‏‮data‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮mobile‬‏ ‏‮data‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮Wi-Fi‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮Wi-Fi‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮WLAN‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮WLAN‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮WLAN‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮WLAN‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="zero">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="two">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="few">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="many">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="zero">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="two">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="few">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+        <item quantity="many">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turnning‬‏ ‏‮WLAN‬‏ ‏‮network‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮Bluetooth‬‏ ‏‮on‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮turning‬‏ ‏‮Bluetooth‬‏ ‏‮on‬‏</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">‏‮This‬‏ ‏‮feature‬‏ ‏‮requires‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮permissions‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮enabled.‬‏ ‏‮Go‬‏ ‏‮to‬‏ ‏‮settings‬‏ ‏‮and‬‏ ‏‮enable‬‏ ‏‮them?‬‏</item>
+        <item quantity="one">‏‮This‬‏ ‏‮feature‬‏ ‏‮requires‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮permission‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮enabled,‬‏ ‏‮go‬‏ ‏‮to‬‏ ‏‮settings‬‏ ‏‮and‬‏ ‏‮enable‬‏ ‏‮it?‬‏</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">‏‮You‬‏ ‏‮can‬‏ ‏‮disable‬‏ ‏‮these‬‏ ‏‮permissions‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮from‬‏ ‏‮app‬‏ ‏‮settings.‬‏</item>
+        <item quantity="one">‏‮You‬‏ ‏‮can‬‏ ‏‮disable‬‏ ‏‮this‬‏ ‏‮permission‬‏ ‏‮at‬‏ ‏‮any‬‏ ‏‮time‬‏ ‏‮from‬‏ ‏‮app‬‏ ‏‮settings.‬‏</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">‏‮Allow‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮to‬‏ ‏‮keep‬‏ ‏‮running‬‏ ‏‮after‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮turned‬‏ ‏‮off.‬‏</item>
+        <item quantity="one">‏‮Allow‬‏ ‏‮%1$d‬‏ ‏‮app‬‏ ‏‮to‬‏ ‏‮keep‬‏ ‏‮running‬‏ ‏‮after‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮turned‬‏ ‏‮off.‬‏</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮rules‬‏ ‏‮selected‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮rule‬‏ ‏‮selected‬‏</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮files?‬‏</item>
+        <item quantity="zero">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮file?‬‏</item>
+        <item quantity="one">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮file?‬‏</item>
+        <item quantity="two">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮files?‬‏</item>
+        <item quantity="few">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮files?‬‏</item>
+        <item quantity="many">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮files?‬‏</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">‏‮The‬‏ ‏‮files‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮able‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮recovered.‬‏</item>
+        <item quantity="zero">‏‮After‬‏ ‏‮the‬‏ ‏‮file‬‏ ‏‮is‬‏ ‏‮deleted,‬‏ ‏‮the‬‏ ‏‮file‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+        <item quantity="one">‏‮The‬‏ ‏‮file‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮able‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮recovered.‬‏</item>
+        <item quantity="two">‏‮After‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮is‬‏ ‏‮deleted,‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+        <item quantity="few">‏‮After‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮is‬‏ ‏‮deleted,‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+        <item quantity="many">‏‮After‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮is‬‏ ‏‮deleted,‬‏ ‏‮the‬‏ ‏‮files‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮items‬‏ ‏‮of‬‏ ‏‮data?‬‏</item>
+        <item quantity="zero">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮data?‬‏</item>
+        <item quantity="one">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮item‬‏ ‏‮of‬‏ ‏‮data?‬‏</item>
+        <item quantity="two">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮data?‬‏</item>
+        <item quantity="few">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮data?‬‏</item>
+        <item quantity="many">‏‮Delete‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮data?‬‏</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">‏‮The‬‏ ‏‮data‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮able‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮recovered.‬‏</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="zero">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮app?‬‏</item>
+        <item quantity="one">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮app?‬‏</item>
+        <item quantity="two">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="few">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="many">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="zero">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮app?‬‏</item>
+        <item quantity="one">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮app?‬‏</item>
+        <item quantity="two">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="few">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+        <item quantity="many">‏‮Restore‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%1$d‬‏ ‏‮apps?‬‏</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">‏‮All‬‏ ‏‮app‬‏ ‏‮data‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮deleted.‬‏ ‏‮Apps‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮restored‬‏ ‏‮to‬‏ ‏‮their‬‏ ‏‮initial‬‏ ‏‮install‬‏ ‏‮states.‬‏</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮viruses‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮virus‬‏</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮software‬‏ ‏‮risks‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮software‬‏ ‏‮risk‬‏</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮unofficial‬‏ ‏‮software‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮unofficial‬‏ ‏‮software‬‏</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮messages‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮messages‬‏</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮call‬‏ ‏‮log‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮call‬‏ ‏‮log‬‏</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮contacts‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮contacts‬‏</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮calendar‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮calendar‬‏</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮location‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮location‬‏</item>
+    </plurals>
+    <plurals name="StoragePermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮using‬‏ ‏‮external‬‏ ‏‮storage‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮using‬‏ ‏‮external‬‏ ‏‮storage‬‏</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮ID‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮ID‬‏</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮recording‬‏ ‏‮audio‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮recording‬‏ ‏‮audio‬‏</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮making‬‏ ‏‮calls‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮making‬‏ ‏‮calls‬‏</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">‏‮%d‬‏ ‏‮viruses‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮virus‬‏</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮with‬‏ ‏‮ads‬‏ ‏‮found,‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮uninstalled‬‏ ‏‮manually‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮with‬‏ ‏‮ads‬‏ ‏‮found,‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮uninstalled‬‏ ‏‮manually‬‏</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮hours‬‏ ‏‮ago‬‏</item>
+        <item quantity="one">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮hour‬‏ ‏‮ago‬‏</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮days‬‏ ‏‮ago‬‏</item>
+        <item quantity="one">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮day‬‏ ‏‮ago‬‏</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮months‬‏ ‏‮ago‬‏</item>
+        <item quantity="one">‏‮Updated‬‏ ‏‮%1$d‬‏ ‏‮month‬‏ ‏‮ago‬‏</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">‏‮Remove‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮%d‬‏ ‏‮contacts?‬‏</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮and‬‏ ‏‮freed‬‏ ‏‮up‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮space.‬‏ ‏‮%3$s‬‏</item>
+        <item quantity="one">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮app‬‏ ‏‮and‬‏ ‏‮freed‬‏ ‏‮up‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮space.‬‏ ‏‮%3$s‬‏</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">‏‮Unused:‬‏ ‏‮%1$d‬‏ ‏‮days,‬‏ ‏‮size:‬‏ ‏‮%2$s‬‏</item>
+        <item quantity="one">‏‮Unused:‬‏ ‏‮%1$d‬‏ ‏‮day,‬‏ ‏‮size:‬‏ ‏‮%2$s‬‏</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">‏‮Close‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮to‬‏ ‏‮free‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮memory‬‏</item>
+        <item quantity="one">‏‮Close‬‏ ‏‮%1$d‬‏ ‏‮app‬‏ ‏‮to‬‏ ‏‮free‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮memory‬‏</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮closed,‬‏ ‏‮freed‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮memory‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮closed,‬‏ ‏‮freed‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮memory‬‏</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮sending‬‏ ‏‮MMS‬‏ ‏‮messages‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮sending‬‏ ‏‮MMS‬‏ ‏‮messages‬‏</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮call‬‏ ‏‮log‬‏ ‏‮entries‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮call‬‏ ‏‮log‬‏ ‏‮entries‬‏</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮contacts‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮contacts‬‏</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮call‬‏ ‏‮log‬‏ ‏‮entries‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮call‬‏ ‏‮log‬‏ ‏‮entries‬‏</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮contacts‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮contacts‬‏</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮taking‬‏ ‏‮photos‬‏ ‏‮or‬‏ ‏‮videos‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮taking‬‏ ‏‮photos‬‏ ‏‮or‬‏ ‏‮videos‬‏</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮sending‬‏ ‏‮SMS‬‏ ‏‮messages‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮sending‬‏ ‏‮SMS‬‏ ‏‮messages‬‏</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">‏‮Allow‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮to‬‏ ‏‮show‬‏ ‏‮Dropzone.‬‏</item>
+        <item quantity="one">‏‮Allow‬‏ ‏‮%1$d‬‏ ‏‮app‬‏ ‏‮to‬‏ ‏‮show‬‏ ‏‮Dropzone.‬‏</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">‏‮days‬‏</item>
+        <item quantity="one">‏‮day‬‏</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮locked.‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮locked.‬‏</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮running‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮running‬‏</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮apps?‬‏</item>
+        <item quantity="one">‏‮Uninstall‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮app?‬‏</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮items‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮item‬‏</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮permissions‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮permission‬‏</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">‏‮Delete‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮files?‬‏ ‏‮They‬‏ ‏‮cannot‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+        <item quantity="one">‏‮Delete‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮file?‬‏ ‏‮It‬‏ ‏‮cannot‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">‏‮Delete‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮files?‬‏ ‏‮They‬‏ ‏‮cannot‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+        <item quantity="one">‏‮Delete‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮file?‬‏ ‏‮It‬‏ ‏‮cannot‬‏ ‏‮be‬‏ ‏‮restored.‬‏</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">‏‮The‬‏ ‏‮system‬‏ ‏‮will‬‏ ‏‮permanently‬‏ ‏‮delete‬‏ ‏‮all‬‏ ‏‮data‬‏ ‏‮on‬‏ ‏‮the‬‏ ‏‮selected‬‏ ‏‮applications.‬‏ ‏‮Applications‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮restored‬‏ ‏‮to‬‏ ‏‮their‬‏ ‏‮initial‬‏ ‏‮install‬‏ ‏‮state.‬‏</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">‏‮Extended‬‏ ‏‮use‬‏ ‏‮time‬‏ ‏‮by‬‏ ‏‮%1$d‬‏ ‏‮minutes.‬‏</item>
+        <item quantity="one">‏‮Extended‬‏ ‏‮use‬‏ ‏‮time‬‏ ‏‮by‬‏ ‏‮%1$d‬‏ ‏‮minute.‬‏</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮and‬‏ ‏‮freed‬‏ ‏‮up‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮space.‬‏</item>
+        <item quantity="one">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮app‬‏ ‏‮and‬‏ ‏‮freed‬‏ ‏‮up‬‏ ‏‮%2$s‬‏ ‏‮of‬‏ ‏‮space.‬‏</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮min‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮min‬‏</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮h‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮h‬‏</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮min‬‏ ‏‮left‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮min‬‏ ‏‮left‬‏</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮min‬‏ ‏‮until‬‏ ‏‮full‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮min‬‏ ‏‮until‬‏ ‏‮full‬‏</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">‏‮Can‬‏ ‏‮extend‬‏ ‏‮by‬‏ ‏‮%1$d‬‏ ‏‮min‬‏</item>
+        <item quantity="one">‏‮Can‬‏ ‏‮extend‬‏ ‏‮by‬‏ ‏‮%1$d‬‏ ‏‮min‬‏</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">‏‮Extended‬‏ ‏‮by‬‏ ‏‮%1$s‬‏ ‏‮min‬‏</item>
+        <item quantity="one">‏‮Extended‬‏ ‏‮by‬‏ ‏‮%1$s‬‏ ‏‮min‬‏</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">‏‮%1$ds‬‏</item>
+        <item quantity="one">‏‮%1$ds‬‏</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">‏‮%d‬‏ ‏‮times‬‏ ‏‮(suggested)‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮time‬‏ ‏‮(suggested)‬‏</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">‏‮%d‬‏ ‏‮times‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮time‬‏</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">‏‮Marked‬‏ ‏‮by‬‏ ‏‮%d‬‏ ‏‮people‬‏</item>
+    </plurals>
+    <plurals name="harassment_number_unit">
+        <item quantity="other">‏‮%d‬‏</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮available‬‏</item>
+        <item quantity="zero">‏‮%1$d‬‏ ‏‮application‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮configed‬‏ ‏‮recommendedly‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮available‬‏</item>
+        <item quantity="two">‏‮%1$d‬‏ ‏‮applications‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮configed‬‏ ‏‮recommendedly‬‏</item>
+        <item quantity="few">‏‮%1$d‬‏ ‏‮applications‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮configed‬‏ ‏‮recommendedly‬‏</item>
+        <item quantity="many">‏‮%1$d‬‏ ‏‮applications‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮configed‬‏ ‏‮recommendedly‬‏</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+        <item quantity="zero">‏‮%1$d‬‏ ‏‮permission‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+        <item quantity="two">‏‮%1$d‬‏ ‏‮permissions‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+        <item quantity="few">‏‮%1$d‬‏ ‏‮permissions‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+        <item quantity="many">‏‮%1$d‬‏ ‏‮permissions‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮optimized‬‏</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮have‬‏ ‏‮been‬‏ ‏‮closed‬‏ ‏‮due‬‏ ‏‮to‬‏ ‏‮excessive‬‏ ‏‮power‬‏ ‏‮usage,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮details‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮has‬‏ ‏‮been‬‏ ‏‮closed‬‏ ‏‮due‬‏ ‏‮to‬‏ ‏‮excessive‬‏ ‏‮power‬‏ ‏‮usage,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮view‬‏ ‏‮details‬‏</item>
+    </plurals>
+    <plurals name="space_clean_trasy_days_ago">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮(%2$d‬‏ ‏‮days‬‏ ‏‮ago)‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮(%2$d‬‏ ‏‮day‬‏ ‏‮ago)‬‏</item>
+    </plurals>
+    <plurals name="space_clean_trasy_in_days">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮(in‬‏ ‏‮%2$d‬‏ ‏‮days)‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮(in‬‏ ‏‮%2$d‬‏ ‏‮day)‬‏</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮photos‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮photo‬‏</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">‏‮Updated‬‏ ‏‮%d‬‏ ‏‮days‬‏ ‏‮ago‬‏</item>
+        <item quantity="one">‏‮Updated‬‏ ‏‮%d‬‏ ‏‮day‬‏ ‏‮ago‬‏</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">‏‮%d‬‏ ‏‮days‬‏ ‏‮not‬‏ ‏‮cleaned,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮clean‬‏ ‏‮up‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮day‬‏ ‏‮not‬‏ ‏‮cleaned,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮clean‬‏ ‏‮up‬‏</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮creating‬‏ ‏‮homescreen‬‏ ‏‮shortcuts.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮creating‬‏ ‏‮homescreen‬‏ ‏‮shortcuts.‬‏</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮skipped‬‏ ‏‮during‬‏ ‏‮the‬‏ ‏‮cleanup.‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮skipped‬‏ ‏‮during‬‏ ‏‮the‬‏ ‏‮cleanup.‬‏</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps.‬‏</item>
+        <item quantity="zero">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps.‬‏</item>
+        <item quantity="two">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps‬‏</item>
+        <item quantity="few">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps‬‏</item>
+        <item quantity="many">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮list‬‏ ‏‮of‬‏ ‏‮installed‬‏ ‏‮apps‬‏</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮cleaned.‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮cleaned.‬‏</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮restricted‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮fitness‬‏ ‏‮data‬‏ ‏‮(to‬‏ ‏‮provide‬‏ ‏‮step‬‏ ‏‮counting‬‏ ‏‮and‬‏ ‏‮shake).‬‏</item>
+        <item quantity="zero">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮motion‬‏ ‏‮data(Meter‬‏ ‏‮step‬‏ ‏‮and‬‏ ‏‮shake‬‏ ‏‮gestures)‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮restricted‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮your‬‏ ‏‮fitness‬‏ ‏‮data‬‏ ‏‮(to‬‏ ‏‮provide‬‏ ‏‮step‬‏ ‏‮counting‬‏ ‏‮and‬‏ ‏‮shake).‬‏</item>
+        <item quantity="two">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮motion‬‏ ‏‮data(Meter‬‏ ‏‮step‬‏ ‏‮and‬‏ ‏‮shake‬‏ ‏‮gestures)‬‏</item>
+        <item quantity="few">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮motion‬‏ ‏‮data(Meter‬‏ ‏‮step‬‏ ‏‮and‬‏ ‏‮shake‬‏ ‏‮gestures)‬‏</item>
+        <item quantity="many">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮motion‬‏ ‏‮data(Meter‬‏ ‏‮step‬‏ ‏‮and‬‏ ‏‮shake‬‏ ‏‮gestures)‬‏</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮restricted‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮health‬‏ ‏‮data.‬‏</item>
+        <item quantity="zero">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮health‬‏ ‏‮data‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮restricted‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮health‬‏ ‏‮data.‬‏</item>
+        <item quantity="two">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮health‬‏ ‏‮data‬‏</item>
+        <item quantity="few">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮health‬‏ ‏‮data‬‏</item>
+        <item quantity="many">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮reading‬‏ ‏‮health‬‏ ‏‮data‬‏</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮items‬‏ ‏‮need‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮manually‬‏ ‏‮optimized‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮item‬‏ ‏‮needs‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮manually‬‏ ‏‮optimized‬‏</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮patches‬‏ ‏‮to‬‏ ‏‮install‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮patch‬‏ ‏‮to‬‏ ‏‮install‬‏</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮contain‬‏ ‏‮ads‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮contains‬‏ ‏‮ads‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮have‬‏ ‏‮been‬‏ ‏‮allowed‬‏ ‏‮to‬‏ ‏‮launch‬‏ ‏‮automatically.‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮has‬‏ ‏‮been‬‏ ‏‮allowed‬‏ ‏‮to‬‏ ‏‮launch‬‏ ‏‮automatically.‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">‏‮%d‬‏ ‏‮apps‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮other‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restricting‬‏ ‏‮this‬‏ ‏‮action‬‏ ‏‮is‬‏ ‏‮recommended.‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮app‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮other‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restricting‬‏ ‏‮this‬‏ ‏‮action‬‏ ‏‮is‬‏ ‏‮recommended.‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮other‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%2$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restricting‬‏ ‏‮this‬‏ ‏‮action‬‏ ‏‮is‬‏ ‏‮recommended.‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮other‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%2$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restricting‬‏ ‏‮this‬‏ ‏‮action‬‏ ‏‮is‬‏ ‏‮recommended.‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">‏‮App‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenarios.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮App‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenario.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">‏‮App‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenarios.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮App‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenario.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">‏‮App‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮will‬‏ ‏‮launch‬‏ ‏‮automatically‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenarios.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮App‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮will‬‏ ‏‮launch‬‏ ‏‮automatically‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%d‬‏ ‏‮scenario.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮may‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮will‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Restrict?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">‏‮Launched:‬‏ ‏‮%1$d‬‏ ‏‮times‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+        <item quantity="one">‏‮Launched:‬‏ ‏‮%1$d‬‏ ‏‮time‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">‏‮Restricted:‬‏ ‏‮%1$d‬‏ ‏‮times‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+        <item quantity="one">‏‮Restricted:‬‏ ‏‮%1$d‬‏ ‏‮time‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">‏‮Launched:‬‏ ‏‮%1$d‬‏ ‏‮times‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+        <item quantity="one">‏‮Launched:‬‏ ‏‮%1$d‬‏ ‏‮time‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">‏‮Restricted:‬‏ ‏‮%1$d‬‏ ‏‮times‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+        <item quantity="one">‏‮Restricted:‬‏ ‏‮%1$d‬‏ ‏‮time‬‏ ‏‮|‬‏ ‏‮Most‬‏ ‏‮recent:‬‏ ‏‮%2$s‬‏</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">‏‮%d‬‏ ‏‮automatic‬‏ ‏‮launch‬‏ ‏‮apps‬‏ ‏‮found‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮automatic‬‏ ‏‮launch‬‏ ‏‮app‬‏ ‏‮found‬‏</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮files‬‏ ‏‮total‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮file‬‏ ‏‮total‬‏</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">‏‮%d‬‏ ‏‮days‬‏ ‏‮without‬‏ ‏‮scan,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮run‬‏ ‏‮full‬‏ ‏‮scan‬‏</item>
+        <item quantity="one">‏‮%d‬‏ ‏‮day‬‏ ‏‮without‬‏ ‏‮scan,‬‏ ‏‮touch‬‏ ‏‮to‬‏ ‏‮run‬‏ ‏‮full‬‏ ‏‮scan‬‏</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮contain‬‏ ‏‮sensitive‬‏ ‏‮permissions‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮contains‬‏ ‏‮sensitive‬‏ ‏‮permissions‬‏</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">‏‮Unable‬‏ ‏‮to‬‏ ‏‮recognize‬‏ ‏‮fingerprint,‬‏ ‏‮you‬‏ ‏‮have‬‏ ‏‮%1$d‬‏ ‏‮more‬‏ ‏‮attempts‬‏</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">‏‮Fingerprint‬‏ ‏‮suspended.‬‏ ‏‮Try‬‏ ‏‮again‬‏ ‏‮in‬‏ ‏‮%1$d‬‏ ‏‮seconds‬‏</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">‏‮Incorrect‬‏ ‏‮answer.‬‏ ‏‮You‬‏ ‏‮have‬‏ ‏‮%1$d‬‏ ‏‮tries‬‏ ‏‮left.‬‏</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">‏‮Please‬‏ ‏‮try‬‏ ‏‮again‬‏ ‏‮after‬‏ ‏‮%1$d‬‏ ‏‮hours.‬‏</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">‏‮Please‬‏ ‏‮try‬‏ ‏‮again‬‏ ‏‮after‬‏ ‏‮%1$d‬‏ ‏‮minutes.‬‏</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">‏‮Please‬‏ ‏‮try‬‏ ‏‮again‬‏ ‏‮after‬‏ ‏‮%1$d‬‏ ‏‮seconds.‬‏</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">‏‮Top‬‏ ‏‮%1$d‬‏ ‏‮battery‬‏ ‏‮using‬‏ ‏‮apps‬‏</item>
+        <item quantity="one">‏‮Top‬‏ ‏‮%1$d‬‏ ‏‮battery‬‏ ‏‮using‬‏ ‏‮app‬‏</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮d‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮d‬‏</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">‏‮All‬‏ ‏‮selected‬‏ ‏‮data‬‏ ‏‮for‬‏ ‏‮apps‬‏ ‏‮and‬‏ ‏‮their‬‏ ‏‮twins‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮deleted.‬‏ ‏‮Apps‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮restored‬‏ ‏‮to‬‏ ‏‮their‬‏ ‏‮initial‬‏ ‏‮install‬‏ ‏‮states.‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">‏‮App‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%1$d‬‏ ‏‮scenarios.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮App‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮automatically‬‏ ‏‮launch‬‏ ‏‮in‬‏ ‏‮the‬‏ ‏‮following‬‏ ‏‮%1$d‬‏ ‏‮scenario.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮can‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮can‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮phone‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮apps.‬‏ ‏‮This‬‏ ‏‮can‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮and‬‏ ‏‮its‬‏ ‏‮twin‬‏ ‏‮can‬‏ ‏‮be‬‏ ‏‮launched‬‏ ‏‮by‬‏ ‏‮%2$d‬‏ ‏‮app.‬‏ ‏‮This‬‏ ‏‮can‬‏ ‏‮cause‬‏ ‏‮your‬‏ ‏‮%3$s‬‏ ‏‮to‬‏ ‏‮slow‬‏ ‏‮down‬‏ ‏‮and‬‏ ‏‮consume‬‏ ‏‮more‬‏ ‏‮power.‬‏ ‏‮Allow?‬‏</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮closed‬‏ ‏‮after‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮locked‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮will‬‏ ‏‮not‬‏ ‏‮be‬‏ ‏‮closed‬‏ ‏‮after‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮locked‬‏</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮closed‬‏ ‏‮after‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮locked‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮will‬‏ ‏‮be‬‏ ‏‮closed‬‏ ‏‮after‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮locked‬‏</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮calendar.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮calendar.‬‏</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮calendar.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮modifying‬‏ ‏‮calendar.‬‏</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮calendar‬‏ ‏‮events.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮deleting‬‏ ‏‮calendar‬‏ ‏‮events.‬‏</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮browser‬‏ ‏‮history.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮the‬‏ ‏‮browser‬‏ ‏‮history.‬‏</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮apps‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮call‬‏ ‏‮forwarding.‬‏</item>
+        <item quantity="one">‏‮Restricted‬‏ ‏‮%d‬‏ ‏‮app‬‏ ‏‮from‬‏ ‏‮accessing‬‏ ‏‮call‬‏ ‏‮forwarding.‬‏</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">‏‮Blocked‬‏ ‏‮ads‬‏ ‏‮in‬‏ ‏‮%1$d‬‏ ‏‮apps‬‏</item>
+        <item quantity="one">‏‮Blocked‬‏ ‏‮ads‬‏ ‏‮in‬‏ ‏‮%1$d‬‏ ‏‮app‬‏</item>
+    </plurals>
+    <plurals name="power_management_bgPowerAppsNum">
+        <item quantity="other">‏‮%1$d‬‏</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮items‬‏ ‏‮need‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮optimized‬‏ ‏‮manually‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮item‬‏ ‏‮needs‬‏ ‏‮to‬‏ ‏‮be‬‏ ‏‮optimized‬‏ ‏‮manually‬‏</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮background‬‏ ‏‮power-consuming‬‏ ‏‮apps‬‏</item>
+        <item quantity="one">‏‮Closed‬‏ ‏‮%1$d‬‏ ‏‮background‬‏ ‏‮power-consuming‬‏ ‏‮app‬‏</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮items‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮item‬‏</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮items‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮item‬‏</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">‏‮%1$d‬‏ ‏‮apps‬‏ ‏‮are‬‏ ‏‮running‬‏ ‏‮when‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮off,‬‏ ‏‮close‬‏ ‏‮to‬‏ ‏‮save‬‏ ‏‮battery‬‏ ‏‮power‬‏</item>
+        <item quantity="one">‏‮%1$d‬‏ ‏‮app‬‏ ‏‮is‬‏ ‏‮running‬‏ ‏‮when‬‏ ‏‮the‬‏ ‏‮screen‬‏ ‏‮is‬‏ ‏‮off,‬‏ ‏‮close‬‏ ‏‮to‬‏ ‏‮save‬‏ ‏‮battery‬‏ ‏‮power‬‏</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">‏‮%1$s‬‏ ‏‮risky‬‏ ‏‮app‬‏ ‏‮downloads‬‏ ‏‮blocked‬‏</item>
+        <item quantity="one">‏‮%1$s‬‏ ‏‮risky‬‏ ‏‮app‬‏ ‏‮download‬‏ ‏‮blocked‬‏</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">‏‮Found‬‏ ‏‮%1$d‬‏ ‏‮non-preset‬‏ ‏‮apps,‬‏ ‏‮please‬‏ ‏‮uninstall‬‏</item>
+        <item quantity="one">‏‮Found‬‏ ‏‮%1$d‬‏ ‏‮non-preset‬‏ ‏‮app,‬‏ ‏‮please‬‏ ‏‮uninstall‬‏</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">‏‮Found‬‏ ‏‮%2$s‬‏ ‏‮non‬‏ ‏‮pre-installed‬‏ ‏‮apps‬‏ ‏‮(e.g.‬‏ ‏‮%1$s).‬‏ ‏‮Please‬‏ ‏‮uninstall.‬‏</item>
+        <item quantity="one">‏‮Found‬‏ ‏‮%2$s‬‏ ‏‮non‬‏ ‏‮pre-installed‬‏ ‏‮app‬‏ ‏‮(e.g.‬‏ ‏‮%1$s).‬‏ ‏‮Please‬‏ ‏‮uninstall.‬‏</item>
+    </plurals>
+</resources>

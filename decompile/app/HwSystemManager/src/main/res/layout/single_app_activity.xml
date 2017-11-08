@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/viewstub_set_default_mms" android:layout="@layout/set_default_mms_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ExpandableListView android:scrollbarStyle="outsideOverlay" android:id="@+id/single_app_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:groupIndicator="0x0" android:divider="0x0" android:layout_weight="1.0" android:paddingStart="0dp" android:paddingEnd="0dp" />
+    <RelativeLayout android:id="@+id/progress_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

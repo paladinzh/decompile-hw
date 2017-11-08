@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Min %1$d gün kullanılmadı</item>
+        <item quantity="one">Min %1$d gün kullanılmadı</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">Ekran kapatıldıktan sonra, %1$d uygulama hala çalışıyor, güç tasarrufu için kapatın</item>
+        <item quantity="one">Ekran kapatıldıktan sonra, %1$d uygulama hala çalışıyor, güç tasarrufu için kapatın</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d yoğun güç harcayan uygulama kapatıldı</item>
+        <item quantity="one">%1$d yoğun güç harcayan uygulama kapatıldı</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d uygulama gizlice güç harcıyor. Eğer uygulamalar kapatılırsa, pil ömrü %2$s oranında uzatılabilir</item>
+        <item quantity="one">%1$d uygulama gizlice güç harcıyor. Eğer uygulama kapatılırsa, pil ömrü %2$s oranında uzatılabilir</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">Mobil veri açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">Mobil veri açık olduğundan %d uygulaması kısıtlı</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Wi-Fi veri açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">Wi-Fi veri açık olduğundan %d uygulaması kısıtlı</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">WLAN veri açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">WLAN veri açık olduğundan %d uygulaması kısıtlı</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">WLAN açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">WLAN açık olduğundan %d uygulama kısıtlı</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">WLAN açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">WLAN açık olduğundan %d uygulama kısıtlı</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">Bluetooth açık olduğundan %d uygulamaları kısıtlı</item>
+        <item quantity="one">Bluetooth açık olduğundan %d uygulaması kısıtlı</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Bu özellik aşağıdaki izinlerin etkinleştirilmesini gerektirir; ayarlara gidip bunları etkinleştirmek ister misiniz?</item>
+        <item quantity="one">Bu özellik aşağıdaki iznin etkinleştirilmesini gerektirir; ayarlara gidip bunu etkinleştirmek ister misiniz?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Bu izinleri uygulama ayarlarından istediğinizde devre dışı bırakabilirsiniz.</item>
+        <item quantity="one">Bu izni uygulama ayarlarından istediğinizde devre dışı bırakabilirsiniz.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">Ekran kapandıktan sonra %1$d uygulamanın çalışmaya devam etmesine izin ver</item>
+        <item quantity="one">Ekran kapandıktan sonra %1$d uygulamanın çalışmaya devam etmesine izin ver</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">%1$d kural seçili</item>
+        <item quantity="one">%1$d kural seçili</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Seçili %1$d dosya silinsin mi?</item>
+        <item quantity="one">Seçili %1$d dosya silinsin mi?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Dosyalar kurtarılamayacak.</item>
+        <item quantity="one">Dosya kurtarılamayacak.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Seçili %1$d veri öğesi silinsin mi?</item>
+        <item quantity="one">Seçili %1$d veri öğesi silinsin mi?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Veriler kurtarılamayacak.</item>
+        <item quantity="one">Veri kurtarılamayacak.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Seçili %1$d uygulama kaldırılsın mı?</item>
+        <item quantity="one">Seçili %1$d uygulama kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Seçili %1$d uygulama geri yüklensin mi?</item>
+        <item quantity="one">Seçili %1$d uygulama geri yüklensin mi?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Tüm uygulama verileri silinecek. Uygulamalar ilk yükleme durumlarına geri yüklenecek.</item>
+        <item quantity="one">Tüm uygulama verileri silinecek. Bu uygulama ilk yükleme durumuna geri yüklenecek.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d virüs</item>
+        <item quantity="one">%1$d virüs</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d yazılım riski</item>
+        <item quantity="one">%1$d yazılım riski</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d resmi olmayan yazılım</item>
+        <item quantity="one">%1$d resmi olmayan yazılım</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">Mesajlarınıza erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Mesajlarınıza erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">Arama günlüğüne erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Arama günlüğüne erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">Kişilerinize erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Kişilerinize erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">Takviminize erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Takviminize erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">Konumunuza erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Konumunuza erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">Telefon Kimliğinize erişimi kısıtlanan %d uygulama</item>
+        <item quantity="one">Telefon Kimliğinize erişimi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">Ses kaydı yapması kısıtlanan %d uygulama</item>
+        <item quantity="one">Ses kaydı yapması kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">Arama yapması kısıtlanan %d uygulama</item>
+        <item quantity="one">Arama yapması kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d uygulama</item>
+        <item quantity="one">%d uygulama</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d virüs</item>
+        <item quantity="one">%d virüs</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">%d reklamlı uygulama bulundu; elle kaldırılabilir</item>
+        <item quantity="one">%d reklamlı uygulama bulundu; elle kaldırılabilir</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">%1$d saat önce güncellendi</item>
+        <item quantity="one">%1$d saat önce güncellendi</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">%1$d gün önce güncellendi</item>
+        <item quantity="one">%1$d gün önce güncellendi</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">%1$d ay önce güncellendi</item>
+        <item quantity="one">%1$d ay önce güncellendi</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Seçili %d kişi kaldırılsın mı?</item>
+        <item quantity="one">Seçili %d kişi kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">%1$d uygulama kapatıldı ve %2$s alan boşaltıldı. %3$s</item>
+        <item quantity="one">%1$d uygulama kapatıldı ve %2$s alan boşaltıldı. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Kullanılmayan: %1$d gün, boyut: %2$s</item>
+        <item quantity="one">Kullanılmayan: %1$d gün, boyut: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">%2$s bellek açmak için %1$d uygulamayı kapatın</item>
+        <item quantity="one">%2$s bellek açmak %1$d uygulama kapatın</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$d uygulama kapatıldı, %2$s bellek açıldı</item>
+        <item quantity="one">%1$d uygulama kapatıldı, %2$s bellek açıldı</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">%d uygulamanın MMS mesajları göndermesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın MMS mesajları göndermesi kısıtlandı</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">%d uygulamanın çağrı kaydı girdilerini değiştirmesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın çağrı kaydı girdilerini değiştirmesi kısıtlandı</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">%d uygulamanın kişileri değiştirmesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın kişileri değiştirmesi kısıtlandı</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">%d uygulamanın çağrı kaydı girdilerini silmesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın çağrı kaydı girdilerini silmesi kısıtlandı</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">%d uygulamanın kişileri silmesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın kişileri silmesi kısıtlandı</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">Fotoğraf veya video çekmesi kısıtlanan %d uygulama</item>
+        <item quantity="one">Fotoğraf veya video çekmesi kısıtlanan %d uygulama</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">%d uygulamanın SMS mesajları göndermesi kısıtlandı</item>
+        <item quantity="one">%d uygulamanın SMS mesajları göndermesi kısıtlandı</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">%1$d  uygulamaya bırakma bölgesi izni verildi</item>
+        <item quantity="one">%1$d uygulamaya bırakma bölgesi gösterme izni verildi</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">gün</item>
+        <item quantity="one">gün</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d uygulama kilitlendi</item>
+        <item quantity="one">%1$d uygulama kilitlendi</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d uygulama yürütülüyor</item>
+        <item quantity="one">%1$d uygulama yürütülüyor</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Seçili uygulamalar silinsin mi?</item>
+        <item quantity="one">Seçili uygulama silinsin mi?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d öğe</item>
+        <item quantity="one">%1$d öğe</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d izin</item>
+        <item quantity="one">%1$d izin</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Aşağıdaki dosyalar silinsin mi? Dosyalar geri yüklenemez.</item>
+        <item quantity="one">Aşağıdaki dosya silinsin mi? Dosya geri yüklenemez.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Aşağıdaki dosyalar silinsin mi? Dosyalar geri yüklenemez.</item>
+        <item quantity="one">Aşağıdaki dosya silinsin mi? Dosya geri yüklenemez.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Sistem seçilen uygulamalardaki tüm verileri kalıcı olarak silecek. Uygulama ilk kurulum durumuna geri yüklenecek.</item>
+        <item quantity="one">Sistem seçilen uygulamadaki tüm verileri kalıcı olarak silecek. Uygulama ilk kurulum durumuna geri yüklenecek.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Kullanım süresi %1$d dakika uzatıldı.</item>
+        <item quantity="one">Kullanım süresi %1$d dakika uzatıldı.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">%1$d uygulama kapatıldı ve %2$s alan boşaltıldı.</item>
+        <item quantity="one">%1$d uygulama kapatıldı ve %2$s alan boşaltıldı.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d dk.</item>
+        <item quantity="one">%1$d dk.</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d s</item>
+        <item quantity="one">%1$d s</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">%1$s dk. kaldı</item>
+        <item quantity="one">%1$s dk. kaldı</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">Dolmasına %1$s dk. kaldı</item>
+        <item quantity="one">Dolmasına %1$s dk. kaldı</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">%1$d dk. uzatılabilir</item>
+        <item quantity="one">%1$d dk. Uzatılabilir</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">%1$s dk. uzatıldı</item>
+        <item quantity="one">%1$s dk. uzatıldı</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$d sn</item>
+        <item quantity="one">%1$d sn</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d kez (önerilen)</item>
+        <item quantity="one">%d kez (önerilen)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d kez</item>
+        <item quantity="one">%d kez</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">%d kişi tarafından işaretlendi</item>
+        <item quantity="one">%d kişi tarafından işaretlendi</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">%1$d uygulamalar kullanılabilir</item>
+        <item quantity="one">%1$d uygulama kullanılabilir</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d optimize edilebilir</item>
+        <item quantity="one">%1$d optimize edilebilir</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d uygulamaları aşırı güç kullanımı nedeniyle kapatıldı, ayrıntıları görüntülemek için dokunun</item>
+        <item quantity="one">%1$d uygulaması aşırı güç kullanımı nedeniyle kapatıldı, ayrıntıları görüntülemek için dokunun</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d fotoğraf</item>
+        <item quantity="one">%1$d fotoğraf</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">%d gün önce güncellendi</item>
+        <item quantity="one">%d gün önce güncellendi</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d gün temizlenmedi, temizlemek için dokunun</item>
+        <item quantity="one">%d gün temizlenmedi, temizlemek için dokunun</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Ana ekran kısayolları oluşturması kısıtlanmış uygulama sayısı %d.</item>
+        <item quantity="one">Ana ekran kısayolları oluşturması kısıtlanmış uygulama sayısı %d.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">%1$d uygulama temizleme sırasında atlanacak.</item>
+        <item quantity="one">%1$d uygulama atlanacaktır</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">Yüklü uygulamalar listesine erişimi sınırlandırılmış %d uygulamaları.</item>
+        <item quantity="one">Yüklü uygulamalar listesine erişimi sınırlandırılmış %d uygulaması.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d uygulama temizlendi.</item>
+        <item quantity="one">%d uygulama temizlendi.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d uygulamanın fitness verilerinize erişim (adım sayma ve sallama bilgisi sağlamak için) izni yok.</item>
+        <item quantity="one">%d uygulamasının fitness verilerinize erişim (adım sayma ve sallama bilgisi sağlamak için) izni yok.</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d uygulamalarının sağlık verilerine erişimi kısıtlandı.</item>
+        <item quantity="one">%d uygulamasının sağlık verilerine erişimi kısıtlandı.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d öğe manuel olarak optimize edilmelidir</item>
+        <item quantity="one">%1$d öğe manuel olarak optimize edilmelidir</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">Yüklenecek %1$d yama</item>
+        <item quantity="one">Yüklenecek %1$d yama</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d uygulama reklam içeriyor</item>
+        <item quantity="one">%1$d uygulama reklam içeriyor</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d uygulamanın otomatik olarak başlatılmasına izin verildi.</item>
+        <item quantity="one">%d uygulamanın otomatik olarak başlatılmasına izin verildi.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d uygulamaları, diğer uygulamalar tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Bu eylemin sınırlandırılması önerilir.</item>
+        <item quantity="one">%d uygulaması, diğer uygulamalar tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Bu eylemin sınırlandırılması önerilir.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d uygulama, diğer uygulamalar tarafından başlatılabilir. Bu %2$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Bu eylemin kısıtlanması tavsiye edilir.</item>
+        <item quantity="one">%1$d uygulama, diğer uygulamalar tarafından başlatılabilir. Bu %2$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Bu eylemin kısıtlanması tavsiye edilir.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Uygulama, aşağıdaki %d senaryolarında otomatik başlatılabilir. İzin verilsin mi?</item>
+        <item quantity="one">Uygulama, aşağıdaki %d senaryosunda otomatik başlatılabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Uygulama, aşağıdaki %d senaryolarında otomatik başlatılabilir. Sınırlandırılsın mı?</item>
+        <item quantity="one">Uygulama, aşağıdaki %d senaryosunda otomatik başlatılabilir. Sınırlandırılsın mı?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Uygulama ve ikiz uygulaması aşağıdaki %d senaryoda otomatik olarak başlatılacaktır. Kısıtla?</item>
+        <item quantity="one">Uygulama ve ikiz uygulaması aşağıdaki %d senaryoda otomatik olarak başlatılacaktır. Kısıtla?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s, %2$d uygulamaları tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+        <item quantity="one">%1$s, %2$d uygulaması tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s, %2$d uygulamaları tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Sınırlandırılsın mı?</item>
+        <item quantity="one">%1$s, %2$d uygulaması tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Sınırlandırılsın mı?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s, %2$d uygulamaları tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olacaktır. İzin verilsin mi?</item>
+        <item quantity="one">%1$s, %2$d uygulaması tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olacaktır. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s, %2$d uygulamaları tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olacaktır. Sınırlandırılsın mı?</item>
+        <item quantity="one">%1$s, %2$d uygulaması tarafından başlatılabilir. Bu, telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olacaktır. Sınırlandırılsın mı?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+        <item quantity="one">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Kısıtla?</item>
+        <item quantity="one">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Kısıtla?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+        <item quantity="one">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Kısıtla?</item>
+        <item quantity="one">%1$s, %2$d uygulama tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. Kısıtla?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Başlatıldı: %1$d kez | En yeni: %2$s</item>
+        <item quantity="one">Başlatıldı: %1$d kez | En yeni: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Sınırlandırıldı: %1$d kez | En yeni: %2$s</item>
+        <item quantity="one">Sınırlandırıldı: %1$d kez | En yeni: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Başlatıldı: %1$d kez | En yeni: %2$s</item>
+        <item quantity="one">Başlatıldı: %1$d kez | En yeni: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Sınırlandırıldı: %1$d kez | En yeni: %2$s</item>
+        <item quantity="one">Sınırlandırıldı: %1$d kez | En yeni: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">%d otomatik başlatma uygulaması bulundu</item>
+        <item quantity="one">%d otomatik başlatma uygulaması bulundu</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">Toplam %1$s dosya</item>
+        <item quantity="one">Toplam %1$s dosya</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">Taramasız %d gün, tam tarama için tıklayın</item>
+        <item quantity="one">Taramasız %d gün, tam tarama için tıklayın</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d uygulama, hassas izin içeriyor</item>
+        <item quantity="one">%1$d uygulama, hassas izin içeriyor</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Parmak izi algılanamadı, %1$d denemeniz daha var</item>
+        <item quantity="one">Parmak izi algılanamadı, %1$d denemeniz daha var</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Parmak izi askıya alındı. %1$d saniye içinde yeniden deneyin</item>
+        <item quantity="one">Parmak izi askıya alındı. %1$d saniye içinde yeniden deneyin</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Yanlış yanıt. Sadece %1$d denemeniz kaldı.</item>
+        <item quantity="one">Yanlış yanıt. Sadece %1$d denemeniz kaldı.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Lütfen %1$d saat sonra tekrar deneyin.</item>
+        <item quantity="one">Lütfen %1$d saat sonra tekrar deneyin.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Lütfen %1$d dakika sonra tekrar deneyin.</item>
+        <item quantity="one">Lütfen %1$d dakika sonra tekrar deneyin.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Lütfen %1$d saniye sonra tekrar deneyin.</item>
+        <item quantity="one">Lütfen %1$d saniye sonra tekrar deneyin.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">En çok pil kullanan %1$d uygulama</item>
+        <item quantity="one">Uygulamayı kullanan ilk %1$d pil</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d gün</item>
+        <item quantity="one">%1$d gün</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Uygulamalar ve ikiz uygulamaları için seçilen tüm veriler silinecektir. Uygulamalar ilk yükleme durumlarına geri yüklenecek.</item>
+        <item quantity="one">Uygulama ve ikiz uygulaması için seçilen tüm veriler silinecektir. Uygulama ilk yükleme durumuna geri yüklenecek.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Uygulama ve ikiz uygulaması aşağıdaki %1$d senaryoda otomatik olarak başlatılabilir. İzin verilsin mi?</item>
+        <item quantity="one">Uygulama ve ikiz uygulaması aşağıdaki %1$d senaryoda otomatik olarak başlatılabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s ve ikiz uygulaması %2$d uygulama tarafından başlatılabilir. Bu telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+        <item quantity="one">%1$s ve ikiz uygulaması %2$d uygulama tarafından başlatılabilir. Bu telefonunuzun yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin verilsin mi?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">%1$s ve ikiz uygulaması, %2$d uygulaması tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin ver?</item>
+        <item quantity="one">%1$s ve ikiz uygulaması, %2$d uygulaması tarafından başlatılabilir. Bu %3$s cihazınızın yavaşlamasına ve daha fazla güç tüketmesine neden olabilir. İzin ver?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">Ekran kilitlendikten sonra %1$d uygulama kapatılmayacaktır</item>
+        <item quantity="one">Ekran kilitlendikten sonra %1$d uygulama kapatılmayacaktır</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">Ekran kilitlendikten sonra %1$d uygulama kapatılacaktır</item>
+        <item quantity="one">Ekran kilitlendikten sonra %1$d uygulama kapatılacaktır</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">%d uygulamanın takvime erişimi kısıtlandı.</item>
+        <item quantity="one">%d uygulamanın takvime erişimi kısıtlandı.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">%d uygulamanın takvimi değiştirmesi kısıtlandı.</item>
+        <item quantity="one">%d uygulamanın takvimi değiştirmesi kısıtlandı.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">%d uygulamanın takvim etkinliklerini silmesi kısıtlandı.</item>
+        <item quantity="one">%d uygulamanın takvim etkinliklerini silmesi kısıtlandı.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">%d uygulamanın tarayıcı geçmişine erişimi kısıtlandı.</item>
+        <item quantity="one">%d uygulamanın tarayıcı geçmişine erişimi kısıtlandı.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">%d uygulamanın çağrı iletmeye erişimi kısıtlandı.</item>
+        <item quantity="one">%d uygulamanın çağrı iletmeye erişimi kısıtlandı.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">%1$d uygulamadaki reklamlar engellendi</item>
+        <item quantity="one">%1$d uygulamadaki reklamlar engellendi</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d öğe manuel olarak optimize edilmelidir</item>
+        <item quantity="one">%1$d öğe manuel olarak optimize edilmelidir</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Güç tüketen %1$d arka plan uygulaması kapatıldı</item>
+        <item quantity="one">Güç tüketen %1$d arka plan uygulaması kapatıldı</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d öğe</item>
+        <item quantity="one">%1$d öğe</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d öğe</item>
+        <item quantity="one">%1$d öğe</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">Ekran kapalıyken %1$d uygulama çalışıyor, pil tasarrufu için kapatın</item>
+        <item quantity="one">Ekran kapalıyken %1$d uygulama çalışıyor, pil tasarrufu için kapatın</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">%1$s riskli uygulamanın indirilmesi engellendi</item>
+        <item quantity="one">%1$s riskli uygulamanın indirilmesi engellendi</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">%1$d önayarsız uygulama bulundu, lütfen silin</item>
+        <item quantity="one">%1$d önayarsız uygulama bulundu, lütfen silin</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Ön yüklü olmayan %2$s uygulama bulundu (örn; %1$s). Lütfen kaldırın.</item>
+        <item quantity="one">Ön yüklü olmayan %2$s uygulama bulundu (örn; %1$s). Lütfen kaldırın.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d uygulama başarıyla kapatıldı.</item>
+        <item quantity="one">%d uygulama başarıyla kapatıldı.</item>
+    </plurals>
+</resources>

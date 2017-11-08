@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" empty:orientation="vertical" empty:layout_width="match_parent" empty:layout_height="match_parent"
+    <LinearLayout empty:orientation="vertical" empty:layout_width="match_parent" empty:layout_height="wrap_content">
+        <TextView empty:textSize="13sp" empty:textColor="?unknown_attr_ref: 1010036" empty:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" empty:id="@+id/setting_title_textview" empty:paddingTop="16dp" empty:paddingBottom="16dp" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="wrap_content" empty:paddingStart="24dp" empty:paddingEnd="24dp" />
+        <include empty:id="@+id/dividerLine2" empty:visibility="gone" layout="@layout/divider_line_new" />
+    </LinearLayout>
+    <ListView empty:scrollbarStyle="outsideOverlay" empty:id="@+id/background_consume_listview" empty:focusable="false" empty:visibility="gone" empty:fadingEdgeLength="16dp" empty:clickable="false" empty:layout_width="match_parent" empty:layout_height="UNKNOWN_DATA_0x1" empty:drawSelectorOnTop="false" empty:layout_weight="1.46" />
+    <com.huawei.systemmanager.power.util.EmptyViewLinearLayout empty:orientation="vertical" empty:id="@+id/backgroundapp_consume_no_item" empty:visibility="gone" empty:layout_width="match_parent" empty:layout_height="match_parent" empty:empty_src="@drawable/ic_app_emptypage" empty:empty_text="@string/backgroundapp_consume_no_item_text" />
+</LinearLayout>

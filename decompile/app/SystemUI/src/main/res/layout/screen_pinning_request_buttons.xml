@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/screen_pinning_buttons" android:background="@color/screen_pinning_request_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e025b">
+    <View android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0e0260" android:layout_height="match_parent" android:layout_weight="0.0" />
+    <FrameLayout android:id="@id/screen_pinning_back_group" android:layout_width="UNKNOWN_DATA_0x7f0e025c" android:layout_height="UNKNOWN_DATA_0x7f0e025b" android:layout_weight="0.0" android:paddingStart="@dimen/screen_pinning_request_frame_padding" android:paddingEnd="@dimen/screen_pinning_request_frame_padding">
+        <ImageView android:id="@id/screen_pinning_back_bg_light" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/screen_pinning_light_bg_circ" android:scaleType="matrix" />
+        <ImageView android:id="@id/screen_pinning_back_bg" android:paddingTop="@dimen/screen_pinning_request_inner_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/screen_pinning_bg_circ" android:scaleType="matrix" android:paddingStart="@dimen/screen_pinning_request_inner_padding" android:paddingEnd="@dimen/screen_pinning_request_inner_padding" />
+        <ImageView android:paddingTop="@dimen/screen_pinning_request_nav_icon_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_sysbar_back" android:scaleType="center" android:paddingStart="@dimen/screen_pinning_request_nav_side_padding" android:paddingEnd="@dimen/screen_pinning_request_nav_side_padding" />
+    </FrameLayout>
+    <View android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/screen_pinning_home_group" android:layout_width="UNKNOWN_DATA_0x7f0e025c" android:layout_height="UNKNOWN_DATA_0x7f0e025b" android:layout_weight="0.0" android:paddingStart="@dimen/screen_pinning_request_frame_padding" android:paddingEnd="@dimen/screen_pinning_request_frame_padding">
+        <ImageView android:paddingTop="@dimen/screen_pinning_request_nav_icon_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_sysbar_home" android:scaleType="center" android:paddingStart="@dimen/screen_pinning_request_nav_side_padding" android:paddingEnd="@dimen/screen_pinning_request_nav_side_padding" />
+    </FrameLayout>
+    <View android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/screen_pinning_recents_group" android:layout_width="UNKNOWN_DATA_0x7f0e025c" android:layout_height="UNKNOWN_DATA_0x7f0e025b" android:layout_weight="0.0" android:paddingStart="@dimen/screen_pinning_request_frame_padding" android:paddingEnd="@dimen/screen_pinning_request_frame_padding">
+        <ImageView android:paddingTop="@dimen/screen_pinning_request_nav_icon_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_sysbar_recent" android:scaleType="center" android:paddingStart="@dimen/screen_pinning_request_nav_side_padding" android:paddingEnd="@dimen/screen_pinning_request_nav_side_padding" />
+    </FrameLayout>
+    <View android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0e0260" android:layout_height="match_parent" android:layout_weight="0.0" />
+</LinearLayout>

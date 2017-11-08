@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/ab_background_top" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="?unknown_attr_ref: 101030a" android:showDividers="middle" android:dividerPadding="12dp"
+    <LinearLayout android:id="@+id/cancle_menu_item" style="@style/EditEventCustomActionButton">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="18sp" android:textColor="0x106000b" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_doNotSave" android:textAllCaps="true" />
+    </LinearLayout>
+    <LinearLayout android:id="@+id/save_menu_item" style="@style/EditEventCustomActionButton">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="18sp" android:textColor="0x106000b" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/save_menu_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/description_save_button" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

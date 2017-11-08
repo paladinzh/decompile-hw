@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/power_mode" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/mode_list_item_normal" layout="@layout/mode_list_item_new" />
+        <include layout="@layout/power_one_px_view" />
+        <include android:id="@+id/mode_list_item_smart" layout="@layout/mode_list_item_new" />
+        <include android:id="@+id/mode_list_item_seperate_super" layout="@layout/power_one_px_view" />
+        <include android:id="@+id/mode_list_item_super" layout="@layout/mode_list_item_new" />
+        <include android:id="@+id/mode_list_item_seperate_endurance" layout="@layout/power_one_px_view" />
+        <include android:id="@+id/mode_list_item_endurance" layout="@layout/mode_list_item_new" />
+    </LinearLayout>
+    <include layout="@layout/power_one_px_view" />
+</LinearLayout>

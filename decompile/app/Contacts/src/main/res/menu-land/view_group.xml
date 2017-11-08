@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_hasmembers_group">
+        <item android:icon="@drawable/ic_new_contact" android:id="@+id/menu_add_group_members" android:visible="true" android:title="@string/menu_add_group_members_action_bar" android:showAsAction="always" />
+        <item android:icon="@drawable/ic_new_contact" android:id="@+id/menu_add_company_members" android:visible="true" android:title="@string/contact_menu_add_company_members" android:showAsAction="always" />
+        <item android:icon="@drawable/ic_portrait_message" android:id="@+id/menu_send_group_message" android:visible="false" android:title="@string/menu_group_send_message" android:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_portrait_mail" android:id="@+id/menu_send_group_mail" android:visible="false" android:title="@string/menu_group_send_mail" android:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_menu" android:id="@+id/overflow_menu_group_detail" android:visible="false" android:title="@string/contacts_title_menu" android:showAsAction="always">
+            <menu>
+                <item android:id="@+id/menu_remove_member" android:title="@string/remove_group_member" android:showAsAction="UNKNOWN_DATA_0x0" />
+                <item android:id="@+id/sub_menu_delete_group" android:title="@string/delete_group_dialog_title" android:showAsAction="UNKNOWN_DATA_0x0" />
+                <item android:id="@+id/sub_menu_rename_group" android:title="@string/contacts_group_rename" android:showAsAction="UNKNOWN_DATA_0x0" />
+            </menu> />
+    </group>
+    <group android:id="@+id/menu_nomembers_group">
+        <item android:icon="@drawable/ic_new_contact" android:id="@+id/menu_nomembers_add_group_members" android:visible="true" android:title="@string/menu_add_group_members_action_bar" android:showAsAction="always" />
+        <item android:icon="@drawable/ic_rename" android:id="@+id/menu_rename_group" android:visible="false" android:title="@string/contacts_group_rename" android:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_trash_normal" android:id="@+id/menu_delete_group" android:visible="false" android:title="@string/delete_group_dialog_title" android:showAsAction="ifRoom" />
+    </group>
+</menu>

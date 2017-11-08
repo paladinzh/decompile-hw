@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/app_lock_protect_buttons_layout" layout="@layout/app_lock_protection_bottom_buttons_layout" />
+    <ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/app_lock_protect_buttons_layout">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13sp" android:textColor="@color/emui_list_primary_text" android:id="@+id/app_lock_set_protect_tip_tv" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/applock_protect_set_tip" />
+            <RelativeLayout android:id="@+id/app_lock_password_question_selection_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/app_lock_set_protect_tip_tv" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+                <Spinner android:textSize="15sp" android:id="@+id/app_lock_password_question_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="6dp" android:paddingEnd="16dp" android:layout_marginEnd="16dp" />
+                <View android:background="@color/emui_list_secondray_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x200" android:layout_below="@+id/app_lock_password_question_spinner" android:alpha="0.2" />
+            </RelativeLayout>
+            <EditText android:textSize="15sp" android:id="@+id/app_lock_password_answer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:hint="@string/applock_protect_answer_tip" android:singleLine="true" android:layout_below="@+id/app_lock_password_question_selection_layout" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

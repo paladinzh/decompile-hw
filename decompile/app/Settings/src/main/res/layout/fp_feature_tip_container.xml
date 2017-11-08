@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/password_timeout_tip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/fpStartupDescStyleRedPhone" layout="@layout/fp_feature_tip" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_prefs" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/spinner_divider_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" />
+        <FrameLayout android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

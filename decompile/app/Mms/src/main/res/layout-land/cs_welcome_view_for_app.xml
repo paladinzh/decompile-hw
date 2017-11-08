@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/CS_background" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0a019f" android:layout_height="match_parent">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cs_beijing" android:contentDescription="@string/CS_app_name" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/cs_welcome_view_linearlayout_marginleft" android:layout_marginRight="@dimen/cs_welcome_view_linearlayout_marginleft" android:layout_marginStart="@dimen/cs_welcome_view_linearlayout_marginleft" android:layout_marginEnd="@dimen/cs_welcome_view_linearlayout_marginleft">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cs_title_margin_top">
+            <TextView android:textSize="@dimen/cs_text_size_11sp" android:textColor="@color/CS_black_100_percent" android:id="@+id/welcome_textview_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cs_welcome_view_textview_margin_top" android:lineSpacingMultiplier="1.2" />
+            <TextView android:textSize="@dimen/cs_text_size_11sp" android:textColor="@color/CS_black_100_percent" android:id="@+id/welcome_textview_continue_use" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/CS_welcome_view_continue_use" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cs_page_padding_bottom" android:layout_alignParentBottom="true">
+            <Button android:textColor="@color/CS_white" android:id="@+id/btn_register" android:background="@drawable/cs_button_background_drawable" android:layout_width="UNKNOWN_DATA_0x7f0a0143" android:text="@string/CS_welcome_view_register" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+            <Button android:id="@+id/btn_login" android:background="@drawable/cs_register_button_background_drawable" android:layout_width="UNKNOWN_DATA_0x7f0a0143" android:layout_marginTop="@dimen/cs_edittext_button_margin" android:text="@string/CS_welcome_view_login" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

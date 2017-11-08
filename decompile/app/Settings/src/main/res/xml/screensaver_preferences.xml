@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_text" android:summary="@string/screensaver_instruction" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/screensaver_switch_category">
+        <SwitchPreference android:persistent="false" android:title="@string/screensaver_switch_title" android:key="screensaver_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/screensaver_settings_category" android:key="settings_category">
+        <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/origin_of_pictures" android:key="origin_of_pictures" android:widgetLayout="@layout/preference_widget_arrow" />
+        <ListPreference android:persistent="false" android:entries="@array/screensaver_durations_title" android:layout="@layout/preference_status" android:title="@string/playing_duration" android:key="timeout_list" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/playing_duration" android:entryValues="@array/screensaver_durations_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

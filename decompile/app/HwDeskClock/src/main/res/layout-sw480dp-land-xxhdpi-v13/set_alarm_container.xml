@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/CustScrollView" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/line" android:background="@color/clock_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0006" android:layout_alignParentTop="true" android:layout_marginStart="23dp" android:layout_marginEnd="23dp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <RelativeLayout android:id="@id/alarm_timePickerlayout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="5.0" android:paddingStart="13dp" android:paddingEnd="13dp">
+            <TimePicker android:id="@id/alarm_timePicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="7.0">
+            <FrameLayout android:id="@id/set_alarm_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" android:paddingStart="8dp" android:paddingEnd="8dp" />
+            <View android:id="@id/lineEnd" android:background="@color/clock_divider_color" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0006" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

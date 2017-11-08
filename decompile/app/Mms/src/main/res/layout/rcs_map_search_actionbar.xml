@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/back_button" android:background="@drawable/ic_public_back" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0a02c8" android:layout_height="UNKNOWN_DATA_0x7f0a02c9" android:layout_marginStart="16dp" />
+    <SearchView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/search_view" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:iconifiedByDefault="false" android:queryHint="@string/rcs_location_search" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+</LinearLayout>

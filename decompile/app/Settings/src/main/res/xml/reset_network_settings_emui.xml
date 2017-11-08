@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/reset_network_simcard_category_title" android:key="reset_network_simcard_category" />
+    <Preference android:layout="@layout/divider" />
+    <com.android.settings.widget.ResetNetworkPreference android:layout="@layout/preference_reset_network_desc" android:key="reset_network_desc" />
+</PreferenceScreen>

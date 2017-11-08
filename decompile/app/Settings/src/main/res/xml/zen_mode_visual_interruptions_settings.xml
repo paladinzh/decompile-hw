@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_visual_interruptions_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/zen_mode_screen_on" android:key="screenOn" android:summary="@string/zen_mode_screen_on_summary" />
+    <SwitchPreference android:title="@string/zen_mode_screen_off" android:key="screenOff" android:summary="@string/zen_mode_screen_off_summary" />
+</PreferenceScreen>

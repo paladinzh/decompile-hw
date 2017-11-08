@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.datausage.SpinnerPreference android:key="cycle" />
+    <com.android.settings.applications.SpacePreference android:layout_height="8.0dip" />
+    <Preference android:layout="@layout/horizontal_preference" android:title="@string/total_size_label" android:selectable="false" android:key="total_usage" />
+    <Preference android:layout="@layout/horizontal_preference" android:title="@string/data_usage_label_foreground" android:selectable="false" android:key="foreground_usage" />
+    <Preference android:layout="@layout/horizontal_preference" android:title="@string/data_usage_label_background" android:selectable="false" android:key="background_usage" />
+    <com.android.settings.applications.SpacePreference android:layout_height="8.0dip" />
+    <Preference android:title="@string/data_usage_app_settings" android:key="app_settings" />
+    <SwitchPreference android:title="@string/data_usage_app_restrict_background" android:key="restrict_background" android:summary="@string/data_usage_app_restrict_background_summary" />
+    <SwitchPreference android:title="@string/unrestricted_app_title" android:key="unrestricted_data_saver" android:summary="@string/unrestricted_app_summary" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/data_usage_other_apps" android:key="app_list" />
+</PreferenceScreen>

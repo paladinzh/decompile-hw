@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.mms.ui.EmuiListView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/favorites_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/list_select_top" android:layout="@layout/list_item_select_all" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <view android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:drawSelectorOnTop="false" android:scrollingCache="false" android:layout_weight="1.0" android:headerDividersEnabled="true" android:footerDividersEnabled="false" android:paddingStart="16dp" android:paddingEnd="16dp" class="com.android.mms.ui.FavoritesListView" />
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/divider_horizontal_holo_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" />
+    <ViewStub android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/list_select_bottom" android:layout="@layout/list_multi_choice_mode_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</com.huawei.mms.ui.EmuiListView>

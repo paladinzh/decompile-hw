@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.recents.views.TaskView xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.recents.views.TaskViewThumbnail android:id="@id/task_view_thumbnail" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/recents_task_view_header" />
+    <com.android.systemui.statusbar.AlphaOptimizedFrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/lock_to_app_fab" android:background="@drawable/recents_lock_to_task_button_bg" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0e029a" android:layout_height="UNKNOWN_DATA_0x7f0e029a" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:contentDescription="@string/recents_lock_to_app_button_label" android:alpha="0.0" android:translationZ="4dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x7f0e029b" android:layout_height="UNKNOWN_DATA_0x7f0e029b" android:src="@drawable/recents_lock_to_app_pin" />
+    </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+    <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/incompatible_app_toast_stub" android:layout="0x2070016" android:inflatedId="@id/incompatible_app_toast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="60dp" android:layout_marginRight="16dp" />
+</com.android.systemui.recents.views.TaskView>

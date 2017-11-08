@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/help_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/demo_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/demo_graphic" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/pager_container" android:paddingTop="240.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:layout_gravity="center_horizontal" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_start" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/emui_secondary_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_start" />
+    </LinearLayout>
+</FrameLayout>

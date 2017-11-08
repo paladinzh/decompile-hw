@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/hardware_number" android:key="hardware_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/custom_version" android:key="custom_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/sutel_certification" android:key="sutel_version" android:summary="@string/device_info_default" />
+    <Preference android:title="@string/operator_country_info" android:key="operator_country" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/cota_version" android:key="cota_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/smsc_number" android:key="smsc_number" android:summary="@string/device_info_default" />
+</PreferenceScreen>

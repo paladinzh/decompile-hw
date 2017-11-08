@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.NavigationBarView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:layoutDirection="ltr">
+    <FrameLayout systemui:id="@id/rot0" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+        <ViewStub systemui:id="@id/no_expand_port" systemui:layout="@layout/hw_navigation_bar_no_expand_port" systemui:inflatedId="@id/no_expand_port" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/no_expand_port_swap" systemui:layout="@layout/hw_navigation_bar_no_expand_port_swap" systemui:inflatedId="@id/no_expand_port" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/has_expand_port" systemui:layout="@layout/hw_navigation_bar_expand_port" systemui:inflatedId="@id/has_expand_port" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/has_expand_port_swap" systemui:layout="@layout/hw_navigation_bar_expand_port_swap" systemui:inflatedId="@id/has_expand_port" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+    </FrameLayout>
+    <FrameLayout systemui:id="@id/rot90" systemui:paddingTop="0dp" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+        <ViewStub systemui:id="@id/no_expand_land" systemui:layout="@layout/hw_navigation_bar_no_expand_land" systemui:inflatedId="@id/no_expand_land" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/no_expand_land_swap" systemui:layout="@layout/hw_navigation_bar_no_expand_land_swap" systemui:inflatedId="@id/no_expand_land" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/has_expand_land" systemui:layout="@layout/hw_navigation_bar_expand_land" systemui:inflatedId="@id/has_expand_land" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <ViewStub systemui:id="@id/has_expand_land_swap" systemui:layout="@layout/hw_navigation_bar_expand_land_swap" systemui:inflatedId="@id/has_expand_land" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+    </FrameLayout>
+    <View systemui:id="@id/rot270" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+</com.android.systemui.statusbar.phone.NavigationBarView>

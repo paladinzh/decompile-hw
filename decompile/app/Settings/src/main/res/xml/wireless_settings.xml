@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_more"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settingslib.RestrictedPreference android:title="@string/network_settings_title" android:key="mobile_network_settings" android:widgetLayout="@layout/preference_widget_arrow" settings:userRestriction="no_config_mobile_networks" settings:useAdminDisabledSummary="true" settings:keywords="@string/keywords_more_mobile_networks">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.MobileNetworkSettings" />
+    </com.android.settingslib.RestrictedPreference>
+    <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/manage_mobile_plan_title" android:key="manage_mobile_plan" settings:userRestriction="no_config_mobile_networks" settings:useAdminDisabledSummary="true" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/tether_settings_title_all" android:key="tether_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.TetherSettings" settings:userRestriction="no_config_tethering" settings:useAdminDisabledSummary="true" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/wimax_settings" android:key="wimax_settings" android:widgetLayout="@layout/preference_widget_arrow" settings:userRestriction="no_config_mobile_networks" settings:useAdminDisabledSummary="true">
+        <intent android:targetPackage="com.android.settings.wimax" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.wimax.WimaxSettings" />
+    </com.android.settingslib.RestrictedPreference>
+    <PreferenceScreen android:title="@string/nfc_quick_toggle_title" android:key="nfc_entry" android:summary="@string/nfc_quick_toggle_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.nfc.AndroidBeamHwExt" />
+    <PreferenceScreen android:title="@string/proxy_settings_title" android:key="proxy_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.ProxySelector" />
+    <PreferenceScreen android:title="@string/link_plus_live_update_title_EMUI_5" android:key="link_plus_live_update" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.wifi.LiveUpdateSettings" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/vpn_settings_title" android:key="vpn_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.vpn2.VpnSettings" settings:userRestriction="no_config_vpn" settings:useAdminDisabledSummary="true" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/calling_network_category" android:key="category_link" />
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/lte_enable" android:key="enable_4g_setting" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/wifi_calling_settings_title_emui" android:key="wifi_calling_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.WifiCallingSettings" settings:keywords="@string/keywords_wifi_calling" />
+</PreferenceScreen>

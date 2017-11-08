@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_search_normal" android:id="@+id/menu_search" android:visible="false" android:title="@string/contact_menu_search" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_trash_normal" android:id="@+id/menu_action_delete" android:title="@string/menu_deleteContact" android:showAsAction="always" />
+    <item android:id="@+id/menu_action_selectall" android:title="@string/contact_menu_select_all" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_cancel_normal" android:id="@+id/menu_select_cancel" android:visible="false" android:title="@string/menu_doNotSave" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_done_normal" android:id="@+id/menu_action_done" android:visible="false" android:title="@string/menu_done" android:showAsAction="always" />
+    <item android:id="@+id/menu_action_cancel" android:visible="false" android:title="@string/menu_doNotSave" android:showAsAction="always" />
+    <item android:id="@+id/menu_action_ok" android:visible="false" android:title="@string/str_ok" android:showAsAction="always" />
+</menu>

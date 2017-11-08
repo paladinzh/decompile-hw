@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Ligado via Assistente WLAN</string>
+    <string name="accessibility_wifi_off">WLAN desligado.</string>
+    <string name="accessibility_no_wifi">WLAN desligado.</string>
+    <string name="accessibility_wifi_one_bar">Uma barra de WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Duas barras de WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Três barras de WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Sinal WLAN completo.</string>
+    <string name="wifi_verbose_logging">Activar registo WLAN no modo verboso</string>
+    <string name="wifi_aggressive_handover">Entrega agressiva de WLAN a móvel</string>
+    <string name="wifi_allow_scan_with_traffic">Permitir sempre exame de roaming WLAN</string>
+    <string name="wifi_verbose_logging_summary">Aumentar o nível de registo de WLAN e mostrar por SSID RSSI no selector de WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Quando estiver activa, WLAN será mais agressivo antes de entregar os dados da ligação à rede móvel quando o sinal WLAN estiver fraco</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Permitir/restringir exames de roaming WLAN com base no tráfego de dados existente na interface</string>
+    <string name="mobile_data_always_on_summary">Manter os dados móveis sempre ativos, mesmo com o WLAN ativo (para permuta de rede mais rápida)</string>
+    <string name="radio_controls_summary">Gerir WLAN, Bluetooth, modo de avião, redes móveis e VPNs</string>
+    <string name="wifi_assistant_title">Assistente WLAN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activar WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Definições WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Seleccionar WLAN</string>
+    <string name="wifi_select_network">Seleccionar rede WLAN</string>
+    <string name="wifi_starting">A ligar WLAN...</string>
+    <string name="wifi_stopping">A desligar WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Evitar ligação a redes WLAN com má conectividade</string>
+    <string name="wifi_automatically_connect_title">Ligação automática a redes WLAN abertas</string>
+    <string name="wifi_automatically_connect_summary">Permitir que o Assistente de WLAN ligue automaticamente a redes abertas com bom sinal</string>
+    <string name="wifi_scan_notify_text">Para melhorar a precisão da localização, os serviços e as aplicações do sistema podem continuar a procurar por redes WLAN. Pode alterar esta opção nas LINK_BEGINdefinições de procuraLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN ligado durante suspensão</string>
+    <string name="wifi_suspend_optimizations">Optimização de WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizar a utilização da bateria quando o WLAN está ligado</string>
+    <string name="wifi_access_points">Redes WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Directo</string>
+    <string name="wifi_empty_list_wifi_off">Ligue o WLAN para ver redes disponíveis.</string>
+    <string name="wifi_empty_list_wifi_on">A procurar redes WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">Não tem permissão para alterar a rede WLAN.</string>
+    <string name="wifi_wps_setup_title">Configuração WLAN Protegida</string>
+    <string name="wifi_wps_onstart_pbc">Prima o botão Configuração Protegida WLAN no seu router. O botão pode denominar-se WPS ou conter o seguinte símbolo:</string>
+    <string name="wifi_wps_onstart_pin">Introduza o PIN %1$s do router WLAN. A configuração pode demorar até dois minutos a ser concluída.</string>
+    <string name="wifi_wps_connected">Ligado à rede WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Para melhorar a precisão da posição e outros fins, %1$s pretende ligar a pesquisa de redes, mesmo quando o WLAN está desligado.
+
+Permitir pesquisa para todas as aplicações?"</string>
+    <string name="wifi_skipped_message">"AVISO: A operadora poderá cobrar taxas extra de dados.
+
+A configuração do telefone poderá requerer uma atividade de rede significativa."</string>
+    <string name="wifi_and_mobile_skipped_message">AVISO: o telemóvel não conseguirá confirmar se o seu software está atualizado.</string>
+    <string name="wifi_connect_failed_message">O telemóvel não conseguiu estabelecer ligação a esta rede WLAN.</string>
+    <string name="wifi_advanced_titlebar">Definições avançadas WLAN</string>
+    <string name="wifi_configure_titlebar">Configurar o WLAN</string>
+    <string name="wifi_advanced_not_available">As definições avançadas de WLAN não estão disponíveis para este utilizador</string>
+    <string name="wifi_p2p_settings_title">WLAN Directo</string>
+    <string name="wifi_tether_checkbox_text">Ponto de acesso WLAN portátil</string>
+    <string name="wifi_tether_failed_subtext">Erro do hotspot WLAN portátil</string>
+    <string name="wifi_tether_configure_ap_text">Configurar ponto de acesso WLAN</string>
+    <string name="wifi_tether_configure_subtext">Hotspot WLAN portátil %1$s %2$s</string>
+    <string name="wifi_calling_settings_title">Definições de chamadas via WLAN</string>
+    <string name="wifi_calling_suggestion_title">Ativar Chamadas WLAN</string>
+    <string name="wifi_calling_suggestion_summary">Utilizar WLAN em vez da rede móvel</string>
+    <string name="wifi_calling_mode_title">Chamadas via WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Modo de chamadas WLAN</string>
+    <string name="wifi_calling_off_explanation">Se as chamadas WLAN estiverem ativadas, o telemóvel pode encaminhar as chamadas através de redes WLAN ou da rede do seu operador, consoante as suas preferências e do sinal que for mais forte. Antes de ativar esta funcionalidade, verifique junto do seu operador questões como tarifas, entre outras.</string>
+    <string name="status_wifi_mac_address">Endereço MAC de WLAN:</string>
+    <string name="reset_network_desc">"Isto irá restaurar todas as definições de rede, incluindo:
+
+"<li>WLAN</li>"
+"<li>Dados móveis</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Alterar assistente WLAN?</string>
+    <string name="location_mode_high_accuracy_description">"Utilizar a rede WLAN, rede móvel e GPS para determinar a posição "</string>
+    <string name="location_mode_battery_saving_description">Utilizar a rede WLAN e móvel para determinar a posição</string>
+    <string name="location_scanning_wifi_always_scanning_title">Procurar por WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Aumentar a precisão da localização ao permitir que as aplicações e serviços do sistema detetem redes WLAN permanentemente</string>
+    <string name="location_network_based">Localização WLAN &amp; rede móvel</string>
+    <string name="location_neighborhood_level">Permite que as aplicações utilizem dados de fontes como redes WLAN e de telemóvel para determinar a sua localização.</string>
+    <string name="location_neighborhood_level_wifi">Localização determinada por WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Tempo de ligação WLAN</string>
+    <string name="bluetooth_on_time">Tempo de ligação WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN em execução</string>
+    <string name="usage_type_data_wifi_send">Dados WLAN enviados</string>
+    <string name="usage_type_data_wifi_recv">Dados WLAN recebidos</string>
+    <string name="battery_action_wifi">Definições de WLAN</string>
+    <string name="battery_desc_wifi">Bateria utilizada por WLAN</string>
+    <string name="battery_sugg_wifi">Desactivar WLAN quando não estiver a ser utilizado ou não estiver disponível</string>
+    <string name="gadget_toggle_wifi">Actualizar definição de WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Efectuar cópia de segurança dos dados das aplicações, palavras-passe WLAN e outras definições para os servidores Google</string>
+    <string name="backup_erase_dialog_message">Não efectuar cópia de segurança de palavras-passe WLAN, marcadores e outras definições, dados de aplicações e eliminar todas as cópias nos servidores Google?</string>
+    <string name="fullbackup_erase_dialog_message">Parar de efetuar cópias de segurança dos dados no dispositivo (como palavras-passe de redes WLAN e registo de chamadas) e dados de aplicações (como definições e ficheiros armazenados por aplicações), e eliminar todas as cópias no Google Drive?</string>
+    <string name="fullbackup_data_summary">"Faça cópias de segurança automáticas dos dados do dispositivo (como palavras-passe de WLAN e o histórico de chamadas) e dos dados das aplicações (como as definições e os ficheiros armazenados pelas aplicações) remotamente.
+
+Quando ativa a cópia de segurança automática, os dados do dispositivo e das aplicações são guardados remotamente de forma periódica. Os dados das aplicações podem ser quaisquer dados que uma aplicação tenha guardado (com base nas definições do programador), incluindo dados potencialmente confidenciais como contactos, mensagens e fotos."</string>
+    <string name="wifi_setup_title">Configuração WLAN</string>
+    <string name="wifi_setup_title_editing_network">Ligar à rede WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">A ligar à rede WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">Não é possível configurar uma ligação WLAN tipo EAP durante a configuração. Após a configuração, é possível fazê-lo em Definições > Redes sem fios e outras.</string>
+    <string name="wifi_setup_description_connected">Toque em <b>Seguinte</b>" para continuar a configuração.
+
+Toque em "<b>Anterior</b> para ligar a uma rede WLAN diferente.</string>
+    <string name="data_usage_menu_show_wifi">Apresentar utilização de WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Ocultar WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Definir limite de dados WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Desactivar dados em segundo plano apenas através da rede de dados móveis. Será utilizada a rede WLAN, se disponível.</string>
+    <string name="data_usage_app_restrict_dialog">"Esta funcionalidade pode levar à paragem de uma aplicação que depende de dados de segundo plano, quando a rede WLAN não estiver disponível.
+
+É possível encontrar controlos de utilização de dados mais adequados nas definições disponíveis na aplicação."</string>
+    <string name="data_usage_restrict_background">Se restringir transferências de dados em segundo plano, algumas aplicações e serviços apenas funcionarão quando estiver ligado a uma rede WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Se restringir os dados móveis em segundo plano, algumas aplicações e serviços não funcionarão exceto se estiver ligado a uma rede WLAN.
+
+Esta definição afeta todos os utilizadores deste telemóvel."</string>
+    <string name="data_usage_metered_body">Seleccione as redes WLAN que são pontos activos móveis. As aplicações a serem executadas em segundo plano podem ser impedidas de utilizar estas redes. As aplicações também podem emitir avisos quando utilizam estas redes para transferir um grande volume de dados.</string>
+    <string name="data_usage_metered_wifi">Redes WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Para escolher pontos de acesso móveis, active o WLAN.</string>
+    <string name="user_add_user_message_long">"Pode partilhar este dispositivo com outras pessoas criando utilizadores adicionais. Cada utilizador tem o seu próprio espaço, que pode personalizar com as suas próprias aplicações, imagem de fundo, etc. Os utilizadores também podem ajustar as definições do tablet, como por exemplo o WLAN, que afetam toda as pessoas.
+
+Depois de criar um novo utilizador, essa pessoa precisa de passar por um processo de configuração.
+
+Qualquer utilizador pode aceitar as permissões de aplicações atualizadas em nome de todos os outros utilizadores."</string>
+    <string name="restriction_wifi_config_title">WLAN e dados móveis</string>
+    <string name="restriction_wifi_config_summary">Permitir a alteração das definições de WLAN e redes móveis</string>
+    <string name="keywords_wifi">ligação a rede WLAN</string>
+    <string name="keywords_wifi_calling">WLAN WLAN chamar chamadas</string>
+    <string name="setup_wifi_nfc_tag">Definir etiqueta NFC WLAN</string>
+    <string name="condition_hotspot_summary">A zona WLAN portátil %1$s está ativa. O WLAN deste dispositivo está desativado.</string>
+    <string name="condition_airplane_summary">O WLAN, o Bluetooth e a rede móvel estão desativados. Não é possível fazer chamadas telefónicas ou ligar à Internet.</string>
+    <string name="condition_cellular_summary">A Internet só está disponível através de WLAN</string>
+    <string name="condition_bg_data_summary">Os dados de segundo plano só estão disponíveis através de WLAN. Isto pode afetar algumas aplicações ou alguns serviços quando o WLAN não estiver disponível.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">Ponte WLAN</string>
+    <string name="wifi_tether_bridge_tittle_text">Definições da ponte WLAN</string>
+    <string name="wifi_tether_configure_bridge_text">Configurar ponte WLAN</string>
+    <string name="wifi_bridge_settings_summary">Nome, palavra-passe, etc</string>
+    <string name="wifi_bridge_use_help_title">Ajuda</string>
+    <string name="wifi_bridge_use_help_details">"1. A ponte WLAN pode melhorar significativamente o alcance de transmissão e intensidade dos sinais WLAN. Pode ligar outros dispositivos à rede WLAN atual através do deste dispositivo.
+2. A ponte WLAN suporta o acesso de até 4 dispositivos.
+3. A ponte WLAN não funciona com as funcionalidades ponto de acesso WLAN e WLAN Direct. Se a ponte WLAN estiver ativada, algumas aplicações que usem serviços P2P poderão não funcionar normalmente.
+4. Utilizar a ponte WLAN aumenta o consumo de bateria."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">É necessário uma ligação ao WLAN</string>
+    <string name="wifi_bridge_switch_wifi_summary">Partilhar ligação de rede WLAN</string>
+    <string name="wifi_setup_title_connected_network_Toast">Ligado à rede WLAN %s</string>
+    <string name="huawei_beam_explained">O Huawei Beam permite-lhe transferir ficheiros, tais como fotografias, vídeos, contatos e URLs, entre o seu dispositivo e outros dispositivos com capacidade de NFC. O Huawei Beam é ativado encostando os dois dispositivos um ao outro (normalmente costas contra costas) e tocando no ecrã. Note que a sua ligação Bluetooth ou WLAN poderá ser ligada automaticamente antes da transmissão de ficheiros.</string>
+    <string name="wifi_display_settings_summary">Apresentar ecrã do telefone noutro ecrã através de uma ligação WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">%s redes WLAN disponíveis. Pretende parar o serviço de dados e ligar a uma rede WLAN?</string>
+    <string name="switch_to_wifi_manual_prompt">Sinal WLAN encontrado, pretende utilizar esta rede WLAN?</string>
+    <string name="switch_to_wifi_query_prompt">%s redes WLAN disponíveis. Pretende ligar a uma rede WLAN?</string>
+    <string name="wifi_to_wifi_prompt">O sinal da ligação actual é fraco. Pretende utilizar outra rede WLAN?</string>
+    <string name="advanced_wifi_settings_title">Definições avançadas</string>
+    <string name="huawei_beam_front_explained">"O Huawei Beam permite-lhe transferir ficheiros para outros dispositivos NFC ao colocá-los perto uns dos outros. Por exemplo, pode transferir sem fios fotografias, vídeos, contactos, URLs e muito mais entre dois dispositivos com funcionalidade NFC. Basta:
+1. Colocar o painel frontal do seu dispositivo contra outro dispositivo NFC e levantar o seu dispositivo após ouvir um som.
+2. Tocar no seu ecrã durante três segundos após ouvir um som.
+3. Colocar novamente o painel frontal do seu dispositivo contra o outro dispositivo NFC para concluir a transferência. O seu Bluetooth ou WLAN poderão ser ligados automaticamente antes da transferência de ficheiros."</string>
+    <string name="wifiap_use_help_details">"1. Pode utilizar um dispositivo com ponto de acesso WLAN portátil para aceder à Internet. É possível ligar periféricos ao dispositivo via WLAN; os dispositivos ligados acederão à Internet através da rede móvel.
+2. Para utilizar um ponto de acesso WLAN portátil, a sua ligação de dados móveis deve estar ligada, e irá consumir algum tráfego de dados.
+3. A utilização de um ponto de acesso WLAN portátil poderá gastar energia da bateria mais rapidamente."</string>
+    <string name="wifiap_connect_help_details_open">"Ligação manual:
+1. Ligue o WLAN no dispositivo de destino e localize o hotspot %1$s.
+2. Ligue ao hotspot."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Está ligado a uma rede WLAN da China Mobile. Utilizar esta rede poderá produzir taxas de utilização WLAN.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Notificação WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Notificar-me quando ligado a uma rede WLAN da China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Não exibir qualquer notificação ao alterar redes (dados móveis para WLAN e vice versa, ou entre redes WLAN)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Utilizar GPS e WLAN para estimar a localização</string>
+    <string name="location_mode_battery_saving_description_wifionly">Utilizar WLAN para estimar a localização</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Inteligentemente seleccionar rede WLAN ou dados móveis</string>
+    <string name="wifi_plus_description">"Quando o WLAN+ está activado, a conectividade WLAN será avaliada para fornecer alteração inteligente de rede (dados de utilização WLAN podem aumentar). WLAN+ automático:
+1. Alterna entre WLAN e dados móveis (com notificações) para fornecer uma navegação suave na Internet.
+2. Activa o WLAN quando uma rede está disponível e liga-se à rede."</string>
+    <string name="wifi_plus_settings_title">Definições WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Alterar inteligentemente entre as redes WLAN e dados móveis para melhor prática de navegação de Internet.</string>
+    <string name="wifi_plus_auto_turn_on_description">Activar automaticamente WLAN ao aproximar-se de uma localização conhecida.</string>
+    <string name="wifi_plus_global_description">"Quando o WLAN+ está ativado, a conectividade WLAN irá ser avaliada para fornecer alteração inteligente de rede (utilização de dados WLAN pode aumentar). WLAN+ automático:
+1. Alterna entre redes WLAN e dados móveis para fornecer uma navegação suave na Internet.
+2. Ativa e liga-se ao WLAN quando entra numa área de rede WLAN conhecida."</string>
+    <string name="location_mode_high_accuracy_title_emui">Usar GPS, WLAN e redes móveis</string>
+    <string name="location_mode_battery_saving_title_emui">Usar WLAN e redes móveis</string>
+    <string name="pgps_switch_summary">Permita que o GPS reúna dados de WLAN e estações base celulares para fornecer serviços de localização mais rápidos e precisos</string>
+    <string name="find_no_wlan_ap">Não foi possível encontrar o ponto de acesso WLAN</string>
+    <string name="cannot_connect_wlan">Não é possível estabelecer ligação ao WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Não é possível aceder à Internet via WLAN</string>
+    <string name="wfd_connect_fail">Falha na ligação WLAN Direto</string>
+    <string name="find_no_wfd_device">Não foi possível encontrar o dispositivo WLAN Direto</string>
+    <string name="wfd_search_no_devices_causes">"Sem dispositivos encontrados, as razões poderão ser:
+1. O dispositivo emparelhado não está detetável.
+2. O dispositivo emparelhado está com problemas técnicos. Tente reiniciar o WLAN e reativar o WLAN Direct.
+3. O seu dispositivo está com problemas técnicos. Tente reiniciar o WLAN e reativar o WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"Não foi possível estabelecer a ligação. Possíveis causas:
+1. O dispositivo emparelhado não aceitou o pedido.
+2. Qualquer um dos dispositivos já tem outra ligação WLAN Direct estabelecida.
+3. O dispositivo emparelhado está com problemas técnicos. Tente reiniciá-lo."</string>
+    <string name="wifi_qrcode_share_notice">Analise o código QR para ligar a esta rede WLAN</string>
+    <string name="devices_not_found_solution_title">Se o dispositivo não estiver visível, tente o seguinte:</string>
+    <string name="devices_not_found_solution_message">"1. Certifique-se de que o dispositivo está a pesquisar por outros dispositivos.
+2. Se o dispositivo de destino estiver com problemas, reinicie o WLAN e ative o WLAN Direto novamente.
+3. Se o dispositivo estiver com problemas, reinicie o WLAN e ative o WLAN Direto novamente."</string>
+    <string name="devices_not_connected_solution_message">"1. Certifique-se de que o dispositivo de destino aceitou o pedido de ligação.
+2. Certifique-se de que nenhum dos dois dispositivos está ligado a outro dispositivo.
+3. Se o dispositivo de destino estiver com problemas, experimente restabelecer a ligação."</string>
+    <string name="wifi_plus_description_emui">"Quando o WLAN+ está ativado, a conectividade WLAN será avaliada para fornecer alteração inteligente de rede (dados de utilização WLAN podem aumentar). WLAN+ automático:
+1. Alterna entre WLAN e dados móveis (pode selecionar o modo de permuta nas definições de rede móvel) para fornecer uma navegação suave na Internet.
+2. Ativa o WLAN quando uma rede conhecida está disponível e liga-se à rede."</string>
+    <string name="link_plus_live_update_description">Quando a atualização dinâmica Link+ está ativada, o telemóvel atualiza automaticamente os dados dos parâmetros de comunicação através da rede sem fios (WLAN por predefinição) para melhorar as funcionalidades Link+ relevantes.</string>
+    <string name="wifi_plus_description_emui2">"Quando o WLAN+ está ativado, a conectividade WLAN é avaliada para fornecer a comutação inteligente de rede (a utilização de dados WLAN poderá aumentar). WLAN+ automaticamente:
+1. Alterna entre o WLAN e os dados móveis (pode selecionar o modo de comutação predefinido nas definições da rede móvel) para proporcionar uma experiência de Internet fluida.
+2. Liga o WLAN quando está dentro do alcance de uma rede WLAN conhecida e liga-se à mesma.
+3. Avalia redes WLAN disponíveis. O dispositivo não se ligará automaticamente a redes guardadas sem uma ligação à Internet.
+4. No caso de alguns pontos de acesso WLAN gratuitos, obtém o código de verificação a partir da mensagem SMS recebida e inicia sessão na rede via browser (atualmente apenas é suportado na China)."</string>
+    <string name="wifi_plus_global_description2">"Quando o WLAN+ está ativado, a conectividade WLAN é avaliada para fornecer a comutação inteligente de rede (a utilização de dados WLAN poderá aumentar). WLAN+ automaticamente:
+1. Alterna entre o WLAN e os dados móveis para proporcionar uma experiência de Internet fluida.
+2. Liga o WLAN quando está dentro do alcance de uma rede WLAN conhecida e liga-se à mesma.
+3. Avalia redes WLAN disponíveis. O dispositivo não se ligará automaticamente a redes guardadas sem uma ligação à Internet."</string>
+    <string name="help_message">"1. A sua impressora e o telefone não estão ligados à mesma rede WLAN.
+2. A sua impressora não suporta este serviço de impressão específico (confirme junto do fabricante).
+3. Foi atingido o tempo limite de procura. Tente novamente se for este o caso.
+4. A sua impressora sofreu uma falha. Reinicie a impressora e tente novamente."</string>
+    <string name="wifi_cloud_security_check_title">Verificação de segurança de WLAN</string>
+    <string name="wifi_cloud_security_check_summary">Verificar o nível de segurança da rede WLAN em uso via o Gestor do Telemóvel e impedir a ligação automática a redes conhecidas que apresentem riscos de segurança</string>
+    <string name="wifi_plus_description_emui3">"Quando o WLAN+ está ativado, a conectividade WLAN será avaliada para fornecer alteração inteligente de rede e, os parâmetros de otimização serão automaticamente atualizados via WLAN (os dados de utilização WLAN podem aumentar). O WLAN+:
+1. Alterna entre WLAN e dados móveis (pode selecionar o modo de permuta nas definições de rede móvel) para fornecer uma navegação suave na Internet.
+2. Ativa o WLAN quando uma rede WLAN conhecida está disponível e liga-se à rede.
+3. Avalia as redes WLAN disponíveis. Impede a ligação automática a redes conhecidas que não tenham acesso à Internet.
+4. Para determinados pontos de acesso WLAN, deteta e acede ao código de verificação da mensagem de verificação e inicia sessão automaticamente na rede via o navegador (só suportado na China)."</string>
+    <string name="user_add_user_message">"Pode criar utilizadores adicionais para partilhar este dispositivo com outras pessoas. Cada utilizador dispõe do seu espaço dedicado, onde podem personalizar as aplicações, o papel de parede, etc. Os utilizadores podem ainda ajustar definições do dispositivo que afetam todos os utilizadores, como por exemplo o WLAN.
+
+Quando adiciona um utilizador novo, essa pessoa necessita de configurar o seu espaço.
+
+Qualquer utilizador pode atualizar aplicações para todos os outros utilizadores."</string>
+    <string name="print_user_warning">Ao ativar o serviço de impressão, o dispositivo irá procurar por impressoras próximas através da ligação WLAN, gerando tráfego na ligação WLAN.</string>
+    <string name="wifi_calling_settings_title_emui">Chamadas via WLAN</string>
+    <string name="wifi_calling_dialog_title">Ativar chamadas via WLAN</string>
+    <string name="wifi_calling_dialog_message">Não será possível fazer chamadas de emergência via WLAN se for ativada. Ativar?</string>
+    <string name="device_name_settings_summary">Nome visível aos outros dispositivos quando utilizar o Bluetooth, WLAN Direct, partilhar de Internet e ponto de acesso portátil.</string>
+    <string name="device_name_settings_dialog">Modificar o nome do dispositivo terminará a ligação ao ponto de acesso WLAN atual. Modificar?</string>
+    <string name="write_wifi_nfc_tag">Criar etiqueta NFC WLAN</string>
+    <string name="wifi_plus_smart_switch_title">Alternar entre WLAN e dados móveis inteligentemente</string>
+    <string name="wifi_plus_smart_switch_summary">Avalia a conectividade do WLAN (poderá aumentar o tráfego de dados) e alterna entre WLAN e dados móveis para obter a melhor ligação possível. Este modo é configurável nas definições de rede móvel</string>
+    <string name="wifi_plus_smart_switch_summary_global">Avalia a conectividade do WLAN (poderá aumentar o tráfego de dados) e alterna entre WLAN e dados móveis para obter a melhor ligação possível</string>
+    <string name="wifi_plus_auto_turn_title">Ativar/Desativar o WLAN automaticamente</string>
+    <string name="wifi_plus_auto_turn_summary">Ativa o WLAN quando uma rede WLAN conhecida está disponível e liga-se à rede</string>
+    <string name="wifi_plus_quality_evaluation_title">Avaliar as redes WLAN disponíveis</string>
+    <string name="wifi_plus_quality_evaluation_summary">Avalia as redes WLAN disponíveis. Impede a ligação automática a redes conhecidas que não tenham acesso à Internet</string>
+    <string name="wifi_plus_fast_connect_title">Otimizar o início de sessão para pontos de acesso WLAN gratuitos</string>
+    <string name="wifi_plus_fast_connect_summary">Para determinados pontos de acesso WLAN, deteta e acede ao código de verificação da mensagem de verificação e inicia sessão automaticamente na rede via o navegador (só suportado na China continental)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Quando a atualização dinâmica Comunicação+ está ativada, o telemóvel atualiza automaticamente os parâmetros de comunicação através da rede sem fios (WLAN por predefinição) para melhorar as funcionalidades de comunicação relevantes.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Dados móveis</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS e WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. A ponte WLAN melhora significativamente o alcance de transmissão e intensidade dos sinais WLAN. Pode ligar outros dispositivos à rede WLAN atual através deste dispositivo.
+2. Suporta o acesso de até 4 dispositivos.
+3. Não funciona com as funcionalidades ponto de acesso WLAN e WLAN Direct. Algumas aplicações que utilizam serviços P2P poderão não funcionar corretamente se a ponte WLAN estiver ativada.
+4. Esta funcionalidade aumenta o consumo de energia.
+5. Se receber uma mensagem a notificar que os recursos de WLAN estão em utilização por outro serviço, aceda a Definições > WLAN > WLAN Direct e desligue a ligação com todos os dispositivos. Pode ainda desativar e reativar o WLAN para desligar automaticamente a ligação com todos os dispositivos."</string>
+    <string name="wifi_qrcode_share_notice_new">Analisar para ligar a esta rede WLAN</string>
+    <string name="location_help_scheme_body_one">"1. Certifique-se de que a funcionalidade Acesso à minha localização está ativada.
+2. Selecione a opção GPS, WLAN e redes móveis no Modo de localização.
+3. Estabeleça ligação a uma rede WLAN ou ative os dados móveis.
+4. Verifique se a aplicação que está a utilizar tem a permissão Localização acedendo a Gestor do Telefone > Gestor de permissões > Localização.
+5. Se tiver definido o Modo de localização para utilizar apenas o GPS, certifique-se de que se encontra num espaço aberto desobstruído onde os sinais de GPS podem ser recebidos normalmente.
+6. Se estiver ligado a uma rede WLAN pública, experimente desativar o WLAN e ativar os dados móveis. Após isto, tente aceder à localização novamente."</string>
+    <string name="location_help_scheme_body_two">"1. Selecione a opção GPS, WLAN e redes móveis no Modo de localização para aumentar a precisão da localização.
+2. Se o dispositivo estiver a utilizar uma capa metálica, remova ou substitua-a por uma capa não metálica e tente novamente.
+3. Verifique se a aplicação que está a utilizar tem a permissão Localização acedendo a Gestor do Telefone > Gestor de permissões > Localização.
+4. A navegação funciona melhor em espaços abertos desobstruídos. Posicione o telemóvel perto do limpa-para-brisas, sobre o tablier do veículo ou noutro lugar desobstruído."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. O repetidor WLAN melhora significativamente o alcance de transmissão e intensidade dos sinais WLAN. Pode ligar outros dispositivos à rede WLAN atual através deste dispositivo.
+%2$d. Suporta o acesso de até %6$d dispositivos.
+%3$d. Não funciona com as funcionalidades ponto de acesso WLAN e WLAN Direct. Algumas aplicações que utilizam serviços P2P poderão não funcionar corretamente se o repetidor WLAN estiver ativado.
+%4$d. Esta funcionalidade aumenta o consumo de energia.
+%5$d. Se receber uma mensagem a notificar que os recursos de WLAN estão em utilização por outro serviço, aceda a Definições > WLAN > WLAN Direct e desligue a ligação com todos os dispositivos. Pode ainda desativar e reativar o WLAN para desligar automaticamente a ligação com todos os dispositivos."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Pode utilizar este dispositivo como ponto de acesso WLAN portátil para fornecer Internet. É possível ligar periféricos ao dispositivo via WLAN de modo a acederem à Internet através da rede móvel.
+%2$d. Para utilizar este dispositivo como ponto de acesso WLAN portátil, a sua ligação de dados móveis deve estar ativada e serão utilizados alguns dados.
+%3$d. A utilização desta funcionalidade consume mais energia."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Ligação manual:
+%2$d. Ligue o WLAN no dispositivo de destino e localize o ponto de acesso %1$s.
+%3$d. Ligue ao ponto de acesso."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Certifique-se de que a funcionalidade Acesso à minha localização está ativada.
+%2$d. Selecione a opção GPS, WLAN e redes móveis no modo de Localização.
+%3$d. Estabeleça ligação a uma rede WLAN ou ative os dados móveis.
+%4$d. Verifique se a aplicação que está a utilizar tem a permissão Localização, acedendo a Gestor do Telefone > Gestor de permissões > Localização.
+%5$d. Se tiver definido o modo de Localização para utilizar apenas o GPS, certifique-se de que se encontra num espaço aberto desobstruído onde os sinais de GPS podem ser recebidos normalmente.
+%6$d. Se estiver ligado a uma rede WLAN pública, experimente desativar o WLAN e ativar os dados móveis. Após isto, tente aceder à localização novamente."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Selecione a opção GPS, WLAN e redes móveis no Modo de localização para aumentar a precisão da localização.
+%2$d. Se o dispositivo estiver a utilizar uma capa metálica, remova ou substitua-a por uma capa não metálica e tente novamente.
+%3$d. Verifique se a aplicação que está a utilizar tem a permissão Localização, acedendo a Gestor do Telefone > Gestor de permissões > Localização.
+%4$d. A navegação funciona melhor em espaços abertos desobstruídos. Posicione o telemóvel perto do limpa-para-brisas, sobre o tablier do veículo ou noutro lugar desobstruído."</string>
+    <string name="turn_off_data_saver_message">Utilizar um ponto de acesso portátil requer desativar a poupança de dados. Desativar?</string>
+    <string name="first_wlan_hotspot_text">O hotspot WLAN permite-lhe partilhar a sua ligação de rede com outras pessoas, mas pode consumir a energia da bateria mais rapidamente e aumentar as taxas de utilização de dados.</string>
+    <string name="hotspot_power_notification_title">Ponto de acesso WLAN desativado</string>
+    <string name="hotspot_power_notification_ticker_text">Ponto de acesso WLAN desativado</string>
+    <string name="toast_entitle_wifi_need_close">Não é possível utilizar esta com o WLAN ativado. Desative o WLAN primeiro.</string>
+    <string name="wifi_activated_warning_Title">WLAN ligado</string>
+    <string name="wifi_turn_off_warning_message_wifiap">O hotspot móvel e o WLAN não podem estar ligados em simultâneo. Desligar o WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">O WLAN deve ser desativado agora. Voltará a ser ligado automaticamente quando o telefone tiver comunicado com os servidores da AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">Se desligar a opção Transmitir nome de rede (SSID), o telefone não será visível a outros dispositivos e não aparecerá na lista de redes WLAN disponíveis. Os outros dispositivos continuam a poder ligar-se ao seu hotspot introduzindo manualmente o nome da rede.</string>
+    <string name="enable">Ligação automática ao WLAN AT&amp;T ativada</string>
+    <string name="disable">Ligação automática ao WLAN AT&amp;T desativada</string>
+    <string name="auto_connect_wifi_suggestion">Reinicie o WLAN para que as definições de Ligação automática produzam efeito.</string>
+    <string name="wifi_network_detect_summary">Verificar acessibilidade à Internet ao ligar a um ponto de acesso WLAN</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN has been disabled by the device administrator</string>
+    <string name="wifi_required_info_text">Para concluir a configuração, o seu tablet necessita de aceder a uma rede WLAN. Após concluir a configuração, pode alternar entre dados móveis e WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frequência WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">O gestor do dispositivo (%1$s) não permite a modificar nem eliminar esta rede WLAN. Para mais informações, contacte o administrador.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <com.android.mms.ui.EmuiSwitchPreference androidhwext:title="@string/signature_add_title" androidhwext:key="pref_key_signature" androidhwext:defaultValue="false" androidhwext:preferenceID="@+id/signature_add" />
+    <Preference androidhwext:persistent="false" androidhwext:layout="@layout/mms_preference_status" androidhwext:title="@string/signature_edit_title" androidhwext:key="pref_key_signature_edit" androidhwext:summary="@string/signature_edit_title" androidhwext:widgetLayout="@layout/mms_preference_widget_arrow" androidhwext:dependency="pref_key_signature" androidhwext:preferenceID="@+id/preference_signature_edit" />
+</PreferenceScreen>

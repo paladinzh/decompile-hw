@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/print_user_warning" android:visibility="gone" android:text="@string/print_user_warning" style="@style/help_text_content_style" />
+    <LinearLayout style="@style/PreferenceCategoryContainerStyle">
+        <TextView android:id="@id/switch_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_switch_category" style="@style/PreferenceCategoryTitleStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/switch_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="end|middle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="end|middle" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/backup_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

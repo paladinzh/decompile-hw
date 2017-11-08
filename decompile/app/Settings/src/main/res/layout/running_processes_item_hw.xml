@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:activatedBackgroundIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/preference_bigger_icon_size" android:layout_height="@dimen/preference_bigger_icon_size" android:contentDescription="@null" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_icon_margin_end" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/name" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:id="@id/description" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_below="@id/name" android:layout_alignStart="@id/name" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="6.0dip">
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:id="@id/size" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiSecondaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:id="@id/uptime" android:singleLine="true" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+    <include layout="@layout/preference_widget_arrow" />
+</LinearLayout>

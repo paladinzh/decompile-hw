@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/layout_bottom_menu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/duoqu_toolbar_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3401"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/layout_exchange" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401">
+            <ImageView android:id="@+id/logo_exchange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/duoqu_btn_sms" android:contentDescription="@string/duoqu_back_to_input_bar" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/layout_menu" android:layout_width="match_parent" android:layout_height="match_parent" /> />
+</RelativeLayout>

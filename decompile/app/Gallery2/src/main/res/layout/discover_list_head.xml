@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/album_set_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ViewStub android:id="@id/photoshare_head_local_category_story" android:layout="@layout/discover_classify_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/photoshare_head_people" android:layout="@layout/discover_classify_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/photoshare_head_place" android:layout="@layout/discover_classify_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/photoshare_head_category" android:layout="@layout/discover_classify_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="13dp" android:textColor="0x106000c" android:id="@id/title" android:paddingTop="10dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_album" android:fontFamily="HwChinese-medium" android:paddingStart="16dp" />
+</LinearLayout>

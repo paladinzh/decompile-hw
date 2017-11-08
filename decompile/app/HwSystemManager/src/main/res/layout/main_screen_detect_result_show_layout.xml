@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/contaner_end" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/btn_container_end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/complete_btn_end" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/main_screen_detect_btn_cancel" android:layout_centerInParent="true" android:fontFamily="chnfzxh" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    </RelativeLayout>
+    <ScrollView android:id="@+id/scroll_view_end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/btn_container_end">
+        <LinearLayout android:orientation="vertical" android:id="@+id/scroll_view_end_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</RelativeLayout>

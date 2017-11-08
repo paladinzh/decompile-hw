@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.charge.e50.ChargeEffectsLayerViewE50 xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/charge_blur_effect_layer_e50" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <FrameLayout android:id="@r$id/charge_shadow_effect_layer_e50" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.huawei.keyguard.view.charge.e50.UnlockChargingView android:id="@r$id/unlock_charging_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include android:id="@r$id/charge_info_view" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/charge_info_view" />
+    </FrameLayout>
+</com.huawei.keyguard.view.charge.e50.ChargeEffectsLayerViewE50>

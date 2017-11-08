@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="app_manager_preference">
+    <TextArrowPreference androidhwext:icon="@drawable/ic_update_app" androidhwext:title="@string/app_manager_app_update_str" androidhwext:key="app_manager_app_update" androidhwext:preferenceID="@+id/prefs_ic_update_app" />
+    <TextArrowPreference androidhwext:icon="@drawable/ic_uninstall_app" androidhwext:title="@string/app_manager_app_uninstall_str" androidhwext:key="app_manager_app_uninstall" androidhwext:preferenceID="@+id/prefs_ic_uninstall_app" />
+    <TextArrowPreference androidhwext:icon="@drawable/ic_app_center" androidhwext:title="@string/app_manager_safe_market_str" androidhwext:key="app_manager_safe_market" androidhwext:preferenceID="@+id/prefs_ic_app_center" />
+    <TextArrowPreference androidhwext:icon="@drawable/ic_essential_app" androidhwext:title="@string/app_manager_app_need_str" androidhwext:key="app_manager_app_need" androidhwext:preferenceID="@+id/prefs_ic_essential_app" />
+    <TextArrowPreference androidhwext:icon="@drawable/ic_huawei_zone" androidhwext:title="@string/app_manager_hw_zone_str" androidhwext:key="app_manager_hw_zone" androidhwext:preferenceID="@+id/prefs_ic_huawei_zone" />
+</PreferenceScreen>

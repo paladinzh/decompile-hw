@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_overflow" android:id="@+id/action_overflow_menu" android:title="@string/menu_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_search_favorites" android:visible="false" android:title="@string/menu_search" />
+            <item android:id="@+id/menu_multi_choice_delete" android:visible="false" android:title="@string/menu_del_favorites" />
+            <item android:id="@+id/menu_multi_choice_forward" android:visible="false" android:title="@string/menu_forward_favorites" />
+            <item android:id="@+id/menu_settings" android:visible="false" android:title="@string/menu_preferences" />
+        </menu> />
+</menu>

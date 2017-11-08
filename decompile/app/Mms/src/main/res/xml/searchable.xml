@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/search_label" android:icon="@drawable/rcs_group_member_head_default" android:hint="@string/search_hint" android:searchSuggestAuthority="com.android.mms.SuggestionsProvider" android:searchSuggestSelection="pattern" android:searchSuggestIntentAction="com.android.mms.action.SEARCH_GOLBAL" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" android:includeInGlobalSearch="true" android:searchSettingsDescription="@string/search_setting_description">
+    <layoutType
+        mms />
+    <useFullTextSearch
+        true />
+    <fullTextSearchFields
+        suggest_text_1,suggest_text_3,address,title />
+</searchable>

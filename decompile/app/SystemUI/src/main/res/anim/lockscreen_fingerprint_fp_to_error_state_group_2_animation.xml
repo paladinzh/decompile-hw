@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="0x10c000b" android:duration="266" android:valueFrom="0.63838" android:valueTo="0.63838" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:interpolator="@interpolator/lockscreen_fingerprint_fp_to_error_state_animation_interpolator_1" android:duration="316" android:valueFrom="0.63838" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleX" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="0x10c000b" android:duration="266" android:valueFrom="0.63838" android:valueTo="0.63838" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:interpolator="@interpolator/lockscreen_fingerprint_fp_to_error_state_animation_interpolator_1" android:duration="316" android:valueFrom="0.63838" android:valueTo="1.0" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator android:interpolator="0x10c000b" android:duration="266" android:valueFrom="184.0" android:valueTo="184.0" android:valueType="floatType" android:propertyName="rotation" />
+        <objectAnimator android:interpolator="@interpolator/lockscreen_fingerprint_fp_to_error_state_animation_interpolator_4" android:duration="316" android:valueFrom="184.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="rotation" />
+    </set>
+</set>

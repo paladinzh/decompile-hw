@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/gallery_statelist_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/list_item_content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/icon" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_connection_phone" android:scaleType="center" android:contentDescription="0x0" android:layout_marginStart="16dp" />
+        <TextView android:textSize="15sp" android:textColor="@color/photoshare_albumset_name_color" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:alpha="0.9" android:layout_marginStart="16dp" />
+    </LinearLayout>
+    <ImageView android:background="@color/background_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01d3" android:layout_alignParentBottom="true" android:contentDescription="0x0" android:alpha="0.15" android:layout_marginStart="56dp" android:layout_marginEnd="16dp" />
+</RelativeLayout>

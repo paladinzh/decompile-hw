@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@color/album_set_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/no_picture_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_gallery_album_empty" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="@dimen/margin_16dp" />
+    <TextView android:textSize="@dimen/empty_album_text_size" android:textColor="@color/empty_album_text_color" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/no_picture_name_horizon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tips_gallerytimeline_nophotolandscape" android:layout_below="@id/no_picture_photo" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="@dimen/margin_16dp" />
+    <include layout="@layout/photoshare_button_foot" />
+</RelativeLayout>

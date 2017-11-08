@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Сканув-ня...</item>
+        <item>Підключення…</item>
+        <item>Автентифікація…</item>
+        <item>Отримання ІР-адреси…</item>
+        <item>Підключено</item>
+        <item>Припинено</item>
+        <item>Відключення...</item>
+        <item>Роз’єднано</item>
+        <item>Помилка</item>
+        <item>Заблоковано</item>
+        <item>Тимчасове уникнення слабкого з’єднання</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Сканув-ня...</item>
+        <item>Підключення до %1$s…</item>
+        <item>Автентифікація з %1$s…</item>
+        <item>Отримання ІР-адреси від %1$s...</item>
+        <item>Підключено до %1$s</item>
+        <item>Призупинено</item>
+        <item>Відключення від %1$s…</item>
+        <item>Роз’єднано</item>
+        <item>Помилка</item>
+        <item>Заблоковано</item>
+        <item>Тимчасове уникнення слабкого з’єднання</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Ніколи не перевіряти</item>
+        <item>Перевіряти лише DRM-контент</item>
+        <item>Завжди перевіряти</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Ніколи не використовувати перевірку HDCP</item>
+        <item>Використовувати перевірку HDCP лише для вмісту, захищеного DRM</item>
+        <item>Завжди використовувати перевірку HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Вимкнено</item>
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+        <item>4 Мб</item>
+        <item>16 Мб</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Вимкнено</item>
+        <item>64 Кб</item>
+        <item>256 Кб</item>
+        <item>1 Мб</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Вимкнено</item>
+        <item>Буфер журналу: 64 Кб</item>
+        <item>Буфер журналу: 256 Кб</item>
+        <item>Буфер журналу: 1 Мб</item>
+        <item>Буфер журналу: 4 Мб</item>
+        <item>Буфер журналу: 16 Мб</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Анімацію вимкнено</item>
+        <item>Анімація 0,5x</item>
+        <item>Анімація 1x</item>
+        <item>Анімація 1,5x</item>
+        <item>Анімація 2x</item>
+        <item>Анімація 5x</item>
+        <item>Анімація 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Анімацію вимкнено</item>
+        <item>Анімація 0,5x</item>
+        <item>Анімація 1x</item>
+        <item>Анімація 1,5x</item>
+        <item>Анімація 2x</item>
+        <item>Анімація 5x</item>
+        <item>Анімація 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Анімацію вимкнено</item>
+        <item>Анімація 0,5x</item>
+        <item>Анімація 1x</item>
+        <item>Анімація 1,5x</item>
+        <item>Анімація 2x</item>
+        <item>Анімація 5x</item>
+        <item>Анімація 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Немає</item>
+        <item>480p</item>
+        <item>480p (захист)</item>
+        <item>720p</item>
+        <item>720p (захист)</item>
+        <item>1080p</item>
+        <item>1080p (захист)</item>
+        <item>4K</item>
+        <item>4K (захист)</item>
+        <item>4K (масштабування)</item>
+        <item>4K (масштабування, захист)</item>
+        <item>720p, 1080p (два екрани)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Нічого</item>
+        <item>Logcat</item>
+        <item>Systrace (графіка)</item>
+        <item>Стек викликів glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Вимкнено</item>
+        <item>Непрямокутне обрізання синім</item>
+        <item>Тест. команди малювання зеленим</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Вимк.</item>
+        <item>На екрані у вигляді смужок</item>
+        <item>У adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Вимк.</item>
+        <item>Показувати області накладання</item>
+        <item>Показувати області дейтераномалії</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Стандартне обмеження</item>
+        <item>Без фонових процесів</item>
+        <item>Не більше 1 процесу</item>
+        <item>Не більше 2 процесів</item>
+        <item>Не більше 3 процесів</item>
+        <item>Не більше 4 процесів</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Заряджається</item>
+        <item>MTP (протокол передавання медіаданих)</item>
+        <item>PTP (протокол передавання зображень)</item>
+        <item>RNDIS (Ethernet через USB)</item>
+        <item>Джерело звуку</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Дуже повільно</item>
+        <item>Повільно</item>
+        <item>Звичайно</item>
+        <item>Швидко</item>
+        <item>Швидше</item>
+        <item>Дуже швидко</item>
+        <item>Надзвичайно швидко</item>
+        <item>Украй швидко</item>
+        <item>Найшвидше</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Насичений (за умовчанням)</item>
+        <item>Природний</item>
+        <item>Стандартний</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Покращені кольори</item>
+        <item>Природні кольори</item>
+        <item>Кольори для цифрового вмісту</item>
+    </array>
+    <array name="clock_options">
+        <item>Показувати години, хвилини та секунди</item>
+        <item>Показувати години та хвилини (за умовчанням)</item>
+        <item>Не показувати цей значок</item>
+    </array>
+    <array name="battery_options">
+        <item>Завжди показувати відсотки</item>
+        <item>Показувати відсотки під час заряджання (за умовчанням)</item>
+        <item>Не показувати цей значок</item>
+    </array>
+</resources>

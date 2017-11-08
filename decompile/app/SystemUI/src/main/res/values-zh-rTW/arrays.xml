@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>掃描中...</item>
+        <item>連線中…</item>
+        <item>驗證中...</item>
+        <item>正在取得 IP 位址...</item>
+        <item>已連線</item>
+        <item>已暫停</item>
+        <item>中斷連線中…</item>
+        <item>已中斷連線</item>
+        <item>失敗</item>
+        <item>已封鎖</item>
+        <item>目前正暫時避開品質不佳的連線</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>掃描中...</item>
+        <item>正在連線到 %1$s...</item>
+        <item>正在取得 %1$s 的授權...</item>
+        <item>正在由 %1$s 取得 IP 位址...</item>
+        <item>已連線到 %1$s</item>
+        <item>已暫停</item>
+        <item>正在中斷 %1$s 連線 ...</item>
+        <item>已中斷連線</item>
+        <item>失敗</item>
+        <item>已封鎖</item>
+        <item>目前正暫時避開品質不佳的連線</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>不要檢查</item>
+        <item>僅檢查 DRM 內容</item>
+        <item>一律檢查</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>不使用 HDCP 檢查</item>
+        <item>僅使用 HDCP 檢查 DRM 內容</item>
+        <item>一律使用 HDCP 檢查</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>關閉</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>關閉</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>關閉</item>
+        <item>每個紀錄緩衝區 64K</item>
+        <item>每個紀錄緩衝區 256K</item>
+        <item>每個紀錄緩衝區 1M</item>
+        <item>每個紀錄緩衝區 4M</item>
+        <item>每個紀錄緩衝區 16M</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例 0.5x</item>
+        <item>動畫比例 1x</item>
+        <item>動畫比例 1.5x</item>
+        <item>動畫比例 2x</item>
+        <item>動畫比例 5x</item>
+        <item>動畫比例 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例 0.5x</item>
+        <item>動畫比例 1x</item>
+        <item>動畫比例 1.5x</item>
+        <item>動畫比例 2x</item>
+        <item>動畫比例 5x</item>
+        <item>動畫比例 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>關閉動畫</item>
+        <item>動畫比例 0.5x</item>
+        <item>動畫比例 1x</item>
+        <item>動畫比例 1.5x</item>
+        <item>動畫比例 2x</item>
+        <item>動畫比例 5x</item>
+        <item>動畫比例 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>無</item>
+        <item>480p</item>
+        <item>480p (安全)</item>
+        <item>720p</item>
+        <item>720p (安全)</item>
+        <item>1080p</item>
+        <item>1080p (安全)</item>
+        <item>4K</item>
+        <item>4K (安全)</item>
+        <item>4K (畫質提升)</item>
+        <item>4K (畫質提升、安全)</item>
+        <item>720p、1080p (雙螢幕)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>無</item>
+        <item>Logcat</item>
+        <item>Systrace (圖片)</item>
+        <item>glGetError 的呼叫堆疊</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>關閉</item>
+        <item>將非矩形裁剪區域塗上藍色</item>
+        <item>使用綠色標明測試繪圖指令</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>關閉</item>
+        <item>在螢幕上以列顯示</item>
+        <item>在「adb shell dumpsys gfxinfo」指令中</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>關閉</item>
+        <item>顯示透支區域</item>
+        <item>顯示綠色弱視區域</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>標準限制</item>
+        <item>不執行背景處理程序</item>
+        <item>最多 1 個處理程序</item>
+        <item>最多 2 個處理程序</item>
+        <item>最多 3 個處理程序</item>
+        <item>最多 4 個處理程序</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>充電中</item>
+        <item>MTP (媒體傳輸通訊協定)</item>
+        <item>PTP (圖片傳輸通訊協定)</item>
+        <item>RNDIS (USB 乙太網路)</item>
+        <item>音訊來源</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>一般</item>
+        <item>快</item>
+        <item>較快</item>
+        <item>很快</item>
+        <item>非常快</item>
+        <item>極快</item>
+        <item>最快</item>
+    </array>
+    <array name="color_mode_names">
+        <item>鮮活 (預設)</item>
+        <item>自然</item>
+        <item>標準</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>增強的色彩</item>
+        <item>眼睛所見的自然色彩</item>
+        <item>針對數位內容最佳化的色彩</item>
+    </array>
+    <array name="clock_options">
+        <item>顯示小時、分鐘和秒</item>
+        <item>顯示小時和分鐘 (預設)</item>
+        <item>不顯示這個圖示</item>
+    </array>
+    <array name="battery_options">
+        <item>一律顯示百分比</item>
+        <item>充電時顯示百分比 (預設)</item>
+        <item>不顯示這個圖示</item>
+    </array>
+    <array name="recents_tv_blacklist_array">
+    </array>
+    <array name="normal_12_time">
+        <item>上午12:</item>
+        <item>上午1:</item>
+        <item>上午2:</item>
+        <item>上午3:</item>
+        <item>上午4:</item>
+        <item>上午5:</item>
+        <item>上午6:</item>
+        <item>上午7:</item>
+        <item>上午8:</item>
+        <item>上午9:</item>
+        <item>上午10:</item>
+        <item>上午11:</item>
+        <item>下午12:</item>
+        <item>下午1:</item>
+        <item>下午2:</item>
+        <item>下午3:</item>
+        <item>下午4:</item>
+        <item>下午5:</item>
+        <item>下午6:</item>
+        <item>下午7:</item>
+        <item>下午8:</item>
+        <item>下午9:</item>
+        <item>下午10:</item>
+        <item>下午11:</item>
+    </array>
+    <array name="china_time">
+        <item>半夜12:</item>
+        <item>凌晨1:</item>
+        <item>凌晨2:</item>
+        <item>凌晨3:</item>
+        <item>凌晨4:</item>
+        <item>清晨5:</item>
+        <item>清晨6:</item>
+        <item>上午7:</item>
+        <item>上午8:</item>
+        <item>上午9:</item>
+        <item>上午10:</item>
+        <item>中午11:</item>
+        <item>中午12:</item>
+        <item>下午1:</item>
+        <item>下午2:</item>
+        <item>下午3:</item>
+        <item>下午4:</item>
+        <item>傍晚5:</item>
+        <item>傍晚6:</item>
+        <item>晚上7:</item>
+        <item>晚上8:</item>
+        <item>晚上9:</item>
+        <item>晚上10:</item>
+        <item>半夜11:</item>
+    </array>
+</resources>

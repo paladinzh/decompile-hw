@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/layout_send" android:background="@color/rcs_map_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3a01" android:layout_alignParentTop="true">
+        <ImageButton android:textColor="0x106000b" android:id="@+id/btn_cancel" android:background="@drawable/rcs_ic_cancel_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="15dp" />
+        <ImageButton android:id="@+id/btn_send" android:background="@drawable/rcs_ic_send_msg_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="15dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <WebView android:id="@+id/webview01" android:background="@color/rcs_map_webview_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/layout_send" android:layout_alignParentLeft="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

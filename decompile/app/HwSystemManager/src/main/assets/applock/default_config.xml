@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PasswordConfig>
+    <!-- DTS2014042601449 wangjue/00103796 20140428 create -->
+    <!-- DTS2014051603904 wangjue/00103796 20140517 modify -->
+    <!-- The following attrs is the same as it in AuthRetryUtils.java -->
+    <attr name="password_total_retry" value="5" />
+    <attr name="fingerprint_total_retry" value="6" />
+    <attr name="fingerprint_activity_retry" value="3" />
+    <attr name="password_forbidden_left_time" value="30" />
+    <!-- The following attrs is the same as it in AuthMonitorParamUtils.java -->
+    <attr name="process_background_delay_millis" value="200" />
+    <attr name="process_foreground_delay_millis" value="150" />
+</PasswordConfig>
+

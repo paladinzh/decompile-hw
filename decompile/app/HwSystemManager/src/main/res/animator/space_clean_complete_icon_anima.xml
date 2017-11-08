@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator xmlns:android="http://schemas.android.com/apk/res/android" android:duration="600">
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="shake">
+        <keyframe android:value="0" />
+        <keyframe android:value="-10.f" android:interpolator="0x10a0005" />
+        <keyframe android:value="7.f" android:interpolator="0x10a0005" />
+        <keyframe android:value="0.f" android:interpolator="0x10a0006" />
+    </propertyValuesHolder>
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="leftLength">
+        <keyframe android:value="0" />
+        <keyframe android:value="60.f" android:interpolator="0x10a0005" />
+        <keyframe android:value="60.f" />
+    </propertyValuesHolder>
+    <propertyValuesHolder android:valueType="floatType" android:propertyName="rightLength">
+        <keyframe android:value="0" />
+        <keyframe android:value="0" />
+        <keyframe android:value="200.f" android:interpolator="0x10a0006" />
+    </propertyValuesHolder>
+</animator>

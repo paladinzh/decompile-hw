@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/menu_container_for_split" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d023f" android:paddingStart="@dimen/detail_menu_padding_start" android:paddingEnd="@dimen/detail_menu_padding_start" style="@style/custom_menu_container_style">
+    <RelativeLayout android:id="@+id/contact_menuitem_create_contact" android:visibility="gone" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/ic_new_contact" android:contentDescription="@string/pickerNewContactText" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/pickerNewContactText" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/contact_menuitem_star" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/menu_sharred_unclick" android:contentDescription="@string/contacts_starred" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/contacts_starred" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/contact_menuitem_edit" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/contacts_ic_edit" android:contentDescription="@string/menu_editContact" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/menu_editContact" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/contact_menuitem_save_exist_contact" android:visibility="gone" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/ic_add_contact" android:contentDescription="@string/contact_saveto_existed_contact" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/contact_saveto_existed_contact" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/contact_menuitem_menu" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/ic_menu" android:contentDescription="@string/contacts_title_menu" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/contacts_title_menu" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/contact_menuitem_delete_calllog" android:visibility="gone" style="@style/Contact_detail_menu_item">
+        <ImageView android:id="@+id/contact_menuitem_icon" android:src="@drawable/ic_trash_normal" android:contentDescription="@string/str_delete_call_log_entry" style="@style/Contact_detail_menu_icon" />
+        <TextView android:id="@+id/contact_menuitem_text" android:text="@string/str_delete_call_log_entry" style="@style/Contact_detail_menu_text" />
+    </RelativeLayout>
+</LinearLayout>

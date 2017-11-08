@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/mediapicker_view_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/mediapicker_others_gridview" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:horizontalSpacing="@dimen/gallery_image_cell_horizontalspacing" android:verticalSpacing="2dp" android:stretchMode="columnWidth" android:columnWidth="@dimen/gallery_image_cell_size" android:numColumns="auto_fit" />
+</FrameLayout>

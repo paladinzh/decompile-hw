@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.huawei.gallery.editor.ui.ElasticBothHorizontalScrollView android:id="@id/scroll_root" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/state_root" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.huawei.gallery.editor.ui.ElasticBothHorizontalScrollView>
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/bg_toolbar_mask_left" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="match_parent" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/bg_toolbar_mask_right" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="match_parent" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/searchingcontacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/search_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 101007a" />
+    <TextView android:textSize="@dimen/contact_label_empty_text_size" android:textColor="@color/empty_contacts_text_color" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/totalContactsText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_online_searching" />
+</LinearLayout>

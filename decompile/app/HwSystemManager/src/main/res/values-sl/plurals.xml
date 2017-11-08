@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Neup. več kot %1$d dni</item>
+        <item quantity="one">Neup. več kot %1$d dan</item>
+        <item quantity="two">Neup. več kot %1$d dni</item>
+        <item quantity="few">Neup. več kot %1$d dni</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">Po izklopu zaslona se še vedno izvaja %1$d aplikacij. Za varčevanje z energijo jih zaprite.</item>
+        <item quantity="one">Po izklopu zaslona se še vedno izvaja %1$d aplikacija. Za varčevanje z energijo jo zaprite.</item>
+        <item quantity="two">Po izklopu zaslona se še vedno izvajata %1$d aplikaciji. Za varčevanje z energijo ju zaprite.</item>
+        <item quantity="few">Po izklopu zaslona se še vedno izvajajo %1$d aplikacije. Za varčevanje z energijo jih zaprite.</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d porabniških programov je bilo zaprtih</item>
+        <item quantity="one">%1$d porabniški program je bil zaprt</item>
+        <item quantity="two">%1$d porabniška programa sta bila zaprta</item>
+        <item quantity="few">%1$d porabniški programi so bili zaprti</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d programov skrivaj porablja energijo. Če jih zaprete, lahko podaljšate življenjsko dobo baterije za %2$s</item>
+        <item quantity="one">Program %1$d skrivaj porablja energijo. Če ga zaprete, lahko podaljšate življenjsko dobo baterije za %2$s</item>
+        <item quantity="two">%1$d programa skrivaj porabljata energijo. Če ju zaprete, lahko podaljšate življenjsko dobo baterije za %2$s</item>
+        <item quantity="few">%1$d programi skrivaj porabljajo energijo. Če jih zaprete, lahko podaljšate življenjsko dobo baterije za %2$s</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">Omejitev: %d aplikacij zaradi vklopa mobilnih podatkov</item>
+        <item quantity="one">Omejitev: %d aplikacija zaradi vklopa mobilnih podatkov</item>
+        <item quantity="two">Omejitev: %d aplikacij zaradi vklopa mobilnih podatkov</item>
+        <item quantity="few">Omejitev: %d aplikacij zaradi vklopa mobilnih podatkov</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Omejitev: %d aplikacij zaradi vklopa omrežja Wi-Fi</item>
+        <item quantity="one">Omejitev: %d aplikacija zaradi vklopa omrežja Wi-Fi</item>
+        <item quantity="two">Omejitev: %d aplikacij zaradi vklopa omrežja Wi-Fi</item>
+        <item quantity="few">Omejitev: %d aplikacij zaradi vklopa omrežja Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Omejitev: %d aplikacij zaradi vklopa omrežja WLAN</item>
+        <item quantity="one">Omejitev: %d aplikacija zaradi vklopa omrežja WLAN</item>
+        <item quantity="two">Omejitev: %d aplikacij zaradi vklopa omrežja WLAN</item>
+        <item quantity="few">Omejitev: %d aplikacij zaradi vklopa omrežja WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Omejitev: %d programi zaradi vklopa omrežja WLAN</item>
+        <item quantity="one">Omejitev: %d program zaradi vklopa omrežja WLAN</item>
+        <item quantity="two">Omejitev: %d programa zaradi vklopa omrežja WLAN</item>
+        <item quantity="few">Omejitev: %d programov zaradi vklopa omrežja WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Omejitev: %d programi zaradi vklopa omrežja WLAN</item>
+        <item quantity="one">Omejitev: %d program zaradi vklopa omrežja WLAN</item>
+        <item quantity="two">Omejitev: %d programa zaradi vklopa omrežja WLAN</item>
+        <item quantity="few">Omejitev: %d programov zaradi vklopa omrežja WLAN</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">Omejitev: %d aplikacij zaradi vklopa sistema Bluetooth</item>
+        <item quantity="one">Omejitev: %d aplikacija zaradi vklopa sistema Bluetooth</item>
+        <item quantity="two">Omejitev: %d aplikacij zaradi vklopa sistema Bluetooth</item>
+        <item quantity="few">Omejitev: %d aplikacij zaradi vklopa sistema Bluetooth</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Ta funkcija potrebuje naslednja dovoljenja, da bo omogočena. Grem na nastavitve in jih omogočim?</item>
+        <item quantity="one">Ta funkcija potrebuje naslednje dovoljenje, da bo omogočena. Grem na nastavitve in ga omogočim?</item>
+        <item quantity="two">Za to funkcijo morajo biti omogočena naslednja dovoljenja. Želite odpreti Nastavitve in jih omogočiti?</item>
+        <item quantity="few">Za to funkcijo morajo biti omogočena naslednja dovoljenja. Želite odpreti Nastavitve in jih omogočiti?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">V nastavitvah aplikacije lahko ta dovoljenja kadarkoli onemogočite.</item>
+        <item quantity="one">V nastavitvah aplikacije lahko to dovoljenje kadarkoli onemogočite.</item>
+        <item quantity="two">V nastavitvah aplikacije lahko ta dovoljenja kadarkoli onemogočite.</item>
+        <item quantity="few">V nastavitvah aplikacije lahko ta dovoljenja kadarkoli onemogočite.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">%1$d programom dovoli izvajanje po izklopu zaslona</item>
+        <item quantity="one">%1$d programu dovoli izvajanje po izklopu zaslona</item>
+        <item quantity="two">%1$d programoma dovoli izvajanje po izklopu zaslona</item>
+        <item quantity="few">%1$d programom dovoli izvajanje po izklopu zaslona</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">Izbrana pravila: %1$d</item>
+        <item quantity="one">Izbrana pravila: %1$d</item>
+        <item quantity="two">Izbrana pravila: %1$d</item>
+        <item quantity="few">Izbrana pravila: %1$d</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Zbriši %1$d izbranih datotek?</item>
+        <item quantity="one">Zbriši %1$d izbrano datoteko?</item>
+        <item quantity="two">Zbriši %1$d izbranih datotek?</item>
+        <item quantity="few">Zbriši %1$d izbrani datoteki?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Datotek ne bo mogoče obnoviti.</item>
+        <item quantity="one">Datoteke ne bo mogoče obnoviti.</item>
+        <item quantity="two">Datotek ne bo mogoče obnoviti.</item>
+        <item quantity="few">Datotek ne bo mogoče obnoviti.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Zbriši %1$d izbranih podatkov?</item>
+        <item quantity="one">Zbriši %1$d izbran podatek?</item>
+        <item quantity="two">Zbriši %1$d izbranih podatkov?</item>
+        <item quantity="few">Zbriši %1$d izbrana podatka?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Podatkov ne bo mogoče obnoviti.</item>
+        <item quantity="one">Podatka ne bo mogoče obnoviti.</item>
+        <item quantity="two">Podatkov ne bo mogoče obnoviti.</item>
+        <item quantity="few">Podatkov ne bo mogoče obnoviti.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Odstrani %1$d izbranih aplikacij?</item>
+        <item quantity="one">Odstrani %1$d izbrano aplikacijo?</item>
+        <item quantity="two">Odstrani %1$d izbranih aplikacij?</item>
+        <item quantity="few">Odstrani %1$d izbrani aplikaciji?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Obnovi %1$d izbranih aplikacij?</item>
+        <item quantity="one">Obnovi %1$d izbrano aplikacijo?</item>
+        <item quantity="two">Obnovi %1$d izbranih aplikacij?</item>
+        <item quantity="few">Obnovi %1$d izbrani aplikaciji?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Vsi podatki aplikacije bodo izbrisani. Aplikacije bodo obnovljene na prvotno stanje namestitve.</item>
+        <item quantity="one">Vsi podatki aplikacije bodo izbrisani. Ta aplikacija bo obnovljena na prvotno stanje namestitve.</item>
+        <item quantity="two">Vsi podatki aplikacije bodo izbrisani. Aplikacije bodo obnovljene na prvotno stanje namestitve.</item>
+        <item quantity="few">Vsi podatki aplikacije bodo izbrisani. Aplikaciji bosta obnovljeni na prvotno stanje namestitve.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d virusov</item>
+        <item quantity="one">%1$d virus</item>
+        <item quantity="two">%1$d virusa</item>
+        <item quantity="few">%1$d virusi</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d tveganj v programski opremi</item>
+        <item quantity="one">%1$d tveganje v programski opremi</item>
+        <item quantity="two">%1$d tveganji v programski opremi</item>
+        <item quantity="few">%1$d tveganja v programski opremi</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d neuradnih programskih oprem</item>
+        <item quantity="one">%1$d neuradna programska oprema</item>
+        <item quantity="two">%1$d neuradni programski opremi</item>
+        <item quantity="few">%1$d neuradne programske opreme</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do sporočil</item>
+        <item quantity="one">%d program ne sme dostopati do sporočil</item>
+        <item quantity="two">%d programa ne smeta dostopati do sporočil</item>
+        <item quantity="few">%d programi ne smejo dostopati do sporočil</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do dnevnika klicev</item>
+        <item quantity="one">%d program ne sme dostopati do dnevnika klicev</item>
+        <item quantity="two">%d programa ne smeta dostopati do dnevnika klicev</item>
+        <item quantity="few">%d programi ne smejo dostopati do dnevnika klicev</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do stikov</item>
+        <item quantity="one">%d program ne sme dostopati do stikov</item>
+        <item quantity="two">%d programa ne smeta dostopati do stikov</item>
+        <item quantity="few">%d programi ne smejo dostopati do stikov</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do koledarja</item>
+        <item quantity="one">%d program ne sme dostopati do koledarja</item>
+        <item quantity="two">%d programa ne smeta dostopati do koledarja</item>
+        <item quantity="few">%d programi ne smejo dostopati do koledarja</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do vaše lokacije</item>
+        <item quantity="one">%d program ne sme dostopati do vaše lokacije</item>
+        <item quantity="two">%d programa ne smeta dostopati do vaše lokacije</item>
+        <item quantity="few">%d programi ne smejo dostopati do vaše lokacije</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">%d programov ne sme dostopati do vašega ID-ja telefona</item>
+        <item quantity="one">%d program ne sme dostopati do vašega ID-ja telefona</item>
+        <item quantity="two">%d programa ne smeta dostopati do vašega ID-ja telefona</item>
+        <item quantity="few">%d programi ne smejo dostopati do vašega ID-ja telefona</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">%d programov ne sme snemati zvoka</item>
+        <item quantity="one">%d program ne sme snemati zvoka</item>
+        <item quantity="two">%d programa ne smeta snemati zvoka</item>
+        <item quantity="few">%d programi ne smejo snemati zvoka</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">%d programov ne sme klicati</item>
+        <item quantity="one">%d program ne sme klicati</item>
+        <item quantity="two">%d programa ne smeta klicati</item>
+        <item quantity="few">%d programi ne smejo klicati</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d apl.</item>
+        <item quantity="one">%d apl.</item>
+        <item quantity="two">%d aplik.</item>
+        <item quantity="few">%d aplik.</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d virusov</item>
+        <item quantity="one">%d virus</item>
+        <item quantity="two">%d virusa</item>
+        <item quantity="few">%d virusi</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Najdenih je bilo %d programov z oglasi; odstranite jih lahko ročno</item>
+        <item quantity="one">Najden je bil %d program z oglasi; odstranite ga lahko ročno</item>
+        <item quantity="two">Najdena sta bila %d programa z oglasi; odstranite ju lahko ročno</item>
+        <item quantity="few">Najdeni so bili %d programi z oglasi; odstranite jih lahko ročno</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Posodobitev pred %1$d urami</item>
+        <item quantity="one">Posodobitev pred %1$d uro</item>
+        <item quantity="two">Posodobitev pred %1$d urama</item>
+        <item quantity="few">Posodobitev pred %1$d urami</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Posodobitev pred %1$d dnevoma</item>
+        <item quantity="one">Posodobitev pred %1$d dnem</item>
+        <item quantity="two">Posodobitev pred %1$d dnevoma</item>
+        <item quantity="few">Posodobitev pred %1$d dnevi</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Posodobitev pred %1$d meseci</item>
+        <item quantity="one">Posodobitev pred %1$d mesecem</item>
+        <item quantity="two">Posodobitev pred %1$d mesecema</item>
+        <item quantity="few">Posodobitev pred %1$d meseci</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Odstrani izbrane stike: %d?</item>
+        <item quantity="one">Odstrani %d izbran stik?</item>
+        <item quantity="two">Odstrani %d izbranih stikov?</item>
+        <item quantity="few">Odstrani %d izbrana stika?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Zaprtih je %1$d aplikacij, s čimer se je sprostilo %2$s prostora. %3$s</item>
+        <item quantity="one">Zaprta je %1$d aplikacija, s čimer se je sprostilo %2$s prostora. %3$s</item>
+        <item quantity="two">Zaprte sta %1$d aplikaciji, s čimer se je sprostilo %2$s prostora. %3$s</item>
+        <item quantity="few">Zaprte so %1$d aplikacije, s čimer se je sprostilo %2$s prostora. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Neupor.: %1$d dni, velik.: %2$s</item>
+        <item quantity="one">Neupor.: %1$d dan, velik.: %2$s</item>
+        <item quantity="two">Neupor.: %1$d dni, velik.: %2$s</item>
+        <item quantity="few">Neupor.: %1$d dni, velik.: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Zapri %1$d programov za sprostitev %2$s pomnilnika</item>
+        <item quantity="one">Zapri %1$d program za sprostitev %2$s pomnilnika</item>
+        <item quantity="two">Zapri %1$d programa za sprostitev %2$s pomnilnika</item>
+        <item quantity="few">Zapri %1$d programe za sprostitev %2$s pomnilnika</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">»Zaprtih je bilo %1$d programov, sproščen pomnilnik: %2$s«</item>
+        <item quantity="one">»Zaprt je bil %1$d program, sproščen pomnilnik: %2$s«</item>
+        <item quantity="two">»Zaprta sta bila %1$d programa, sproščen pomnilnik: %2$s«</item>
+        <item quantity="few">»Zaprti so bili %1$d programi, sproščen pomnilnik: %2$s«</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">%d programov ne sme pošiljati sporočil MMS</item>
+        <item quantity="one">%d program ne sme pošiljati sporočil MMS</item>
+        <item quantity="two">%d programa ne smeta pošiljati sporočil MMS</item>
+        <item quantity="few">%d programi ne smejo pošiljati sporočil MMS</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">%d programov ne sme spreminjati vnosov dnevnika klicev</item>
+        <item quantity="one">%d program ne sme spreminjati vnosov dnevnika klicev</item>
+        <item quantity="two">%d programa ne smeta spreminjati vnosov dnevnika klicev</item>
+        <item quantity="few">%d programi ne smejo spreminjati vnosov dnevnika klicev</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">%d programov ne sme spreminjati stikov</item>
+        <item quantity="one">%d program ne sme spreminjati stikov</item>
+        <item quantity="two">%d programa ne smeta spreminjati stikov</item>
+        <item quantity="few">%d programi ne smejo spreminjati stikov</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">%d programov ne sme brisati vnosov dnevnika klicev</item>
+        <item quantity="one">%d program ne sme brisati vnosov dnevnika klicev</item>
+        <item quantity="two">%d programa ne smeta brisati vnosov dnevnika klicev</item>
+        <item quantity="few">%d programi ne smejo brisati vnosov dnevnika klicev</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">%d programov ne sme brisati stikov</item>
+        <item quantity="one">%d program ne sme brisati stikov</item>
+        <item quantity="two">%d programa ne smeta brisati stikov</item>
+        <item quantity="few">%d programi ne smejo brisati stikov</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">%d programov ne sme fotografirati ali snemati videoposnetkov</item>
+        <item quantity="one">%d program ne sme fotografirati ali snemati videoposnetkov</item>
+        <item quantity="two">%d programov ne sme fotografirati ali snemati videoposnetkov</item>
+        <item quantity="few">%d programov ne sme fotografirati ali snemati videoposnetkov</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">%d programov ne sme pošiljati sporočil SMS</item>
+        <item quantity="one">%d program ne sme pošiljati sporočil SMS</item>
+        <item quantity="two">%d programa ne smeta pošiljati sporočil SMS</item>
+        <item quantity="few">%d programi ne smejo pošiljati sporočil SMS</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Dovoljene %1$d aplik. za prikaz območja za odlaganje</item>
+        <item quantity="one">Dovoljena %1$d apl. za prikaz območja za odlaganje</item>
+        <item quantity="two">Dovoljene %1$d apl. za prikaz območja za odlaganje</item>
+        <item quantity="few">Dovoljene %1$d apl. za prikaz območja za odlaganje</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">dni</item>
+        <item quantity="one">dan</item>
+        <item quantity="two">dni</item>
+        <item quantity="few">dni</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d programov zaklenjenih</item>
+        <item quantity="one">%1$d program zaklenjen</item>
+        <item quantity="two">%1$d programa zaklenjena</item>
+        <item quantity="few">%1$d programov zaklenjenih</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">Izvaja se %1$d programov</item>
+        <item quantity="one">Izvaja se %1$d program</item>
+        <item quantity="two">Izvajata se %1$d programa</item>
+        <item quantity="few">Izvaja se %1$d programov</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Želite odstraniti izbrane apl.?</item>
+        <item quantity="one">Želite odstraniti izbrane apl.?</item>
+        <item quantity="two">Želite odstraniti izbrane apl.?</item>
+        <item quantity="few">Želite odstraniti izbrane apl.?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d elementi</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="two">%1$d elementa</item>
+        <item quantity="few">%1$d elementov</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d dovoljenj</item>
+        <item quantity="one">%1$d dovoljenje</item>
+        <item quantity="two">%1$d dovoljenji</item>
+        <item quantity="few">%1$d dovoljenja</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Izbrišem naslednje  datoteke? Tega ne morete obnoviti.</item>
+        <item quantity="one">Izbrišem naslednjo datoteko? Tega ne morete obnoviti.</item>
+        <item quantity="two">Izbrišem naslednji dve datoteki? Tega ne morete obnoviti.</item>
+        <item quantity="few">Izbrišem naslednji dve datoteki? Tega ne morete obnoviti.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Ali želite izbrisati naslednje datoteke? Ne bo jih mogoče obnoviti.</item>
+        <item quantity="one">Ali želite izbrisati naslednjo datoteko? Ne bo je mogoče obnoviti.</item>
+        <item quantity="two">Ali želite izbrisati naslednje datoteke? Ne bo jih mogoče obnoviti.</item>
+        <item quantity="few">Ali želite izbrisati naslednji datoteki? Ne bo ju mogoče obnoviti.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Sistem bo trajno izbrisal vse podatke iz izbranih programov. Programi bodo obnovljeni na stanje ob prvi namestitvi.</item>
+        <item quantity="one">Sistem bo trajno izbrisal vse podatke iz izbranega programa. Program bo obnovljen na stanje ob prvi namestitvi.</item>
+        <item quantity="two">Sistem bo trajno izbrisal vse podatke iz izbranih programov. Programi bodo obnovljeni na stanje ob prvi namestitvi.</item>
+        <item quantity="few">Sistem bo trajno izbrisal vse podatke iz izbranih programov. Programa bosta obnovljena na stanje ob prvi namestitvi.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Podaljšan čas uporabe za %1$d minut.</item>
+        <item quantity="one">Podaljšan čas uporabe za %1$d minuto.</item>
+        <item quantity="two">Podaljšan čas uporabe za %1$d minuti.</item>
+        <item quantity="few">Podaljšan čas uporabe za %1$d minut.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Zaprtih %1$d programi, sprostilo se je %2$s prostora.</item>
+        <item quantity="one">Zaprt %1$d program, sprostilo se je %2$s prostora.</item>
+        <item quantity="two">Zaprta %1$d programa, sprostilo se je %2$s prostora.</item>
+        <item quantity="few">Zaprtih %1$d programov, sprostilo se je %2$s prostora.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="two">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="two">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">Še %1$s min</item>
+        <item quantity="one">Še %1$s min</item>
+        <item quantity="two">Še %1$s min</item>
+        <item quantity="few">Še %1$s min</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s min do polne</item>
+        <item quantity="one">%1$s min do polne</item>
+        <item quantity="two">%1$s min do polne</item>
+        <item quantity="few">%1$s min do polne</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Podaljšanje za %1$d min</item>
+        <item quantity="one">Podaljšanje za %1$d min</item>
+        <item quantity="two">Podaljšanje za %1$d min</item>
+        <item quantity="few">Podaljšanje za %1$d min</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Podaljšano za %1$s min</item>
+        <item quantity="one">Podaljšano za %1$s min</item>
+        <item quantity="two">Podaljšano za %1$s min</item>
+        <item quantity="few">Podaljšano za %1$s min</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+        <item quantity="two">%1$ds</item>
+        <item quantity="few">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d-krat (predlagano)</item>
+        <item quantity="one">%d-krat (predlag.)</item>
+        <item quantity="two">%d-krat (predlagano)</item>
+        <item quantity="few">%d-krat (predlagano)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d-krat</item>
+        <item quantity="one">%d-krat</item>
+        <item quantity="two">%d-krat</item>
+        <item quantity="few">%d-krat</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">Označilo %d oseb</item>
+        <item quantity="one">Označila %d oseba</item>
+        <item quantity="two">Označili %d osebi</item>
+        <item quantity="few">Označile %d osebe</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">Na voljo je %1$d programov</item>
+        <item quantity="one">Na voljo je %1$d program</item>
+        <item quantity="two">Na voljo je %1$d programov</item>
+        <item quantity="few">Na voljo je %1$d programov</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d se lahko optimizira</item>
+        <item quantity="one">%1$d se lahko optimizira</item>
+        <item quantity="two">%1$d se lahko optimizira</item>
+        <item quantity="few">%1$d se lahko optimizira</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">Zaprto je %1$d aplikacij zaradi velike porabe energije, dotaknite se za podrobnosti</item>
+        <item quantity="one">%1$d program je bil zaprt zaradi prekomerne porabe energije; dotaknite se za prikaz podrobnosti</item>
+        <item quantity="two">Zaprto je %1$d aplikacij zaradi velike porabe energije, dotaknite se za podrobnosti</item>
+        <item quantity="few">Zaprte so %1$d aplikacije zaradi velike porabe energije, dotaknite se za podrobnosti</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d fotografij</item>
+        <item quantity="one">%1$d fotografija</item>
+        <item quantity="two">%1$d fotografiji</item>
+        <item quantity="few">%1$d fotografije</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Posodobitev pred %d dnevi</item>
+        <item quantity="one">Posodobitev pred %d dnem</item>
+        <item quantity="two">Posodobitev pred %d dnevoma</item>
+        <item quantity="few">Posodobitev pred %d dnevi</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">Število dni brez čiščenja: %d; dotaknite se za čiščenje</item>
+        <item quantity="one">%d dan brez čiščenja; dotaknite se za čiščenje</item>
+        <item quantity="two">Število dni brez čiščenja: %d; dotaknite se za čiščenje</item>
+        <item quantity="few">Število dni brez čiščenja: %d; dotaknite se za čiščenje</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">%d programov ne sme ustvarjati bližnjic na začetnem zaslonu.</item>
+        <item quantity="one">%d program ne sme ustvarjati bližnjic na začetnem zaslonu.</item>
+        <item quantity="two">%d programa ne smeta ustvarjati bližnjic na začetnem zaslonu.</item>
+        <item quantity="few">%d programi ne smejo ustvarjati bližnjic na začetnem zaslonu.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">Pri čiščenju bo preskočenih %1$d programov.</item>
+        <item quantity="one">Pri čiščenju bo preskočen %1$d program.</item>
+        <item quantity="two">Pri čiščenju bosta preskočena %1$d programa.</item>
+        <item quantity="few">Pri čiščenju bodo preskočeni %1$d programi.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">%d programom je bil omejen dostop do seznama nameščenih programov.</item>
+        <item quantity="one">%d programu je bil omejen dostop do seznama nameščenih programov.</item>
+        <item quantity="two">%d programoma je bil omejen dostop do seznama nameščenih programov.</item>
+        <item quantity="few">%d programom je bil omejen dostop do seznama nameščenih programov.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">Počiščenih je bilo %d programov.</item>
+        <item quantity="one">Počiščen je bil %d program.</item>
+        <item quantity="two">Počiščena sta bila %d programa.</item>
+        <item quantity="few">Počiščeni so bili %d programi.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d programom je preprečen dostop do vaših fitnes podatkov (za omogočanje štetja korakov in tresenja).</item>
+        <item quantity="one">%d programu je preprečen dostop do vaših fitnes podatkov (za omogočanje štetja korakov in tresenja).</item>
+        <item quantity="two">%d programoma je preprečen dostop do vaših fitnes podatkov (za omogočanje štetja korakov in tresenja).</item>
+        <item quantity="few">%d programom je preprečen dostop do vaših fitnes podatkov (za omogočanje štetja korakov in tresenja).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d programom je bil omejen dostop do podatkov o zdravju.</item>
+        <item quantity="one">%d programu je bil omejen dostop do podatkov o zdravju.</item>
+        <item quantity="two">%d programoma je bil omejen dostop do podatkov o zdravju.</item>
+        <item quantity="few">%d programom je bil omejen dostop do podatkov o zdravju.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d elementov morate ročno optimirati</item>
+        <item quantity="one">%1$d element morate ročno optimirati</item>
+        <item quantity="two">%1$d elementa morate ročno optimirati</item>
+        <item quantity="few">%1$d elemente morate ročno optimirati</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d popravkov za namestitev</item>
+        <item quantity="one">%1$d popravek za namestitev</item>
+        <item quantity="two">%1$d popravka za namestitev</item>
+        <item quantity="few">%1$d popravki za namestitev</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d programov vsebuje oglase</item>
+        <item quantity="one">%1$d program vsebuje oglase</item>
+        <item quantity="two">%1$d programa vsebujeta oglase</item>
+        <item quantity="few">%1$d programi vsebujejo oglase</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d programom je dovoljeno, da se zaženejo samodejno.</item>
+        <item quantity="one">%d programu je dovoljeno, da se zažene samodejno.</item>
+        <item quantity="two">%d programoma je dovoljeno, da se zaženeta samodejno.</item>
+        <item quantity="few">%d programom je dovoljeno, da se zaženejo samodejno.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d programov lahko zaženejo drugi programi. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Priporočamo, da tega dejanja ne omogočite.</item>
+        <item quantity="one">%d program lahko zaženejo drugi programi. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Priporočamo, da tega dejanja ne omogočite.</item>
+        <item quantity="two">%d programa lahko zaženejo drugi programi. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Priporočamo, da tega dejanja ne omogočite.</item>
+        <item quantity="few">%d programe lahko zaženejo drugi programi. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Priporočamo, da tega dejanja ne omogočite.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">Število programov, ki jih lahko zaženejo drugi programi: %1$d. Zaradi tega lahko vaš %2$s deluje počasneje in porabi več energije. Priporoča se omejitev tega delovanja.</item>
+        <item quantity="one">Število programov, ki jih lahko zaženejo drugi programi: %1$d. Zaradi tega lahko vaš %2$s deluje počasneje in porabi več energije. Priporoča se omejitev tega delovanja.</item>
+        <item quantity="two">Število programov, ki jih lahko zaženejo drugi programi: %1$d. Zaradi tega lahko vaš %2$s deluje počasneje in porabi več energije. Priporoča se omejitev tega delovanja.</item>
+        <item quantity="few">Število programov, ki jih lahko zaženejo drugi programi: %1$d. Zaradi tega lahko vaš %2$s deluje počasneje in porabi več energije. Priporoča se omejitev tega delovanja.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Program se lahko samodejno zažene v naslednjih %d scenarijih. Omogočim?</item>
+        <item quantity="one">Program se lahko samodejno zažene v naslednjem %d scenariju. Omogočim?</item>
+        <item quantity="two">Program se lahko samodejno zažene v naslednjih %d scenarijih. Omogočim?</item>
+        <item quantity="few">Program se lahko samodejno zažene v naslednjih %d scenarijih. Omogočim?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Program se lahko samodejno zažene v naslednjih %d scenarijih. Prepovem?</item>
+        <item quantity="one">Program se lahko samodejno zažene v naslednjem %d scenariju. Prepovem?</item>
+        <item quantity="two">Program se lahko samodejno zažene v naslednjih %d scenarijih. Prepovem?</item>
+        <item quantity="few">Program se lahko samodejno zažene v naslednjih %d scenarijih. Prepovem?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Program in njegov dvojnik se samodejno zaženeta v naslednjih %d situacijah. Omejim?</item>
+        <item quantity="one">Program in njegov dvojnik se samodejno zaženeta v naslednji %d situaciji. Omejim?</item>
+        <item quantity="two">Program in njegov dvojnik se samodejno zaženeta v naslednjih %d situacijah. Omejim?</item>
+        <item quantity="few">Program in njegov dvojnik se samodejno zaženeta v naslednjih %d situacijah. Omejim?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s lahko zažene %2$d programov. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="one">%1$s lahko zažene %2$d program. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="two">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="few">%1$s lahko zaženejo %2$d programi. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Omogočim?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="one">%1$s lahko zažene %2$d program. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="two">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="few">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon morda upočasnil in porabljal več energije. Prepovem?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s lahko zaženejo %2$d programi. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="one">%1$s lahko zažene %2$d program. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="two">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Omogočim?</item>
+        <item quantity="few">%1$s lahko zažene %2$d programov. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Omogočim?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s lahko zažene %2$d programov. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="one">%1$s lahko zažene %2$d program. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="two">%1$s lahko zaženeta %2$d programa. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Prepovem?</item>
+        <item quantity="few">%1$s lahko zaženejo %2$d programi. Zaradi tega se bo vaš telefon upočasnil in porabljal več energije. Prepovem?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="one">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="two">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="few">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="one">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="two">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="few">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="one">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="two">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="few">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Želite omogočiti?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="one">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="two">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+        <item quantity="few">Število programov, ki lahko zaženejo %1$s: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Omeji?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="one">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="two">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="few">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="one">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="two">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="few">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="one">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="two">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="few">Zagnano: %1$d-krat | Nazadnje: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="one">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="two">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+        <item quantity="few">Omejeno: %1$d-krat | Nazadnje: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">Najdenih %d programov s samodejnim zagonom</item>
+        <item quantity="one">Najden %d program s samodejnim zagonom</item>
+        <item quantity="two">Najdena %d programa s samodejnim zagonom</item>
+        <item quantity="few">Najdeni %d programi s samodejnim zagonom</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">skupno %1$s datotek</item>
+        <item quantity="one">skupno %1$s datoteka</item>
+        <item quantity="two">skupno %1$s datoteki</item>
+        <item quantity="few">skupno %1$s datotek</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d dnevi brez pregleda, dotik za zagon polnega pregleda</item>
+        <item quantity="one">%d dan brez pregleda, dotik za zagon polnega pregleda</item>
+        <item quantity="two">%d dneva brez pregleda, dotik za zagon polnega pregleda</item>
+        <item quantity="few">%d dni brez pregleda, dotik za zagon polnega pregleda</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d programi vsebujejo občutljiva dovoljenja</item>
+        <item quantity="one">%1$d program vsebuje občutljiva dovoljenja</item>
+        <item quantity="two">%1$d programa vsebujeta občutljiva dovoljenja</item>
+        <item quantity="few">%1$d programov vsebuje občutljiva dovoljenja</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Prstnega odtisa ni mogoče prepoznati. Na voljo imate še naslednje št. poskusov: %1$d</item>
+        <item quantity="one">Prstnega odtisa ni mogoče prepoznati. Na voljo imate še %1$d poskus</item>
+        <item quantity="two">Prstnega odtisa ni mogoče prepoznati. Na voljo imate še naslednje št. poskusov: %1$d</item>
+        <item quantity="few">Prstnega odtisa ni mogoče prepoznati. Na voljo imate še naslednje št. poskusov: %1$d</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Prstni odtis prekinjen. Poskusite znova čez naslednje št. sekund: %1$d</item>
+        <item quantity="one">Prstni odtis prekinjen. Poskusite znova čez %1$d sekundo</item>
+        <item quantity="two">Prstni odtis prekinjen. Poskusite znova čez naslednje št. sekund: %1$d</item>
+        <item quantity="few">Prstni odtis prekinjen. Poskusite znova čez naslednje št. sekund: %1$d</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Nepravilen odgovor. Na voljo imate še %1$d poskusov.</item>
+        <item quantity="one">Nepravilen odgovor. Na voljo imate še %1$d poskus.</item>
+        <item quantity="two">Nepravilen odgovor. Na voljo imate še %1$d poskusov.</item>
+        <item quantity="few">Nepravilen odgovor. Na voljo imate še %1$d poskusa.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Poskusite znova čez %1$d ur.</item>
+        <item quantity="one">Poskusite znova čez %1$d uro.</item>
+        <item quantity="two">Poskusite znova čez %1$d uri.</item>
+        <item quantity="few">Poskusite znova čez %1$d ure.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Poskusite znova čez %1$d min.</item>
+        <item quantity="one">Poskusite znova čez %1$d min.</item>
+        <item quantity="two">Poskusite znova čez %1$d min.</item>
+        <item quantity="few">Poskusite znova čez %1$d min.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Poskusite znova čez %1$d sekund.</item>
+        <item quantity="one">Poskusite znova čez %1$d sekundo.</item>
+        <item quantity="two">Poskusite znova čez %1$d sekundi.</item>
+        <item quantity="few">Poskusite znova čez %1$d sekunde.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">Zgornji %1$d programi po porabi baterije</item>
+        <item quantity="one">Zgornji %1$d program po porabi baterije</item>
+        <item quantity="two">Zgornja %1$d programa po porabi baterije</item>
+        <item quantity="few">Zgornjih %1$d programov po porabi baterije</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d</item>
+        <item quantity="two">%1$d d</item>
+        <item quantity="few">%1$d d</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Vsi izbrani podatki za programe in njihove dvojnike bodo izbrisani. Programi bodo obnovljeni na svoje prvotno stanje namestitve.</item>
+        <item quantity="one">Vsi izbrani podatki za program in njegov dvojnik bodo izbrisani. Program bo obnovljen na svoje prvotno stanje namestitve.</item>
+        <item quantity="two">Vsi izbrani podatki za programe in njihove dvojnike bodo izbrisani. Programi bodo obnovljeni na svoje prvotno stanje namestitve.</item>
+        <item quantity="few">Vsi izbrani podatki za programe in njihove dvojnike bodo izbrisani. Programi bodo obnovljeni na svoje prvotno stanje namestitve.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Program in njegov dvojnik se lahko samodejno zaženeta v naslednjem številu situacij: %1$d. Želite omogočiti?</item>
+        <item quantity="one">Program in njegov dvojnik se lahko samodejno zaženeta v naslednjem številu situacij: %1$d. Želite omogočiti?</item>
+        <item quantity="two">Program in njegov dvojnik se lahko samodejno zaženeta v naslednjem številu situacij: %1$d. Želite omogočiti?</item>
+        <item quantity="few">Program in njegov dvojnik se lahko samodejno zaženeta v naslednjem številu situacij: %1$d. Želite omogočiti?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš telefon deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="one">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš telefon deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="two">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš telefon deluje počasneje in porabi več energije. Želite omogočiti?</item>
+        <item quantity="few">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš telefon deluje počasneje in porabi več energije. Želite omogočiti?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Dovoli?</item>
+        <item quantity="one">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Dovoli?</item>
+        <item quantity="two">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Dovoli?</item>
+        <item quantity="few">%1$s in njegovega dvojnika lahko zaženete z naslednjim številom programov: %2$d. Zaradi tega lahko vaš %3$s deluje počasneje in porabi več energije. Dovoli?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">Po zaklenitvi zaslona ne bo zaprtih %1$d programov</item>
+        <item quantity="one">Po zaklenitvi zaslona ne bo zaprt %1$d program</item>
+        <item quantity="two">Po zaklenitvi zaslona ne bosta zaprta %1$d programa</item>
+        <item quantity="few">Po zaklenitvi zaslona ne bodo zaprti %1$d programi</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">Po zaklenitvi zaslona bo zaprtih %1$d programov</item>
+        <item quantity="one">Po zaklenitvi zaslona bo zaprt %1$d program</item>
+        <item quantity="two">Po zaklenitvi zaslona bosta zaprta %1$d programa</item>
+        <item quantity="few">Po zaklenitvi zaslona bodo zaprti %1$d programi</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">Št. progr. brez dovoljenja za dostop do koledarja: %d.</item>
+        <item quantity="one">Št. progr. brez dovoljenja za dostop do koledarja: %d.</item>
+        <item quantity="two">Št. progr. brez dovoljenja za dostop do koledarja: %d.</item>
+        <item quantity="few">Št. progr. brez dovoljenja za dostop do koledarja: %d.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">Št. progr. brez dovoljenja za spreminjanje koledarja: %d.</item>
+        <item quantity="one">Št. progr. brez dovoljenja za spreminjanje koledarja: %d.</item>
+        <item quantity="two">Št. progr. brez dovoljenja za spreminjanje koledarja: %d.</item>
+        <item quantity="few">Št. progr. brez dovoljenja za spreminjanje koledarja: %d.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">Št. progr. brez dovoljenja za brisanje koledar. dogodkov: %d.</item>
+        <item quantity="one">Št. progr. brez dovoljenja za brisanje koledar. dogodkov: %d.</item>
+        <item quantity="two">Št. progr. brez dovoljenja za brisanje koledar. dogodkov: %d.</item>
+        <item quantity="few">Št. progr. brez dovoljenja za brisanje koledar. dogodkov: %d.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">Št. programov brez dovoljenja za dostop do zgod. brskanja: %d.</item>
+        <item quantity="one">Št. programov brez dovoljenja za dostop do zgod. brskanja: %d.</item>
+        <item quantity="two">Št. programov brez dovoljenja za dostop do zgod. brskanja: %d.</item>
+        <item quantity="few">Št. programov brez dovoljenja za dostop do zgod. brskanja: %d.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">Št. programov brez dovoljenja za dostop do preusm. klicev: %d.</item>
+        <item quantity="one">Št. programov brez dovoljenja za dostop do preusm. klicev: %d.</item>
+        <item quantity="two">Št. programov brez dovoljenja za dostop do preusm. klicev: %d.</item>
+        <item quantity="few">Št. programov brez dovoljenja za dostop do preusm. klicev: %d.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Blokirani oglasi v %1$d programih</item>
+        <item quantity="one">Blokirani oglasi v %1$d programu</item>
+        <item quantity="two">Blokirani oglasi v %1$d programih</item>
+        <item quantity="few">Blokirani oglasi v %1$d programih</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">Število elementov za ročno optimizacijo: %1$d</item>
+        <item quantity="one">Št. elementov za ročno optimizacijo: %1$d</item>
+        <item quantity="two">Št. elementov za ročno optimizacijo: %1$d</item>
+        <item quantity="few">Št. elementov za ročno optimizacijo: %1$d</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Št. zaprtih programov v ozadju, ki uporabljajo energijo: %1$d</item>
+        <item quantity="one">Št. zaprtih programov v ozadju, ki uporabljajo energijo: %1$d</item>
+        <item quantity="two">Št. zaprtih programov v ozadju, ki uporabljajo energijo: %1$d</item>
+        <item quantity="few">Št. zaprtih programov v ozadju, ki uporabljajo energijo: %1$d</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">Št. postavk: %1$d</item>
+        <item quantity="one">Št. postavk: %1$d</item>
+        <item quantity="two">Št. postavk: %1$d</item>
+        <item quantity="few">Št. postavk: %1$d</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">Št. postavk: %1$d</item>
+        <item quantity="one">Št. postavk: %1$d</item>
+        <item quantity="two">Št. postavk: %1$d</item>
+        <item quantity="few">Št. postavk: %1$d</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d programi delujejo pri zaklenjenem zaslonu. Zaprite, da prihranite moč baterije</item>
+        <item quantity="one">%1$d program deluje pri zaklenjenem zaslonu. Zaprite, da prihranite moč baterije</item>
+        <item quantity="two">%1$d programa delujeta pri zaklenjenem zaslonu. Zaprite, da prihranite moč baterije</item>
+        <item quantity="few">%1$d programov deluje pri zaklenjenem zaslonu. Zaprite, da prihranite moč baterije</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">Blokiranih %1$s prenosov tveganega programa</item>
+        <item quantity="one">Blokiran %1$s prenos tveganega programa</item>
+        <item quantity="two">Blokirana %1$s prenosa tveganega programa</item>
+        <item quantity="few">Blokirani %1$s prenosi tveganega programa</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">Najd. je %1$d pr., ki niso vnaprej nast.; odstr. jih</item>
+        <item quantity="one">Najd. je %1$d pr., ki ni vnaprej nast.; odstr. ga</item>
+        <item quantity="two">Najd. sta %1$d pr., ki nista vnaprej nast.; odstr. ju</item>
+        <item quantity="few">Najd. so %1$d pr., ki niso vnaprej nast.; odstr. jih</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Najdeno je %2$s aplikacij, ki niso vnaprej nameščene (npr. %1$s). Odstranite je.</item>
+        <item quantity="one">Najdena je %2$s aplikacija, ki ni vnaprej nameščena (npr. %1$s). Odstranite je.</item>
+        <item quantity="two">Najdeno je %2$s aplikacij, ki niso vnaprej nameščene (npr. %1$s). Odstranite je.</item>
+        <item quantity="few">Najdene so %2$s aplikacije, ki niso vnaprej nameščene (npr. %1$s). Odstranite je.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d programov je bilo uspešno zaprtih.</item>
+        <item quantity="one">%d program je bil uspešno zaprt.</item>
+        <item quantity="two">%d programa sta bila uspešno zaprta.</item>
+        <item quantity="few">%d programi so bili uspešno zaprti.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/battery_history_des_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/battery_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="270dp" android:text="@string/power_battery_history_from_fullpower_des" android:singleLine="true" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/battery_history_detail_imgview" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_more_details" android:contentDescription="@string/title_details" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/battery_history_used_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_battery_history_battery_used_text" android:singleLine="true" />
+                    <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/battery_history_powerinfo_des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="2dp" />
+                </LinearLayout>
+                <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/battery_history_estimated_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

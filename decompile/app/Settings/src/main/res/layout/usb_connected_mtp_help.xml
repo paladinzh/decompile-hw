@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/usb_connected_mtp_help" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/mtp_help_picture" android:paddingTop="25.0dip" android:paddingBottom="34.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mtp" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_mtp_descp1" android:layout_width="fill_parent" android:text="@string/usb_connected_help_mtp_descp1" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_mtp_descp2" android:layout_width="fill_parent" android:layout_marginTop="12.0dip" android:text="@string/usb_connected_help_mtp_descp2" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_mtp_descp3" android:layout_width="fill_parent" android:layout_marginTop="68.0dip" android:text="@string/usb_connected_help_mtp_descp3" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        <LinearLayout android:orientation="vertical" android:id="@id/usb_connected_help_mtp_os_type" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <LinearLayout android:id="@id/os_type_windows" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/list_text_color_emui_mtp" android:id="@id/os_type_windows_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/usb_connected_help_mtp_windows" android:layout_weight="1.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+                <include layout="@layout/preference_widget_arrow" />
+            </LinearLayout>
+            <View android:background="@android:color/black" android:layout_width="wrap_content" android:layout_height="1.0px" android:alpha="0.15" />
+            <LinearLayout android:id="@id/os_type_mac" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/list_text_color_emui_mtp" android:id="@id/os_type_mac_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/usb_connected_help_mtp_mac" android:layout_weight="1.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+                <include layout="@layout/preference_widget_arrow" />
+            </LinearLayout>
+            <View android:background="@android:color/black" android:layout_width="wrap_content" android:layout_height="1.0px" android:alpha="0.15" />
+            <LinearLayout android:id="@id/os_type_linux" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/list_text_color_emui_mtp" android:id="@id/os_type_linux_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/usb_connected_help_mtp_linux" android:layout_weight="1.0" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+                <include layout="@layout/preference_widget_arrow" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

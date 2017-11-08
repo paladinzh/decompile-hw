@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.widget.DateTimeView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@r$id/keyguard_status_view_face_palm" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="5dp" android:contentDescription="@string/keyguard_accessibility_status">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/keyguard_clock_view" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp">
+        <com.huawei.keyguard.view.widget.ClockView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/hw_clock_view" android:paddingTop="-5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-2dp" android:layout_marginStart="1dp">
+            <FrameLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/clock_parent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="@dimen/kg_status_clock_font_size" android:ellipsize="none" android:id="@r$id/clock_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/clock_text_style" />
+            </FrameLayout>
+        </com.huawei.keyguard.view.widget.ClockView>
+        <ViewStub android:id="@r$id/dual_clock_view" android:layout="@layout/lockscreen_dualclock_view" android:inflatedId="@r$id/dual_clock_view" android:layout_width="UNKNOWN_DATA_0x15901" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginStart="0dp" />
+    </LinearLayout>
+    <include android:id="@id/keyguard_date_view" android:paddingBottom="5dp" android:layout_marginTop="-8dp" android:layout_marginStart="3dp" layout="@layout/keyguard_status_area" />
+</com.huawei.keyguard.widget.DateTimeView>

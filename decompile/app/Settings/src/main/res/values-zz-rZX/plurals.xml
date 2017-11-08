@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bluetooth_is_discoverable_toast_Toast">
+        <item quantity="other">[PL_237186]_Bluetooth visibility on. Will be discoverable for %1$d seconds.</item>
+        <item quantity="zero">[PL_237174]_Bluetooth visibility on. Will be discoverable for %1$d seconds.</item>
+        <item quantity="one">[PL_237183]_Bluetooth visibility on. Will be discoverable for %1$d second.</item>
+        <item quantity="two">[PL_237188]_Bluetooth visibility on. Will be discoverable for %1$d seconds.</item>
+        <item quantity="few">[PL_237184]_Bluetooth visibility on. Will be discoverable for %1$d seconds.</item>
+        <item quantity="many">[PL_237176]_Bluetooth visibility on. Will be discoverable for %1$d seconds.</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">[PL_26919]_You are now %1$d steps away from being a developer.</item>
+        <item quantity="zero">[PL_36657]_You are now %1$d steps away from being a developer.</item>
+        <item quantity="one">[PL_26918]_You are now %1$d step away from being a developer.</item>
+        <item quantity="two">[PL_36659]_You are now %1$d steps away from being a developer.</item>
+        <item quantity="few">[PL_36665]_You are now %1$d steps away from being a developer.</item>
+        <item quantity="many">[PL_36666]_You are now %1$d steps away from being a developer.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">[PL_282534]_Remove selected languages?</item>
+        <item quantity="zero">[PL_282147]_Remove selected languages?</item>
+        <item quantity="one">[PL_282214]_Remove selected language?</item>
+        <item quantity="two">[PL_282630]_Remove selected languages?</item>
+        <item quantity="few">[PL_282490]_Remove selected languages?</item>
+        <item quantity="many">[PL_282230]_Remove selected languages?</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">[PD_251475]_%1$d fingerprints set up</item>
+        <item quantity="zero">[PD_251632]_%1$d fingerprints set up</item>
+        <item quantity="one">[PD_251789]_%1$d fingerprint set up</item>
+        <item quantity="two">[PD_251391]_%1$d fingerprints set up</item>
+        <item quantity="few">[PD_251334]_%1$d fingerprints set up</item>
+        <item quantity="many">[PD_251318]_%1$d fingerprints set up</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">[PD_73400]_Password must contain at least %d letters.</item>
+        <item quantity="zero">[PL_36648]_Password must contain at least %d letters</item>
+        <item quantity="one">[PD_73399]_Password must contain at least 1 letter.</item>
+        <item quantity="two">[PL_36655]_Password must contain at least %d letters</item>
+        <item quantity="few">[PL_36662]_Password must contain at least %d letters</item>
+        <item quantity="many">[PL_36652]_Password must contain at least %d letters</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">[PD_297478]_Password must contain at least %d lowercase letters.</item>
+        <item quantity="zero">[PL_36671]_Password must contain at least %d lowercase letters</item>
+        <item quantity="one">[PD_73401]_Password must contain at least 1 lowercase letter.</item>
+        <item quantity="two">[PL_36664]_Password must contain at least %d lowercase letters</item>
+        <item quantity="few">[PL_36673]_Password must contain at least %d lowercase letters</item>
+        <item quantity="many">[PL_36651]_Password must contain at least %d lowercase letters</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">[PD_297479]_Password must contain at least %d uppercase letters.</item>
+        <item quantity="zero">[PL_36647]_Password must contain at least %d uppercase letters</item>
+        <item quantity="one">[PD_73403]_Password must contain at least 1 uppercase letter.</item>
+        <item quantity="two">[PL_36669]_Password must contain at least %d uppercase letters</item>
+        <item quantity="few">[PL_36649]_Password must contain at least %d uppercase letters</item>
+        <item quantity="many">[PL_36663]_Password must contain at least %d uppercase letters</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">[PD_297480]_Password must contain at least %d numerical digits.</item>
+        <item quantity="zero">[PL_36654]_Password must contain at least %d numerical digits</item>
+        <item quantity="one">[PD_73405]_Password must contain at least 1 numerical digit.</item>
+        <item quantity="two">[PL_36646]_Password must contain at least %d numerical digits</item>
+        <item quantity="few">[PL_36650]_Password must contain at least %d numerical digits</item>
+        <item quantity="many">[PL_36656]_Password must contain at least %d numerical digits</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">[PD_73409]_Password must contain at least %d special symbols.</item>
+        <item quantity="zero">[PL_36667]_Password must contain at least %d special symbols</item>
+        <item quantity="one">[PD_73408]_Password must contain at least 1 special symbol.</item>
+        <item quantity="two">[PL_36658]_Password must contain at least %d special symbols</item>
+        <item quantity="few">[PL_36672]_Password must contain at least %d special symbols</item>
+        <item quantity="many">[PL_36653]_Password must contain at least %d special symbols</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">[PD_297481]_Password must contain at least %d non-letter characters.</item>
+        <item quantity="zero">[PL_36661]_Password must contain at least %d non-letter characters</item>
+        <item quantity="one">[PD_73410]_Password must contain at least 1 non-letter character.</item>
+        <item quantity="two">[PL_36660]_Password must contain at least %d non-letter characters</item>
+        <item quantity="few">[PL_36670]_Password must contain at least %d non-letter characters</item>
+        <item quantity="many">[PL_36668]_Password must contain at least %d non-letter characters</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">[PL_282171]_%d items</item>
+        <item quantity="zero">[PL_282444]_%d items</item>
+        <item quantity="one">[PL_282506]_%d item</item>
+        <item quantity="two">[PL_282645]_%d items</item>
+        <item quantity="few">[PL_282387]_%d items</item>
+        <item quantity="many">[PL_282215]_%d items</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">[PL_282521]_Extremely short delay (%1$d ms)</item>
+        <item quantity="zero">[PL_282349]_Extremely short delay (%1$d ms)</item>
+        <item quantity="one">[PL_282503]_Extremely short delay (%1$d ms)</item>
+        <item quantity="two">[PL_282322]_Extremely short delay (%1$d ms)</item>
+        <item quantity="few">[PL_282692]_Extremely short delay (%1$d ms)</item>
+        <item quantity="many">[PL_282412]_Extremely short delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">[PL_282460]_Very short delay (%1$d ms)</item>
+        <item quantity="zero">[PL_282307]_Very short delay (%1$d ms)</item>
+        <item quantity="one">[PL_282443]_Very short delay (%1$d ms)</item>
+        <item quantity="two">[PL_282366]_Very short delay (%1$d ms)</item>
+        <item quantity="few">[PL_282619]_Very short delay (%1$d ms)</item>
+        <item quantity="many">[PL_282435]_Very short delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">[PL_282509]_Short delay (%1$d ms)</item>
+        <item quantity="zero">[PL_282167]_Short delay (%1$d ms)</item>
+        <item quantity="one">[PL_282474]_Short delay (%1$d ms)</item>
+        <item quantity="two">[PL_282170]_Short delay (%1$d ms)</item>
+        <item quantity="few">[PL_282347]_Short delay (%1$d ms)</item>
+        <item quantity="many">[PL_282600]_Short delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">[PL_282640]_Long delay (%1$d ms)</item>
+        <item quantity="zero">[PL_282635]_Long delay (%1$d ms)</item>
+        <item quantity="one">[PL_282223]_Long delay (%1$d ms)</item>
+        <item quantity="two">[PL_282350]_Long delay (%1$d ms)</item>
+        <item quantity="few">[PL_282537]_Long delay (%1$d ms)</item>
+        <item quantity="many">[PL_282525]_Long delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">[PL_282660]_Very long delay (%1$d ms)</item>
+        <item quantity="zero">[PL_282291]_Very long delay (%1$d ms)</item>
+        <item quantity="one">[PL_282351]_Very long delay (%1$d ms)</item>
+        <item quantity="two">[PL_282213]_Very long delay (%1$d ms)</item>
+        <item quantity="few">[PL_282269]_Very long delay (%1$d ms)</item>
+        <item quantity="many">[PL_282345]_Very long delay (%1$d ms)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">[PL_282338]_%d print jobs</item>
+        <item quantity="zero">[PL_282410]_%d print jobs</item>
+        <item quantity="one">[PL_282465]_%d print job</item>
+        <item quantity="two">[PL_282610]_%d print jobs</item>
+        <item quantity="few">[PL_282380]_%d print jobs</item>
+        <item quantity="many">[PL_282488]_%d print jobs</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">[PL_284059]_Trust or remove certificates</item>
+        <item quantity="zero">[PL_284105]_Trust or remove certificates</item>
+        <item quantity="one">[PL_284087]_Trust or remove certificate</item>
+        <item quantity="two">[PL_284095]_Trust or remove certificates</item>
+        <item quantity="few">[PL_284042]_Trust or remove certificates</item>
+        <item quantity="many">[PL_284074]_Trust or remove certificates</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"[PL_291871]_%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="zero">"[PL_291891]_%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="one">"[PL_291885]_%s has installed a certificate authority on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove this certificate.
+
+For more information about this certificate, contact your admin."</item>
+        <item quantity="two">"[PL_291895]_%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="few">"[PL_291906]_%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="many">"[PL_291882]_%s has installed certificate authorities on your device, which may allow them to monitor your device network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"[PL_284103]_%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="zero">"[PL_284114]_%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="one">"[PL_284053]_%s has installed a certificate authority for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove this certificate.
+
+For more information about this certificate, contact your admin."</item>
+        <item quantity="two">"[PL_284112]_%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="few">"[PL_284077]_%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+        <item quantity="many">"[PL_284089]_%s has installed certificate authorities for your work profile, which may allow them to monitor work network activity, including emails, apps, and secure websites. You can choose to either trust or remove these certificates.
+
+For more information about these certificates, contact your admin."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">[PL_284060]_Check certificates</item>
+        <item quantity="zero">[PL_284043]_Check certificates</item>
+        <item quantity="one">[PL_284067]_Check certificate</item>
+        <item quantity="two">[PL_284096]_Check certificates</item>
+        <item quantity="few">[PL_284050]_Check certificates</item>
+        <item quantity="many">[PL_284100]_Check certificates</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">[PL_37539]_%d apps can read notifications</item>
+        <item quantity="zero">[PL_37370]_%d apps can read notifications</item>
+        <item quantity="one">[PL_37267]_%d app can read notifications</item>
+        <item quantity="two">[PL_37561]_%d apps can read notifications</item>
+        <item quantity="few">[PL_37305]_%d apps can read notifications</item>
+        <item quantity="many">[PL_37327]_%d apps can read notifications</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">[PD_251852]_Switch to Alarms only mode for %1$d minutes (until %2$s)</item>
+        <item quantity="zero">[PD_251784]_Switch to Alarms only mode for %1$d minutes (until %2$s)</item>
+        <item quantity="one">[PD_251715]_Switch to Alarms only mode for one minute (until %2$s)</item>
+        <item quantity="two">[PD_251713]_Switch to Alarms only mode for %1$d minutes (until %2$s)</item>
+        <item quantity="few">[PD_251948]_Switch to Alarms only mode for %1$d minutes (until %2$s)</item>
+        <item quantity="many">[PD_251489]_Switch to Alarms only mode for %1$d minutes (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">[PD_251845]_Switch to Alarms only mode for %1$d hours (until %2$s)</item>
+        <item quantity="zero">[PD_251647]_Switch to Alarms only mode for %1$d hours (until %2$s)</item>
+        <item quantity="one">[PD_251373]_Switch to Alarms only mode for one hour (until %2$s)</item>
+        <item quantity="two">[PD_251769]_Switch to Alarms only mode for %1$d hours (until %2$s)</item>
+        <item quantity="few">[PD_251920]_Switch to Alarms only mode for %1$d hours (until %2$s)</item>
+        <item quantity="many">[PD_251528]_Switch to Alarms only mode for %1$d hours (until %2$s)</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">[PL_282605]_%d permissions granted</item>
+        <item quantity="zero">[PL_282325]_%d permissions granted</item>
+        <item quantity="one">[PL_282614]_%d permission granted</item>
+        <item quantity="two">[PL_282357]_%d permissions granted</item>
+        <item quantity="few">[PL_282288]_%d permissions granted</item>
+        <item quantity="many">[PL_282691]_%d permissions granted</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">[PL_282523]_%1$d of %2$d permissions granted</item>
+        <item quantity="zero">[PL_282326]_%1$d of %2$d permissions granted</item>
+        <item quantity="one">[PL_282123]_%1$d of %2$d permission granted</item>
+        <item quantity="two">[PL_282399]_%1$d of %2$d permissions granted</item>
+        <item quantity="few">[PL_282258]_%1$d of %2$d permissions granted</item>
+        <item quantity="many">[PL_282248]_%1$d of %2$d permissions granted</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">[PD_251611]_%d additional permissions</item>
+        <item quantity="zero">[PD_251711]_%d additional permissions</item>
+        <item quantity="one">[PD_251330]_%d additional permission</item>
+        <item quantity="two">[PD_251901]_%d additional permissions</item>
+        <item quantity="few">[PD_251551]_%d additional permissions</item>
+        <item quantity="many">[PD_251853]_%d additional permissions</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">[PL_282346]_%d apps can open their supported links</item>
+        <item quantity="zero">[PL_282679]_No app can open any supported link</item>
+        <item quantity="one">[PL_282222]_One app can open its supported links</item>
+        <item quantity="two">[PL_282238]_%d apps can open their supported links</item>
+        <item quantity="few">[PL_282633]_%d apps can open their supported links</item>
+        <item quantity="many">[PL_282631]_%d apps can open their supported links</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">[PL_282670]_%d apps allowed to ignore battery optimization</item>
+        <item quantity="zero">[PL_282162]_%d apps allowed to ignore battery optimization</item>
+        <item quantity="one">[PL_282096]_1 app allowed to ignore battery optimization</item>
+        <item quantity="two">[PL_282330]_%d apps allowed to ignore battery optimization</item>
+        <item quantity="few">[PL_282511]_%d apps allowed to ignore battery optimization</item>
+        <item quantity="many">[PL_282227]_%d apps allowed to ignore battery optimization</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">[PD_251416]_%1$d apps used memory in the last %2$s</item>
+        <item quantity="zero">[PD_251455]_%1$d apps used memory in the last %2$s</item>
+        <item quantity="one">[PD_251903]_%1$d app used memory in the last %2$s</item>
+        <item quantity="two">[PD_251402]_%1$d apps used memory in the last %2$s</item>
+        <item quantity="few">[PD_251801]_%1$d apps used memory in the last %2$s</item>
+        <item quantity="many">[PD_251370]_%1$d apps used memory in the last %2$s</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">[PL_282097]_%d apps blocked from sending</item>
+        <item quantity="zero">[PL_282418]_%d apps blocked from sending</item>
+        <item quantity="one">[PL_282126]_%d app blocked from sending</item>
+        <item quantity="two">[PL_282563]_%d apps blocked from sending</item>
+        <item quantity="few">[PL_282263]_%d apps blocked from sending</item>
+        <item quantity="many">[PL_282141]_%d apps blocked from sending</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">[PL_282379]_%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="zero">[PL_282485]_%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="one">[PL_282352]_1 app allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="two">[PL_282221]_%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="few">[PL_282340]_%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+        <item quantity="many">[PL_282142]_%1$d apps allowed to use unrestricted data when Data Saver is on</item>
+    </plurals>
+    <plurals name="zen_mode_repeat_callers_summary">
+        <item quantity="other">[PL_263804]_Second attempt calls from the same number will ring if made within %d minutes</item>
+        <item quantity="zero">[PL_263805]_Second attempt calls from the same number will ring if made within %d minutes</item>
+        <item quantity="one">[PL_263808]_Second attempt calls from the same number will ring if made within %d minute</item>
+        <item quantity="two">[PL_263806]_Second attempt calls from the same number will ring if made within %d minutes</item>
+        <item quantity="few">[PL_263809]_Second attempt calls from the same number will ring if made within %d minutes</item>
+        <item quantity="many">[PL_263807]_Second attempt calls from the same number will ring if made within %d minutes</item>
+    </plurals>
+    <plurals name="bluetooth_ask_discovery_emotion">
+        <item quantity="other">[PL_17683]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d seconds. Allow?</item>
+        <item quantity="zero">[PL_17679]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d seconds. Allow?</item>
+        <item quantity="one">[PL_17678]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d second. Allow?</item>
+        <item quantity="two">[PL_17680]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d seconds. Allow?</item>
+        <item quantity="few">[PL_17681]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d seconds. Allow?</item>
+        <item quantity="many">[PL_17682]_An app on your device wants to make your device discoverable by other Bluetooth devices for %1$d seconds. Allow?</item>
+    </plurals>
+    <plurals name="bluetooth_ask_enablement_and_discovery_emotion">
+        <item quantity="other">[PL_17895]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> seconds. Allow?</item>
+        <item quantity="zero">[PL_17891]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> seconds. Allow?</item>
+        <item quantity="one">[PL_17684]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> second. Allow?</item>
+        <item quantity="two">[PL_17892]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> seconds. Allow?</item>
+        <item quantity="few">[PL_17893]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> seconds. Allow?</item>
+        <item quantity="many">[PL_17894]_An app on your device wants to turn on Bluetooth and make your device discoverable by other devices for &lt;subnode>%1$d&lt;/subnode> seconds. Allow?</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short_emotion">
+        <item quantity="other">[PL_17690]_Password must be at least %d characters</item>
+        <item quantity="zero">[PL_17686]_Password must be at least %d characters</item>
+        <item quantity="one">[PL_17685]_Password must be at least %d character</item>
+        <item quantity="two">[PL_17687]_Password must be at least %d characters</item>
+        <item quantity="few">[PL_17688]_Password must be at least %d characters</item>
+        <item quantity="many">[PL_17689]_Password must be at least %d characters</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short_emotion">
+        <item quantity="other">[PL_17696]_PIN must be at least %d digits</item>
+        <item quantity="zero">[PL_17692]_PIN must be at least %d digits</item>
+        <item quantity="one">[PL_17691]_PIN must be at least %d digit</item>
+        <item quantity="two">[PL_17693]_PIN must be at least %d digits</item>
+        <item quantity="few">[PL_17694]_PIN must be at least %d digits</item>
+        <item quantity="many">[PL_17695]_PIN must be at least %d digits</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long_emotion">
+        <item quantity="other">[PL_17702]_Password must be fewer than &lt;subnode>%d&lt;/subnode> characters</item>
+        <item quantity="zero">[PL_17698]_Password must be fewer than &lt;subnode>%d&lt;/subnode> characters</item>
+        <item quantity="one">[PL_17697]_Password must be fewer than &lt;subnode>%d&lt;/subnode> character</item>
+        <item quantity="two">[PL_17699]_Password must be fewer than &lt;subnode>%d&lt;/subnode> characters</item>
+        <item quantity="few">[PL_17700]_Password must be fewer than &lt;subnode>%d&lt;/subnode> characters</item>
+        <item quantity="many">[PL_17701]_Password must be fewer than &lt;subnode>%d&lt;/subnode> characters</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long_emotion">
+        <item quantity="other">[PL_17708]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digits</item>
+        <item quantity="zero">[PL_17704]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digits</item>
+        <item quantity="one">[PL_17703]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digit</item>
+        <item quantity="two">[PL_17705]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digits</item>
+        <item quantity="few">[PL_17706]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digits</item>
+        <item quantity="many">[PL_17707]_PIN must be fewer than &lt;subnode>%d&lt;/subnode> digits</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase_emotion">
+        <item quantity="other">[PL_17714]_Password must contain at least %d lowercase letters</item>
+        <item quantity="zero">[PL_17710]_Password must contain at least %d lowercase letters</item>
+        <item quantity="one">[PL_17709]_Password must contain at least %d lowercase letter</item>
+        <item quantity="two">[PL_17711]_Password must contain at least %d lowercase letters</item>
+        <item quantity="few">[PL_17712]_Password must contain at least %d lowercase letters</item>
+        <item quantity="many">[PL_17713]_Password must contain at least %d lowercase letters</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_devices_connected_subtext_emotion">
+        <item quantity="other">"[PL_17720]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> devices</item>
+        <item quantity="zero">"[PL_17716]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> devices</item>
+        <item quantity="one">"[PL_17715]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> device</item>
+        <item quantity="two">"[PL_17717]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> devices</item>
+        <item quantity="few">"[PL_17718]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> devices</item>
+        <item quantity="many">"[PL_17719]_Sharing this device's Internet connection to "&lt;subnode>%1$d&lt;/subnode> devices</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short_emotion">
+        <item quantity="other">[PL_17732]_Connect at least %d dots. Try again.</item>
+        <item quantity="zero">[PL_17728]_Connect at least %d dots. Try again.</item>
+        <item quantity="one">[PL_17727]_Connect at least %d dot. Try again.</item>
+        <item quantity="two">[PL_17729]_Connect at least %d dots. Try again.</item>
+        <item quantity="few">[PL_17730]_Connect at least %d dots. Try again.</item>
+        <item quantity="many">[PL_17731]_Connect at least %d dots. Try again.</item>
+    </plurals>
+    <plurals name="credentials_reset_warning_plural_emotion">
+        <item quantity="other">[PL_17744]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chances before credential storage is erased.</item>
+        <item quantity="zero">[PL_17740]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chances before credential storage is erased.</item>
+        <item quantity="one">[PL_17739]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chance before credential storage is erased.</item>
+        <item quantity="two">[PL_17741]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chances before credential storage is erased.</item>
+        <item quantity="few">[PL_17742]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chances before credential storage is erased.</item>
+        <item quantity="many">[PL_17743]_Incorrect password. You have &lt;subnode>%1$d&lt;/subnode> more chances before credential storage is erased.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase_emotion">
+        <item quantity="other">[PL_17750]_Password must contain at least %d uppercase letters</item>
+        <item quantity="zero">[PL_17746]_Password must contain at least %d uppercase letters</item>
+        <item quantity="one">[PL_17745]_Password must contain at least %d uppercase letter</item>
+        <item quantity="two">[PL_17747]_Password must contain at least %d uppercase letters</item>
+        <item quantity="few">[PL_17748]_Password must contain at least %d uppercase letters</item>
+        <item quantity="many">[PL_17749]_Password must contain at least %d uppercase letters</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric_emotion">
+        <item quantity="other">[PL_17756]_Password must contain at least %d digits</item>
+        <item quantity="zero">[PL_17752]_Password must contain at least %d digits</item>
+        <item quantity="one">[PL_17751]_Password must contain at least %d digit</item>
+        <item quantity="two">[PL_17753]_Password must contain at least %d digits</item>
+        <item quantity="few">[PL_17754]_Password must contain at least %d digits</item>
+        <item quantity="many">[PL_17755]_Password must contain at least %d digits</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters_emotion">
+        <item quantity="other">[PL_17762]_Password must contain at least %d letters</item>
+        <item quantity="zero">[PL_17758]_Password must contain at least %d letters</item>
+        <item quantity="one">[PL_17757]_Password must contain at least %d letter</item>
+        <item quantity="two">[PL_17759]_Password must contain at least %d letters</item>
+        <item quantity="few">[PL_17760]_Password must contain at least %d letters</item>
+        <item quantity="many">[PL_17761]_Password must contain at least %d letters</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols_emotion">
+        <item quantity="other">[PL_17768]_Password must contain at least %d symbols</item>
+        <item quantity="zero">[PL_17764]_Password must contain at least %d symbols</item>
+        <item quantity="one">[PL_17763]_Password must contain at least %d symbol</item>
+        <item quantity="two">[PL_17765]_Password must contain at least %d symbols</item>
+        <item quantity="few">[PL_17766]_Password must contain at least %d symbols</item>
+        <item quantity="many">[PL_17767]_Password must contain at least %d symbols</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter_emotion">
+        <item quantity="other">[PL_17774]_Password must contain at least %d non-letter characters</item>
+        <item quantity="zero">[PL_17770]_Password must contain at least %d non-letter characters</item>
+        <item quantity="one">[PL_17769]_Password must contain at least %d non-letter character</item>
+        <item quantity="two">[PL_17771]_Password must contain at least %d non-letter characters</item>
+        <item quantity="few">[PL_17772]_Password must contain at least %d non-letter characters</item>
+        <item quantity="many">[PL_17773]_Password must contain at least %d non-letter characters</item>
+    </plurals>
+    <plurals name="show_dev_countdown_emotion_Toast">
+        <item quantity="other">[PL_105845]_You are now %d steps away from being a developer.</item>
+        <item quantity="zero">[PL_105887]_You are now %d steps away from being a developer.</item>
+        <item quantity="one">[PL_105881]_You are now %d step away from being a developer.</item>
+        <item quantity="two">[PL_105863]_You are now %d steps away from being a developer.</item>
+        <item quantity="few">[PL_105860]_You are now %d steps away from being a developer.</item>
+        <item quantity="many">[PL_105882]_You are now %d steps away from being a developer.</item>
+    </plurals>
+    <plurals name="wifiap_connect_accounts">
+        <item quantity="other">[PL_116427]_%d devices connected</item>
+        <item quantity="zero">[PL_116420]_%d devices connected</item>
+        <item quantity="one">[PL_116433]_%d device connected</item>
+        <item quantity="two">[PL_116432]_%d devices connected</item>
+        <item quantity="few">[PL_116428]_%d devices connected</item>
+        <item quantity="many">[PL_116437]_%d devices connected</item>
+    </plurals>
+    <plurals name="wifiap_wps_current_allow_devices">
+        <item quantity="other">[PL_116446]_Allowed devices (max %d devices)</item>
+        <item quantity="zero">[PL_116455]_Allowed devices (max %d devices)</item>
+        <item quantity="one">[PL_116424]_Allowed devices (max %d device)</item>
+        <item quantity="two">[PL_116452]_Allowed devices (max %d devices)</item>
+        <item quantity="few">[PL_116440]_Allowed devices (max %d devices)</item>
+        <item quantity="many">[PL_116443]_Allowed devices (max %d devices)</item>
+    </plurals>
+    <plurals name="search_reslut_count">
+        <item quantity="other">[PL_139517]_Found %1$s settings</item>
+        <item quantity="zero">[PL_139512]_Found %1$s settings</item>
+        <item quantity="one">[PL_139513]_Found %1$s setting</item>
+        <item quantity="two">[PL_139514]_Found %1$s settings</item>
+        <item quantity="few">[PL_139515]_Found %1$s settings</item>
+        <item quantity="many">[PL_139516]_Found %1$s settings</item>
+    </plurals>
+    <plurals name="search_reslut_count_ex">
+        <item quantity="other">[PL_269977]_Found %1$d settings</item>
+        <item quantity="zero">[PL_269968]_Found %1$d settings</item>
+        <item quantity="one">[PL_269975]_Found %1$d setting</item>
+        <item quantity="two">[PL_269974]_Found %1$d settings</item>
+        <item quantity="few">[PL_269980]_Found %1$d settings</item>
+        <item quantity="many">[PL_269984]_Found %1$d settings</item>
+    </plurals>
+    <plurals name="timing_task_settings_interval_Toast">
+        <item quantity="other">[PL_235039]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minutes.</item>
+        <item quantity="zero">[PL_235031]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minutes.</item>
+        <item quantity="one">[PL_235033]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minute.</item>
+        <item quantity="two">[PL_235040]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minutes.</item>
+        <item quantity="few">[PL_235034]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minutes.</item>
+        <item quantity="many">[PL_235044]_The interval between the scheduled power on and scheduled power off times cannot be less than %1$d minutes.</item>
+    </plurals>
+    <plurals name="shutdown_countdown_dialog_message">
+        <item quantity="other">[PL_235029]_Your device will be powered off automatically after %1$d seconds.</item>
+        <item quantity="zero">[PL_235028]_Your device will be powered off automatically after %1$d seconds.</item>
+        <item quantity="one">[PL_235042]_Your device will be powered off automatically after %1$d second.</item>
+        <item quantity="two">[PL_235032]_Your device will be powered off automatically after %1$d seconds.</item>
+        <item quantity="few">[PL_235038]_Your device will be powered off automatically after %1$d seconds.</item>
+        <item quantity="many">[PL_235045]_Your device will be powered off automatically after %1$d seconds.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_short">
+        <item quantity="other">[PL_253148]_SD card password must be at least %d characters.</item>
+        <item quantity="zero">[PL_253156]_SD card password must be at least %d characters.</item>
+        <item quantity="one">[PL_253179]_SD card password must be at least %d character.</item>
+        <item quantity="two">[PL_253165]_SD card password must be at least %d characters.</item>
+        <item quantity="few">[PL_253145]_SD card password must be at least %d characters.</item>
+        <item quantity="many">[PL_253168]_SD card password must be at least %d characters.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_long">
+        <item quantity="other">[PL_253155]_SD card password must be fewer than %d characters.</item>
+        <item quantity="zero">[PL_253162]_SD card password must be fewer than %d characters.</item>
+        <item quantity="one">[PL_253151]_SD card password must be fewer than %d character.</item>
+        <item quantity="two">[PL_253187]_SD card password must be fewer than %d characters.</item>
+        <item quantity="few">[PL_253171]_SD card password must be fewer than %d characters.</item>
+        <item quantity="many">[PL_253158]_SD card password must be fewer than %d characters.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">[PL_269776]_Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="zero">[PL_269777]_Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="one">[PL_269773]_Too many incorrect attempts. Try again in %d second.</item>
+        <item quantity="two">[PL_269772]_Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="few">[PL_269774]_Too many incorrect attempts. Try again in %d seconds.</item>
+        <item quantity="many">[PL_269775]_Too many incorrect attempts. Try again in %d seconds.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_pin">
+        <item quantity="other">[PL_276520]_Enter at least %1$d digits.</item>
+        <item quantity="zero">[PL_276495]_Enter at least %1$d digits.</item>
+        <item quantity="one">[PL_276499]_Enter at least %1$d digit.</item>
+        <item quantity="two">[PL_276500]_Enter at least %1$d digits.</item>
+        <item quantity="few">[PL_276517]_Enter at least %1$d digits.</item>
+        <item quantity="many">[PL_276490]_Enter at least %1$d digits.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_password">
+        <item quantity="other">[PL_276525]_Enter at least %1$d characters.</item>
+        <item quantity="zero">[PL_276554]_Enter at least %1$d characters.</item>
+        <item quantity="one">[PL_276562]_Enter at least %1$d character.</item>
+        <item quantity="two">[PL_276488]_Enter at least %1$d characters.</item>
+        <item quantity="few">[PL_276496]_Enter at least %1$d characters.</item>
+        <item quantity="many">[PL_276501]_Enter at least %1$d characters.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_one_char_at_least">
+        <item quantity="other">[PL_276548]_Must include at least %1$d letters.</item>
+        <item quantity="zero">[PL_276555]_Must include at least %1$d letters.</item>
+        <item quantity="one">[PL_276536]_Must include at least %1$d letter.</item>
+        <item quantity="two">[PL_276514]_Must include at least %1$d letters.</item>
+        <item quantity="few">[PL_276533]_Must include at least %1$d letters.</item>
+        <item quantity="many">[PL_276522]_Must include at least %1$d letters.</item>
+    </plurals>
+    <plurals name="lockscreen_warn_wrong_password">
+        <item quantity="other">[PL_276550]_Incorrect password. You have %1$d tries left.</item>
+        <item quantity="zero">[PL_276485]_Incorrect password. You have %1$d tries left.</item>
+        <item quantity="one">[PL_276547]_Incorrect password. You have %1$d try left.</item>
+        <item quantity="two">[PL_276519]_Incorrect password. You have %1$d tries left.</item>
+        <item quantity="few">[PL_276503]_Incorrect password. You have %1$d tries left.</item>
+        <item quantity="many">[PL_276532]_Incorrect password. You have %1$d tries left.</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_seconds">
+        <item quantity="other">[PL_276553]_Please try again after %1$ds</item>
+        <item quantity="zero">[PL_276494]_Please try again after %1$ds</item>
+        <item quantity="one">[PL_276530]_Please try again after %1$ds</item>
+        <item quantity="two">[PL_276545]_Please try again after %1$ds</item>
+        <item quantity="few">[PL_276524]_Please try again after %1$ds</item>
+        <item quantity="many">[PL_276498]_Please try again after %1$ds</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_minutes">
+        <item quantity="other">[PL_276542]_Please try again after %1$d min</item>
+        <item quantity="zero">[PL_276566]_Please try again after %1$d min</item>
+        <item quantity="one">[PL_276558]_Please try again after %1$d min</item>
+        <item quantity="two">[PL_276507]_Please try again after %1$d min</item>
+        <item quantity="few">[PL_276539]_Please try again after %1$d min</item>
+        <item quantity="many">[PL_276508]_Please try again after %1$d min</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_hours">
+        <item quantity="other">[PL_276544]_Please try again after %1$d h</item>
+        <item quantity="zero">[PL_276528]_Please try again after %1$d h</item>
+        <item quantity="one">[PL_276538]_Please try again after %1$d h</item>
+        <item quantity="two">[PL_276537]_Please try again after %1$d h</item>
+        <item quantity="few">[PL_276489]_Please try again after %1$d h</item>
+        <item quantity="many">[PL_276518]_Please try again after %1$d h</item>
+    </plurals>
+    <plurals name="lockscreen_pattern_too_short">
+        <item quantity="other">[PL_276563]_Connect at least %1$d dots, try again</item>
+        <item quantity="zero">[PL_276505]_Connect at least %1$d dots, try again</item>
+        <item quantity="one">[PL_276534]_Connect at least %1$d dot, try again</item>
+        <item quantity="two">[PL_276512]_Connect at least %1$d dots, try again</item>
+        <item quantity="few">[PL_276497]_Connect at least %1$d dots, try again</item>
+        <item quantity="many">[PL_276564]_Connect at least %1$d dots, try again</item>
+    </plurals>
+    <plurals name="blacklist_notification_signal_disableapp_title_multi_app">
+        <item quantity="other">[PL_276966]_%1$d apps contain security risks, they have been forbidden</item>
+        <item quantity="zero">[PL_276973]_%1$d apps contain security risks, they have been forbidden</item>
+        <item quantity="one">[PL_276983]_%1$d app contains security risks, it has been forbidden</item>
+        <item quantity="two">[PL_276976]_%1$d apps contain security risks, they have been forbidden</item>
+        <item quantity="few">[PL_276984]_%1$d apps contain security risks, they have been forbidden</item>
+        <item quantity="many">[PL_276974]_%1$d apps contain security risks, they have been forbidden</item>
+    </plurals>
+    <plurals name="blacklist_notification_title_multi_app">
+        <item quantity="other">[PL_276978]_%1$d apps forbidden</item>
+        <item quantity="zero">[PL_276986]_%1$d apps forbidden</item>
+        <item quantity="one">[PL_276982]_%1$d app forbidden</item>
+        <item quantity="two">[PL_276971]_%1$d apps forbidden</item>
+        <item quantity="few">[PL_276980]_%1$d apps forbidden</item>
+        <item quantity="many">[PL_276967]_%1$d apps forbidden</item>
+    </plurals>
+    <plurals name="timezones_results_count">
+        <item quantity="other">[PL_280849]_%d results</item>
+        <item quantity="zero">[PL_280835]_%d results</item>
+        <item quantity="one">[PL_280840]_%d result</item>
+        <item quantity="two">[PL_280845]_%d results</item>
+        <item quantity="few">[PL_280844]_%d results</item>
+        <item quantity="many">[PL_280841]_%d results</item>
+    </plurals>
+    <plurals name="step">
+        <item quantity="other">[PD_181485]_%d steps</item>
+        <item quantity="zero">[PD_199139]_%d steps</item>
+        <item quantity="one">[PD_181489]_%d step</item>
+        <item quantity="two">[PD_199140]_%d steps</item>
+        <item quantity="few">[PD_181483]_%d steps</item>
+        <item quantity="many">[PD_181487]_%d steps</item>
+    </plurals>
+</resources>

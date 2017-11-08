@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/padding_bottom" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:id="@+id/dot_bar_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_above="@+id/padding_bottom">
+        <View android:id="@+id/flag" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@+id/icon_01" android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x601" android:src="@drawable/navi_select_mainpage" android:layout_centerVertical="true" android:layout_toStartOf="@+id/flag" />
+        <ImageView android:id="@+id/icon_01_off" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x401" android:src="@drawable/navi_normal_mainpage" android:layout_centerVertical="true" android:layout_toStartOf="@+id/flag" />
+        <ImageView android:id="@+id/icon_02" android:layout_width="UNKNOWN_DATA_0x401" android:layout_height="UNKNOWN_DATA_0x401" android:src="@drawable/navi_normal_mainpage" android:layout_centerVertical="true" android:layout_toEndOf="@+id/flag" />
+        <ImageView android:id="@+id/icon_02_on" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x601" android:src="@drawable/navi_select_mainpage" android:layout_centerVertical="true" android:layout_toEndOf="@+id/flag" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/bottom_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/dot_bar_layout" android:layout_alignParentTop="true" />
+</RelativeLayout>

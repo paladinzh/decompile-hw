@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:id="@+id/contact_starred_list_item" androidhwext:background="?unknown_attr_ref: 101030e" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <RelativeLayout androidhwext:paddingTop="9dp" androidhwext:paddingBottom="9dp" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:minHeight="@dimen/contact_popup_list_item_height" androidhwext:paddingStart="@dimen/contact_popup_list_item_padding" androidhwext:paddingEnd="@dimen/contact_popup_list_item_padding">
+        <TextView androidhwext:textSize="@dimen/contact_popup_list_item_textsize" androidhwext:ellipsize="end" androidhwext:id="@+id/contacts_phone_number" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" androidhwext:layout_alignParentStart="true" />
+        <TextView androidhwext:textSize="@dimen/contact_popup_list_item_sub_textsize" androidhwext:ellipsize="end" androidhwext:id="@+id/contacts_phone_label" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" androidhwext:layout_below="@+id/contacts_phone_number" androidhwext:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

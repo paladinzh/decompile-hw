@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/navigation_key_dasboard_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/navi_trikey_combination_title" />
+    <com.android.settings.NetherSummaryImageRadioPreference android:icon="@drawable/hard_key_type_1" android:layout="@layout/preference_image_radio_two_summary" android:key="navi_single_type_1" />
+    <com.android.settings.NetherSummaryImageRadioPreference android:icon="@drawable/virtual_key_type_1" android:layout="@layout/preference_image_radio_two_summary" android:key="navi_single_type_2" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="navi_func_category" />
+    <com.android.settings.ImageRadioDialogPreference android:layout="@layout/preference_two_summay" android:title="@string/front_single_navi_bar_combination" android:key="virtual_navi_bar_type" android:widgetLayout="@layout/preference_widget_arrow" />
+    <android.support.v14.preference.SwitchPreference android:title="@string/virtual_key_title" android:key="virtual_key_hide" />
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/header_category_smart_assistance"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/system_control_category" android:key="category_system_control" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/suspend_button_title" android:key="suspend_button_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SuspendButtonSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pressure_response_settings_title" android:key="pressure_response_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.android.settings.pressure.PressureResponseSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/motion_settings" android:key="motion_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.action.MOTION_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/single_hand_settings_title" android:key="choose_single_hand_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.ChooseSingleHandSettings" />
+    <PreferenceScreen android:title="@string/voice_control_settings_title" android:key="sound_trigger_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.vassistant.action.SOUND_TRIGGER_SETTINGS" />
+    </PreferenceScreen>
+    <SwitchPreference android:title="@string/cover_enable_settings_title" android:key="smart_cover_switch" />
+    <PreferenceScreen android:title="@string/voice_assistant_settings" android:key="voice_assistant_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceScreen android:title="@string/smart_e_assistance_title" android:key="smart_e_assistance" android:summary="@string/smart_e_assistance_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.essistant.open_main_page" />
+    </PreferenceScreen>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/fittings_category" android:key="category_control" />
+    <PreferenceScreen android:title="@string/consonance_finger_settings" android:key="consonance_finger_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.membranetouch.action.MT_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/cover_enable_settings_title" android:key="smart_cover_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SmartCoverSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/smart_earphone_control_caption" android:key="smart_earphone_control" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$SmartEarphoneSettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/screen_lock_other_settings_title" android:key="category_touch" />
+    <PreferenceScreen android:title="@string/airsharing_widget_name" android:key="air_sharing" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.android.airsharing" android:action="com.huawei.android.airsharing.action.ACTION_DEVICE_SELECTOR" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/timing_task_settings_title" android:key="timing_task_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="settings.huawei.intent.action.TIMING_TASK_SETTINGS" />
+    </PreferenceScreen>
+    <SwitchPreference android:title="@string/touch_disable_mode_title" android:key="touch_disable_mode" android:summary="@string/touch_disable_mode_summary" />
+    <SwitchPreference android:title="@string/force_rotation_mode_title" android:key="force_rotation_mode" />
+</PreferenceScreen>

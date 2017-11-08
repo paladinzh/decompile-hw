@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+    <TextView android:textSize="13sp" android:textColor="@color/photoshare_albumset_name_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/device_list_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:alpha="0.9" />
+    <View android:background="@color/background_white" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01d3" android:alpha="0.15" />
+    <ListView android:id="@id/device_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+</LinearLayout>

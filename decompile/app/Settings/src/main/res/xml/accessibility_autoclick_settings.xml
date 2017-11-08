@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_autoclick_preference_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.SeekBarPreference android:layout="@layout/preference_iconless_slider" android:title="@string/accessibility_autoclick_delay_preference_title" android:key="autoclick_delay" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/group_list_header" android:background="@drawable/contact_section_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_section_height">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/group_account_header_main" android:paddingTop="@dimen/list_item_header_text_padding_top" android:paddingBottom="@dimen/list_item_header_text_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/contact_popup_list_item_padding">
+            <TextView android:id="@+id/account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="HwChinese-medium" android:layout_marginEnd="@dimen/contact_right_margin" style="@style/contact_section_text_style" />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/account_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="HwChinese-medium" android:layout_marginEnd="@dimen/contact_right_margin" style="@style/contact_section_text_style" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="?unknown_attr_ref: 101030e" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_select_group_item_min_height" android:paddingStart="@dimen/contact_popup_list_item_padding" android:paddingEnd="@dimen/contact_popup_list_item_padding">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="end" android:id="@+id/label" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_select_group_item_margin_top_bottom" android:layout_marginBottom="@dimen/contact_select_group_item_margin_top_bottom" android:maxLines="2" android:layout_weight="1.0" />
+        <CheckBox android:id="@+id/check_box" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" />
+    </LinearLayout>
+    <View android:id="@+id/list_divider" android:background="?unknown_attr_ref: 1010214" style="@style/contact_horizontal_divider_style" />
+</LinearLayout>

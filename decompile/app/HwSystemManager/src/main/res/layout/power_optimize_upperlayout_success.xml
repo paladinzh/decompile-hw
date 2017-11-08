@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeCustomLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:width_weight="3" ratio:height_weight="2" ratio:height_offset="46dp">
+    <View ratio:id="@+id/dividerLine" ratio:layout_alignParentBottom="true" style="@style/divider_line" />
+    <com.huawei.systemmanager.widget.OffsetActionBarView ratio:id="@+id/offsetview" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_above="@+id/dividerLine" />
+    <ViewStub ratio:id="@+id/power_checkall_success_result" ratio:layout="@layout/power_optimize_success_result" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_above="@+id/offsetview" />
+</com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeCustomLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="@integer/preference_scrollbar_style" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_start">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:layout_gravity="center_vertical" android:id="@id/auto_launch" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+        <ImageView android:id="@id/button_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" />
+        <LinearLayout android:gravity="bottom" android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_start">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/clear_activities_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/clear_activities" layout_marginTop="@dimen/preference_item_padding_top" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

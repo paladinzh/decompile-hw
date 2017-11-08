@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/app_restrictions_pref" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@android:dimen/preference_icon_minWidth">
+            <ImageView android:layout_gravity="center" android:id="@android:id/icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerInside" android:minWidth="48.0dip" android:layout_marginEnd="@android:dimen/preference_item_padding_inner" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:layout_weight="1.0" android:layout_marginEnd="6.0dip">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:id="@android:id/summary" android:paddingBottom="3.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/user_summary_restricted_profile" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center" android:id="@id/delete" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_menu_delete" android:contentDescription="@string/user_delete_user_description" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </LinearLayout>
+    <View android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</LinearLayout>

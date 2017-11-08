@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cover_slide_guide" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/slide_guide_mask" android:background="@r$drawable/slide_guide_mask" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/slide_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/port_guide_margin_top" android:src="@drawable/slide_help_guide" android:layout_centerHorizontal="true" />
+</RelativeLayout>

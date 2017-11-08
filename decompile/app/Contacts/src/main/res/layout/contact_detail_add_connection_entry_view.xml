@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/detail_item_side_margin" android:paddingEnd="@dimen/detail_item_side_margin">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/primary_action_view" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/detail_item_vertical_margin" android:paddingBottom="@dimen/detail_item_vertical_margin" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/add_connection_icon" android:layout_width="UNKNOWN_DATA_0x7f0d0044" android:layout_height="UNKNOWN_DATA_0x7f0d0044" android:scaleType="centerInside" android:contentDescription="0x0" android:layout_marginEnd="@dimen/detail_item_side_margin" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/add_connection_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

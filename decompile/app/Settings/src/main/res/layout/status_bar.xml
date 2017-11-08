@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.NetStatusBar android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="26.0dip" android:layoutDirection="ltr" android:paddingEnd="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/wifi_layout" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="18.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/wifi_connected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_connected" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_wifi_signal_4" android:contentDescription="@null" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/sim_layout" android:layout_width="22.0dip" android:layout_height="18.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/sim_connected" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_connected_sim" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_signal_4" android:contentDescription="@null" />
+    </FrameLayout>
+</com.android.settings.NetStatusBar>

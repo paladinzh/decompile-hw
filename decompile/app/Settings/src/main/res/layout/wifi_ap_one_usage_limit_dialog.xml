@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0sp" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end">
+        <EditText android:textSize="18.0sp" android:id="@id/limited_editText" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edittext_min_height" android:singleLine="true" android:maxLength="6" android:inputType="number">
+            <requestFocus />
+        </EditText>
+        <Button android:textSize="14.0dip" android:textColor="@color/color_yalan" android:gravity="center" android:id="@id/size_type" android:background="@null" android:layout_width="46.0dip" android:layout_height="wrap_content" android:text="@android:string/megabyteShort" android:layout_marginEnd="5.0dip" android:layout_alignParentEnd="true" />
+        <View android:background="@color/preference_divider_grey" android:layout_width="2.0px" android:layout_height="@dimen/edittext_min_height" android:layout_toStartOf="@id/size_type" />
+    </RelativeLayout>
+</LinearLayout>

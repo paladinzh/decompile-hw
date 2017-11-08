@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+        <TextView android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ProgressBar android:id="@id/progress" android:layout_width="UNKNOWN_DATA_0x8201" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:max="100" android:progress="30" android:secondaryProgress="65" android:layout_below="@id/status" android:layout_centerHorizontal="true" style="?unknown_attr_ref: 1010078" />
+    </RelativeLayout>
+    <RelativeLayout android:background="#1f1f1f" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0091" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <TextView android:textSize="14sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/make_available_offline" android:drawablePadding="3dp" android:layout_centerVertical="true" android:drawableStart="@drawable/beauty_white" android:layout_alignParentStart="true" />
+        <Button android:textSize="14sp" android:id="@id/done" android:layout_width="UNKNOWN_DATA_0x4a01" android:layout_height="match_parent" android:text="@string/done" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

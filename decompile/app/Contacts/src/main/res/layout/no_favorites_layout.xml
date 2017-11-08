@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/no_favorites_screen_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/lazy_mode_header" android:layout="@layout/profile_lazy_mode_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@+id/favorites_no_contacts" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/btn_add_favorites" android:layout_alignParentTop="true">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text_no_contacts" android:clickable="true" android:layout_marginTop="0dp" android:text="@string/no_Favorites" android:drawableTop="@drawable/ic_empty_contacts" android:layout_centerHorizontal="true" style="@style/contact_favorites_empty_icon_style" />
+    </RelativeLayout>
+    <Button android:textSize="@dimen/btn_contacts_text_size" android:id="@+id/btn_add_favorites" android:layout_width="UNKNOWN_DATA_0x7f0d0132" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_marginBottom="@dimen/no_favorite_layout_btn_add_favorites_margin_bottom" android:text="@string/contact_button_add_favorites" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

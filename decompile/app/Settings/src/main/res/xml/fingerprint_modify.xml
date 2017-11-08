@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/fingerprint_shotcut_title" android:key="fingerprint_shotcut_app_tel"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/fingerprint_shotcut_message" android:key="fp_onlylock_enable_switch" android:summary="@string/fingerprint_quick_start_summary" />
+    <PreferenceScreen android:title="@string/fingerprint_diy_app_message" android:key="fingerprint_diy_app_checkbox" android:summary="@string/fingerprint_diy_app_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceScreen android:title="@string/fingerprint_diy_contact" android:key="fingerprint_diy_contact_checkbox" android:summary="@string/fingerprint_diy_contact_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

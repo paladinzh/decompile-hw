@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center_horizontal" android:id="@id/scrollView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0dip" android:textColor="@color/emui_text_dark" android:gravity="left" android:id="@id/instructions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/color_tempeture_help" android:layout_marginStart="@dimen/color_temperature_margin_side" android:layout_marginEnd="@dimen/color_temperature_margin_side" />
+        <com.android.settings.colortemper.SelectColorCircleLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/color_temperature_abs_size">
+            <AbsoluteLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/panel_layout" android:layout_width="@dimen/color_temperature_abs_size" android:layout_height="@dimen/color_temperature_abs_size">
+                <ImageView android:id="@id/color_wheel_image" android:layout_width="@dimen/color_temperature_wheel_radius" android:layout_height="@dimen/color_temperature_wheel_radius" android:src="@drawable/color_circle" android:scaleType="centerInside" android:layout_x="@dimen/color_temperature_wheel_to_abs_pos" android:layout_y="@dimen/color_temperature_wheel_to_abs_pos" android:contentDescription="@null" />
+                <ImageView android:id="@id/control_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wb_control_point" android:scaleType="centerInside" android:layout_x="@dimen/color_temperature_control_pos" android:layout_y="@dimen/color_temperature_control_pos" android:contentDescription="@null" />
+            </AbsoluteLayout>
+        </com.android.settings.colortemper.SelectColorCircleLayout>
+        <LinearLayout android:gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioGroup android:gravity="top" android:orientation="horizontal" android:id="@id/default_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end">
+                <RadioButton android:textSize="15.0dip" android:layout_gravity="start" android:id="@id/default_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_temperature_default" android:layout_weight="1.0" />
+                <RadioButton android:textSize="15.0dip" android:layout_gravity="center" android:id="@id/warm_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_temperature_warm" android:layout_weight="1.0" />
+                <RadioButton android:textSize="15.0dip" android:layout_gravity="end" android:id="@id/cold_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_temperature_cold" android:layout_weight="1.0" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

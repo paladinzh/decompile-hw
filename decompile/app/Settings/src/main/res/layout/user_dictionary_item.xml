@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/text1" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@android:id/text2" android:layout_marginTop="2.0dip" android:maxLines="1" android:layout_below="@android:id/text1" android:layout_alignStart="@android:id/text1" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <include layout="@layout/preference_widget_arrow" />
+</LinearLayout>

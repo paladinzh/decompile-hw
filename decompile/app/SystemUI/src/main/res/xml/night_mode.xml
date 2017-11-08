@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" sysui:title="@string/night_mode">
+    <SwitchPreference sysui:title="@string/turn_on_automatically" sysui:key="auto" sysui:summary="@string/turn_on_auto_summary" sysui:preferenceID="@id/id_auto" />
+    <PreferenceCategory sysui:title="@string/when_night_mode_on">
+        <SwitchPreference sysui:title="@string/adjust_tint" sysui:key="adjust_tint" sysui:preferenceID="@id/id_adjust_tint" />
+        <SwitchPreference sysui:title="@string/adjust_brightness" sysui:key="adjust_brightness" sysui:preferenceID="@id/id_adjust_brightness" />
+    </PreferenceCategory>
+</PreferenceScreen>

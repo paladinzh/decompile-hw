@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTS2015011908724 lixue/00214442 20150119 created > -->
+<!-- DTS2015012707557 chuyuyan/00134456 20150127 modify. delete "com.huawei.systemmanager" -->
+<!-- DTS2015013001092 chuyuyan/00134456 20150130 modify. support lock screen -->
+ <!-- DTS2015021203849 chuyuyan/00134456 20150212 modify add com.huawei.intelligent -->
+ <!-- DTS2015031910445 lixue/00214442 20150319 modify -->
+ <!-- DTS2016060206636 zhangxinsheng 00221699 20160627 modify -->
+<resources>
+    <!--
+        notificationcfg ,通知总开关：
+        0:禁止
+        1:允許
+        2: 提示(默认)
+        statusbarcfg:状态栏通知 ，true(默认) or false
+        lockscreencfg:锁屏通知，true(默认) or false
+        headsubcfg:横幅通知，true(默认) or false
+        canforbid:是否可以禁止该应用发通知，true(默认) or false ，该属性对third-party app不适用
+    -->
+    <!-- system app 预定义管控规则。 配置表中的顺序，决定了最终在界面上显示的顺序-->
+    <!-- <package name="com.android.contacts" canforbid="false" notificationcfg="2" statusbarcfg="true" lockscreencfg="true" headsubcfg="true"/> -->
+    <systemapp>
+        <package name="com.android.mms" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.android.email" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.calendar" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.huawei.android.hwouc" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.huawei.appmarket" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.gamebox" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.android.thememanager" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.mediacenter" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.hwvplayer" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.hwvplayer.youku" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.browser" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.vmall.client" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.wallet" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.android.totemweather" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.android.FMRadio" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.soundrecorder" notificationcfg="1" lockscreencfg="true" headsubcfg="false"/>
+        <package name="com.android.providers.downloads.ui" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.settings" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.intelligent" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.android.server.telecom" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.android.deskclock" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.baidu.input_huawei" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.health" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.android.inputmethod.latin" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.huawei.trustspace" notificationcfg="1" lockscreencfg="false" headsubcfg="true"/>
+        <package name="com.huawei.android.instantshare" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.android.bluetooth" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+    </systemapp>
+    <!-- third-party app 预定义管控规则 -->
+    <!-- canforbid 属性对third-party app不适用 ，默认为true -->
+    <!-- <package name="com.android.contacts" notificationcfg="1" statusbarcfg="true" lockscreencfg="true" headsubcfg="true"/> -->
+    <thirdpartyapp>
+        <package name="com.tencent.mm" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.tencent.mobileqq" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.immomo.momo" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="jp.naver.line.android" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.whatsapp" notificationcfg="1" lockscreencfg="false" headsubcfg="true"/>
+        <package name="com.facebook.katana" notificationcfg="1" lockscreencfg="true" headsubcfg="false"/>
+        <package name="com.facebook.orca" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.jamworks.snapshot" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.instagram.android" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.baidu.input" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.sohu.inputmethod.sogou" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.iflytek.inputmethod" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.tencent.qqpinyin" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.cootek.smartinputv5" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.jb.gokeyboard" statusbarcfg="false" lockscreencfg="false" headsubcfg="false"/>
+        <package name="com.ninefolders.hd3.work" notificationcfg="1" lockscreencfg="false" headsubcfg="true"/>
+        <package name="com.mobileiron" notificationcfg="1" lockscreencfg="false" headsubcfg="true"/>
+        <package name="com.airwatch.androidagent" notificationcfg="1" lockscreencfg="false" headsubcfg="true"/>
+        <package name="com.skype.rover" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.skype.raider" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.snapchat.android" notificationcfg="1" lockscreencfg="true" headsubcfg="true"/>
+        <package name="com.nuance.swype.emui" notificationcfg="1" lockscreencfg="false" headsubcfg="false"/>
+    </thirdpartyapp>
+
+</resources>

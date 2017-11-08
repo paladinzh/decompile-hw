@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide android:interpolator="0x10c000f" android:duration="350" android:slideEdge="UNKNOWN_DATA_0x7f12001d">
+        <targets>
+            <target android:targetId="@id/browse_headers_root" />
+            <target android:targetId="@r$id/title_orb" />
+        </targets>
+    </slide>
+    <slide android:interpolator="0x10c000f" android:duration="350" android:slideEdge="UNKNOWN_DATA_0x7f12001e">
+        <targets>
+            <target android:excludeId="@id/browse_headers_root" />
+            <target android:excludeId="@r$id/title_orb" />
+        </targets>
+    </slide>
+    <fade android:interpolator="0x10c000f" android:duration="350">
+        <targets>
+            <target android:excludeId="@id/browse_headers_root" />
+        </targets>
+    </fade>
+</transitionSet>

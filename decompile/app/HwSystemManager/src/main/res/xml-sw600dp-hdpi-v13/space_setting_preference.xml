@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="settings">
+    <SwitchPreference androidhwext:title="@string/space_clean_settings_auto_clean_cache_change_new" androidhwext:key="space_clean_cache_daily" androidhwext:summary="@string/space_clean_setting_auto_clean_cache_summary_change" androidhwext:preferenceID="@+id/prefs_space_clean_settings_auto_clean_cache_change_new" />
+    <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_divider_line_new1" />
+    <SwitchPreference androidhwext:title="@string/notification_memcpu_title" androidhwext:key="processmanagersetting" androidhwext:summary="@string/notification_memcpu_description" androidhwext:preferenceID="@+id/prefs_notification_memcpu_description" />
+    <PreferenceCategory androidhwext:title="@string/space_clean_setting_white_list_category" androidhwext:key="white_list">
+        <TextArrowPreference androidhwext:title="@string/space_clean_setting_white_list_memory_change" androidhwext:key="memory_white_list" androidhwext:summary="" androidhwext:preferenceID="@+id/prefs_space_clean_setting_white_list_memory_change" />
+    </PreferenceCategory>
+    <Preference androidhwext:layout="@layout/divider_line_new" />
+    <PreferenceCategory androidhwext:title="@string/title_space_lib" androidhwext:key="space_category_space_lib">
+        <Preference androidhwext:title="@string/title_manual_update_space_lib" androidhwext:key="space_manual_update_space_lib" androidhwext:preferenceID="@+id/prefs_space_manual_update_space_lib" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_divider_line_new2" />
+        <SwitchPreference androidhwext:title="@string/title_auto_update_space_lib" androidhwext:key="space_is_auto_update_space_lib" androidhwext:preferenceID="@+id/prefs_title_auto_update_space_lib" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:preferenceID="@+id/prefs_divider_line_new3" />
+        <SwitchPreference androidhwext:title="@string/space_clean_settings_update_in_wifi" androidhwext:key="space_is_wifi_only_update" androidhwext:preferenceID="@+id/prefs_space_clean_settings_update_in_wifi" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:key="space_is_wifi_only_update_divider" androidhwext:preferenceID="@+id/prefs_space_is_wifi_only_update_divider" />
+    </PreferenceCategory>
+</PreferenceScreen>

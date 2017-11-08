@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Подключено с помощью WLAN-помощника</string>
+    <string name="accessibility_wifi_off">Сеть WLAN выключена</string>
+    <string name="accessibility_no_wifi">Сеть WLAN отключена.</string>
+    <string name="accessibility_wifi_one_bar">WLAN: одно деление.</string>
+    <string name="accessibility_wifi_two_bars">WLAN: два деления.</string>
+    <string name="accessibility_wifi_three_bars">WLAN: три деления.</string>
+    <string name="accessibility_wifi_signal_full">Надежный сигнал WLAN.</string>
+    <string name="wifi_verbose_logging">Включить расширенные логи WLAN</string>
+    <string name="wifi_aggressive_handover">Быстрый переход от WLAN к моб. передаче данных</string>
+    <string name="wifi_allow_scan_with_traffic">Всегда разрешать сканирование роуминга WLAN</string>
+    <string name="wifi_verbose_logging_summary">Повышение уровня логов WLAN и показ SSID RSSI на приемнике WLAN-сигналов</string>
+    <string name="wifi_aggressive_handover_summary">Когда эта функция включена, устройство быстрее переключается с сети WLAN на моб. передачу данных при слабом сигнале WLAN</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Разрешение/запрет на сканирование роуминга WLAN в зависимости от трафика данных</string>
+    <string name="mobile_data_always_on_summary">Передача данных включена всегда, даже когда включена сеть WLAN (для быстрого переключения сетей)</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, режим полета, мобильные сети и VPN</string>
+    <string name="wifi_assistant_title">Ассистент WLAN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Включить WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Настройки WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN</string>
+    <string name="wifi_select_network">"Выбор сети WLAN "</string>
+    <string name="wifi_starting">Включение WLAN...</string>
+    <string name="wifi_stopping">Отключение WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Не подключаться к сети WLAN со слабым сигналом</string>
+    <string name="wifi_automatically_connect_title">Автоподключение к открытым WLAN</string>
+    <string name="wifi_automatically_connect_summary">WLAN-помощник автоматически подключается к открытым сетям с хорошим сигналом</string>
+    <string name="wifi_scan_notify_text">Для повышения точности определения местоположения системные приложения и службы могут выполнять поиск WLAN. Этот параметр можно изменить в LINK_BEGINнастройках поискаLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN в спящем режиме</string>
+    <string name="wifi_suspend_optimizations">Оптимизация WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Экономить заряд батареи, когда используется WLAN</string>
+    <string name="wifi_access_points">Сети WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Чтобы просмотреть доступные сети, включите WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Поиск сетей WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">У Вас нет прав на изменение сети WLAN.</string>
+    <string name="wifi_wps_setup_title">Безопасная настройка WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Нажмите кнопку \"Безопасная настройка WLAN\" на своем роутере. Она может называться WPS, а также содержать следующий символ:</string>
+    <string name="wifi_wps_onstart_pin">Введите PIN-код %1$s на маршрутизаторе WLAN. Для завершения настройки потребуется не более двух минут.</string>
+    <string name="wifi_wps_connected">Установлено подключение к сети WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Для повышения точности геолокации и для других целей приложение %1$s пытается включить поиск сетей, даже когда сеть WLAN выключена.
+
+Разрешить это всем приложениям?"</string>
+    <string name="wifi_skipped_message">"ВНИМАНИЕ: Возможны дополнительные расходы.
+
+Настройка телефона может привести к повышению трафика."</string>
+    <string name="wifi_and_mobile_skipped_message">ВНИМАНИЕ! Поиск обновлений для программного обеспечения не поддерживается.</string>
+    <string name="wifi_connect_failed_message">Не удалось подключиться к сети WLAN.</string>
+    <string name="wifi_advanced_titlebar">Расширенные настройки WLAN</string>
+    <string name="wifi_configure_titlebar">Настройка WLAN</string>
+    <string name="wifi_advanced_not_available">Расширенные настройки WLAN недоступны для этого пользователя</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Точка доступа WLAN</string>
+    <string name="wifi_tether_failed_subtext">Ошибка подключения</string>
+    <string name="wifi_tether_configure_ap_text">Настроить точку WLAN</string>
+    <string name="wifi_tether_configure_subtext">Точка доступа %1$s %2$s</string>
+    <string name="wifi_calling_settings_title">Настройки WLAN-вызова</string>
+    <string name="wifi_calling_suggestion_title">Включите звонки по WLAN</string>
+    <string name="wifi_calling_suggestion_summary">Используйте WLAN вместо мобильной сети</string>
+    <string name="wifi_calling_mode_title">WLAN-вызов</string>
+    <string name="wifi_calling_mode_dialog_title">Режим WLAN-вызова</string>
+    <string name="wifi_calling_off_explanation">Когда функция \"Звонки по WLAN\" включена, для исходящих вызовов может использоваться как WLAN, так и мобильная сеть (в зависимости от ваших предпочтений и уровня сигнала). Прежде чем включить эту функцию, свяжитесь со своим оператором и уточните детали.</string>
+    <string name="status_wifi_mac_address">MAC-адрес WLAN</string>
+    <string name="reset_network_desc">"Данное действие сбросит все настройки сетей, включая:
+
+"<li>Сеть WLAN</li>"
+"<li>Сеть мобильной передачи данных</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Сменить ассистента WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Использовать GPS, WLAN и мобильные сети для определения местоположения</string>
+    <string name="location_mode_battery_saving_description">Использовать WLAN и мобильные сети для определения местоположения</string>
+    <string name="location_scanning_wifi_always_scanning_title">Поиск сетей WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Право системных приложений и служб определять сети WLAN повышает точность поиска</string>
+    <string name="location_network_based">По координатам сети</string>
+    <string name="location_neighborhood_level">Использовать WLAN и мобильные сети для определения местоположения</string>
+    <string name="location_neighborhood_level_wifi">Местоположение определяется с помощью WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Время работы WLAN</string>
+    <string name="bluetooth_on_time">Время работы WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN</string>
+    <string name="usage_type_data_wifi_send">Данные, переданные по WLAN</string>
+    <string name="usage_type_data_wifi_recv">Данные, полученные по WLAN</string>
+    <string name="battery_action_wifi">Настройки WLAN</string>
+    <string name="battery_desc_wifi">Использование батареи модулем WLAN</string>
+    <string name="battery_sugg_wifi">Отключить модуль WLAN, когда он не используется или сеть недоступна</string>
+    <string name="gadget_toggle_wifi">Обновление настроек WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Сохранять резервные копии данных приложений, паролей точек доступа WLAN и настроек на серверах Google</string>
+    <string name="backup_erase_dialog_message">Прекратить резервное копирование паролей точек доступа WLAN, закладок, других настроек и данных приложений, а также удалить все копии с серверов Google?</string>
+    <string name="fullbackup_erase_dialog_message">Остановить резервное копирование данных устройства (паролей сетей WLAN и списка вызовов) и данных приложений (настроек и файлов, сохраненных приложениями), удалить все копии на Google Диске?</string>
+    <string name="fullbackup_data_summary">"Автоматически копируйте данные устройства (например, пароли сетей WLAN и журнал звонков), а также сведения из приложений (например, настройки и файлы) в удаленное хранилище.
+
+После того как вы включите резервное копирование, информация будет периодически сохраняться в удаленном хранилище. Обратите внимание, что данные приложений могут включать конфиденциальную информацию: контакты, сообщения, фотографии и другие сведения, сохраненные приложением на устройстве согласно настройкам разработчика."</string>
+    <string name="wifi_setup_title">Настройки WLAN</string>
+    <string name="wifi_setup_title_editing_network">Подключение к сети WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Подключение к сети WLAN: %s</string>
+    <string name="wifi_setup_eap_not_supported">Во время установки нельзя настроить подключение к сети WLAN с защитой EAP. Вы можете сделать это позже в меню \"Настройки > Беспроводные сети\".</string>
+    <string name="wifi_setup_description_connected">Нажмите <b>Далее</b>" для продолжения установки.
+
+Нажмите "<b>Назад</b> для подключения к другой сети WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Трафик WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Скрыть статистику WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Лимитировать трафик WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Отключить фоновый режим для мобильных сетей. Использовать WLAN.</string>
+    <string name="data_usage_app_restrict_dialog">"Если нет доступа к WLAN, эта функция может приостановить приложения, использующие фоновый режим обмена данными.
+
+Более подходящие параметры можно найти в настройках этих приложений."</string>
+    <string name="data_usage_restrict_background">Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Если ограничить передачу данных в фоновом режиме, некоторые приложения и службы не будут работать без подключения к сети WLAN.
+
+Настройки будут изменены для всех пользователей устройства."</string>
+    <string name="data_usage_metered_body">Выберите сети WLAN, являющиеся моб. точками доступа. Можно запретить приложениям передачу данных в фон. режиме по выбранным сетям и настроить отправку уведомлений перед использованием этих сетей для больших загрузок.</string>
+    <string name="data_usage_metered_wifi">Сети WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Чтобы выбрать точку доступа, включите WLAN.</string>
+    <string name="user_add_user_message_long">"Если устройством пользуется несколько человек, заведите для них отдельные аккаунты. В результате у каждого пользователя появится свое пространство, где можно будет установить собственные приложения или обои. При этом некоторые параметры, например настройки WLAN, останутся общими для всех.
+
+Обновление приложений будет происходить для всехаккаунтов одновременно. Установить обновление сможет любой пользователь.
+
+"</string>
+    <string name="restriction_wifi_config_title">WLAN и моб. передача данных</string>
+    <string name="restriction_wifi_config_summary">Разрешить изменение настроек сети WLAN и мобильной сети</string>
+    <string name="keywords_wifi">WLAN сетевое подключение</string>
+    <string name="keywords_wifi_calling">WLAN WLAN вызов вызовы</string>
+    <string name="setup_wifi_nfc_tag">Настройка NFC-тега WLAN</string>
+    <string name="condition_hotspot_summary">Включена беспроводная точка доступа (%1$s). WLAN на этом устройстве отключен.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth и сотовая сеть отключены. Вы не сможете позвонить или подключиться к Интернету.</string>
+    <string name="condition_cellular_summary">Интернет доступен только через WLAN</string>
+    <string name="condition_bg_data_summary">Для обмена данными в фоновом режиме требуется подключение к сети WLAN. Когда она недоступна, некоторые сервисы и приложения не будут работать.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN-мост</string>
+    <string name="wifi_tether_bridge_tittle_text">Настройки WLAN-моста</string>
+    <string name="wifi_tether_configure_bridge_text">Настроить WLAN-мост</string>
+    <string name="wifi_bridge_settings_summary">Настройте имя моста, пароль и другие параметры</string>
+    <string name="wifi_bridge_use_help_title">Справка</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN-мост может значительно увеличить зону покрытия сети и мощность WLAN-сигналов. Другие устройства могут подключиться к Вашей сети WLAN через Ваше устройство.
+2. WLAN-мост поддерживает одновременное подключение до 4 устройств.
+3. Функция WLAN-моста не работает с точкой доступа WLAN и функцией WLAN Direct. Если WLAN-мост включен, некоторые приложения, использующие службы P2P, могут работать некорректно.
+4. При использовании функции WLAN-моста увеличивается энергопотребление устройства."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">Требуется WLAN-соединение</string>
+    <string name="wifi_bridge_switch_wifi_summary">Увеличение зоны покрытия сети WLAN</string>
+    <string name="wifi_setup_title_connected_network_Toast">Подключено к сети WLAN %s</string>
+    <string name="huawei_beam_explained">Huawei Beam позволяет передавать файлы, например изображения, видео, контакты и URL-адреса, между Вашим устройством и другим устройством с поддержкой NFC. Чтобы активировать Huawei Beam, разместите два устройства задними панелями друг к другу и коснитесь экрана Вашего устройства. Учтите, что Bluetooth или WLAN может включиться автоматически перед передачей файла.</string>
+    <string name="wifi_display_settings_summary">Отображение экрана телефона на другом экране при WLAN-соединении</string>
+    <string name="cell_switch_to_wifi_prompt">Доступны сети WLAN %s. Отключить мобильную передачу данных и подключиться к сети WLAN?</string>
+    <string name="switch_to_wifi_manual_prompt">Есть WLAN-сигнал. Использовать эту сеть WLAN?</string>
+    <string name="switch_to_wifi_query_prompt">Доступны сети WLAN %s. Подключиться к сети WLAN?</string>
+    <string name="wifi_to_wifi_prompt">Слабый сигнал текущей сети. Использовать другую сеть WLAN?</string>
+    <string name="advanced_wifi_settings_title">Расширенные настройки</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam позволяет передавать файлы на другие устройства с поддержкой NFC. Для этого приложите два устройства друг к другу. Например, Вы можете отправлять изображения, видеофайлы, контакты и URL-адреса между двумя устройствами с поддержкой NFC. Просто:
+1. Приложите Ваше устройство фронтальной панелью к другому устройству с поддержкой NFC; поднимите Ваше устройство после звукового сигнала.
+2. Нажмите на экран в течение трех секунд после звукового сигнала.
+3. Приложите еще раз Ваше устройство фронтальной панелью к другому устройству с поддержкой NFC, чтобы завершить передачу. Учтите, что Bluetooth или WLAN может включиться автоматически перед передачей файла."</string>
+    <string name="wifiap_use_help_details">"1. Можно использовать Ваше устройство как мобильную точку доступа WLAN. Другие устройства смогут подключиться к Вашему устройству по сети WLAN, при этом они будут получать доступ в Интернет по мобильной сети передачи данных.
+2. Для работы мобильной точки доступа WLAN требуется включить мобильную передачу данных. Это приведет к соответствующим расходам.
+3. Включение мобильной точки доступа WLAN может значительно снизить заряд батареи Вашего устройства."</string>
+    <string name="wifiap_connect_help_details_open">"Подключение вручную:
+1. Включите WLAN на подключаемом устройстве и выполните поиск точки доступа %1$s.
+2. Подключитесь к этой точке доступа."</string>
+    <string name="wifi_connected_to_cmcc_title">Сеть WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Вы подключены к сети WLAN China Mobile. Использование этой сети может привести к соответствующим расходам.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Уведомление сети WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Уведомлять при подключении к сети WLAN China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">При переключении между сетями (моб. сеть и сеть WLAN, различные сети WLAN) уведомление не будет отображаться</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Использовать GPS и WLAN для определения местоположения</string>
+    <string name="location_mode_battery_saving_description_wifionly">Использовать WLAN для определения местоположения</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Умное переключение между сетью WLAN и моб. сетью передачи данных</string>
+    <string name="wifi_plus_description">"При активации функции WLAN+ будет проводиться оценка WLAN-соединения для выполнения умного переключения между сетями (при этом может увеличиться объем трафика по сети WLAN). Функция WLAN+:
+1. Осуществляет автоматическое переключение (с уведомлениями) между сетью WLAN и сетью моб. передачи данных для повышения скорости работы сети Интернет.
+2. Автоматически включает WLAN, когда устройство попадает в зону покрытия известной сети WLAN, и подключается к этой сети."</string>
+    <string name="wifi_plus_settings_title">Настройки WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Умное переключение между сетью WLAN и моб. сетью передачи данных для повышения качества интернет-соединения.</string>
+    <string name="wifi_plus_auto_turn_on_description">Автоматическое включение WLAN при приближении к известному местоположению.</string>
+    <string name="wifi_plus_global_description">"При активации функции WLAN+ будет проводиться оценка WLAN-соединения для выполнения умного переключения между сетями (при этом может увеличиться объем трафика по сети WLAN). Функция WLAN+:
+1. Осуществляет автоматическое переключение между сетью WLAN и моб. сетью передачи данных для повышения скорости работы сети Интернет.
+2. Автоматически включает WLAN, когда устройство попадает в зону покрытия известной сети WLAN, и подключается к этой сети. "</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS, WLAN и мобильные сети</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN и мобильные сети</string>
+    <string name="pgps_switch_summary">Позволяет GPS получать информацию о близлежащих базовых станциях и сетях WLAN для быстрого предоставления более точных данных о местоположении</string>
+    <string name="find_no_wlan_ap">Не удалось найти точку доступа WLAN</string>
+    <string name="cannot_connect_wlan">Невозможно подключиться к WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Невозможно подключиться к Интернету по WLAN</string>
+    <string name="wfd_connect_fail">Сбой подключения по WLAN Direct</string>
+    <string name="find_no_wfd_device">Не удалось найти устройство с функцией WLAN Direct</string>
+    <string name="wfd_search_no_devices_causes">"Нет доступных устройств. Возможно:
+1. На сопряженном устройстве не включена настройка видимости.
+2. На сопряженном устройстве технические неполадки. Попробуйте выключить и снова включить WLAN и повторно включить WLAN Direct.
+3. На Вашем устройстве технические неполадки. Попробуйте выключить и снова включить WLAN и повторно включить WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"Не удается установить соединение. Возможные причины:
+1. Сопряженное устройство не приняло запрос на подключение.
+2. На одном из сопрягаемых устройств уже установлено соединение по WLAN Direct.
+3. На сопряженном устройстве технические неполадки. Попробуйте перезагрузить его."</string>
+    <string name="wifi_qrcode_share_notice">Отсканируйте QR-код, чтобы подключиться к этой сети WLAN</string>
+    <string name="devices_not_found_solution_title">Если не удается найти устройство, выполните следующие действия:</string>
+    <string name="devices_not_found_solution_message">"1. Убедитесь, что это устройство может выполнять поиск других устройств.
+2. Если на другом устройстве возникли проблемы, на нем следует перезапустить WLAN и подключиться к WLAN Direct повторно.
+3. Если на Вашем устройстве возникли проблемы, перезапустите WLAN и подключитесь к WLAN Direct повторно."</string>
+    <string name="devices_not_connected_solution_message">"1. Убедитесь, что другое устройство приняло запрос на установление соединения.
+2. Убедитесь, что ни к Вашему устройству, ни к другому устройству не подключены никакие устройства.
+3. Если на другом устройстве возникли проблемы, попробуйте установить соединение повторно."</string>
+    <string name="wifi_plus_description_emui">"При активации функции WLAN+ будет проводиться оценка WLAN-соединения для выполнения умного переключения между сетями (при этом может увеличиться объем трафика по сети WLAN). Функция WLAN+:
+1. Осуществляет автоматическое переключение между сетью WLAN и сетью моб. передачи данных для повышения скорости работы сети Интернет (можно выбрать режим переключения по умолчанию в настройках моб. сети).
+2. Автоматически включает WLAN, когда устройство попадает в зону покрытия известной сети WLAN, и подключается к этой сети."</string>
+    <string name="link_plus_live_update_description">Когда включено онлайн-обновление сервиса Связь+, выполняется автоматическое обновление параметров соединения по беспроводным сетям (по умолчанию по сети WLAN) с целью оптимизации соответствующих функций сервиса Связь+.</string>
+    <string name="wifi_plus_description_emui2">"Когда включена функция WLAN+, будет выполняться мониторинг WLAN-соединения для предоставления услуги умного переключения (может измениться трафик по сети WLAN). Функция WLAN+ автоматически:
+1. Выполняет переключение между сетью WLAN и сетью моб. передачи данных (режим переключения по умолчанию можно задать в настройках моб. сети) для предоставления стабильного доступа в Интернет.
+2. В зоне действия сети WLAN, к которой устройство подключалось ранее, устройство включает WLAN и подключается к этой сети.
+3. Выполняет мониторинг доступных сетей WLAN. Устройство не будет автоматически подключаться к сохраненным сетям, у которых нет доступа в Интернет.
+4. Получает код подтверждения из входящего SMS-сообщения для подключения к некоторым бесплатным сетям WLAN через браузер (поддерживается только в Китае)."</string>
+    <string name="wifi_plus_global_description2">"Когда включена функция WLAN+, будет выполняться мониторинг WLAN-соединения для предоставления услуги умного переключения (может измениться трафик по сети WLAN). Функция WLAN+ автоматически:
+1. Выполняет переключение между сетью WLAN и сетью моб. передачи данных для предоставления стабильного доступа в Интернет.
+2. В зоне действия сети WLAN, к которой устройство подключалось ранее, устройство включает WLAN и подключается к этой сети.
+3. Выполняет мониторинг доступных сетей WLAN. Устройство не будет автоматически подключаться к сохраненным сетям, у которых нет доступа в Интернет."</string>
+    <string name="help_message">"1. Принтер и телефон не подключены к одной сети WLAN.
+2. Принтер не поддерживает эту услугу (уточните у производителя).
+3. Тайм-аут поиска. Повторите попытку.
+4. Сбой принтера. Перезагрузите его и повторите попытку."</string>
+    <string name="wifi_cloud_security_check_title">Проверка защиты сети WLAN</string>
+    <string name="wifi_cloud_security_check_summary">Проверка уровня защиты подключенных сетей WLAN с помощью приложения Диспетчер телефона и приостановка автоматического подключения к сохраненным сетям, содержащим угрозу безопасности</string>
+    <string name="wifi_plus_description_emui3">"Когда включена функция WLAN+, будет выполняться мониторинг WLAN-соединения для предоставления услуги умного переключения, а также обновление параметров оптимизации по сети WLAN (может измениться трафик по сети WLAN). Функция WLAN+ автоматически:
+1. Выполняет переключение между сетью WLAN и сетью моб. передачи данных (режим переключения по умолчанию можно задать в настройках моб. сети) для предоставления стабильного доступа в Интернет.
+2. В зоне действия сети WLAN, к которой устройство подключалось ранее, устройство включает WLAN и подключается к этой сети.
+3. Выполняет мониторинг доступных сетей WLAN. Устройство не будет автоматически подключаться к сохраненным сетям, у которых нет доступа в Интернет.
+4. Получает код подтверждения из входящего SMS-сообщения для подключения к некоторым бесплатным сетям WLAN через браузер (поддерживается только в Китае)."</string>
+    <string name="user_add_user_message">"Можно передавать это устройство другим, создавая дополнительных пользователей. У каждого пользователя будет его рабочая область, в которой можно будет настроить приложения, обои и пр. Пользователи также смогут настраивать системные параметры, например WLAN, которые будут применяться для всех пользователей.
+
+При добавлении нового пользователя ему потребуется настроить свою рабочую область.
+
+Любой пользователь сможет обновлять приложения для всех пользователей."</string>
+    <string name="print_user_warning">Ваше устройство выполнит поиск принтеров по сети WLAN при включении службы печати. Это приведет к расходам трафика по сети WLAN.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN-вызовы</string>
+    <string name="wifi_calling_dialog_title">Включить WLAN-вызовы</string>
+    <string name="wifi_calling_dialog_message">Когда эта функция включена, невозможно выполнять экстренные вызовы по сети WLAN. Включить?</string>
+    <string name="device_name_settings_summary">Это имя Вашего устройства будет отображаться на других устройствах, когда Вы используете функции Bluetooth, WLAN Direct, режим модема и точку доступа.</string>
+    <string name="device_name_settings_dialog">Изменение имени устройства приведет к выключению функции точки доступа WLAN. Изменить?</string>
+    <string name="write_wifi_nfc_tag">Запись в WLAN NFC-тег</string>
+    <string name="wifi_plus_smart_switch_title">Умное переключение между WLAN и моб. сетью</string>
+    <string name="wifi_plus_smart_switch_summary">Мониторинг сетей WLAN и переключение между сетью WLAN (может привести к повышению объема трафика) и моб. сетью передачи данных для повышения качества сетевого соединения. Режим переключения по умолчанию задан в настройках моб. сети</string>
+    <string name="wifi_plus_smart_switch_summary_global">Мониторинг сетей WLAN и переключение между сетью WLAN (может привести к повышению объема трафика) и моб. сетью передачи данных для повышения качества сетевого соединения</string>
+    <string name="wifi_plus_auto_turn_title">Автовкл. и выкл. WLAN</string>
+    <string name="wifi_plus_auto_turn_summary">В зоне действия сети WLAN, к которой устройство подключалось ранее, устройство включает WLAN и подключается к этой сети</string>
+    <string name="wifi_plus_quality_evaluation_title">Мониторинг доступных сетей WLAN</string>
+    <string name="wifi_plus_quality_evaluation_summary">Оценка доступности сетей WLAN. Автоподключение к известным сетям без доступа в Интернет приостановлено</string>
+    <string name="wifi_plus_fast_connect_title">Подключение к бесплатным сетям WLAN</string>
+    <string name="wifi_plus_fast_connect_summary">Получение кода подтверждения из входящего SMS-сообщения для автоматического подключения к некоторым бесплатным сетям WLAN через браузер (в данный момент поддерживается только в Китае)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Когда включено онлайн-обновление сервиса Связь+, выполняется автоматическое обновление параметров соединения по беспроводным сетям (по умолчанию по сети WLAN) с целью оптимизации функций связи.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Мобильная передача данных</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS и WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. Функция WLAN-моста повышает диапазон передачи и уровень сигналов сети WLAN. Другие устройства смогут подключаться к текущей сети WLAN с помощью Вашего устройства.
+2. WLAN-мост поддерживает подключение до 4 устройств.
+3. WLAN-мост не работает одновременно с функциями точки доступа WLAN и WLAN Direct. Когда включен WLAN-мост, некоторые приложения, использующие службы P2P, могут работать некорректно.
+4. Использование WLAN-моста повышает энергопотребление телефона.
+5. Если Вы получите сообщение, что ресурсы сети WLAN используются другой службой, выберите Настройки > WLAN > WLAN Direct и отключите все подключенные устройства или выключите и повторно включите WLAN для автоматического отключения всех устройств."</string>
+    <string name="wifi_qrcode_share_notice_new">Отсканируйте, чтобы подключиться к этой сети WLAN</string>
+    <string name="location_help_scheme_body_one">"1. Убедитесь, что функция Доступ к данным о моем местоположении включена.
+2. Для параметра Режим определения местоположения выберите значение GPS, WLAN и мобильные сети.
+3. Подключитесь к сети WLAN или включите мобильную передачу данных.
+4. Убедитесь, что у используемого приложения есть право доступа к данным о местоположении в приложении Диспетчер телефона > Диспетчер прав > Доступ к геоданным.
+5. Если для параметра Режим определения местоположения выбрано значение Только GPS, убедитесь, что Вы находитесь в открытом месте, сигналы GPS принимаются корректно.
+6. Если Вы подключены к публичной точке доступа WLAN, отключитесь от сети WLAN и включите мобильную передачу данных. Повторите попытку определения местоположения."</string>
+    <string name="location_help_scheme_body_two">"1. Для параметра Режим определения местоположения выберите значение GPS, WLAN и мобильные сети.
+2. Если устройство в металлическом чехле, снимите его и повторите попытку.
+3. Убедитесь, что у используемого приложения есть право доступа к данным о местоположении в приложении Диспетчер телефона > Диспетчер прав > Доступ к геоданным.
+4. Службы навигации работают лучше в открытых местах. Разместите телефон на приборной панели автомобиля или в другом открытом месте."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. Функция WLAN-моста повышает диапазон передачи и уровень сигналов сети WLAN. Другие устройства смогут подключаться к текущей сети WLAN с помощью Вашего устройства.
+%2$d. WLAN-мост поддерживает подключение до %6$d устройств.
+%3$d. WLAN-мост не работает одновременно с функциями точки доступа WLAN и WLAN Direct. Когда включен WLAN-мост, некоторые приложения, использующие службы P2P, могут работать некорректно.
+%4$d. Использование WLAN-моста повышает энергопотребление телефона.
+%5$d. Если Вы получите сообщение, что ресурсы сети WLAN используются другой службой, выберите Настройки > WLAN > WLAN Direct и отключите все подключенные устройства или выключите и повторно включите WLAN для автоматического отключения всех устройств."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Можно использовать Ваше устройство как мобильную точку доступа WLAN. Другие устройства смогут подключиться к Вашему устройству по сети WLAN, при этом они будут получать доступ в Интернет по мобильной сети передачи данных.
+%2$d. Для работы мобильной точки доступа WLAN требуется включить мобильную передачу данных. Это приведет к соответствующим расходам.
+%3$d. Включение мобильной точки доступа WLAN может значительно снизить заряд батареи Вашего устройства."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Подключение вручную:
+%2$d. Включите WLAN на другом устройстве, выполните поиск точки доступа %1$s.
+%3$d. Подключитесь к точке доступа."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Убедитесь, что функция Доступ к данным о моем местоположении включена.
+%2$d. Для параметра Режим определения местоположения выберите значение GPS, WLAN и мобильные сети.
+%3$d. Подключитесь к сети WLAN или включите мобильную передачу данных.
+%4$d. Убедитесь, что у используемого приложения есть право доступа к данным о местоположении в приложении Диспетчер телефона > Диспетчер прав > Доступ к геоданным.
+%5$d. Если для параметра Режим определения местоположения выбрано значение Только GPS, убедитесь, что Вы находитесь в открытом месте, сигналы GPS принимаются корректно.
+%6$d. Если Вы подключены к публичной точке доступа WLAN, отключитесь от сети WLAN и включите мобильную передачу данных. Повторите попытку определения местоположения."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Для параметра Режим определения местоположения выберите значение GPS, WLAN и мобильные сети.
+%2$d. Если устройство в металлическом чехле, снимите его и повторите попытку.
+%3$d. Убедитесь, что у используемого приложения есть право доступа к данным о местоположении в приложении Диспетчер телефона > Диспетчер прав > Доступ к геоданным.
+%4$d. Службы навигации работают лучше в открытых местах. Разместите телефон на приборной панели автомобиля или в другом открытом месте."</string>
+    <string name="turn_off_data_saver_message">Для использования функции точки доступа требуется выключить экономию трафика. Выключить?</string>
+    <string name="first_wlan_hotspot_text">Точка доступа WLAN позволяет предоставлять доступ в Интернет для других устройств, но может привести к быстрому разряду батареи и повышению трафика данных.</string>
+    <string name="hotspot_power_notification_title">Точка доступа WLAN выключена</string>
+    <string name="hotspot_power_notification_ticker_text">Точка доступа WLAN выключена</string>
+    <string name="toast_entitle_wifi_need_close">Невозможно использовать эту функцию, когда сеть WLAN включена. Сначала выключите WLAN.</string>
+    <string name="wifi_activated_warning_Title">Сеть WLAN включена</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Невозможно одновременно включить точку доступа и WLAN. Выключить WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN сейчас выключится и включится автоматически после подключения телефона к серверам AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">Если выключить функцию Трансляция имени сети (SSID), телефон не будет видимым для других устройств и не будет отображаться в списке доступных сетей WLAN. Другие устройства смогут подключаться к точке доступа, образованной Вашим телефоном, путем ввода имени сети (SSID) вручную.</string>
+    <string name="enable">Автоподключение к AT&amp;T WLAN включено</string>
+    <string name="disable">Автоподключение к AT&amp;T WLAN выключено</string>
+    <string name="auto_connect_wifi_suggestion">Перезагрузите WLAN, чтобы применить настройки автоподключения.</string>
+    <string name="wifi_network_detect_summary">Проверка доступности интернет-соединения при подключении к точке доступа WLAN</string>
+    <string name="wifi_disable_by_deivice_admin">Сеть WLAN отключена администратором устройства</string>
+    <string name="wifi_required_info_text">Для завершения настройки необходим доступ к сети WLAN. После завершения настройки Вы сможете переключаться между мобильной сетью и сетью WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">Полоса частот WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s управляет Вашим устройством и не разрешает Вам изменить или удалить эту сеть WLAN. Более подробную информацию спрашивайте у Вашего администратора.</string>
+</resources>

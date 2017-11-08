@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">WLANアシスタント経由で接続済み</string>
+    <string name="accessibility_wifi_off">WLANがオフです。</string>
+    <string name="accessibility_no_wifi">WLANが切断されました</string>
+    <string name="accessibility_wifi_one_bar">WLAN電波：レベル1</string>
+    <string name="accessibility_wifi_two_bars">WLAN電波：レベル2</string>
+    <string name="accessibility_wifi_three_bars">WLAN電波：レベル3</string>
+    <string name="accessibility_wifi_signal_full">WLAN電波：フル</string>
+    <string name="wifi_verbose_logging">WLANの詳細ロギングを有効化</string>
+    <string name="wifi_aggressive_handover">WLANからモバイルデータ通信への優先的な切替え</string>
+    <string name="wifi_allow_scan_with_traffic">WLANローミングスキャンを常に許可</string>
+    <string name="wifi_verbose_logging_summary">WLANロギングレベルを上げて、WLANピッカー内でSSID RSSI毎に表示</string>
+    <string name="wifi_aggressive_handover_summary">有効にすると、WLAN電波が弱い場合、WLANからモバイルデータ通信への優先的な切替えを実行</string>
+    <string name="wifi_allow_scan_with_traffic_summary">インターフェース上に存在するデータトラフィック量に基づいてWLANローミングスキャンを許可／制限</string>
+    <string name="mobile_data_always_on_summary">WLANが有効な場合でも、モバイルデータ通信を常に有効にする（高速ネットワーク切替）</string>
+    <string name="radio_controls_summary">WLAN、Bluetooth、機内モード、モバイルネットワーク、VPNの設定</string>
+    <string name="wifi_assistant_title">WLANアシスタント</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLANをONにする</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN設定</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLANの選択</string>
+    <string name="wifi_select_network">WLANネットワークを選択</string>
+    <string name="wifi_starting">WLANをONにしています...</string>
+    <string name="wifi_stopping">WLANをOFFにします...</string>
+    <string name="wifi_poor_network_detection_summary">安定したインターネット接続がある場合のみWLANネットワークを使用する</string>
+    <string name="wifi_automatically_connect_title">オープンなWLANを自動的に利用</string>
+    <string name="wifi_automatically_connect_summary">WLANアシスタントにより、電波状態の良好なオープンネットワークに自動接続する</string>
+    <string name="wifi_scan_notify_text">位置情報の精度を向上するために、システムアプリとサービスでWLANネットワークをスキャン可能です。これはLINK_BEGINスキャン設定LINK_ENDで変更できます。</string>
+    <string name="wifi_setting_sleep_policy_title">スリープ時にWLAN接続を維持</string>
+    <string name="wifi_suspend_optimizations">WLAN最適化</string>
+    <string name="wifi_suspend_optimizations_summary">WLANがONのときに電池消費量を節約する</string>
+    <string name="wifi_access_points">WLANネットワーク</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">利用可能なネットワークを表示するにはWLANをON</string>
+    <string name="wifi_empty_list_wifi_on">WLANネットワークを検索中…</string>
+    <string name="wifi_empty_list_user_restricted">WLANネットワークを変更する権限がありません</string>
+    <string name="wifi_wps_setup_title">WLAN保護設定</string>
+    <string name="wifi_wps_onstart_pbc">ルーターのWLAN保護設定ボタンを押します。「WPS」と表記されている場合や、次のような記号が表示されている場合もあります：</string>
+    <string name="wifi_wps_onstart_pin">WLANルーターでPIN「%1$s」を入力します。セットアップの完了まで最大2分ほどかかることがあります。</string>
+    <string name="wifi_wps_connected">WLANネットワーク%sに接続しました</string>
+    <string name="wifi_scan_always_turnon_message">"位置情報の精度向上などの目的で、WLANがオフの場合でも%1$sがネットワークスキャンを有効にしようとしています。
+
+これをスキャンを実行するすべてのアプリに対して許可しますか？"</string>
+    <string name="wifi_skipped_message">"警告：追加のデータ通信料が発生する可能性があります。
+
+端末の設定時にトラフィックが大量に発生する場合があります。"</string>
+    <string name="wifi_and_mobile_skipped_message">警告：端末は、ソフトウェアが最新の状態かどうかを確認できません</string>
+    <string name="wifi_connect_failed_message">端末からこのWLANネットワークに接続できませんでした</string>
+    <string name="wifi_advanced_titlebar">詳細なWLAN設定</string>
+    <string name="wifi_configure_titlebar">WLAN の設定</string>
+    <string name="wifi_advanced_not_available">このユーザーは WLAN 詳細設定を利用できません</string>
+    <string name="wifi_p2p_settings_title">WLAN Directの設定</string>
+    <string name="wifi_tether_checkbox_text">ポータブルWLANアクセスポイント</string>
+    <string name="wifi_tether_failed_subtext">ポータブルWLANアクセスポイントエラー</string>
+    <string name="wifi_tether_configure_ap_text">WLANアクセスポイントを設定</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$sポータブルWLANアクセスポイント</string>
+    <string name="wifi_calling_settings_title">WLAN通話設定</string>
+    <string name="wifi_calling_suggestion_title">WLAN 通話の有効化</string>
+    <string name="wifi_calling_suggestion_summary">モバイル ネットワークの代わりに WLAN を使用できます</string>
+    <string name="wifi_calling_mode_title">WLAN通話</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN通話モード</string>
+    <string name="wifi_calling_off_explanation">WLAN発信をONにすると、ユーザーの設定と信号の強度に応じて、スマートフォンからWLANネットワークか携帯通信会社ネットワークのいずれかを経由して通話をルーティングできるようになります。この機能をONにする場合は、事前に料金などの条件について携帯通信会社にご確認ください。</string>
+    <string name="status_wifi_mac_address">WLAN MACアドレス</string>
+    <string name="reset_network_desc">"これにより、以下のすべてのネットワーク設定がリセットされます：
+
+"<li>WLAN</li>"
+"<li>モバイルデータ通信</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">WLANアシスタントを変更しますか？</string>
+    <string name="location_mode_high_accuracy_description">"GPS、WLAN、モバイルネットワークを使用して現在地を推測 "</string>
+    <string name="location_mode_battery_saving_description">WLANとモバイルネットワークを使用して現在地を推測</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLANのスキャン</string>
+    <string name="location_scanning_wifi_always_scanning_description">システムアプリとサービスかWLANネットワークの検出を常に許可することで位置情報の精度を向上</string>
+    <string name="location_network_based">WLANとモバイルネットワークの位置情報</string>
+    <string name="location_neighborhood_level">WLANおよびモバイルネットワークで位置を検出します</string>
+    <string name="location_neighborhood_level_wifi">WLANで検出される現在地</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLANをONにしている時間</string>
+    <string name="bluetooth_on_time">WLANをONにしている時間</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN使用</string>
+    <string name="usage_type_data_wifi_send">WLANデータ送信量</string>
+    <string name="usage_type_data_wifi_recv">WLANデータ受信量</string>
+    <string name="battery_action_wifi">WLAN設定</string>
+    <string name="battery_desc_wifi">WLANの電池使用量</string>
+    <string name="battery_sugg_wifi">未使用時または圏外のときWLANをOFFにします</string>
+    <string name="gadget_toggle_wifi">WLAN設定の更新</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">アプリのデータ、WLANパスワード、その他の設定をGoogleサーバーにバックアップする</string>
+    <string name="backup_erase_dialog_message">WLANパスワード、ブックマーク、その他の設定とアプリのデータのバックアップを停止し、Googleサーバー上のすべてのコピーを消去しますか？</string>
+    <string name="fullbackup_erase_dialog_message">デバイスデータ（WLANパスワードや通話履歴など）およびアプリデータ（アプリに保存されている設定およびファイルなど）のバックアップを停止して、Google Drive上のすべてのコピーを削除しますか？</string>
+    <string name="fullbackup_data_summary">"端末のデータ（WLANのパスワードや通話履歴など）とアプリのデータ（アプリで保存された設定やファイルなど）を自動的にリモートでバックアップします。
+
+自動バックアップをONにすると、端末のデータとアプリのデータは定期的にリモートで保存されます。アプリのデータとしては、連絡先、メッセージ、写真など、機密と見なされるデータを含め、（デベロッパーの設定に基づいて）アプリで保存されたすべてのデータがバックアップされる可能性があります。"</string>
+    <string name="wifi_setup_title">WLAN設定</string>
+    <string name="wifi_setup_title_editing_network">WLANネットワーク「%s」に接続</string>
+    <string name="wifi_setup_title_connecting_network">WLANネットワーク「%s」に接続中...</string>
+    <string name="wifi_setup_eap_not_supported">EAP WLAN接続はセットアップ時に設定できません。セットアップの完了後に[設定]の[無線とネットワーク]で設定することができます。</string>
+    <string name="wifi_setup_description_connected">設定を続けるには[<b>次へ</b>"]をタップします。
+
+別のWLANネットワークに接続するには["<b>戻る</b>]をタップします。</string>
+    <string name="data_usage_menu_show_wifi">WLAN使用を表示する</string>
+    <string name="data_usage_menu_hide_wifi">WLANを非表示にする</string>
+    <string name="data_usage_disable_wifi_limit">WLANデータの制限を設定する</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">モバイルデータネットワーク上でのみバックグラウンドデータを無効にします。WLANが使用可能な場合はWLANが使用されます。</string>
+    <string name="data_usage_app_restrict_dialog">"この機能をONにすると、WLANが使用できないとき、バックグラウンドデータに依存するアプリが停止する可能性があります。
+
+データ使用をより適切に管理できるオプションがアプリの設定画面にないかご確認ください。"</string>
+    <string name="data_usage_restrict_background">バックグラウンドのモバイルデータを制限すると、アプリやサービスによっては、WLANネットワーク未接続時に機能しない場合があります</string>
+    <string name="data_usage_restrict_background_multiuser">"バックグラウンドのモバイルデータを制限すると、アプリやサービスによっては、WLANネットワーク未接続時に機能しない場合があります。
+
+この設定はこの端末上のすべてのユーザーに影響します。"</string>
+    <string name="data_usage_metered_body">ﾓﾊﾞｲﾙAPであるWLANﾈｯﾄﾜｰｸを選択してください。ｱﾌﾟﾘがﾊﾞｯｸｸﾞﾗｳﾝﾄﾞで実行中、このﾈｯﾄﾜｰｸの使用を禁止したり、大容量のﾀﾞｳﾝﾛｰﾄﾞ時に警告することもできます</string>
+    <string name="data_usage_metered_wifi">WLANネットワーク</string>
+    <string name="data_usage_metered_wifi_disabled">モバイルアクセスポイントを選択するには、WLANをONにします</string>
+    <string name="user_add_user_message_long">"追加ユーザーを作成して、この端末を他のユーザーと共有できます。各ユーザーは各自のスペースを所有でき、アプリや壁紙などを使用してカスタマイズできます。WLANなど、すべてのユーザーに影響するタブレット設定を変更することもできます。
+
+新しいユーザーを作成したら、そのユーザーはセットアップ処理を完了する必要があります。
+
+すべてのユーザーは他のユーザーの代わりに更新されたアプリの許可を承認できます。"</string>
+    <string name="restriction_wifi_config_title">WLANとモバイルデータ</string>
+    <string name="restriction_wifi_config_summary">WLANとモバイルネットワーク設定の変更を許可</string>
+    <string name="keywords_wifi">WLAN ネットワーク 接続</string>
+    <string name="keywords_wifi_calling">WLAN WLAN 通話</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFCタグを設定</string>
+    <string name="condition_hotspot_summary">ポータブル WLAN アクセス ポイント（%1$s）が有効です。この端末では WLAN が OFF になっています。</string>
+    <string name="condition_airplane_summary">WLAN、Bluetooth、モバイル ネットワークが OFF になっています。電話の発信やインターネットへの接続はできません。</string>
+    <string name="condition_cellular_summary">インターネットは WLAN 接続時のみ利用できます</string>
+    <string name="condition_bg_data_summary">"バックグラウンド  データは WLAN 接続時のみ利用できます。WLAN に接続できない場合、一部のアプリやサービスに影響する可能性があります。"</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLANブリッジ</string>
+    <string name="wifi_tether_bridge_tittle_text">WLANブリッジ設定</string>
+    <string name="wifi_tether_configure_bridge_text">WLANブリッジを設定</string>
+    <string name="wifi_bridge_settings_summary">ブリッジ名やパスワードなどを設定</string>
+    <string name="wifi_bridge_use_help_title">ヘルプ</string>
+    <string name="wifi_bridge_use_help_details">"1.WLANブリッジにより、WLAN電波の範囲と強度が大幅に向上します。ご利用のデバイスを経由して他のデバイスが現在のWLANネットワークに接続できます。
+2.WLANブリッジでは、最大4台まで接続可能です。
+3.WLANブリッジはWLANホットスポットおよびWLAN Direct機能とは一緒に使用できません。WLANブリッジを有効にすると、P2Pを利用する一部のアプリが正常に動作しない場合があります。
+4. WLANブリッジを利用すると、電池の減りが早くなります。"</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN接続が必要です</string>
+    <string name="wifi_bridge_switch_wifi_summary">接続済みのWLANネットワークを共有</string>
+    <string name="wifi_setup_title_connected_network_Toast">WLANネットワーク「%s」に接続済み</string>
+    <string name="huawei_beam_explained">Huawei Beamにより、ご利用のデバイスと別のNFC対応のデバイス間で写真、ビデオ、連絡先、URLなどのファイルを転送できます。Huawei Beamは2つのデバイスを近くに（通常は背中合わせ）置いて、画面をタップすることで有効になります。ファイル転送時はBluetoothまたはWLANは自動的にONになることに注意してください。</string>
+    <string name="wifi_display_settings_summary">ご利用の端末の画面を、WLAN接続した別のディスプレイに表示</string>
+    <string name="cell_switch_to_wifi_prompt">WLANネットワーク %s が利用可能です。データ通信サービスを停止して、WLANネットワークに接続しますか？</string>
+    <string name="switch_to_wifi_manual_prompt">WLANの電波が見つかりました。このWLANネットワークを利用しますか？</string>
+    <string name="switch_to_wifi_query_prompt">WLANネットワーク %s が利用可能です。WLANネットワークに接続しますか？</string>
+    <string name="wifi_to_wifi_prompt">現在の電波は弱いです。別のWLANネットワークを使用しますか？</string>
+    <string name="advanced_wifi_settings_title">詳細設定</string>
+    <string name="huawei_beam_front_explained">"Huawei Beamでは、端末同士をくっつけることにより、ファイルを他のNFCデバイスに転送することができます。たとえば、写真、ビデオ、連絡先、URLなどを2つのNFC対応デバイス間で無線経由で転送できます。
+1. ご利用のデバイスの前面を別のNFCデバイスにくっつけ、音が聞こえたらデバイスを持ち上げます。
+2. 音が鳴ってから3秒以内に画面をタップします。
+3. 再度ご利用のデバイスの前面を別のNFCデバイスにくっつけて、転送を完了させます。ファイル転送時はBluetoothまたはWLANは自動的にONになることに注意してください。"</string>
+    <string name="wifiap_use_help_details">"1.ポータブルWLAN APのデバイスをインターネットAPとして使用できます。周辺機器はWLAN経由で端末に接続できます。接続されたデバイスはモバイルネットワーク経由でインターネットにアクセスされます。
+2. ポータブルWLAN APを使用するには、モバイルデータ接続をONにする必要があります。これにより、データトラフィックが発生します。
+3. ポータブルWLAN APを使用すると、電池の持ち時間が短くなります。"</string>
+    <string name="wifiap_connect_help_details_open">"手動接続：
+1. 該当するデバイスでWLANをONにし、ホットスポット %1$sを検索します。
+2. ホットスポットに接続します。"</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">China Mobile WLANネットワークに接続されています。このネットワークを使用すると、WLAN通信料が発生する場合があります。</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">China Mobile WLAN通知</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">China MobileのWLANネットワークへの接続時に通知</string>
+    <string name="wifi_cmcc_no_notification_summary">ネットワークを切り替えるときに通知を表示しない（モバイルデータ通信とWLAN間、複数のWLAN間）</string>
+    <string name="location_mode_high_accuracy_description_wifionly">GPSとWLANを使用して位置を推測する</string>
+    <string name="location_mode_battery_saving_description_wifionly">WLANを使用して位置を推測する</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">WLANまたはモバイルデータ通信をインテリジェントに選択</string>
+    <string name="wifi_plus_description">"WLAN+を有効にすると、WLANの接続性が評価され、スマートなネットワークの切替えが可能になります（WLANのデータ通信量が増加する場合があります）。WLAN+は自動的に以下を実行可能です：
+1.WLANとモバイルデータ通信（通知あり）を切り替えてスムーズなインターネット体験を実現
+2.過去に接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続"</string>
+    <string name="wifi_plus_settings_title">WLAN+設定</string>
+    <string name="wifi_plus_intelligent_switch_description">WLANとモバイルデータ通信をインテリジェントに切り替えてインターネット体験を向上</string>
+    <string name="wifi_plus_auto_turn_on_description">既知の場所に近づいたら、WLANを自動的に有効化</string>
+    <string name="wifi_plus_global_description">"WLAN+が有効な場合、WLANの接続性が評価され、スマートにネットワークを切り替えます（WLANのデータ通信量が増加する場合があります）。WLAN+は自動的に以下を実行可能です:
+1.WLANとモバイルデータ通信を切り替えてスムーズなインターネット体験を実現
+2.一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続"</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS、WLAN、モバイルネットワークを利用</string>
+    <string name="location_mode_battery_saving_title_emui">WLANとモバイルネットワークを利用</string>
+    <string name="pgps_switch_summary">GPSで周囲の基地局とWLANからのデータを収集し、現在地情報を迅速かつ正確に提供する</string>
+    <string name="find_no_wlan_ap">WLAN APを検出できません</string>
+    <string name="cannot_connect_wlan">WLANに接続できません</string>
+    <string name="cannot_login_internet_with_wlan">WLAN経由でインターネットに接続できません</string>
+    <string name="wfd_connect_fail">WLAN Direct接続に失敗しました</string>
+    <string name="find_no_wfd_device">WLAN Directデバイスを検出できません</string>
+    <string name="wfd_search_no_devices_causes">"利用可能なデバイスが見つかりません。以下の原因が考えられます。
+1.ペアリングしたデバイスが検出可能になっていない。
+2.ペアリングしたデバイスで技術的問題が発生している。WLANを再起動して、再度WLAN Directを開く。
+3.自分のデバイスで技術的問題が発生している。WLANを再起動して、再度WLAN Directを開く。"</string>
+    <string name="wfd_connected_failed_causes">"接続が確立できませんでした。考えられる原因：
+1.ペアリングしたデバイスで接続要求を受諾していない。
+2.いずれかのデバイスがすでに別の端末とWLAN Direct接続を確立している。
+3.ペアリングしたデバイスで技術的問題が発生している。再起動してみてください。"</string>
+    <string name="wifi_qrcode_share_notice">QRコードを読み取ってこのWLANネットワークに接続</string>
+    <string name="devices_not_found_solution_title">デバイスが見つからない場合、以下を試してください。</string>
+    <string name="devices_not_found_solution_message">"1.デバイスで他のデバイスをスキャン中であることを確認してください。
+2.ピアデバイスで問題が発生している場合、WLANを再起動して再度WLAN Directにアクセスしてください。
+3.ご利用のデバイスで問題が発生している場合、WLANを再起動して再度WLAN Directにアクセスしてください。"</string>
+    <string name="devices_not_connected_solution_message">"1.ピアデバイスで接続要求を承諾していることを確認してください。
+2.両方のデバイスが他のデバイスに接続されていないことを確認してください。
+3.ピアデバイスで問題が発生している場合、再接続してみてください。"</string>
+    <string name="wifi_plus_description_emui">"WLAN+を有効にすると、WLANの接続性が評価され、スマートにネットワークが切り替えられます（WLANのデータ通信量が増加する場合があります）。WLAN+では、自動的に以下を実行します。
+1.インターネット体験向上のためにWLANとモバイルデータ通信を切り替える（モバイルデータ通信設定でデフォルトの切替モードを選択可能）。
+2.一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続。"</string>
+    <string name="link_plus_live_update_description">Link+ライブアップデートを有効にすると、無線ネットワーク（デフォルトではWLAN）経由で通信パラメータのデータが自動的に更新され、関連するLink+機能が向上します。</string>
+    <string name="wifi_plus_description_emui2">"WLAN+を有効にすると、WLANの接続性が評価され、スマートにネットワークが切り替えられます（WLANのデータ通信量が増加する場合があります）。WLAN+では、自動的に以下を実行します。
+1.インターネット体験向上のためにWLANとモバイルデータ通信を切り替え（モバイルデータ通信設定でデフォルトの切替モードを選択可能）。
+2.一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続。
+3.利用可能なWLANを評価。インターネットに接続されていない場合は、保存されているネットワークに自動接続されません。
+4.一部の無料のWLANホットスポットでは、SMSから確認コードを取得してブラウザ経由でネットワークにログインできます（現在は中国国内のみ対応）。"</string>
+    <string name="wifi_plus_global_description2">"WLAN+を有効にすると、WLANの接続性が評価され、スマートにネットワークが切り替えられます（WLANのデータ通信量が増加する場合があります）。WLAN+では、自動的に以下を実行します。
+1.WLANとモバイルデータ通信を切り替えてスムーズなインターネット体験を実現
+2.一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続。
+3.利用可能なWLANを評価。インターネットに接続されていない場合は、保存されているネットワークに自動接続されません。"</string>
+    <string name="help_message">"1.プリンターおよび端末が同じWLANネットワークに接続されていない。
+2.ご利用のプリンターが特定の印刷サービスをサポートしていない（製造メーカーにご確認ください）。
+3.検索中のタイムアウト。この事象が発生している場合は再試行してください。
+4.ご利用のプリンターの故障。プリンターを再起動してから、再試行してください。"</string>
+    <string name="wifi_cloud_security_check_title">WLANセキュリティチェック</string>
+    <string name="wifi_cloud_security_check_summary">接続されているWLANネットワークのセキュリティレベルを端末管理から確認して、セキュリティリスクのある保存済みネットワークへの自動接続を停止する</string>
+    <string name="wifi_plus_description_emui3">"WLAN+を有効にすると、WLANの接続性が評価され、スマートにネットワークが切り替えられ、WLAN経由で自動的に最適化パラメータが更新されます（WLANのデータ通信量が増加する場合があります）。WLAN+では、自動的に以下を実行します。
+1.インターネットへのスムーズな接続のためにWLANとモバイルデータ通信を切り替え（モバイルデータ通信設定でデフォルトの切替モードを選択可能）。
+2.一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続。
+3.利用可能なWLANを評価。保存されているネットワークがインターネットに接続できない場合、自動接続を停止。
+4.一部の無料のWLANホットスポットでは、受信したSMS確認メッセージから確認コードを検出してアクセスし、ブラウザ経由でネットワークに自動でログインできます（現在は中国国内のみ対応）。"</string>
+    <string name="user_add_user_message">"追加のユーザーを作成することで、このデバイスを他の人と共有することができます。ユーザーごとの領域が割り当てられ、アプリ、壁紙などをカスタマイズ可能です。また、ユーザーはWLANのような全ユーザーに影響するデバイス設定の調整が可能です。
+
+新規ユーザーを追加した場合、追加したユーザーが新規ユーザーの領域を設定する必要があります。
+
+どのユーザーもアプリの更新が可能で、他の全てのユーザーにも適用されます。"</string>
+    <string name="print_user_warning">プリンターサービスを有効にした場合にWLAN経由で周囲のプリンターを検索する（WLANトラフィックが発生します）</string>
+    <string name="wifi_calling_settings_title_emui">WLAN通話</string>
+    <string name="wifi_calling_dialog_title">WLAN通話を有効化</string>
+    <string name="wifi_calling_dialog_message">有効にすると、WLAN経由で緊急通報を発信することができなくなります。有効にしますか？</string>
+    <string name="device_name_settings_summary">Bluetooth、WLAN Direct、テザリングとポータブルAPを使用すると、その他のデバイスにこの名前が表示されます</string>
+    <string name="device_name_settings_dialog">デバイスの名前を変更すると、現在のWLAN AP接続が切断されます。変更しますか？</string>
+    <string name="write_wifi_nfc_tag">WLAN NFCタグへの書き込み</string>
+    <string name="wifi_plus_smart_switch_title">WLANとモバイルデータ通信間のスマートな切り替え</string>
+    <string name="wifi_plus_smart_switch_summary">WLANの接続性を評価することで、WLAN(トラフィックが増加する可能性あり)とモバイルデータ通信が切り替えられ、最適なネットワーク接続が選択されます。デフォルトの切り替えモードはモバイルネットワーク設定内で設定されています。</string>
+    <string name="wifi_plus_smart_switch_summary_global">WLANの接続性を評価することで、WLAN (トラフィックが増加する可能性あり)とモバイルデータ通信が切り替えられ、最適なネットワーク接続が選択されます。</string>
+    <string name="wifi_plus_auto_turn_title">自動的にWLANを有効化／無効化</string>
+    <string name="wifi_plus_auto_turn_summary">一度接続したことのあるWLANネットワークが近くにある場合にWLANを有効にして接続</string>
+    <string name="wifi_plus_quality_evaluation_title">利用可能なWLANネットワークを評価</string>
+    <string name="wifi_plus_quality_evaluation_summary">利用可能なWLANネットワークが評価されます。保存されているネットワークがインターネットに接続できない場合、自動接続が停止されます。</string>
+    <string name="wifi_plus_fast_connect_title">無料のWLAN APに対するログイン操作を最適化</string>
+    <string name="wifi_plus_fast_connect_summary">一部の無料のWLANホットスポットでは、受信したSMS確認メッセージから確認コードを検出してアクセスし、ブラウザ経由でネットワークに自動でログインできます（現在は中国国内のみ対応）。</string>
+    <string name="link_plus_live_update_description_EMUI_5">Link+ライブアップデートを有効にすると、無線ネットワーク（デフォルトではWLAN）経由で通信パラメータのデータが自動的に更新され、関連する通信機能が向上します。</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>モバイルデータ通信</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPSとWLANを使用</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLANを使用</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLANブリッジにより、WLAN電波の通信範囲と強度が大幅に向上します。ご利用のデバイスを経由して他のデバイスがあなたのデバイスのWLANネットワークに接続できます。
+2.WLANブリッジでは、最大4台まで接続可能です。
+3.WLANブリッジはWLANホットスポットおよびWLAN Direct機能とは一緒に使用できません。WLANブリッジを有効にすると、P2Pサービスを利用する一部のサービスが正常に機能しない場合があります。
+4.WLANブリッジを使用するとバッテリの減りが早くなります。
+5.WLANリソースが別のサービスによって使用されていることを示すメッセージを受信した場合、[設定] > [WLAN] > [WLAN Direct]から接続端末を切断します。WLANを一度無効にしてから再度有効にすることで、すべての端末が自動的に切断されます。"</string>
+    <string name="wifi_qrcode_share_notice_new">QRコードを読み取ってこのWLANネットワークに接続</string>
+    <string name="location_help_scheme_body_one">"1.[現在地にアクセス]が有効になっていることを確認します。
+2.位置情報モードでGPS、WLAN、モバイルネットワークを選択します。
+3.WLAN APに接続するか、モバイルデータ通信を有効にします。
+4.[端末管理] > [権限マネージャー] > [位置情報へのアクセス]で、使用しているアプリから位置情報権限へのアクセスが可能かどうかを確認します。
+5.位置情報モードが[GPSのみ利用]に設定されている場合、GPS電波を正常に受信できる、周囲に遮蔽物がない開かれた場所でご利用ください。
+6.公共のホットスポットに接続されている場合、WLANをオフにして、モバイルデータ通信を有効にして再度位置情報の取得を試してみてください。"</string>
+    <string name="location_help_scheme_body_two">"1.より精度の高い位置情報を取得するために、[GPS、WLAN、モバイルネットワークを利用]を選択します。
+2.端末に金属ケースを利用している場合、ケースを取り外すか、非金属のケースを使用して再度試してみてください。
+3.[端末管理] > [権限マネージャー] > [位置情報へのアクセス]で、使用しているアプリから位置情報権限へのアクセスが可能かどうかを確認します。
+4.ナビゲーション機能は遮蔽物のない広い場所でより性能が向上します。車内のダッシュボードやその他の遮蔽物のない場所など、フロントガラスの近くに端末を置いてください。"</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLANブリッジにより、WLAN電波の通信範囲と強度が大幅に向上します。ご利用のデバイスを経由して他のデバイスがあなたのデバイスのWLANネットワークに接続できます。
+%2$d.WLANブリッジでは、最大%6$d台まで接続可能です。
+%3$d.WLANブリッジはWLANホットスポットおよびWLAN Direct機能とは一緒に使用できません。WLANブリッジを有効にすると、P2Pサービスを利用する一部のサービスが正常に機能しない場合があります。
+%4$d.WLANブリッジを使用するとバッテリの減りが早くなります。
+%5$d.WLANリソースが別のサービスによって使用されていることを示すメッセージを受信した場合、[設定] > [WLAN] > [WLAN Direct]から接続端末を切断します。WLANを一度無効にしてから再度有効にすることで、すべての端末が自動的に切断されます。"</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. ポータブルWLAN APの端末をインターネットAPとして使用できます。周辺機器はWLAN経由で端末に接続できます。接続された端末はモバイルネットワーク経由でインターネットにアクセスされます。
+%2$d.ポータブルWLAN APを使用するには、モバイルデータ通信を有効にする必要があります。これにより、データトラフィックが発生します。
+%3$d.ポータブルWLAN APを使用すると、電池の持ち時間が短くなります。"</string>
+    <string name="wifiap_connect_help_details_open_ex">"手動接続：
+%2$d. 該当する端末でWLANを有効にし、AP %1$sを検索します。
+%3$d. APに接続します。"</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d.[現在地にアクセス]が有効になっていることを確認します。
+%2$d.位置情報モードでGPS、WLAN、モバイルネットワークを選択します。
+%3$d.WLAN APに接続するか、モバイルデータ通信を有効にします。
+%4$d.[端末管理] > [権限マネージャー] > [位置情報へのアクセス]で、使用しているアプリから位置情報権限へのアクセスが可能かどうかを確認します。
+%5$d.位置情報モードが[GPSのみ利用]に設定されている場合、GPS電波を正常に受信できる、周囲に遮蔽物がない開かれた場所でご利用ください。
+%6$d.公共のホットスポットに接続されている場合、WLANをオフにして、モバイルデータ通信を有効にして再度位置情報の取得を試してみてください。"</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d.より精度の高い位置情報を取得するために、[GPS、WLAN、モバイルネットワークを利用]を選択します。
+%2$d.端末に金属ケースを利用している場合、ケースを取り外すか、非金属のケースを使用して再度試してみてください。
+%3$d.[端末管理] > [権限マネージャー] > [位置情報へのアクセス]で、使用しているアプリから位置情報権限へのアクセスが可能かどうかを確認します。
+%4$d.ナビゲーション機能は遮蔽物のない広い場所でより性能が向上します。車内のダッシュボードやその他の遮蔽物のない場所など、フロントガラスの近くに端末を置いてください。"</string>
+    <string name="turn_off_data_saver_message">ポータブルWLANアクセスポイントを使用するにはデータセーバーの無効化が必要です。無効にしますか？</string>
+    <string name="first_wlan_hotspot_text">WLAN APにより、他のユーザーとネットワーク接続を共有できますが、電力消費量が高くなり、データ通信料が高額になる場合があります</string>
+    <string name="hotspot_power_notification_title">WLAN AP無効</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN AP無効</string>
+    <string name="toast_entitle_wifi_need_close">WLANが有効になっている場合、この機能を使用できません。最初にWLANを無効にしてください。</string>
+    <string name="wifi_activated_warning_Title">WLAN有効</string>
+    <string name="wifi_turn_off_warning_message_wifiap">モバイルAPとWLANは同時に有効にできません。WLANを無効にしますか？</string>
+    <string name="wifi_turn_off_warning_message_usb">今すぐWLANを無効にする必要があります。端末がAT&amp;Tのサーバーとの通信を開始したら、WLANが自動的に再度有効になります。</string>
+    <string name="broadcast_ssid_is_show_dialog">SSIDオプションをオフにすると、ご利用の端末が他のデバイスに表示されなくなり、利用可能なWLANネットワークのリストに表示されなくなります。ただし、他のデバイスから手動でネットワーク名を入力することによって、該当のAPに接続できます。</string>
+    <string name="enable">AT&amp;T WLANへの自動接続が有効です</string>
+    <string name="disable">AT&amp;T WLANへの自動接続が無効です</string>
+    <string name="auto_connect_wifi_suggestion">自動接続設定を有効にするには、WLANを再起動してください</string>
+    <string name="wifi_network_detect_summary">WLANホットスポットへの接続時にインターネット接続を確認</string>
+    <string name="wifi_disable_by_deivice_admin">WLANはデバイス管理者により無効化されました</string>
+    <string name="wifi_required_info_text">設定を完了するには、ご利用のタブレットからWLANネットワークにアクセスする必要があります。設定が完了すると、モバイル通信とWLANを切り替えることができます。</string>
+    <string name="wifi_setting_frequency_band_title">WLAN周波数帯域</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$sはデバイスを管理して、このWLANネットワークの変更や削除を実行できないようにします。詳細は、管理者にお問い合わせください。</string>
+</resources>

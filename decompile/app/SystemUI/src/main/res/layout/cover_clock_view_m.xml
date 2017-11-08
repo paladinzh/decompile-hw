@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.cover.widget.CoverClockView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <include android:id="@r$id/cover_clock_gallery_layout" layout="@layout/cover_clock_gallery_layout" />
+    <RelativeLayout android:id="@r$id/clock_view_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@id/slide_guide_view" android:layout="@layout/cover_slide_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.huawei.keyguard.cover.widget.CoverClockView>

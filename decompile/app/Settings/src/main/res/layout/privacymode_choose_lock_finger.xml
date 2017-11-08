@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:paddingTop="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_marginTop="10.0dip" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:gravity="center" android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel_button_previous_label" android:layout_weight="1.0" />
+        <Button android:gravity="center" android:id="@id/next_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/next_button_confirm_label" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

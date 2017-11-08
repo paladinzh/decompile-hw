@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.localepicker.LocaleDragCell android:background="@drawable/list_selector_background_emui_dark" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="locale" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/linearlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip">
+        <ImageView android:textAppearance="?android:textAppearanceListItem" android:layout_gravity="center_vertical" android:id="@id/dragHandle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_drag_handle" android:importantForAccessibility="no" android:layout_marginStart="@dimen/iamgeview_draghandle_margin_start" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16.0dip">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/l10nWarn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/locale_not_translated" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/miniLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="@dimen/iamgeview_miniLabel_padding_end" />
+    </LinearLayout>
+    <View android:background="@color/locate_item_list_view" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/content_padding_start" android:layout_marginEnd="@dimen/content_padding_end" />
+</com.android.settings.localepicker.LocaleDragCell>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.deskclock" custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:orientation="horizontal" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:paddingStart="@dimen/timer_picker_padding_width" custom:paddingEnd="@dimen/timer_picker_padding_width">
+    <com.android.deskclock.timer.AdvancedNumberPicker custom:id="@id/hourpicker" custom:layout_width="UNKNOWN_DATA_0x7f0a0014" custom:layout_height="UNKNOWN_DATA_0x7f0a00f6" custom:layout_alignParentStart="true" custom:numberType="0" />
+    <com.android.deskclock.timer.AdvancedNumberPicker custom:id="@id/minutepicker" custom:layout_width="UNKNOWN_DATA_0x7f0a0014" custom:layout_height="UNKNOWN_DATA_0x7f0a00f6" custom:layout_centerHorizontal="true" custom:numberType="1" />
+    <com.android.deskclock.timer.AdvancedNumberPicker custom:id="@id/secondpicker" custom:layout_width="UNKNOWN_DATA_0x7f0a0014" custom:layout_height="UNKNOWN_DATA_0x7f0a00f6" custom:layout_alignParentEnd="true" custom:numberType="2" />
+</RelativeLayout>

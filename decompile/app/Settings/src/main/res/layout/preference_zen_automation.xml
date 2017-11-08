@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidhwext="http://schemas.android.com/apk/res/androidhwext">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="40.0dip">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@android:id/title" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:maxWidth="@dimen/preference_title_max_width" android:minWidth="@dimen/preference_title_min_width" android:singleLine="true" android:layout_weight="3.0" android:paddingEnd="@dimen/preference_item_margin_end" style="@style/list_add_style" />
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="end" android:layout_gravity="center_vertical" android:id="@android:id/summary" android:minWidth="@dimen/preference_summary_min_width" android:maxLines="2" android:layout_weight="1.0" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/preference_shadow" />
+</FrameLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/list_header_network_inner" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4401">
+    <View android:id="@+id/divline_month_explain" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:id="@+id/ll_headview" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentEnd="true"
+        <LinearLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="match_parent">
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/line2" android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x7f0a00f5" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10dp" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/mobile_text_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_data_status" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_headview_wifi" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="match_parent">
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/line1" android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x7f0a00f5" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="10dp" android:textColor="@color/emui_list_secondray_text" android:id="@+id/wifi_text_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/WIFI" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/all_select_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_select_checkbox_abridge" android:layout_centerVertical="true" android:paddingStart="18dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/ll_headview" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

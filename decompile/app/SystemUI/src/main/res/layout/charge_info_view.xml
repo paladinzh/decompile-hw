@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.charge.e50.ChargeInfoView xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/charge_percent_size" android:textColor="@color/clock_white" android:id="@r$id/chargeInfoContent1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@r$id/flashIcon" android:layout_width="UNKNOWN_DATA_0x7f0e04b0" android:layout_height="UNKNOWN_DATA_0x7f0e04b0" android:layout_marginTop="@dimen/charge_flash_icon_margin_top" android:layout_marginEnd="@dimen/charge_flash_icon_margin_End" android:layout_toStartOf="@r$id/chargeInfoContent1" />
+        <TextView android:textSize="@dimen/charge_percent_symbol_size" android:textColor="@color/clock_white" android:id="@r$id/chargeInfoContent2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@r$id/chargeInfoContent1" android:layout_marginStart="@dimen/charge_flash_percent_text_margin" android:layout_toEndOf="@r$id/chargeInfoContent1" />
+        <TextView android:textSize="@dimen/super_charge_content_font_size" android:textColor="@color/clock_white" android:id="@r$id/superChargingContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/super_charge" android:layout_below="@r$id/chargeInfoContent1" android:layout_centerHorizontal="true" android:alpha="0.3" android:fontFamily="HwChinese-medium" />
+    </RelativeLayout>
+</com.huawei.keyguard.view.charge.e50.ChargeInfoView>

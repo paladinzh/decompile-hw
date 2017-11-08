@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <item android:drawable="@drawable/wifi_signal_dangerous" settings:state_cloud_security_check_dangerous="true" />
+    <item android:drawable="@drawable/wifi_signal_no_internet" settings:state_no_internet="true" settings:state_pause="false" />
+    <item android:drawable="@drawable/wifi_signal_pause" settings:state_no_internet="false" settings:state_pause="true" />
+    <item android:drawable="@drawable/wifi_signal_lock" settings:state_encrypted="true" settings:state_no_internet="false" settings:state_pause="false" />
+    <item android:drawable="@drawable/wifi_signal_open" settings:state_encrypted="false" settings:state_no_internet="false" settings:state_pause="false" />
+</selector>

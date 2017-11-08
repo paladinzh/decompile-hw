@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:id="@id/view_fragment">
+    <ListPreference androidhwext:entries="@array/prefs_photo_orientation_title" androidhwext:layout="@layout/preference_view_layout" androidhwext:title="@string/settings_gallery_rotate" androidhwext:key="key-view-photo-orientation" androidhwext:defaultValue="1" androidhwext:dialogTitle="@string/settings_gallery_rotate" androidhwext:entryValues="@array/prefs_photo_orientation_value" androidhwext:preferenceID="@id/key_view_photo_orientation" />
+</PreferenceScreen>

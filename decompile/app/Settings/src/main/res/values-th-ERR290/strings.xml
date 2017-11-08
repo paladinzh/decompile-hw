@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">เชื่อมต่อผ่านตัวช่วย WLAN แล้ว</string>
+    <string name="accessibility_wifi_off">WLAN ถูกปิดอยู่</string>
+    <string name="accessibility_no_wifi">ตัดการเชื่อมต่อ WLAN แล้ว</string>
+    <string name="accessibility_wifi_one_bar">สัญญาณ WLAN หนึ่งขีด</string>
+    <string name="accessibility_wifi_two_bars">สัญญาณ WLAN สองขีด</string>
+    <string name="accessibility_wifi_three_bars">สัญญาณ WLAN สามขีด</string>
+    <string name="accessibility_wifi_signal_full">สัญญาณ WLAN เต็ม</string>
+    <string name="wifi_verbose_logging">เปิดใช้งานการบันทึกการใช้งาน WLAN ที่มากเกินไป</string>
+    <string name="wifi_aggressive_handover">เปลี่ยนจาก WLAN เป็นข้อมูลอุปกรณ์เคลื่อนที่เร็วขึ้น</string>
+    <string name="wifi_allow_scan_with_traffic">อนุญาตการสแกนโรมมิ่ง WLAN เสมอ</string>
+    <string name="wifi_verbose_logging_summary">เพิ่มระดับการบันทึก WLAN และแสดงตาม SSID RSSI ในตัวเลือก WLAN</string>
+    <string name="wifi_aggressive_handover_summary">เมื่อเปิดบริการนี้ ระบบจะเปลี่ยจาก WLAN เป็นการใช้งานการเชื่อมต่อข้อมูลอุปกรณ์เคลื่อนที่เร็วขึ้นเมื่อสัญญาณ WLAN ต่ำ</string>
+    <string name="wifi_allow_scan_with_traffic_summary">อนุญาต/ห้ามการสแกนโรมมิ่ง WLAN ตามจำนวนข้อมูลการรับส่งข้อมูลที่แสดงที่อินเทอร์เฟซ</string>
+    <string name="mobile_data_always_on_summary">ให้ระบบใช้ข้อมูลเคลื่อนที่เสมอ แม้เมื่อใช้งาน WLAN อยู่ก็ตาม (สำหรับการสรับเครือข่ายอันรวดเร็ว)</string>
+    <string name="radio_controls_summary">จัดการ WLAN, บลูทูธ, โหมดใช้งานบนเครื่องบิน, เครือข่ายมือถือ และ VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">เปิด WLAN</string>
+    <string name="wifi_settings">การตั้งค่า WLAN</string>
+    <string name="wifi_settings_category">การตั้งค่า WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">เลือก WLAN</string>
+    <string name="wifi_select_network">เลือกเครือข่าย WLAN</string>
+    <string name="wifi_starting">กำลังเปิด...</string>
+    <string name="wifi_stopping">กำลังปิด...</string>
+    <string name="wifi_poor_network_detection_summary">หลีกเลี่ยงการเชื่อมต่อกับเครือข่าย WLAN ที่มีการเชื่อมต่อที่ไม่ดี</string>
+    <string name="wifi_automatically_connect_title">ใช้เปิด WLAN อัตโนมัติ</string>
+    <string name="wifi_automatically_connect_summary">ช่วยให้ตัวช่วย WLAN สามารถเชื่อมต่ออัตโนมัติเพื่อเปิดเครือข่ายที่มีการเชื่อมต่ออินเทอร์เน็ตดี</string>
+    <string name="wifi_scan_notify_text">เพื่อเพิ่มความแม่นยำในการค้นหาตำแหน่งที่ตั้ง แอปและบริการต่างๆ ของระบบยังสามารถสแกนหาเครือข่าย WLAN คุณสามารถเปลี่ยนสิ่งนี้ได้ใน LINK_BEGINการตั้งค่าสแกนLINK_END</string>
+    <string name="wifi_setting_sleep_policy_title">เปิด WLAN ไว้ขณะอยู่ในโหมดสลีป</string>
+    <string name="wifi_suspend_optimizations">การเพิ่มประสิทธิภาพ WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">ลดการใช้แบตเตอรี่เมื่อ WLAN เปิดอยู่</string>
+    <string name="wifi_access_points">เครือข่าย WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">หากต้องการดูเครือข่ายที่ใช้ได้ ให้เปิด WLAN</string>
+    <string name="wifi_empty_list_wifi_on">กำลังค้นหาเครือข่าย WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">"คุณไม่ได้รับอนุญาตในการเปลี่ยนแปลงเครือข่าย WLAN "</string>
+    <string name="wifi_wps_setup_title">การตั้งค่าการป้องกัน WLAN</string>
+    <string name="wifi_wps_onstart_pbc">กดปุ่ม \"การตั้งค่า WLAN แบบปลอดภัย\" บนเราเตอร์ของคุณ ปุ่มนี้อาจถูกเรียกว่า \"WPS\" หรือมีสัญลักษณ์นี้อยู่ด้วย:</string>
+    <string name="wifi_wps_onstart_pin">ป้อน PIN %1$s บนเราเตอร์ WLAN ของคุณ การตั้งค่าอาจใช้เวลาถึงสองนาทีจึงจะเสร็จสิ้น</string>
+    <string name="wifi_wps_connected">เชื่อมต่อกับเครือข่าย WLAN %s แล้ว</string>
+    <string name="wifi_scan_always_turnon_message">"เพื่อความแม่นยำของตำแหน่งที่ตั้งและเพื่อวัตถุประสงค์อื่น %1$s ต้องเปิดการสแกนเครือข่าย เเม้ว่า WLAN จะปิดอยู่ก็ตาม 
+
+อนุญาตการกระทำนี้สำหรับแอปทั้งหมดที่ต้องการสแกน?"</string>
+    <string name="wifi_skipped_message">"คำเตือน: คุณอาจต้องเสียค่าธรรมเนียมเพิ่มเติมสำหรับการรับส่งข้อมูลของผู้ให้บริการ
+
+การตั้งค่าโทรศัพท์อาจต้องการการรับส่งข้อมูลในปริมาณมากผ่านเครือข่าย"</string>
+    <string name="wifi_and_mobile_skipped_message">คำเตือน: โทรศัพท์จะไม่สามารถยืนยันว่าซอฟต์แวร์ของคุณเป็นรุ่นปัจจุบัน</string>
+    <string name="wifi_connect_failed_message">โทรศัพท์ไม่สามารถเชื่อมต่อกับเครือข่าย WLAN นี้</string>
+    <string name="wifi_advanced_titlebar">การตั้งค่า WLAN ขั้นสูง</string>
+    <string name="wifi_configure_titlebar">กำหนดค่า WLAN</string>
+    <string name="wifi_advanced_not_available">การตั้งค่า WLAN ขั้นสูงไม่พร้อมใช้งานสำหรับผู้ใช้รายนี้</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">WLAN ฮอตสปอตแบบพกพา</string>
+    <string name="wifi_tether_failed_subtext">ข้อผิดพลาดของ WLAN ฮอตสปอตแบบพกพา</string>
+    <string name="wifi_tether_configure_ap_text">กำหนดค่า WLAN ฮอตสปอต</string>
+    <string name="wifi_tether_configure_subtext">%1$s%2$s WLAN ฮอตสปอตแบบพกพา</string>
+    <string name="wifi_calling_settings_title">การตั้งค่าการโทรผ่าน WLAN</string>
+    <string name="wifi_calling_suggestion_title">เปิดการโทรผ่าน WLAN</string>
+    <string name="wifi_calling_suggestion_summary">ใช้ WLAN แทนเครือข่ายมือถือ</string>
+    <string name="wifi_calling_mode_title">การโทรผ่าน WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">"โหมดการโทรผ่าน WLAN "</string>
+    <string name="wifi_calling_off_explanation">เมื่อเปิดการโทรผ่าน WLAN โทรศัพท์จะสามารถวางเส้นทางสายเรียกผ่านเครือข่าย WLAN หรือเครือข่ายของผู้ให้บริการของคุณได้ ทั้งนี้ขึ้นอยู่กับค่ากำหนดของคุณและสัญญาณฝั่งที่แรงกว่า โปรดสอบถามค่าธรรมเนียมและรายละเอียดอื่นๆ กับผู้ให้บริการก่อนที่จะเปิดคุณลักษณะนี้</string>
+    <string name="status_wifi_mac_address">ที่อยู่ WLAN Mac</string>
+    <string name="reset_network_desc">"การทำเช่นนี้จะรีเซ็ตการตั้งค่าเครือข่าย ซึ่งรวมถึง:
+
+"<li>WLAN</li>"
+"<li>Mobile data</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">เปลี่ยน WLAN Assistant ใช่ไหม</string>
+    <string name="location_mode_high_accuracy_description">"ใช้ GPS, WLAN และเครือข่ายมือถือเพื่อประมาณการตำแหน่งที่ตั้ง "</string>
+    <string name="location_mode_battery_saving_description">ใช้ WLAN และเครือข่ายมือถือเพื่อประมาณการตำแหน่งที่ตั้ง</string>
+    <string name="location_scanning_wifi_always_scanning_title">การสแกนหา WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">"ปรับปรุงสถานที่โดยอนุญาตให้แอพระบบและบริการตรวจจับอุปกรณ์เครือข่าย WLAN ในเวลาใดก็ไ้ด้ "</string>
+    <string name="location_network_based">WLAN &amp; ตำแหน่งของเครือข่ายมือถือ</string>
+    <string name="location_neighborhood_level">อนุญาตให้แอปพลิเคชันใช้ข้อมูลจากแหล่งต่าง ๆ เช่น WLAN และเครือข่ายมือถือในการระบุตำแหน่งโดยประมาณของคุณ</string>
+    <string name="location_neighborhood_level_wifi">ตำแหน่งที่กำหนดโดย WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">เวลาเปิดใช้ WLAN</string>
+    <string name="bluetooth_on_time">เวลาเปิดใช้ WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">เวลาในการใช้งาน WLAN</string>
+    <string name="usage_type_data_wifi_send">ข้อมูล WLAN ที่ส่ง</string>
+    <string name="usage_type_data_wifi_recv">ข้อมูล WLAN ที่ได้รับ</string>
+    <string name="battery_action_wifi">การตั้งค่า WLAN</string>
+    <string name="battery_desc_wifi">แบตเตอรีที่ใช้โดย WLAN</string>
+    <string name="battery_sugg_wifi">ปิด WLAN เมื่อไม่ได้ใช้หรือเมื่อใช้งานไม่ได้</string>
+    <string name="gadget_toggle_wifi">กำลังอัปเดตการตั้งค่า WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">สำรองข้อมูลแอปพลิเคชัน รหัสผ่าน WLAN และการตั้งค่าอื่นๆ ไปยังเซิร์ฟเวอร์ Google</string>
+    <string name="backup_erase_dialog_message">คุณแน่ใจหรือไม่ว่าต้องการหยุดการสำรองข้อมูลรหัสผ่าน WLAN บุ๊กมาร์ก รวมทั้งการตั้งค่าอื่นๆ และข้อมูลแอปพลิเคชัน พร้อมทั้งลบสำเนาทั้งหมดบนเซิร์ฟเวอร์ Google</string>
+    <string name="fullbackup_erase_dialog_message">หยุดการสำรองข้อมูลอุปกรณ์ (เช่น รหัสผ่าน WLAN และประวัติการโทร) และข้อมูลแอพ (เช่น การตั้งค่าและไฟล์ที่จัดเก็บโดยแอพ) และลบสำเนาทั้งหมดใน Google Drive?</string>
+    <string name="fullbackup_data_summary">"สำรองข้อมูลในอุปกรณ์ (เช่น รหัสผ่าน WLAN และประวัติการโทร) และข้อมูลแอป (เช่น การตั้งค่าและไฟล์ที่แอปจัดเก็บไว้) ลงใน Google ไดร์ฟจากระยะไกลโดยอัตโนมัติ
+
+เมื่อคุณเปิดเปิดการสำรองข้อมูลอัตโนมัติ ระบบจะบันทึกข้อมูลอุปกรณ์และข้อมูลแอปไปยังโฟลเดอร์ส่วนตัวใน Google ไดรฟ์เป็นระยะๆ ข้อมูลแอปอาจเป็นข้อมูลใดๆ ก็ตามที่แอปบันทึกไว้ (ตามการตั้งค่าของนักพัฒนาซอฟต์แวร์) ซึ่งรวมถึงข้อมูลที่อาจมีความละเอียดอ่อน เช่น รายชื่อติดต่อ ข้อความ และรูปภาพ"</string>
+    <string name="wifi_setup_title">ตั้งค่า WLAN</string>
+    <string name="wifi_setup_title_editing_network">เชื่อมต่อกับเครือข่าย WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">กำลังเชื่อมต่อกับเครือข่าย WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">คุณไม่สามารถกำหนดค่าการเชื่อมต่อ EAP WLAN ในขณะตั้งค่าได้ หลังจากการตั้งค่า คุณสามารถกำหนดค่าการเชื่อมต่อนี้ได้ในการตั้งค่า > ระบบไร้สายและเครือข่าย</string>
+    <string name="wifi_setup_description_connected">แตะ <b>ถัดไป</b>" เพื่อตั้งค่าต่อไป
+
+แตะ "<b>ย้อนกลับ</b> เพื่อเชื่อมต่อกับเครือข่าย WLAN อื่น</string>
+    <string name="data_usage_menu_show_wifi">แสดงการใช้ WLAN</string>
+    <string name="data_usage_menu_hide_wifi">ซ่อน WLAN</string>
+    <string name="data_usage_disable_wifi_limit">ตั้งค่าขีดจำกัดของข้อมูล WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">ปิดใช้งานข้อมูลพื้นหลังเฉพาะบนเครือข่ายข้อมูลโทรศัพท์มือถือ ใช้ WLAN หากใช้ได้</string>
+    <string name="data_usage_app_restrict_dialog">"คุณลักษณะนี้อาจทำให้แอปพลิเคชันที่ต้องอาศัยข้อมูลแบ็กกราวด์หยุดทำงานได้เมื่อ WLANไม่พร้อมใช้งาน
+
+คุณอาจพบการควบคุมการใช้ข้อมูลที่เหมาะสมกว่านี้ในการตั้งค่าที่มีอยู่ภายในแอปพลิเคชันนี้"</string>
+    <string name="data_usage_restrict_background">หากคุณจำกัดข้อมูลแบ็กกราวด์บนมือถือ แอปพลิเคชันและบริการบางอย่างจะไม่ทำงานจนกว่าคุณจะเชื่อมต่อกับเครือข่าย WLAN</string>
+    <string name="data_usage_restrict_background_multiuser">"หากคุณจำกัดข้อมูลพื้นหลังของมือถือ แอปพลิเคชันและบริการบางอย่างจะไม่ทำงานเว้นแต่คุณจะเชื่อมต่อกับเครือข่าย WLAN
+
+การตั้งค่านี้ส่งผลต่อผู้ใช้โทรศัพท์นี้ทุกราย"</string>
+    <string name="data_usage_metered_body">เลือกเครือข่าย WLAN ที่เป็นที่เป็นฮอตสปอตเคลื่อนที่ สามารถจำกัดแอปพลิเคชันจากการใช้เครือข่ายเหล่านี้ได้เมื่อทำงานอยู่ในเบื้องหลัง นอกจากนี้ แอปพลิเคชันอาจแจ้งเตือนเมื่อใช้เครือข่ายเหล่านี้ในการดาวน์โหลดไฟล์ขนาดใหญ่</string>
+    <string name="data_usage_metered_wifi">เครือข่าย WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">หากต้องการเลือกฮอตสปอตเคลื่อนที่ ให้เปิด WLAN</string>
+    <string name="user_add_user_message_long">"คุณสามารถใช้อุปกรณ์นี้ร่วมกับคนอื่นๆ ได้ด้วยการสร้างผู้ใช้เพิ่มเติม ผู้ใช้แต่ละคนมีพื้นที่ของตัวเอง ซึ่งพวกเขาสามารถกำหนดค่าด้วยแอปพลิเคชัน วอลเปเปอร์ของตนเอง และอื่นๆ นอกจากนี้ ผู้ใช้ยังสามารถปรับการตั้งค่าแท็บเล็ต เช่น WLAN ซึ่งจะส่งผลกระทบต่อทุกคน
+
+หลังจากที่คุณสร้างผู้ใช้ใหม่แล้ว ผู้ใช้รายนั้นๆ ต้องทำตามขั้นตอนในการตั้งค่า
+
+ผู้ใช้ทั้งหมดสามารถยอมรับการอนุญาตแอปพลิเคชันที่มีการอัปเดตในนามของผู้ใช้รายอื่นๆ ได้"</string>
+    <string name="restriction_wifi_config_title">WLAN และข้อมูลอุปกรณ์เคลื่อนที่</string>
+    <string name="restriction_wifi_config_summary">อนุญาตให้แก้ไขการตั้งค่า WLAN และเครือข่ายโทรศัพท์เคลื่อนที่</string>
+    <string name="keywords_wifi">การเชื่อมต่อเครือข่าย WLAN</string>
+    <string name="keywords_wifi_calling">การโทรผ่าน WLAN</string>
+    <string name="setup_wifi_nfc_tag">ตั้งค่าแท็ก WLAN NFC</string>
+    <string name="condition_hotspot_summary">WLAN ฮอตสปอตแบบพกพา %1$s ทำงานอยู่ WLAN ของอุปกรณ์เครื่องนี้ปิดอยู่</string>
+    <string name="condition_airplane_summary">WLAN, บลูทูธ และเครือข่ายมือถือปิดอยู่ คุณไม่สามารถโทรออกหรือเชื่อมต่ออินเทอร์เน็ต</string>
+    <string name="condition_cellular_summary">สามารถใช้อินเทอร์เน็ตผ่าน WLAN ได้เท่านั้น</string>
+    <string name="condition_bg_data_summary">สามารถใช้ข้อมูลแบ็กกราวด์ผ่าน WLAN ได้เท่านั้น ซึ่งอาจส่งผลกระทบต่อแอปหรือบริการบางอย่างเมื่อไม่มี WLAN</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">บริดจ์ WLAN</string>
+    <string name="wifi_tether_bridge_tittle_text">การตั้งค่าบริดจ์ WLAN</string>
+    <string name="wifi_tether_configure_bridge_text">"กำหนดค่าบริดจ์ WLAN "</string>
+    <string name="wifi_bridge_settings_summary">ตั้งชื่อบริดจ์ รหัสผ่าน และอื่นๆ</string>
+    <string name="wifi_bridge_use_help_title">วิธีใช้</string>
+    <string name="wifi_bridge_use_help_details">"1. บริดจ์ WLAN ช่วยปรับปรุงช่วงระยะการส่งผ่านและความเข้มของสัญญาณ WLAN อย่างมีนัยสำคัญ อุปกรณ์อื่นสามารถเชื่อมต่อเครือข่าย WLAN ที่ใช้งานอยู่ของคุณผ่านอุปกรณ์ของคุณ
+2. บริดจ์ WLAN รองรับการเข้าถึงจากอุปกรณ์ต่าง ๆ สูงสุด 4 รายการ
+3. บริดจ์ WLAN ไม่สามารถใช้งานร่วมกับคุณสมบัติ WLAN ฮอตสปอตและ WLAN Direct หากเปิดใช้งานบริดจ์ WLAN แอปพลิเคชันบางอย่างที่ใช้บริการ P2P อาจไม่สามารถทำงานได้อย่างสมบูรณ์
+4. การใช้บริดจ์ WLAN จะสิ้นเปลืองพลังงานแบตเตอรีของคุณเร็วขึ้น"</string>
+    <string name="wifi_bridge_switch_nowifi_summary">"จำเป็นต้องใช้การเชื่อมต่อ WLAN "</string>
+    <string name="wifi_bridge_switch_wifi_summary">แบ่งปันเครือข่าย WLAN ที่เชื่อมต่อ</string>
+    <string name="wifi_setup_title_connected_network_Toast">เชื่อมต่อกับเครือข่าย WLAN %s แล้ว</string>
+    <string name="huawei_beam_explained">Huawei Beam จะช่วยให้คุณสามารถถ่ายโอนไฟล์ได้ อาทิเช่น รูปภาพ วิดีโอ รายชื่อผู้ติดต่อ และ URL ระหว่างอุปกรณ์ของคุณและอุปกรณ์อื่นที่สามารถใช้ NFC Huawei Beam สามารถที่จะเปิดใช้งานโดยการวางอุปกรณ์สองอย่างไว้ใกล้กัน (ด้านหลังชนกัน) และการแตะที่หน้าจอของคุณ โปรดทราบว่า WLAN หรือบลูทูธอาจจะเปิดโดยอัตโนมัติก่อนส่งไฟล์</string>
+    <string name="wifi_display_settings_summary">แสดงหน้าจอโทรศัพท์ของคุณบนจอแสดงผลอื่นผ่านการเชื่อมต่อ WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">มีเครือข่าย WLAN %s คุณต้องการหยุดบริการข้อมูลแล้วเชื่อมต่อกับเครือข่าย WLAN หรือไม่?</string>
+    <string name="switch_to_wifi_manual_prompt">พบสัญญาณ WLAN คุณต้องการจะใช้เครือข่าย WLAN นี้หรือไม่?</string>
+    <string name="switch_to_wifi_query_prompt">มีเครือข่าย WLAN %s คุณต้องการเชื่อมต่อกับเครือข่าย WLAN หรือไม่?</string>
+    <string name="wifi_to_wifi_prompt">สัญญาณการเชื่อมต่อปัจจุบันอ่อน คุณต้องการใช้เครือข่าย WLAN อื่นหรือไม่?</string>
+    <string name="advanced_wifi_settings_title">การตั้งค่าขั้นสูง</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam จะช่วยให้คุณสามารถถ่ายโอนไฟล์ไปยังอุปกรณ์ NFC อื่นได้โดยการวางอุปกรณ์สองอย่างไว้ใกล้กัน ตัวอย่างเช่น คุณสามารถถ่ายโอนรูปภาพ วิดีโอ รายชื่อผู้ติดต่อ URL และอื่นๆ อีกมากมายระหว่างอุปกรณ์ที่สามารถใช้ NFC สองอย่างแบบไร้สาย ง่ายๆ เพียงแค่:
+1 วางแผงด้านหน้าของอุปกรณ์คุณบนอุปกรณ์ NFC อีกอันและยกอุปกรณ์ของคุณขึ้นหลังจากที่ได้ยินเสียง
+2 สัมผัสที่หน้าจอของคุณภายใน 3 วินาทีหลังจากได้ยินเสียง
+3 วางแผงด้านหน้าของอุปกรณ์ของคุณบนอุปกรณ์ NFC อีกอันเพื่อทำการถ่ายโอนไฟล์ โปรดทราบว่า WLAN หรือบลูทูธอาจจะเปิดโดยอัตโนมัติก่อนส่งไฟล์"</string>
+    <string name="wifiap_use_help_details">"1. คุณสามารถใช้อุปกรณ์ฮอตสปอต WLAN แบบพกพาเป็นจุดการเข้าถึงอินเทอร์เน็ตของคุณ อุปกรณ์ต่อพ่วงสามารถเชื่อมต่อกับอุปกรณ์ของคุณผ่าน WLAN และอุปกรณ์ที่เชื่อมต่อจะสามารถเข้าถึงอินเทอร์เน็ตผ่านเครือข่ายมือถือ
+2. การใช้ฮอตสปอต WLAN แบบพกพาจะต้องเปิดใช้การเชื่อมต่อข้อมูลเครือข่ายมือถือของคุณ และจะใช้ข้อมูลเครือข่ายการรับส่งบางส่วน
+3. การใช้ฮอตสปอต WLAN แบบพกพาอาจสิ้นเปลืองพลังงานแบตเตอรี่มากขึ้น"</string>
+    <string name="wifiap_connect_help_details_open">"การเชื่อมต่อด้วยตนเอง:
+1 เปิด WLAN บนอุปกรณ์เป้าหมายและค้นหาฮอตสปอต %1$s.
+2 เชื่อมต่อกับฮอตสปอต"</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN ของ China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">คุณเชื่อมต่อกับเครือข่าย WLAN ของ China Mobile การใช้งานเครือข่ายนี้อาจมีค่าธรรมเนียมในการใช้ WLAN ตามความเหมาะสม</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">ตัวเตือนการเชื่อมต่อ WLAN ของ China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">เตือนเมื่อฉันเชื่อมต่อกับเครือข่าย WLAN ของ China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">ไม่ต้องแสดงการแจ้งเตือนใดๆ เมื่อสลับการใช้งานเครือข่าย (ข้อมูลโทรศัพท์เคลื่อนที่ไปยัง WLAN และ WLAN ไปยังข้อมูลโทรศัพท์เคลื่อนที่ หรือสลับระหว่างเครือข่าย WLAN)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">ใช้ GPS และ WLAN เพื่อกะประมาณตำแหน่งที่ตั้ง</string>
+    <string name="location_mode_battery_saving_description_wifionly">ใช้ WLAN เพื่อกะประมาณตำแหน่งที่ตั้ง</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">เลือก WLAN หรือเครือข่ายข้อมูลมือถือชาญฉลาด</string>
+    <string name="wifi_plus_description">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะประเมินเพื่อทำการสับเปลี่ยนเครือข่ายอัจฉริยะ (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สับเปลี่ยนระหว่าง WLAN และข้อมูลมือถือ (มีการแจ้งเตือน) เพื่อให้ประสบการณ์อินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะเครือข่าย WLAN ที่รู้จัก และเชื่อมต่อ"</string>
+    <string name="wifi_plus_settings_title">การตั้งค่า WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">สับเปลี่ยนระหว่างเครือข่าย WLAN และข้อมูลโทรศัพท์มือถืออย่างอัจฉริยะเพื่อให้ประสบการณ์อินเทอร์เน็ตที่ดีกว่า</string>
+    <string name="wifi_plus_auto_turn_on_description">เปิด WLAN โดยอัตโนมัติเมื่อคุณอยู่ในตำแหน่งที่รู้จัก</string>
+    <string name="wifi_plus_global_description">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะประเมินเพื่อทำการสับเปลี่ยนเครือข่ายอัจฉริยะ (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สับเปลี่ยนระหว่าง WLAN และข้อมูลมือถือเพื่อให้ประสบการณ์อินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะเครือข่าย WLAN ที่รู้จัก และเชื่อมต่อ"</string>
+    <string name="location_mode_high_accuracy_title_emui">ใช้ GPS, WLAN และเครือข่ายมือถือ</string>
+    <string name="location_mode_battery_saving_title_emui">ใช้ WLAN และเครือข่ายมือถือ</string>
+    <string name="pgps_switch_summary">อนุญาตให้ GPS เก็บรวบรวมข้อมูลสถานีฐานเครือข่ายโทรศัพท์มือถือใกล้เคียง และข้อมูล WLAN เพื่อให้บริการระบุตำแหน่งที่ถูกต้องและรวดเร็วมากยิ่งขึ้น</string>
+    <string name="find_no_wlan_ap">ไม่สามารถค้นหาฮ็อตสป็อต WLAN ได้</string>
+    <string name="cannot_connect_wlan">ไม่สามารถเชื่อมต่อกับ WLAN ได้</string>
+    <string name="cannot_login_internet_with_wlan">ไม่สามารถเข้าถึงอินเตอร์เน็ตผ่านทาง WLAN ได้</string>
+    <string name="wfd_connect_fail">การเชื่อมต่อ WLAN ไดเร็กล้มเหลว</string>
+    <string name="find_no_wfd_device">ไม่สามารถค้นหาอุปกรณ์ WLAN ไดเร็กได้</string>
+    <string name="wfd_search_no_devices_causes">"ไม่พบอุปกรณ์ที่สามารถใช้ได้ อาจเป็นไปได้ว่า:
+1 ไม่สามารถค้นพบอุปกรณ์ที่จับคู่
+2. อุปกรณ์ที่จับคู่กำลังประสบกับปัญหาทางด้านเทคนิค ลองรีสตาร์ท WLAN อีกครั้ง และเปิด WLAN Direct ใหม่
+3. อุปกรณ์ของคุณเองกำลังประสบกับปัญหาทางด้านเทคนิค ลองรีสตาร์ท WLAN อีกครั้ง และเปิด WLAN Direct ใหม่"</string>
+    <string name="wfd_connected_failed_causes">"สร้างการเชื่อมต่อไม่ได้ สาเหตุที่อาจเป็นได้:
+1. อุปกรณ์ที่จับคู่ไม่ยอมรับคำขอการเชื่อมต่อ
+2. อุปกรณ์ใดอุปกรณ์หนึ่งได้สร้างการเชื่อมต่อกับ WLAN Direct อันอื่นแล้ว
+3. อุปกรณ์ที่จับคู่กำลังประสบกับปัญหาทางด้านเทคนิค ลองรีสตาร์ทอีกครั้ง"</string>
+    <string name="wifi_qrcode_share_notice">สแกนรหัส QR เพื่อเชื่อมต่อกับเครือข่าย WLAN นี้</string>
+    <string name="devices_not_found_solution_title">หากไม่พบอุปกรณ์ ลองทำตามขั้นตอนต่อไปนี้:</string>
+    <string name="devices_not_found_solution_message">"1. ให้แน่ใจว่าอุปกรณ์กำลังสแกนหาอุปกรณ์เครื่องอื่น
+2. หากอุปกรณ์ที่จับคู่กำลังประสบกับปัญหา รีสตาร์ท WLAN และ WLAN Direct อีกครั้ง
+3. หากอุปกรณ์ของคุณกำลังประสบกับปัญหา รีสตาร์ท WLAN และ WLAN Direct อีกครั้ง"</string>
+    <string name="devices_not_connected_solution_message">"1. ตรวจสอบให้แน่ใจว่าอุปกรณ์ที่จับคู่ได้ยอมรับคำขอการเชื่อมต่อแล้ว
+2. ตรวจสอบให้แน่ใจว่าอุปกรณ์ทั้งสองเครื่องไม่ได้เชื่อมต่อกับอุปกรณ์อื่น
+3. หากอุปกรณ์ที่จับคู่กำลังประสบกับปัญหา ลองทำการเชื่อมต่อใหม่"</string>
+    <string name="wifi_plus_description_emui">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะประเมินเพื่อทำการสับเปลี่ยนเครือข่ายอัจฉริยะ (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สลับระหว่าง WLAN และข้อมูลมือถือ (คุณสามารถเลือกโหมดการสับค่าเริ่มต้นในการตั้งค่าเครือข่ายมือถือ) เพื่อสร้างประสบการณ์การใช้งานอินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะเครือข่าย WLAN ที่รู้จัก และเชื่อมต่อ"</string>
+    <string name="link_plus_live_update_description">เมื่อเปิดใช้งานการอัพเดตทันทีสำหรับ Link+ โทรศัพท์ของคุณจะอัพเดตข้อมูลของพารามิเตอร์การสื่อสารโดยอัตโนมัติผ่านเครือข่ายไร้สายของคุณ (จะใช้ WLAN ตามค่าเริ่มต้น) เพื่อปรับปรุงฟีเจอร์ของ Link+ ที่เกี่ยวข้อง</string>
+    <string name="wifi_plus_description_emui2">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะประเมินเพื่อทำการสับเปลี่ยนเครือข่ายอัจฉริยะ (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สลับระหว่าง WLAN และข้อมูลมือถือ (คุณสามารถเลือกโหมดการสับค่าเริ่มต้นในการตั้งค่าเครือข่ายมือถือ) เพื่อสร้างประสบการณ์การใช้งานอินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะเครือข่าย WLAN ที่รู้จัก และเชื่อมต่อ
+3. ประเมินเครือข่าย WLAN ที่มี อุปกรณ์จะไม่เชื่อมต่ออัตโนมัติไปยังเครือข่ายที่บันทึกไว้โดยไม่มีการเชื่อมต่ออินเทอร์เน็ต
+4. สำหรับฮอตสปอต WLAN ฟรีบางตัว ให้ขอรับรหัสยืนยันจากข้อความ SMS ขาเข้า และบันทึกไปยังเครือข่ายผ่านเบราเซอร์ (รองรับในประเทศจีนแล้วตอนนี้)"</string>
+    <string name="wifi_plus_global_description2">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะประเมินเพื่อทำการสับเปลี่ยนเครือข่ายอัจฉริยะ (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สับเปลี่ยนระหว่าง WLAN และข้อมูลมือถือเพื่อให้ประสบการณ์อินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะเครือข่าย WLAN ที่รู้จัก และเชื่อมต่อ
+3. ประเมินเครือข่าย WLAN ที่มี อุปกรณ์จะไม่เชื่อมต่ออัตโนมัติไปยังเครือข่ายที่บันทึกไว้โดยไม่มีการเชื่อมต่ออินเทอร์เน็ต"</string>
+    <string name="help_message">"1. เครื่องพิมพ์และโทรศัพท์ของคุณไม่ได้เชื่อมต่อกับเครือข่าย WLAN เดียวกัน
+2. เครื่องพิมพ์ของคุณไม่รองรับบริการการพิมพ์นี้ (ตรวจสอบกับผู้ผลิต)
+3 เกินกำหนดเวลาค้นหาแล้ว ลองใหม่หากเกิดกรณีนี้ขึ้น
+4. เครื่องพิมพ์ของคุณมีปัญหา รีสตาร์ทเครื่องพิมพ์และลองใหม่อีกครั้ง"</string>
+    <string name="wifi_cloud_security_check_title">"การตรวจสอบความปลอดภัยของ WLAN "</string>
+    <string name="wifi_cloud_security_check_summary">ตรวจสอบระดับความปลอดภัยของเครือข่าย WLAN ที่เชื่อมต่อผ่านตัวจัดการโทรศัพท์ และหยุดการเชื่อมต่อโดยอัตโนมัติไปยังเครือข่ายที่บันทึกไว้ที่ก่อให้เกิดความเสี่ยงด้านความปลอดภัยชั่วคราว</string>
+    <string name="wifi_plus_description_emui3">"เมื่อเปิดใช้งาน WLAN+ การเชื่อมต่อ WLAN ของคุณจะถูกประเมินเพื่อให้บริการการสับเปลี่ยนเครือข่ายแบบอัจฉริยะ และจะอัปเดตพารามิเตอร์การปรับเพิ่มประสิทธิภาพต่าง ๆ โดยอัตโนมัติผ่าน WLAN (การใช้ข้อมูล WLAN อาจเพิ่มขึ้น) WLAN+ อัตโนมัติ:
+1. สลับระหว่าง WLAN และข้อมูลมือถือ (คุณสามารถเลือกโหมดการสับเปลี่ยนค่าเริ่มต้นในการตั้งค่าเครือข่ายมือถือ) เพื่อสร้างประสบการณ์การใช้งานอินเทอร์เน็ตที่ราบรื่น
+2. เปิด WLAN เมื่ออยู่ในระยะสัญญาณของเครือข่าย WLAN ที่รู้จักและเชื่อมต่อ
+3. ประเมินเครือข่าย WLAN ที่มีอยู่ สำหรับเครือข่ายที่บันทึกไว้ที่ไม่มีการเข้าถึงอินเทอร์เน็ต การเชื่อมต่ออัตโนมัติจะหยุดชั่วคราว
+4. สำหรับ WLAN ฮอตสปอตฟรีบางอย่าง ให้ตรวจจับและเข้าถึงรหัสการตรวจสอบจากข้อความการตรวจสอบ SMS ที่เข้ามา และเข้าสู่ระบบในเครือข่ายผ่านเบราว์เซอร์โดยอัตโนมัติ (ปัจจุบันรองรับเฉพาะในประเทศจีน)"</string>
+    <string name="user_add_user_message">"คุณสามารถใช้อุปกรณ์นี้ร่วมกับบุคคลอื่นได้โดยการสร้างผู้ใช้เพิ่มเติม ผู้ใช้แต่ละคนมีพื้นที่ของตนเอง ซึ่งพวกเขาสามารถปรับแต่งด้วยแอป วอลเปเปอร์ และอื่น ๆ นอกจากนี้ ผู้ใช้ยังสามารถปรับเปลี่ยนการตั้งค่าต่าง ๆ ในอุปกรณ์เช่น WLAN ที่มีผลบังคับใช้กับทุกคน
+
+เมื่อคุณเพิ่มผู้ใช้รายใหม่ บุคคลนั้นต้องกำหนดพื้นที่ของพวกเขา
+
+ผู้ใช้คนหนึ่งคนใดสามารถอัปเดตแอปสำหรับผู้ใช้อื่นทุกคน"</string>
+    <string name="print_user_warning">อุปกรณ์ของคุณจะค้นหาเครื่องพิมพ์ใกล้ ๆ ทางการเชื่อมต่อ WLAN เมื่อคุณเปิดบริการการพิมพ์ ซึ่งจะทำให้การรับส่ง WLAN</string>
+    <string name="wifi_calling_settings_title_emui">การโทร WLAN</string>
+    <string name="wifi_calling_dialog_title">เปิดใช้งานการโทร WLAN</string>
+    <string name="wifi_calling_dialog_message">หากเปิดใช้งานแล้ว คุณจะไม่สามารถทำการโทรฉุกเฉินผ่าน WLAN ได้ เปิดใช้งานหรือไม่</string>
+    <string name="device_name_settings_summary">เมื่อคุณใช้บลูทูธ WLAN Direct และการปล่อยสัญญาณ &amp; ฮอตสปอตแบบพกพา อุปกรณ์เครื่องอื่นจะเห็นชื่อนี้</string>
+    <string name="device_name_settings_dialog">การแก้ไขชื่ออุปกรณ์จะตัดการเชื่อมต่อ WLAN ฮอตสปอตในปัจจุบัน แก้ไขหรือไม่</string>
+    <string name="write_wifi_nfc_tag">เขียนลงในแท็ก WLAN NFC</string>
+    <string name="wifi_plus_smart_switch_title">สลับแบบอัจฉริยะระหว่าง WLAN และข้อมูลมือถือ</string>
+    <string name="wifi_plus_smart_switch_summary">ประเมินการเชื่อมต่อ WLAN และสลับระหว่าง WLAN (อาจเพิ่มปริมาณการรับส่งข้อมูล) และข้อมูลมือถือเพื่อเลือกการเชื่อมต่อเครือข่ายที่ดีที่สุด โหมดสลับที่เป็นค่าเริ่มต้นถูกตั้งค่าในการตั้งค่าเครือข่ายมือถือ</string>
+    <string name="wifi_plus_smart_switch_summary_global">ประเมินการเชื่อมต่อ WLAN และสลับระหว่าง WLAN (อาจเพิ่มปริมาณการรับส่งข้อมูล) และข้อมูลมือถือเพื่อเลือกการเชื่อมต่อเครือข่ายที่ดีที่สุด</string>
+    <string name="wifi_plus_auto_turn_title">เปิด/ปิด WLAN โดยอัตโนมัติ</string>
+    <string name="wifi_plus_auto_turn_summary">เปิด WLAN เมื่ออยู่ในระยะของเครือข่าย WLAN ที่รู้จักและทำการเชื่อมต่อ</string>
+    <string name="wifi_plus_quality_evaluation_title">ประเมินเครือข่าย WLAN ที่ใช้งาน</string>
+    <string name="wifi_plus_quality_evaluation_summary">ประเมินเครือข่าย WLAN ที่ใช้งาน สำหรับเครือข่ายที่บันทึกซึ่งไม่มีอินเทอร์เน็ต การเชื่อมต่ออัตโนมัติจะหยุดชั่วคราว</string>
+    <string name="wifi_plus_fast_connect_title">เพิ่มประสิทธิภาพการล็อกอินที่จุด WLAN ฟรี</string>
+    <string name="wifi_plus_fast_connect_summary">สำหรับบางจุดที่มี WLAN ฟรี รับสัญญาณและรับรหัสยืนยันจากข้อความยืนยันทาง SMS และล็อกอินเข้าเครือข่ายผ่านทางเบราว์เซอร์โดยอัตโนมัติ (ในปัจจุบันรองรับเฉพาะในประเทศจีนแผ่นดินใหญ่เท่านั้น)</string>
+    <string name="link_plus_live_update_description_EMUI_5">เมื่อเปิดใช้งาน Link+ อัปเดตสด โทรศัพท์ของคุณจะอัปเดตพารามิเตอร์การติดต่อสื่อสารผ่านเครือข่ายไร้สายของคุณโดยอัตโนมัติ (WLAN เป็นค่าเริ่มต้น) เพื่อปรับปรุงฟีเจอร์การติดต่อสื่อสารที่เกี่ยวข้อง</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>ข้อมูลมือถือ</li>"
+"<li>บลูทูธ</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">ใช้ GPS และ WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">ใช้ WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. การเชื่อมสัญญาณ WLAN จะช่วยให้ระยะการรับส่งสัญญาณและความเข้มสัญญาณ WLAN ดีขึ้นอย่างเห็นได้ชัด อุปกรณ์อื่น ๆ จะสามารถเชื่อมต่อกับเครือข่าย WLAN ปัจจุบันของคุณผ่านอุปกรณ์ของคุณ
+2. การเชื่อมสัญญาณ WLAN รองรับการใช้งานกับอุปกรณ์สูงสุด 4 ตัว
+3. การเชื่อมสัญญาณ WLAN ไม่สามารถใช้ได้กับฮอตสปอต WLAN และ WLAN Direct หากเปิดการเชื่อมสัญญาณ WLAN ไว้ แอพบางตัวที่ใช้ระบบ P2P อาจไม่สามารถทำงานได้ตามปกติ
+4. การใช้การเชื่อมสัญญาณ WLAN จะสิ้นเปลืองแบตเตอรี่มากกว่า
+5. หากคุณได้รับข้อความแจ้งว่า WLAN ถูกใช้โดยส่วนบริการอื่น ให้ไปที่ การตั้งค่า > WLAN > WLAN Direct จากนั้นตัดการเชื่อมต่ออุปกรณ์ที่มีการเชื่อมต่ออยู่ หรือสามารถปิด WLAN จากนั้นเปิดอีกครั้งเพื่อตัดการเชื่อมต่ออุปกรณ์ทั้งหมดแบบอัตโนมัติ"</string>
+    <string name="wifi_qrcode_share_notice_new">สแกนเพื่อเชื่อมตอกับเครือข่าย WLAN นี้</string>
+    <string name="location_help_scheme_body_one">"1. ตรวจสอบว่าเปิดใช้งาน เข้าถึงตำแหน่งของฉัน อยู่
+2 เลือก ใช้ GPS, WLAN และเครือข่ายมือถือในโหมดตำแหน่งที่ตั้ง
+3 เชื่อมต่อกับ WLAN ฮอตสปอต หรือเปิดใช้งานข้อมูลมือถือ
+4 ตรวจสอบว่าแอปที่คุณกำลังใช้อยู่สามารถเข้าถึงสิทธิ์อนุญาตใช้งานตำแหน่งที่ตั้งใน ตัวจัดการโทรศัพท์ > ตัวจัดการสิทธิ์อนุญาต > เข้าถึงข้อมูลตำแหน่งที่ตั้ง
+5 หากคุณตั้งค่าโหมดตำแหน่งที่ตั้งเป็น ใช้ GPS เท่านั้น โปรดแน่ใจว่าคุณกำลังใช้การเข้าถึงตำแหน่งที่ตั้งในสภาพแวดล้อมแบบเปิดโล่งและไม่มีสิ่งกีดขวาง ซึ่งจะสามารถรับสัญญาณ GPS ได้ตามปกติ
+6 หากคุณเชื่อมต่อกับฮอตสปอตสาธารณะ ให้ลองปิด WLAN และเปิดใช้งานข้อมูลมือถือ จากนั้นลองเข้าใช้งานตำแหน่งที่ตั้งอีกครั้ง"</string>
+    <string name="location_help_scheme_body_two">"1. เลือก ใช้ GPS, WLAN และเครือข่ายมือถือในโหมดตำแหน่งที่ตั้ง เพื่อให้สามารถเข้าถึงตำแหน่งที่ตั้งได้แม่นยำยิ่งขึ้น
+2 หากคุณกำลังใช้เคสโลหะกับอุปกรณ์ของคุณอยู่ ให้ถอดเคสออกหรือใช้เคสที่ไม่ใช่โลหะและลองอีกครั้ง
+3 ตรวจสอบว่าแอปที่คุณกำลังใช้อยู่สามารถเข้าถึงสิทธิ์อนุญาตใช้งานตำแหน่งที่ตั้งใน ตัวจัดการโทรศัพท์ > ตัวจัดการสิทธิ์อนุญาต > เข้าถึงข้อมูลตำแหน่งที่ตั้ง
+4 การนำทางจะทำงานได้ดีขึ้นในพื้นที่ที่โล่งกว้างและไม่มีสิ่งกีดขวาง วางโทรศัพท์ของคุณในตำแหน่งที่ใกล้กับกระจกหน้ารถ เช่น แผงหน้าปัดหรือบริเวณอื่นๆ ที่ไม่มีสิ่งกีดขวางในรถของคุณ"</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. การเชื่อมสัญญาณ WLAN จะช่วยให้ระยะการรับส่งสัญญาณและความเข้มสัญญาณ WLAN ดีขึ้นอย่างเห็นได้ชัด อุปกรณ์อื่นๆ จะสามารถเชื่อมต่อกับเครือข่าย WLAN ปัจจุบันของคุณผ่านอุปกรณ์ของคุณ
+%2$d. การเชื่อมสัญญาณ WLAN รองรับการใช้งานกับอุปกรณ์สูงสุด %6$d เครื่อง
+%3$d. การเชื่อมสัญญาณ WLAN ไม่สามารถใช้ได้กับ WLAN ฮอตสปอตและ WLAN Direct หากเปิดการเชื่อมสัญญาณ WLAN ไว้ แอปบางตัวที่ใช้ระบบ P2P อาจไม่สามารถทำงานได้ตามปกติ
+%4$d. การใช้การเชื่อมสัญญาณ WLAN จะสิ้นเปลืองแบตเตอรี่มากกว่า
+%5$d. หากคุณได้รับข้อความแจ้งว่า WLAN ถูกใช้โดยส่วนบริการอื่น ให้ไปที่ การตั้งค่า > WLAN > WLAN Direct จากนั้นตัดการเชื่อมต่ออุปกรณ์ที่มีการเชื่อมต่ออยู่ หรือสามารถปิด WLAN จากนั้นเปิดอีกครั้งเพื่อตัดการเชื่อมต่ออุปกรณ์ทั้งหมดแบบอัตโนมัติ"</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. คุณสามารถใช้อุปกรณ์ WLAN ฮอตสปอตแบบพกพาเป็นจุดเชื่อมต่ออินเทอร์เน็ตของคุณ อุปกรณ์ต่อพ่วงที่สามารถเชื่อมต่อไปยังอุปกรณ์ของคุณผ่านทาง WLAN และอุปกรณ์ที่เชื่อมต่อจะเข้าถึงอินเทอร์เน็ตผ่านเครือข่ายมือถือ
+%2$d. การใช้ WLAN ฮอตสปอตแบบพกพาจะต้องมีการเชื่อมต่อข้อมูลบนมือถือของคุณเพื่อเปิดใช้งานและจะใช้ข้อมูลบางส่วน
+%3$d. การใช้ WLAN ฮอตสปอตแบบพกพาอาจทำให้แบตเตอรี่ของคุณหมดเร็วขึ้น"</string>
+    <string name="wifiap_connect_help_details_open_ex">"การเชื่อมต่อด้วยตนเอง:
+%2$d. เปิดใช้งาน WLAN บนอุปกรณ์เป้าหมายและหาฮอตสปอต %1$s
+%3$d. เชื่อมต่อกับฮอตสปอต"</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. ตรวจสอบว่าเปิดใช้งาน เข้าถึงตำแหน่งของฉัน
+%2$d.เลือก ใช้ GPS, WLAN และเครือข่ายมือถือในโหมดตำแหน่ง
+%3$d.เชื่อมต่อกับ WLAN ฮอตสปอต หรือเปิดใช้งานข้อมูลมือถือ
+%4$d. ตรวจสอบว่าแอปที่คุณกำลังใช้อยู่สามารถเข้าถึงการอนุญาตใช้งานตำแหน่งใน ตัวจัดการโทรศัพท์ > ตัวจัดการการอนุญาต > เข้าถึงข้อมูลตำแหน่ง
+%5$d. หากคุณตั้งค่าโหมดตำแหน่งเป็น ใช้ GPS เท่านั้น โปรดแน่ใจว่าคุณกำลังใช้การเข้าถึงตำแหน่งในสภาพแวดล้อมแบบเปิดโล่งและไม่มีสิ่งกีดขวาง ซึ่งสามารถรับสัญญาณ GPS ได้ปกติ
+%6$d. หากคุณเชื่อมต่อกับฮอตสปอตสาธารณะ ให้ลองปิด WLAN และเปิดใช้งานข้อมูลมือถือ จากนั้นลองเข้าใช้งานการเข้าถึงตำแหน่งอีกครั้ง"</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. เลือก ใช้ GPS, WLAN และเครือข่ายมือถือในโหมดตำแหน่ง เพื่อให้สามารถเข้าถึงตำแหน่งได้ถูกต้องยิ่งขึ้น
+%2$d. หากคุณใช้เคสที่เป็นโลหะกับอุปกรณ์ของคุณ ให้ถอดเคสออกหรือใช้เคสที่ไม่ใช่โลหะและลองอีกครั้ง
+%3$d. ตรวจสอบว่าแอปที่คุณใช้อยู่สามารถเข้าถึงการอนุญาตใช้งานตำแหน่งใน ตัวจัดการโทรศัพท์ > ตัวจัดการการอนุญาต > เข้าถึงข้อมูลตำแหน่ง
+%4$d. การนำทางจะทำงานได้ดีขึ้นในพื้นที่ที่โล่งกว้างและไม่มีสิ่งกีดขวาง วางโทรศัพท์ของคุณในตำแหน่งที่ใกล้กับกระจกหน้ารถ เช่น แผงหน้าปัดหรือบริเวณอื่นๆ ที่ไม่มีสิ่งกีดขวางในรถของคุณ"</string>
+    <string name="turn_off_data_saver_message">การใช้ฮอตสปอตแบบพกพาต้องปิดการใช้งานโปรแกรมประหยัดข้อมูล ปิดใช้งานหรือไม่</string>
+    <string name="first_wlan_hotspot_text">ฮอตสปอต WLAN ช่วยให้คุณสามารถแบ่งปันการเชื่อมต่อเครือข่ายของคุณกับคนอื่น ๆ แต่อาจจะสิ้นเปลืองพลังงานแบตเตอรีเร็วขึ้น และเพิ่มค่าธรรมเนียมการใช้ข้อมูลโทรศัพท์มือถือ</string>
+    <string name="hotspot_power_notification_title">ปิดฮอตสปอต WLAN แล้ว</string>
+    <string name="hotspot_power_notification_ticker_text">ปิดฮอตสปอต WLAN แล้ว</string>
+    <string name="toast_entitle_wifi_need_close">ไม่สามารถใช้ฟังก์ชันนี้ขณะที่เปิด WLAN อยู่ กรุณาปิด WLAN ก่อน</string>
+    <string name="wifi_activated_warning_Title">ปิด WLAN</string>
+    <string name="wifi_turn_off_warning_message_wifiap">ไม่สามารถเปิดใช้ฮอตสปอตมือถือและ WLAN ในเวลาเดียวกัน ปิด WLAN หรือไม่</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN จะต้องปิดในตอนนี้ ซึ่งจะเปิดโดยอัตโนมัติอีกครั้งเมื่อโทรศัพท์ของคุณเชื่อมต่อกับเซิร์ฟเวอร์ AT&amp;T แล้ว</string>
+    <string name="broadcast_ssid_is_show_dialog">หากคุณปิดตัวเลือกชื่อเครือข่ายการกระจายข้อมูล (SSID) โทรศัพท์ของคุณจะไม่สามารถมองเห็นได้ในอุปกรณ์อื่น และจะไม่ปรากฎในรายการเครือข่าย WLAN ที่มีอยู่ อุปกรณ์จะยังคงสามารถเชื่อมต่อกับฮอตสปอตของคุณโดยป้อนชื่อเครือข่ายของคุณด้วยตนเอง</string>
+    <string name="enable">เปิดใช้งานการเชื่อมต่ออัตโนมัติกับ AT&amp;T WLAN</string>
+    <string name="disable">ปิดใช้งานการเชื่อมต่ออัตโนมัติกับ AT&amp;T WLAN</string>
+    <string name="auto_connect_wifi_suggestion">รีสตาร์ท WLAN สำหรับการตั้งค่าเชื่อมต่ออัตโนมัติเพื่อเริ่มใช้งาน</string>
+    <string name="wifi_network_detect_summary">ตรวจสอบความสามารถในการเข้าถึงอินเทอร์เน็ตเพื่อเชื่อมต่อกับ WLAN ฮอตสปอต</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN ได้ถูกปิดใช้งานโดยผู้ดูแลระบบของอุปกรณ์</string>
+    <string name="wifi_required_info_text">เพื่อดำเนินการตั้งค่าให้เสร็จสมบูรณ์ แท็บเล็ตของคุณต้องเข้าถึงเครือข่าย WLAN เมื่อดำเนินการตั้งค่าเสร็จสมบูรณ์แล้ว คุณสามารถสลับระหว่างข้อมูลโทรศัพท์มือถือและ WLAN ได้</string>
+    <string name="wifi_setting_frequency_band_title">ย่านความถี่ WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s จะจัดการกับอุปกรณ์ของคุณ และไม่อนุญาตให้คุณแก้ไขหรือลบเครือข่าย WLAN นี้ สำหรับข้อมูลเพิ่มเติม โปรดติดต่อผู้ดูแลระบบของคุณ</string>
+</resources>

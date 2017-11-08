@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.PagedTileLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/page_decor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001">
+        <com.android.systemui.qs.PageIndicator android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/page_indicator" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DetailButton" android:textColor="#64ffffff" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020003" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="88dp" android:text="@string/qs_edit" android:contentDescription="@string/accessibility_quick_settings_edit" style="@style/QSBorderlessButton" />
+    </FrameLayout>
+</com.android.systemui.qs.PagedTileLayout>

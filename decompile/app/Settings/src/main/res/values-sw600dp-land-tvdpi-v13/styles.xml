@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="wifi_item">
+        <item name="android:gravity">start</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginStart">@dimen/preference_item_padding_start</item>
+        <item name="android:layout_marginEnd">@dimen/preference_item_padding_end</item>
+    </style>
+    <style name="wifi_item_edit_content">
+        <item name="android:textSize">@dimen/preference_item_title_size</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:minHeight">40.0dip</item>
+        <item name="android:layout_marginStart">@dimen/preference_item_padding_start</item>
+        <item name="android:layout_marginEnd">@dimen/preference_item_padding_end</item>
+    </style>
+</resources>

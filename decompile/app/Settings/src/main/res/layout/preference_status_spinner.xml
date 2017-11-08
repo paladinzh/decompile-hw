@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:layout_weight="1.0" android:layout_marginEnd="@dimen/preference_item_margin_end">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:layout_width="fill_parent" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:textColor="@color/emui_secondary_text" android:id="@id/proxy_warning_limited_support_summary" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_below="@android:id/title" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="end" android:id="@android:id/text1" android:maxWidth="@dimen/preference_summary_max_width" android:minWidth="@dimen/preference_summary_min_width" android:maxLines="2" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+        <include layout="@layout/preference_widget_arrow" />
+    </LinearLayout>
+</LinearLayout>

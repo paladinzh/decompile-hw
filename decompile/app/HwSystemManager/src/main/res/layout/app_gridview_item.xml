@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/appGridIcon" android:layout_width="UNKNOWN_DATA_0x7f0a000b" android:layout_height="UNKNOWN_DATA_0x7f0a000c" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/back_app_name_text_size" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/appGridName" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/appGridIcon" />
+</RelativeLayout>

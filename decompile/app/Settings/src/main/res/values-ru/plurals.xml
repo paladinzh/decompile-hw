@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bluetooth_is_discoverable_toast_Toast">
+        <item quantity="other">Устройство видимо для других Bluetooth-устройств в течение %1$d с.</item>
+        <item quantity="one">Устройство видимо для других Bluetooth-устройств в течение %1$d с.</item>
+        <item quantity="many">Устройство видимо для других Bluetooth-устройств в течение %1$d с.</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы почти у цели. Осталось несколько шагов (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>).</item>
+        <item quantity="one">Вы почти у цели. Осталось несколько шагов (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>).</item>
+        <item quantity="few">Вы почти у цели. Осталось несколько шагов (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>).</item>
+        <item quantity="many">Вы почти у цели. Осталось несколько шагов (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>).</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Удалить выбранные языки?</item>
+        <item quantity="one">Удалить выбранные языки?</item>
+        <item quantity="few">Удалить выбранные языки?</item>
+        <item quantity="many">Удалить выбранные языки?</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Добавить %1$d отпечатка</item>
+        <item quantity="one">Добавить %1$d отпечаток</item>
+        <item quantity="few">Добавить %1$d отпечатка</item>
+        <item quantity="many">Добавить %1$d отпечатков</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать буквы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну букву.</item>
+        <item quantity="few">Пароль должен содержать буквы (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать буквы (не менее %d)</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать строчные буквы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну строчную букву.</item>
+        <item quantity="few">Пароль должен содержать строчные символы (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать строчные символы (не менее %d)</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать заглавные буквы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну заглавную букву.</item>
+        <item quantity="few">Пароль должен содержать заглавные буквы (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать заглавные буквы (не менее %d)</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать цифры (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну цифру.</item>
+        <item quantity="few">Пароль должен содержать цифры (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать цифры (не менее %d)</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать специальные символы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы один специальный символ.</item>
+        <item quantity="few">Пароль должен содержать специальные символы (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать специальные символы (не менее %d)</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать небуквенные символы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы один небуквенный символ.</item>
+        <item quantity="few">Пароль должен содержать небуквенные символы (не менее %d)</item>
+        <item quantity="many">Пароль должен содержать небуквенные символы (не менее %d)</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN-код. Осталось попыток: %d.</item>
+        <item quantity="one">Неверный PIN-код. Осталось попыток: %d. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+        <item quantity="few">Неверный PIN-код. Осталось %d попытки. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+        <item quantity="many">Неверный PIN-код. Осталось %d попыток. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d объекта</item>
+        <item quantity="one">%d объект</item>
+        <item quantity="few">%d объекта</item>
+        <item quantity="many">%d объектов</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Сверхкраткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="one">Сверхкраткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="few">Сверхкраткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="many">Сверхкраткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Очень короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="one">Очень короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="few">Очень короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="many">Очень короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="one">Короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="few">Короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="many">Короткая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="one">Долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="few">Долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="many">Долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Очень долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="one">Очень долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="few">Очень долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+        <item quantity="many">Очень долгая задержка (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> мс)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d задания печати</item>
+        <item quantity="one">%d задание печати</item>
+        <item quantity="few">%d задания печати</item>
+        <item quantity="many">%d заданий печати</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Разрешить или удалить сертификаты</item>
+        <item quantity="one">Разрешить или удалить сертификат</item>
+        <item quantity="few">Разрешить или удалить сертификаты</item>
+        <item quantity="many">Разрешить или удалить сертификаты</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"Приложение %s установило сертификаты для Вашего устройства, что позволяет ему выполнять мониторинг действий, выполняемых по сети, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+        <item quantity="one">"Приложение %s установило сертификат для Вашего устройства, что позволяет ему выполнять мониторинг действий, выполняемых по сети, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить этот сертификат.
+
+Для получения подробной информации о сертификате обратитесь к администратору."</item>
+        <item quantity="few">"Приложение %s установило сертификаты для Вашего устройства, что позволяет ему выполнять мониторинг действий, выполняемых по сети, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+        <item quantity="many">"Приложение %s установило сертификаты для Вашего устройства, что позволяет ему выполнять мониторинг действий, выполняемых по сети, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"Приложение %s установило сертификаты для Вашего рабочего профиля, что позволяет ему выполнять мониторинг действий, выполняемых по сети в рабочем профиле, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+        <item quantity="one">"Приложение %s установило сертификат для Вашего рабочего профиля, что позволяет ему выполнять мониторинг действий, выполняемых по сети в рабочем профиле, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить этот сертификат.
+
+Для получения подробной информации о сертификате обратитесь к администратору."</item>
+        <item quantity="few">"Приложение %s установило сертификаты для Вашего рабочего профиля, что позволяет ему выполнять мониторинг действий, выполняемых по сети в рабочем профиле, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+        <item quantity="many">"Приложение %s установило сертификаты для Вашего рабочего профиля, что позволяет ему выполнять мониторинг действий, выполняемых по сети в рабочем профиле, включая эл. почту, работу приложений и защищенные веб-сайты. Вы можете разрешить или удалить эти сертификаты.
+
+Для получения подробной информации о сертификатах обратитесь к администратору."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Проверить сертификаты</item>
+        <item quantity="one">Проверить сертификат</item>
+        <item quantity="few">Проверить сертификаты</item>
+        <item quantity="many">Проверить сертификаты</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d приложения могут читать уведомления</item>
+        <item quantity="one">%d приложение может читать уведомления</item>
+        <item quantity="few">%d приложения могут читать уведомления</item>
+        <item quantity="many">%d приложений могут читать уведомления</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">В течение %1$d минут до %2$s активны только напоминания и будильник.</item>
+        <item quantity="one">В течение %1$d минуты до %2$s активны только напоминания и будильник.</item>
+        <item quantity="few">В течение %1$d минут до %2$s активны только напоминания и будильник.</item>
+        <item quantity="many">В течение %1$d минут до %2$s активны только напоминания и будильник.</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">В течение %1$d часов до %2$s активны только напоминания и будильник.</item>
+        <item quantity="one">В течение %1$d часа до %2$s активны только напоминания и будильник.</item>
+        <item quantity="few">В течение %1$d часов до %2$s активны только напоминания и будильник.</item>
+        <item quantity="many">В течение %1$d часов до %2$s активны только напоминания и будильник.</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Предоставлено &lt;subnode ref="ml" index="1">%d&lt;/subnode> разрешения</item>
+        <item quantity="one">Предоставлено &lt;subnode ref="ml" index="1">%d&lt;/subnode> разрешение</item>
+        <item quantity="few">Предоставлено &lt;subnode ref="ml" index="1">%d&lt;/subnode> разрешения</item>
+        <item quantity="many">Предоставлено &lt;subnode ref="ml" index="1">%d&lt;/subnode> разрешений</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Предоставлены &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> разрешения из &lt;subnode ref="ml" index="2">%2$d&lt;/subnode></item>
+        <item quantity="one">Предоставлено &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> разрешение из &lt;subnode ref="ml" index="2">%2$d&lt;/subnode></item>
+        <item quantity="few">Предоставлены &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> разрешения из &lt;subnode ref="ml" index="2">%2$d&lt;/subnode></item>
+        <item quantity="many">Предоставлено &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> разрешений из &lt;subnode ref="ml" index="2">%2$d&lt;/subnode></item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Ещё %d разрешения</item>
+        <item quantity="one">Ещё %d разрешение</item>
+        <item quantity="few">Ещё %d разрешения</item>
+        <item quantity="many">Ещё %d разрешений</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> приложения могут открывать поддерживаемые ссылки</item>
+        <item quantity="one">1 приложение может открывать поддерживаемые ссылки</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%d&lt;/subnode> приложения могут открывать поддерживаемые ссылки</item>
+        <item quantity="many">&lt;subnode ref="ml" index="1">%d&lt;/subnode> приложений могут открывать поддерживаемые ссылки</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Экономия заряда батареи отключена для &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложения</item>
+        <item quantity="one">Экономия заряда батареи отключена для 1 приложения</item>
+        <item quantity="few">Экономия заряда батареи отключена для &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложений</item>
+        <item quantity="many">Экономия заряда батареи отключена для &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложений</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">За %2$s память использовали %1$d приложения</item>
+        <item quantity="one">1 приложение использовало память за последние %2$s</item>
+        <item quantity="few">За %2$s память использовали %1$d приложения</item>
+        <item quantity="many">%1$d приложений использовало память за последние %2$s</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Показывать уведомления запрещено &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложениям</item>
+        <item quantity="one">Показывать уведомления запрещено &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложению</item>
+        <item quantity="few">Показывать уведомления запрещено &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложениям</item>
+        <item quantity="many">Показывать уведомления запрещено &lt;subnode ref="ml" index="1">%d&lt;/subnode> приложениям</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> приложения могут без ограничений передавать данные в режиме экономии трафика</item>
+        <item quantity="one">1 приложение может без ограничений передавать данные в режиме экономии трафика</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> приложения могут без ограничений передавать данные в режиме экономии трафика</item>
+        <item quantity="many">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> приложений могут без ограничений передавать данные в режиме экономии трафика</item>
+    </plurals>
+    <plurals name="zen_mode_repeat_callers_summary">
+        <item quantity="other">Второй вызов, выполненный с одного номера в течение %d мин, не будет переведен в беззвучный режим</item>
+        <item quantity="one">Второй вызов, выполненный с одного номера в течение %d мин, не будет переведен в беззвучный режим</item>
+        <item quantity="many">Второй вызов, выполненный с одного номера в течение %d мин, не будет переведен в беззвучный режим</item>
+    </plurals>
+    <plurals name="bluetooth_ask_discovery_emotion">
+        <item quantity="other">Разрешить приложению на Вашем телефоне сделать устройство видимым для других Bluetooth-устройств в течение %1$d с?</item>
+        <item quantity="one">Разрешить приложению на Вашем телефоне сделать устройство видимым для других Bluetooth-устройств в течение %1$d с?</item>
+        <item quantity="few">Разрешить приложению на Вашем телефоне сделать устройство видимым для других Bluetooth-устройств в течение %1$d с?</item>
+        <item quantity="many">Разрешить приложению на Вашем телефоне сделать устройство видимым для других Bluetooth-устройств в течение %1$d с?</item>
+    </plurals>
+    <plurals name="bluetooth_ask_enablement_and_discovery_emotion">
+        <item quantity="other">Приложение на Вашем устройстве хочет включить Bluetooth и сделать Ваше устройство видимым для других устройств в течение %1$d с. Разрешить?</item>
+        <item quantity="one">Приложение на Вашем устройстве хочет включить Bluetooth и сделать Ваше устройство видимым для других устройств в течение %1$d с. Разрешить?</item>
+        <item quantity="few">Приложение на Вашем устройстве хочет включить Bluetooth и сделать Ваше устройство видимым для других устройств в течение %1$d с. Разрешить?</item>
+        <item quantity="many">Приложение на Вашем устройстве хочет включить Bluetooth и сделать Ваше устройство видимым для других устройств в течение %1$d с. Разрешить?</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short_emotion">
+        <item quantity="other">Пароль должен состоять как минимум из %d символа</item>
+        <item quantity="one">Пароль должен состоять как минимум из %d символа</item>
+        <item quantity="few">Пароль должен состоять как минимум из %d символов</item>
+        <item quantity="many">Пароль должен состоять как минимум из %d символов</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short_emotion">
+        <item quantity="other">PIN-код должен содержать минимум %d цифры</item>
+        <item quantity="one">PIN-код должен содержать минимум %d цифру</item>
+        <item quantity="few">PIN-код должен содержать минимум %d цифры</item>
+        <item quantity="many">PIN-код должен содержать минимум %d цифр</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long_emotion">
+        <item quantity="other">Пароль должен состоять меньше чем из %d символа</item>
+        <item quantity="one">Пароль должен состоять меньше чем из %d символа</item>
+        <item quantity="few">Пароль должен состоять меньше чем из %d символов</item>
+        <item quantity="many">Пароль должен состоять меньше чем из %d символов</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long_emotion">
+        <item quantity="other">PIN-код должен состоять меньше чем из %d цифры</item>
+        <item quantity="one">PIN-код должен состоять меньше чем из %d цифры</item>
+        <item quantity="few">PIN-код должен состоять меньше чем из %d цифр</item>
+        <item quantity="many">PIN-код должен состоять меньше чем из %d цифр</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase_emotion">
+        <item quantity="other">Пароль должен содержать как минимум %d строчные буквы</item>
+        <item quantity="one">Пароль должен содержать как минимум %d строчную букву</item>
+        <item quantity="few">Пароль должен содержать как минимум %d строчные буквы</item>
+        <item quantity="many">Пароль должен содержать как минимум %d строчных букв</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_devices_connected_subtext_emotion">
+        <item quantity="other">Подключенных к Интернету устройств: %1$d</item>
+        <item quantity="one">Подключенных к Интернету устройств: %1$d</item>
+        <item quantity="few">Подключенных к Интернету устройств: %1$d</item>
+        <item quantity="many">Подключенных к Интернету устройств: %1$d</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short_emotion">
+        <item quantity="other">Необходимо соединить минимум %d точки. Повторите попытку.</item>
+        <item quantity="one">Необходимо соединить минимум %d точку. Повторите попытку.</item>
+        <item quantity="few">Необходимо соединить минимум %d точки. Повторите попытку.</item>
+        <item quantity="many">Необходимо соединить минимум %d точек. Повторите попытку.</item>
+    </plurals>
+    <plurals name="credentials_reset_warning_plural_emotion">
+        <item quantity="other">Неверный пароль. Осталось %1$d попытки, перед тем как хранилище учетных данных будет очищено.</item>
+        <item quantity="one">Неверный пароль. Осталась %1$d попытка, перед тем как хранилище учетных данных будет очищено.</item>
+        <item quantity="few">Неверный пароль. Осталось %1$d попытки, перед тем как хранилище рег. данных будет очищено.</item>
+        <item quantity="many">Неверный пароль. Осталось %1$d попыток, перед тем как хранилище учетных данных будет очищено.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase_emotion">
+        <item quantity="other">Пароль должен содержать как минимум %d заглавные буквы</item>
+        <item quantity="one">Пароль должен содержать как минимум %d заглавную букву</item>
+        <item quantity="few">Пароль должен содержать как минимум %d заглавные буквы</item>
+        <item quantity="many">Пароль должен содержать как минимум %d заглавных букв</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric_emotion">
+        <item quantity="other">Пароль должен содержать минимум %d цифры</item>
+        <item quantity="one">Пароль должен содержать минимум %d цифру</item>
+        <item quantity="few">Пароль должен содержать минимум %d цифры</item>
+        <item quantity="many">Пароль должен содержать минимум %d цифр</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters_emotion">
+        <item quantity="other">Пароль должен содержать как минимум %d буквы</item>
+        <item quantity="one">Пароль должен содержать как минимум %d букву</item>
+        <item quantity="few">Пароль должен содержать как минимум %d буквы</item>
+        <item quantity="many">Пароль должен содержать как минимум %d букв</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols_emotion">
+        <item quantity="other">Пароль должен содержать минимум %d символа</item>
+        <item quantity="one">Пароль должен содержать минимум %d символ</item>
+        <item quantity="few">Пароль должен содержать минимум %d символа</item>
+        <item quantity="many">Пароль должен содержать минимум %d символов</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter_emotion">
+        <item quantity="other">Пароль должен содержать как минимум %d небуквенных символа</item>
+        <item quantity="one">Пароль должен содержать как минимум %d небуквенный символ</item>
+        <item quantity="few">Пароль должен содержать как минимум %d небуквенных символа</item>
+        <item quantity="many">Пароль должен содержать как минимум %d небуквенных символов</item>
+    </plurals>
+    <plurals name="show_dev_countdown_emotion_Toast">
+        <item quantity="other">Еще %d шага - и Вы разработчик.</item>
+        <item quantity="one">Еще %d шаг - и Вы разработчик.</item>
+        <item quantity="few">Еще %d шага - и Вы разработчик.</item>
+        <item quantity="many">Еще %d шагов - и Вы разработчик.</item>
+    </plurals>
+    <plurals name="wifiap_connect_accounts">
+        <item quantity="other">%d устройства подключено</item>
+        <item quantity="one">%d устройство подключено</item>
+        <item quantity="few">%d устройства подключено</item>
+        <item quantity="many">%d устройств подключено</item>
+    </plurals>
+    <plurals name="wifiap_wps_current_allow_devices">
+        <item quantity="other">Разрешенные устройства (макс. %d)</item>
+        <item quantity="one">Разрешенные устройства (макс. %d)</item>
+        <item quantity="few">Разрешенные устройства (макс. %d)</item>
+        <item quantity="many">Разрешенные устройства (макс. %d)</item>
+    </plurals>
+    <plurals name="search_reslut_count">
+        <item quantity="other">Найдено %1$s настройки</item>
+        <item quantity="one">Найдена %1$s настройка</item>
+        <item quantity="many">Найдено %1$s настроек</item>
+    </plurals>
+    <plurals name="search_reslut_count_ex">
+        <item quantity="other">Найдено %1$d настройки</item>
+        <item quantity="one">Найдена %1$d настройка</item>
+        <item quantity="many">Найдено %1$d настроек</item>
+    </plurals>
+    <plurals name="timing_task_settings_interval_Toast">
+        <item quantity="other">Интервал между плановым включением и выключением должен быть не меньше %1$d мин.</item>
+        <item quantity="one">Интервал между плановым включением и выключением должен быть не меньше %1$d мин.</item>
+        <item quantity="many">Интервал между плановым включением и выключением должен быть не меньше %1$d мин.</item>
+    </plurals>
+    <plurals name="shutdown_countdown_dialog_message">
+        <item quantity="other">Устройство выключится автоматически через %1$d с.</item>
+        <item quantity="one">Устройство выключится автоматически через %1$d с.</item>
+        <item quantity="few">Устройство выключится автоматически через %1$d с.</item>
+        <item quantity="many">Устройство выключится автоматически через %1$d с.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_short">
+        <item quantity="other">Пароль SD-карты должен содержать минимум %d символа.</item>
+        <item quantity="one">Пароль SD-карты должен содержать минимум %d символ.</item>
+        <item quantity="many">Пароль SD-карты должен содержать минимум %d символов.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_long">
+        <item quantity="other">Пароль SD-карты должен содержать меньше %d символов.</item>
+        <item quantity="one">Пароль SD-карты должен содержать меньше %d символа.</item>
+        <item quantity="many">Пароль SD-карты должен содержать меньше %d символов.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Слишком много неудачных попыток. Повторите попытку через &lt;subnode ref="ml" index="1">%d&lt;/subnode> с.</item>
+        <item quantity="one">Слишком много неудачных попыток. Повторите попытку через &lt;subnode ref="ml" index="1">%d&lt;/subnode> с.</item>
+        <item quantity="many">Слишком много неудачных попыток. Повторите попытку через &lt;subnode ref="ml" index="1">%d&lt;/subnode> с.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_pin">
+        <item quantity="other">Введите минимум %1$d цифры.</item>
+        <item quantity="one">Введите минимум %1$d цифру.</item>
+        <item quantity="few">Введите минимум %1$d цифры.</item>
+        <item quantity="many">Введите минимум %1$d цифр.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_password">
+        <item quantity="other">Введите минимум %1$d символа.</item>
+        <item quantity="one">Введите минимум %1$d символ.</item>
+        <item quantity="few">Введите минимум %1$d символа.</item>
+        <item quantity="many">Введите минимум %1$d символов.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_one_char_at_least">
+        <item quantity="other">Должен содержать мин. %1$d буквы.</item>
+        <item quantity="one">Должен содержать мин. %1$d букву.</item>
+        <item quantity="few">Должен содержать мин. %1$d буквы.</item>
+        <item quantity="many">Должен содержать мин. %1$d букв.</item>
+    </plurals>
+    <plurals name="lockscreen_warn_wrong_password">
+        <item quantity="other">Неверный пароль. Осталось %1$d попытки.</item>
+        <item quantity="one">Неверный пароль. Осталась %1$d попытка.</item>
+        <item quantity="few">Неверный пароль. Осталось %1$d попытки.</item>
+        <item quantity="many">Неверный пароль. Осталось %1$d попыток.</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_seconds">
+        <item quantity="other">Повторите попытку через %1$d с</item>
+        <item quantity="one">Повторите попытку через %1$d с</item>
+        <item quantity="few">Повторите попытку через %1$d с</item>
+        <item quantity="many">Повторите попытку через %1$d с</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_minutes">
+        <item quantity="other">Повторите попытку через %1$d мин</item>
+        <item quantity="one">Повторите попытку через %1$d мин</item>
+        <item quantity="few">Повторите попытку через %1$d мин</item>
+        <item quantity="many">Повторите попытку через %1$d мин</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_hours">
+        <item quantity="other">Повторите попытку через %1$d ч</item>
+        <item quantity="one">Повторите попытку через %1$d ч</item>
+        <item quantity="few">Повторите попытку через %1$d ч</item>
+        <item quantity="many">Повторите попытку через %1$d ч</item>
+    </plurals>
+    <plurals name="lockscreen_pattern_too_short">
+        <item quantity="other">Соедините мин. %1$d точки. Повторите попытку.</item>
+        <item quantity="one">Соедините мин. %1$d точку. Повторите попытку.</item>
+        <item quantity="few">Соедините мин. %1$d точки. Повторите попытку.</item>
+        <item quantity="many">Соедините мин. %1$d точек. Повторите попытку.</item>
+    </plurals>
+    <plurals name="blacklist_notification_signal_disableapp_title_multi_app">
+        <item quantity="other">Заблокировано %1$d приложения, содержащие угрозы безопасности</item>
+        <item quantity="one">%1$d приложение содержит угрозы безопасности, запрещено</item>
+        <item quantity="few">Заблокировано %1$d приложения, содержащие угрозы безопасности</item>
+        <item quantity="many">Заблокировано %1$d приложений, содержащих угрозы безопасности</item>
+    </plurals>
+    <plurals name="blacklist_notification_title_multi_app">
+        <item quantity="other">%1$d приложения запрещено</item>
+        <item quantity="one">%1$d приложение запрещено</item>
+        <item quantity="few">%1$d приложения запрещено</item>
+        <item quantity="many">%1$d приложений запрещено</item>
+    </plurals>
+    <plurals name="timezones_results_count">
+        <item quantity="other">%d результата</item>
+        <item quantity="one">%d результат</item>
+        <item quantity="few">%d результата</item>
+        <item quantity="many">%d результатов</item>
+    </plurals>
+    <plurals name="step">
+        <item quantity="other">%d шага</item>
+        <item quantity="one">%d шаг</item>
+        <item quantity="many">%d шагов</item>
+    </plurals>
+</resources>

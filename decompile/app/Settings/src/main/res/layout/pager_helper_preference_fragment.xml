@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/pager_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/pressure_helper_pager_height" android:layout_marginTop="12.0dip" />
+    <com.android.settings.views.pagerHelper.PagerHelperSpotsView android:layout_gravity="center_horizontal" android:id="@id/nav_spots_view" android:layout_width="fill_parent" android:layout_height="@dimen/pressure_helper_nav_height" android:layout_marginTop="@dimen/pressure_helper_nav_top_padding" android:layout_marginBottom="@dimen/pressure_helper_nav_bottom_padding" />
+</LinearLayout>

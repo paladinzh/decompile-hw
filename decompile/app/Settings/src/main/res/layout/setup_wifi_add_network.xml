@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/other_network" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/setup_add_network_item_height" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:layout_width="@dimen/setup_preference_icon_frame_width" android:layout_height="wrap_content" android:paddingEnd="@dimen/setup_preference_icon_frame_padding_end" android:layout_marginStart="@dimen/setup_preference_icon_frame_margin_start">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setup_ic_add_another_network" />
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.SetupWizardDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_other_network" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" class="com.android.contacts.detail.CarouselTab">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <View android:id="@+id/photo_overlay" android:background="?unknown_attr_ref: 101030e" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <View android:id="@+id/label_background" android:background="#7f000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0029" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+        <View android:id="@+id/alpha_overlay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/detail_tab_carousel_tab_label_height" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textColor="@color/detail_tab_carousel_tab_label_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/label" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0029" android:maxLines="1" android:layout_alignParentBottom="true" android:paddingStart="@dimen/detail_tab_carousel_tab_label_indent" android:layout_alignParentStart="true" style="@*style/Widget.Holo.ActionBar.TabView" />
+    </RelativeLayout>
+</view>

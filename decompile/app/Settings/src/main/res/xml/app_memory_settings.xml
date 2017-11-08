@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/memory_usage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/running_frequency" android:key="frequency" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/memory_maximum_usage" android:key="max_usage" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/memory_details" android:key="processes" />
+</PreferenceScreen>

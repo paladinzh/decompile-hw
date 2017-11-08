@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/gray_view" android:background="@color/gray_view_background_color" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <LinearLayout android:id="@+id/contact_detail" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+        <include layout="@layout/contact_detail_split_land_activity" />
+    </LinearLayout>
+</LinearLayout>

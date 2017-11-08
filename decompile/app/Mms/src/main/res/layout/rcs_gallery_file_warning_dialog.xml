@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/mms_dialog_view_padding_start" android:paddingEnd="@dimen/mms_dialog_view_padding_end">
+    <TextView android:textSize="15sp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gallery_file_waring_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:fontFamily="HwChinese-medium" />
+    <CheckBox android:textSize="@dimen/mms_main_dialog_checkbox_text_size" android:id="@+id/gallery_file_not_remind_again" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:text="@string/checkbox_not_remind_again" />
+</LinearLayout>

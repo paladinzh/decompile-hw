@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include android:id="@+id/pwd_input_0" layout="@layout/applock_password_start_icon" />
+        <include android:id="@+id/pwd_input_error_0" android:visibility="gone" layout="@layout/applock_password_start_icon_error" />
+        <ImageView android:id="@+id/app_lock_password_img_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_dot_password_app_lock" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="1dp">
+        <ImageView android:id="@+id/pwd_input_1" android:background="@drawable/bg_input_password_mid_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="0x0" />
+        <ImageView android:id="@+id/pwd_input_error_1" android:background="@drawable/bg_input_password_mid_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="0x0" />
+        <ImageView android:id="@+id/app_lock_password_img_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_dot_password_app_lock" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="1dp">
+        <ImageView android:id="@+id/pwd_input_2" android:background="@drawable/bg_input_password_mid_normal" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="0x0" />
+        <ImageView android:id="@+id/pwd_input_error_2" android:background="@drawable/bg_input_password_mid_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:contentDescription="0x0" />
+        <ImageView android:id="@+id/app_lock_password_img_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_dot_password_app_lock" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="1dp">
+        <include android:id="@+id/pwd_input_3" layout="@layout/applock_password_end_icon" />
+        <include android:id="@+id/pwd_input_error_3" android:visibility="gone" layout="@layout/applock_password_end_icon_error" />
+        <ImageView android:id="@+id/app_lock_password_img_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_dot_password_app_lock" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+</LinearLayout>

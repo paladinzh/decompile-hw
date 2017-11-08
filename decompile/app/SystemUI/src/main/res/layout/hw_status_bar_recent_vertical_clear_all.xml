@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.recents.views.HwRecentsClearBox xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:id="@id/sliding_drawer" systemui:background="0x0" systemui:layout_width="UNKNOWN_DATA_0x7f0e0371" systemui:layout_height="match_parent" systemui:handle="@id/recent_igmbutton_clear_all" systemui:content="@id/clear_all_recests_layout" systemui:topOffset="@dimen/recents_topOffset">
+    <RelativeLayout systemui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:layout_width="UNKNOWN_DATA_0x7f0e0371" systemui:layout_height="match_parent"
+        <RelativeLayout systemui:id="@id/clear_all_recests_layout" systemui:layout_width="match_parent" systemui:layout_height="wrap_content" systemui:layout_marginBottom="8dp" systemui:minWidth="0dp" systemui:minHeight="@dimen/clear_all_recests_layout_h" systemui:layout_above="@id/recent_igmbutton_clear_all" systemui:layout_centerHorizontal="true">
+            <include systemui:id="@id/memory_use_infor" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_centerInParent="true" layout="@layout/hw_memory_use_infor_vertical" />
+        </RelativeLayout>
+        <FrameLayout systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/recent_igmbutton_clear_all" systemui:layout_width="UNKNOWN_DATA_0x7f0e032e" systemui:layout_height="UNKNOWN_DATA_0x7f0e032e" systemui:layout_centerInParent="true">
+            <View systemui:id="@id/recent_round_progerss_bar" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+            <ImageView systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/clear_all_recents_image_button" systemui:layout_width="UNKNOWN_DATA_0x7f0e032e" systemui:layout_height="UNKNOWN_DATA_0x7f0e032e" systemui:src="@drawable/abc_btn_radio_to_on_mtrl_015" systemui:contentDescription="@string/accessibility_recents_all_items_close" />
+            <ImageView systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/clear_all_recents_image_button_down" systemui:background="0x106000d" systemui:visibility="invisible" systemui:layout_width="UNKNOWN_DATA_0x7f0e032e" systemui:layout_height="UNKNOWN_DATA_0x7f0e032e" systemui:src="@drawable/abc_btn_switch_to_on_mtrl_00001" />
+        </FrameLayout>
+    </RelativeLayout>
+</com.android.systemui.recents.views.HwRecentsClearBox>

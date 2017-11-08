@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@androidhwext:drawable/ic_public_back" android:layout_marginEnd="@dimen/preference_item_margin_end" />
+    <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <SearchView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/action_bar_search_view" android:layout_width="fill_parent" android:layout_height="@dimen/edittext_min_height" android:iconifiedByDefault="false" android:queryHint="@string/search_hint" />
+</LinearLayout>

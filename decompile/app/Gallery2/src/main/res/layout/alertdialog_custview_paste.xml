@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <ScrollView android:id="@id/scrollview" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="15dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="13sp" android:id="@id/message" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:paddingStart="4dp" android:paddingEnd="4dp" />
+            <CheckBox android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="14dp" android:id="@id/checkbox" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/paste_samename_sameaction_nocountinfo" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

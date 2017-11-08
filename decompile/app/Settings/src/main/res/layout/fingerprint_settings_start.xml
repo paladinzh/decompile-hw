@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/abc_btn_check_to_on_mtrl_000_APKTOOL_DUPLICATENAME_0x7f020071" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/fp_startup_padding_start" android:paddingEnd="@dimen/fp_startup_padding_end">
+        <TextView android:id="@id/main_title" android:text="@string/fp_function_category" style="@style/fpStartupMainTitleStyle" />
+        <View android:layout_marginTop="@dimen/divider_marginTop" style="@style/fpStartupDividerStyle" />
+        <ScrollView android:id="@id/anim_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:id="@id/scroll_content" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/fingerprint_checkout" layout="@layout/fingerprint_checkout_start" />
+                <View android:layout_marginTop="3.0dip" android:layout_marginBottom="20.0dip" style="@style/fpStartupDividerStyle" />
+                <include android:id="@id/fingerprint_touch" layout="@layout/fingerprint_touch_start" />
+                <View android:id="@id/view_for_hidden_user" android:visibility="gone" android:layout_marginTop="3.0dip" android:layout_marginBottom="20.0dip" style="@style/fpStartupDividerStyle" />
+                <TextView android:textSize="13.0sp" android:textColor="#ff000000" android:id="@id/message_for_hidden_user" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout2" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/skip_label" android:text="@string/skip_label" android:contentDescription="@string/skip_label" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/fp_track" android:text="@string/fp_start_enroll_button_text" android:contentDescription="@string/fp_pre_enroll_title" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+</LinearLayout>

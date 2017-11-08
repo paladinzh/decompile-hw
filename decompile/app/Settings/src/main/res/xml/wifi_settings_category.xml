@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:icon="@drawable/wifi_settings" android:persistent="false" android:layout="@layout/preference_wifi_switch" android:title="@string/wifi_settings_title" android:key="wifi_switch" />
+    <com.android.settings.TwoSummaryPreference android:layout="@layout/preference_two_summay" android:title="@string/wifi_plus_title" android:key="wifi_plus_entry" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.wifi.WifiPlusSettings" settings:netherSummary="@string/wifi_plus_summary2" />
+</PreferenceScreen>

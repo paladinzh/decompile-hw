@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/group_browse_list_fragment" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/actionbar_title_view" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <view android:scrollbarStyle="outsideOverlay" android:id="@+id/list" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:cacheColorHint="0x106000d" android:divider="0x0" class="com.android.contacts.widget.AutoScrollListView" />
+        </LinearLayout>
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/empty" android:text="@string/no_Groups" android:drawableTop="@drawable/contact_empty_group" android:layout_centerInParent="true" style="@style/contact_empty_icon_style" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/add_accounts" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/no_accounts_message_margin" android:text="@string/noAccounts" />
+            <Button android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/add_account_button" android:layout_width="UNKNOWN_DATA_0x7f0d0131" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:text="@string/contacts_unavailable_add_account" />
+        </LinearLayout>
+        <com.android.contacts.hap.widget.SplitActionBarView android:id="@+id/menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

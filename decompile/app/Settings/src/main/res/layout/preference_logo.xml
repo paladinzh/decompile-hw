@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:paddingTop="@dimen/emui_logo_padding_top" android:paddingBottom="@dimen/emui_logo_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/emui_content_description"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/circle" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/circle_backgrd" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center" android:id="@id/emui_text" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emui_logo" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/emui_logo_number_size" android:textColor="@color/emui_secondary_text" android:layout_gravity="center_horizontal" android:id="@android:id/title" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="160.0dip" android:fontFamily="sans-serif" />
+</FrameLayout>

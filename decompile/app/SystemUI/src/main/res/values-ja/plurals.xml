@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bluetooth_is_discoverable_toast_Toast">
+        <item quantity="other">Bluetooth表示が有効です。他の端末から%1$d秒間検出可能になります。</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">最近使用したアプリ：%d個</item>
+        <item quantity="one">[最近]に1個の画面があります</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">他 %s 件の通知</item>
+        <item quantity="one">他 %s 件の通知</item>
+    </plurals>
+    <plurals name="sdcard_input_retry_after_30s">
+        <item quantity="other">%1$s秒後に再試行</item>
+    </plurals>
+    <plurals name="lockscreen_warn_wrong_password">
+        <item quantity="other">パスワードが正しくありません。残り試行回数：%1$d回</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_seconds">
+        <item quantity="other">%1$d秒後に再試行してください</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_minutes">
+        <item quantity="other">%1$d分後に再試行してください</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_hours">
+        <item quantity="other">%1$d時間後に再試行してください</item>
+    </plurals>
+    <plurals name="emui51_fingerprint_dirty_try_again">
+        <item quantity="other">指紋を認識できません\n（残り試行回数：%d回）\n指と指紋センサーが汚れていないことを確認して、再試行してください</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PINが正しくありません。残り試行回数は%d回です。</item>
+        <item quantity="one">SIM PINコードが無効です。入力できるのはあと%d回です。この回数を超えた場合は、携帯通信会社にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN1が正しくありません。残り試行回数は%d回です。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIMのPUKコードが正しくありません。残り試行回数は%d回です。試行回数を超えると、SIMが永久に使用できなくなります。</item>
+        <item quantity="one">SIM PUKコードが無効です。入力できるのはあと%d回です。この回数を超えるとSIMは完全に使用できなくなります。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">端末のロックが%d時間、解除されていません。パターンを確認してください。</item>
+        <item quantity="one">端末のロックが%d時間、解除されていません。パターンを確認してください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">端末のロックが%d時間、解除されていません。PINを確認してください。</item>
+        <item quantity="one">端末のロックが%d時間、解除されていません。PINを確認してください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">端末のロックが%d時間、解除されていません。パスワードを確認してください。</item>
+        <item quantity="one">端末のロックが%d時間、解除されていません。パスワードを確認してください。</item>
+    </plurals>
+    <plurals name="missed_call_tip">
+        <item quantity="other">%d件の不在着信</item>
+    </plurals>
+    <plurals name="missed_message_tip">
+        <item quantity="other">%d件の新しいメッセージ</item>
+    </plurals>
+    <plurals name="lockscreen_too_many_failed_attempts_countdown">
+        <item quantity="other">%d秒後に再試行してください</item>
+    </plurals>
+    <plurals name="lockscreen_failed_attempts_now_wiping_new">
+        <item quantity="other">デバイスの不正なロック解除が%d回試行されたため、今すぐデバイスが工場出荷時設定に戻されます</item>
+    </plurals>
+    <plurals name="emui40_lockscreen_too_many_failed_attempts_countdown">
+        <item quantity="other">指紋の確認が停止されました。%d秒後に再試行してください</item>
+    </plurals>
+    <plurals name="emui40_fingerprint_try_again">
+        <item quantity="other">指紋を認識できません\n（残り試行回数：%d回）</item>
+    </plurals>
+    <plurals name="kg_verify_fail_hint_password">
+        <item quantity="other">パスワードが間違っています。残りあと%d回</item>
+    </plurals>
+    <plurals name="kg_verify_fail_hint_pin">
+        <item quantity="other">PINが間違っています。残りあと%d回</item>
+    </plurals>
+    <plurals name="kg_verify_fail_hint_finger">
+        <item quantity="other">指紋を識別できません。残りあと%d回</item>
+    </plurals>
+    <plurals name="kg_time_second">
+        <item quantity="other">%1$d秒</item>
+    </plurals>
+    <plurals name="kg_time_minute">
+        <item quantity="other">%1$d分</item>
+    </plurals>
+    <plurals name="kg_time_hour">
+        <item quantity="other">%1$d時間</item>
+    </plurals>
+    <plurals name="keyguard_reason_fp_timeout_pin">
+        <item quantity="other">セキュリティ強化のため、%d日に1回パスワードの入力が必要</item>
+    </plurals>
+    <plurals name="missed_call_text">
+        <item quantity="other">%d件の不在着信があります。</item>
+        <item quantity="zero">%d件の不在着信があります。</item>
+        <item quantity="one">%d件の不在着信があります。</item>
+        <item quantity="two">%d件の不在着信があります。</item>
+        <item quantity="few">%d件の不在着信があります。</item>
+        <item quantity="many">%d件の不在着信があります。</item>
+    </plurals>
+    <plurals name="missed_message_text">
+        <item quantity="other">%d件の未読メッセージがあります。</item>
+        <item quantity="zero">%d件の未読メッセージがあります。</item>
+        <item quantity="one">%d件の未読メッセージがあります。</item>
+        <item quantity="two">%d件の未読メッセージがあります。</item>
+        <item quantity="few">%d件の未読メッセージがあります。</item>
+        <item quantity="many">%d件の未読メッセージがあります。</item>
+    </plurals>
+    <plurals name="missed_email_text">
+        <item quantity="other">%d件の未読メールがあります。</item>
+        <item quantity="zero">%d件の未読メールがあります。</item>
+        <item quantity="one">%d件の未読メールがあります。</item>
+        <item quantity="two">%d件の未読メールがあります。</item>
+        <item quantity="few">%d件の未読メールがあります。</item>
+        <item quantity="many">%d件の未読メールがあります。</item>
+    </plurals>
+</resources>

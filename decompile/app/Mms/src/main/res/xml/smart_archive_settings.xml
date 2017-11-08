@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:key="pref_key_root">
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/divider_smart_setting" />
+    <com.android.mms.ui.EmuiSwitchPreference androidhwext:title="@string/smart_archive_title" androidhwext:key="pref_key_smart_archive_enable" androidhwext:summary="@string/smart_archive_summary_content" androidhwext:preferenceID="@+id/smart_archive" />
+    <PreferenceCategory androidhwext:layout="@layout/preference_category" androidhwext:title="@string/smart_archive_settings_title" androidhwext:key="pref_key_smart_archive_settings_category" />
+    <PreferenceCategory androidhwext:layout="@layout/preference_category" androidhwext:title="@string/pref_sms_storage_title" androidhwext:key="pref_key_smart_archive_storage">
+        <com.android.mms.ui.EmuiSwitchPreference androidhwext:title="@string/smart_archive_auto_delete_title" androidhwext:key="pref_key_smart_archive_auto_delete" androidhwext:summary="@string/smart_archive__auto_delete_summary_content" androidhwext:defaultValue="false" androidhwext:preferenceID="@+id/smart_archive_auto_delete" />
+        <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/divider_smart_archive" />
+    </PreferenceCategory>
+</PreferenceScreen>

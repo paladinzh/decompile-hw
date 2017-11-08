@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsAccountType xmlns:android="http://schemas.android.com/apk/res/android" allowGroupCreation="true">
+    <EditSchema>
+        <DataKind kind="name" maxOccurs="1" supportsDisplayName="true" supportsPrefix="true" supportsMiddleName="true" supportsSuffix="true" supportsPhoneticFamilyName="true" supportsPhoneticMiddleName="true" supportsPhoneticGivenName="true" />
+        <DataKind kind="photo" maxOccurs="1" />
+        <DataKind kind="phone">
+            <Type type="UNKNOWN_DATA_0x17" />
+            <Type type="UNKNOWN_DATA_0x18" />
+            <Type type="UNKNOWN_DATA_0x19" />
+            <Type type="UNKNOWN_DATA_0x1a" />
+            <Type type="UNKNOWN_DATA_0x1b" />
+            <Type type="UNKNOWN_DATA_0x1c" />
+            <Type type="UNKNOWN_DATA_0x1d" />
+            <Type type="UNKNOWN_DATA_0x1e" />
+            <Type type="UNKNOWN_DATA_0x1f" />
+        </DataKind>
+        <DataKind kind="email">
+            <Type type="UNKNOWN_DATA_0x18" />
+            <Type type="UNKNOWN_DATA_0x19" />
+            <Type type="UNKNOWN_DATA_0x1e" />
+            <Type type="UNKNOWN_DATA_0x1f" />
+        </DataKind>
+        <DataKind kind="nickname" maxOccurs="1" />
+        <DataKind kind="im">
+            <Type type="UNKNOWN_DATA_0x23" />
+            <Type type="UNKNOWN_DATA_0x24" />
+            <Type type="UNKNOWN_DATA_0x25" />
+            <Type type="UNKNOWN_DATA_0x26" />
+            <Type type="UNKNOWN_DATA_0x27" />
+            <Type type="UNKNOWN_DATA_0x28" />
+            <Type type="UNKNOWN_DATA_0x29" />
+            <Type type="UNKNOWN_DATA_0x2a" />
+            <Type type="UNKNOWN_DATA_0x1f" />
+        </DataKind>
+        <DataKind kind="postal" needsStructured="false">
+            <Type type="UNKNOWN_DATA_0x18" />
+            <Type type="UNKNOWN_DATA_0x19" />
+            <Type type="UNKNOWN_DATA_0x1e" />
+            <Type type="UNKNOWN_DATA_0x1f" />
+        </DataKind>
+        <DataKind kind="organization" maxOccurs="1" />
+        <DataKind kind="website" />
+        <DataKind kind="sip_address" maxOccurs="1" />
+        <DataKind kind="group_membership" maxOccurs="1" />
+        <DataKind kind="note" maxOccurs="1" />
+        <DataKind dateWithTime="false" kind="event">
+            <Type maxOccurs="1" type="UNKNOWN_DATA_0x36" yearOptional="true" />
+            <Type maxOccurs="1" type="UNKNOWN_DATA_0x37" yearOptional="true" />
+            <Type type="UNKNOWN_DATA_0x38" yearOptional="true" />
+            <Type type="UNKNOWN_DATA_0x1e" yearOptional="true" />
+        </DataKind>
+        <DataKind kind="ringtone" maxOccurs="1" />
+        <DataKind kind="relationship">
+            <Type type="UNKNOWN_DATA_0x3b" />
+            <Type type="UNKNOWN_DATA_0x3c" />
+            <Type type="UNKNOWN_DATA_0x3d" />
+            <Type type="UNKNOWN_DATA_0x3e" />
+            <Type type="UNKNOWN_DATA_0x3f" />
+            <Type type="UNKNOWN_DATA_0x40" />
+            <Type type="UNKNOWN_DATA_0x41" />
+            <Type type="UNKNOWN_DATA_0x42" />
+            <Type type="UNKNOWN_DATA_0x43" />
+            <Type type="UNKNOWN_DATA_0x44" />
+            <Type type="UNKNOWN_DATA_0x45" />
+            <Type type="UNKNOWN_DATA_0x46" />
+            <Type type="UNKNOWN_DATA_0x47" />
+            <Type type="UNKNOWN_DATA_0x48" />
+            <Type type="UNKNOWN_DATA_0x1f" />
+        </DataKind>
+    </EditSchema>
+</ContactsAccountType>

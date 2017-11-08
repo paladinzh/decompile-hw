@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/app_lock_applist_loading_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:id="@+id/app_lock_applist_locked_count_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/app_lock_applist_locked_count_tip" style="@style/applock_in_tip_only_text_style" />
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/app_lock_applist_function_closed_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/app_lock_applist_function_btn_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <Button android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/app_lock_applist_btn_open_func" android:text="@string/Other_AppLockMainView_Closed" style="@style/applock_in_tip_btn_style" />
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/app_lock_applist_function_btn_layout" android:layout_alignParentStart="true">
+                <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:text="@string/ListViewFirstLine_AppLockMainView_Closed" style="@style/applock_in_tip_text_style" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/divider_line_new" />
+    <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/app_lock_applist_grid_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x1" />
+</LinearLayout>

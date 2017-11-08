@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/photoshare_create_new_share" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:background="@color/album_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <EditText android:textSize="13sp" android:id="@id/photoshare_new_share_edittext" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2e01" android:layout_marginTop="14dp" android:hint="@string/name_share_album_tips" android:cursorVisible="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:paddingStart="14dp" android:layout_marginStart="@dimen/photoshare_new_share_name_group_leftandright_margin" android:layout_marginEnd="@dimen/photoshare_new_share_name_group_leftandright_margin" />
+    </LinearLayout>
+</RelativeLayout>

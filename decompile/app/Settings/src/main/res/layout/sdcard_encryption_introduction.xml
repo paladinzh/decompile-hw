@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/sdcard_encryption_introduction" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/red_FF3320" android:id="@id/warning_low_charge" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginTop="16.0dip" android:text="@string/sdcard_encryption_low_battery_encrypt" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sdcard_encryption_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description1" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description1" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description2" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description2" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description3" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description3" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description4" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description4" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description5" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description5" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_encryption_description7" android:layout_width="fill_parent" android:text="@string/sdcard_encryption_description7" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sdcard_decryption_description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_decryption_description1" android:layout_width="fill_parent" android:text="@string/sdcard_decryption_description1" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_decryption_description2" android:layout_width="fill_parent" android:text="@string/sdcard_decryption_description2" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_decryption_description3" android:layout_width="fill_parent" android:text="@string/sdcard_decryption_description3" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_decryption_description4" android:layout_width="fill_parent" android:text="@string/sdcard_decryption_description4" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/sdcard_decryption_description5" android:layout_width="fill_parent" android:text="@string/sdcard_decryption_description5" android:lineSpacingMultiplier="1.1" style="@style/EmuiPrimaryTextFontStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:id="@id/sdcard_encryption_start" android:text="@string/sdcard_encrypt" style="@style/bottom_single_button" />
+</LinearLayout>

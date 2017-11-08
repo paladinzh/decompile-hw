@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/header_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/header_min_height">
+    <TextView android:textSize="@dimen/header_text_size" android:textColor="#f0460e" android:ellipsize="marquee" android:id="@+id/header_text" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/header_vertical_margin" android:layout_marginBottom="@dimen/header_vertical_margin" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="@dimen/contact_left_margin" android:layout_marginEnd="@dimen/contact_left_margin" />
+    <View style="@style/contact_horizontal_divider_style" />
+</LinearLayout>

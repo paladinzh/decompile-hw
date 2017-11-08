@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="8dp"
+    <RelativeLayout android:id="@+id/indicate_arrow_container" android:layout_width="UNKNOWN_DATA_0x7f0a0015" android:layout_height="UNKNOWN_DATA_0x7f0a0015" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:layout_centerInParent="true" android:layout_marginStart="14dp" android:layout_alignParentStart="true">
+        <ImageView android:id="@+id/indicate_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spacecleaner_expander_arrow_close" android:layout_centerInParent="true" android:contentDescription="@string/image_view_content" />
+    </RelativeLayout>
+    <com.huawei.systemmanager.spacecleanner.view.EnsureCheckBox android:id="@+id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0a014f" android:layout_height="UNKNOWN_DATA_0x7f0a014f" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_toStartOf="@+id/checkbox" android:layout_toEndOf="@+id/indicate_arrow_container" style="@style/common_listview_title_margin" layout="@layout/spaceclean_trashlist_group_item_commontitle" />
+</RelativeLayout>

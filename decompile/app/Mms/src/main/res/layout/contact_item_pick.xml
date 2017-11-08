@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/contact_preview_layout" android:background="@drawable/listitem_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/contact_preview_scrollview" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/editor_head" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/stub_photo" android:background="0x106000d" android:paddingTop="7dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/profile_photo" android:layout_width="UNKNOWN_DATA_0x7f0a0208" android:layout_height="UNKNOWN_DATA_0x7f0a0208">
+                        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/photo_image" android:layout_width="UNKNOWN_DATA_0x7f0a0209" android:layout_height="UNKNOWN_DATA_0x7f0a0209" android:src="@drawable/mms_img_avatar_180_holo_light" android:scaleType="centerCrop" android:cropToPadding="true" />
+                        <View android:id="@+id/avatar_circle" android:background="@drawable/csp_avatar_foreground" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0a0208" android:layout_height="UNKNOWN_DATA_0x7f0a0208" android:contentDescription="@string/description_avatar_photo" />
+                    </FrameLayout>
+                    <TextView android:ellipsize="marquee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/name_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="15dp" android:layout_marginEnd="15dp" style="@style/mycard_edit_style" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/items_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" /> />
+    </ScrollView>
+</RelativeLayout>

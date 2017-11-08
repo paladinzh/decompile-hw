@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/surfaceViewCamera" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <ProgressBar android:id="@+id/progressRec" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:layout_above="@+id/toggleButtonRec" android:layout_alignLeft="@+id/surfaceViewCamera" android:layout_alignRight="@+id/surfaceViewCamera" style="?unknown_attr_ref: 1010078" />
+    <ImageView android:id="@+id/toggleButtonRec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:src="@drawable/btn_shutter_video_default" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="13sp" android:textColor="@color/solid_white" android:id="@+id/videoRecordTime" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/toggleButtonRec" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@+id/camera_change" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:src="@drawable/ic_btn_shutter_retake" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

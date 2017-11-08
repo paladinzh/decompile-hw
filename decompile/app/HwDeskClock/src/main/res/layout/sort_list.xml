@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_height" android:paddingStart="16dp" android:paddingEnd="16dp"
+    <RelativeLayout android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <ImageView android:id="@id/drag_handle" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_public_drag_handle" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" />
+        <com.android.deskclock.widgetlayout.DeskClockFontTypeTextView android:textSize="@dimen/clock_sort_city_lable_fontsize" android:id="@id/city_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/drag_handle" />
+        <ImageView android:id="@id/image_remove_city" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_public_list_deleted" android:layout_centerVertical="true" android:contentDescription="@string/delete_city_discretion" android:layout_marginStart="8dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/line" android:background="@color/clock_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0006" android:layout_alignParentBottom="true" />
+</RelativeLayout>

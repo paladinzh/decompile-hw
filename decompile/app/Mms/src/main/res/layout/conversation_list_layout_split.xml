@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/conversation_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <huawei.com.android.internal.widget.HwFragmentLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/smileyfaceview_split" android:visibility="gone" android:layout="@layout/smiley_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0219" />
+    <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/smiley_face_view_emoji_split" android:visibility="gone" android:layout="@layout/smiley_layout_emoji" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a021b" />
+    <FrameLayout android:id="@+id/mediapicker_container_split" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+</LinearLayout>

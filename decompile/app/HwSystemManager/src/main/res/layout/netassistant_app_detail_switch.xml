@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingTop="@dimen/list_item_twolines_padding_top_bottom_emui" android:paddingBottom="@dimen/list_item_twolines_padding_top_bottom_emui" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/list_item_padding_start_end_emui">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_assitstant_app_detail_restrict_content" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/net_assitstant_app_detail_restrict_message" />
+        </LinearLayout>
+        <com.huawei.systemmanager.spacecleanner.view.EnsureSwitch android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/app_policy_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" android:layout_marginEnd="@dimen/list_item_padding_start_end_emui" />
+    </LinearLayout>
+    <View android:id="@+id/divider" style="@style/divider_line" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/volume_dialog_row" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/volume_row_spacing">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/volume_row_icon" android:layout_width="UNKNOWN_DATA_0x7f0e0268" android:layout_height="UNKNOWN_DATA_0x7f0e0268" android:soundEffectsEnabled="false" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+        <TextView android:textAppearance="@style/TextAppearance.Volume.Header" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/volume_row_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="51dp" />
+    </TableRow>
+    <SeekBar android:id="@id/volume_row_slider" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/volume_row_spacing" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="56dp" android:layout_marginEnd="56dp" />
+</TableLayout>

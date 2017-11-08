@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f0d01dc" android:layout_height="UNKNOWN_DATA_0x7f0d01db">
+    <ImageView android:id="@+id/button_image_switcher" android:duplicateParentState="true" android:layout_width="UNKNOWN_DATA_0x7f0d034e" android:layout_height="UNKNOWN_DATA_0x7f0d0351" android:src="@drawable/call_sim2_selector_dialer" android:scaleType="centerCrop" android:contentDescription="0x0" android:layout_marginStart="@dimen/contact_dial_button_multi_simcard_text_margin_start" />
+    <TextView android:textSize="@dimen/dialpad_text_width" android:textColor="@color/dial_button_sim_name_color" android:ellipsize="end" android:id="@+id/button_text_switcher" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="@dimen/contact_dial_button_multi_simcard_text_margin_end" />
+</LinearLayout>

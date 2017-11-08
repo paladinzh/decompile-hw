@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.settings.localepicker.LocaleRecyclerView android:id="@id/dragList" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:textAppearance="?android:textAppearanceListItem" android:textSize="15.0sp" android:layout_gravity="center_vertical" android:id="@id/add_language" android:background="@drawable/list_selector_background_emui_dark" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_a_language" android:textAlignment="textStart" android:paddingStart="@dimen/add_language_btn_padding_start" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout style="@style/PreferenceCategoryContainerStyle">
+                <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/locale_example_new_category" style="@style/PreferenceCategoryTitleStyle" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/preference_help_text_size" android:id="@id/locale_example" android:paddingTop="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_start" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

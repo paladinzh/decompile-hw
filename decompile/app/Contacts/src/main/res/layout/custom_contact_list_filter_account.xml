@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:clickable="false" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/ll_custom_contact_list_filter_account_group_item" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:paddingStart="?unknown_attr_ref: 101004e" androidhwext:paddingEnd="?unknown_attr_ref: 1010063">
+        <RelativeLayout androidhwext:duplicateParentState="true" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0" androidhwext:layout_marginEnd="6dp">
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010041" androidhwext:textSize="@dimen/preference_item_title_size" androidhwext:ellipsize="marquee" androidhwext:id="0x1020014" androidhwext:duplicateParentState="true" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" />
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010042" androidhwext:textSize="@dimen/preference_item_summary_below_size" androidhwext:id="0x1020015" androidhwext:duplicateParentState="true" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" androidhwext:layout_below="0x1020014" androidhwext:layout_alignStart="0x1020014" />
+        </RelativeLayout>
+        <CheckBox androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="0x1020001" androidhwext:focusable="false" androidhwext:visibility="gone" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:contentDescription="0x0" androidhwext:layout_marginEnd="4dp" />
+        <CheckBox androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/checkbox" androidhwext:focusable="false" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:contentDescription="0x0" androidhwext:layout_marginEnd="4dp" />
+    </LinearLayout>
+    <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+</FrameLayout>

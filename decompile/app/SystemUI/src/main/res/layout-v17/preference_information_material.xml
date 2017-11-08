@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?unknown_attr_ref: 1010387" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@r$id/icon_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="58dp">
+        <ImageView android:id="0x1020006" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8dp" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/Preference_TextAppearanceMaterialSubhead" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:id="0x1020010" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="0x1020016" android:layout_alignStart="0x1020016" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="0x1020018" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="58dp" /> />

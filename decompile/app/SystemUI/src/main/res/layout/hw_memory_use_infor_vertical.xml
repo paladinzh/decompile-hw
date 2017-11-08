@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/memory_subtext1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70dp" android:lineSpacingMultiplier="1.3" style="@style/hw_recent_task_manager_memory_text_font_style" />
+    <View android:id="@id/memory_vertical_line" android:layout_marginLeft="1dp" android:layout_marginTop="1dp" android:layout_marginRight="1dp" style="@style/hw_recent_task_manager_memory_line_style" />
+    <TextView android:id="@id/memory_subtext2" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hw_recent_task_manager_memory_text_font_style" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/no_disturbing_settings" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:title="@string/enable_disturbing_settings" android:key="zen_mode_switch_base" android:summary="@string/zen_mode_alarm_new_info_ex" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/zen_mode_as_scheduled" android:key="auto_rules" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/zen_mode_advancesetting" android:key="zen_mode_choose">
+        <ListPreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/zen_mode_choose" android:key="zen_mode_base" android:widgetLayout="@layout/preference_widget_arrow" />
+        <PreferenceScreen android:title="@string/zen_mode_define_priority" android:key="priority_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.notification.ZenModePrioritySettingsHw" />
+    </PreferenceCategory>
+</PreferenceScreen>

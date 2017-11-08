@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/abc_btn_check_to_on_mtrl_000_APKTOOL_DUPLICATENAME_0x7f020071" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fp_desc_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/fp_startup_padding_start" android:paddingEnd="@dimen/fp_startup_padding_end">
+        <TextView android:id="@id/main_title" android:text="@string/add_new_fingerprint" style="@style/fpStartupMainTitleStyle" />
+        <View android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" style="@style/fpStartupDividerStyle" />
+        <TextView android:id="@id/fp_enroll_title" android:text="@string/fp_pre_enroll_title" android:singleLine="true" style="@style/fpStartupTitleStyle" />
+        <TextView android:id="@id/fp_enroll_tip" android:text="@string/fp_startup_enroll_enroll_tip" android:lineSpacingExtra="@dimen/fp_startup_summary_line_spacing_extra" style="@style/fpStartupSummaryStyle" />
+        <TextView android:id="@id/fp_enroll_sub_tip" android:lineSpacingExtra="@dimen/fp_startup_summary_line_spacing_extra" style="@style/fpStartupSummaryStyle" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/fp_tip_image" android:layout_width="wrap_content" android:layout_height="@dimen/fp_default_image_height" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/fp_image_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fp_image" android:layout_width="@dimen/fp_enrolling_image_width" android:layout_height="@dimen/fp_enrolling_image_height" android:src="@drawable/fingerprint_0" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fp_image_bg" android:layout_width="@dimen/fp_enrolling_image_width" android:layout_height="@dimen/fp_enrolling_image_height" android:src="@drawable/fingerprint_0" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/fp_enroll_tip_text_size" android:textColor="?android:textColorSecondary" android:layout_gravity="center_horizontal" android:id="@id/fp_enroll_tip_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fp_enroll_tip_down" android:layout_centerHorizontal="true" android:fontFamily="chnfzxh" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" />
+    <TextView android:textSize="@dimen/fp_enroll_tip_text_size" android:textColor="#fffd6131" android:layout_gravity="center_horizontal" android:id="@id/fp_enroll_improve_tip_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_centerHorizontal="true" android:fontFamily="chnfzxh" android:paddingStart="28.0dip" android:paddingEnd="28.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" style="@style/SecurityPreferenceButtonContainer">
+        <Button android:id="@id/fp_enroll_rename_button" style="@style/SecurityPreferenceButton" />
+        <Button android:id="@id/fp_ok_button" style="@style/SecurityPreferenceButton" />
+    </LinearLayout>
+    <Button android:id="@id/starup_guide_back" android:text="@string/cancel" style="@style/bottom_single_button" />
+</LinearLayout>

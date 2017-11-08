@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/dlblock_list_header" />
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/content_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" android:footerDividersEnabled="false" />
+    </LinearLayout>
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_records" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/ad_dl_no_blocks" />
+    <include layout="@layout/loading_container" />
+</FrameLayout>

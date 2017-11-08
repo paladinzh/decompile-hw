@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/attach_panel_grid_line_color" android:paddingTop="@dimen/attach_panel_spacing" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.v4.view.ViewPager android:id="@+id/grid_pager" android:background="@color/attach_panel_item_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/current_sign_view" android:background="@color/attach_panel_item_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_alignParentBottom="true" style="@style/attachment_layout_style" />
+    <View android:background="@color/signview_divider_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_above="@+id/current_sign_view" />
+</RelativeLayout>

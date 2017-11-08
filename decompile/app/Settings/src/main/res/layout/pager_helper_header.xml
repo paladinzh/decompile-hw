@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/help_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_help_text_size" android:layout_gravity="start|center|top" android:id="@id/summary" android:layout_width="fill_parent" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_start" style="@style/EmuiSecondaryTextFontStyle" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/pressure_help_graphic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</FrameLayout>

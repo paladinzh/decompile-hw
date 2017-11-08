@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/device_management_permission" android:key="toggle_management_permission" android:summaryOn="@string/enable_auto_boot_summary" android:summaryOff="@string/disable_auto_boot_summary" />
+</PreferenceScreen>

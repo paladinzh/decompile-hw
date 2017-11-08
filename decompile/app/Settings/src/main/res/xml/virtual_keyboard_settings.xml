@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/virtual_keyboard_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:layout="@layout/preference_add_with_empty_icon" android:title="@string/add_virtual_keyboard" android:key="add_virtual_keyboard_screen" android:fragment="com.android.settings.inputmethod.AvailableVirtualKeyboardFragment" />
+</PreferenceScreen>

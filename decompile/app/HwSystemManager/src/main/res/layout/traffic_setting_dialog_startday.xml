@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" style="@style/dialog_padding_style">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <EditText android:textSize="18sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/count_day" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="2" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/layout_power_opt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="20dp"
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/layout_btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentEnd="true">
+            <Button android:textSize="12sp" android:textColor="@color/prohibit_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="chnfzxh" style="?unknown_attr_ref: 1010049" />
+            <ImageView android:id="@+id/complete_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@drawable/ic_public_ok" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/layout_power_main" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:layout_centerVertical="true" android:layout_toStartOf="@+id/layout_btn_close" android:layout_alignParentStart="true"
+            <RelativeLayout android:id="@+id/layout_power_des" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                <RelativeLayout android:id="@+id/layout_power_title" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="15sp" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.1" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:id="@+id/empty_line" layout="@layout/divider_line_new" />
+</LinearLayout>

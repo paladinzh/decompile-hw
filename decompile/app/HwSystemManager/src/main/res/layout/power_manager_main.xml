@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:layout_width="match_parent" sm:layout_height="match_parent">
+    <ScrollView sm:id="@+id/power_mode_switch_scrollview" sm:scrollbars="UNKNOWN_DATA_0x0" sm:layout_width="match_parent" sm:layout_height="match_parent">
+        <LinearLayout sm:orientation="vertical" sm:layout_width="match_parent" sm:layout_height="wrap_content">
+            <include sm:id="@+id/sliding_layout_upperview" layout="@layout/power_manager_upperlayout" />
+            <include sm:id="@+id/power_mode_switch" sm:layout_width="match_parent" sm:layout_height="wrap_content" layout="@layout/power_main_list" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

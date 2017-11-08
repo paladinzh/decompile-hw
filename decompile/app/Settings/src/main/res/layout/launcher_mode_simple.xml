@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="30.0dip" android:paddingEnd="30.0dip">
+        <FrameLayout android:id="@id/simple_ui_sector" android:layout_width="fill_parent" android:layout_height="320.0dip">
+            <ImageView android:id="@id/simple_ui_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/simple_ui_no_navigation" android:adjustViewBounds="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:id="@id/mode_summary" android:text="@string/simple_home_description" style="@style/help_text_content_style" />
+</LinearLayout>

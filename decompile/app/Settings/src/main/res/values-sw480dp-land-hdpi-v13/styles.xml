@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="wifi_item_content">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">@dimen/preference_item_title_alpha</item>
+    </style>
+    <style name="bottom_single_button">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/bottom_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_button_margin_bottom</item>
+        <item name="android:minHeight">40.0dip</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_marginStart">@dimen/bottom_button_margin_side</item>
+        <item name="android:layout_marginEnd">@dimen/bottom_button_margin_side</item>
+    </style>
+</resources>

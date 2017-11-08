@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/cloud_switch_layout" layout="@layout/common_setting_item_layout" />
+    <include android:id="@+id/cloud_packageinstall_switch_layout" layout="@layout/common_setting_item_layout" />
+    <include android:id="@+id/permission_switch_layout" layout="@layout/common_setting_item_layout" />
+    <include android:id="@+id/group_send_monitor_layout" layout="@layout/common_setting_item_layout" />
+    <include android:id="@+id/toast_switch_layout" layout="@layout/common_setting_item_layout" />
+</LinearLayout>

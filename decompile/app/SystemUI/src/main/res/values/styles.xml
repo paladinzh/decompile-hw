@@ -1,0 +1,3677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EmuiPrimaryTextFontStyle">
+        <item>@color/list_text_color_emui</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="EmuiSecondaryTextFontStyle">
+        <item>@color/list_text_color_emui_summary</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="cover_time_text_style_1040x741">
+        <item>@color/coverscreen_time_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_date_text_style_1040x741">
+        <item>@color/coverscreen_date_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_am_pm_text_style_1040x741">
+        <item>@color/coverscreen_am_pm_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_new_mms_text_style_1040x741">
+        <item>@color/coverscreen_new_mms_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_miss_call_text_style_1040x741">
+        <item>@color/coverscreen_miss_call_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_steps_text_style_1040x741">
+        <item>@color/coverscreen_steps_text_textColor_1040x741</item>
+    </style>
+    <style name="cover_temperature_text_style_1040x741">
+        <item>@color/coverscreen_temperature_text_textColor_1040x741</item>
+    </style>
+    <style name="covermessage_text_shadow_style">
+        <item>#66ffffff</item>
+        <item>#8c000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>chnfzxh</item>
+    </style>
+    <style name="TextAppearance.LeanbackBase">
+    </style>
+    <style name="TextAppearance.LeanbackBase">
+    </style>
+    <style name="TextAppearance.Leanback">
+        <item>sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.Leanback.Title">
+        <item>@dimen/lb_browse_title_text_size</item>
+        <item>@color/lb_browse_title_color</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.Leanback.Header">
+        <item>@dimen/lb_browse_header_text_size</item>
+        <item>@color/lb_browse_header_color</item>
+    </style>
+    <style name="TextAppearance.Leanback.Header.Section">
+        <item>@dimen/lb_browse_section_header_text_size</item>
+        <item>?attr/defaultSectionHeaderColor</item>
+    </style>
+    <style name="TextAppearance.Leanback.Row.Header">
+    </style>
+    <style name="TextAppearance.Leanback.SearchTextEdit">
+        <item>@dimen/lb_search_bar_text_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionTitle">
+        <item>@dimen/lb_details_description_title_text_size</item>
+        <item>@color/lb_details_description_color</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionSubtitle">
+        <item>@dimen/lb_details_description_subtitle_text_size</item>
+        <item>@color/lb_details_description_color</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsDescriptionBody">
+        <item>@dimen/lb_details_description_body_text_size</item>
+        <item>@color/lb_details_description_body_color</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.DetailsActionButton">
+        <item>@dimen/lb_action_text_size</item>
+        <item>@color/lb_action_text_color</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackControlsTime">
+        <item>@dimen/lb_playback_controls_time_text_size</item>
+        <item>@color/lb_playback_controls_time_text_color</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackControlLabel">
+        <item>@dimen/lb_control_button_text_size</item>
+        <item>@color/lb_control_button_text</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Leanback.ErrorMessage">
+        <item>@dimen/lb_error_message_text_size</item>
+        <item>@color/lb_error_message</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="Widget.LeanbackBase">
+    </style>
+    <style name="Widget.LeanbackBase">
+    </style>
+    <style name="Widget.Leanback">
+    </style>
+    <style name="Widget.Leanback.BaseCardViewStyle">
+        <item>@drawable/lb_card_foreground</item>
+        <item>@color/lb_basic_card_bg_color</item>
+    </style>
+    <style name="Widget.Leanback.TitleView">
+        <item>?attr/browsePaddingTop</item>
+        <item>?attr/browsePaddingTop</item>
+        <item>?attr/browsePaddingStart</item>
+        <item>?attr/browsePaddingEnd</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardViewStyle">
+        <item>2</item>
+        <item>1</item>
+        <item>?unknown_ref: 0</item>
+        <item>7</item>
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView">
+    </style>
+    <style name="Widget.Leanback.ImageCardView">
+    </style>
+    <style name="Widget.Leanback.ImageCardView.ImageStyle">
+        <item>-2</item>
+        <item>-2</item>
+        <item>6</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>0</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.InfoAreaStyle">
+        <item>@color/lb_basic_card_info_bg_color</item>
+        <item>@dimen/lb_basic_card_info_padding_top</item>
+        <item>@dimen/lb_basic_card_info_padding_bottom</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>@dimen/lb_basic_card_info_padding_horizontal</item>
+        <item>@dimen/lb_basic_card_info_padding_horizontal</item>
+        <item>1</item>
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView.Title">
+        <item>@dimen/lb_basic_card_title_text_size</item>
+        <item>@color/lb_basic_card_title_text_color</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.TitleStyle">
+        <item>@style/TextAppearance.Leanback.ImageCardView.Title</item>
+        <item>3</item>
+        <item>@id/title_text</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@dimen/lb_basic_card_info_text_margin</item>
+        <item>1</item>
+        <item>5</item>
+    </style>
+    <style name="TextAppearance.Leanback.ImageCardView.Content">
+        <item>@dimen/lb_basic_card_content_text_size</item>
+        <item>@color/lb_basic_card_content_text_color</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.ContentStyle">
+        <item>@style/TextAppearance.Leanback.ImageCardView.Content</item>
+        <item>0</item>
+        <item>@id/content_text</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>1</item>
+        <item>@id/title_text</item>
+        <item>5</item>
+        <item>@id/extra_badge</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.ImageCardView.BadgeStyle">
+        <item>@id/extra_badge</item>
+        <item>@dimen/lb_basic_card_info_badge_size</item>
+        <item>@dimen/lb_basic_card_info_badge_size</item>
+        <item>3</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Widget.Leanback.Title">
+    </style>
+    <style name="Widget.Leanback.Title.Text">
+        <item>@style/TextAppearance.Leanback.Title</item>
+        <item>3</item>
+        <item>800005</item>
+        <item>true</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.Title.Icon">
+    </style>
+    <style name="Widget.Leanback.Headers">
+    </style>
+    <style name="Widget.Leanback.Rows">
+    </style>
+    <style name="Widget.Leanback.Row">
+    </style>
+    <style name="Widget.Leanback.GridItems">
+    </style>
+    <style name="Widget.Leanback.Headers.VerticalGridView">
+        <item>?attr/defaultBrandColor</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@string/lb_navigation_menu_contentDescription</item>
+        <item>?attr/browsePaddingStart</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@dimen/lb_browse_headers_vertical_margin</item>
+    </style>
+    <style name="Widget.Leanback.Header">
+        <item>@style/TextAppearance.Leanback.Header</item>
+        <item>0</item>
+        <item>1dp</item>
+        <item>@dimen/lb_browse_header_height</item>
+        <item>2</item>
+        <item>false</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.Header.Section">
+        <item>@style/TextAppearance.Leanback.Header.Section</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.Rows.VerticalGridView">
+        <item>?attr/browsePaddingBottom</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.Row.HorizontalGridView">
+        <item>@dimen/lb_browse_item_vertical_margin</item>
+        <item>@dimen/lb_browse_item_vertical_margin</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?attr/browsePaddingStart</item>
+        <item>?attr/browsePaddingEnd</item>
+        <item>true</item>
+        <item>@dimen/lb_browse_item_horizontal_margin</item>
+        <item>@dimen/lb_browse_item_vertical_margin</item>
+    </style>
+    <style name="Widget.Leanback.GridItems.VerticalGridView">
+        <item>1</item>
+        <item>?attr/browseRowsMarginTop</item>
+        <item>@dimen/lb_vertical_grid_padding_bottom</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?attr/browsePaddingStart</item>
+        <item>?attr/browsePaddingEnd</item>
+        <item>true</item>
+        <item>@dimen/lb_browse_item_horizontal_margin</item>
+        <item>@dimen/lb_browse_item_vertical_margin</item>
+    </style>
+    <style name="Widget.Leanback.Row.Header">
+        <item>@style/TextAppearance.Leanback.Row.Header</item>
+    </style>
+    <style name="Widget.Leanback.Row.HeaderDock">
+        <item>?attr/browsePaddingStart</item>
+    </style>
+    <style name="TextAppearance.Leanback.Row.HoverCardTitle">
+        <item>@dimen/lb_browse_row_hovercard_title_font_size</item>
+    </style>
+    <style name="TextAppearance.Leanback.Row.HoverCardDescription">
+        <item>@dimen/lb_browse_row_hovercard_description_font_size</item>
+    </style>
+    <style name="Widget.Leanback.Row.HoverCardTitle">
+        <item>@style/TextAppearance.Leanback.Row.HoverCardTitle</item>
+        <item>3</item>
+        <item>@dimen/lb_browse_row_hovercard_max_width</item>
+        <item>true</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.Row.HoverCardDescription">
+        <item>@style/TextAppearance.Leanback.Row.HoverCardDescription</item>
+        <item>3</item>
+        <item>@dimen/lb_browse_row_hovercard_max_width</item>
+        <item>4</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackRow">
+        <item>#384248</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>48dp</item>
+        <item>?unknown_ref: 0</item>
+        <item>?attr/playbackPaddingStart</item>
+        <item>?attr/playbackPaddingEnd</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemRowStyle">
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemSeparatorStyle">
+        <item>@color/lb_media_background_color</item>
+        <item>@dimen/lb_playback_media_row_separator_height</item>
+        <item>@color/lb_playback_media_row_separator_highlight_color</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaListHeaderStyle">
+        <item>#263238</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemDetailsStyle">
+        <item>true</item>
+        <item>true</item>
+        <item>0dp</item>
+        <item>-1</item>
+        <item>1.0</item>
+        <item>?attr/playbackMediaItemPaddingStart</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaListHeaderTitle">
+        <item>18sp</item>
+        <item>#80eeeeee</item>
+        <item>sans-serif-regular</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaListHeaderTitleStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackMediaListHeaderTitle</item>
+        <item>10</item>
+        <item>?attr/playbackMediaItemPaddingStart</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemNumber">
+        <item>18sp</item>
+        <item>#ffffff</item>
+        <item>sans-serif-regular</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemNumberStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackMediaItemNumber</item>
+        <item>10</item>
+        <item>2</item>
+        <item>56dp</item>
+        <item>-1</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemName">
+        <item>18sp</item>
+        <item>#ffffff</item>
+        <item>sans-serif-regular</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemNameStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackMediaItemName</item>
+        <item>10</item>
+        <item>0dp</item>
+        <item>-1</item>
+        <item>true</item>
+        <item>1.0</item>
+    </style>
+    <style name="TextAppearance.Leanback.PlaybackMediaItemDuration">
+        <item>18sp</item>
+        <item>#80ffffff</item>
+        <item>sans-serif-regular</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackMediaItemDurationStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackMediaItemDuration</item>
+        <item>15</item>
+        <item>2</item>
+        <item>56dp</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionTitleStyle">
+        <item>@style/TextAppearance.Leanback.DetailsDescriptionTitle</item>
+        <item>3</item>
+        <item>@integer/lb_details_description_title_max_lines</item>
+        <item>false</item>
+        <item>5</item>
+        <item>1</item>
+        <item>@dimen/lb_details_description_title_resized_text_size</item>
+        <item>@dimen/lb_details_description_title_padding_adjust_top</item>
+        <item>@dimen/lb_details_description_title_padding_adjust_bottom</item>
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionSubtitleStyle">
+        <item>@style/TextAppearance.Leanback.DetailsDescriptionSubtitle</item>
+        <item>3</item>
+        <item>@integer/lb_details_description_subtitle_max_lines</item>
+        <item>false</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.DetailsDescriptionBodyStyle">
+        <item>@style/TextAppearance.Leanback.DetailsDescriptionBody</item>
+        <item>3</item>
+        <item>false</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.DetailsActionButtonStyleBase">
+    </style>
+    <style name="Widget.Leanback.DetailsActionButtonStyleBase">
+        <item>@drawable/lb_action_bg</item>
+    </style>
+    <style name="Widget.Leanback.DetailsActionButtonStyle">
+        <item>@style/TextAppearance.Leanback.DetailsActionButton</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@dimen/lb_action_icon_margin</item>
+        <item>5</item>
+        <item>@dimen/lb_action_padding_horizontal</item>
+        <item>@dimen/lb_action_padding_horizontal</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsButtonStyle">
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlLabelStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackControlLabel</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsTimeStyle">
+        <item>@style/TextAppearance.Leanback.PlaybackControlsTime</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.ErrorMessageStyle">
+        <item>@style/TextAppearance.Leanback.ErrorMessage</item>
+        <item>3</item>
+        <item>@integer/lb_error_message_max_lines</item>
+        <item>false</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.SearchOrbViewStyle">
+        <item>?attr/defaultSearchIcon</item>
+        <item>?attr/defaultSearchIconColor</item>
+        <item>?attr/defaultSearchColor</item>
+        <item>?attr/defaultSearchBrightColor</item>
+    </style>
+    <style name="Widget.Leanback.PlaybackControlsActionIconsStyle">
+        <item>@drawable/abc_scrubber_track_mtrl_alpha</item>
+        <item>@drawable/abc_scrubber_control_to_pressed_mtrl_005</item>
+        <item>@drawable/abc_list_pressed_holo_dark</item>
+        <item>@drawable/abc_list_pressed_holo_light</item>
+        <item>@drawable/abc_textfield_activated_mtrl_alpha</item>
+        <item>@drawable/abc_textfield_default_mtrl_alpha</item>
+        <item>@drawable/cover_clock_bg</item>
+        <item>@drawable/colon</item>
+        <item>@drawable/bg_slider</item>
+        <item>@drawable/abc_textfield_search_default_mtrl_alpha</item>
+        <item>@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item>@drawable/abc_popup_background_mtrl_mult</item>
+        <item>@drawable/abc_tab_indicator_mtrl_alpha</item>
+        <item>@drawable/abc_list_selector_disabled_holo_light</item>
+        <item>@drawable/abc_list_longpressed_holo</item>
+        <item>@drawable/abc_scrubber_primary_mtrl_alpha</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceContainerStyle">
+        <item>false</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>56dp</item>
+        <item>32dp</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceTitleStyle">
+        <item>36sp</item>
+        <item>#fff1f1f1</item>
+        <item>3</item>
+        <item>800003</item>
+        <item>2dp</item>
+        <item>4dp</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>2</item>
+        <item>@id/guidance_breadcrumb</item>
+        <item>true</item>
+        <item>2</item>
+        <item>sans-serif-light</item>
+        <item>5</item>
+        <item>@id/guidance_icon</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceDescriptionStyle">
+        <item>14sp</item>
+        <item>#88f1f1f1</item>
+        <item>3</item>
+        <item>800003</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>6</item>
+        <item>@id/guidance_title</item>
+        <item>true</item>
+        <item>3dp</item>
+        <item>2</item>
+        <item>sans-serif</item>
+        <item>5</item>
+        <item>@id/guidance_icon</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceBreadcrumbStyle">
+        <item>18sp</item>
+        <item>#88f1f1f1</item>
+        <item>3</item>
+        <item>800003</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>2</item>
+        <item>sans-serif-condensed</item>
+        <item>5</item>
+        <item>@id/guidance_icon</item>
+    </style>
+    <style name="Widget.Leanback.GuidanceIconStyle">
+        <item>140dp</item>
+        <item>-2</item>
+        <item>3</item>
+        <item>280dp</item>
+        <item>24dp</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionsListStyle">
+        <item>false</item>
+        <item>false</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Leanback.GuidedSubActionsListStyle">
+        <item>true</item>
+        <item>true</item>
+        <item>@dimen/lb_guidedactions_sublist_bottom_margin</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Leanback.GuidedButtonActionsListStyle">
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemContainerStyle">
+        <item>@dimen/lb_guidedactions_vertical_padding</item>
+        <item>@dimen/lb_guidedactions_vertical_padding</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>?attr/guidedActionsSelectorDrawable</item>
+        <item>@dimen/lb_guidedactions_item_min_height</item>
+        <item>@dimen/lb_guidedactions_item_start_padding</item>
+        <item>@dimen/lb_guidedactions_item_end_padding</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemCheckmarkStyle">
+        <item>11</item>
+        <item>2</item>
+        <item>@dimen/lb_guidedactions_item_checkmark_diameter</item>
+        <item>@dimen/lb_guidedactions_item_checkmark_diameter</item>
+        <item>7</item>
+        <item>@dimen/lb_guidedactions_item_delimiter_padding</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemIconStyle">
+        <item>11</item>
+        <item>2</item>
+        <item>@dimen/lb_guidedactions_item_icon_width</item>
+        <item>@dimen/lb_guidedactions_item_icon_height</item>
+        <item>3</item>
+        <item>@dimen/lb_guidedactions_item_delimiter_padding</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemContentStyle">
+        <item>800013</item>
+        <item>1</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>1.0</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemTitleStyle">
+        <item>@dimen/lb_guidedactions_item_title_font_size</item>
+        <item>@color/lb_guidedactions_item_unselected_text_color</item>
+        <item>3</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@integer/lb_guidedactions_item_title_min_lines</item>
+        <item>@string/lb_guidedactions_item_unselected_text_alpha</item>
+        <item>sans-serif-condensed</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemDescriptionStyle">
+        <item>@dimen/lb_guidedactions_item_description_font_size</item>
+        <item>@color/lb_guidedactions_item_unselected_text_color</item>
+        <item>3</item>
+        <item>2</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@integer/lb_guidedactions_item_description_min_lines</item>
+        <item>@string/lb_guidedactions_item_unselected_description_text_alpha</item>
+        <item>sans-serif-condensed</item>
+        <item>5</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionItemChevronStyle">
+        <item>11</item>
+        <item>2</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>@drawable/abc_list_selector_disabled_holo_dark</item>
+        <item>3</item>
+        <item>@dimen/lb_guidedactions_item_delimiter_padding</item>
+    </style>
+    <style name="Widget.Leanback.GuidedActionsContainerStyle">
+    </style>
+    <style name="Widget.Leanback.GuidedActionsSelectorStyle">
+    </style>
+    <style name="Widget.Leanback.OnboardingHeaderStyle">
+        <item>1</item>
+        <item>false</item>
+        <item>false</item>
+        <item>@dimen/lb_onboarding_content_width</item>
+        <item>@dimen/lb_onboarding_header_height</item>
+        <item>@dimen/lb_onboarding_header_margin_top</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingTitleStyle">
+        <item>34sp</item>
+        <item>#eeeeee</item>
+        <item>11</item>
+        <item>-1</item>
+        <item>0dp</item>
+        <item>3dp</item>
+        <item>0.5</item>
+        <item>14sp</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingDescriptionStyle">
+        <item>14sp</item>
+        <item>#b3eeeeee</item>
+        <item>11</item>
+        <item>-1</item>
+        <item>0dp</item>
+        <item>3dp</item>
+        <item>0.5</item>
+        <item>10sp</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingNavigatorContainerStyle">
+        <item>-2</item>
+        <item>-2</item>
+        <item>58dp</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingPageIndicatorStyle">
+        <item>1</item>
+        <item>true</item>
+        <item>@dimen/lb_onboarding_content_width</item>
+        <item>@dimen/lb_onboarding_navigation_height</item>
+        <item>@string/lb_onboarding_accessibility_next</item>
+        <item>@dimen/lb_page_indicator_dot_radius</item>
+        <item>@dimen/lb_page_indicator_arrow_radius</item>
+        <item>@dimen/lb_page_indicator_dot_gap</item>
+        <item>@dimen/lb_page_indicator_arrow_gap</item>
+        <item>@color/lb_page_indicator_dot</item>
+        <item>@color/lb_page_indicator_arrow_background</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingStartButtonStyle">
+        <item>16sp</item>
+        <item>#014269</item>
+        <item>10</item>
+        <item>1</item>
+        <item>@drawable/lb_onboarding_start_button_background</item>
+        <item>-2</item>
+        <item>36dp</item>
+        <item>4dp</item>
+        <item>@string/lb_onboarding_get_started</item>
+        <item>true</item>
+        <item>sans-serif</item>
+        <item>24dp</item>
+        <item>24dp</item>
+        <item>1.5dp</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Widget.Leanback.OnboardingLogoStyle">
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Theme.LeanbackBase">
+        <item>true</item>
+        <item>@color/lb_default_brand_color</item>
+        <item>@color/lb_default_brand_color_dark</item>
+        <item>@color/lb_playback_progress_color_no_theme</item>
+        <item>@color/lb_playback_icon_highlight_no_theme</item>
+        <item>@style/Theme.Leanback.GuidedStep</item>
+    </style>
+    <style name="Theme.LeanbackBase">
+        <item>true</item>
+        <item>@color/lb_default_brand_color</item>
+        <item>@color/lb_default_brand_color_dark</item>
+        <item>@color/lb_playback_progress_color_no_theme</item>
+        <item>@color/lb_playback_icon_highlight_no_theme</item>
+        <item>@style/Theme.Leanback.GuidedStep</item>
+    </style>
+    <style name="Theme.LeanbackBase">
+        <item>true</item>
+        <item>@color/lb_default_brand_color</item>
+        <item>@color/lb_default_brand_color_dark</item>
+        <item>?unknown_attr_ref: 1010433</item>
+        <item>?unknown_attr_ref: 1010434</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>@style/Theme.Leanback.GuidedStep</item>
+    </style>
+    <style name="Theme.Leanback">
+        <item>@transition/lb_enter_transition</item>
+        <item>@transition/lb_shared_element_enter_transition</item>
+        <item>350</item>
+        <item>@transition/lb_return_transition</item>
+        <item>@transition/lb_shared_element_return_transition</item>
+        <item>@dimen/lb_browse_padding_start</item>
+        <item>@dimen/lb_browse_padding_end</item>
+        <item>@dimen/lb_browse_padding_top</item>
+        <item>@dimen/lb_browse_padding_bottom</item>
+        <item>@dimen/lb_browse_rows_margin_start</item>
+        <item>@dimen/lb_browse_rows_margin_top</item>
+        <item>@dimen/lb_browse_rows_fading_edge</item>
+        <item>@style/Widget.Leanback.Title.Text</item>
+        <item>@style/Widget.Leanback.Title.Icon</item>
+        <item>@style/Widget.Leanback.TitleView</item>
+        <item>@layout/lb_browse_title</item>
+        <item>@style/Widget.Leanback.Headers.VerticalGridView</item>
+        <item>@style/Widget.Leanback.Header</item>
+        <item>@style/Widget.Leanback.Header.Section</item>
+        <item>@style/Widget.Leanback.Rows.VerticalGridView</item>
+        <item>@style/Widget.Leanback.Row.HorizontalGridView</item>
+        <item>@style/Widget.Leanback.Row.Header</item>
+        <item>@style/Widget.Leanback.Row.HeaderDock</item>
+        <item>@style/Widget.Leanback.Row.HoverCardTitle</item>
+        <item>@style/Widget.Leanback.Row.HoverCardDescription</item>
+        <item>@style/Widget.Leanback.BaseCardViewStyle</item>
+        <item>@style/Widget.Leanback.ImageCardViewStyle</item>
+        <item>@style/Widget.Leanback.ImageCardView.ImageStyle</item>
+        <item>@style/Widget.Leanback.ImageCardView.TitleStyle</item>
+        <item>@style/Widget.Leanback.ImageCardView.ContentStyle</item>
+        <item>@style/Widget.Leanback.ImageCardView.BadgeStyle</item>
+        <item>@style/Widget.Leanback.ImageCardView.InfoAreaStyle</item>
+        <item>@style/Widget.Leanback.DetailsDescriptionTitleStyle</item>
+        <item>@style/Widget.Leanback.DetailsDescriptionSubtitleStyle</item>
+        <item>@style/Widget.Leanback.DetailsDescriptionBodyStyle</item>
+        <item>@style/Widget.Leanback.DetailsActionButtonStyle</item>
+        <item>@dimen/lb_playback_controls_margin_start</item>
+        <item>@dimen/lb_playback_controls_margin_end</item>
+        <item>@dimen/lb_playback_media_row_horizontal_padding</item>
+        <item>@style/Widget.Leanback.PlaybackMediaListHeaderStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemRowStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemSeparatorStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaListHeaderTitleStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemDetailsStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemNumberStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemNameStyle</item>
+        <item>@style/Widget.Leanback.PlaybackMediaItemDurationStyle</item>
+        <item>@style/Widget.Leanback.PlaybackControlsButtonStyle</item>
+        <item>@style/Widget.Leanback.PlaybackControlLabelStyle</item>
+        <item>@style/Widget.Leanback.PlaybackControlsTimeStyle</item>
+        <item>@style/Widget.Leanback.GridItems.VerticalGridView</item>
+        <item>@style/Widget.Leanback.ErrorMessageStyle</item>
+        <item>@color/lb_default_search_color</item>
+        <item>@color/lb_default_search_icon_color</item>
+        <item>?attr/defaultSearchColor</item>
+        <item>?attr/defaultSearchColor</item>
+        <item>@style/Widget.Leanback.SearchOrbViewStyle</item>
+        <item>@drawable/lb_ic_in_app_search</item>
+        <item>@style/Widget.Leanback.PlaybackControlsActionIconsStyle</item>
+        <item>@color/lb_view_dim_mask_color</item>
+        <item>@fraction/lb_view_active_level</item>
+        <item>@fraction/lb_view_dimmed_level</item>
+    </style>
+    <style name="Theme.Leanback.Browse">
+        <item>@transition/lb_browse_enter_transition</item>
+        <item>@transition/lb_browse_return_transition</item>
+    </style>
+    <style name="Theme.Leanback.VerticalGrid">
+        <item>@transition/lb_vertical_grid_enter_transition</item>
+        <item>@transition/lb_vertical_grid_return_transition</item>
+    </style>
+    <style name="Theme.Leanback.Details">
+        <item>@transition/lb_details_enter_transition</item>
+        <item>@transition/lb_shared_element_enter_transition</item>
+        <item>@transition/lb_details_return_transition</item>
+        <item>@transition/lb_shared_element_return_transition</item>
+    </style>
+    <style name="Theme.Leanback.Details.NoSharedElementTransition">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Theme.Leanback.GuidedStep">
+        <item>?unknown_ref: 106000d</item>
+        <item>@transition/lb_guidedstep_activity_enter</item>
+        <item>@integer/lb_guidedstep_activity_background_fade_duration_ms</item>
+        <item>@string/lb_guidedstep_height_weight</item>
+        <item>@string/lb_guidedstep_keyline</item>
+        <item>true</item>
+        <item>?unknown_attr_ref: 1010031</item>
+        <item>@animator/lb_guidedstep_slide_up</item>
+        <item>@animator/lb_guidedstep_slide_down</item>
+        <item>@style/Widget.Leanback.GuidanceContainerStyle</item>
+        <item>@style/Widget.Leanback.GuidanceTitleStyle</item>
+        <item>@style/Widget.Leanback.GuidanceDescriptionStyle</item>
+        <item>@style/Widget.Leanback.GuidanceBreadcrumbStyle</item>
+        <item>@style/Widget.Leanback.GuidanceIconStyle</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>@dimen/lb_guidedactions_elevation</item>
+        <item>@color/lb_guidedactions_background</item>
+        <item>@color/lb_guidedactions_background_dark</item>
+        <item>@style/Widget.Leanback.GuidedActionsListStyle</item>
+        <item>@style/Widget.Leanback.GuidedSubActionsListStyle</item>
+        <item>@style/Widget.Leanback.GuidedButtonActionsListStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemContainerStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemCheckmarkStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemIconStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemContentStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemTitleStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemDescriptionStyle</item>
+        <item>@style/Widget.Leanback.GuidedActionItemChevronStyle</item>
+        <item>@animator/lb_guidedactions_item_pressed</item>
+        <item>@animator/lb_guidedactions_item_unpressed</item>
+        <item>@string/lb_guidedactions_item_enabled_chevron_alpha</item>
+        <item>@string/lb_guidedactions_item_disabled_chevron_alpha</item>
+        <item>@string/lb_guidedactions_width_weight</item>
+        <item>@string/lb_guidedactions_width_weight_two_panels</item>
+        <item>@integer/lb_guidedactions_item_title_min_lines</item>
+        <item>@integer/lb_guidedactions_item_title_max_lines</item>
+        <item>@integer/lb_guidedactions_item_description_min_lines</item>
+        <item>@dimen/lb_guidedactions_vertical_padding</item>
+    </style>
+    <style name="Theme.Leanback.GuidedStep.Half">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>@transition/lb_guidedstep_activity_enter_bottom</item>
+        <item>@string/lb_guidedstep_height_weight_translucent</item>
+    </style>
+    <style name="Theme.Leanback.Onboarding">
+        <item>@style/Widget.Leanback.OnboardingHeaderStyle</item>
+        <item>@style/Widget.Leanback.OnboardingTitleStyle</item>
+        <item>@style/Widget.Leanback.OnboardingDescriptionStyle</item>
+        <item>@style/Widget.Leanback.OnboardingNavigatorContainerStyle</item>
+        <item>@style/Widget.Leanback.OnboardingPageIndicatorStyle</item>
+        <item>@style/Widget.Leanback.OnboardingStartButtonStyle</item>
+        <item>@style/Widget.Leanback.OnboardingLogoStyle</item>
+    </style>
+    <style name="Widget.AppCompat.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.Solid">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.DrawerArrowToggle">
+        <item>?attr/colorControlNormal</item>
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="Widget.AppCompat.ActionMode">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.DropDownItem">
+    </style>
+    <style name="Widget.AppCompat.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.ListView">
+    </style>
+    <style name="Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+    </style>
+    <style name="Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu.Overflow">
+    </style>
+    <style name="Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Widget.AppCompat.ListMenuView">
+    </style>
+    <style name="Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.PopupMenu.Header">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.ActivityChooserView">
+    </style>
+    <style name="Widget.AppCompat.SearchView">
+    </style>
+    <style name="Widget.AppCompat.SearchView.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.EditText">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.Switch">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Widget.AppCompat.Button">
+    </style>
+    <style name="Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="AlertDialog.AppCompat">
+    </style>
+    <style name="AlertDialog.AppCompat.Light">
+    </style>
+    <style name="Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Widget.AppCompat.SeekBar.Discrete">
+    </style>
+    <style name="Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Animation.AppCompat.Dialog">
+    </style>
+    <style name="Animation.AppCompat.DropDownUp">
+    </style>
+    <style name="TextAppearance.AppCompat">
+    </style>
+    <style name="TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="TextAppearance.AppCompat.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="TextAppearance.AppCompat.Subhead.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Small">
+    </style>
+    <style name="TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Button.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Title">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.SearchResult.Subtitle">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionMode.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="Widget.AppCompat.Light.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.AppCompat.Light.SearchView">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.Overflow">
+    </style>
+    <style name="Widget.AppCompat.Light.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.AppCompat.Light.ListView.DropDown">
+    </style>
+    <style name="Widget.AppCompat.Light.ListPopupWindow">
+    </style>
+    <style name="Widget.AppCompat.Light.AutoCompleteTextView">
+    </style>
+    <style name="Widget.AppCompat.Light.ActivityChooserView">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2">
+        <item>@dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar">
+        <item>10</item>
+        <item>?attr/actionBarSize</item>
+        <item>@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.ActionButton</item>
+        <item>8</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item>?attr/dividerVertical</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_content_inset_material</item>
+        <item>@dimen/abc_action_bar_content_inset_material</item>
+        <item>@dimen/abc_action_bar_content_inset_with_nav</item>
+        <item>8dp</item>
+        <item>?attr/actionBarPopupTheme</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar">
+        <item>@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.Solid">
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.Solid">
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimary</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton">
+        <item>11</item>
+        <item>?attr/actionBarItemBackground</item>
+        <item>5</item>
+        <item>@dimen/abc_action_button_min_width_material</item>
+        <item>@dimen/abc_action_button_min_height_material</item>
+        <item>2</item>
+        <item>@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <item>?attr/controlBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.CloseMode">
+        <item>56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+        <item>?attr/actionBarItemBackground</item>
+        <item>@dimen/abc_action_button_min_width_overflow_material</item>
+        <item>@dimen/abc_action_button_min_height_material</item>
+        <item>@string/abc_action_menu_overflow_description</item>
+        <item>@drawable/abc_ic_menu_overflow_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabBar">
+        <item>?attr/actionBarDivider</item>
+        <item>2</item>
+        <item>8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView">
+        <item>1</item>
+        <item>@drawable/abc_tab_indicator_material</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>0dp</item>
+        <item>80dp</item>
+        <item>1.0</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView">
+        <item>@drawable/abc_tab_indicator_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText">
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>12sp</item>
+        <item>1</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>4</item>
+        <item>180dp</item>
+        <item>2</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.ActionMode">
+        <item>?attr/actionBarSize</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item>?attr/actionModeBackground</item>
+        <item>?attr/actionModeSplitBackground</item>
+        <item>@layout/abc_action_mode_close_item_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item>?attr/actionMenuTextColor</item>
+        <item>@bool/abc_config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item>@dimen/abc_text_size_title_material_toolbar</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item>@dimen/abc_text_size_subtitle_material_toolbar</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item>@dimen/abc_text_size_title_material_toolbar</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+        <item>@dimen/abc_text_size_subtitle_material_toolbar</item>
+        <item>?unknown_attr_ref: 101003a</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar.Horizontal">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+        <item>@dimen/abc_action_bar_progress_bar_size</item>
+        <item>@dimen/abc_action_bar_progress_bar_size</item>
+        <item>@dimen/abc_action_bar_progress_bar_size</item>
+        <item>@dimen/abc_action_bar_progress_bar_size</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ProgressBar">
+    </style>
+    <style name="Platform.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Platform.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner">
+        <item>800013</item>
+        <item>@drawable/abc_spinner_mtrl_am_alpha</item>
+        <item>true</item>
+        <item>?attr/listChoiceBackgroundIndicator</item>
+        <item>@drawable/abc_popup_background_mtrl_mult</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+        <item>@drawable/abc_spinner_textfield_background_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner">
+        <item>@style/TextAppearance.AppCompat.Widget.DropDownItem</item>
+        <item>10</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DropDownItem.Spinner">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView">
+        <item>?attr/listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView">
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.DropDown">
+    </style>
+    <style name="Base.Widget.AppCompat.ListMenuView">
+        <item>@drawable/abc_ic_arrow_drop_right_black_24dp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.DropDownItem">
+        <item>?unknown_attr_ref: 1010037</item>
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item">
+        <item>?unknown_attr_ref: 1010037</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.Menu">
+        <item>?attr/listChoiceBackgroundIndicator</item>
+        <item>?attr/dividerHorizontal</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListView.Menu">
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow">
+        <item>?attr/listChoiceBackgroundIndicator</item>
+        <item>@drawable/abc_popup_background_mtrl_mult</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ListPopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item>-4dp</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Base.Widget.AppCompat.Light.PopupMenu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header">
+        <item>@dimen/abc_text_size_menu_header_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.PopupMenu.Header">
+        <item>@dimen/abc_text_size_menu_header_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@string/abc_font_family_title_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>?unknown_attr_ref: 101009a</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
+        <item>18sp</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.SearchResult.Subtitle">
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+    </style>
+    <style name="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.AutoCompleteTextView">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/editTextColor</item>
+        <item>?attr/editTextBackground</item>
+        <item>?attr/listChoiceBackgroundIndicator</item>
+        <item>@drawable/abc_popup_background_mtrl_mult</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActivityChooserView">
+        <item>11</item>
+        <item>@drawable/abc_ab_share_pack_mtrl_alpha</item>
+        <item>?attr/dividerVertical</item>
+        <item>2</item>
+        <item>6dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.PopupWindow">
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+        <item>@dimen/abc_action_bar_default_padding_start_material</item>
+        <item>@dimen/abc_action_bar_default_padding_end_material</item>
+        <item>?attr/actionBarSize</item>
+        <item>16dp</item>
+        <item>@dimen/abc_action_bar_content_inset_with_nav</item>
+        <item>@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
+        <item>@style/TextAppearance.Widget.AppCompat.Toolbar.Subtitle</item>
+        <item>4dp</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>30</item>
+        <item>?attr/homeAsUpIndicator</item>
+        <item>@string/abc_toolbar_collapse_description</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+        <item>?attr/controlBackground</item>
+        <item>5</item>
+        <item>56dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar.Button.Navigation">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView">
+        <item>@layout/abc_search_view</item>
+        <item>@drawable/abc_ic_clear_material</item>
+        <item>@drawable/abc_ic_go_search_api_material</item>
+        <item>@drawable/abc_ic_search_api_material</item>
+        <item>@drawable/abc_ic_search_api_material</item>
+        <item>@drawable/abc_ic_voice_search_api_material</item>
+        <item>@drawable/abc_ic_commit_search_api_mtrl_alpha</item>
+        <item>@layout/abc_search_dropdown_item_icons_2line</item>
+        <item>@drawable/abc_textfield_search_material</item>
+        <item>@drawable/abc_textfield_search_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SearchView.ActionBar">
+        <item>@string/abc_search_hint</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.V7.Widget.AppCompat.EditText">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/editTextColor</item>
+        <item>?attr/editTextBackground</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>true</item>
+        <item>8dp</item>
+        <item>16dp</item>
+        <item>2dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item>24dp</item>
+        <item>3dp</item>
+        <item>18dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle">
+        <item>24dp</item>
+        <item>3.33dp</item>
+        <item>18.66dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox">
+        <item>?attr/controlBackground</item>
+        <item>?unknown_attr_ref: 101021a</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.CheckBox">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton">
+        <item>?attr/controlBackground</item>
+        <item>?unknown_attr_ref: 1010219</item>
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.RadioButton">
+    </style>
+    <style name="Base.Widget.AppCompat.CompoundButton.Switch">
+        <item>?attr/controlBackground</item>
+        <item>@string/abc_capital_on</item>
+        <item>@string/abc_capital_off</item>
+        <item>@drawable/abc_switch_thumb_material</item>
+        <item>@drawable/abc_switch_track_mtrl_alpha</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Switch</item>
+        <item>@dimen/abc_switch_padding</item>
+        <item>false</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Switch">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar">
+        <item>@drawable/abc_ratingbar_material</item>
+        <item>@drawable/abc_ratingbar_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+        <item>36dp</item>
+        <item>@drawable/abc_ratingbar_indicator_material</item>
+        <item>@drawable/abc_ratingbar_indicator_material</item>
+        <item>36dp</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+        <item>16dp</item>
+        <item>@drawable/abc_ratingbar_small_material</item>
+        <item>@drawable/abc_ratingbar_small_material</item>
+        <item>16dp</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar">
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@drawable/abc_seekbar_track_material</item>
+        <item>@drawable/abc_seekbar_track_material</item>
+        <item>@drawable/abc_seekbar_thumb_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar">
+    </style>
+    <style name="Base.Widget.AppCompat.SeekBar.Discrete">
+        <item>@drawable/abc_seekbar_tick_mark_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button">
+        <item>?unknown_attr_ref: 1010207</item>
+        <item>11</item>
+        <item>@drawable/abc_btn_default_mtrl_shape</item>
+        <item>true</item>
+        <item>true</item>
+        <item>88dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small">
+        <item>48dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+        <item>@style/TextAppearance.AppCompat.Widget.Button.Inverse</item>
+        <item>@drawable/abc_btn_colored_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless">
+        <item>@drawable/abc_btn_borderless_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item>@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+        <item>@color/abc_btn_colored_borderless_text_material</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item>64dp</item>
+        <item>@dimen/abc_alert_dialog_button_bar_height</item>
+        <item>2</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton">
+        <item>@drawable/abc_btn_default_mtrl_shape</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ImageButton">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem">
+        <item>@style/TextAppearance.AppCompat.Widget.TextView.SpinnerItem</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Base.Widget.AppCompat.TextView.SpinnerItem">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem">
+    </style>
+    <style name="Base.DialogWindowTitleBackground.AppCompat">
+        <item>?unknown_ref: 0</item>
+        <item>?attr/dialogPreferredPadding</item>
+        <item>@dimen/abc_dialog_padding_top_material</item>
+        <item>?attr/dialogPreferredPadding</item>
+    </style>
+    <style name="Base.DialogWindowTitle.AppCompat">
+        <item>@style/TextAppearance.AppCompat.Title</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="Base.Animation.AppCompat.Dialog">
+        <item>@anim/abc_popup_enter</item>
+        <item>@anim/abc_popup_exit</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar">
+    </style>
+    <style name="Base.Widget.AppCompat.ButtonBar.AlertDialog">
+    </style>
+    <style name="Base.Animation.AppCompat.DropDownUp">
+        <item>@anim/abc_grow_fade_in_from_bottom</item>
+        <item>@anim/abc_shrink_fade_out_from_bottom</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat">
+        <item>@layout/abc_alert_dialog_material</item>
+        <item>@layout/abc_select_dialog_material</item>
+        <item>@layout/select_dialog_multichoice_material</item>
+        <item>@layout/select_dialog_singlechoice_material</item>
+        <item>@layout/select_dialog_item_material</item>
+    </style>
+    <style name="Base.AlertDialog.AppCompat.Light">
+    </style>
+    <style name="Base.V12.Widget.AppCompat.EditText">
+        <item>@drawable/abc_text_cursor_material</item>
+    </style>
+    <style name="Base.V12.Widget.AppCompat.AutoCompleteTextView">
+        <item>@drawable/abc_text_cursor_material</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat">
+        <item>@dimen/abc_text_size_body_1_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>?unknown_attr_ref: 1010099</item>
+        <item>?unknown_attr_ref: 101009a</item>
+        <item>?unknown_attr_ref: 101009b</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4">
+        <item>@dimen/abc_text_size_display_4_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display4">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3">
+        <item>@dimen/abc_text_size_display_3_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display3">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2">
+        <item>@dimen/abc_text_size_display_2_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1">
+        <item>@dimen/abc_text_size_display_1_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Display1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline">
+        <item>@dimen/abc_text_size_headline_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Headline">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title">
+        <item>@dimen/abc_text_size_title_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Title.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead">
+        <item>@dimen/abc_text_size_subhead_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Subhead.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2">
+        <item>@dimen/abc_text_size_body_2_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1">
+        <item>@dimen/abc_text_size_body_1_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption">
+        <item>@dimen/abc_text_size_caption_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Caption">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu">
+        <item>@dimen/abc_text_size_menu_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Menu">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item>@dimen/abc_text_size_button_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+        <item>@dimen/abc_text_size_button_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large">
+        <item>@dimen/abc_text_size_large_material</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Large.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium">
+        <item>@dimen/abc_text_size_medium_material</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item>?unknown_attr_ref: 101003a</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+        <item>?unknown_attr_ref: 101003a</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Medium.Inverse">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small">
+        <item>@dimen/abc_text_size_small_material</item>
+        <item>?unknown_attr_ref: 1010212</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+        <item>?unknown_attr_ref: 1010213</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+        <item>?unknown_attr_ref: 1010213</item>
+        <item>?unknown_attr_ref: 101034f</item>
+        <item>?unknown_attr_ref: 101003f</item>
+        <item>?unknown_attr_ref: 1010350</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Small.Inverse">
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.SearchView.MagIcon">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+        <item>4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown">
+        <item>@dimen/abc_dropdownitem_text_padding_left</item>
+        <item>4dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Query">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon1">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <item>@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Icon2">
+        <item>@id/edit_query</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <item>?unknown_ref: 1020008</item>
+        <item>?unknown_ref: 1020007</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.Search.DropDown.Text">
+        <item>?unknown_ref: 1020008</item>
+        <item>?unknown_ref: 1020007</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <item>13</item>
+        <item>8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem">
+        <item>800013</item>
+        <item>8dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <item>12dp</item>
+        <item>12dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton">
+        <item>12dp</item>
+        <item>12dp</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <item>@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item>@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="RtlUnderlay.Widget.AppCompat.ActionButton.Overflow">
+        <item>@dimen/abc_action_bar_overflow_padding_start_material</item>
+        <item>@dimen/abc_action_bar_overflow_padding_end_material</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.InternalGroup">
+        <item>16dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem.Text">
+        <item>5</item>
+        <item>true</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <item>8dp</item>
+    </style>
+    <style name="RtlOverlay.Widget.AppCompat.DialogTitle.Icon">
+        <item>8dp</item>
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+    </style>
+    <style name="RtlOverlay.DialogWindowTitle.AppCompat">
+        <item>5</item>
+    </style>
+    <style name="Theme.AppCompat">
+    </style>
+    <style name="Theme.AppCompat.Light">
+    </style>
+    <style name="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item>false</item>
+        <item>true</item>
+    </style>
+    <style name="Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Theme.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.Light.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.CompactMenu">
+    </style>
+    <style name="ThemeOverlay.AppCompat">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="ThemeOverlay.AppCompat.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="ThemeOverlay.AppCompat.Dialog.Alert">
+    </style>
+    <style name="Platform.AppCompat">
+        <item>@color/foreground_material_dark</item>
+        <item>@color/background_material_dark</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_dark</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_dark</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_background_cache_hint_selector_material_dark</item>
+    </style>
+    <style name="Platform.AppCompat">
+    </style>
+    <style name="Platform.AppCompat">
+    </style>
+    <style name="Platform.AppCompat">
+        <item>true</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>false</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Platform.AppCompat.Light">
+        <item>@color/foreground_material_light</item>
+        <item>@color/background_material_light</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_light</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_primary_text_disable_only_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_light</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_background_cache_hint_selector_material_light</item>
+    </style>
+    <style name="Platform.AppCompat.Light">
+    </style>
+    <style name="Platform.AppCompat.Light">
+    </style>
+    <style name="Platform.AppCompat.Light">
+        <item>true</item>
+        <item>?unknown_attr_ref: 1010435</item>
+        <item>false</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?unknown_attr_ref: 1010435</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Widget.AppCompat.ListView.DropDown</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.TextView.SpinnerItem</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item>false</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabView</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabBar</item>
+        <item>@style/Widget.AppCompat.ActionBar.TabText</item>
+        <item>@style/Widget.AppCompat.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.PopupMenu.Overflow</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.ActionBar.Solid</item>
+        <item>?attr/actionBarStyle</item>
+        <item>@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item>?unknown_attr_ref: 1010037</item>
+        <item>@style/Widget.AppCompat.ActionMode</item>
+        <item>@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item>@drawable/abc_cab_background_top_material</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Header</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog</item>
+        <item>@dimen/abc_dialog_padding_material</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item>?attr/listPreferredItemHeightSmall</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@style/Widget.AppCompat.ActionButton</item>
+        <item>@style/Widget.AppCompat.ButtonBar</item>
+        <item>@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item>@drawable/abc_item_background_holo_dark</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@style/Widget.AppCompat.ActivityChooserView</item>
+        <item>@style/Widget.AppCompat.Toolbar</item>
+        <item>@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.AppCompat.PopupMenu</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>@style/Widget.AppCompat.ImageButton</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item>@color/abc_search_url_text</item>
+        <item>@style/Widget.AppCompat.SearchView</item>
+        <item>64dp</item>
+        <item>48dp</item>
+        <item>80dp</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>@style/Widget.AppCompat.ListPopupWindow</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item>@dimen/abc_panel_menu_list_width</item>
+        <item>@style/Theme.AppCompat.CompactMenu</item>
+        <item>@drawable/abc_list_selector_holo_dark</item>
+        <item>@color/primary_material_dark</item>
+        <item>@color/primary_dark_material_dark</item>
+        <item>@color/accent_material_dark</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/ripple_material_dark</item>
+        <item>@color/button_material_dark</item>
+        <item>@color/switch_thumb_material_dark</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@color/background_floating_material_dark</item>
+        <item>@style/AlertDialog.AppCompat</item>
+        <item>false</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.Button</item>
+        <item>@style/Widget.AppCompat.Button.Small</item>
+        <item>@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item>@style/Widget.AppCompat.EditText</item>
+        <item>@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item>@style/Widget.AppCompat.RatingBar</item>
+        <item>@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item>@style/Widget.AppCompat.RatingBar.Small</item>
+        <item>@style/Widget.AppCompat.SeekBar</item>
+        <item>@style/Widget.AppCompat.Spinner</item>
+        <item>@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item>@style/Widget.AppCompat.ListMenuView</item>
+        <item>@style/Widget.AppCompat.DrawerArrowToggle</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light">
+        <item>?unknown_ref: 106000d</item>
+        <item>@style/Widget.AppCompat.ListView.DropDown</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@style/Widget.AppCompat.TextView.SpinnerItem</item>
+        <item>@style/TextAppearance.AppCompat.Widget.Button</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+        <item>false</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabView</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabBar</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.TabText</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton.Overflow</item>
+        <item>@style/Widget.AppCompat.Light.PopupMenu.Overflow</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.Light.ActionBar.Solid</item>
+        <item>?attr/actionBarStyle</item>
+        <item>@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abc_action_bar_default_height_material</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@style/TextAppearance.AppCompat.Widget.ActionBar.Menu</item>
+        <item>?unknown_attr_ref: 1010037</item>
+        <item>@style/Widget.AppCompat.ActionMode</item>
+        <item>@style/Widget.AppCompat.ActionButton.CloseMode</item>
+        <item>@drawable/abc_cab_background_top_material</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@drawable/abc_ic_menu_cut_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_copy_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_paste_mtrl_am_alpha</item>
+        <item>@drawable/abc_ic_menu_selectall_mtrl_alpha</item>
+        <item>@drawable/abc_ic_menu_share_mtrl_alpha</item>
+        <item>@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.AppCompat.Widget.PopupMenu.Header</item>
+        <item>@style/ThemeOverlay.AppCompat.Dialog</item>
+        <item>@dimen/abc_dialog_padding_material</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+        <item>?attr/listPreferredItemHeightSmall</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@drawable/abc_ic_ab_back_material</item>
+        <item>@style/Widget.AppCompat.Light.ActionButton</item>
+        <item>@style/Widget.AppCompat.ButtonBar</item>
+        <item>@style/Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item>@drawable/abc_item_background_holo_light</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@drawable/abc_list_divider_mtrl_alpha</item>
+        <item>@style/Widget.AppCompat.ActivityChooserView</item>
+        <item>@style/Widget.AppCompat.Toolbar</item>
+        <item>@style/Widget.AppCompat.Toolbar.Button.Navigation</item>
+        <item>@style/Widget.AppCompat.Light.PopupMenu</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>@style/Widget.AppCompat.ImageButton</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Title</item>
+        <item>@style/TextAppearance.AppCompat.SearchResult.Subtitle</item>
+        <item>@color/abc_search_url_text</item>
+        <item>@style/Widget.AppCompat.Light.SearchView</item>
+        <item>64dp</item>
+        <item>48dp</item>
+        <item>80dp</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>@style/Widget.AppCompat.ListPopupWindow</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@style/TextAppearance.AppCompat.Subhead</item>
+        <item>@drawable/abc_menu_hardkey_panel_mtrl_mult</item>
+        <item>@dimen/abc_panel_menu_list_width</item>
+        <item>@style/Theme.AppCompat.CompactMenu</item>
+        <item>@drawable/abc_list_selector_holo_light</item>
+        <item>@color/primary_material_light</item>
+        <item>@color/primary_dark_material_light</item>
+        <item>@color/accent_material_light</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/ripple_material_light</item>
+        <item>@color/button_material_light</item>
+        <item>@color/switch_thumb_material_light</item>
+        <item>?attr/selectableItemBackgroundBorderless</item>
+        <item>@color/background_floating_material_light</item>
+        <item>@style/AlertDialog.AppCompat.Light</item>
+        <item>false</item>
+        <item>@style/Theme.AppCompat.Light.Dialog.Alert</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.Button</item>
+        <item>@style/Widget.AppCompat.Button.Small</item>
+        <item>@style/Widget.AppCompat.CompoundButton.CheckBox</item>
+        <item>@style/Widget.AppCompat.EditText</item>
+        <item>@style/Widget.AppCompat.CompoundButton.RadioButton</item>
+        <item>@style/Widget.AppCompat.RatingBar</item>
+        <item>@style/Widget.AppCompat.RatingBar.Indicator</item>
+        <item>@style/Widget.AppCompat.RatingBar.Small</item>
+        <item>@style/Widget.AppCompat.SeekBar</item>
+        <item>@style/Widget.AppCompat.Spinner</item>
+        <item>@style/Widget.AppCompat.CompoundButton.Switch</item>
+        <item>@style/Widget.AppCompat.ListMenuView</item>
+        <item>@style/Widget.AppCompat.DrawerArrowToggle</item>
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item>@style/ThemeOverlay.AppCompat.Light</item>
+        <item>@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item>?unknown_ref: 0</item>
+        <item>@drawable/abc_list_selector_holo_dark</item>
+        <item>@color/primary_material_dark</item>
+        <item>@color/primary_dark_material_dark</item>
+    </style>
+    <style name="Base.Theme.AppCompat.CompactMenu">
+        <item>@style/Widget.AppCompat.ListView.Menu</item>
+        <item>@style/Animation.AppCompat.DropDownUp</item>
+        <item>?unknown_attr_ref: 1010041</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>true</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="Base.V7.Theme.AppCompat.Light.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>true</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog">
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.MinWidth">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.MinWidth">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Dialog.FixedSize">
+        <item>@dimen/abc_dialog_fixed_width_major</item>
+        <item>@dimen/abc_dialog_fixed_height_minor</item>
+        <item>@dimen/abc_dialog_fixed_width_minor</item>
+        <item>@dimen/abc_dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.Light.Dialog.FixedSize">
+        <item>@dimen/abc_dialog_fixed_width_major</item>
+        <item>@dimen/abc_dialog_fixed_height_minor</item>
+        <item>@dimen/abc_dialog_fixed_width_minor</item>
+        <item>@dimen/abc_dialog_fixed_height_major</item>
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+        <item>@style/Widget.AppCompat.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@drawable/abc_item_background_holo_dark</item>
+        <item>@style/Widget.AppCompat.Spinner.DropDown.ActionBar</item>
+        <item>@drawable/abc_item_background_holo_dark</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Dark">
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+        <item>@style/Widget.AppCompat.Light.AutoCompleteTextView</item>
+        <item>@style/Widget.AppCompat.DropDownItem.Spinner</item>
+        <item>@drawable/abc_item_background_holo_light</item>
+        <item>@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar</item>
+        <item>@drawable/abc_item_background_holo_light</item>
+    </style>
+    <style name="Platform.ThemeOverlay.AppCompat.Light">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Light">
+        <item>@color/foreground_material_light</item>
+        <item>@color/background_material_light</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_primary_text_disable_only_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>@color/background_material_light</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_background_cache_hint_selector_material_light</item>
+        <item>true</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/ripple_material_light</item>
+        <item>@color/button_material_light</item>
+        <item>@color/switch_thumb_material_light</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark">
+        <item>@color/foreground_material_dark</item>
+        <item>@color/background_material_dark</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>@color/background_material_dark</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>@color/foreground_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_background_cache_hint_selector_material_dark</item>
+        <item>false</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/ripple_material_dark</item>
+        <item>@color/button_material_dark</item>
+        <item>@color/switch_thumb_material_dark</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.ActionBar">
+        <item>@style/Widget.AppCompat.SearchView.ActionBar</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item>@style/Widget.AppCompat.SearchView.ActionBar</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog">
+    </style>
+    <style name="Base.ThemeOverlay.AppCompat.Dialog.Alert">
+        <item>@dimen/abc_dialog_min_width_major</item>
+        <item>@dimen/abc_dialog_min_width_minor</item>
+    </style>
+    <style name="Base.V7.ThemeOverlay.AppCompat.Dialog">
+        <item>?attr/colorBackgroundFloating</item>
+        <item>@drawable/abc_dialog_material_background</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/RtlOverlay.DialogWindowTitle.AppCompat</item>
+        <item>@style/Base.DialogWindowTitleBackground.AppCompat</item>
+        <item>@style/Animation.AppCompat.Dialog</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>true</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="Platform.V11.AppCompat">
+        <item>@color/foreground_material_dark</item>
+        <item>@color/background_material_dark</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_dark</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_dark</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_background_cache_hint_selector_material_dark</item>
+        <item>false</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>?attr/actionModeCutDrawable</item>
+        <item>?attr/actionModeCopyDrawable</item>
+        <item>?attr/actionModePasteDrawable</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Platform.V11.AppCompat.Light">
+        <item>@color/foreground_material_light</item>
+        <item>@color/background_material_light</item>
+        <item>0.6</item>
+        <item>@dimen/abc_disabled_alpha_material_light</item>
+        <item>@style/TextAppearance.AppCompat</item>
+        <item>@style/TextAppearance.AppCompat.Inverse</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>@color/abc_primary_text_disable_only_material_light</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_primary_text_material_dark</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@color/hint_foreground_material_dark</item>
+        <item>@style/TextAppearance.AppCompat.Large</item>
+        <item>@style/TextAppearance.AppCompat.Medium</item>
+        <item>@style/TextAppearance.AppCompat.Small</item>
+        <item>@style/TextAppearance.AppCompat.Large.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Medium.Inverse</item>
+        <item>@style/TextAppearance.AppCompat.Small.Inverse</item>
+        <item>@color/background_material_light</item>
+        <item>true</item>
+        <item>@color/highlighted_text_material_light</item>
+        <item>@color/hint_foreground_material_light</item>
+        <item>?attr/colorAccent</item>
+        <item>@color/foreground_material_dark</item>
+        <item>@color/abc_secondary_text_material_light</item>
+        <item>@color/abc_secondary_text_material_dark</item>
+        <item>@drawable/abc_btn_radio_material</item>
+        <item>@drawable/abc_btn_check_material</item>
+        <item>@color/abc_primary_text_disable_only_material_dark</item>
+        <item>@color/abc_background_cache_hint_selector_material_light</item>
+        <item>false</item>
+        <item>@color/abc_primary_text_material_light</item>
+        <item>?attr/actionModeCutDrawable</item>
+        <item>?attr/actionModeCopyDrawable</item>
+        <item>?attr/actionModePasteDrawable</item>
+        <item>?attr/buttonBarStyle</item>
+        <item>?attr/buttonBarButtonStyle</item>
+        <item>@color/highlighted_text_material_dark</item>
+        <item>?attr/colorAccent</item>
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V11.Theme.AppCompat.Light.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Base.V11.ThemeOverlay.AppCompat.Dialog">
+        <item>@style/Widget.AppCompat.Button.Borderless</item>
+        <item>@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
+        <item>@bool/abc_config_closeDialogWhenTouchOutside</item>
+    </style>
+    <style name="Platform.V14.AppCompat">
+        <item>?attr/actionModeSelectAllDrawable</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Platform.V14.AppCompat.Light">
+        <item>?attr/actionModeSelectAllDrawable</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+        <item>@dimen/abc_list_item_padding_horizontal_material</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+        <item>?unknown_attr_ref: 10102f6</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 101039b</item>
+        <item>@drawable/abc_action_bar_item_background_material</item>
+        <item>?unknown_attr_ref: 10102db</item>
+        <item>?unknown_attr_ref: 10102dc</item>
+        <item>?unknown_attr_ref: 1010301</item>
+        <item>?unknown_attr_ref: 1010302</item>
+        <item>?unknown_attr_ref: 101030b</item>
+        <item>?unknown_attr_ref: 10102d8</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101045c</item>
+        <item>?unknown_attr_ref: 101032b</item>
+        <item>?unknown_attr_ref: 101030a</item>
+        <item>?unknown_attr_ref: 101032c</item>
+        <item>?unknown_attr_ref: 1010351</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010387</item>
+        <item>?unknown_attr_ref: 10102f0</item>
+        <item>?unknown_attr_ref: 1010048</item>
+        <item>?unknown_attr_ref: 1010049</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?unknown_attr_ref: 10103c8</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>?unknown_attr_ref: 101007c</item>
+        <item>?unknown_attr_ref: 1010081</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light">
+        <item>?attr/colorControlNormal</item>
+        <item>?attr/colorControlActivated</item>
+        <item>?attr/colorButtonNormal</item>
+        <item>?attr/colorControlHighlight</item>
+        <item>?attr/colorPrimary</item>
+        <item>?attr/colorPrimaryDark</item>
+        <item>?attr/colorAccent</item>
+        <item>?unknown_attr_ref: 10102f6</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 101039b</item>
+        <item>@drawable/abc_action_bar_item_background_material</item>
+        <item>?unknown_attr_ref: 10102db</item>
+        <item>?unknown_attr_ref: 10102dc</item>
+        <item>?unknown_attr_ref: 1010301</item>
+        <item>?unknown_attr_ref: 1010302</item>
+        <item>?unknown_attr_ref: 101030b</item>
+        <item>?unknown_attr_ref: 10102d8</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101045c</item>
+        <item>?unknown_attr_ref: 101032b</item>
+        <item>?unknown_attr_ref: 101030a</item>
+        <item>?unknown_attr_ref: 101032c</item>
+        <item>?unknown_attr_ref: 1010351</item>
+        <item>@drawable/abc_edit_text_material</item>
+        <item>?unknown_attr_ref: 1010387</item>
+        <item>?unknown_attr_ref: 10102f0</item>
+        <item>?unknown_attr_ref: 1010048</item>
+        <item>?unknown_attr_ref: 1010049</item>
+        <item>?unknown_attr_ref: 101006c</item>
+        <item>?unknown_attr_ref: 10103c8</item>
+        <item>?unknown_attr_ref: 101007e</item>
+        <item>?unknown_attr_ref: 101007c</item>
+        <item>?unknown_attr_ref: 1010081</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.Theme.AppCompat.Light.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V21.ThemeOverlay.AppCompat.Dialog">
+        <item>@dimen/abc_floating_window_z</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat">
+        <item>?unknown_attr_ref: 1010479</item>
+        <item>?unknown_attr_ref: 1010352</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light">
+        <item>?unknown_attr_ref: 1010479</item>
+        <item>?unknown_attr_ref: 1010352</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat">
+        <item>?unknown_attr_ref: 101039c</item>
+        <item>?unknown_attr_ref: 1010360</item>
+        <item>?unknown_attr_ref: 1010361</item>
+        <item>@drawable/abc_control_background_material</item>
+        <item>?unknown_attr_ref: 1010210</item>
+        <item>?unknown_attr_ref: 101007d</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light">
+        <item>?unknown_attr_ref: 101039c</item>
+        <item>?unknown_attr_ref: 1010360</item>
+        <item>?unknown_attr_ref: 1010361</item>
+        <item>@drawable/abc_control_background_material</item>
+        <item>?unknown_attr_ref: 1010210</item>
+        <item>?unknown_attr_ref: 101007d</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Preference.SwitchPreference">
+        <item>@layout/preference_widget_switch</item>
+        <item>@string/v7_preference_on</item>
+        <item>@string/v7_preference_off</item>
+    </style>
+    <style name="Preference.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.Information.Material">
+        <item>false</item>
+        <item>@layout/preference_information_material</item>
+        <item>false</item>
+    </style>
+    <style name="Preference.Category.Material">
+        <item>@layout/preference_category_material</item>
+    </style>
+    <style name="Preference.CheckBoxPreference.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.SwitchPreference.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.PreferenceScreen.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.DialogPreference.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference.Material">
+        <item>@layout/preference_material</item>
+    </style>
+    <style name="Preference.DropDown.Material">
+        <item>@layout/preference_dropdown_material</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialBody2">
+        <item>14sp</item>
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="Preference_TextAppearanceMaterialSubhead">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="PreferenceFragment.Material">
+        <item>@drawable/preference_list_divider_material</item>
+    </style>
+    <style name="PreferenceFragmentList.Material">
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceFragmentList.Material">
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="PreferenceThemeOverlay.v14">
+        <item>@style/PreferenceFragment</item>
+        <item>@style/Preference.SwitchPreference</item>
+    </style>
+    <style name="PreferenceThemeOverlay.v14.Material">
+        <item>@style/Preference.PreferenceScreen.Material</item>
+        <item>@style/PreferenceFragment.Material</item>
+        <item>@style/PreferenceFragment.Material</item>
+        <item>@style/Preference.Category.Material</item>
+        <item>@style/Preference.Material</item>
+        <item>@style/Preference.Information.Material</item>
+        <item>@style/Preference.CheckBoxPreference.Material</item>
+        <item>@style/Preference.DialogPreference.Material</item>
+        <item>@style/Preference.DialogPreference.EditTextPreference.Material</item>
+        <item>@style/Preference.DropDown.Material</item>
+        <item>@style/PreferenceFragmentList.Material</item>
+        <item>@style/Preference.SwitchPreference.Material</item>
+        <item>@style/Preference.SwitchPreferenceCompat.Material</item>
+    </style>
+    <style name="Preference">
+        <item>@layout/preference</item>
+    </style>
+    <style name="PreferenceFragment">
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>?unknown_attr_ref: 1010214</item>
+    </style>
+    <style name="PreferenceFragment">
+        <item>?unknown_attr_ref: 1010214</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Preference.Information">
+        <item>false</item>
+        <item>@layout/preference_information</item>
+        <item>false</item>
+    </style>
+    <style name="Preference.Category">
+        <item>@layout/preference_category</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="Preference.CheckBoxPreference">
+        <item>@layout/preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.SwitchPreferenceCompat">
+        <item>@layout/preference_widget_switch_compat</item>
+        <item>@string/v7_preference_on</item>
+        <item>@string/v7_preference_off</item>
+    </style>
+    <style name="Preference.PreferenceScreen">
+    </style>
+    <style name="Preference.DialogPreference">
+        <item>?unknown_ref: 104000a</item>
+        <item>?unknown_ref: 1040000</item>
+    </style>
+    <style name="Preference.DialogPreference.EditTextPreference">
+        <item>@layout/preference_dialog_edittext</item>
+    </style>
+    <style name="PreferenceFragmentList">
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="PreferenceFragmentList">
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="Preference.DropDown">
+        <item>@layout/preference_dropdown</item>
+    </style>
+    <style name="PreferenceThemeOverlay">
+        <item>@style/Preference.PreferenceScreen</item>
+        <item>@style/PreferenceFragment</item>
+        <item>@style/Preference.Category</item>
+        <item>@style/Preference</item>
+        <item>@style/Preference.Information</item>
+        <item>@style/Preference.CheckBoxPreference</item>
+        <item>@style/Preference.DialogPreference</item>
+        <item>@style/Preference.DialogPreference.EditTextPreference</item>
+        <item>@style/Preference.DropDown</item>
+        <item>@style/PreferenceFragmentList</item>
+        <item>@style/Preference.SwitchPreferenceCompat</item>
+    </style>
+    <style name="RecentsTheme">
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>0.35</item>
+    </style>
+    <style name="RecentsTheme.Wallpaper">
+        <item>@color/transparent</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="RecentsTheme.NoWallpaper">
+        <item>?unknown_ref: 106000c</item>
+    </style>
+    <style name="ForcedResizableTheme">
+        <item>@drawable/forced_resizable_background</item>
+        <item>@style/Animation.ForcedResizable</item>
+        <item>@color/transparent</item>
+    </style>
+    <style name="Animation.ForcedResizable">
+        <item>@anim/forced_resizable_enter</item>
+        <item>@anim/forced_resizable_exit</item>
+        <item>@anim/forced_resizable_enter</item>
+    </style>
+    <style name="TextAppearance.StatusBar.HeadsUp">
+    </style>
+    <style name="TextAppearance.StatusBar.SystemPanel">
+        <item>?unknown_attr_ref: 1010034</item>
+        <item>0</item>
+        <item>#ff808080</item>
+    </style>
+    <style name="TextAppearance.StatusBar.TextButton">
+        <item>?unknown_attr_ref: 1010034</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Clock">
+        <item>@dimen/status_bar_clock_size</item>
+        <item>@color/status_bar_clock_color</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Clock">
+        <item>@dimen/qs_time_expanded_size</item>
+        <item>#ffffff</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date">
+        <item>@dimen/qs_date_collapsed_size</item>
+        <item>0</item>
+        <item>#b2ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.AboveDateTime">
+        <item>@dimen/qs_emergency_calls_only_text_size</item>
+        <item>0</item>
+        <item>#66ffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.EmergencyCallsOnly">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.ChargingInfo">
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher">
+        <item>16sp</item>
+        <item>0</item>
+        <item>@color/qs_user_detail_name</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.UserSwitcher.UserName">
+    </style>
+    <style name="TextAppearance">
+    </style>
+    <style name="TextAppearance.QS">
+        <item>0</item>
+        <item>@color/qs_text</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.QS.DetailHeader">
+        <item>@dimen/qs_detail_header_text_size</item>
+        <item>din-next-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemPrimary">
+        <item>@dimen/qs_detail_item_primary_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.DetailItemSecondary">
+        <item>@dimen/qs_detail_item_secondary_text_size</item>
+        <item>@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.Introduction">
+        <item>14sp</item>
+    </style>
+    <style name="TextAppearance.QS.Warning">
+        <item>14sp</item>
+        <item>@color/system_warning_color</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton">
+        <item>@dimen/qs_detail_button_text_size</item>
+        <item>@color/qs_detail_button</item>
+        <item>11</item>
+        <item>true</item>
+        <item>din-next-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DetailButton.White">
+        <item>@color/qs_detail_button_white</item>
+    </style>
+    <style name="TextAppearance.QS.DetailEmpty">
+        <item>@dimen/qs_detail_empty_text_size</item>
+        <item>@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.Subhead">
+        <item>14sp</item>
+        <item>@color/qs_subhead</item>
+    </style>
+    <style name="TextAppearance.QS.SegmentedButton">
+        <item>16sp</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage">
+        <item>@dimen/qs_data_usage_text_size</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Usage">
+        <item>@dimen/qs_data_usage_usage_text_size</item>
+        <item>@color/system_accent_color</item>
+    </style>
+    <style name="TextAppearance.QS.DataUsage.Secondary">
+        <item>@color/data_usage_secondary</item>
+    </style>
+    <style name="TextAppearance.QS.TileLabel">
+        <item>@dimen/qs_tile_text_size</item>
+        <item>sans-serif-condensed</item>
+    </style>
+    <style name="BaseBrightnessDialogContainer">
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="BrightnessDialogContainer">
+    </style>
+    <style name="BrightnessDialogContainer">
+        <item>@dimen/standard_notification_panel_width</item>
+    </style>
+    <style name="BrightnessDialogContainer">
+        <item>360dp</item>
+    </style>
+    <style name="Animation">
+    </style>
+    <style name="Animation.ShirtPocketPanel">
+        <item>?unknown_ref: 10a004a</item>
+        <item>?unknown_ref: 10a0088</item>
+    </style>
+    <style name="Animation.RecentPanel">
+        <item>?unknown_ref: 10a004a</item>
+        <item>?unknown_ref: 10a0088</item>
+    </style>
+    <style name="Animation.NavigationBarFadeIn">
+        <item>@anim/navbar_fade_in</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Animation.StatusBar">
+    </style>
+    <style name="systemui_theme">
+        <item>@color/system_accent_color</item>
+        <item>@color/system_primary_color</item>
+    </style>
+    <style name="systemui_theme_remote_input">
+        <item>@color/remote_input_accent</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog">
+        <item>@color/system_accent_color</item>
+        <item>@color/system_primary_color</item>
+    </style>
+    <style name="Theme.SystemUI.Dialog.Alert">
+    </style>
+    <style name="Theme.SystemUI.Dialog.Alert">
+    </style>
+    <style name="QSBorderlessButton">
+        <item>11</item>
+        <item>@drawable/qs_btn_borderless_rect</item>
+        <item>12dp</item>
+    </style>
+    <style name="TextAppearance.Material.Notification.HeaderTitle">
+    </style>
+    <style name="TextAppearance.Material.Notification.HybridNotificationDivider">
+    </style>
+    <style name="SearchPanelCircle">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="UserDetailView">
+        <item>5</item>
+    </style>
+    <style name="UserDetailView">
+        <item>4</item>
+    </style>
+    <style name="Theme.AlertDialogHost">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>@style/Theme.SystemUI.Dialog.Alert</item>
+    </style>
+    <style name="DualToneLightTheme">
+        <item>@color/light_mode_icon_color_dual_tone_background</item>
+        <item>@color/light_mode_icon_color_dual_tone_fill</item>
+        <item>@color/light_mode_icon_color_single_tone</item>
+    </style>
+    <style name="DualToneDarkTheme">
+        <item>@color/dark_mode_icon_color_dual_tone_background</item>
+        <item>@color/dark_mode_icon_color_dual_tone_fill</item>
+        <item>@color/dark_mode_icon_color_single_tone</item>
+    </style>
+    <style name="TextAppearance.Volume">
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="TextAppearance.Volume.Header">
+        <item>@dimen/volume_row_header_text_size</item>
+        <item>@color/volume_slider_inactive</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenSummary">
+        <item>14sp</item>
+        <item>sans-serif-medium</item>
+    </style>
+    <style name="TextAppearance.Volume.ZenDetail">
+        <item>14sp</item>
+        <item>#ffb0b3c5</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="VolumeButtons">
+        <item>@drawable/btn_borderless_rect</item>
+    </style>
+    <style name="DockedDividerBackground">
+        <item>10</item>
+        <item>-1</item>
+        <item>@dimen/docked_divide_size</item>
+    </style>
+    <style name="DockedDividerBackground">
+        <item>1</item>
+        <item>@dimen/docked_divide_size</item>
+        <item>-1</item>
+    </style>
+    <style name="DockedDividerMinimizedShadow">
+        <item>-1</item>
+        <item>8dp</item>
+    </style>
+    <style name="DockedDividerMinimizedShadow">
+        <item>8dp</item>
+        <item>-1</item>
+    </style>
+    <style name="DockedDividerHandle">
+        <item>11</item>
+        <item>@dimen/docked_divide_handle_length_long</item>
+        <item>@dimen/docked_divide_handle_length_short</item>
+        <item>5</item>
+    </style>
+    <style name="DockedDividerHandle">
+        <item>11</item>
+        <item>@dimen/docked_divide_handle_length_short</item>
+        <item>@dimen/docked_divide_handle_length_long</item>
+        <item>5</item>
+    </style>
+    <style name="TunerSettings">
+        <item>true</item>
+        <item>@style/TunerPreferenceTheme</item>
+    </style>
+    <style name="TunerPreferenceTheme">
+        <item>@style/Preference.DropDown.Material</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts">
+        <item>14sp</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>roboto-regular</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Header">
+        <item>12sp</item>
+        <item>0.38</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Secondary">
+        <item>0.54</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Primary">
+        <item>16sp</item>
+        <item>0.87</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Radio">
+        <item>0.87</item>
+    </style>
+    <style name="TextAppearance.NotificationGuts.Button">
+        <item>13dp</item>
+        <item>0</item>
+        <item>#007dff</item>
+        <item>11</item>
+        <item>true</item>
+    </style>
+    <style name="ThemeOverlay.SwitchBar">
+        <item>@color/switch_accent_color</item>
+    </style>
+    <style name="edit_theme">
+        <item>@color/qs_edit_overflow_bg</item>
+    </style>
+    <style name="PipTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>false</item>
+    </style>
+    <style name="RecentsTvTheme.Wallpaper">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>false</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="auto_bright_text_style">
+        <item>12dp</item>
+        <item>@color/brightness_text_color</item>
+        <item>3</item>
+        <item>11</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>90dp</item>
+        <item>2</item>
+        <item>false</item>
+        <item>0.7</item>
+    </style>
+    <style name="network_speed">
+        <item>13dp</item>
+    </style>
+    <style name="SearchPanelScrim">
+        <item>50</item>
+        <item>-1</item>
+        <item>@dimen/search_panel_scrim_height</item>
+    </style>
+    <style name="PasswordCheckboxStyle">
+        <item>@drawable/password_eye</item>
+    </style>
+    <style name="recent_task_manager_memory_lable">
+        <item>14dp</item>
+        <item>0</item>
+        <item>@color/status_bar_recents_panel_text_color</item>
+    </style>
+    <style name="recent_task_manager_memory_text_font_style">
+        <item>14dp</item>
+        <item>1</item>
+        <item>@color/status_bar_recents_panel_text_color</item>
+    </style>
+    <style name="hw_recent_task_manager_memory_text_font_style">
+        <item>11dp</item>
+        <item>@color/recents_task_meminfo_text_color</item>
+    </style>
+    <style name="hw_recent_task_manager_memory_text_font_style">
+        <item>10dp</item>
+        <item>@color/recents_task_meminfo_text_color</item>
+    </style>
+    <style name="hw_recent_task_manager_memory_text_font_style">
+        <item>13dp</item>
+        <item>#ffffff</item>
+    </style>
+    <style name="hw_recent_task_manager_memory_line_style">
+        <item>@color/recents_task_meminfo_text_color</item>
+        <item>1px</item>
+        <item>10dp</item>
+    </style>
+    <style name="DockedMenusView">
+        <item>1</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="DockedMenusView">
+        <item>10</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="DockedStackMenuLayout">
+        <item>1</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>@id/transparent_view</item>
+    </style>
+    <style name="DockedStackMenuLayout">
+        <item>10</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>@id/transparent_view</item>
+    </style>
+    <style name="DockedStackMenu">
+        <item>1</item>
+        <item>0</item>
+        <item>@dimen/docked_menus_divide_distance</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="DockedStackMenu">
+        <item>10</item>
+        <item>1</item>
+        <item>@dimen/docked_menus_divide_distance</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="DockedMenuChange">
+        <item>-2</item>
+        <item>-2</item>
+        <item>@dimen/docked_menus_distance</item>
+    </style>
+    <style name="DockedMenuChange">
+        <item>@dimen/docked_menus_distance</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="DockedMenuTranView">
+        <item>-1</item>
+        <item>@dimen/docked_menus_transparent_height</item>
+        <item>true</item>
+    </style>
+    <style name="DockedMenuTranView">
+        <item>@dimen/docked_menus_transparent_height</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="DockedMenuTranViewRight">
+        <item>@dimen/docked_menus_transparent_height</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="DockedMenuTranViewRight">
+        <item>@dimen/docked_menus_transparent_height</item>
+        <item>-1</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.traffic">
+        <item>13dp</item>
+        <item>0</item>
+        <item>@color/systemui_expand_traffic_text_color</item>
+    </style>
+    <style name="FlashlightBackground">
+        <item>?unknown_ref: 106000c</item>
+    </style>
+    <style name="OverflowNumber">
+        <item>#ff007dff</item>
+        <item>?unknown_ref: 105006a</item>
+    </style>
+    <style name="FloatTipsTheme">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="FloatTipsTheme">
+        <item>11</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="FloatTipsTheme">
+        <item>11</item>
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="FloatTips">
+        <item>51</item>
+        <item>-1</item>
+    </style>
+    <style name="FloatTips">
+        <item>376dp</item>
+    </style>
+    <style name="FloatTips">
+        <item>376dp</item>
+    </style>
+    <style name="DockedStackMenuLayoutRight">
+        <item>10</item>
+        <item>-1</item>
+        <item>-1</item>
+        <item>@id/transparent_view</item>
+    </style>
+    <style name="DockedStackMenuRight">
+        <item>10</item>
+        <item>1</item>
+        <item>@dimen/docked_menus_divide_distance</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="cover_time_text_small_style">
+        <item>@color/coverscreen_time_text_textColor</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="cover_time_text_style">
+        <item>@color/coverscreen_time_text_textColor</item>
+        <item>sans-serif-thin</item>
+    </style>
+    <style name="cover_music_name_text_style">
+        <item>@color/coverscreen_music_name_text_textColor</item>
+        <item>@color/coverscreen_music_name_text_shadowColor</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="cover_music_artistname_text_style">
+        <item>@color/coverscreen_music_artistname_text_textColor</item>
+        <item>@color/coverscreen_music_artistname_text_shadowColor</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="cover_analogdate2_text_style">
+        <item>@color/coverscreen_analogdate2_text_textColor</item>
+    </style>
+    <style name="security_text_style">
+        <item>15dp</item>
+        <item>@color/btn_pin_color</item>
+        <item>@drawable/btn_pin_background</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>HwChinese-medium</item>
+    </style>
+    <style name="Widget.Button.NumPadKey">
+        <item>25dp</item>
+        <item>0</item>
+        <item>#ffffff</item>
+        <item>13</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>5dp</item>
+        <item>true</item>
+        <item>sans-serif</item>
+        <item>20dp</item>
+    </style>
+    <style name="Widget.Button.NumPadKey.Emui">
+        <item>25dp</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>@drawable/btn_pin_background</item>
+        <item>false</item>
+        <item>sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.NumPadKey">
+        <item>25dp</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>HwChinese-medium</item>
+    </style>
+    <style name="TextAppearance.NumPadKey.Klondike">
+        <item>18dp</item>
+        <item>0</item>
+        <item>#ffffffff</item>
+        <item>sans-serif-condensed</item>
+    </style>
+    <style name="TextAppearance.NumPadKey.Klondike.Emui">
+        <item>10dp</item>
+        <item>#80ffffff</item>
+        <item>HwChinese-light</item>
+    </style>
+    <style name="Animation.LockScreen">
+        <item>@anim/lock_screen_enter</item>
+        <item>@anim/lock_screen_exit</item>
+    </style>
+    <style name="widget_label">
+        <item>@dimen/widget_label_font_size</item>
+        <item>true</item>
+    </style>
+    <style name="big_thin">
+        <item>@dimen/big_font_size</item>
+        <item>sans-serif-thin</item>
+    </style>
+    <style name="widget_big_thin">
+        <item>@dimen/widget_big_font_size</item>
+    </style>
+    <style name="Widget.TransportControl.SeekBar">
+        <item>true</item>
+        <item>13dp</item>
+        <item>false</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item>@drawable/scrubber_progress_horizontal_holo_light</item>
+        <item>13dp</item>
+        <item>@drawable/scrubber_control_selector_holo</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>true</item>
+    </style>
+    <style name="text_shadow_style">
+        <item>#7f000000</item>
+        <item>0.0</item>
+        <item>2.0</item>
+        <item>2.0</item>
+    </style>
+    <style name="coverscreen_text_shadow_style">
+        <item>#a6ffffff</item>
+        <item>#8c000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+        <item>sans-serif</item>
+    </style>
+    <style name="chargingstatus_shadow_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="unlocktip_shadow_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="digital_clock_text_shadow_style">
+        <item>#ffffff</item>
+        <item>#7f000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="cover_digital_clock_text_style">
+        <item>#e6ffffff</item>
+        <item>sans-serif-thin</item>
+    </style>
+    <style name="coverweather_text_shadow_style">
+        <item>#a6ffffff</item>
+        <item>#8c000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="covermusic_text_shadow_style">
+        <item>#e6ffffff</item>
+        <item>#8c000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="covermusic_artistname_text_shadow_style">
+        <item>#99ffffff</item>
+        <item>#8c000000</item>
+        <item>0.0</item>
+        <item>1.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="cover_am_pm_text_style">
+        <item>@color/coverscreen_ampm_text_textColor</item>
+    </style>
+    <style name="cover_analogdate_text_style">
+        <item>@color/coverscreen_analogdate_text_textColor</item>
+    </style>
+    <style name="cover_date_text_style">
+        <item>@color/coverscreen_date_text_textColor</item>
+    </style>
+    <style name="cover_miss_call_text_style">
+        <item>@color/coverscreen_missCall_text_textColor</item>
+    </style>
+    <style name="cover_new_mms_text_style">
+        <item>@color/coverscreen_newmms_text_textColor</item>
+    </style>
+    <style name="cover_steps_text_style">
+        <item>@color/coverscreen_step_counter_bright</item>
+    </style>
+    <style name="cover_temperature_text_style">
+        <item>@color/coverscreen_temperature_text_textColor</item>
+    </style>
+    <style name="cover_city_text_style">
+        <item>@color/coverscreen_city_text_textColor</item>
+    </style>
+    <style name="cover_date_dual_analogclock_text_style">
+        <item>@color/coverscreen_dual_analogclock_date_textColor</item>
+    </style>
+    <style name="music_song_name_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="music_song_artist_style">
+        <item>#80ffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="sport_description_style">
+        <item>#80ffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="sport_value_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="clock_text_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="date_text_style">
+        <item>#80ffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="dual_clock_descrip_text_style">
+        <item>#80ffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+    </style>
+    <style name="CustomCheckboxTheme">
+        <item>@drawable/checkbox_style</item>
+    </style>
+    <style name="cover_music_line_imageview_style">
+        <item>0.85</item>
+    </style>
+    <style name="keyguard_fingerprint_tips_style">
+        <item>#ffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="music_lyric_playing_style">
+        <item>#ffffffff</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="music_lyric_to_play_style">
+        <item>#fff5f5f5</item>
+        <item>#80000000</item>
+        <item>0.0</item>
+        <item>0.0</item>
+        <item>1.5</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey">
+        <item>36sp</item>
+        <item>#ffffffff</item>
+        <item>11</item>
+        <item>?unknown_ref: 0</item>
+        <item>-16dp</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.TextView.NumPadKey.Klondike">
+        <item>12sp</item>
+        <item>#80ffffff</item>
+        <item>0dp</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item>51</item>
+    </style>
+    <style name="BouncerSecurityContainer">
+        <item>11</item>
+    </style>
+    <style name="PasswordTheme">
+        <item>#80ffffff</item>
+        <item>#80ffffff</item>
+    </style>
+    <style name="keyguard_presentation_theme">
+    </style>
+    <style name="auto_bright_checkbox_style">
+        <item>32dp</item>
+        <item>32dp</item>
+    </style>
+</resources>

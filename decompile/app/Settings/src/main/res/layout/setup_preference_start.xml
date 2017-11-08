@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="38.0dip" android:paddingEnd="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="bottom" android:id="@id/title_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="20.0sp" android:id="@id/startset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/huawei_mobileset_title" />
+        <RelativeLayout android:id="@id/mobile_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/startset">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:layout_alignParentLeft="true">
+                <TextView android:textSize="20.0sp" android:id="@id/mobile_data_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/data_usage_metered_mobile" android:layout_weight="1.0" />
+            </LinearLayout>
+            <CheckBox android:id="@id/datacheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/top_divider1" android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/mobile_data" />
+        <RelativeLayout android:id="@id/mobile_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_below="@id/top_divider1">
+            <LinearLayout android:orientation="vertical" android:id="@id/wifi_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:layout_alignParentLeft="true">
+                <TextView android:textSize="20.0sp" android:id="@id/moblie_wifi_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_settings_title" android:layout_weight="1.0" />
+            </LinearLayout>
+            <CheckBox android:id="@id/wificheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/top_divider2" android:background="#ff909090" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/mobile_wifi" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip" android:layout_below="@id/title_area"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:paddingTop="0.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0px" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" />
+        <TextView android:gravity="center" android:id="@android:id/empty" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/divider" android:background="@android:drawable/APKTOOL_DUMMY_489" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <Button android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="1.0dip" android:text="@string/finish_button_label" />
+    </LinearLayout>
+</RelativeLayout>

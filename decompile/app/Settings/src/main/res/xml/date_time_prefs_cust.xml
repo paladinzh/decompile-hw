@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/date_and_time_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/dt_international_roaming_time_settng" android:key="pref_catkey_inter_roam_time">
+        <Preference android:title="@string/dt_notify_timezone_title" android:key="pref_key_double_time_timezone">
+            <intent android:action="com.android.settings.TimeZoneRecommendActivity" />
+        </Preference>
+        <Preference android:title="@string/dt_notify_timescheme_title" android:key="pref_key_double_time_timescheme">
+            <intent android:action="com.android.settings.TimeSchemeChooseActivity" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

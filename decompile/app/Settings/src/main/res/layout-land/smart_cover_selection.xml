@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/summary" android:layout_marginBottom="0.0dip" style="@style/help_text_content_style" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/hollow_type_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_cover_hollow_type" android:adjustViewBounds="true" />
+            <RadioButton android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/hollow_type_checkbox" android:layout_width="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:text="@string/smart_cover_hollow_type" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+        <View android:visibility="invisible" android:layout_width="28.0dip" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:id="@id/common_type_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smart_cover_common_type" android:adjustViewBounds="true" />
+            <RadioButton android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/common_type_checkbox" android:layout_width="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:text="@string/smart_cover_common_type" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

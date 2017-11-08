@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.settings" settings:title="0x7f0e0773">
+    <PreferenceCategory settings:title="0x7f0e0777" settings:key="services_category" />
+    <PreferenceCategory settings:title="0x7f0e077a" settings:key="system_category">
+        <PreferenceScreen settings:title="0x7f0e04db" settings:key="font_size_preference_screen" settings:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment" />
+        <PreferenceScreen settings:title="0x7f0e078f" settings:key="autoclick_preference_screen" settings:fragment="com.android.settings.accessibility.ToggleAutoclickPreferenceFragment" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e0784" settings:key="toggle_high_text_contrast_preference" settings:summary="0x7f0e0b6d" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e0787" settings:key="toggle_power_button_ends_call_preference" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e1457" settings:key="toggle_proximity_receive_call_preference" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e1458" settings:key="toggle_volume_receive_call_preference" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e0789" settings:key="toggle_large_pointer_icon" />
+        <SwitchPreference settings:persistent="false" settings:title="0x7f0e078a" settings:key="toggle_master_mono" settings:summary="0x7f0e078b" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e0788" settings:key="toggle_speak_password_preference" />
+        <PreferenceScreen settings:layout="0x7f040191" settings:title="0x7f0e0780" settings:key="enable_global_gesture_preference_screen" settings:widgetLayout="0x7f0401a6" settings:fragment="com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="0x7f0e077b" settings:key="display_category">
+        <SwitchPreference settings:persistent="false" settings:title="0x7f0e078d" settings:key="toggle_inversion_preference" settings:summary="0x7f0e078e" />
+        <PreferenceScreen settings:layout="0x7f040191" settings:title="0x7f0e010f" settings:key="daltonizer_preference_screen" settings:widgetLayout="0x7f0401a6" settings:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="0x7f0e145a" settings:key="vision_category">
+        <PreferenceScreen settings:layout="0x7f040191" settings:title="0x7f0e077d" settings:key="screen_magnification_preference_screen" settings:widgetLayout="0x7f0401a6" settings:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e0788" settings:key="toggle_speak_password_preference" />
+        <PreferenceScreen settings:title="0x7f0e005d" settings:key="tts_settings_preference" settings:widgetLayout="0x7f0401a6" settings:fragment="com.android.settings.tts.TextToSpeechSettings" />
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="0x7f0e145b" settings:key="hearing_category">
+        <PreferenceScreen settings:title="0x7f0e145d" settings:key="volume_balance_preference">
+            <intent settings:action="android.intent.action.ADJUST_VOLUME_BALANCE" />
+        </PreferenceScreen>
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e1459" settings:key="toggle_single_tracker_preference" />
+        <com.android.settings.CustomSwitchPreference settings:persistent="false" settings:title="0x7f0e1461" settings:key="toggle_turn_off_all_sound_preference" />
+        <PreferenceScreen settings:layout="0x7f040191" settings:title="0x7f0e077c" settings:key="captioning_preference_screen" settings:widgetLayout="0x7f0401a6">
+            <intent settings:action="android.settings.CAPTIONING_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory settings:title="0x7f0e145c" settings:key="mobility_category">
+        <ListPreference settings:persistent="false" settings:entries="0x7f0a0061" settings:layout="0x7f040191" settings:title="0x7f0e078c" settings:key="select_long_press_timeout_preference" settings:widgetLayout="0x7f0401a6" settings:entryValues="0x7f0a0062" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/contact_left_margin" android:paddingEnd="@dimen/contact_left_margin">
+        <TextView android:id="@+id/dialog_content" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/delete_callog_all_title" style="@style/contact_dialog_sub_text_style" />
+        <CheckBox android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/remindMeCheckbox" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:text="@string/contacts_delete_record_with_callLog" android:drawablePadding="5dp" android:contentDescription="0x0" style="@style/contact_dialog_dontremindme_text_style2" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x7f0a0048" android:layout_height="UNKNOWN_DATA_0x7f0a0049" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginStart="@dimen/list_item_padding_start_end_emui" />
+    <RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/list_item_singleline_padding_top_bottom_emui" android:paddingBottom="@dimen/list_item_singleline_padding_top_bottom_emui" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_padding_start_end_emui" android:layout_toStartOf="@+id/wrap" android:layout_toEndOf="@+id/app_icon">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140dp" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true" android:layout_below="@+id/app_name" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/wrap" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_item_padding_start_end_emui" android:layout_alignParentEnd="true">
+        <CheckBox android:id="@+id/checkbox" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.gallery.editor.ui.SplashView android:id="@id/mosaic_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/editor_foot_bar_port" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d0164" />
+        <FrameLayout android:id="@id/editor_foot_bar_land" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    </LinearLayout>
+    <include android:id="@id/editor_head_layout" layout="@layout/editor_head_layout" />
+</FrameLayout>

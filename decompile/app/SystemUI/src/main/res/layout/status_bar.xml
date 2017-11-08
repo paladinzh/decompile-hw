@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.HwPhoneStatusBarView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:orientation="vertical" systemui:id="@id/status_bar" systemui:background="@drawable/system_bar_background" systemui:focusable="false" systemui:descendantFocusability="afterDescendants">
+    <ImageView systemui:id="@id/notification_lights_out" systemui:paddingBottom="2dp" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0e01a6" systemui:layout_height="match_parent" systemui:src="@drawable/ic_sysbar_lights_out_dot_small" systemui:scaleType="center" systemui:paddingStart="6dp" />
+    <LinearLayout systemui:orientation="horizontal" systemui:id="@id/status_bar_contents" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:paddingStart="@dimen/status_bar_padding" systemui:paddingEnd="@dimen/status_bar_padding">
+        <include systemui:gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:id="@id/operator_name_container" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" layout="@layout/hw_operator_name_parent_normal" />
+        <com.android.systemui.statusbar.AlphaOptimizedFrameLayout systemui:orientation="horizontal" systemui:id="@id/notification_icon_area" systemui:layout_width="UNKNOWN_DATA_0x1" systemui:layout_height="match_parent" systemui:layout_weight="1.0" />
+        <com.android.systemui.statusbar.HwSystemIcons systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="horizontal" systemui:id="@id/system_icon_area" systemui:layout_width="wrap_content" systemui:layout_height="match_parent">
+            <include layout="@layout/status_bar_network_speed" />
+            <include layout="@layout/system_icons" />
+            <include layout="@layout/hw_status_bar_clock" />
+        </com.android.systemui.statusbar.HwSystemIcons>
+    </LinearLayout>
+</com.android.systemui.statusbar.phone.HwPhoneStatusBarView>

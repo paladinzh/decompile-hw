@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/storage_wizard_second_body_color" android:id="@id/storage_wizard_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:fontFamily="chnfzxh" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/storage_wizard_second_body_color" android:id="@id/storage_wizard_second_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:fontFamily="chnfzxh" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip" />
+    <ProgressBar android:id="@id/storage_wizard_progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:indeterminate="false" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/emui_secondary_text" android:gravity="right" android:id="@id/storage_wizard_progress_summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:fontFamily="chnfzxh" android:layout_marginEnd="17.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:id="@id/storage_wizard_navigate" android:text="@string/master_clear_button_text" style="@style/bottom_single_button" />
+</LinearLayout>

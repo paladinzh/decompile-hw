@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.widget.InfoCenterView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@r$id/info_center_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@r$id/info_center" android:background="@r$drawable/slide_toolbox_mask" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:id="@r$id/info_center_hint" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@r$id/info_center_hint_up" android:background="@drawable/ic_arrow_up" android:paddingBottom="4dp" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1d01" android:layout_centerHorizontal="true" />
+            <ImageView android:id="@r$id/info_center_hint_down" android:background="@drawable/ic_arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:alpha="0.0" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@r$id/extra_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/abc_ab_share_pack_mtrl_alpha" android:dividerPadding="@dimen/preference_item_padding_start">
+            <TextView android:textSize="14sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@r$id/change_lockscreen_style" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="40dp" android:text="@r$string/emui30_keyguard_change_style" style="@style/unlocktip_shadow_style" />
+            <include layout="@layout/bottom_toolbox" />
+        </LinearLayout>
+    </LinearLayout>
+</com.huawei.keyguard.view.widget.InfoCenterView>

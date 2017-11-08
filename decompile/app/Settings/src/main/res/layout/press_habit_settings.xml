@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/main_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" android:title="@string/press_habit_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/circle_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/circle_progress_bar_marginTop" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/main_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <com.android.settings.pressure.habit.MainCircleProgressView android:id="@id/progress_view" android:layout_width="@dimen/circle_progress_bar_width" android:layout_height="@dimen/circle_progress_bar_width" android:layout_centerInParent="true" />
+            <RelativeLayout android:layout_width="@dimen/circle_progress_bar_width_wide" android:layout_height="@dimen/circle_progress_bar_width_wide" android:layout_centerInParent="true">
+                <Button android:textSize="@dimen/pressure_button_text_size" android:textColor="@color/pressure_button_text_color" android:gravity="center" android:id="@id/animation" android:background="@drawable/habit_btn_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/press_here" android:layout_centerInParent="true" />
+                <Button android:id="@id/animation_top" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/press_text_out" android:layout_width="@dimen/circle_progress_bar_width_wide" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pressure_start_end_text_marginTop" android:layout_below="@id/animation" android:layout_centerHorizontal="true">
+                    <TextView android:textSize="@dimen/pressure_light_heavy_tip" android:textColor="@color/pressure_start_end_text_color" android:gravity="center" android:id="@id/press_lightly" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/press_lightly" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/pressure_light_heavy_tip" android:textColor="@color/pressure_start_end_text_color" android:gravity="center" android:id="@id/press_heavy" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/press_heavy" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pressure_drag_layout" android:layout_width="@dimen/circle_progress_bar_width_wide" android:layout_height="@dimen/circle_progress_bar_width_wide" android:layout_centerHorizontal="true">
+            <com.android.settings.pressure.habit.PressureDragRing android:id="@id/Hole" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

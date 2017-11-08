@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="3.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="7.0">
+        <TextView android:textSize="@dimen/empty_album_text_size" android:textColor="@color/empty_album_text_color" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/no_picture_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no_pictures" android:drawableTop="@drawable/pic_gallery_album_empty" />
+    </LinearLayout>
+</LinearLayout>

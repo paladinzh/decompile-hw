@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:id="@id/presentation" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent">
+    <com.android.keyguard.KeyguardStatusView androidprv:orientation="vertical" androidprv:id="@r$id/clock" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content">
+        <LinearLayout androidprv:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:orientation="vertical" androidprv:focusable="true" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+            <TextClock androidprv:textColor="@color/clock_white" androidprv:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:id="@r$id/clock_view" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:layout_marginBottom="@dimen/bottom_text_spacing_digital" androidprv:baselineAligned="true" androidprv:singleLine="true" androidprv:format12Hour="@string/keyguard_widget_12_hours_format" androidprv:format24Hour="@string/keyguard_widget_24_hours_format" style="@style/widget_big_thin" />
+            <include layout="@layout/keyguard_status_area" />
+            <ImageView androidprv:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:layout_width="wrap_content" androidprv:layout_height="wrap_content" androidprv:layout_marginTop="10dp" androidprv:src="@drawable/abc_ic_star_half_black_48dp" />
+        </LinearLayout>
+    </com.android.keyguard.KeyguardStatusView>
+</FrameLayout>

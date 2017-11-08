@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:columnCount="3" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/op_icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:scaleType="centerInside" android:layout_column="0" android:contentDescription="@null" android:layout_row="0" android:layout_rowSpan="2" android:layout_marginEnd="8.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@id/op_name" android:layout_marginTop="2.0dip" android:layout_column="1" android:singleLine="true" android:layout_row="0" android:textAlignment="viewStart" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="fill_horizontal|center|top" android:id="@id/op_time" android:layout_column="1" android:layout_row="1" android:textAlignment="viewStart" />
+    <Switch android:layout_gravity="center_vertical" android:id="@id/switchWidget" android:padding="8.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="2" android:layout_row="0" android:layout_rowSpan="2" android:layout_marginStart="8.0dip" />
+</GridLayout>

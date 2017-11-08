@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/gray_view" android:background="@color/gray_view_background_color" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+    <view android:orientation="vertical" android:id="@+id/contact_picker_UpdateWindows" android:background="@color/people_background" android:layout_width="match_parent" android:layout_height="match_parent" class="com.android.contacts.widget.FullHeightLinearLayout" style="@style/ContactPickerLayout">
+        <include android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/actionbar_title_view" />
+        <FrameLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    </view>
+</LinearLayout>

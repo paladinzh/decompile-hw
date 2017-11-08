@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" android:versionCode="50000300" android:versionName="5.0.0.300" package="com.huawei.systemmanager" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="23" />
+    <permission android:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.systemmanager.permission.APPLY_TRIM_POLICY" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <protected-broadcast android:name="com.huawei.systemmamanger.action.KILL_ROGAPP_STARTED" />
+    <protected-broadcast android:name="com.huawei.systemmamanger.action.KILL_ROGAPP_END" />
+    <protected-broadcast android:name="com.huawei.systemmamanger.action.ROG_CHANGED" />
+    <protected-broadcast android:name="huawei.intent.action.HWSYSTEMMANAGER_CHANGE_POWERMODE" />
+    <protected-broadcast android:name="huawei.intent.action.POWER_MODE_CHANGED_ACTION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_NETWORK_USAGE_HISTORY" />
+    <uses-permission android:name="huawei.permission.IBINDER_APP_WIDGET_SERVICE" />
+    <uses-permission android:name="huawei.permission.IBINDER_NOTIFICATION_SERVICE" />
+    <uses-permission android:name="android.permission.SET_ACTIVITY_WATCHER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+    <uses-permission android:name="android.permission.GET_APP_OPS_STATS" />
+    <uses-permission android:name="com.huawei.authentication.HW_ACCESS_AUTH_SERVICE" />
+    <uses-permission android:name="com.android.contacts.permission.READ_CONTACTS_PRIVATE_INFO" />
+    <uses-permission android:name="com.huawei.permission.recent.READ_LOCK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.Manifest.permission.FORCE_STOP_PACKAGES" />
+    <uses-permission android:name="android.Manifest.permission.MANAGE_APP_TOKENS" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="huawei.permission.HSM_SMCS" />
+    <uses-permission android:name="com.android.providers.media.permission.SCAN_FOLDER" />
+    <uses-permission android:name="com.huawei.powergenie.receiverPermission" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_POWERMODE" />
+    <uses-permission android:name="org.gsma.joyn.RCS_USE_CHAT" />
+    <uses-permission android:name="com.huawei.rcs.READ_MESSAGE" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.CONNECTIVITY_INTERNAL" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.ONEKEYCLEAN" />
+    <uses-permission android:name="huawei.permission.RECEIVE_SMS_INTERCEPTION" />
+    <uses-permission android:name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" />
+    <uses-permission android:name="com.huawei.motion.permission.ACCESS_MOTION" />
+    <uses-permission android:name="com.huawei.android.permission.WASTE_POWER_APP" />
+    <uses-permission android:name="com.android.systemui.permission.removeTask" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="com.huawei.contacts.permission.HW_CONTACTS_ALL" />
+    <uses-permission android:name="android.permission.READ_SEARCH_INDEXABLES" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@drawable/ic_launcher" android:name="com.huawei.systemmanager.SystemManagerApplication" android:allowClearUserData="true" android:configChanges="locale" android:allowBackup="false" android:supportsRtl="true" android:defaultToDeviceProtectedStorage="true" android:directBootAware="true">
+        <uses-library android:name="com.huawei.theme.stat" android:required="false" />
+        <uses-library android:name="com.huawei.systemmanager.separated" android:required="false" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        <activity android:theme="0x2060009" android:label="@string/Other_Utilities_HomeName" android:name="com.huawei.systemmanager.mainscreen.MainScreenActivity" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:resizeableActivity="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.PHONE_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value="com.huawei.systemmanager.quickaction.HsmQuickActionService" />
+        </activity>
+        <service android:name="com.huawei.systemmanager.quickaction.HsmQuickActionService" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.android.quickaction.QuickActionService" />
+            </intent-filter>
+        </service>
+        <activity android:label="@string/setting_about" android:name="com.huawei.systemmanager.mainscreen.AboutActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:theme="0x1030485" android:name="com.huawei.systemmanager.useragreement.UserAgreementActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+        </activity>
+        <activity android:theme="0x1030485" android:label="@string/hw_grantpermission_dlg_title" android:name="com.huawei.permission.runtime.HwGrantPermissionsActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+            <intent-filter>
+                <action android:name="huawei.intent.action.REQUEST_PERMISSIONS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="0x1030485" android:label="@string/hw_grantpermission_dlg_title" android:name="com.huawei.permission.runtime.HwRequestPermissionsActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog.Alert" />
+            <intent-filter>
+                <action android:name="huawei.intent.action.REQUEST_MULTI_PERMISSIONS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/systemmanager_module_title_permissions" android:name="com.huawei.permissionmanager.ui.MainActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_PERMISSION_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huawei.permissionmanager.ui.PermissionAndCloudSwitchActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:name="com.huawei.permissionmanager.ui.PermissionSettingActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.permissionmanager.ui.SingleAppActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:screenOrientation="unspecified" android:configChanges="screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_PERMISSION_SINGLE_APP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/systemmanager_module_title_blocklist" android:name="com.huawei.harassmentinterception.ui.InterceptionActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_HARASSMENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/harassmentInterceptionAddToBlacklistFromCalllogTitle" android:name="com.huawei.harassmentinterception.ui.CalllogListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassmentInterceptionAddToBlacklistFromMessagesTitle" android:name="com.huawei.harassmentinterception.ui.MessageListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassmentInterceptionBlackWhitelistTitle" android:name="com.huawei.harassmentinterception.ui.BlackWhiteListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassmentInterception_blacklist_keywords" android:name="com.huawei.harassmentinterception.ui.KeywordsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/actionbar_unselected" android:name="com.huawei.harassmentinterception.ui.KeywordsEditActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassmentInterceptionAddToBlacklistFromMessagesTitle" android:name="com.huawei.harassmentinterception.ui.HarassMessageListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassmentInterceptionAddToBlacklistFromCalllogTitle" android:name="com.huawei.harassmentinterception.ui.HarassCalllogListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/ActionBar_DoNotDisturb_Unselect" android:name="com.huawei.harassmentinterception.ui.WhiteListEditActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/ActionBar_DoNotDisturb_Unselect" android:name="com.huawei.harassmentinterception.ui.BlackListEditActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/harassment_intelligent_call_blocking" android:name="com.huawei.harassmentinterception.ui.CallIntellBlockFragment$CallIntellBlockActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/harassment_blocking_threshold" android:name="com.huawei.harassmentinterception.ui.CallIntellThresholdFragment$CallIntellThresholdActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/harassment_interception_rule_title" android:name="com.huawei.harassmentinterception.ui.BlockRulesActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/systemmanager_module_title_notifications" android:name="com.huawei.notificationmanager.ui.NotificationManagmentActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTop" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.NOTIFICATIONMANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huawei.notificationmanager.ui.NotificationSettingsActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.NOTIFICATIONSETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huawei.permissionmanager.ui.JumpActvity" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category" android:value="com.android.settings.category.applications" />
+            <meta-data android:name="com.android.settings.title" android:resource="@string/systemmanager_module_title_permissions" />
+            <meta-data android:name="com.android.settings.icon" android:resource="@drawable/ic_settings_permission_manager" />
+        </activity>
+        <receiver android:name="com.huawei.notificationmanager.receiver.Receiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.notificationmanager.notification.allow.forAPK" />
+                <action android:name="com.huawei.notificationmanager.notification.refuse.forAPK" />
+                <action android:name="com.huawei.notificationmanager.notification.activity" />
+                <action android:name="com.rainbow.whitelist.change" />
+                <action android:name="com.rainbow.blacklist.change" />
+                <action android:name="android.intent.action.USER_INITIALIZE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.push.SystemManagerPushReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" />
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.push.FileIdReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.action.downloadfileid" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.huawei.harassmentinterception.ui.RuleSettingsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/power_management_title" android:name="com.huawei.systemmanager.power.ui.HwPowerManagerActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.POWER_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category" android:value="com.android.settings.category.applications" />
+            <meta-data android:name="com.android.settings.title" android:resource="@string/power_management_title" />
+            <meta-data android:name="com.android.settings.icon" android:resource="@drawable/ic_settings_battery" />
+        </activity>
+        <activity android:label="@string/power_optimize_title" android:name="com.huawei.systemmanager.power.ui.PowerWholeCheckActivity" android:taskAffinity="" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/menu_settings" android:name="com.huawei.systemmanager.power.ui.PowerSettingActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:label="@string/power_high_consume_title" android:name="com.huawei.systemmanager.power.ui.BackgroundConsumeActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:label="@string/consume_detail_button_new" android:name="com.huawei.systemmanager.power.ui.ConsumeLevelActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.POWER_CONSUME_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/super_power_saving_about_title" android:name="com.huawei.systemmanager.power.ui.SuperPowerSavingModeAboutActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:label="@string/textview_history_title" android:name="com.huawei.systemmanager.power.ui.HistoryOfHighPowerAppActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.HISTORY_HIGH_POWER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/consuption_detail_title" android:name="com.huawei.systemmanager.power.ui.DetailOfSoftConsumptionActivity" android:permission="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="huawei.intent.action.SOFT_CONSUMPTION_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:label="@string/consuption_detail_title" android:name="com.huawei.systemmanager.power.ui.DetailOfHardConsumptionActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <service android:name="com.huawei.systemmanager.power.service.BgPowerManagerService" android:exported="false" android:process=":service" />
+        <service android:name="com.huawei.systemmanager.power.service.DarkThemeChanageService" android:exported="false" android:process=":service" />
+        <service android:name="com.huawei.harassmentinterception.service.HarassmentInterceptionService" android:exported="false" android:process=":service" />
+        <receiver android:name="com.huawei.harassmentinterception.receiver.InterceptionUIReceiver" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.harassmentinterception.ACTION.open" />
+                <action android:name="com.huawei.harassmentinterception.ACTION.close" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.harassmentinterception.update.ALARM_TASK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.power.receiver.UsageStatusReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.hwsystemmanager.power.UPDATE_USAGESTATUS_RECORD" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.power.receiver.ScheduleRecordPowerConsumeReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_POWER_CONSUME" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.power.receiver.ScheduleRecordRemainTimeSceneReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.hwsystemmanager.power.SCHEDULE_RECORD_REMAING_TIME_SCENE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.huawei.harassmentinterception.db.BlockCheckProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.BlockCheckProvider" />
+        <provider android:name="com.huawei.systemmanager.push.PushFileProvider" android:exported="false" android:process=":service" android:authorities="com.huawei.systemmanager.push.provider" />
+        <service android:name="com.huawei.permission.HoldService" android:exported="false" android:process=":service" />
+        <service android:name=".preventmode.PreventModeService" android:exported="false" android:process=":service" />
+        <receiver android:label="@string/app_name" android:name="com.huawei.permissionmanager.ui.AppInstallationReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.huawei.permission.HoldReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.addview.holdservice" />
+                <action android:name="com.huawei.action.permission_blocked" />
+                <action android:name="com.huawei.action.permission_blocked_toast" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.permission.HoldDialogShowService" android:exported="false" />
+        <receiver android:label="@string/app_name" android:name=".optimize.OptimizeReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.android.ONE_CLICK_OPTIMIZE" />
+                <action android:name="com.huawei.install.permission" />
+                <action android:name="com.rainbow.whitelist.change" />
+                <action android:name="com.rainbow.blacklist.change" />
+                <action android:name="com.huawei.systemmanager.action.background" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.huawei.permissionmanager.ui.ComBroadcastReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.huawei.install.permission" />
+                <action android:name="com.rainbow.whitelist.change" />
+                <action android:name="com.rainbow.blacklist.change" />
+                <action android:name="com.huawei.systemmanager.action.SET_GROUP_PERMISSION" />
+                <action android:name="com.huawei.systemmanager.action.RESET_USER_SETTINGS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.permissionmanager.notification.private.delete" />
+                <action android:name="com.huawei.permissionmanager.notification.private.activity" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_DATA_CLEARED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.huawei.systemmanager.netassistant.traffic.datasaver.DataSaverReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.huawei.systemmanager.backup.BackupModuleProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.BackupModuleProvider" />
+        <provider android:name="com.huawei.systemmanager.backup.CommonPrefBackupProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:authorities="com.huawei.systemmanager.CommonPrefBackupProvider" />
+        <provider android:name="com.huawei.notificationmanager.db.DBProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.NotificationDBProvider" />
+        <provider android:name="com.huawei.harassmentinterception.db.DBProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.HarassmentInterceptionDBProvider" />
+        <provider android:name="com.huawei.permissionmanager.db.PermissionDataProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.permissionmanager.provider.PermissionDataProvider" />
+        <provider android:name="com.huawei.systemmanager.power.provider.SmartProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.android.smartpowerprovider" />
+        <activity android:label="@string/prevent_mode_title" android:name=".preventmode.PreventModeActivity" android:exported="true" android:taskAffinity="" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="huawei.intent.action.PREVENTMODE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.huawei.systemmanager.power.receiver.BootBroadcastReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="com.huawei.systemmanager.action.unifiledpower" />
+                <action android:name="huawei.intent.action.PG_FOUND_WASTE_POWER_APP" />
+                <action android:name="com.huawei.intent.action.PG_CLEAN_POWER_CONSUME_APP" />
+                <action android:name="huawei.intent.action.POWER_DEPLOY" />
+                <action android:name="com.huawei.install.permission" />
+                <action android:name="huawei.intent.action.HWSYSTEMMANAGER_SHUTDOWN_LIMIT_POWERMODE" />
+                <action android:name="huawei.intent.action.HWSYSTEMMANAGER_START_SUPER_POWERMODE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.systemmanager.power.receiver.OpenInterfaceReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HWSYSTEMMANAGER_CHANGE_POWERMODE" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/ListViewFirstLine_DoNotDisturb_VIP" android:name="com.huawei.systemmanager.preventmode.WhiteNameActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_PREVENTMODE_WHITENUMBER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/power_locked_save_name" android:name="com.huawei.systemmanager.optimize.process.ProtectActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_PROTECTED_APPS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <provider android:name="com.huawei.systemmanager.optimize.smcs.SMCSProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="smcs" android:initOrder="100" />
+        <provider android:name="com.huawei.netassistant.db.NetAssistantProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.NetAssistantProvider" />
+        <activity android:label="@string/systemmanager_module_title_mobiledata" android:name="com.huawei.netassistant.ui.NetAssistantMainActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_NET_ASSISTANT_MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category" android:value="com.android.settings.category.wireless" />
+            <meta-data android:name="com.android.settings.title" android:resource="@string/systemmanager_module_title_mobiledata" />
+            <meta-data android:name="com.android.settings.icon" android:resource="@drawable/ic_settings_data_usage" />
+        </activity>
+        <activity android:label="@string/net_assistant_traffic_4G_list" android:name="com.huawei.netassistant.ui.NetAssistant4GInfoActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <service android:name="com.huawei.systemmanager.netassistant.netapp.service.NetControllService" android:exported="false" />
+        <receiver android:name="com.huawei.netassistant.wifiap.WifiApStateReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service">
+            <intent-filter>
+                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
+                <action android:name="android.net.conn.TETHER_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.netassistant.wifiap.WifiApWatchingService" android:exported="false" android:process=":service" />
+        <receiver android:name="com.huawei.netassistant.wifisecure.WifiSecureReceiver" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.action.wifisec.notification" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/systemmanager_module_title_virus" android:name=".antivirus.ui.AntiVirusActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.ANTI_VIRUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/sys_optimize_antivirus_title" android:name=".antivirus.ui.AntiVirusGlobalScanActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/antivirus_settings" android:name=".antivirus.ui.AntiVirusSettingsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/software_type_virus" android:name=".antivirus.ui.ScanResultListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/virus_details" android:name=".antivirus.ui.VirusDetailsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <receiver android:name=".antivirus.AntiVirusReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".antivirus.AntiVirusService" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="huawei.intent.action.antivirus.autoupdate" />
+                <action android:name="huawei.intent.action.antivirus.scanonepackage" />
+                <action android:name="huawei.intent.action.antivirus.checkurl" />
+                <action android:name="huawei.intent.action.antivirus.globalscan.timernotify" />
+                <action android:name="huawei.intent.action.antivirus.deleteVirusApk" />
+            </intent-filter>
+        </service>
+        <activity android:label="@string/prompt_view_details" android:name="com.huawei.optimizer.addetect.ui.AdDetailActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.ADDETAIL_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.huawei.systemmanager.spacecleanner.uninstall.UninstalledAppTrashDialog" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog" />
+        </activity>
+        <service android:name="com.huawei.harassmentinterception.update.UpdateService" android:exported="false" android:process=":service" />
+        <activity android:theme="@style/widget_transparent" android:name="com.huawei.systemmanager.widget.OneKeyCleanActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleInstance" android:noHistory="true">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_WIDGET_ONKEY_CLEAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.huawei.systemmanager.optimize.OptimizeIntentService" android:exported="false" />
+        <activity android:label="@string/addview_activity_title" android:name="com.huawei.systemmanager.addviewmonitor.AddViewMonitorActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <receiver android:name="com.huawei.systemmanager.addviewmonitor.AppChangeReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.rainbow.whitelist.change" />
+                <action android:name="com.rainbow.blacklist.change" />
+            </intent-filter>
+        </receiver>
+        <receiver android:label="@string/app_name" android:name="com.huawei.systemmanager.addviewmonitor.HwDefAddviewReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.action.RESET_USER_SETTINGS" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.systemmanager.addviewmonitor.AddViewIntentService" android:exported="false" />
+        <service android:name="com.huawei.systemmanager.util.content.HsmIntentService_ui" android:exported="false" />
+        <service android:name="com.huawei.systemmanager.util.content.HsmIntentService_bg" android:exported="false" android:process=":service" />
+        <service android:name="com.huawei.systemmanager.service.MainService" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.android.server.MainService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.antivirus.scanonepackage" />
+                <action android:name="huawei.intent.action.antivirus.checkurl" />
+            </intent-filter>
+        </service>
+        <receiver android:label="@string/app_name" android:name="com.huawei.systemmanager.service.MainReceiver" android:exported="false" android:process=":service">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.huawei.systemmanager.rainbow.db.RainbowDBProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.rainbow.rainbowprovider" />
+        <receiver android:name="com.huawei.systemmanager.rainbow.client.background.broadcast.SecurityBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.huawei.systemmanager.action.NOT_NEED_REMIND" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.systemmanager.rainbow.client.background.service.RainbowCommonService" android:exported="false" />
+        <service android:name="com.huawei.systemmanager.rainbow.client.background.service.IntelligentCompleteService" android:exported="false" android:process=":service" />
+        <activity android:label="@string/net_assistant_main_net_app_title" android:name=".netassistant.netapp.ui.NetAppListActivity" android:exported="true" android:screenOrientation="unspecified" android:configChanges="screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.NETWORK_SETTING" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".netassistant.traffic.appdetail.AppDetailActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.TRAFFIC_APP_DETAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/netassistant_lockscreen_title" android:name=".netassistant.netapp.ui.LockScreenAppListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_assistant_traffic_list" android:name=".netassistant.traffic.trafficranking.TrafficRankingListActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_TRAFFIC_RANKING_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".applock.password.AuthBindFingerprintActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true">
+            <intent-filter>
+                <action android:name="huawei.intent.action.APPLOCK_FINGERPRINT_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".applock.password.SetPasswordAndBindActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true">
+            <intent-filter>
+                <action android:name="huawei.intent.action.APPLOCK_FINGERPRINT_INIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/ActionBar_EnterAppLock_Title" android:name=".applock.password.AuthEnterAppLockActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true" />
+        <activity android:name=".applock.password.AuthEnterRelockSelfActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true" />
+        <activity android:name=".applock.password.AuthLaunchLockedAppActivity" android:exported="false" android:taskAffinity="com.huawei.systemmanager.applock" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/ActionBar_SettingPassword_Title" android:name=".applock.password.SetPasswordActivity" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/app_lock_password_protect_dialog_title" android:name=".applock.password.PasswordProtectInitActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/applock_protect_set_title" android:name=".applock.password.PasswordProtectResetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/applock_protect_verify_title" android:name=".applock.password.PasswordProtectVerifyActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/ActionBar_ResetPassword_Title" android:name=".applock.password.ResetPasswordAfterVerifyActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/ActionBar_ResetPassword_Title" android:name=".applock.password.ResetPasswordNormalActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:noHistory="true" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/ActionBar_EnterAppLock_Title" android:name=".applock.view.ApplicationListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true" />
+        <activity android:label="@string/ActionBar_AddAppSettings_Title" android:name=".applock.view.AppLockSettingActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true" />
+        <service android:name=".applock.datacenter.AppLockService" android:exported="false" android:process=":service" />
+        <service android:name=".applock.datacenter.CountDownIntentService" android:exported="false" android:process=":service" />
+        <provider android:name=".applock.datacenter.AppLockProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.applockprovider" />
+        <service android:name="com.huawei.systemmanager.power.service.SuperDialogShowService" android:exported="false" />
+        <service android:name="com.huawei.systemmanager.customize.HsmCfgIntentService" android:exported="false" />
+        <service android:name=".spacecleanner.setting.SpaceScheduleService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.spacecleanner.autoupdate" />
+                <action android:name="com.huawei.systemmanager.spacecleanner.cacheclean" />
+                <action android:name="com.huawei.systemmanager.spacecleanner.checkcache" />
+                <action android:name="com.huawei.systemmanager.spacecleanner.cleantimingnotify" />
+                <action android:name="com.huawei.systemmanager.spacecleanner.lowerspace" />
+                <action android:name="com.huawei.systemmanager.spacecleanner.phoneslow" />
+            </intent-filter>
+        </service>
+        <receiver android:label="@string/app_name" android:name="com.huawei.systemmanager.overseacfg.OverseaCfgReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.overseaswitch.opened" />
+                <action android:name="com.huawei.overseaswitch.doopen" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/shortcut_title" android:name="com.huawei.systemmanager.shortcut.ShortCutMainActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/shortcut_title" android:name="com.huawei.systemmanager.applock.view.AppLockEntranceActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:filterTouchesWhenObscured="true" />
+        <activity android:name="com.huawei.systemmanager.AppManager.AppMarketActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:name="com.huawei.systemmanager.mainscreen.SettingActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/permission_manager_forbidden_history_title" android:name="com.huawei.permissionmanager.ui.history.PermissionHistoryActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/systemmanager_module_title_patches" android:name="com.huawei.systemmanager.secpatch.ui.SecurityPatchActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/Security_Patch_Detail" android:name="com.huawei.systemmanager.secpatch.ui.SecurityPatchDetailActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/Security_Patch_Search" android:name="com.huawei.systemmanager.secpatch.ui.SecurityPatchSearchActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing" />
+        <activity android:label="0x0" android:name="com.huawei.systemmanager.secpatch.ui.SingleVersionPatchDetailActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <provider android:name="com.huawei.systemmanager.secpatch.db.DBProvider" android:exported="false" android:process=":service" android:authorities="com.huawei.systemmanager.SecPatchDBProvider" />
+        <activity android:label="@string/super_high_power_record" android:name="com.huawei.systemmanager.power.ui.SuperHighPowerActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:windowActionBarOverlay="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <service android:name="com.huawei.systemmanager.sdk.tmsdk.TMSdkSecureService" android:exported="false" android:process=":service" />
+        <service android:name=".netassistant.traffic.trafficcorrection.NATAutoAdjustService" android:exported="false" android:process=":service">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.netassistant.AUTO_ADJUST_SMS_ANALYSIS" />
+                <action android:name="com.huawei.systemmanager.netassistant.SEND_ADJUST_SMS" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.huawei.systemmanager.sdk.tmsdk.TMSdkSecureReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".netassistant.traffic.trafficcorrection.NATAdjustSmsReceiver" android:permission="android.permission.BROADCAST_SMS" android:exported="true">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".netassistant.traffic.trafficcorrection.NATAutuAdjustHarssmentReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.dianxinos.optimizer.action.HARASSMENT_SMS" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/systemmanager_module_title_cleanup" android:name="com.huawei.systemmanager.spacecleanner.SpaceCleanActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="mcc|mnc|orientation|screenLayout|screenSize">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_STORAGE_CLEANER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="huawei.intent.action.PROCESS_OPTIMIZE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".spacecleanner.receiver.SpaceCleanReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.huawei.android.LACK_MEMORY_NOTIFY" />
+                <action android:name="com.huawei.android.NOTIFICATION_BUTTON_CLICK_LEFT" />
+                <action android:name="com.huawei.android.NOTIFICATION_BUTTON_CLICK_RIGHT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.huawei.systemmanager.spacecleanner.ui.secondaryui.ListTrashSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".spacecleanner.ui.secondaryui.ListGridActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".spacecleanner.ui.photomanager.ListPhotoSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".spacecleanner.ui.photomanager.PhotoManagerActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".spacecleanner.ui.photomanager.PhotoGridActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/main_screen_page_settings" android:name=".spacecleanner.ui.SpaceSettingActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/spacecleanner_preview_title" android:name=".spacecleanner.ui.photomanager.PhotoViewerActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/operator_set_title" android:name=".netassistant.traffic.setting.mainpage.ui.FstOperatorSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_assistant_package_setting" android:name=".netassistant.traffic.setting.mainpage.ui.FstPackageSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/other_package_set_title" android:name=".netassistant.traffic.setting.OtherTrafficSettingsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/no_traffic_app_title" android:name=".netassistant.traffic.notrafficapp.NoTrafficAppActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/leisure_time_traffic_settings" android:name=".netassistant.traffic.leisuretraffic.LeisureTrafficSettingsActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/advanced_net_control" android:name=".netassistant.traffic.roamingtraffic.RoamingTrafficListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <service android:name="com.huawei.systemmanager.spacecleanner.engine.hwscanner.AppCleanUpService" android:exported="false" android:process=":service" />
+        <service android:name="com.huawei.systemmanager.spacecleanner.engine.hwscanner.custom.HwCustDataInitService" android:exported="false" />
+        <service android:name="com.huawei.systemmanager.spacecleanner.uninstall.UninstalledAppService" android:exported="false" />
+        <activity android:name="com.huawei.systemmanager.spacecleanner.ui.secondaryui.ListAppCacheSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name="com.huawei.systemmanager.spacecleanner.ui.secondaryui.ListDownloadActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/space_clean_setting_white_list_memory_change" android:name=".spacecleanner.ui.ProcessWhiteListFragment$ProcessWhiteListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:name="com.huawei.systemmanager.power.ui.PowerSaveModeActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:name=".mainscreen.normal.DetectResultActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/space_clean_space_manager" android:name=".spacecleanner.SpaceManagerActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="mcc|mnc|orientation|screenLayout|screenSize" />
+        <provider android:name="com.huawei.systemmanager.netassistant.db.traffic.TrafficDBProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.netassistant.db.traffic.TrafficDBProvider" />
+        <activity android:label="@string/systemmanager_module_title_autolaunch" android:name=".startupmgr.ui.StartupNormalAppListActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="huawei.intent.action.HSM_STARTUPAPP_MANAGER" />
+                <action android:name="huawei.intent.action.HSM_BOOTAPP_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/startupmgr_awaked_title" android:name=".startupmgr.ui.StartupAwakedAppListActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <service android:name=".startupmgr.service.StartupResidentService" android:exported="false" android:process=":service" android:description="@string/app_name">
+            <intent-filter>
+                <action android:name="com.huawei.android.hsm.STARTUP_RESULT" />
+                <action android:name="com.huawei.android.hsm.STARTUP_RECORD" />
+                <action android:name="com.huawei.android.hsm.STARTUP_CONFIRM" />
+                <action android:name="com.huawei.android.hsm.AWAKE_NOTIFICATION_CLICK" />
+                <action android:name="com.huawei.android.hsm.AWAKE_NOTIFICATION_DELETE" />
+            </intent-filter>
+        </service>
+        <service android:name=".startupmgr.service.AccountMonitorService" android:exported="false" android:process=":service" android:description="@string/app_name" />
+        <provider android:name=".startupmgr.db.StartupProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="true" android:process=":service" android:authorities="com.huawei.systemmanager.startupprovider" />
+        <activity android:label="@string/startupmgr_normal_record_title" android:name=".startupmgr.ui.StartupNormalRecordActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/startupmgr_awaked_record_title" android:name=".startupmgr.ui.StartupAwakedRecordActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <service android:name=".spacecleanner.autoclean.AutoCleanService" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false" />
+        <service android:name=".spacecleanner.service.StorageMonitorService" android:exported="false" android:process=":service" />
+        <service android:name="com.huawei.systemmanager.antivirus.engine.avast.update.UpdateService" android:exported="false">
+            <meta-data android:name="avast_sdk_component" android:value="vps_update_service" />
+        </service>
+        <service android:name="com.huawei.notificationmanager.restore.ReStoreNotificationService" android:exported="false" android:process=":service" />
+        <activity android:label="@string/antivirus_risk_permission_app_detail" android:name=".antivirus.ui.RiskPermDetailFragment$RiskPermDetailActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/space_clean_tip_screen_title" android:name="com.huawei.systemmanager.spacecleanner.LowerMemTipActivity" android:exported="true" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/net_assistant_setting_title" android:name=".netassistant.ui.setting.TrafficSettingFragment$TrafficSettingActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_assistant_package_setting" android:name=".netassistant.ui.setting.PackageSetFragment$PackageSetActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_assistant_flow_package_adjust" android:name=".netassistant.ui.setting.AjustPackageFragment$AdjustPackageActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_assistant_flowexcess_notify_title" android:name=".netassistant.ui.setting.OverLimitNotifyFragment$OverLimitNotifyActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" />
+        <activity android:label="@string/power_management_moredetail" android:name=".power.batterychart.BatterHistoryActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:supportsRtl="false" />
+        android:label=&quot;@string/consume_detail_textview_title&quot;/&gt;
+        <activity android:label="@string/data_saver_mode_label" android:name=".netassistant.traffic.datasaver.DataSaverActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <activity android:label="@string/net_qin_notification" android:name=".antivirus.ui.NetQinActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" />
+        <service android:name=".adblock.ui.model.AdIntentService" android:exported="false" />
+        <service android:name=".adblock.ui.apkdlcheck.DlUrlCheckService" android:exported="false" />
+        <service android:name=".adblock.ui.apkdlcheck.DlAllowOrignalService" android:exported="false" />
+        <activity android:label="@string/ad_block" android:name=".adblock.ui.view.AdBlockAppListActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/ad_dl_block_records_title" android:name=".adblock.ui.view.dlblock.DlBlockRecordListActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="unspecified" android:configChanges="keyboardHidden|orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <service android:name=".securitythreats.ui.VirusNotifyService" android:exported="false" />
+        <receiver android:name=".securitythreats.ui.SecurityThreatsBroadcast" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.action.VIRUS_PKGS_UPDATE" />
+            </intent-filter>
+        </receiver>
+        <provider android:name=".settingsearch.SettingSearchProvider" android:permission="android.permission.READ_SEARCH_INDEXABLES" android:exported="true" android:multiprocess="false" android:authorities="com.huawei.systemmanager" android:grantUriPermissions="true">
+            <intent-filter>
+                <action android:name="android.content.action.SEARCH_INDEXABLES_PROVIDER" />
+            </intent-filter>
+        </provider>
+        <service android:name="com.huawei.systemmanager.CoreService" android:exported="false" android:process=":service" />
+        <provider android:name=".comm.valueprefer.ValueContentProvider" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false" android:process=":service" android:authorities="com.huawei.systemmanager.valueprovider" />
+        <activity android:label="@string/ActionBar_DoNotDisturb_Unselect" android:name="com.huawei.systemmanager.antimal.ui.MalwareAppListActivity" android:exported="false" android:screenOrientation="unspecified" android:configChanges="orientation|screenLayout|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <receiver android:name="com.huawei.systemmanager.antimal.AntiMalBroadcastReceiver" android:permission="com.huawei.systemmanager.permission.ACCESS_INTERFACE" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.systemmanager.intent.action.ANTIMAL_RESTORE_LAUNCHER" />
+                <action android:name="com.huawei.systemmanager.intent.action.ANTIMAL_CANCLE_NOTIFICATION" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

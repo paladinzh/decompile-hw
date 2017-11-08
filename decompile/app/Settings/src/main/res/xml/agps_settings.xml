@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/assisted_gps_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/agps_location_method_key" android:layout="@layout/preference_status" android:title="@string/agps_location_method" android:key="agps_settings" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/agps_location_method" android:entryValues="@array/agps_location_method_value" />
+    <ListPreference android:entries="@array/gps_start_method_key" android:layout="@layout/preference_status" android:title="@string/gps_start_method" android:key="gps_start" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/gps_start_method" android:entryValues="@array/gps_start_method_value" />
+    <ListPreference android:entries="@array/agps_network_used" android:layout="@layout/preference_status" android:title="@string/agps_network_used" android:key="agps_network_used" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/agps_network_used" android:entryValues="@array/agps_network_use_entry" />
+    <ListPreference android:layout="@layout/preference_status" android:title="@string/agps_data_connectivity" android:key="agps_data_connectivity" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/agps_data_connectivity" />
+    <ListPreference android:persistent="true" android:entries="@array/entries_agps_profile" android:layout="@layout/preference_status" android:title="@string/agps_profile_select" android:key="select_profile" android:summary="@string/agps_profile_select" android:widgetLayout="@layout/preference_widget_arrow" android:defaultValue="GOOGLE" android:entryValues="@array/entry_values_agps_profile" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/agps_profile_SLP_address_editbox_title" android:key="agps_service_address" android:defaultValue="supl.google.com" />
+    <EditTextPreference android:persistent="false" android:singleLine="true" android:title="@string/port_title" android:key="agps_service_port" android:defaultValue="7275" />
+    <Preference android:title="@string/agps_help" android:key="agps_help" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.AGPSHelp" />
+    </Preference>
+</PreferenceScreen>

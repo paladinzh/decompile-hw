@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" systemui:layout_width="match_parent" systemui:layout_height="match_parent"
+    <FrameLayout systemui:id="@id/nav_buttons" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+        <com.android.systemui.statusbar.phone.ReverseLinearLayout systemui:orientation="vertical" systemui:id="@id/ends_group" systemui:clipChildren="false" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+        <com.android.systemui.statusbar.phone.ReverseLinearLayout systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="vertical" systemui:id="@id/center_group" systemui:clipChildren="false" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+    </FrameLayout>
+    <com.android.systemui.statusbar.policy.DeadZone systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:id="@id/deadzone" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:minSize="@dimen/navigation_bar_deadzone_size" systemui:maxSize="@dimen/navigation_bar_deadzone_size_max" systemui:holdTime="@integer/navigation_bar_deadzone_hold" systemui:decayTime="@integer/navigation_bar_deadzone_decay" systemui:orientation="vertical" />
+</FrameLayout>

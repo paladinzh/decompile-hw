@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.BackgrounCallingLayout xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:id="@id/call_going_frame_layout" systemui:background="@drawable/system_bar_background_calling" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x1050017">
+    <LinearLayout systemui:orientation="horizontal" systemui:background="@color/call_going" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:paddingEnd="6dp"
+        <LinearLayout systemui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="horizontal" systemui:id="@id/is_on_calling" systemui:layout_width="wrap_content" systemui:layout_height="match_parent" systemui:layout_weight="1.0" />
+        <LinearLayout systemui:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="horizontal" systemui:layout_width="wrap_content" systemui:layout_height="match_parent">
+            <include systemui:paddingTop="@dimen/battery_content_paddingtop" systemui:alpha="0.7" layout="@layout/hw_status_bar_battery" />
+            <include layout="@layout/hw_status_bar_clock" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView systemui:id="@id/call_going_ficker" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:scaleType="centerCrop" />
+</com.android.systemui.statusbar.phone.BackgrounCallingLayout>

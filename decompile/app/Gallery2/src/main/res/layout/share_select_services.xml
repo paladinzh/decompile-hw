@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/select_services" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/share_window" android:background="@drawable/hw_dialog_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:textColor="#333333" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:text="@string/share" android:fontFamily="sans-serif" />
+        <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/select_services_grid" android:background="@drawable/hw_dialog_white" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xe601" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:stretchMode="columnWidth" android:columnWidth="90dp" android:numColumns="UNKNOWN_DATA_0x3" />
+        <RelativeLayout android:id="@id/select_services_close" android:padding="2dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="20dp" android:layout_marginTop="18dp" android:layout_marginRight="20dp" android:layout_marginBottom="18dp">
+            <View android:background="@drawable/hw_button" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <TextView android:textSize="14sp" android:textColor="#333333" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0x1040000" android:layout_centerInParent="true" android:fontFamily="sans-serif" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

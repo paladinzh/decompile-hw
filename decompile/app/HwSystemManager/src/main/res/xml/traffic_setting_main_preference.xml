@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="traffic_settings">
+    <PreferenceCategory androidhwext:key="traffic_card_1" androidhwext:order="10">
+        <Preference androidhwext:title="@string/net_assistant_flow_package_setting" androidhwext:key="flow_package_settings" androidhwext:order="20" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_flow_package_settings" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:key="flow_package_settings_divider_line" androidhwext:order="30" androidhwext:preferenceID="@+id/prefs_flow_package_settings_divider_line1" />
+        <Preference androidhwext:title="@string/net_assistant_flow_package_adjust" androidhwext:key="flow_package_adjust" androidhwext:order="40" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_flow_package_adjust" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:key="flow_package_adjust_divider_line" androidhwext:order="50" androidhwext:preferenceID="@+id/prefs_flow_package_adjust_divider_line2" />
+        <Preference androidhwext:title="@string/net_assistant_flowexcess_notify_title" androidhwext:key="flow_package_notify" androidhwext:order="60" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_flow_package_notify" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:key="traffic_card_2" androidhwext:order="70">
+        <Preference androidhwext:title="@string/net_assistant_flow_package_setting" androidhwext:key="flow_package_settings" androidhwext:order="80" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_net_assistant_flow_package_setting" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:key="flow_package_settings_divider_line" androidhwext:order="90" androidhwext:preferenceID="@+id/prefs_flow_package_settings_divider_line3" />
+        <Preference androidhwext:title="@string/net_assistant_flow_package_adjust" androidhwext:key="flow_package_adjust" androidhwext:order="100" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_net_assistant_flow_package_adjust" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:key="flow_package_adjust_divider_line" androidhwext:order="110" androidhwext:preferenceID="@+id/prefs_flow_package_adjust_divider_line4" />
+        <Preference androidhwext:title="@string/net_assistant_flowexcess_notify_title" androidhwext:key="flow_package_notify" androidhwext:order="120" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_net_assistant_flowexcess_notify_title" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/net_assistant_mobile_general_settings" androidhwext:key="traffic_other" androidhwext:order="130">
+        <SwitchPreference androidhwext:title="@string/content_lockscreen_notify_settings" androidhwext:key="notify_unlockscreen" androidhwext:order="140" androidhwext:preferenceID="@+id/prefs_content_lockscreen_notify_settings" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:order="150" androidhwext:preferenceID="@+id/prefs_divider_line_new10" />
+        <SwitchPreference androidhwext:key="traffic_speed" androidhwext:order="160" androidhwext:preferenceID="@+id/prefs_traffic_speed" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:order="170" androidhwext:preferenceID="@+id/prefs_divider_line_new11" />
+        <SwitchPreference androidhwext:title="@string/usage_display_title" androidhwext:key="usage_display" androidhwext:summary="@string/usage_display_summary" androidhwext:order="180" androidhwext:preferenceID="@+id/prefs_usage_display_title" />
+        <Preference androidhwext:layout="@layout/divider_line_new" androidhwext:order="190" androidhwext:preferenceID="@+id/prefs_divider_line_new12" />
+    </PreferenceCategory>
+</PreferenceScreen>

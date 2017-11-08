@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/suw_pattern_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SuwGlifCardBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/suw_glif_card_width" android:layout_height="@dimen/suw_glif_card_height" android:layout_centerInParent="true" style="@style/SuwGlifCardContainer">
+        <include layout="@layout/suw_glif_recycler_template_content" />
+    </FrameLayout>
+</RelativeLayout>

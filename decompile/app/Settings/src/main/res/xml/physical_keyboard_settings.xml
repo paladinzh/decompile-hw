@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/physical_keyboard_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/keyboard_assistance_category" android:key="keyboard_assistance_category">
+        <SwitchPreference android:title="@string/show_ime" android:key="show_virtual_keyboard_switch" android:summary="@string/show_ime_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

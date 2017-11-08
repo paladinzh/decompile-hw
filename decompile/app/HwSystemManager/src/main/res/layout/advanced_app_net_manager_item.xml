@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginStart="16dp" />
+    <include android:id="@+id/text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toStartOf="@+id/wrap" android:layout_toEndOf="@+id/app_icon" layout="0x2070011" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/wrap" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content">
+            <com.huawei.systemmanager.spacecleanner.view.EnsureCheckBox android:id="@+id/background_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content">
+            <com.huawei.systemmanager.spacecleanner.view.EnsureCheckBox android:id="@+id/roaming_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

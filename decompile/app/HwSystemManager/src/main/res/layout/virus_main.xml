@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/virus_main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/antiVirus_land_ref" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" />
+    <RelativeLayout android:orientation="vertical" android:id="@+id/logo_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/sliding_layout_upperview" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xde01">
+        <FrameLayout android:id="@+id/radar_layout" android:layout_width="UNKNOWN_DATA_0xae01" android:layout_height="UNKNOWN_DATA_0xae01" android:layout_centerHorizontal="true">
+            <com.huawei.systemmanager.antivirus.ui.RadarImageView android:id="@+id/radar_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <RelativeLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+                <RelativeLayout android:orientation="horizontal" android:id="@+id/antiVirus_layout1" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="ltr">
+                    <com.huawei.systemmanager.comm.widget.RollingView android:textSize="50dp" android:textColor="@color/emui_list_primary_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/antiVirus_totalNum_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    <TextView android:textSize="13dp" android:textColor="@color/emui_list_primary_text" android:id="@+id/antiVirus_unit_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_alignBottom="@+id/antiVirus_totalNum_textview" android:layout_marginStart="@dimen/virus_main_antiVirus_unit_margin_start" android:layout_toEndOf="@+id/antiVirus_totalNum_textview" />
+                    <TextView android:textSize="13dp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/antiVirus_type_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:fontFamily="chnfzxh" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/progress_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/radar_layout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/logo_container">
+        <ScrollView android:id="@+id/scrollview_fun" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/scrollview_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scrollview_content_margin_top">
+                <RelativeLayout android:id="@+id/antiVirus_end" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc001">
+                    <View android:id="@+id/land_divider_line" android:background="@color/emui_horizontal_divider" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x20e00dd" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+                    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="match_parent"
+                        <RelativeLayout android:id="@+id/antiVirus_end_icon_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ImageView android:id="@+id/antiVirus_end_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_safe" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/antiVirus_end_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/antiVirus_end_icon_layout" android:layout_centerHorizontal="true">
+                            <TextView android:textSize="15dp" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/antiVirus_end_text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/virus_end_texttitle" android:layout_centerHorizontal="true" />
+                            <TextView android:textSize="13dp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/antiVirus_end_text_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/virus_end_texttime" android:layout_below="@+id/antiVirus_end_text_title" android:layout_centerHorizontal="true" />
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/scrollview_content_anim" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ViewStub android:id="@+id/danger_items" android:layout="@layout/virus_danger_items" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@+id/secure_items" android:layout="@layout/virus_secure_items" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@+id/advertise_items" android:layout="@layout/virus_ad_items" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/antivirus_scan_items_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/sliding_layout_upperview">
+        <com.huawei.systemmanager.antivirus.ui.AntiVirusScrollListView android:id="@+id/antivirus_scan_listview" android:focusable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/btn_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_alignParentBottom="true">
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/scan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/space_clean_stop_scan" android:layout_centerInParent="true" android:fontFamily="chnfzxh" android:layout_marginStart="@dimen/main_scan_btn_layout_margin" android:layout_marginEnd="@dimen/main_scan_btn_layout_margin" />
+    </RelativeLayout>
+</RelativeLayout>

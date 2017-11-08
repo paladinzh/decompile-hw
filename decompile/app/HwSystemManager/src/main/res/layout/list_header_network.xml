@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/list_header_network_inner" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/divline_month_explain" layout="@layout/divider_line_new" />
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="6dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true"
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_headview_mobile" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+                    <CheckBox android:id="@+id/mobile_icon_checkbox_checked" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" />
+                    <CheckBox android:id="@+id/mobile_icon_checkbox_unchecked" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="false" />
+                </FrameLayout>
+                <TextView android:textSize="10dp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/mobile_text_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mobile_data_status" android:maxLines="3" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_headview_wifi" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="wrap_content">
+            <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/line1" android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x7f0a00f5" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp">
+                    <CheckBox android:id="@+id/wifi_icon_checkbox_checked" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" />
+                    <CheckBox android:id="@+id/wifi_icon_checkbox_unchecked" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="false" />
+                </FrameLayout>
+                <TextView android:textSize="10dp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/wifi_text_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/WIFI" android:maxLines="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/all_select_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_select_checkbox_abridge" android:layout_centerVertical="true" android:paddingStart="18dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/ll_headview_mobile" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/netassistant_primary_text_style" />
+</RelativeLayout>

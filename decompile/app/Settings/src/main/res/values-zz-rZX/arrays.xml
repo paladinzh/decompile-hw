@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>[PL_4500]_Scanning…</item>
+        <item>[PL_7743]_Connecting…</item>
+        <item>[PL_4501]_Authenticating…</item>
+        <item>[PL_4502]_Obtaining IP address…</item>
+        <item>[PL_7744]_Connected</item>
+        <item>[PL_7745]_Suspended</item>
+        <item>[PL_7746]_Disconnecting…</item>
+        <item>[PL_7747]_Disconnected</item>
+        <item>[PL_7748]_Unsuccessful</item>
+        <item>[PL_18730]_Blocked</item>
+        <item>[PL_18731]_Temporarily avoiding poor connections</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>[PL_7749]_Scanning…</item>
+        <item>[PL_4503]_Connecting to %1$s…</item>
+        <item>[PL_4504]_Authenticating with %1$s…</item>
+        <item>[PL_4505]_Obtaining IP address from %1$s…</item>
+        <item>[PL_4506]_Connected to %1$s</item>
+        <item>[PL_7750]_Suspended</item>
+        <item>[PL_4507]_Disconnecting from %1$s…</item>
+        <item>[PL_7751]_Disconnected</item>
+        <item>[PL_7752]_Unsuccessful</item>
+        <item>[PL_19033]_Blocked</item>
+        <item>[PL_19034]_Temporarily avoiding poor connections</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>[PL_4570]_Never check</item>
+        <item>[PL_4571]_Check for DRM content only</item>
+        <item>[PL_4572]_Always check</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>[PL_4574]_Never use HDCP checking</item>
+        <item>[PL_4575]_Use HDCP checking for DRM content only</item>
+        <item>[PL_4576]_Always use HDCP checking</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>[PL_133577]_64 KB</item>
+        <item>[PL_133578]_256 KB</item>
+        <item>[PL_133580]_1 MB</item>
+        <item>[PL_133581]_4 MB</item>
+        <item>[PL_133590]_16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>[PL_133611]_64 KB</item>
+        <item>[PL_133610]_256 KB</item>
+        <item>[PL_133609]_1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>[PL_133340]_64 KB per log buffer</item>
+        <item>[PL_133341]_256 KB per log buffer</item>
+        <item>[PL_133342]_1 MB per log buffer</item>
+        <item>[PL_133336]_4 MB per log buffer</item>
+        <item>[PL_133338]_16 MB per log buffer</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>[PL_4577]_Animation off</item>
+        <item>[PL_4578]_Animation scale .5x</item>
+        <item>[PL_4579]_Animation scale 1x</item>
+        <item>[PL_4580]_Animation scale 1.5x</item>
+        <item>[PL_4581]_Animation scale 2x</item>
+        <item>[PL_4582]_Animation scale 5x</item>
+        <item>[PL_4583]_Animation scale 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>[PL_7818]_Animation off</item>
+        <item>[PL_7819]_Animation scale .5x</item>
+        <item>[PL_7820]_Animation scale 1x</item>
+        <item>[PL_7821]_Animation scale 1.5x</item>
+        <item>[PL_7822]_Animation scale 2x</item>
+        <item>[PL_7823]_Animation scale 5x</item>
+        <item>[PL_7824]_Animation scale 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>[PL_19036]_Animation off</item>
+        <item>[PL_19037]_Animation scale 0.5x</item>
+        <item>[PL_19038]_Animation scale 1x</item>
+        <item>[PL_19039]_Animation scale 1.5x</item>
+        <item>[PL_19040]_Animation scale 2x</item>
+        <item>[PL_19041]_Animation scale 5x</item>
+        <item>[PL_19042]_Animation scale 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>[PL_27075]_None</item>
+        <item>[PD_253925]_480p</item>
+        <item>[PD_253926]_480p (secure)</item>
+        <item>[PD_253927]_720p</item>
+        <item>[PD_253928]_720p (secure)</item>
+        <item>[PD_253929]_1080p</item>
+        <item>[PD_253930]_1080p (secure)</item>
+        <item>[PD_253931]_4K</item>
+        <item>[PD_251721]_4K (secure)</item>
+        <item>[PD_251720]_4K (upscaled)</item>
+        <item>[PD_251430]_4K (upscaled, secure)</item>
+        <item>[PD_251429]_720p, 1080p (dual screen)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>[PL_27084]_None</item>
+        <item>[PL_27085]_Logcat</item>
+        <item>[PL_27086]_Systrace (graphics)</item>
+        <item>[PL_27087]_Call stack on glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>[PL_37438]_Off</item>
+        <item>[PL_37442]_Draw non-rectangular clip region in blue</item>
+        <item>[PL_37446]_Highlight tested drawing commands in green</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>[PL_37601]_Off</item>
+        <item>[PL_37594]_On screen as bars</item>
+        <item>[PL_37592]_On screen as lines</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>[PL_37411]_Off</item>
+        <item>[PL_37412]_Show overdraw areas</item>
+        <item>[PL_37409]_Show areas for deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>[PL_4585]_Standard limit</item>
+        <item>[PL_4586]_No background processes</item>
+        <item>[PL_4587]_At most 1 process</item>
+        <item>[PL_4588]_At most 2 processes</item>
+        <item>[PL_4589]_At most 3 processes</item>
+        <item>[PL_4590]_At most 4 processes</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>[PD_251543]_Charge only</item>
+        <item>[PD_251545]_Media Transfer Protocol (MTP)</item>
+        <item>[PD_251536]_Picture Transfer Protocol (PTP)</item>
+        <item>[PD_251534]_RNDIS (USB Ethernet)</item>
+        <item>[PD_251542]_Audio source</item>
+        <item>[PD_251539]_MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>[PL_4478]_Very slow</item>
+        <item>[PL_4479]_Slow</item>
+        <item>[PL_7735]_Normal</item>
+        <item>[PL_4480]_Fast</item>
+        <item>[PD_30872]_Faster</item>
+        <item>[PL_38089]_Very fast</item>
+        <item>[PL_38088]_Rapid</item>
+        <item>[PL_38087]_Very rapid</item>
+        <item>[PL_38086]_Fastest</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>[PL_283167]_Vibrant (default)</item>
+        <item>[PL_283168]_Natural</item>
+        <item>[PL_283176]_Standard</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>[PL_283234]_Enhanced colors</item>
+        <item>[PL_283229]_Natural colors as seen by the eye</item>
+        <item>[PL_283230]_Colors optimized for digital content</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>[PL_4454]_America</item>
+        <item>[PL_4455]_Europe</item>
+        <item>[PL_4456]_Africa</item>
+        <item>[PL_4457]_Asia</item>
+        <item>[PL_4458]_Australia</item>
+        <item>[PL_4459]_Pacific</item>
+        <item>[PL_7693]_All</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>[PL_4463]_15 seconds</item>
+        <item>[PL_4464]_30 seconds</item>
+        <item>[PL_7694]_1 minute</item>
+        <item>[PL_4465]_2 minutes</item>
+        <item>[PL_7695]_5 minutes</item>
+        <item>[PL_7696]_10 minutes</item>
+        <item>[PL_7697]_30 minutes</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>[PL_7698]_Never</item>
+        <item>[PL_7699]_15 seconds</item>
+        <item>[PL_7700]_30 seconds</item>
+        <item>[PL_7701]_1 minute</item>
+        <item>[PL_7702]_2 minutes</item>
+        <item>[PL_7703]_5 minutes</item>
+        <item>[PL_7704]_10 minutes</item>
+        <item>[PL_7705]_30 minutes</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>[PL_4473]_Immediately</item>
+        <item>[PL_7714]_5 seconds</item>
+        <item>[PL_7715]_15 seconds</item>
+        <item>[PL_7716]_30 seconds</item>
+        <item>[PL_7717]_1 minute</item>
+        <item>[PL_7718]_2 minutes</item>
+        <item>[PL_7719]_5 minutes</item>
+        <item>[PL_7720]_10 minutes</item>
+        <item>[PL_7721]_30 minutes</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>[PL_7730]_Small</item>
+        <item>[PL_7731]_Normal</item>
+        <item>[PL_7732]_Large</item>
+        <item>[PL_7733]_Extra large</item>
+        <item>[PL_31095]_Huge</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>[PL_4486]_Very low</item>
+        <item>[PL_7737]_Low</item>
+        <item>[PL_7738]_Normal</item>
+        <item>[PL_7739]_High</item>
+        <item>[PL_4487]_Very high</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>[PL_4512]_PEAP</item>
+        <item>[PL_4513]_TLS</item>
+        <item>[PL_4514]_TTLS</item>
+        <item>[PL_18732]_PWD</item>
+        <item>[PD_251827]_SIM</item>
+        <item>[PD_251828]_AKA</item>
+        <item>"[PD_251830]_AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>[PL_345355]_PEAP</item>
+        <item>[PL_345356]_TLS</item>
+        <item>[PL_345357]_TTLS</item>
+        <item>[PL_345352]_PWD</item>
+        <item>[PL_345353]_AKA</item>
+        <item>"[PL_345354]_AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>[PD_251878]_PEAP</item>
+        <item>[PD_251879]_TLS</item>
+        <item>[PD_251880]_TTLS</item>
+        <item>[PD_251881]_PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>[PL_4515]_SIM</item>
+        <item>[PL_4516]_AKA</item>
+    </string-array>
+    <string-array name="wifi_eap_cmcc">
+        <item>[PD_102390]_PEAP</item>
+        <item>[PD_102391]_SIM</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>[PL_4517]_Push button</item>
+        <item>[PL_4518]_PIN from peer device</item>
+        <item>[PL_4519]_PIN from this device</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>[PL_7759]_Connected</item>
+        <item>[PL_4520]_Connecting…</item>
+        <item>[PL_4521]_Connect to this device</item>
+        <item>[PL_26765]_Available</item>
+        <item>[PL_4523]_Out-of-range</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>[PL_7760]_2 minutes</item>
+        <item>[PL_7761]_5 minutes</item>
+        <item>[PL_7762]_1 hour</item>
+        <item>[PL_4524]_Never time out</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>[PL_4525]_Poor</item>
+        <item>[PL_4526]_Fair</item>
+        <item>[PL_7763]_Good</item>
+        <item>[PL_4527]_Excellent</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>[PL_7764]_Always</item>
+        <item>[PL_4528]_Only when plugged in</item>
+        <item>[PL_4529]_Never (increases data usage)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>[PL_7765]_Always</item>
+        <item>[PL_7766]_Only when plugged in</item>
+        <item>[PL_7767]_Never</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>[PL_133715]_Last 30 days</item>
+        <item>[PL_133717]_Set usage cycle…</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>[PL_7771]_Auto</item>
+        <item>[PL_4530]_5 GHz only</item>
+        <item>[PL_4531]_2.4 GHz only</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>[PL_7775]_Usage time</item>
+        <item>[PL_4532]_Launch count</item>
+        <item>[PL_4533]_App name</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>[PL_37427]_None</item>
+        <item>[PL_37431]_MSCHAPV2</item>
+        <item>[PL_37434]_GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>[PL_7779]_None</item>
+        <item>[PL_7780]_PAP</item>
+        <item>[PL_4534]_MSCHAP</item>
+        <item>[PL_4535]_MSCHAPV2</item>
+        <item>[PL_4536]_GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>[PL_7781]_Off</item>
+        <item>[PL_7782]_Push button</item>
+        <item>[PL_4537]_PIN from access point</item>
+        <item>[PL_7783]_PIN from this device</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>[PL_4538]_DHCP</item>
+        <item>[PL_4539]_Static</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>[PL_7784]_None</item>
+        <item>[PL_7785]_Manual</item>
+        <item>[PL_133403]_Auto</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>[PL_7786]_Off</item>
+        <item>[PL_4540]_Alert</item>
+        <item>[PL_7787]_Vibrate</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>[PL_7794]_None</item>
+        <item>[PL_7795]_PAP</item>
+        <item>[PL_7796]_CHAP</item>
+        <item>[PL_7797]_PAP or CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>[PL_7802]_IPv4</item>
+        <item>[PL_7803]_IPv6</item>
+        <item>[PL_4548]_IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>[PD_253922]_Unspecified</item>
+        <item>[PD_253923]_LTE</item>
+        <item>[PD_253924]_HSPAP</item>
+        <item>[PD_251743]_HSPA</item>
+        <item>[PD_251741]_HSUPA</item>
+        <item>[PD_251740]_HSDPA</item>
+        <item>[PD_251739]_UMTS</item>
+        <item>[PD_251751]_EDGE</item>
+        <item>[PD_251750]_GPRS</item>
+        <item>[PD_251749]_eHRPD</item>
+        <item>[PD_251348]_EVDO_B</item>
+        <item>[PD_251349]_EVDO_A</item>
+        <item>[PD_251341]_EVDO_0</item>
+        <item>[PD_251340]_1xRTT</item>
+        <item>[PD_251344]_IS95B</item>
+        <item>[PD_251343]_IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>[PL_37448]_None</item>
+        <item>[PL_37435]_SPN</item>
+        <item>[PL_37436]_IMSI</item>
+        <item>[PL_37428]_GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>[PL_4557]_Internal device storage</item>
+        <item>[PL_4558]_Removable SD card</item>
+        <item>[PL_4559]_Let the system decide</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>[PL_37339]_Location</item>
+        <item>[PL_37341]_Personal</item>
+        <item>[PL_37334]_Messaging</item>
+        <item>[PL_37336]_Media</item>
+        <item>[PL_37333]_Device</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>[PL_4566]_Short</item>
+        <item>[PL_7808]_Medium</item>
+        <item>[PL_7809]_Long</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>[PL_37252]_Default</item>
+        <item>[PL_37256]_Sans-serif</item>
+        <item>[PL_37255]_Sans-serif condensed</item>
+        <item>[PL_133944]_Sans-serif monospace</item>
+        <item>[PL_133945]_Serif</item>
+        <item>[PL_144846]_Serif monospace</item>
+        <item>[PL_144847]_Casual</item>
+        <item>[PL_144848]_Cursive</item>
+        <item>[PL_144850]_Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>[PL_37273]_Very small</item>
+        <item>[PL_37274]_Small</item>
+        <item>[PL_37275]_Normal</item>
+        <item>[PL_37278]_Large</item>
+        <item>[PL_37279]_Very large</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>[PL_133948]_Default</item>
+        <item>[PL_133949]_None</item>
+        <item>[PL_133950]_Outline</item>
+        <item>[PL_144849]_Drop shadow</item>
+        <item>[PL_144843]_Raised</item>
+        <item>[PL_144844]_Depressed</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>[PL_37395]_25%</item>
+        <item>[PL_37400]_50%</item>
+        <item>[PL_37399]_75%</item>
+        <item>[PL_37397]_100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>[PL_133959]_Use app defaults</item>
+        <item>[PL_133960]_White on black</item>
+        <item>[PL_133961]_Black on white</item>
+        <item>[PL_133962]_Yellow on black</item>
+        <item>[PL_133963]_Yellow on blue</item>
+        <item>[PL_144845]_Custom</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>[PL_4597]_PPTP VPN</item>
+        <item>[PL_4598]_L2TP/IPSec VPN with pre-shared keys</item>
+        <item>[PL_4599]_L2TP/IPSec VPN with certificates</item>
+        <item>[PL_4600]_IPSec VPN with pre-shared keys and Xauth authentication</item>
+        <item>[PL_4601]_IPSec VPN with certificates and Xauth authentication</item>
+        <item>[PL_4602]_IPSec VPN with certificates and hybrid authentication</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>[PL_7838]_Disconnected</item>
+        <item>[PL_4603]_Initializing…</item>
+        <item>[PL_7839]_Connecting…</item>
+        <item>[PL_7840]_Connected</item>
+        <item>[PL_4604]_Timeout</item>
+        <item>[PL_7841]_Unsuccessful</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>[PL_4605]_WAPI PSK ASCII</item>
+        <item>[PL_4606]_WAPI PSK hexadecimal</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>[PL_7842]_Off</item>
+        <item>[PL_7843]_Music</item>
+        <item>[PL_7844]_Movie</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>[PL_4607]_1 user</item>
+        <item>[PL_4608]_2 users</item>
+        <item>[PL_4609]_3 users</item>
+        <item>[PL_4610]_4 users</item>
+        <item>[PL_4611]_5 users</item>
+        <item>[PL_4612]_6 users</item>
+        <item>[PL_4613]_7 users</item>
+        <item>[PL_4614]_8 users</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>[PL_22298]_SUB 1</item>
+        <item>[PL_22299]_SUB 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>[PL_27093]_Ask</item>
+        <item>[PL_27094]_Never allow</item>
+        <item>[PL_27095]_Always allow</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>[PL_37361]_Normal</item>
+        <item>[PL_37360]_Moderate</item>
+        <item>[PL_37363]_Low</item>
+        <item>[PL_37362]_Critical</item>
+        <item>[PD_251581]_Unknown</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>[PL_133536]_Normal</item>
+        <item>[PL_133534]_Moderate</item>
+        <item>[PL_133533]_Low</item>
+        <item>[PL_133531]_Critical</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>[PL_133450]_Persistent</item>
+        <item>[PL_133451]_Top activity</item>
+        <item>[PL_133458]_Important (foreground)</item>
+        <item>[PL_133459]_Important (background)</item>
+        <item>[PL_133454]_Backup</item>
+        <item>[PL_133456]_Heavy weight</item>
+        <item>[PL_133444]_Service (running)</item>
+        <item>[PL_133446]_Service (restarting)</item>
+        <item>[PL_133442]_Receiver</item>
+        <item>[PL_133443]_Home</item>
+        <item>[PL_133200]_Last activity</item>
+        <item>[PL_133195]_Cached (activity)</item>
+        <item>[PL_133196]_Cached (activity client)</item>
+        <item>[PL_133217]_Cached (empty)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>[PD_251773]_Teal</item>
+        <item>[PD_251774]_Blue</item>
+        <item>[PD_251776]_Indigo</item>
+        <item>[PD_251778]_Purple</item>
+        <item>[PD_251779]_Pink</item>
+        <item>[PD_251780]_Red</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>[PL_24620]_Auto</item>
+        <item>[PL_24621]_1</item>
+        <item>[PL_24622]_2</item>
+        <item>[PL_24623]_3</item>
+        <item>[PL_24624]_4</item>
+        <item>[PL_24625]_5</item>
+        <item>[PL_24626]_6</item>
+        <item>[PL_24627]_7</item>
+        <item>[PL_24628]_8</item>
+        <item>[PL_24629]_9</item>
+        <item>[PL_24630]_10</item>
+        <item>[PL_24631]_11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>[PD_84639]_Automatically connect</item>
+        <item>[PD_84637]_Manually connect</item>
+        <item>[PD_84635]_Always ask</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>[PL_90001]_5 minutes</item>
+        <item>[PL_90005]_15 minutes</item>
+        <item>[PL_90002]_30 minutes</item>
+        <item>[PL_90007]_1 hour</item>
+        <item>[PL_90006]_Always</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>[PL_102354]_Launcher</item>
+        <item>[PL_102359]_Call</item>
+        <item>[PL_102360]_Messaging</item>
+        <item>[PL_102357]_Camera</item>
+        <item>[PL_102358]_Gallery</item>
+        <item>[PL_102351]_Music</item>
+        <item>[PL_102350]_Email</item>
+        <item>[PL_221413]_Browser</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>[PL_235035]_Small</item>
+        <item>[PL_235036]_Medium</item>
+        <item>[PL_235037]_Large</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>[PL_224309]_Next to battery icon</item>
+        <item>[PL_224305]_In battery icon</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>[PL_301746]_Do not show</item>
+        <item>[PL_301748]_Next to icon</item>
+        <item>[PL_301749]_In icon</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>[PD_234031]_15 seconds</item>
+        <item>[PD_234025]_30 seconds</item>
+        <item>[PD_234026]_1 minute</item>
+        <item>[PD_234028]_2 minutes</item>
+        <item>[PD_234029]_5 minutes</item>
+        <item>[PD_234033]_10 minutes</item>
+        <item>[PD_234034]_Never</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>[PL_234255]_Only once</item>
+        <item>[PL_234253]_Monday to Friday</item>
+        <item>[PL_234254]_Working days (skip holidays)</item>
+        <item>[PL_234251]_Every day</item>
+        <item>[PL_234252]_Custom</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>[PL_234270]_Monday</item>
+        <item>[PL_234257]_Tuesday</item>
+        <item>[PL_234256]_Wednesday</item>
+        <item>[PL_234260]_Thursday</item>
+        <item>[PL_234259]_Friday</item>
+        <item>[PL_234262]_Saturday</item>
+        <item>[PL_234261]_Sunday</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>[PD_116355]_Enable for local networks</item>
+        <item>[PD_116350]_Enable for local &amp; roaming networks</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>[PD_116303]_Google</item>
+        <item>[PD_116301]_China Mobile</item>
+        <item>[PD_116300]_Others</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>[PL_261297]_Monday to Friday</item>
+        <item>[PL_261293]_Saturday, Sunday</item>
+        <item>[PL_261292]_Every day</item>
+        <item>[PL_261294]_Custom</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>[PL_271521]_All networks (increases data usage)</item>
+        <item>[PL_271522]_Over Wi-Fi only</item>
+        <item>[PL_271519]_Never</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>[PL_271524]_All networks</item>
+        <item>[PL_271512]_Over Wi-Fi only</item>
+        <item>[PL_271511]_Never</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>[PL_315797]_Icons</item>
+        <item>[PL_308220]_Numbers</item>
+        <item>[PL_308221]_None</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>[PL_321809]_Default</item>
+        <item>[PL_321808]_White on black</item>
+        <item>[PL_321811]_Black on white</item>
+        <item>[PL_321810]_Yellow on black</item>
+        <item>[PL_321813]_Yellow on blue</item>
+        <item>[PL_321812]_Custom</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>[PL_284082]_Wi-Fi preferred</item>
+        <item>[PL_284085]_Cellular preferred</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>[PL_7632]_Ringtone</item>
+        <item>[PL_4173]_Local music</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>[PL_294379]_Wi-Fi preferred</item>
+        <item>[PL_294393]_Mobile data preferred</item>
+        <item>[PL_294390]_Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>[PL_294386]_Wi-Fi preferred</item>
+        <item>[PL_294387]_Mobile data preferred</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>[PL_322599]_Wi-Fi preferred</item>
+        <item>[PL_322598]_Mobile network preferred</item>
+        <item>[PL_322597]_4G network preferred</item>
+        <item>[PL_322606]_Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>[PL_322594]_Wi-Fi preferred</item>
+        <item>[PL_322595]_Mobile network preferred</item>
+        <item>[PL_322596]_4G network preferred</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>[PL_323462]_Wi-Fi preferred</item>
+        <item>[PL_323461]_4G network preferred</item>
+        <item>[PL_323460]_Wi-Fi only</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>[PL_323467]_Wi-Fi preferred</item>
+        <item>[PL_323468]_4G network preferred</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>[PL_236227]_10 seconds</item>
+        <item>[PL_236226]_15 seconds</item>
+        <item>[PL_236229]_30 seconds</item>
+        <item>[PL_236228]_1 minute</item>
+        <item>[PL_236240]_2 minutes</item>
+        <item>[PL_236241]_5 minutes</item>
+        <item>[PL_236238]_10 minutes</item>
+        <item>[PL_236239]_30 minutes</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>[PD_127039]_5 minutes of inactivity</item>
+        <item>[PD_127036]_10 minutes of inactivity</item>
+        <item>[PD_127037]_Always on</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>[PD_127031]_After 5 minutes</item>
+        <item>[PD_127029]_After 10 minutes</item>
+        <item>[PD_127030]_Always on</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>[PL_213918]_PPTP VPN</item>
+        <item>[PL_213919]_L2TP</item>
+        <item>[PL_213920]_L2TP/IPSec VPN with pre-shared keys</item>
+        <item>[PL_213921]_L2TP/IPSec VPN with certificates</item>
+        <item>[PL_213922]_IPSec VPN with pre-shared keys and Xauth authentication</item>
+        <item>[PL_213923]_IPSec VPN with certificates and Xauth authentication</item>
+        <item>[PL_213924]_IPSec VPN with certificates and hybrid authentication</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>[PL_226382]_15 seconds</item>
+        <item>[PL_226384]_30 seconds</item>
+        <item>[PL_226386]_60 seconds</item>
+        <item>[PL_226379]_90 seconds</item>
+        <item>[PL_226378]_120 seconds</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>[XA_221702]_Type 1</item>
+        <item>[XA_221699]_Type 2</item>
+        <item>[XA_221697]_Type 3</item>
+        <item>[XA_221696]_Type 4</item>
+        <item>[XA_221695]_Type 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>[PD_116334]_Beijing time</item>
+        <item>[PD_116330]_Local time</item>
+    </string-array>
+</resources>

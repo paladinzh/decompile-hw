@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/spellcheckers_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/spellcheckers_settings_title" android:key="spellchecker_switch" />
+    <Preference android:persistent="false" android:title="@string/phone_language" android:key="spellchecker_language" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

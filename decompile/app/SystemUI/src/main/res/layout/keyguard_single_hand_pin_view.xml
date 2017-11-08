@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.KeyguardSingleHandPINView xmlns:android="http://schemas.android.com/apk/res-auto" androidprv:orientation="vertical" androidprv:id="@r$id/keyguard_single_hand_pin_view" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:contentDescription="@string/keyguard_accessibility_pin_unlock" androidprv:layout_maxWidth="@dimen/keyguard_security_width" androidprv:layout_maxHeight="UNKNOWN_DATA_0x7f0e0047">
+    <com.android.keyguard.AlphaOptimizedRelativeLayout androidprv:id="@r$id/row0" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+        <include androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content" layout="@layout/keyguard_message_area" />
+        <com.android.keyguard.PasswordTextView androidprv:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidprv:id="@r$id/pinEntry" androidprv:background="@drawable/bg_input" androidprv:layout_width="UNKNOWN_DATA_0x7f0e0044" androidprv:layout_height="UNKNOWN_DATA_0x2101" androidprv:layout_marginTop="14dp" androidprv:layout_marginRight="44dp" androidprv:layout_below="@r$id/keyguard_message_area" androidprv:layout_centerHorizontal="true" androidprv:contentDescription="@string/keyguard_accessibility_pin_area" androidprv:scaledTextSize="18" />
+    </com.android.keyguard.AlphaOptimizedRelativeLayout>
+    <LinearLayout androidprv:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:orientation="vertical" androidprv:id="@r$id/container" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:layoutDirection="ltr">
+        <FrameLayout androidprv:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidprv:layout_width="match_parent" androidprv:layout_height="wrap_content">
+            <LinearLayout androidprv:orientation="vertical" androidprv:paddingBottom="@dimen/keyguard_pin_numpad_padding_bottom" androidprv:layout_width="wrap_content" androidprv:layout_height="match_parent">
+                <ImageButton androidprv:id="@r$id/switch_mode_left" androidprv:background="0x0" androidprv:layout_width="UNKNOWN_DATA_0x7f0e03b8" androidprv:layout_height="match_parent" androidprv:src="@drawable/singlehand_arrow_left" />
+            </LinearLayout>
+            <LinearLayout androidprv:orientation="vertical" androidprv:paddingBottom="@dimen/keyguard_pin_numpad_padding_bottom" androidprv:layout_width="wrap_content" androidprv:layout_height="match_parent" androidprv:translationX="@dimen/single_hand_left_btn_translationx">
+                <ImageButton androidprv:id="@r$id/switch_mode_right" androidprv:background="0x0" androidprv:layout_width="UNKNOWN_DATA_0x7f0e03b8" androidprv:layout_height="match_parent" androidprv:src="@drawable/singlehand_arrow_right" />
+            </LinearLayout>
+            <com.huawei.keyguard.view.widget.GravityView androidprv:orientation="vertical" androidprv:id="@r$id/gravity_pin_numpad" androidprv:paddingBottom="@dimen/keyguard_pin_numpad_padding_bottom" androidprv:layout_width="UNKNOWN_DATA_0x7f0e041f" androidprv:layout_height="UNKNOWN_DATA_0x7f0e0420">
+                <LinearLayout androidprv:orientation="horizontal" androidprv:id="@r$id/row1" androidprv:layout_width="match_parent" androidprv:layout_height="UNKNOWN_DATA_0x1" androidprv:layout_weight="1.0">
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key1" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="1" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key2" androidprv:layout_width="UNKNOWN_DATA_0x1" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="2" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key3" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="3" androidprv:textView="@r$id/pinEntry" />
+                </LinearLayout>
+                <LinearLayout androidprv:orientation="horizontal" androidprv:id="@r$id/row2" androidprv:layout_width="match_parent" androidprv:layout_height="UNKNOWN_DATA_0x1" androidprv:layout_weight="1.0">
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key4" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="4" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key5" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="5" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key6" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="6" androidprv:textView="@r$id/pinEntry" />
+                </LinearLayout>
+                <LinearLayout androidprv:orientation="horizontal" androidprv:id="@r$id/row3" androidprv:layout_width="match_parent" androidprv:layout_height="UNKNOWN_DATA_0x1" androidprv:layout_weight="1.0">
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key7" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="7" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key8" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="8" androidprv:textView="@r$id/pinEntry" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key9" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="9" androidprv:textView="@r$id/pinEntry" />
+                </LinearLayout>
+                <LinearLayout androidprv:orientation="horizontal" androidprv:id="@id/row4" androidprv:layout_width="match_parent" androidprv:layout_height="UNKNOWN_DATA_0x1" androidprv:layout_weight="1.0">
+                    <com.android.keyguard.EmergencyButton androidprv:id="@r$id/emergency_call_button_pin_view" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_marginBottom="11dp" androidprv:text="0x1040291" androidprv:layout_weight="1.0" androidprv:textAllCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+                    <com.android.keyguard.NumPadKey androidprv:id="@r$id/key0" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_weight="1.0" androidprv:digit="0" androidprv:textView="@r$id/pinEntry" />
+                    <LinearLayout androidprv:orientation="vertical" androidprv:id="@r$id/delete_back_layout" androidprv:layout_width="UNKNOWN_DATA_0x0" androidprv:layout_height="match_parent" androidprv:layout_marginBottom="11dp" androidprv:layout_weight="1.0">
+                        <Button androidprv:id="@r$id/delete_button" androidprv:visibility="gone" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:text="@string/keyboardview_keycode_delete" androidprv:contentDescription="@string/keyboardview_keycode_delete" androidprv:textAllCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+                        <com.huawei.keyguard.view.widget.KeyguardButtonView androidprv:id="@r$id/back_to_keyguard" androidprv:layout_width="match_parent" androidprv:layout_height="match_parent" androidprv:text="@string/kg_back" androidprv:textAllCaps="@bool/kg_use_all_caps" style="@style/security_text_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </com.huawei.keyguard.view.widget.GravityView>
+        </FrameLayout>
+    </LinearLayout>
+</com.huawei.keyguard.KeyguardSingleHandPINView>

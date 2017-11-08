@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/dashboard_tile" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidhwext="http://schemas.android.com/apk/res/androidhwext">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/dashboard_tile_image_size" android:layout_height="@dimen/dashboard_tile_image_size" android:scaleType="fitXY" android:layout_marginStart="@dimen/dashboard_tile_image_margin_start" android:layout_marginEnd="@dimen/dashboard_tile_image_margin_end" />
+    <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:fadingEdge="horizontal" android:layout_width="0.0dip" android:singleLine="true" android:layout_weight="2.0" android:layout_marginEnd="6.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+    <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="end" android:id="@android:id/summary" android:layout_width="0.0dip" android:maxLines="2" android:layout_weight="1.0" style="@style/EmuiSecondaryTextFontStyle" />
+    <include layout="@layout/preference_widget_arrow" />
+</LinearLayout>

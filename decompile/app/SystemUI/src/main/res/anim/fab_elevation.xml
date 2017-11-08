@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_pressed="true">
+        <set>
+            <objectAnimator android:duration="0x10e0000" android:valueTo="@dimen/fab_press_translation_z" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+    <item>
+        <set>
+            <objectAnimator android:duration="0x10e0000" android:valueTo="0" android:valueType="floatType" android:propertyName="translationZ" />
+        </set>
+    </item>
+</selector>

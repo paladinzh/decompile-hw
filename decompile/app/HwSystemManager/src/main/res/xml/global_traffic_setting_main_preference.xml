@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="traffic_settings">
+    <PreferenceCategory androidhwext:key="traffic_card_1" androidhwext:order="10">
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.NotifyLimitPrefer androidhwext:preferenceID="@+id/prefs_notifylimitprefer_one" />
+        <Preference androidhwext:title="@string/net_assistant_flowexcess_notify_title" androidhwext:key="flow_package_notify" androidhwext:order="40" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_net_assistant_flowexcess_notify_title" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:key="traffic_card_2" androidhwext:order="50">
+        <com.huawei.systemmanager.netassistant.ui.setting.subpreference.NotifyLimitPrefer androidhwext:preferenceID="@+id/prefs_notifylimitprefer_two" />
+        <Preference androidhwext:title="@string/net_assistant_flowexcess_notify_title" androidhwext:key="flow_package_notify" androidhwext:order="60" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_flow_package_notify" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title=" " androidhwext:key="traffic_other" androidhwext:order="90">
+        <SwitchPreference androidhwext:title="@string/content_lockscreen_notify_settings" androidhwext:key="notify_unlockscreen" androidhwext:order="100" androidhwext:preferenceID="@+id/prefs_notify_unlockscreen" style="@style/AddSummary" />
+        <SwitchPreference androidhwext:key="traffic_speed" androidhwext:order="110" androidhwext:preferenceID="@+id/prefs_traffic_speed" />
+    </PreferenceCategory>
+</PreferenceScreen>

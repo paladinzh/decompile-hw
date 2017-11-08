@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/wrap_main_content" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" android:paddingStart="@dimen/fragment_padding_start" android:paddingEnd="@dimen/fragment_padding_end">
+        <FrameLayout android:id="@id/main_content" android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:id="@id/button_bar_stub" android:layout="@layout/settings_activity_buttonbar" android:inflatedId="@id/button_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

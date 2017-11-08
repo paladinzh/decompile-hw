@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_additional_status"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_number" android:key="number" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_operator" android:key="operator_name" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_signal_strength" android:key="signal_strength" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/mobile_network_type" android:key="mobile_network_type" android:summary="@string/mobile_network_type" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_service_state" android:key="service_state" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_roaming" android:key="roaming_state" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/mobile_network_state" android:key="mobile_network_state" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_min_number" android:key="min_number" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_prl_version" android:key="prl_version" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_esn_number" android:key="esn_number" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/status_icc_id" android:key="icc_id" android:summary="@string/device_info_not_available" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/baseband_version" android:key="baseband_version" android:summary="@string/device_info_default" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_mcc_mnc" android:key="mcc_mnc" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_sid_nid" android:key="sid_nid" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_cell_id" android:key="cell_id" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_message_center" android:key="message_center" android:summary="@string/device_info_not_available" />
+</PreferenceScreen>

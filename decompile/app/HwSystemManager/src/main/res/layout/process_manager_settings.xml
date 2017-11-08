@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/container" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_min_height_three_line">
+        <Switch android:id="@+id/set_memcpu_reminder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/process_manager_tv_notification_margin_start" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/set_memcpu_reminder" android:layout_alignParentStart="true">
+            <TextView android:id="@+id/tv_notification_memcpu_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp" android:text="@string/notification_memcpu_title" style="@style/list_view_item_title_text_style" />
+            <TextView android:id="@+id/tv_notification_memcpu_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxWidth="260dp" android:text="@string/notification_memcpu_description" android:fontFamily="chnfzxh" style="@style/list_view_item_description_text_style" />
+        </LinearLayout>
+    </com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>
+    <View style="@style/emui_horizontal_divider" />
+    <com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout android:id="@+id/protece_app_indicate_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_min_height">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginEnd="@dimen/normal_icon_margin_end" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="@dimen/listview_item_font_size_1" android:textColor="@color/emui_list_secondray_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ListViewFirstLine_Accelerater_ProtectedApps" android:layout_centerVertical="true" android:layout_marginStart="18dp" android:layout_alignParentStart="true" />
+    </com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>
+    <View style="@style/emui_horizontal_divider" />
+</LinearLayout>

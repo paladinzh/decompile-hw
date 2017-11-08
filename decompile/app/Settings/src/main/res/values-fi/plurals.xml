@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bluetooth_is_discoverable_toast_Toast">
+        <item quantity="other">Bluetooth-näkyvyys päällä. On löydettävissä %1$d sekunnin ajan.</item>
+        <item quantity="one">Bluetooth-näkyvyys päällä. On löydettävissä %1$d sekunnin ajan.</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Kehittäjäasetukset otetaan käyttöön &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> vaiheen päästä.</item>
+        <item quantity="one">Kehittäjäasetukset otetaan käyttöön &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> vaiheen päästä.</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Poistetaanko valitut kielet?</item>
+        <item quantity="one">Poistetaanko valittu kieli?</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d tunnistetiedostoa määritetty</item>
+        <item quantity="one">%1$d tunnistetiedosto määritetty</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d kirjainta.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d pientä kirjainta.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi pieni kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d isoa kirjainta.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi iso kirjain.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d numeroa.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi numero.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d erikoismerkkiä.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi erikoismerkki.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Salasanan tulee sisältää vähintään %d merkkiä, jotka eivät ole kirjaimia.</item>
+        <item quantity="one">Salasanan tulee sisältää vähintään yksi merkki, joka ei ole kirjain.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Virheellinen SIM-kortin PIN-koodi. Sinulla on %d yritystä jäljellä.</item>
+        <item quantity="one">Virheellinen SIM-kortin PIN-koodi. Sinulla on %d yritys jäljellä, ennen kuin sinun on otettava yhteys operaattoriin laitteen lukituksen avaamiseksi.</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d kohdetta</item>
+        <item quantity="one">%d kohde</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Äärimmäisen lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Äärimmäisen lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Erittäin lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Erittäin lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Lyhyt viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Pitkä viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Pitkä viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Erittäin pitkä viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Erittäin pitkä viive (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d tulostustyötä</item>
+        <item quantity="one">%d tulostustyö</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Luota varmenteisiin tai poista ne</item>
+        <item quantity="one">Luota varmenteeseen tai poista se</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s on asentanut laitteeseesi varmenteiden myöntäjiä, jonka takia ne voivat seurata laitteen verkon tapahtumia, mukaan lukien sähköpostit, sovellukset ja suojausta käyttävät verkkosivustot. Voit joko luottaa näihin varmenteisiin tai poistaa ne.
+
+Kysy lisätietoja näistä varmenteista järjestelmänvalvojalta."</item>
+        <item quantity="one">"%s on asentanut laitteeseesi varmenteen myöntäjän, jonka takia se voi seurata laitteen verkon tapahtumia, mukaan lukien sähköpostit, sovellukset ja suojausta käyttävät verkkosivustot. Voit joko luottaa tähän varmenteeseen tai poistaa sen.
+
+Kysy lisätietoja tästä varmenteesta järjestelmänvalvojalta."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s on asentanut työprofiiliisi varmenteiden myöntäjiä, jonka takia ne voivat seurata työverkon tapahtumia, mukaan lukien sähköpostit, sovellukset ja suojausta käyttävät verkkosivustot. Voit joko luottaa näihin varmenteisiin tai poistaa ne.
+
+Kysy lisätietoja näistä varmenteista järjestelmänvalvojalta."</item>
+        <item quantity="one">"%s on asentanut työprofiiliisi varmenteen myöntäjän, jonka takia se voi seurata työverkon tapahtumia, mukaan lukien sähköpostit, sovellukset ja suojausta käyttävät verkkosivustot. Voit joko luottaa tähän varmenteeseen tai poistaa sen.
+
+Kysy lisätietoja tästä varmenteesta järjestelmänvalvojalta."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Tarkista varmenteet</item>
+        <item quantity="one">Tarkista varmenne</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d sovellusta voi lukea ilmoituksia</item>
+        <item quantity="one">%d sovellus voi lukea ilmoituksia</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Ota vain herätykset käyttöön %1$d minuutiksi %2$s asti.</item>
+        <item quantity="one">Ota vain herätykset käyttöön yhdeksi minuutiksi %2$s asti.</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Ota vain herätykset käyttöön %1$d yhdeksi tunniksi %2$s asti.</item>
+        <item quantity="one">Ota vain herätykset käyttöön yhdeksi tunniksi %2$s asti.</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> käyttöoikeutta myönnetty</item>
+        <item quantity="one">&lt;subnode ref="ml" index="1">%d&lt;/subnode> käyttöoikeus myönnetty</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>/&lt;subnode ref="ml" index="2">%2$d&lt;/subnode> lupaa myönnetty.</item>
+        <item quantity="one">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode>/&lt;subnode ref="ml" index="2">%2$d&lt;/subnode> lupaa myönnetty.</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d lisäkäyttölupaa</item>
+        <item quantity="one">%d lisäkäyttölupa</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> sovellusta voi avata tuetut linkkinsä.</item>
+        <item quantity="one">Yksi sovellus voi avata tuetut linkkinsä.</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> sovelluksella on oikeus ohittaa akun käytön optimointi.</item>
+        <item quantity="one">1 sovelluksella on oikeus ohittaa akun käytön optimointi.</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">viimeiset %2$s: %1$d sovellusta käytti muistia</item>
+        <item quantity="one">1 sovellus käytti muistia viimeisen %2$s aikana</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Lähettäminen estetty &lt;subnode ref="ml" index="1">%d&lt;/subnode> sovellukselta</item>
+        <item quantity="one">Lähettäminen estetty &lt;subnode ref="ml" index="1">%d&lt;/subnode> sovellukselta</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> sovellusta saa käyttää rajattomasti dataa, kun Data Saver on käytössä.</item>
+        <item quantity="one">1 sovellus saa käyttää rajattomasti dataa, kun Data Saver on käytössä.</item>
+    </plurals>
+    <plurals name="zen_mode_repeat_callers_summary">
+        <item quantity="other">Toinen puheluyritys samasta numerosta soi, jos se tehdään %d minuutin kuluessa</item>
+        <item quantity="one">Toinen puheluyritys samasta numerosta soi, jos se tehdään %d minuutin kuluessa</item>
+    </plurals>
+    <plurals name="bluetooth_ask_discovery_emotion">
+        <item quantity="other">Laitteen sovellus haluaa tehdä laitteesta muiden Bluetooth-laitteiden löydettävissä olevan %1$d sekunnin ajaksi. Sallitaanko?</item>
+        <item quantity="one">Laitteen sovellus haluaa tehdä laitteesta muiden Bluetooth-laitteiden löydettävissä olevan %1$d sekunnin ajaksi. Sallitaanko?</item>
+    </plurals>
+    <plurals name="bluetooth_ask_enablement_and_discovery_emotion">
+        <item quantity="other">Laitteen sovellus haluaa kytkeä Bluetoothin päälle ja tehdä laitteesta muiden laitteiden löydettävissä olevan %1$d sekunnin ajaksi. Sallitaanko?</item>
+        <item quantity="one">Laitteen sovellus haluaa kytkeä Bluetoothin päälle ja tehdä laitteesta muiden laitteiden löydettävissä olevan %1$d sekunnin ajaksi. Sallitaanko?</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d merkkiä</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d merkki</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short_emotion">
+        <item quantity="other">PIN-koodissa täytyy olla vähintään %d numeroa</item>
+        <item quantity="one">PIN-koodissa täytyy olla vähintään %d numero</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long_emotion">
+        <item quantity="other">Salasanassa täytyy olla alle %d merkkiä</item>
+        <item quantity="one">Salasanassa täytyy olla alle %d merkki</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long_emotion">
+        <item quantity="other">PIN-koodissa täytyy olla alle %d numeroa</item>
+        <item quantity="one">PIN-koodissa täytyy olla alle %d numero</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d pientä kirjainta</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d pieni kirjain</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_devices_connected_subtext_emotion">
+        <item quantity="other">Tämän laitteen Internet-yhteyden jakaminen %1$d -laitteisiin</item>
+        <item quantity="one">Tämän laitteen Internet-yhteyden jakaminen %1$d -laitteeseen</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short_emotion">
+        <item quantity="other">Yhdistä vähintään %d pistettä. Yritä uudelleen.</item>
+        <item quantity="one">Yhdistä vähintään %d piste. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="credentials_reset_warning_plural_emotion">
+        <item quantity="other">Väärä salasana. Sinulla on vielä %1$d mahdollisuutta, ennen kuin valtuustietomuisti pyyhitään.</item>
+        <item quantity="one">Väärä salasana. Sinulla on vielä %1$d mahdollisuus, ennen kuin valtuustietomuisti pyyhitään.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d isoa kirjainta</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d iso kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d numeroa</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d numero</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d kirjainta</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d kirjain</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d symbolia</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d symboli</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter_emotion">
+        <item quantity="other">Salasanassa täytyy olla vähintään %d merkkiä, jotka eivät ole kirjaimia</item>
+        <item quantity="one">Salasanassa täytyy olla vähintään %d merkki, joka ei ole kirjain</item>
+    </plurals>
+    <plurals name="show_dev_countdown_emotion_Toast">
+        <item quantity="other">%d vaiheen päästä olet kehittäjä.</item>
+        <item quantity="one">%d vaiheen päästä olet kehittäjä.</item>
+    </plurals>
+    <plurals name="wifiap_connect_accounts">
+        <item quantity="other">%d laitetta yhdistetty</item>
+        <item quantity="one">%d laite yhdistetty</item>
+    </plurals>
+    <plurals name="wifiap_wps_current_allow_devices">
+        <item quantity="other">Sallitut laitteet (maks. %d laitetta)</item>
+        <item quantity="one">Sallitut laitteet (maks. %d laite)</item>
+    </plurals>
+    <plurals name="search_reslut_count">
+        <item quantity="other">Löytyi %1$s asetusta</item>
+        <item quantity="one">Löytyi %1$s asetus</item>
+    </plurals>
+    <plurals name="search_reslut_count_ex">
+        <item quantity="other">Löytyi %1$d asetusta</item>
+        <item quantity="one">Löytyi %1$d asetus</item>
+    </plurals>
+    <plurals name="timing_task_settings_interval_Toast">
+        <item quantity="other">Ajastetun virran kytkentä- ja katkaisuaikojen väli ei saa olla alle %1$d minuuttia.</item>
+        <item quantity="one">Ajastetun virran kytkentä- ja katkaisuaikojen väli ei saa olla alle %1$d minuutti.</item>
+    </plurals>
+    <plurals name="shutdown_countdown_dialog_message">
+        <item quantity="other">Laitteen virta katkaistaan automaattisesti %1$d sekunnin kuluttua.</item>
+        <item quantity="one">Laitteen virta katkaistaan automaattisesti %1$d sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_short">
+        <item quantity="other">SD-kortin salasanassa täytyy olla vähintään %d merkkiä.</item>
+        <item quantity="one">SD-kortin salasanassa täytyy olla vähintään %d merkki.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_long">
+        <item quantity="other">SD-kortin salasanassa täytyy olla alle %d merkkiä.</item>
+        <item quantity="one">SD-kortin salasanassa täytyy olla alle %d merkki.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Liikaa virheellisiä yrityksiä. Yritä uudelleen &lt;subnode ref="ml" index="1">%d&lt;/subnode> sekunnin kuluttua.</item>
+        <item quantity="one">Liikaa virheellisiä yrityksiä. Yritä uudelleen &lt;subnode ref="ml" index="1">%d&lt;/subnode> sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_pin">
+        <item quantity="other">Kirjoita vähintään %1$d numeroa.</item>
+        <item quantity="one">Kirjoita vähintään %1$d numero.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_password">
+        <item quantity="other">Kirjoita vähintään %1$d merkkiä.</item>
+        <item quantity="one">Kirjoita vähintään %1$d merkki.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_one_char_at_least">
+        <item quantity="other">Täytyy sisältää vähintään %1$d kirjainta.</item>
+        <item quantity="one">Täytyy sisältää vähintään %1$d kirjain.</item>
+    </plurals>
+    <plurals name="lockscreen_warn_wrong_password">
+        <item quantity="other">Väärä salasana. %1$d yritystä jäljellä.</item>
+        <item quantity="one">Väärä salasana. %1$d yritys jäljellä.</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_seconds">
+        <item quantity="other">Yritä uudelleen %1$d s kuluttua</item>
+        <item quantity="one">Yritä uudelleen %1$d s kuluttua</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_minutes">
+        <item quantity="other">Yritä uudelleen %1$d min kuluttua</item>
+        <item quantity="one">Yritä uudelleen %1$d min kuluttua</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_hours">
+        <item quantity="other">Yritä uudelleen %1$d h kuluttua</item>
+        <item quantity="one">Yritä uudelleen %1$d h kuluttua</item>
+    </plurals>
+    <plurals name="lockscreen_pattern_too_short">
+        <item quantity="other">Yhdistä vähintään %1$d pistettä, yritä uudelleen</item>
+        <item quantity="one">Yhdistä vähintään %1$d piste, yritä uudelleen</item>
+    </plurals>
+    <plurals name="blacklist_notification_signal_disableapp_title_multi_app">
+        <item quantity="other">%1$d sovellusta sisältää turvallisuusriskejä, ja ne on kielletty</item>
+        <item quantity="one">%1$d-sovellus sisältää turvallisuusriskejä ja on kielletty</item>
+    </plurals>
+    <plurals name="blacklist_notification_title_multi_app">
+        <item quantity="other">%1$d-sovellukset on kielletty</item>
+        <item quantity="one">%1$d-sovellus on kielletty</item>
+    </plurals>
+    <plurals name="timezones_results_count">
+        <item quantity="other">%d tulosta</item>
+        <item quantity="one">%d tulos</item>
+    </plurals>
+    <plurals name="step">
+        <item quantity="other">%d askelta</item>
+        <item quantity="one">%d askel</item>
+    </plurals>
+</resources>

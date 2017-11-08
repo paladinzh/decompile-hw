@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/contact_switchWidget_item" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:minHeight="46dp">
+        <RelativeLayout androidhwext:paddingTop="14dp" androidhwext:paddingBottom="14dp" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0" androidhwext:layout_marginStart="@dimen/numbermark_margin_start_end">
+            <TextView androidhwext:textSize="@dimen/number_mark_item_main_textsize" androidhwext:textColor="@color/contact_list_item_text_color" androidhwext:ellipsize="marquee" androidhwext:id="@+id/title" androidhwext:fadingEdge="horizontal" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:singleLine="true" />
+            <TextView androidhwext:textSize="@dimen/number_mark_item_sub_textsize" androidhwext:textColor="@color/contact_section_title_text_color" androidhwext:ellipsize="end" androidhwext:id="@+id/summary" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="3" androidhwext:layout_below="@+id/title" />
+        </RelativeLayout>
+        <Switch androidhwext:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:id="@+id/switchWidget" androidhwext:focusable="false" androidhwext:layout_width="UNKNOWN_DATA_0x3601" androidhwext:layout_height="wrap_content" androidhwext:layout_marginStart="@dimen/contact_right_margin" androidhwext:layout_marginEnd="@dimen/numbermark_margin_start_end" />
+    </LinearLayout>
+    <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+</FrameLayout>

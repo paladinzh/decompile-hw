@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" adaptive:id="@+id/spacemanager_main_view" adaptive:layout_width="match_parent" adaptive:layout_height="match_parent">
+    <ViewStub adaptive:id="@+id/no_item" adaptive:layout="@layout/common_empty_layout" adaptive:layout_width="match_parent" adaptive:layout_height="match_parent" />
+    <ScrollView adaptive:id="@+id/scroll_view" adaptive:scrollbars="UNKNOWN_DATA_0x0" adaptive:layout_width="match_parent" adaptive:layout_height="match_parent">
+        <RelativeLayout adaptive:layout_width="match_parent" adaptive:layout_height="wrap_content">
+            <com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout adaptive:id="@+id/upperview" adaptive:layout_width="match_parent" adaptive:layout_height="UNKNOWN_DATA_0x7f0a007f" adaptive:layout_alignParentTop="true" adaptive:heightString="21:9">
+                <RelativeLayout adaptive:id="@+id/circle_container" adaptive:layout_width="match_parent" adaptive:layout_height="match_parent" />
+                <View adaptive:layout_width="match_parent" adaptive:layout_alignParentBottom="true" style="@style/divider_line" />
+            </com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout>
+            <LinearLayout adaptive:orientation="vertical" adaptive:id="@+id/item_container" adaptive:layout_width="match_parent" adaptive:layout_height="match_parent" adaptive:layout_below="@+id/upperview">
+                <View adaptive:layout_width="match_parent" adaptive:layout_height="UNKNOWN_DATA_0x1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

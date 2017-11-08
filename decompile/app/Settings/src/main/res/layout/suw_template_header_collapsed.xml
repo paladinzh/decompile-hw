@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/suw_layout_decor" android:background="@drawable/suw_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/suw_title_area_elevation">
+        <TextView android:id="@id/suw_layout_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuwHeaderTitle" />
+    </FrameLayout>
+    <ViewStub android:id="@id/suw_layout_progress_stub" android:layout="@layout/suw_progress_bar" android:inflatedId="@id/suw_layout_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suw_progress_bar_margin_vertical" android:layout_marginBottom="@dimen/suw_progress_bar_margin_vertical" />
+    <com.android.setupwizardlib.view.BottomScrollView android:id="@id/suw_bottom_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/suw_layout_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.android.setupwizardlib.view.BottomScrollView>
+    <com.android.setupwizardlib.view.NavigationBar android:id="@id/suw_layout_navigation_bar" android:layout_width="fill_parent" android:layout_height="@dimen/suw_navbar_height" style="@style/SuwNavBarTheme" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" settings:suwHeaderText="@string/lock_screen_notifications_interstitial_title" settings:suwBackgroundTile="@drawable/setup_illustration_tile" settings:suwIllustrationHorizontalTile="@drawable/setup_illustration_horizontal_tile" settings:suwIllustrationImage="@drawable/setup_illustration_lock_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin" style="@style/SuwContentFrame">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lock_screen_notifications_interstitial_message" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd" style="@style/SuwDescription" />
+        <RadioGroup android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/redaction_vertical_margins" android:checkedButton="@id/redact_sensitive" android:layout_marginStart="?android:listPreferredItemPaddingStart" android:layout_marginEnd="?android:listPreferredItemPaddingEnd">
+            <com.android.settings.RestrictedRadioButton android:id="@id/show_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_screen_notifications_summary_show" style="@style/SuwRadioButton" />
+            <com.android.settings.RestrictedRadioButton android:id="@id/redact_sensitive" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_screen_notifications_summary_hide" style="@style/SuwRadioButton" />
+            <RadioButton android:id="@id/hide_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lock_screen_notifications_summary_disable" style="@style/SuwRadioButton" />
+            <com.android.settings.RestrictedCheckBox android:id="@id/lockscreen_remote_input" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/redaction_vertical_margins" android:text="@string/lockscreen_remote_input" style="@style/SuwRadioButton" />
+        </RadioGroup>
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

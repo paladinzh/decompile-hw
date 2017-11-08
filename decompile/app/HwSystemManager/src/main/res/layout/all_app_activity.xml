@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" android:footerDividersEnabled="false" />
+    <RelativeLayout android:id="0x1020004" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/emui_space_horizontal" android:layout_marginEnd="@dimen/emui_space_horizontal">
+        <ImageView android:id="@+id/no_app_icon" android:layout_width="UNKNOWN_DATA_0x7f0a0066" android:layout_height="UNKNOWN_DATA_0x7f0a0066" android:layout_marginTop="@dimen/permission_emptyview_topspace" android:src="@drawable/ic_no_apps" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+        <TextView android:textSize="12sp" android:textColor="?unknown_attr_ref: 1010038" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/empty_explain" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/all_apps_empty_tips_new" android:layout_below="@+id/no_app_icon" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/progress_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

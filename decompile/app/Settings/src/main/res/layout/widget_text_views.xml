@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:layout_gravity="fill_horizontal|center|top" android:id="@id/widget_text1" android:duplicateParentState="true" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/EmuiSecondaryTextFontStyle" />
+    <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:layout_gravity="fill_horizontal|center|top" android:id="@id/widget_text2" android:duplicateParentState="true" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewEnd" android:layout_marginStart="8.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+</LinearLayout>

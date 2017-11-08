@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/alter_dialog_padding_left_right" android:layout_marginEnd="@dimen/alter_dialog_padding_left_right">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/delete_only_phone_view" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_scrollbar" android:scaleType="centerInside" android:contentDescription="0x0" />
+            <ImageView android:id="@id/delete_all_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bg_quick_scrollbar_gallery" android:scaleType="centerInside" android:contentDescription="0x0" />
+        </FrameLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:paddingStart="@dimen/alter_dialog_padding_left_right" android:paddingEnd="@dimen/alter_dialog_padding_left_right">
+        <huawei.android.widget.IgnoreCheckBox android:theme="0x2060008" android:id="@id/check_delete_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_both_places_describtion" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <TextView android:theme="0x2060008" android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="13sp" android:ellipsize="end" android:id="@id/delete_all_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete_both_places_describtion" android:maxLines="2" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

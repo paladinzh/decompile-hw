@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other_security_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/privacy_protection_title" android:key="pirvacy_protection" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.privacymode.action.STARTUP_PRIVACY_MODE" />
+    </Preference>
+</PreferenceScreen>

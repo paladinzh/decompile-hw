@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/volume_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dialog_frame_padding_start">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/ringer_mute_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/volume_ring_mute" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/emui_text_dark" android:layout_gravity="center_vertical" android:id="@id/ringer_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/incoming_call_volume_title" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+                <SeekBar android:id="@id/ringer_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+                <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/media_mute_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/volume_media_mute" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/emui_text_dark" android:layout_gravity="center_vertical" android:id="@id/set_tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/media_volume_title" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+                <SeekBar android:id="@id/media_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+                <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/alarm_mute_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/volume_alarm_mute" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/emui_text_dark" android:layout_gravity="center_vertical" android:id="@id/set_tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_alarm_description" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+                <SeekBar android:id="@id/alarm_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+                <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/voice_volume_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/voice_mute_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/volume_voice_description" />
+                <TextView android:textSize="15.0sp" android:textColor="@color/emui_text_dark" android:layout_gravity="center_vertical" android:id="@id/voice_volume_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_settings" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+                <SeekBar android:id="@id/voice_volume_seekbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+                <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="@dimen/dialog_frame_padding_start" android:layout_marginEnd="@dimen/dialog_frame_padding_end" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

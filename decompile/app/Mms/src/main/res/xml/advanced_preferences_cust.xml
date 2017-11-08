@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="pref_key_root">
+    <PreferenceCategory android:title="@string/pref_im_settings_title" android:key="pref_key_im_settings">
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/im_enable_title" android:key="pref_key_im" android:summary="@string/im_enable_detail" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/im_enable_delivery_report_title" android:key="pref_key_im_enable_delivery_report" android:summary="@string/im_enable_delivery_report_detail" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/im_enable_display_report_title" android:key="pref_key_im_enable_display_report" android:summary="@string/im_enable_display_report_detail" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/group_message_enable_delivery_report_title" android:key="pref_key_group_message_enable_delivery_report" android:summary="@string/group_message_enable_delivery_report_detail" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/auto_accept_group_invite_title" android:key="pref_key_group_invite_accept" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/im_enable_thread_mix_display_title" android:key="pref_key_im_enable_thread_mix_display" android:summary="@string/im_enable_thread_mix_display_detail" android:defaultValue="true" />
+        <Preference android:layout="@layout/mms_preference_nick_name_cust" android:title="@string/nickname_title" android:key="pref_key_mms_rcs_nick_name" android:summary="@string/nickname_dialog_et_hint" android:widgetLayout="@layout/mms_preference_widget_arrow" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/auto_accept_file_title" android:key="pref_key_auto_accept_file" android:defaultValue="true" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/roam_auto_accept_file_title" android:key="pref_key_Roam_auto_accept" android:defaultValue="false" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/show_filesize_warning_dialog_title" android:key="pref_key_crop_not_ask_me_again" android:summary="@string/rcs_file_too_big_explain" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

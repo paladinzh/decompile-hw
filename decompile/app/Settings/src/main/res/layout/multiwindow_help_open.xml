@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager android:id="@id/setting_pager" android:paddingTop="@dimen/mw_helper_pager_top_padding" android:layout_width="fill_parent" android:layout_height="@dimen/mw_helper_pager_height" />
+        <com.android.settings.mw.MwNavigationSpotsView android:layout_gravity="center_horizontal" android:id="@id/nav_spots_view" android:layout_width="fill_parent" android:layout_height="@dimen/mw_helper_nav_height" android:layout_marginTop="@dimen/mw_helper_nav_top_padding" android:layout_marginBottom="@dimen/mw_helper_nav_bottom_padding" android:layout_below="@id/setting_pager" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/nav_spots_view"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:androidhwext="http://schemas.android.com/apk/res/androidhwext">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/divider" />
+                <LinearLayout android:gravity="center_vertical" android:id="@id/switch_bar1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height">
+                    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/mw_helper_mw_switch_text_start_padding" android:layout_marginEnd="@dimen/mw_help_open_description_end_margin">
+                        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/mw_switch_text" android:paddingTop="@dimen/mw_helper_mw_switch_text_top_padding" android:paddingBottom="@dimen/mw_helper_mw_switch_text_bottom_padding" android:fadingEdge="horizontal" android:text="@string/multiwindow" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+                    </RelativeLayout>
+                    <Switch android:layout_gravity="center" android:id="@id/mw_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/mw_helper_mw_switch_text_start_padding" android:layout_marginEnd="@dimen/mw_help_open_description_end_margin" />
+                </LinearLayout>
+                <include layout="@layout/divider" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</ScrollView>

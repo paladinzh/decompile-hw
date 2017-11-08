@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <inset android:drawable="@drawable/list_bg" android:insetLeft="@dimen/spaceclean_manager_list_item_padding_start" android:insetRight="@dimen/spaceclean_manager_list_item_padding_end" android:insetTop="@dimen/spaceclean_manager_list_item_padding_top" android:insetBottom="@dimen/spaceclean_manager_list_item_padding_bottom">
+            <shape>
+                <solid android:color="#0c000000" />
+                <corners android:radius="5dp" />
+            </shape>
+        </inset>
+    </item>
+    <item>
+        <inset android:drawable="@drawable/list_bg" android:insetLeft="@dimen/spaceclean_manager_list_item_padding_start" android:insetRight="@dimen/spaceclean_manager_list_item_padding_end" android:insetTop="@dimen/spaceclean_manager_list_item_padding_top" android:insetBottom="@dimen/spaceclean_manager_list_item_padding_bottom" />
+    </item>
+</selector>

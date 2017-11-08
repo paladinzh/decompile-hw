@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/logo_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/logo_container" android:layout_width="@dimen/oobe_logo_container_size" android:layout_height="@dimen/oobe_logo_container_size">
+            <ImageView android:layout_gravity="center" android:id="@id/logo_background" android:background="@drawable/bg_wifi_oobe_purple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo_oobe_wifi" android:background="@drawable/ic_oobe_wifi" android:layout_width="@dimen/oobe_logo_size" android:layout_height="@dimen/oobe_logo_size" android:layout_marginTop="@dimen/oobe_logo_margin_top" android:contentDescription="@null" />
+        </FrameLayout>
+        <TextView android:textSize="18.0sp" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_setup_wizard_title" android:fontFamily="HwChinese-medium" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/wifi_required_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/wifi_required_info_text" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/list_header_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" android:scaleType="fitXY" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@android:id/empty" android:padding="@android:dimen/preference_fragment_padding_side" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/button_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/button_bar" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

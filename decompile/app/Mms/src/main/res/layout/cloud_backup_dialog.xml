@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <ImageView android:id="@+id/cloud_backup_image" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="24dp" android:layout_marginBottom="8dp" android:src="@drawable/cloud_backup" android:layout_weight="1.0" />
+        <TextView android:textSize="13sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/body_cloud_backup" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hw_cloud_alert_body_new" android:lineSpacingMultiplier="1.1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/confirm_cloud_backup" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/hw_cloud_alert_enable" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+        <Button android:id="@+id/cancel_cloud_backup" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/hw_cloud_alert_cancel_new" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    </LinearLayout>
+</LinearLayout>

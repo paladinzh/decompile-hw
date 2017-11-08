@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/contacts_dialpad" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:stretchColumns="0,1,2" android:layoutDirection="ltr">
+    <View android:id="@+id/line_horizontal_top_table0" android:background="@drawable/line_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" />
+    <TableRow android:id="@+id/table0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/new_contact" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageView android:id="@+id/dialer_selector_new_contact" android:duplicateParentState="false" android:contentDescription="0x0" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:text="@string/pickerNewContactText" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/add_exist_contact" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageView android:id="@+id/dialer_selector_add_exist_contact" android:duplicateParentState="false" android:contentDescription="0x0" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:id="@+id/saveto_existed_contact" android:text="@string/contact_saveto_existed_contact" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/video_call_button" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton android:src="@drawable/ic_dialer_selector_video_call" android:contentDescription="@string/contact_menu_video_call" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:id="@+id/video_call_text" android:text="@string/contact_menu_video_call" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/send_sms" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageView android:id="@+id/dialer_selector_send_sms" android:duplicateParentState="false" android:contentDescription="0x0" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:text="@string/contact_menu_send_message" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/encrypt_call" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton android:id="@+id/dialer_selector_encrypt_call" android:src="@drawable/ic_contacts_encryption_dial" android:scaleType="fitXY" android:contentDescription="@string/encrypt_call" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:text="@string/encrypt_call" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout android:id="@+id/rcs_call_view" android:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageView android:id="@+id/rcs_call_icon" android:src="@drawable/pre_call_mark_icon" android:contentDescription="0x0" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView android:id="@+id/rcs_call_text" android:text="@string/rcs_call_view_text" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+    </TableRow>
+    <View android:id="@+id/dialpad_line" android:background="@drawable/line_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d034c" />
+    <View android:id="@+id/white_space" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0345" />
+    <TableRow android:id="@+id/table1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0" android:paddingStart="@dimen/dialpad_table_row_padding_start" android:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <com.android.contacts.dialpad.DialpadKeyButton android:id="@+id/contacts_dialpad_one" style="@style/contacts_dialpad_key_button_style">
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/contacts_dialpad_key_internal_layout_style">
+                    <TextView android:id="@+id/contacts_dialpad_key_number" android:paddingBottom="3dp" android:layout_marginTop="-3dp" android:includeFontPadding="false" android:layout_centerHorizontal="true" style="@style/contacts_dialpad_key_number_style" />
+                    <ImageView android:id="@+id/dialpad_key_voicemail" android:layout_width="wrap_content" android:src="@drawable/contacts_ic_dial_action_vm" android:scaleType="fitStart" android:layout_below="@+id/contacts_dialpad_key_number" android:layout_centerHorizontal="true" android:contentDescription="@string/image_content_description" style="@style/contacts_dialpad_key_letters_style" />
+                </RelativeLayout>
+            </com.android.contacts.dialpad.DialpadKeyButton>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_two" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_three" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/table2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0" android:paddingStart="@dimen/dialpad_table_row_padding_start" android:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_four" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_five" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_six" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/table3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0" android:paddingStart="@dimen/dialpad_table_row_padding_start" android:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_seven" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_eight" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <include android:id="@+id/contacts_dialpad_nine" layout="@layout/contacts_dialpad_key" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:id="@+id/table4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x0" android:layout_weight="1.0" android:paddingStart="@dimen/dialpad_table_row_padding_start" android:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <com.android.contacts.dialpad.DialpadKeyButton android:id="@+id/contacts_dialpad_star" style="@style/contacts_dialpad_key_button_style">
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/contacts_dialpad_key_internal_layout_style">
+                    <ImageView android:id="@+id/contacts_dialpad_key_star" android:background="@drawable/contacts_dialpad_star" android:layout_width="UNKNOWN_DATA_0x7f0d0358" android:layout_height="UNKNOWN_DATA_0x7f0d0359" android:contentDescription="@string/image_content_description" style="@style/contacts_dialpad_key_number_style" />
+                    <TextView android:id="@+id/contacts_dialpad_key_letters" android:paddingTop="2dp" android:layout_below="@+id/contacts_dialpad_key_star" style="@style/contacts_dialpad_key_letters_style" />
+                </RelativeLayout>
+            </com.android.contacts.dialpad.DialpadKeyButton>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <com.android.contacts.dialpad.DialpadKeyButton android:id="@+id/contacts_dialpad_zero" style="@style/contacts_dialpad_key_button_style">
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/contacts_dialpad_key_internal_layout_style">
+                    <TextView android:id="@+id/contacts_dialpad_key_number" android:layout_marginTop="2dp" android:includeFontPadding="false" style="@style/contacts_dialpad_key_number_style" />
+                    <TextView android:textSize="@dimen/contacts_dialpad_key_letter_plus_size" android:id="@+id/contacts_dialpad_key_letters" android:layout_marginTop="@dimen/dialpad_numberAndcharacter_padding" android:layout_below="@+id/contacts_dialpad_key_number" style="@style/contacts_dialpad_key_letters_style" />
+                </RelativeLayout>
+            </com.android.contacts.dialpad.DialpadKeyButton>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d005d" android:layout_weight="1.0">
+            <com.android.contacts.dialpad.DialpadKeyButton android:id="@+id/contacts_dialpad_pound" style="@style/contacts_dialpad_key_button_style">
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" style="@style/contacts_dialpad_key_internal_layout_style">
+                    <ImageView android:id="@+id/contacts_dialpad_key_pound" android:background="@drawable/contacts_dialpad_pound" android:layout_width="UNKNOWN_DATA_0x7f0d0358" android:layout_height="UNKNOWN_DATA_0x7f0d0358" android:contentDescription="@string/image_content_description" style="@style/contacts_dialpad_key_number_style" />
+                    <TextView android:id="@+id/contacts_dialpad_key_letters" android:paddingTop="2dp" android:layout_below="@+id/contacts_dialpad_key_pound" style="@style/contacts_dialpad_key_letters_style" />
+                </RelativeLayout>
+            </com.android.contacts.dialpad.DialpadKeyButton>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

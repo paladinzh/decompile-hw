@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/widget_margin_top" android:layout_marginBottom="@dimen/widget_margin_bottom" android:layout_marginStart="@dimen/widget_margin_left" android:layout_marginEnd="@dimen/widget_margin_right"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/widget_header" android:background="@drawable/header_bg_mms_widget_holo" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:paddingStart="8dp" android:paddingEnd="8dp">
+        <ImageView android:id="@+id/widget_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@mipmap/ic_launcher_icon" android:layout_marginEnd="8dp" />
+        <TextView android:id="@+id/widget_label" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/app_label" android:layout_weight="1.0" android:layout_marginEnd="8dp" style="@style/WidgetTitle" />
+        <TextView android:textSize="18sp" android:textColor="@color/widget_unread_count_text_color" android:id="@+id/widget_unread_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp" />
+        <ImageButton android:id="@+id/widget_compose" android:background="@drawable/action_btn_background" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mms_menu_add" android:contentDescription="@string/new_message" android:layout_marginStart="4dp" />
+    </LinearLayout>
+    <ListView android:id="@+id/conversation_list" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="0x106000d" android:cacheColorHint="@color/widget_conversation_list_cache_hint_color" android:layout_weight="1.0" />
+    <ImageView android:id="@+id/img_div_top_btm" android:background="@drawable/list_div_top_btm_mms_widget_holo" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

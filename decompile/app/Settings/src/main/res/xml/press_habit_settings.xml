@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/press_habit_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:gravity="center_horizontal" android:key="virtual_notification_key_screen" android:summary="@string/pressure_launch_app_help_tip" settings:drawable="@drawable/pressure_response_animation" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/virtual_notification_key_title" android:key="virtual_notification_key_toggle" android:summary="@string/virtual_notification_key_summary" />
+</PreferenceScreen>

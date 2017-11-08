@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="true" android:drawable="@drawable/btn_radio_on_disabled_emui" />
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/btn_radio_off_disabled_emui" />
+    <item android:state_checked="true" android:state_pressed="false" android:drawable="@drawable/btn_radio_on_emui" />
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/btn_radio_on_pressed_emui" />
+    <item android:state_checked="false" android:state_pressed="false" android:drawable="@drawable/btn_radio_off_emui" />
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/btn_radio_off_pressed_emui" />
+</selector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/line" android:background="@color/clock_divider_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a003f" android:layout_marginStart="23dp" android:layout_marginEnd="23dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <include android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginBottom="14dp" android:layout_weight="@integer/world_clock_land_left_weight" layout="@layout/world_clock_head_item" />
+        <RelativeLayout android:id="@id/city_menu_layout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="@integer/world_clock_land_right_weight">
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/worldclock_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/location_list_select" android:divider="0x0" android:layout_alignParentTop="true" android:fadeScrollbars="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

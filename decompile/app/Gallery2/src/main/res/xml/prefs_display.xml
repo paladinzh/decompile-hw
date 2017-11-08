@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:id="@id/display_fragment">
+    <Preference androidhwext:layout="@layout/divider_line" androidhwext:preferenceID="@id/default_id_line_01" />
+    <SwitchPreference androidhwext:title="@string/browse_info_display_time" androidhwext:key="key_display_time_info" androidhwext:summary="@string/browse_info_display_time_summary" androidhwext:defaultValue="false" androidhwext:preferenceID="@id/key_display_time_info" />
+    <Preference androidhwext:layout="@layout/divider_line" androidhwext:preferenceID="@id/default_id_line_02" />
+    <SwitchPreference androidhwext:title="@string/browse_info_display_location" androidhwext:key="key_display_location_info" androidhwext:summary="@string/browse_info_display_location_summary" androidhwext:defaultValue="false" androidhwext:preferenceID="@id/key_display_location_info" />
+</PreferenceScreen>

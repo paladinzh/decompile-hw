@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.DeliveryReportListItem xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/delivery_report_item_height">
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="8dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="18sp" android:textColor="@color/delivery_report_list_item_recipient_text_color" android:id="@+id/recipient" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="14sp" android:textColor="@color/delivery_report_list_item_status_text_color" android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="14sp" android:textColor="@color/delivery_report_list_item_date_text_color" android:id="@+id/delivery_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/icon" android:background="@color/delivery_report_list_item_icon_bg" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.0" android:layout_marginEnd="5dp" />
+</com.android.mms.ui.DeliveryReportListItem>

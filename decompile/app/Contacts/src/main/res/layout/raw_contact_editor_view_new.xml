@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/raw_contact_editor_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_show_head_style" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/btn_divider" android:visibility="visible" android:layout_height="UNKNOWN_DATA_0x201" style="@style/contact_horizontal_divider_style" />
+    </LinearLayout>
+    <com.android.contacts.editor.ContactEditorScrollView android:id="@+id/contact_editor_scroll_view" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_below="@+id/ll_show_head_style">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/editor_accout_types" android:background="@drawable/contact_editor_account_title_selector" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d024a">
+                <TextView android:textSize="@dimen/contact_editor_title_account_name_size" android:textColor="@color/contact_eidtor_account_name_color" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                <ImageView android:id="@+id/account_arrow" android:layout_width="UNKNOWN_DATA_0x7f0d024f" android:layout_height="UNKNOWN_DATA_0x7f0d024f" android:src="@drawable/contact_arrow_down" android:scaleType="center" android:contentDescription="@string/content_description_select_contact_storage_location" android:paddingStart="@dimen/parent_layout_side_padding" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@+id/editor_head" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_alignTop="@+id/edit_name_container" android:layout_alignBottom="@+id/edit_name_container" android:layout_marginStart="16dp">
+                        <include android:id="@+id/edit_photo" layout="@layout/item_photo_editor" />
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/edit_name_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_toEndOf="@+id/editor_head">
+                        <include android:id="@+id/edit_name" layout="@layout/structured_name_editor_view" />
+                        <include android:id="@+id/edit_phonetic_name" layout="@layout/phonetic_name_editor_view" />
+                        <include android:id="@+id/edit_organisation" layout="@layout/organisation_name_editor_view" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/sect_fields" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/button_add_field" android:layout_width="UNKNOWN_DATA_0x7f0d0133" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_margin="@dimen/no_contacts_empty_button_margin" android:text="@string/add_field" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </com.android.contacts.editor.ContactEditorScrollView>
+    <FrameLayout android:id="@+id/company_popup" android:background="@drawable/company_pop_background" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d030c" android:layout_height="wrap_content" android:layout_marginStart="70dp">
+        <ListView android:id="@+id/company_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/contact_company_pop_list_margin_bottom" android:layout_marginStart="@dimen/contact_company_pop_list_margin_left_or_right" android:layout_marginEnd="@dimen/contact_company_pop_list_margin_left_or_right" />
+    </FrameLayout>
+</com.android.contacts.editor.RawContactEditorView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:state_pressed="true" android:color="@color/emui_tab_title_selected_pressed_light" />
+    <item android:state_pressed="true" android:color="@color/emui_tab_title_normal_pressed_light" />
+    <item android:state_selected="true" android:color="@color/emui_tab_title_selected_light" />
+    <item android:color="@color/emui_tab_title_normal_light" android:state_activated="true" />
+    <item android:color="@color/emui_tab_title_normal_light" />
+</selector>

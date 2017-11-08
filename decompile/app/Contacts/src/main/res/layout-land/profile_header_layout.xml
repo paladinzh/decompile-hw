@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/photo" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@string/content_description_my_photo" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/profile_name_photo_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/profile_simple_card_name_container_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/profile_simple_card_container_margin_start" android:layout_marginEnd="@dimen/profile_simple_card_container_margin_start">
+        <ImageView android:id="@+id/small_photo" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d037b" android:layout_height="UNKNOWN_DATA_0x7f0d037b" android:layout_marginBottom="@dimen/profile_simple_card_small_photo_margin" android:scaleType="fitXY" android:layout_alignParentTop="true" android:contentDescription="@string/content_description_my_photo" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/name_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0376" android:layout_below="@+id/small_photo">
+            <TextView android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/profile_simple_card_header_tv_primary_style" />
+            <TextView android:id="@+id/company" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/name" style="@style/profile_simple_card_header_tv_secondary_style" />
+            <TextView android:id="@+id/profession" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/company" style="@style/profile_simple_card_header_tv_secondary_style" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

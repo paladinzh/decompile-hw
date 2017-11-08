@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <android.support.v4.view.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="@dimen/pressure_helper_pager_height" android:layout_below="@id/prefs_container" />
+    <com.android.settings.views.pagerHelper.PagerHelperSpotsView android:id="@id/nav_spots_view" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_marginBottom="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

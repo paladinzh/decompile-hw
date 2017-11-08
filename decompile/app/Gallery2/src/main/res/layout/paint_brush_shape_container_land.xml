@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@id/brush_shape_root" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="match_parent">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/free_line_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_free" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/arrow_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@drawable/ic_gallery_edit_pen_shape_arrow" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/line_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@drawable/ic_gallery_edit_pen_shape_line" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/square_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@drawable/ic_gallery_edit_pen_shape_rectangle" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/circle_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@drawable/ic_gallery_edit_pen_shape_cirle" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

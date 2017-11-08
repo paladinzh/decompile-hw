@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_overflow" android:id="@+id/action_overflow_menu" android:title="@string/menu_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_unlock_message" android:visible="false" android:title="@string/menu_unlock" />
+            <item android:id="@+id/menu_lock_message" android:visible="false" android:title="@string/menu_lock" />
+            <item android:id="@+id/menu_forward_message" android:visible="false" android:title="@string/menu_forward" />
+            <item android:id="@+id/menu_delete_message" android:visible="false" android:title="@string/delete_message" />
+        </menu> />
+</menu>

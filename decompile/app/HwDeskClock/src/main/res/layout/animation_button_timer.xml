@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/btn_clock_toolbar_bg" android:padding="@dimen/btn_container_padding" android:layout_width="UNKNOWN_DATA_0xc501" android:layout_height="UNKNOWN_DATA_0x2f01" android:baselineAligned="false">
+    <RelativeLayout android:id="@id/timer_reset_tv_btn" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+        <ImageView android:id="@id/timer_btn_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_clock_reset" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/Toolbar_alarmstopwatch_renew" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/startandstop" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01">
+        <ImageView android:id="@id/timer_btn_start" android:background="@drawable/img_clock_stopwatch_btn_bg" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:src="@drawable/btn_clock_start" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/notify_start" />
+        <ImageView android:id="@id/timer_btn_pause" android:background="@drawable/img_clock_stopwatch_btn_bg" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:src="@drawable/btn_clock_stop" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/notify_pause" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/timer_setting_tv_btn" android:layout_width="UNKNOWN_DATA_0x2d01" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+        <ImageView android:id="@id/timer_btn_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_settings" android:scaleType="centerInside" android:layout_centerInParent="true" android:contentDescription="@string/settings" />
+    </RelativeLayout>
+</LinearLayout>

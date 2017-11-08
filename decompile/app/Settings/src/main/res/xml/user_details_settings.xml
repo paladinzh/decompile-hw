@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:title="@string/accout_switch" android:key="accout_switch" />
+    <SwitchPreference android:title="@string/user_enable_calling_sms" android:key="enable_calling" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/user_remove_user" android:key="remove_user" settings:userRestriction="no_remove_user" settings:useAdminDisabledSummary="true" />
+</PreferenceScreen>

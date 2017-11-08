@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be"
+    <LinearLayout android:orientation="horizontal" android:id="@id/r_group" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_modification_r" />
+        <SeekBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x10203c9" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/g_group" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_modification_g" />
+        <SeekBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x10203c9" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/b_group" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_modification_b" />
+        <SeekBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x10203c9" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16dp" />
+    </LinearLayout>
+</LinearLayout>

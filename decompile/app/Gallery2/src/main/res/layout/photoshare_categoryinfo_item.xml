@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="8dp">
+    <com.android.gallery3d.ui.MultiImageView android:id="@id/categoryinfo_cover" style="@style/photoshare_categoryinfo_cover" />
+    <ImageView android:id="@id/categoryinfo_mask" android:layout_width="UNKNOWN_DATA_0x7f0d01ff" android:layout_height="UNKNOWN_DATA_0x7f0d0200" android:src="@drawable/video_frame" android:scaleType="fitXY" />
+    <TextView android:textSize="9dp" android:textColor="@color/photoshare_albumset_name_color" android:id="@id/categoryinfo_tips" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:alpha="0.7" android:layout_marginStart="8dp" />
+    <TextView android:textSize="12dp" android:textColor="@color/photoshare_albumset_name_color" android:id="@id/categoryinfo_name" android:paddingBottom="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="8dp" />
+</RelativeLayout>

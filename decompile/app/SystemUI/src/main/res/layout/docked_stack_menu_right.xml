@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.stackdivider.DividerMenusView xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="gone" style="@style/DockedMenusView">
+    <View android:id="@id/transparent_view" android:background="@color/mw_trans_bg" style="@style/DockedMenuTranViewRight" />
+    <RelativeLayout android:id="@id/docked_stack_menus" android:background="@color/docked_stack_menu_background" style="@style/DockedStackMenuLayoutRight">
+        <LinearLayout style="@style/DockedStackMenuRight">
+            <ImageView android:id="@id/docked_menu_change" android:src="@drawable/docked_menu_reversed" style="@style/DockedMenuChange" />
+            <ImageView android:id="@id/docked_menu_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/docked_menu_close" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.android.systemui.stackdivider.DividerMenusView>

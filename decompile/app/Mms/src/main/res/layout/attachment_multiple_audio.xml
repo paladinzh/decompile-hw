@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.mms.attachment.ui.AttachMaxFrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/message_audio" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/audio_anima_and_duration" android:background="@drawable/message_pop_send_bg" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x4b01" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="32dp" android:layout_marginEnd="4dp">
+            <ImageView android:id="@+id/audio_anima_image_view" android:background="@drawable/anim_audio_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentStart="true" />
+            <TextView android:textColor="@color/attachment_preview_audio_textcolor" android:id="@+id/audio_anima_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/attachment_btn_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_attachment_preview_cancle" android:contentDescription="@string/remove" />
+    </com.android.mms.attachment.ui.AttachMaxFrameLayout>
+    <TextView android:textSize="@dimen/attachment_preview_page_textsize" android:textColor="@color/attachment_preview_slide_page_textcolor" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/slidepage_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

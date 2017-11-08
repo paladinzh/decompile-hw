@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="power_settings">
+    <PreferenceCategory androidhwext:title="@string/firewall_title" androidhwext:key="high_consume_category">
+        <SwitchPreference androidhwext:title="@string/consumption_hint_title" androidhwext:key="high_consume_remind" androidhwext:summary="@string/power_intensive_prompt_detail" androidhwext:preferenceID="@+id/prefs_high_consume_remind" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui8" />
+        <TextArrowPreference androidhwext:title="@string/textview_history_title" androidhwext:key="high_consume_history" androidhwext:preferenceID="@+id/prefs_high_consume_history" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui9" />
+        <SwitchPreference androidhwext:title="@string/super_high_power_title" androidhwext:key="super_high_power_title_key" androidhwext:summary="@string/super_high_power_content" androidhwext:preferenceID="@+id/prefs_super_high_power_title_key" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui10" />
+        <TextArrowPreference androidhwext:title="@string/super_high_power_record" androidhwext:key="super_high_power_record_key" androidhwext:preferenceID="@+id/prefs_super_high_power_record_key" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/power_setting_preference_category_title2" androidhwext:key="connect_network_after_sleep_category">
+        <ListPreference androidhwext:entries="@array/power_setting_wlan_list_preference_options_emui305" androidhwext:layout="@layout/text_arrow_list_preference_layout" androidhwext:title="@string/power_setting_wlan_list_preference_title" androidhwext:key="WLAN_connect" androidhwext:summary="" androidhwext:entryValues="@array/power_setting_wlan_list_preference_keys" androidhwext:preferenceID="@+id/prefs_power_setting_wlan_list_preference_title" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui17" />
+        <SwitchPreference androidhwext:title="@string/power_setting_data_preference_title" androidhwext:key="data_connect" androidhwext:preferenceID="@+id/prefs_data_connect" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/super_power_saving_title_subtitle" androidhwext:key="superpower_setting_category">
+        <TextArrowPreference androidhwext:title="@string/super_power_saving_introduce_title" androidhwext:key="SUPER_POWER_SAVING_ABOUT_KEY" androidhwext:preferenceID="@+id/prefs_uper_power_saving_introduce_title" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui11" />
+    </PreferenceCategory>
+</PreferenceScreen>

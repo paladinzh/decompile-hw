@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.mms.ui.NoMessageView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/gravity_style">
+    <RelativeLayout android:id="@+id/no_message_image_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/mms_nomessageview_height">
+        <LinearLayout android:orientation="vertical" android:id="@+id/no_message_image_super" style="@style/empty_layout_style">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/hint_image" android:layout_width="UNKNOWN_DATA_0x7f0a02c4" android:layout_height="UNKNOWN_DATA_0x7f0a02c5" android:scaleType="centerInside" />
+            <TextView android:textColor="@color/mms_hint_text_color" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" style="@style/text_color_weak" />
+        </LinearLayout>
+    </RelativeLayout>
+</com.huawei.mms.ui.NoMessageView>

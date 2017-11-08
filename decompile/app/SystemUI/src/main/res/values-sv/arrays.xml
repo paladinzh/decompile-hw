@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter…</item>
+        <item>Autentiserar…</item>
+        <item>Erhåller IP-adress…</item>
+        <item>Ansluten</item>
+        <item>Spärrat</item>
+        <item>Kopplar ifrån…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skannar…</item>
+        <item>Ansluter till %1$s…</item>
+        <item>Autentiserar med %1$s…</item>
+        <item>Hämtar IP-adress från %1$s…</item>
+        <item>Ansluten till: %1$s</item>
+        <item>Spärrat</item>
+        <item>Kopplar ifrån %1$s…</item>
+        <item>Frånkopplad</item>
+        <item>Misslyckades</item>
+        <item>Blockerat</item>
+        <item>Undviker just nu dålig anslutning</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Kontrollera aldrig</item>
+        <item>Kontrollera bara DRM-innehåll</item>
+        <item>Kontrollera alltid</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Använd aldrig HDCP-kontroll</item>
+        <item>Använd bara HDCP-kontroll för DRM-innehåll</item>
+        <item>Använd alltid HDCP-kontroll</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Av</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Av</item>
+        <item>64 kB/loggbuffert</item>
+        <item>256 kB/loggbuffert</item>
+        <item>1 MB/loggbuffert</item>
+        <item>4 MB/loggbuffert</item>
+        <item>16 MB/loggbuffert</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animering avstängd</item>
+        <item>Animering i skala 0,5x</item>
+        <item>Animering i skala 1x</item>
+        <item>Animering i skala 1,5x</item>
+        <item>Animering i skala 2x</item>
+        <item>Animering i skala 5x</item>
+        <item>Animering i skala 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animering avstängd</item>
+        <item>Animering i skala 0,5x</item>
+        <item>Animering i skala 1x</item>
+        <item>Animering i skala 1,5x</item>
+        <item>Animering i skala 2x</item>
+        <item>Animering i skala 5x</item>
+        <item>Animering i skala 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animering avstängd</item>
+        <item>Animering i skala 0,5x</item>
+        <item>Animering i skala 1x</item>
+        <item>Animering i skala 1,5x</item>
+        <item>Animering i skala 2x</item>
+        <item>Animering i skala 5x</item>
+        <item>Animering i skala 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Inga</item>
+        <item>480 p</item>
+        <item>480 p (säkert)</item>
+        <item>720 p</item>
+        <item>720 p (säkert)</item>
+        <item>1080 p</item>
+        <item>1080 p (säkert)</item>
+        <item>4K</item>
+        <item>4K (säkert)</item>
+        <item>4K (uppskalat)</item>
+        <item>4K (uppskalat, säkert)</item>
+        <item>720 p, 1080 p (dubbla skärmar)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Inga</item>
+        <item>Logcat</item>
+        <item>Systrace (grafik)</item>
+        <item>Anropsstacken på glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Av</item>
+        <item>Rita icke-rektangulära urklippsavsnitt i blått</item>
+        <item>Markera testade ritningskommandon i grönt</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Av</item>
+        <item>På skärmen som fält</item>
+        <item>I adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Av</item>
+        <item>Visa områden som överskrider gränsen</item>
+        <item>Visa områden för deuteranomali</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardgräns</item>
+        <item>Inga bakgrundsprocesser</item>
+        <item>Högst 1 process</item>
+        <item>Högst 2 processer</item>
+        <item>Högst 3 processer</item>
+        <item>Högst 4 processer</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Laddar</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Ljudkälla</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Mycket långsamt</item>
+        <item>Långsamt</item>
+        <item>Normalt</item>
+        <item>Snabbt</item>
+        <item>Snabbare</item>
+        <item>Mycket snabbt</item>
+        <item>Supersnabbt</item>
+        <item>Turbosnabbt</item>
+        <item>Snabbast</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Starka (standard)</item>
+        <item>Naturliga</item>
+        <item>Standardfärger</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Berikade färger</item>
+        <item>Naturliga färger så som ögat ser dem</item>
+        <item>Färger som har anpassats för digitalt innehåll</item>
+    </array>
+    <array name="clock_options">
+        <item>Visa timmar, minuter och sekunder</item>
+        <item>Visa timmar och minuter (standard)</item>
+        <item>Visa inte den här ikonen</item>
+    </array>
+    <array name="battery_options">
+        <item>Visa alltid procent</item>
+        <item>Visa procent under laddning (standard)</item>
+        <item>Visa inte den här ikonen</item>
+    </array>
+</resources>

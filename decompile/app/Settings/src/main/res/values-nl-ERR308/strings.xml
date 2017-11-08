@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Verbonden via WLAN-assistent</string>
+    <string name="accessibility_wifi_off">WLAN uit.</string>
+    <string name="accessibility_no_wifi">WLAN verbinding verbroken.</string>
+    <string name="accessibility_wifi_one_bar">WLAN: één streepje.</string>
+    <string name="accessibility_wifi_two_bars">WLAN: twee streepjes.</string>
+    <string name="accessibility_wifi_three_bars">WLAN: drie streepjes.</string>
+    <string name="accessibility_wifi_signal_full">WLAN-signaal is op volledige sterkte.</string>
+    <string name="wifi_verbose_logging">Uitgebr. WLAN-logb.reg. aan</string>
+    <string name="wifi_aggressive_handover">Agressieve overdr. WLAN - mob</string>
+    <string name="wifi_allow_scan_with_traffic">Roamingscans WLAN toestaan</string>
+    <string name="wifi_verbose_logging_summary">WLAN-logb. uitbreiden, tonen per SSID RSSI in WLAN-kiezer</string>
+    <string name="wifi_aggressive_handover_summary">WLAN-verbinding wordt sneller omgezet naar mobiele geg.verbinding bij zwak WLAN-signaal</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Roamingscans WLAN toest./beperken afh. van interfaceverkeer</string>
+    <string name="mobile_data_always_on_summary">Houd mob. geg. altijd actief, ook als WLAN actief is (voor snel netw. schakelen)</string>
+    <string name="radio_controls_summary">"WLAN, Bluetooth, vliegmodus, mobiele netwerken en VPN's beheren"</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN inschakelen</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN-instellingen</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN selecteren</string>
+    <string name="wifi_select_network">WLAN-netwerk selecteren</string>
+    <string name="wifi_starting">WLAN inschakelen…</string>
+    <string name="wifi_stopping">WLAN uitschakelen…</string>
+    <string name="wifi_poor_network_detection_summary">WLAN-netwerk niet gebruiken, tenzij dit een goede verbinding heeft</string>
+    <string name="wifi_automatically_connect_title">Open WLAN autom. gebruiken</string>
+    <string name="wifi_automatically_connect_summary">Laat WLAN Assistant automatisch verbinding maken met open netwerken met goede internetverbindingen</string>
+    <string name="wifi_scan_notify_text">Systeem-apps en services kunnen wifinetwerken blijven scannen om de nauwkeurigheid van de locatie te verbeteren. U kunt dit wijzigen in LINK_BEGINscaninstellingenLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN behouden in slaapstand</string>
+    <string name="wifi_suspend_optimizations">WLAN-optimalisatie</string>
+    <string name="wifi_suspend_optimizations_summary">Accugebruik minimaliseren wanneer WLAN is ingeschakeld</string>
+    <string name="wifi_access_points">WLAN-netwerken</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Schakel WLAN in om beschikbare netwerken te bekijken.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN-netwerken zoeken...</string>
+    <string name="wifi_empty_list_user_restricted">U hebt geen toestemming om het WLAN-netwerk te wijzigen.</string>
+    <string name="wifi_wps_setup_title">Beveiligde configuratie voor WLAN</string>
+    <string name="wifi_wps_onstart_pbc">"Druk op de knop 'Beveiligde configuratie voor WLAN' op uw router. Misschien heet deze knop 'WPS' of bevat deze het volgende symbool:"</string>
+    <string name="wifi_wps_onstart_pin">Geef de pincode %1$s op uw WLAN-router op. De configuratie kan twee minuten duren.</string>
+    <string name="wifi_wps_connected">Verbonden met WLAN-netwerk %s</string>
+    <string name="wifi_scan_always_turnon_message">"Om de nauwkeurigheid van de locatie te verbeteren en voor andere doeleinden wenst %1$s netwerkscanning in te schakelen, zelfs wanneer WLAN uitgeschakeld is.
+
+Dit toestaan voor alle apps die willen scannen?"</string>
+    <string name="wifi_skipped_message">"WAARSCHUWING: Dit kan tot extra gegevenskosten van uw provider leiden.
+
+De telefoonconfiguratie kan tot veel extra netwerkactiviteit leiden."</string>
+    <string name="wifi_and_mobile_skipped_message">WAARSCHUWING: de telefoon kan niet verifiëren of uw software is bijgewerkt.</string>
+    <string name="wifi_connect_failed_message">De telefoon kan geen verbinding maken met dit WLAN-netwerk.</string>
+    <string name="wifi_advanced_titlebar">Geavanceerde WLAN-instellingen</string>
+    <string name="wifi_configure_titlebar">WLAN configureren</string>
+    <string name="wifi_advanced_not_available">Geavanceerde WLAN-instellingen zijn niet beschikbaar voor deze gebruiker</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Draagbare WLAN-hotspot</string>
+    <string name="wifi_tether_failed_subtext">Fout met draagbare WLAN-hotspot</string>
+    <string name="wifi_tether_configure_ap_text">WLAN-hotspot configureren</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s draagbare WLAN-hotspot</string>
+    <string name="wifi_calling_settings_title">Instellingen voor bellen via WLAN</string>
+    <string name="wifi_calling_suggestion_title">Bellen via WLAN inschakelen</string>
+    <string name="wifi_calling_suggestion_summary">WLAN gebruiken in plaats van mobiel netwerk</string>
+    <string name="wifi_calling_mode_title">Oproepen via WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Oproepmodus WLAN</string>
+    <string name="wifi_calling_off_explanation">Wanneer bellen via WLAN is ingeschakeld, kan uw telefoon oproepen doorschakelen via wifi-netwerken of het netwerk van uw provider, afhankelijk van uw voorkeur en welk signaal sterker is. Voordat u deze functie inschakelt, neemt u contact met uw provider op over de kosten en andere details.</string>
+    <string name="status_wifi_mac_address">WLAN MAC-adres</string>
+    <string name="reset_network_desc">"Hiermee herstelt u alle netwerkinstellingen, inclusief:
+
+"<li>WLAN</li>"
+"<li>Mobiele gegevens</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">WLAN-assistent wijzigen?</string>
+    <string name="location_mode_high_accuracy_description">"Gebruik GPS, WLAN en mobiele netwerken voor geschatte locatie "</string>
+    <string name="location_mode_battery_saving_description">Gebruik WLAN en mobiele netwerken om locatie te schatten</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN-scannen</string>
+    <string name="location_scanning_wifi_always_scanning_description">Verbeter de locatie door systeem-apps en -services op elk gewenst moment WLAN-netwerken te laten detecteren</string>
+    <string name="location_network_based">WLAN &amp; mobiel netwerk locatie</string>
+    <string name="location_neighborhood_level">Apps gegevens laten gebruiken uit bronnen zoals mobiele en WLAN-netwerken om uw locatie te schatten</string>
+    <string name="location_neighborhood_level_wifi">Locatie bepaald via WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN op tijd</string>
+    <string name="bluetooth_on_time">WLAN op tijd</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN actief</string>
+    <string name="usage_type_data_wifi_send">WLAN-data verzonden</string>
+    <string name="usage_type_data_wifi_recv">WLAN-gegevens ontvangen</string>
+    <string name="battery_action_wifi">WLAN-instellingen</string>
+    <string name="battery_desc_wifi">Accu gebruikt door WLAN</string>
+    <string name="battery_sugg_wifi">Schakel WLAN uit wanneer u dit niet gebruikt of wanneer dit niet beschikbaar is</string>
+    <string name="gadget_toggle_wifi">WLAN-instelling bijwerken</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Back-up maken van gegevens, WLAN wachtwoorden en andere instellingen naar Google servers</string>
+    <string name="backup_erase_dialog_message">Weet u zeker dat u het maken van back-ups van uw WLAN-wachtwoorden, bladwijzers, andere instellingen en gegevens voor apps wilt stoppen en alle kopieën op Google-servers wilt wissen?</string>
+    <string name="fullbackup_erase_dialog_message">Stoppen met back-up van apparaatgegevens (zoals WLAN-wachtwoorden en oproepgeschiedenis) en app-gegevens (zoals instellingen en bestanden die door apps worden opgeslagen) en alle kopieën op Google Drive wissen?</string>
+    <string name="fullbackup_data_summary">"Automatisch op afstand een back-up maken van apparaatgegevens (zoals WLAN-wachtwoorden en oproepgeschiedenis) en app-gegevens (zoals instellingen en bestanden opgeslagen door apps).
+
+Als u de functie voor automatische back-ups inschakelt, worden apparaat- en app-gegevens periodiek op afstand opgeslagen. App-gegevens kunnen gegevens omvatten die een app heeft opgeslagen (op basis van de instellingen van de ontwikkelaar), waaronder potentieel gevoelige gegevens als contacten, berichten en foto's."</string>
+    <string name="wifi_setup_title">Instellen van WLAN</string>
+    <string name="wifi_setup_title_editing_network">Verbinding maken met WLAN-netwerk %s</string>
+    <string name="wifi_setup_title_connecting_network">Verbinding maken met WLAN-netwerk %s...</string>
+    <string name="wifi_setup_eap_not_supported">"U kunt een WLAN-verbinding van het type EAP niet configureren tijdens het instellen. U kunt dit na het instellen doen via 'Instellingen' > 'Draadloos en netwerken'."</string>
+    <string name="wifi_setup_description_connected">Raak <b>Volgende</b>" aan om door te gaan met de configuratie.
+
+Raak "<b>Terug</b> aan om verbinding te maken met een ander WLAN-netwerk.</string>
+    <string name="data_usage_menu_show_wifi">WLAN gebr. Weerg.</string>
+    <string name="data_usage_menu_hide_wifi">WLAN verbergen</string>
+    <string name="data_usage_disable_wifi_limit">WLAN-gegevenslimiet instellen</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Alleen achtergrondgegevens in mobiel gegevensnetwerk uitschakelen. WLAN wordt gebruikt, indien beschikbaar.</string>
+    <string name="data_usage_app_restrict_dialog">"Deze functie kan ervoor zorgen dat een app die afhankelijk is van achtergrondgegevens, niet meer werkt als WLAN niet beschikbaar is.
+
+Geschiktere opties voor gegevensgebruik zijn beschikbaar in de instellingen in de app."</string>
+    <string name="data_usage_restrict_background">Als u het gebruik van mobiele achtergrondgegevens beperkt, werken sommige apps en services niet, tenzij u bent verbonden met een WLAN-netwerk.</string>
+    <string name="data_usage_restrict_background_multiuser">"Als u mobiel gegevensgebruik op de achtergrond beperkt, werken sommige apps en services niet, tenzij u verbonden bent met een WLAN-netwerk.
+
+Deze instelling is van invloed op alle gebruikers van deze telefoon."</string>
+    <string name="data_usage_metered_body">Selecteer de WLAN-netwerken die mobiele hotspots zijn. Het gebruik van deze netwerken op de achtergrond kan in apps worden beperkt. Apps kunnen ook waarschuwen voordat deze netwerken worden gebruikt voor grote downloads.</string>
+    <string name="data_usage_metered_wifi">WLAN-netwerken</string>
+    <string name="data_usage_metered_wifi_disabled">Schakel WLAN in om mobiele hotspots te selecteren.</string>
+    <string name="user_add_user_message_long">"U kunt dit apparaat met andere mensen delen door extra gebruikers te maken. Elke gebruiker heeft een eigen ruimte die kan worden aangepast met eigen apps, een achtergrond, enzovoort. Gebruikers kunnen ook tabletinstellingen aanpassen, zoals WLAN, die effect hebben op alle gebruikers.
+
+Nadat u een nieuwe gebruiker heeft gemaakt, moet die persoon een configuratieproces volgen.
+
+Elke gebruiker kan namens alle andere gebruikers bijgewerkte app-machtigingen accepteren."</string>
+    <string name="restriction_wifi_config_title">WLAN en mobiele data</string>
+    <string name="restriction_wifi_config_summary">Wijziging van WLAN en mobiele netwerkingstellingen toestaan</string>
+    <string name="keywords_wifi">WLAN netwerk verbinding</string>
+    <string name="keywords_wifi_calling">WLAN WLAN oproep bellen</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC-tag instellen</string>
+    <string name="condition_hotspot_summary">Draagbare WLAN hotspot %1$s is actief. WLAN is uitgeschakeld voor dit apparaat.</string>
+    <string name="condition_airplane_summary">De WLAN-, Bluetooth- en mobiele netwerkverbinding zijn uitgeschakeld. Je kunt niet bellen of verbinding maken met internet.</string>
+    <string name="condition_cellular_summary">Internet is alleen beschikbaar via WLAN</string>
+    <string name="condition_bg_data_summary">Achtergrondgegevens zijn alleen beschikbaar via WLAN. Dit kan van invloed zijn op bepaalde apps of services wanneer er geen WLAN beschikbaar is.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN-brug</string>
+    <string name="wifi_tether_bridge_tittle_text">Instellingen WLAN-brug</string>
+    <string name="wifi_tether_configure_bridge_text">WLAN-brug configureren</string>
+    <string name="wifi_bridge_settings_summary">Stel de naam, het wachtwoord en dergelijke van de brug in</string>
+    <string name="wifi_bridge_use_help_title">Help</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN-brug kan het verzendbereik en de intensiteit van WLAN-signalen aanzienlijk verbeteren. Andere apparaten kunnen via uw apparaat verbinding met uw huidige WLAN-netwerk maken.
+2. WLAN-brug ondersteunt toegang voor maximaal 4 apparaten.
+3. WLAN-brug werkt niet met de functies WLAN-hotspot en WLAN Direct. Als u WLAN brug inschakelt, kan het zijn dat sommige apps die P2P-services gebruiken niet goed werken.
+4. Door het gebruik van WLAN-brug kan uw batterij sneller leegraken."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN-verbinding vereist</string>
+    <string name="wifi_bridge_switch_wifi_summary">Verbonden WLAN-netwerk delen</string>
+    <string name="wifi_setup_title_connected_network_Toast">Verbonden met een WLAN-netwerk %s</string>
+    <string name="huawei_beam_explained">"Met Huawei Beam kunt u bestanden, zoals foto's, video's, contacten en URL's, overdragen tussen uw apparaat en een ander NFC-apparaat. Huawei Beam wordt geactiveerd door de twee apparaten vlak bij elkaar te plaatsen (meestal met de ruggen tegen elkaar) en op uw scherm te tikken. Let op dat uw Bluetooth of WLAN automatisch kan worden ingeschakeld voor de overdracht."</string>
+    <string name="wifi_display_settings_summary">Uw telefoonscherm op een ander scherm weergeven via een WLAN-verbinding</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN-netwerken %s beschikbaar. Wilt u de gegevensservice stoppen en verbinding maken met een WLAN-netwerk?</string>
+    <string name="switch_to_wifi_manual_prompt">WLAN-signaal gevonden. Wilt u dit WLAN-netwerk gebruiken?</string>
+    <string name="switch_to_wifi_query_prompt">WLAN-netwerken %s beschikbaar. Wilt u verbinding maken met een WLAN-netwerk?</string>
+    <string name="wifi_to_wifi_prompt">Huidige verbindingssignaal is zwak. Wilt u een ander WLAN-netwerk gebruiken?</string>
+    <string name="advanced_wifi_settings_title">Geavanceerde instellingen</string>
+    <string name="huawei_beam_front_explained">"Met Huawei Beam kunt u bestanden overdragen naar andere NFC-apparaten door de apparaten vlak bij elkaar te houden. Zo kunt u draadloos foto's, video's, contacten, URL's en meer overdragen tussen twee NFC-apparaten. Heel eenvoudig:
+1. Plaats het scherm van uw apparaat tegen een ander NFC-apparaat en pak uw apparaat op nadat u een signaal hoort.
+2. Raak uw scherm binnen drie seconden na het signaal aan.
+3. Plaats het scherm van uw apparaat opnieuw tegen het andere NFC-apparaat om de overdracht te voltooien. Let op dat uw Bluetooth of WLAN automatisch kan worden ingeschakeld voor de overdracht."</string>
+    <string name="wifiap_use_help_details">"1. U kunt een draagbaar toestel met WLAN-hotspot gebruiken als punt voor internettoegang. Randapparaten kunnen met uw toestel verbonden worden via WLAN en verbonden toestellen zullen zich toegang tot het internet verschaffen via het mobiele netwerk.
+2. Voor een draagbare WLAN-hotspot dient uw mobiele dataverbinding ingeschakeld te zijn en zult u dataverkeer verbruiken.
+3. Door gebruik te maken van een draagbare WLAN-hotspot kan uw batterij een kortere levensduur hebben."</string>
+    <string name="wifiap_connect_help_details_open">"Handmatige verbinding:
+1. Schakel WLAN in op het doelapparaat en zoek naar de hotspot %1$s.
+2. Maak verbinding met de hotspot."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN van China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">U bent verbonden met een WLAN-netwerk van China Mobile. Het gebruik van dit netwerk kan toepasselijke WLAN-gebruikskosten met zich meebrengen.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">WLAN-herinnering van China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Herinner me wanneer ik verbonden ben met een WLAN-netwerk van China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Geen meldingen weergeven bij de omschakeling tussen netwerken (mobiele data naar WLAN en omgekeerd, of tussen WLAN-netwerken)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">GPS en WLAN gebruiken voor inschatten locatie</string>
+    <string name="location_mode_battery_saving_description_wifionly">WLAN gebruiken voor inschatten locatie</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Intelligente selectie van WLAN of mobiel gegevensnetwerk</string>
+    <string name="wifi_plus_description">"Wanneer WLAN+ is ingeschakeld, wordt uw WLAN-verbinding geëvalueerd om slim te schakelen tussen netwerken (het gegevensgebruik via WLAN kan toenemen). WLAN+ verzorgt automatisch:
+1. Schakeling tussen WLAN en mobiele gegevens (met meldingen) voor een soepele internetervaring.
+2. Inschakeling en verbinding met WLAN indien binnen het bereik van een bekend WLAN-netwerk."</string>
+    <string name="wifi_plus_settings_title">Instellingen WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Intelligent schakelen tussen WLAN en mobiele gegevensnetwerken voor een betere internetervaring.</string>
+    <string name="wifi_plus_auto_turn_on_description">WLAN automatisch inschakelen wanneer u een bekende locatie nadert.</string>
+    <string name="wifi_plus_global_description">"Wanneer WLAN+ is ingeschakeld, wordt uw WLAN-verbinding geëvalueerd om slim tussen netwerken te kunnen schakelen (gegevensgebruik via WLAN kan toenemen). WLAN+ doet het volgende automatisch:
+1. Schakelt tussen WLAN en mobiele gegevens voor een soepele internetervaring.
+2. Schakelt WLAN in en maakt verbinding indien in het bereik van een bekend WLAN-netwerk."</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS, WLAN en mobiele netw. gebruiken</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN en mobiele netwerken gebruiken</string>
+    <string name="pgps_switch_summary">GPS toestaan gegevens van nabije mobiele netwerkstations en WLAN te verzamelen voor het leveren van snellere en meer nauwkeurige locatieservices</string>
+    <string name="find_no_wlan_ap">Kan geen WLAN-hotspot vinden</string>
+    <string name="cannot_connect_wlan">Niet in staat om verbinding te maken met WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Kan geen toegang tot internet krijgen via WLAN</string>
+    <string name="wfd_connect_fail">WLAN-Direct-verbinding is mislukt</string>
+    <string name="find_no_wfd_device">Kan geen WLAN-Direct-toestel vinden</string>
+    <string name="wfd_search_no_devices_causes">"Geen beschikbare toestellen gevonden, het kan zijn dat:
+1. Het gekoppelde toestel is niet detecteerbaar.
+2. Het gekoppelde toestel ondervindt technische problemen. Probeer WLAN opnieuw te starten en open WLAN-Direct opnieuw.
+3. Uw eigen toestel ondervindt technische problemen. Probeer WLAN opnieuw te starten en open WLAN-Direct opnieuw."</string>
+    <string name="wfd_connected_failed_causes">"De verbinding kan niet tot stand worden gebracht. Mogelijke oorzaken:
+1. Het gekoppelde toestel heeft het verbindingsverzoek niet aanvaard.
+2. Beiden toestellen hebben reeds een andere WLAN-Direct-verbinding.
+3. Het gekoppelde toestel ondervindt technische problemen. Start het opnieuw op."</string>
+    <string name="wifi_qrcode_share_notice">Scan de QR-code om verbinding met dit WLAN-netwerk te maken</string>
+    <string name="devices_not_found_solution_title">Als het apparaat niet kan worden gevonden, probeert u het volgende:</string>
+    <string name="devices_not_found_solution_message">"1. Controleer of het apparaat naar andere apparaten zoekt.
+2. Als het te koppelen apparaat problemen ondervindt, start u WLAN en de toegang tot WLAN Direct opnieuw.
+3. Als uw apparaat problemen ondervindt, start u WLAN opnieuw en opent u WLAN Direct."</string>
+    <string name="devices_not_connected_solution_message">"1. Controleer of het te koppelen apparaat het verbindingsverzoek heeft geaccepteerd.
+2. Zorg ervoor dat geen van beide apparaten met andere apparaten is verbonden.
+3. Als het te koppelen apparaat problemen ondervindt, probeert u opnieuw verbinding te maken."</string>
+    <string name="wifi_plus_description_emui">"Wanneer WLAN+ is ingeschakeld, wordt uw wifiverbinding gecontroleerd, zodat je slim kunt wisselen tussen netwerken. Hierdoor kan het wifigebruik toenemen. Automatisch WLAN+:
+1. Wisselt tussen WLAN en mobiele netwerken om je een prettige internetervaring te bieden. Je kunt de standaard wisselmodus selecteren via je netwerkinstellingen.
+2. Schakelt WLAN in wanneer je binnen het bereik van een bekend wifinetwerk bent. Je wordt automatisch met het netwerk verbonden."</string>
+    <string name="link_plus_live_update_description">Wanneer Link+ live update is ingeschakeld, werkt uw telefoon automatisch de gegevens van communicatieparameters bij via uw draadloze netwerk (standaard via WLAN) om de relevante functies van Link+ te verbeteren.</string>
+    <string name="wifi_plus_description_emui2">"Wanneer WLAN+ is ingeschakeld, wordt uw WLAN-verbinding geëvalueerd om slim overschakelen tussen netwerken mogelijk te maken (gegevensgebruik via WLAN kan toenemen). Automatisch wifi+:
+1. Wisselt tussen WLAN en mobiele gegevensnetwerken om u een gestroomlijnde internetervaring te bieden (u kunt de standaard wisselmodus selecteren via de netwerkinstellingen).
+2. Schakelt WLAN in wanneer u binnen het bereik van een bekend wifinetwerk bent. U wordt automatisch met het netwerk verbonden.
+3. Evalueert beschikbare WLAN-netwerken. Apparaat maakt niet automatisch verbinding met opgeslagen netwerken zonder internetverbinding.
+4. Voor sommige gratis WLAN-hotspots wordt de verificatiecode automatisch van het inkomende sms-bericht verkregen en wordt er ingelogd op het netwerk via de browser (momenteel alleen ondersteund in China)."</string>
+    <string name="wifi_plus_global_description2">"Wanneer WLAN+ is ingeschakeld, wordt uw WLAN-verbinding geëvalueerd om slim overschakelen tussen netwerken mogelijk te maken (gegevensgebruik via WLAN kan toenemen). Automatisch WLAN+:
+1. Schakelt tussen WLAN en mobiele gegevens voor een soepele internetervaring.
+2. Schakelt WLAN in wanneer u binnen het bereik van een bekend wifinetwerk bent. U wordt automatisch met het netwerk verbonden.
+3. Evalueert beschikbare WLAN-netwerken. Apparaat maakt niet automatisch verbinding met opgeslagen netwerken zonder internetverbinding."</string>
+    <string name="help_message">"1. Uw printer en telefoon zijn niet aangesloten op hetzelfde WLAN-netwerk. 
+2. Uw printer ondersteunt deze afdrukdienst niet (neem contact op met de fabrikant). 
+3. Zoeken is verlopen. Probeer opnieuw als dit het geval is. 
+4. De printer is gecrasht. Start uw printer opnieuw op en probeer het nogmaals."</string>
+    <string name="wifi_cloud_security_check_title">Controle WLAN-beveiliging</string>
+    <string name="wifi_cloud_security_check_summary">Controleer het beveiligingsniveau van verbonden WLAN-netwerken via Telefoonbeheer en pauzeer het automatisch verbinden met opgeslagen netwerken die een beveiligingsrisico opleveren</string>
+    <string name="wifi_plus_description_emui3">"Wanneer WLAN+ is ingeschakeld, wordt uw WLAN-verbinding geëvalueerd om slim tussen netwerken te kunnen schakelen en worden de optimalisatieparameters automatisch bijgewerkt via WLAN (gegevensgebruik via WLAN kan toenemen). Automatisch WLAN+:
+1. Schakelt tussen WLAN en mobiele netwerken om u een prettige internetervaring te bieden. U kunt de standaard schakelmodus selecteren via u netwerkinstellingen.
+2. Schakelt WLAN in wanneer u zich in het bereik van een bekend WLAN-netwerk bevindt. U wordt automatisch verbonden.
+3. Evalueert beschikbare WLAN-netwerken. Voor opgeslagen netwerken zonder internettoegang wordt automatisch verbinden gepauzeerd.
+4. Detecteert en opent voor bepaalde gratis WLAN-hotspots de verificatiecode van het inkomende sms-verificatiebericht en meldt zich automatisch via de browser aan bij het netwerk (momenteel alleen ondersteund in China)."</string>
+    <string name="user_add_user_message">"U kunt dit apparaat met andere mensen delen en extra gebruikers maken. Alle gebruikers hebben hun eigen ruimte, die ze kunnen aanpassen met apps, een achtergrond en meer. Gebruikers kunnen ook apparaatinstellingen als WLAN aanpassen die op iedereen van toepassing zijn.
+
+Wanneer u een nieuwe gebruikers toevoegt, moet die persoon zijn eigen ruimte instellen.
+
+Elke gebruiker kan apps bijwerken voor alle gebruikers."</string>
+    <string name="print_user_warning">Wanneer u de afdrukserver inschakelt, zoekt uw apparaat via het WLAN naar printers in de buurt, wat WLAN-verkeer oplevert.</string>
+    <string name="wifi_calling_settings_title_emui">Bellen via WLAN</string>
+    <string name="wifi_calling_dialog_title">Bellen via WLAN inschakelen</string>
+    <string name="wifi_calling_dialog_message">Indien deze optie is ingeschakeld, kunt u geen noodoproepen plaatsen via WLAN. Inschakelen?</string>
+    <string name="device_name_settings_summary">Wanneer u Bluetooth, WLAN Direct en tethering &amp; draagbare hotspot gebruikt, zien andere apparaten deze naam.</string>
+    <string name="device_name_settings_dialog">Als u de apparaatnaam wijzigt, wordt de verbinding met de huidige WLAN-hotspot verbroken. Wijzigen?</string>
+    <string name="write_wifi_nfc_tag">Wegschrijven naar WLAN NFC-tag</string>
+    <string name="wifi_plus_smart_switch_title">Slim schakelen tussen WLAN en mobiele gegevens</string>
+    <string name="wifi_plus_smart_switch_summary">Evalueer WLAN-connectiviteit en schakel tussen WLAN (kan verkeer verhogen) en mobiele gegevens om de beste netwerkverbinding te kiezen. Standaard schakelaarmodus wordt ingesteld in de mobielenetwerkinstellingen</string>
+    <string name="wifi_plus_smart_switch_summary_global">Evalueer WLAN-connectiviteit en schakel tussen WLAN (kan verkeer verhogen) en mobiele gegevens om de beste netwerkverbinding te kiezen</string>
+    <string name="wifi_plus_auto_turn_title">Schakel WLAN automatisch in/uit</string>
+    <string name="wifi_plus_auto_turn_summary">Schakelt WLAN in wanneer u binnen het bereik bent van een bekend WLAN-netwerk. U wordt automatisch met het netwerk verbonden</string>
+    <string name="wifi_plus_quality_evaluation_title">Evalueer beschikbare WLAN-netwerken</string>
+    <string name="wifi_plus_quality_evaluation_summary">Beschikbare WLAN-netwerken evalueren. Automatisch verbinden is stopgezet voor opgeslagen netwerken die geen internettoegang hebben</string>
+    <string name="wifi_plus_fast_connect_title">Optimaliseer de login-ervaring voor gratis WLAN-hotspots</string>
+    <string name="wifi_plus_fast_connect_summary">Detecteert en opent voor bepaalde gratis WLAN-hotspots de verificatiecode van het inkomende sms-verificatiebericht en meldt zich automatisch via de browser aan bij het netwerk (momenteel alleen ondersteund in het vasteland van China)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Wanneer Link+ live update ingeschakeld is, werkt uw telefoon automatisch de gegevens van communicatieparameters bij via uw draadloze netwerk (standaard via WLAN) om de relevante communicatiefuncties te verbeteren.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Mobiele gegevens</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS en WLAN gebruiken</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN gebruiken</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN-brug zorgt voor een aanzienlijke verbetering van het verzendbereik en de intensiteit van WLAN-signalen. Andere apparaten kunnen via uw apparaat verbinding maken met uw huidige WLAN-netwerk.
+2. WLAN-brug ondersteunt toegang voor maximaal 4 apparaten.
+3. WLAN-brug werkt niet met de functies WLAN-hotspot en WLAN Direct. Als WLAN-brug is ingeschakeld, werken sommige apps die P2P-services gebruiken mogelijk niet correct.
+4. Als u WLAN-brug gebruikt, raakt de batterij sneller leeg.
+5. Als u een melding ontvang dat de WLAN-bronnen door een andere service worden gebruikt, gaat u naar Instellingen > WLAN > WLAN Direct en verbreekt u de verbinding met andere apparaten. Of u schakelt WLAN uit en weer in om de verbinding met alle apparaten automatisch te verbreken."</string>
+    <string name="wifi_qrcode_share_notice_new">Scan om verbinding met dit WLAN-netwerk te maken</string>
+    <string name="location_help_scheme_body_one">"1. Ga na of Toegang tot mijn locatie ingeschakeld is.
+2. Selecteer GPS, WLAN en mobiele netwerken gebruiken in de Locatiemodus.
+3. Maak verbinding met een WLAN-hotspot of schakel mobiele gegevens in.
+4. Controleer of de app die u gebruikt toegang heeft tot de Locatietoestemmingen in Telefoonbeheer > Machtigingsbeheerder > Toegang zoeken tot locatie-informatie.
+5. Als u de Locatiemodus hebt ingesteld op Alleen GPS gebruiken, ga dan na of u de toegang tot de locatie gebruikt in een open omgeving zonder obstakels, waarin GPS-signalen normaal ontvangen kunnen worden.
+6. Als u verbonden bent met een openbare hotspot, probeer WLAN dan uit te zetten en mobiele gegevens in te schakelen. Probeer toegang tot locatie vervolgens opnieuw."</string>
+    <string name="location_help_scheme_body_two">"1. Selecteer Gebruik GPS, WLAN en mobiele netwerken in de Locatiemodus voor een meer nauwkeurige toegang tot de locatie.
+2. Als u voor uw apparaat een metalen behuizing gebruikt, verwijder deze dan of gebruik een niet-metalen behuizing en probeer het opnieuw.
+3. Controleer of de app die u gebruikt toegang heeft tot de Locatietoestemmingen in Telefoonbeheer > Machtigingsbeheerder > Toegang zoeken tot locatie-informatie.
+4. Navigatie werkt beter in een ruime omgeving zonder obstakels. Plaats uw telefoon bij de voorruit van uw voertuig, zoals bij het dashboard of op andere plaatsen zonder obstakels in uw auto."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN-brug zorgt voor een aanzienlijke verbetering van het verzendbereik en de intensiteit van WLAN-signalen. Andere apparaten kunnen via uw apparaat verbinding maken met uw huidige WLAN-netwerk.
+%2$d. WLAN-brug ondersteunt toegang voor maximaal %6$d apparaten.
+%3$d. WLAN-brug werkt niet met de functies WLAN-hotspot en WLAN Direct. Als WLAN-brug is ingeschakeld, werken sommige apps die P2P-services gebruiken mogelijk niet correct.
+%4$d. Als u WLAN-brug gebruikt, raakt de batterij sneller leeg.
+%5$d. Als u een melding ontvang dat de WLAN-bronnen door een andere service worden gebruikt, gaat u naar Instellingen > WLAN > WLAN Direct en verbreekt u de verbinding met andere apparaten. Of u schakelt WLAN uit en weer in om de verbinding met alle apparaten automatisch te verbreken."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. U kunt een draagbaar apparaat met WLAN-hotspot gebruiken als punt voor internettoegang. Randapparatuur kan met uw apparaat worden verbonden via WLAN en verbonden apparaten hebben via het mobiele netwerk toegang tot het internet.
+%2$d. Voor het gebruik van een draagbare WLAN-hotspot moet mobielegegevensoverdracht ingeschakeld zijn. Dit leidt tot enig dataverbruik.
+%3$d. Door het gebruik van een draagbare WLAN-hotspot kan de batterij sneller leeg zijn."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Handmatige verbinding:
+%2$d. Schakel WLAN in op het doelapparaat en zoek naar de hotspot %1$s.
+%3$d. Maak verbinding met de hotspot."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Ga na of Toegang tot mijn locatie ingeschakeld is.
+%2$d. Selecteer GPS, WLAN en mobiele netwerken gebruiken in de Locatiemodus.
+%3$d. Maak verbinding met een WLAN-hotspot of schakel mobiele gegevens in.
+%4$d. Controleer of de app die u gebruikt toegang heeft tot de Locatietoestemmingen in Telefoonbeheer > Toestemmingenbeheer > Toegang zoeken tot locatie-informatie.
+%5$d. Als u de Locatiemodus hebt ingesteld op Alleen GPS gebruiken, ga dan na of u de toegang tot de locatie gebruikt in een open omgeving zonder obstakels, waarin GPS-signalen normaal ontvangen kunnen worden.
+%6$d. Als u verbonden bent met een openbare hotspot, probeer WLAN dan uit te zetten en mobiele gegevens in te schakelen. Probeer toegang tot locatie vervolgens opnieuw."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Selecteer Gebruik GPS, WLAN en mobiele netwerken in de Locatiemodus voor een meer nauwkeurige toegang tot de locatie.
+%2$d. Als u voor uw apparaat een metalen behuizing gebruikt, verwijder deze dan of gebruik een niet-metalen behuizing en probeer het opnieuw.
+%3$d. Controleer of de app die u gebruikt toegang heeft tot de Locatietoestemmingen in Telefoonbeheer > Toestemmingenbeheer > Toegang zoeken tot locatie-informatie.
+%4$d. Navigatie werkt beter in een ruime omgeving zonder obstakels. Plaats uw telefoon bij de voorruit van uw voertuig, zoals bij het dashboard of op andere plaatsen zonder obstakels in uw auto."</string>
+    <string name="turn_off_data_saver_message">Het gebruik van een draagbare hotspot vereist het uitschakelen van Gegevensbesparing. Uitschakelen?</string>
+    <string name="first_wlan_hotspot_text">Met een WLAN-hotspot kunt u uw netwerkverbinding delen met anderen, maar uw batterij kan sneller leegraken en uw kosten voor gegevensgebruik kunnen toenemen.</string>
+    <string name="hotspot_power_notification_title">WLAN-hotspot uitgeschakeld</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN-hotspot uitgeschakeld</string>
+    <string name="toast_entitle_wifi_need_close">Het is niet mogelijk deze functie te gebruiken terwijl WLAN ingeschakeld is. Gelieve WLAN eerst uit te schakelen.</string>
+    <string name="wifi_activated_warning_Title">WLAN ingeschakeld</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Mobiele hotspot en WLAN kunnen niet allebei zijn ingeschakeld. WLAN uitschakelen?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN moet nu worden uitgeschakeld. De functie wordt automatisch weer ingeschakeld nadat uw telefoon met de servers van AT&amp;T heeft gecommuniceerd.</string>
+    <string name="broadcast_ssid_is_show_dialog">"Als u de optie 'Netwerknaam (SSID) uitzenden' uitschakelt, is uw telefoon niet zichtbaar voor andere apparaten en verschijnt deze niet in de lijst met beschikbare WLAN-netwerken. Andere apparaten kunnen nog steeds verbinding met uw hotspot maken door uw netwerknaam handmatig in te voeren."</string>
+    <string name="enable">Automatisch verbinden met WLAN van AT&amp;T</string>
+    <string name="disable">Niet automatisch verbinden met WLAN van AT&amp;T</string>
+    <string name="auto_connect_wifi_suggestion">Start WLAN opnieuw zodat de instellingen voor automatisch verbinden van kracht worden.</string>
+    <string name="wifi_network_detect_summary">Toegankelijkheid tot het internet controleren wanneer er verbinding gemaakt wordt met een WLAN-hotspot</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN is uitgeschakeld door de apparaatbeheerder</string>
+    <string name="wifi_required_info_text">Om de configuratie te voltooien, heeft uw tablet toegang tot een WLAN-netwerk nodig. Nadat de configuratie is voltooid, kunt u schakelen tussen mobiele gegevens en WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN-frequentieband</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s beheert uw apparaat en staat u niet toe dit wifinetwerk te wijzigen of verwijderen. Neem voor meer informatie contact op met uw beheerder.</string>
+</resources>

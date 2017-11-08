@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pressure_preview_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.CustomSwitchPreference android:title="@string/pressure_preview_message_title" android:key="message_preview" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/pressure_preview_thumbnail_title" android:key="thumbnail_preview" />
+</PreferenceScreen>

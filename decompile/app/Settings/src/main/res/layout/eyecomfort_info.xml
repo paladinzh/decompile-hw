@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:scrollbarStyle="outsideOverlay" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/eyecomfort_info_l" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:textColor="@color/emui_secondary_text" android:id="@id/eyecomfort_info" android:text="@string/eyes_protection_mode_description" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+</LinearLayout>

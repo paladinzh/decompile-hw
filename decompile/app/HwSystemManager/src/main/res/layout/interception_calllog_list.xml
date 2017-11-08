@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/rl_calllog_list" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@+id/calllog_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/calllog_list_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/no_calllog_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/no_calllog_icon" android:background="@drawable/ic_call_emptypage" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+        <TextView android:textSize="13sp" android:textColor="@color/emui_list_secondray_text" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_calllog_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/harassmentInterceptionNoCalllogText" android:layout_below="@+id/no_calllog_icon" android:layout_marginStart="28dp" android:layout_marginEnd="28dp" />
+    </RelativeLayout>
+    <ProgressBar android:id="@+id/loading_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

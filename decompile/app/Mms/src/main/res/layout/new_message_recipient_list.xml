@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.MatchedContactsListItem xmlns:android="http://schemas.android.com/apk/res/com.android.mms" mms:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:itemType="5">
+    <RelativeLayout mms:id="@+id/matched_contacts_list_item" mms:layout_width="match_parent" mms:layout_height="match_parent">
+        <LinearLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:layout_width="match_parent" mms:layout_height="UNKNOWN_DATA_0x7f0a01e5">
+            <TextView mms:textSize="@dimen/mms_search_list_title_text_size" mms:textColor="@drawable/text_color_black" mms:ellipsize="end" mms:id="@+id/recipient_list_item_name" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" mms:fontFamily="HwChinese-medium" mms:paddingEnd="18dp" />
+            <LinearLayout mms:orientation="horizontal" mms:id="@+id/matched_contacts_list_item" mms:layout_width="match_parent" mms:layout_height="wrap_content">
+                <ImageView mms:id="@+id/work_profile_icon" mms:visibility="gone" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:src="@drawable/ic_work_profile" mms:scaleType="center" mms:paddingEnd="4dp" />
+                <TextView mms:textSize="@dimen/mms_search_list_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="marquee" mms:id="@+id/recipient_list_item_number" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" mms:paddingEnd="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView mms:background="@drawable/conversation_item_divider" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:layout_alignParentBottom="true" mms:layout_marginEnd="16dp" />
+    </RelativeLayout>
+</com.android.mms.ui.MatchedContactsListItem>

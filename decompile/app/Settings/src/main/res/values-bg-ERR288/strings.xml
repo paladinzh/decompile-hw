@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Осъществена връзка чрез асистент за WLAN</string>
+    <string name="accessibility_wifi_off">WLAN изкл.</string>
+    <string name="accessibility_no_wifi">Прекъсната е WLAN връзката.</string>
+    <string name="accessibility_wifi_one_bar">WLAN е с една чертичка.</string>
+    <string name="accessibility_wifi_two_bars">WLAN е с две чертички.</string>
+    <string name="accessibility_wifi_three_bars">WLAN е с три чертички.</string>
+    <string name="accessibility_wifi_signal_full">Пълен WLAN сигнал.</string>
+    <string name="wifi_verbose_logging">Разреши подробно WLAN логване</string>
+    <string name="wifi_aggressive_handover">Агресивно предаване WLAN към клетъчен</string>
+    <string name="wifi_allow_scan_with_traffic">Винаги позволявай WLAN роуминг сканиране</string>
+    <string name="wifi_verbose_logging_summary">Увеличи ниво на WLAN логване и покажи за SSID RSSI в WLAN picker</string>
+    <string name="wifi_aggressive_handover_summary">Когато се разреши, WLAN ще бъде по-агресивна в предаването на връзката за данни към клетъчни мрежи, когато WLAN сигналът е слаб</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Позволи/Забрани WLAN роуминг сканиране според количеството трафик на данни в интерфейса</string>
+    <string name="mobile_data_always_on_summary">Винаги активни мобилни данни дори и при активна WLAN мрежа (за бързо превключване на мрежи)</string>
+    <string name="radio_controls_summary">Управлява WLAN, Bluetooth, самолетен режим, мобилни и VPN мрежи</string>
+    <string name="wifi_assistant_title">Асистент за WLAN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Включване на WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Настройки за WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Избиране на WLAN</string>
+    <string name="wifi_select_network">Избери WLAN мрежа</string>
+    <string name="wifi_starting">WLAN се включва...</string>
+    <string name="wifi_stopping">WLAN се изключва…</string>
+    <string name="wifi_poor_network_detection_summary">Да не се осъществява свързване с WLAN мрежа, освен ако тя няма добра връзка с интернет</string>
+    <string name="wifi_automatically_connect_title">Авт. свързв. с отворени мрежи</string>
+    <string name="wifi_automatically_connect_summary">Асистентът за WLAN автоматично да осъществява връзка с отворени мрежи със силен сигнал</string>
+    <string name="wifi_scan_notify_text">С цел подобряване точността на местоположението системните приложения и услуги могат да продължат да търсят WLAN мрежи. Можете да промените това от LINK_BEGINнастройките за сканиранеLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN спящ режим</string>
+    <string name="wifi_suspend_optimizations">WLAN да се оптимизира</string>
+    <string name="wifi_suspend_optimizations_summary">Намаляване на използването на батерията, когато WLAN е включен</string>
+    <string name="wifi_access_points">WLAN мрежи</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Включете WLAN, за да видите наличните мрежи.</string>
+    <string name="wifi_empty_list_wifi_on">Търсят се WLAN мрежи…</string>
+    <string name="wifi_empty_list_user_restricted">Нямате разрешение за смяна на WLAN мрежата.</string>
+    <string name="wifi_wps_setup_title">Защитена настройка на WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Натиснете бутона за защитена WLAN настройка на рутера си. Той може да е с името „WPS“ или да съдържа този символ:</string>
+    <string name="wifi_wps_onstart_pin">Въведете ПИН кода %1$s на маршрутизатора си за WLAN. Завършването на настройката може да отнеме до две минути.</string>
+    <string name="wifi_wps_connected">Установена е връзка с WLAN мрежата %s</string>
+    <string name="wifi_scan_always_turnon_message">"За да се повиши точността на местоположението и за други цели, %1$s иска да се включи мрежово сканиране, дори когато WLAN е изключена.
+
+Позволявате ли това за всички приложения, които искат да сканират?"</string>
+    <string name="wifi_skipped_message">"ПРЕДУПРЕЖДЕНИЕ: Това може да доведе до начисляване на допълнителни такси за трафик на данни.
+
+Настройката на телефона може да изисква значителен мрежов трафик."</string>
+    <string name="wifi_and_mobile_skipped_message">ПРЕДУПРЕЖДЕНИЕ: Телефонът няма да може да потвърди, че софтуерът ви е актуален.</string>
+    <string name="wifi_connect_failed_message">Телефонът не можа да се свърже с тази WLAN мрежа.</string>
+    <string name="wifi_advanced_titlebar">Разширени настройки за WLAN</string>
+    <string name="wifi_configure_titlebar">Конфигуриране на WLAN</string>
+    <string name="wifi_advanced_not_available">Разширените настройки за WLAN не са налице за този потребител</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Пренос.точка за достъп</string>
+    <string name="wifi_tether_failed_subtext">Грешка на преносимата точката за достъп до WLAN</string>
+    <string name="wifi_tether_configure_ap_text">Конфигурир. преносима точка за достъп</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s преносима точка за достъп през WLAN</string>
+    <string name="wifi_calling_settings_title">Настройки за обажданията по WLAN</string>
+    <string name="wifi_calling_suggestion_title">Обаждания през WLAN: Включв.</string>
+    <string name="wifi_calling_suggestion_summary">Използване на WLAN вместо мобилна мрежа</string>
+    <string name="wifi_calling_mode_title">Обаждания по WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Режим на повикв. през WLAN</string>
+    <string name="wifi_calling_off_explanation">Когато функцията за обаждания през WLAN е включена, телефонът ви може да маршрутизира обажданията през WLAN мрежи или мрежата на оператора ви в зависимост от предпочитанието ви и от това, кой сигнал е по-силен. Преди да включите тази функция, потърсете от оператора си информация относно таксите и други подробности.</string>
+    <string name="status_wifi_mac_address">MAC адрес на WLAN</string>
+    <string name="reset_network_desc">"Това ще нулира всички настройки за мрежата, включително:
+
+"<li>WLAN</li>"
+"<li>мобилни данни</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Да се промени ли асистентът за WLAN?</string>
+    <string name="location_mode_high_accuracy_description">"Използвайте GPS, WLAN и мобилни мрежи за оценка на местоположението "</string>
+    <string name="location_mode_battery_saving_description">Използвайте WLAN и мобилни мрежи за оценка на местоположението</string>
+    <string name="location_scanning_wifi_always_scanning_title">Сканиране за WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Подобряване на местоположението чрез разрешаване на приложенията и услугите да откриват WLAN мрежи по всяко време.</string>
+    <string name="location_network_based">Местоположение на WLAN и моб. мрежа</string>
+    <string name="location_neighborhood_level">Приложенията използват данни от WLAN и мобилни мрежи, за да определят приблизителното ми място</string>
+    <string name="location_neighborhood_level_wifi">Местоположението се определя чрез WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Време за включен WLAN</string>
+    <string name="bluetooth_on_time">Време за включен WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Работещ WLAN</string>
+    <string name="usage_type_data_wifi_send">Изпратени са данни чрез WLAN</string>
+    <string name="usage_type_data_wifi_recv">Получени са данни чрез WLAN</string>
+    <string name="battery_action_wifi">Настройки за WLAN</string>
+    <string name="battery_desc_wifi">Батерия, използвана от WLAN</string>
+    <string name="battery_sugg_wifi">Изключете WLAN, когато не се използва или не е налице</string>
+    <string name="gadget_toggle_wifi">Актуализиране на настройките за WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Създаване на резервно копие в сървърите на Google на данните за приложенията, паролите за WLAN и другите настройки</string>
+    <string name="backup_erase_dialog_message">Да се спре ли създаването на резервни копия на вашите пароли за WLAN, отметки, други настройки и данните за приложенията ви, и да се изтрият всички копия от сървърите на Google?</string>
+    <string name="fullbackup_erase_dialog_message">Да се спре архивирането на данните за устройството (като пароли за WLAN и хронологията на повикванията) и приложенията (като съхранени настройки и файлове) и да се изтрият всички копия в Google Диск?</string>
+    <string name="fullbackup_data_summary">"Автоматично създаване на отдалечено резервно копие на данните на устройството (като пароли за WLAN и история на обажданията) и тези на приложенията (като настройки и съхранявани от приложенията файлове).
+
+Когато включите автоматичното създаване на резервно копие, данните на устройството и на приложенията периодично се запазват отдалечено. Данните на приложенията могат да бъдат всяка запазвана от тях информация (въз основа на настройките за програмисти), включително потенциално поверителната, като например контакти, съобщения и снимки."</string>
+    <string name="wifi_setup_title">Настройка на WLAN</string>
+    <string name="wifi_setup_title_editing_network">Свържете се с WLAN мрежата %s</string>
+    <string name="wifi_setup_title_connecting_network">Свързвате се с WLAN мрежата %s...</string>
+    <string name="wifi_setup_eap_not_supported">"Не можете да конфигурирате WLAN връзка с редактиране на точката за достъп (EAP) по време на настройката. След това можете да го направите от „Настройки“ >  „Кабелни и безжични мрежи“."</string>
+    <string name="wifi_setup_description_connected">Докоснете <b>Напред</b>", за да продължите с настройката.
+
+Докоснете "<b>Назад</b>, за да се свържете с друга WLAN мрежа.</string>
+    <string name="data_usage_menu_show_wifi">Виж WLAN трафик</string>
+    <string name="data_usage_menu_hide_wifi">Скриване на WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Лимит на WLAN данни: Задаване</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Деактивиране на данните на заден план само за мобилна мрежа. Ще се използва WLAN, ако е налице.</string>
+    <string name="data_usage_app_restrict_dialog">"Тази функция може да доведе до спиране на работата на приложение, което зависи от данните на заден план, когато WLAN не е налице.
+
+Можете да намерите по-подходящи контроли за използването им в наличните в приложението настройки."</string>
+    <string name="data_usage_restrict_background">Ако ограничите мобилните данни на заден план, някои приложения и услуги няма да работят, освен ако не сте свързани с WLAN мрежа.</string>
+    <string name="data_usage_restrict_background_multiuser">"Ако ограничите мобилните данни на заден план, някои приложения и услуги няма да работят, освен ако не сте свързани с WLAN мрежа.
+
+Настройката засяга всички потребители на този телефон."</string>
+    <string name="data_usage_metered_body">Изберете WLAN мрежите, които са мобилни точки за достъп. Използването на тези мрежи от приложенията, които работят във фонов режим, може да се ограничи. Приложенията могат също така да генерират предупреждение, когато тези мрежи се използват за големи изтегляния.</string>
+    <string name="data_usage_metered_wifi">WLAN мрежи</string>
+    <string name="data_usage_metered_wifi_disabled">За да изберете мобилни точки за достъп, включете WLAN.</string>
+    <string name="user_add_user_message_long">"Можете да споделите това устройство с други хора, като създадете допълнителни потребители. Всеки от тях има собствено работно пространство, което може да персонализира със свои собствени приложения, тапет и др. Те могат да коригират и настройки на таблета, като например WLAN, които засягат всички.
+
+След като създадете нов потребител, той трябва да премине през процеса за настройка.
+
+Всеки потребител може да приема разрешения на актуализирани приложения от името на всички останали."</string>
+    <string name="restriction_wifi_config_title">WLAN и мобилни данни</string>
+    <string name="restriction_wifi_config_summary">Позволи модифициране на WLAN и настройки на мобилна мрежа</string>
+    <string name="keywords_wifi">Връзка с WLAN мрежа</string>
+    <string name="keywords_wifi_calling">WLAN WLAN повикване обаждане</string>
+    <string name="setup_wifi_nfc_tag">Определи WLAN NFC етикет</string>
+    <string name="condition_hotspot_summary">Преносимата точка за достъп през WLAN „%1$s“ е активна. Функцията за WLAN на това устройство е изключена.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth и клетъчната мрежа са изключени. Не можете да извършвате телефонни обаждания, нито да се свържете с интернет.</string>
+    <string name="condition_cellular_summary">Достъпът до интернет е възможен само през WLAN</string>
+    <string name="condition_bg_data_summary">Данните на заден план са налице само през WLAN. Липсата на такава мрежа може да засегне някои приложения или услуги.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN мост</string>
+    <string name="wifi_tether_bridge_tittle_text">Настройки на WLAN мост</string>
+    <string name="wifi_tether_configure_bridge_text">Конфигуриране на WLAN мост</string>
+    <string name="wifi_bridge_settings_summary">Задайте името, паролата и др. на моста</string>
+    <string name="wifi_bridge_use_help_title">Помощ</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN мостът може значително да увеличи обхвата и силата на излъчване на WLAN сигнали. Към текущата ви WLAN мрежа могат да се свържат и други устройства чрез вашето устройство.
+2. WLAN мостът поддържа достъп от до 4 устройства.
+3. WLAN мостът не работи с функциите на точката за WLAN достъп и WLAN Direct. Ако се активира WLAN мост, възможно е някои приложения, които използват P2P услуги, да не работят добре.
+4. Използването на WLAN мост води до по-бързо изтощаване на батерията."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">Изисква се връзка с WLAN</string>
+    <string name="wifi_bridge_switch_wifi_summary">Споделяне на свързана WLAN мрежа</string>
+    <string name="wifi_setup_title_connected_network_Toast">Свързахте се с WLAN мрежата %s</string>
+    <string name="huawei_beam_explained">Huawei Beam ви позволява да прехвърляте файлове, като снимки, видео и URL между вашето устройство и друго устройство с NFC възможности. Huawei Beam се активира чрез поставяне на двете устройства едно до друго (обикновено гръб до гръб) и почукване по екрана. Моля, имайте предвид, че е възможно вашата Bluetooth или WLAN да се включи автоматично преди прехвърлянето на файлове.</string>
+    <string name="wifi_display_settings_summary">Показва екрана на телефона на външен дисплей, свързан чрез WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">Достъпни са WLAN %s мрежи. Искате ли да спрете услугата за данни и да се свържете с WLAN мрежа?</string>
+    <string name="switch_to_wifi_manual_prompt">Намерен е WLAN сигнал - желаете ли да използвате тази WLAN мрежа?</string>
+    <string name="switch_to_wifi_query_prompt">Достъпни са WLAN %s мрежи. Искате ли да се свържете с WLAN мрежа?</string>
+    <string name="wifi_to_wifi_prompt">Сигналът на мрежата в момента е слаб - желаете ли да използвате друга WLAN мрежа?</string>
+    <string name="advanced_wifi_settings_title">Разширени настройки</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam ви позволява да прехвърляте файлове към други NFC устройства чрез поставяне на двете устройства едно до друго. Например, можете безжично да прехвърляте снимки, видео, контакти, URL и други между две устройства с NFC възможности. Това е лесно:
+1. Поставете предния панел на вашето устройство срещу другото NFC устройство и вземете устройството си, след като чуете тон.
+2. Докоснете вашия екран в рамките на три секунди от чуването на тона.
+3. Поставете отново предния панел на вашето устройство срещу другото NFC устройство, за да завършите прехвърлянето. Моля, имайте предвид, че е възможно вашата Bluetooth или WLAN да се включи автоматично преди прехвърлянето на файлове."</string>
+    <string name="wifiap_use_help_details">"1. Можете да използвате устройство за преносима WLAN точка за достъп до Интернет. Към вашето устройство могат да се включват периферни устройства чрез WLAN и свързаните устройства ще имат достъп до Интернет по мобилната мрежа.
+2. Използването на преносима WLAN точка за достъп ще изисква връзката ви за мобилни данни да бъде включена и ще генерира трафик за данни.
+3. Използването на преносима WLAN точка за достъп може съкрати живота на батерията по-бързо."</string>
+    <string name="wifiap_connect_help_details_open">"Ръчно свързване:
+1. Включете WLAN на целевото устройство и намерете точката за безжичен (Интернет) достъп %1$s.
+2. Свържете към тази точка."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN на China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Вие сте свързани с WLAN мрежата на China Mobile. Използването на тази мрежа може да генерира приложимите такси за използване на WLAN.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Напомняне за WLAN на China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Напомни ми, когато съм свързан(а) с WLAN мрежата на China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Не показвай уведомления, когато се превключват мрежите (мобилни данни към WLAN и обратно, или между WLAN мрежи)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Използвайте GPS и WLAN за оценка на местоположението</string>
+    <string name="location_mode_battery_saving_description_wifionly">Използвайте WLAN за оценка на местоположението</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Интелигентно избиране на WLAN мрежа или мрежа за мобилни данни</string>
+    <string name="wifi_plus_description">"Когато се активира WLAN+, вашата възможност за свързване чрез WLAN ще бъде преценена за осигуряване на интелигентно превключване на мрежите (възможно е да се увеличи потреблението на данни чрез WLAN). WLAN+ автоматично:
+1. превключва между WLAN и мобилни данни (с известяване) за осигуряване на приятно изживяване по Интернет.
+2. включва WLAN, когато е в обхвата на известна WLAN мрежа, и се свързва с нея."</string>
+    <string name="wifi_plus_settings_title">WLAN+ настройки</string>
+    <string name="wifi_plus_intelligent_switch_description">Превключвайте интелигентно между WLAN и мрежи за мобилни данни за по-добро ползване на интернет.</string>
+    <string name="wifi_plus_auto_turn_on_description">Автоматично включва WLAN, когато приближите позната локация.</string>
+    <string name="wifi_plus_global_description">"Когато WLAN+ е включена, вашата връзка с WLAN ще бъде оценявана, за да се осигури интелигентно превключване на мрежи (потреблението на данни през WLAN може да се увеличи). WLAN+ автоматично:
+1. Превключва между WLAN и мобилни данни, за да осигури по-гладко ползване на интернет.
+2. Включва WLAN, когато има позната WLAN мрежа в обхват, и се свързва с нея."</string>
+    <string name="location_mode_high_accuracy_title_emui">Използвай GPS, WLAN и моб.мрежи</string>
+    <string name="location_mode_battery_saving_title_emui">Използвай WLAN и моб.мрежи</string>
+    <string name="pgps_switch_summary">GPS да събира данни от WLAN и близките клетки за по-бързи и точни услуги по местоположение</string>
+    <string name="find_no_wlan_ap">Не е възможно намиране на точка WLAN достъп</string>
+    <string name="cannot_connect_wlan">Не е възможно свързване с WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Не е възможен достъп до интернет през WLAN</string>
+    <string name="wfd_connect_fail">Неуспешна връзка с WLAN Direct</string>
+    <string name="find_no_wfd_device">Не е възможно откриване на устройство с WLAN Direct</string>
+    <string name="wfd_search_no_devices_causes">"Не са намерени достъпни устройства - възможно е:
+1. Сдвоеното устройство да не е откриваемо.
+2. Сдвоеното устройство да има технически проблеми. Опитайте да рестартирате WLAN и отново отворете WLAN Direct.
+3. Вашето устройство да има технически проблеми. Опитайте да рестартирате WLAN и отново отворете WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"Връзката не можа да бъде установена. Възможни причини:
+1. Сдвоеното устройство не е приело искането за свързване.
+2. Някое от устройствата вече е установило друга връзка чрез WLAN Direct.
+3. Сдвоеното устройство има технически проблеми. Опитайте да го рестартирате."</string>
+    <string name="wifi_qrcode_share_notice">Сканирайте QR кода, за да се свържете с тази WLAN мрежа</string>
+    <string name="devices_not_found_solution_title">Ако устройството не може да бъде намерено, опитайте следното:</string>
+    <string name="devices_not_found_solution_message">"1. Уверете се, че устройството извършва сканиране за други устройства.
+2. Ако бъдат установени проблеми с другото устройство, рестартирайте WLAN и осъществете повторен достъп до WLAN Direct.
+3. Ако бъдат установени проблеми с устройството Ви, рестартирайте WLAN и осъществете достъп до WLAN Direct."</string>
+    <string name="devices_not_connected_solution_message">"1. Уверете се, че другото устройство е приело заявката за свързване.
+2. Уверете се, че и двете устройства не са свързани с други.
+3. Ако има проблеми с другото устройство, опитайте да се свържете отново."</string>
+    <string name="wifi_plus_description_emui">"Когато е включено WLAN+, вашата WLAN свързаност ще бъде оценена, за да ви се предостави умно превключване на мрежи (може да се увеличат използваните WLAN данни). WLAN+ автоматично:
+1. Превключва между WLAN и мобилни данни (Можете да изберете режима на превключване по подразбиране в настройките на мобилната мрежа), за да предостави безпроблемни интернет преживявания.
+2. Включва WLAN, когато е в обхвата на позната WLAN мрежа и се свързва към нея."</string>
+    <string name="link_plus_live_update_description">Когато е активирана актуализацията в реално време за Link+, телефонът Ви автоматично актуализира данните за параметрите на комуникация през безжичната Ви мрежа (WLAN по подразбиране), за да бъдат подобрени съответните функции на Link+.</string>
+    <string name="wifi_plus_description_emui2">"Когато е включено WLAN+, възможността Ви за свързване с WLAN ще бъде оценена, за да Ви се предостави интелигентно превключване на мрежи (може да се увеличат използваните WLAN данни). WLAN+ автоматично:
+1. Превключва между WLAN и мобилни данни, за да предостави плавна практическа работа в интернет. (От настройките на мобилната мрежа можете да избирате режима на превключване по подразбиране)
+2. Включва WLAN, когато сте в обхвата на позната WLAN мрежа, и осъществява връзка.
+3. Оценява достъпните WLAN мрежи. Устройството няма да се свърже автоматично със запазените мрежи, ако няма връзка с интернет.
+4. За някои свободни точки за WLAN достъп то получава кода за проверка чрез входящо SMS съобщение и влиза в мрежата през браузър (в момента се поддържа само в Китай)."</string>
+    <string name="wifi_plus_global_description2">"Когато е включено WLAN+, възможността Ви за свързване с WLAN ще бъде оценена, за да Ви се предостави интелигентно превключване на мрежи (може да се увеличат използваните WLAN данни). WLAN+ автоматично:
+1. Превключва между WLAN и мобилни данни, за да предостави плавна практическа работа в интернет.
+2. Включва WLAN, когато сте в обхвата на позната WLAN мрежа, и осъществява връзка.
+3. Оценява достъпните WLAN мрежи. Устройството няма да се свърже автоматично със запазените мрежи, ако няма връзка с интернет."</string>
+    <string name="help_message">"1. Принтерът и телефонът Ви не са свързани към една и съща WLAN мрежа.
+2. Принтерът Ви не поддържа тази услуга за печат (потвърдете чрез производителя).
+3. Времето за търсене изтече. Опитайте отново, ако това е така.
+4. Принтерът Ви изведе грешка. Рестартирайте принтера си и опитайте отново."</string>
+    <string name="wifi_cloud_security_check_title">Проверка на WLAN</string>
+    <string name="wifi_cloud_security_check_summary">Чрез Менидж.на тел. проверете нивото на сигурност за свързаните WLAN мрежи и поставете на пауза автоматичното свързване за свързаните мрежи, които представляват риск за сигурността.</string>
+    <string name="wifi_plus_description_emui3">"Когато WLAN+ е активиран, възможността за свързване чрез WLAN ще бъде изчислена, за да осигурява интелигентно превключване на мрежи, и ще актуализира автоматично параметрите за оптимизация чрез WLAN (може да се наблюдава нарастване на потреблението на данни за WLAN). WLAN+ автоматично:
+1. Превключва между WLAN и мобилни данни (можете да изберете режима на превключване по подразбиране от настройките на мобилната мрежа), за да предостави безпроблемна практическа работа в интернет.
+2. Включва WLAN, когато е в обхвата на позната WLAN мрежа, и се свързва към нея.
+3. Прави оценка на достъпните WLAN мрежи. Автоматичното свързване е поставено на пауза за запазените мрежи, които нямат достъп до интернет.
+4. За определени свободни точки WLAN достъп открива и получава достъп до кода за проверка от входящо SMS съобщение за проверка и осъществява автоматично влизане в мрежата през браузъра (понастоящем се поддържа само в Китай)."</string>
+    <string name="user_add_user_message">"Можете да споделите това устройство с други хора, като създадете допълнителни потребители. Всеки от тях ще разполага със собствено пространство, което ще може да персонализира с приложения, тапети и др. Потребителите също така ще могат да коригират онези настройки на устройството, които засягат всички, като например WLAN.
+
+Когато добавите нов потребител, той трябва да настрои собственото си пространство.
+
+Всеки потребител може да актуализира приложенията за всички останали потребители."</string>
+    <string name="print_user_warning">Вашето у-во ще търси принтери наблизо чрез WLAN връзка, когато актив.услуг.печат, което ще предизв.трафик по WLAN.</string>
+    <string name="wifi_calling_settings_title_emui">Обаждания през WLAN</string>
+    <string name="wifi_calling_dialog_title">Активиране на обаждания през WLAN</string>
+    <string name="wifi_calling_dialog_message">Ако се активира, няма да можете да извършвате спешни обаждания през WLAN. Активиране?</string>
+    <string name="device_name_settings_summary">Когато използвате Bluetooth, WLAN Direct и тетеринг и преносима точка за безжичен достъп, и други устройства ще виждат това име.</string>
+    <string name="device_name_settings_dialog">Промяната на името на устройството ще прекъсне текущата връзка с точка WLAN достъп. Да се промени ли?</string>
+    <string name="write_wifi_nfc_tag">Писане в WLAN NFC етикет</string>
+    <string name="wifi_plus_smart_switch_title">Интелиг. превключване между WLAN и моб. данни</string>
+    <string name="wifi_plus_smart_switch_summary">Оценява възможността за свързване с WLAN и превключва между WLAN (може да увеличи трафика) и мобилни данни, за да избере най-добрата връзка с мрежата. За режима за превключване по подразбиране са зададени настройки за мобилна мрежа</string>
+    <string name="wifi_plus_smart_switch_summary_global">Оценява възможността за свързване с WLAN и превключва между WLAN (може да увеличи трафика) и мобилни данни, за да избере най-добрата връзка с мрежата</string>
+    <string name="wifi_plus_auto_turn_title">Автоматично вкл./изкл. на WLAN</string>
+    <string name="wifi_plus_auto_turn_summary">Включва WLAN, когато е в обхвата на позната WLAN мрежа, и се свързва към нея</string>
+    <string name="wifi_plus_quality_evaluation_title">Оценява наличните WLAN мрежи</string>
+    <string name="wifi_plus_quality_evaluation_summary">Оценяване на наличните WLAN мрежи. Автоматичното свързване е поставено на пауза за запазените мрежи, които нямат достъп до интернет</string>
+    <string name="wifi_plus_fast_connect_title">Оптим. на входа за свободни точки WLAN достъп</string>
+    <string name="wifi_plus_fast_connect_summary">За определени свободни точки WLAN достъп открива и получава достъп до кода за проверка от входящото SMS съобщение за проверка и осъществява автоматично влизане в мрежата през браузъра (понастоящем се поддържа само в Континентален Китай)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Когато е активирана актуализацията в реално време за Link+, телефонът ви автоматично актуализира параметрите на комуникация през безжичната ви мрежа (WLAN по подразбиране), за да бъдат подобрени функциите за комуникация.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Мобилни данни</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Използване на GPS и WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Използване на WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN мостът може значително да увеличи обхвата и силата на излъчване на WLAN сигнали. Към текущата ви WLAN мрежа могат да се свържат и други устройства чрез вашето устройство.
+2. WLAN мостът поддържа достъп от до 4 устройства.
+3. WLAN мостът не работи с функциите на точката за WLAN достъп и WLAN Direct. Ако се активира WLAN мостът, възможно е някои приложения, които използват P2P услуги, да не работят добре.
+4. Използването на WLAN мост води до по-бързо изтощаване на батерията.
+5. Ако получите съобщение, което ви уведомява, че WLAN ресурсите се използват от друго устройство, отидете в „Настройки > WLAN > WLAN Direct“ и прекъснете връзката към всякакви свързани устройства. Друг начин е да изключите и включите обратно WLAN за автоматично прекъсване на връзката към всички устройства."</string>
+    <string name="wifi_qrcode_share_notice_new">Сканиране за свързване към тази WLAN мрежа</string>
+    <string name="location_help_scheme_body_one">"1. Проверете дали функцията „Достъп до местоположението ми“ е активирана.
+2. Изберете опцията за използване на GPS, WLAN и мобилни мрежи в режим на местоположение.
+3. Свържете се с точка WLAN достъп или активирайте мобилните данни.
+4. Проверете дали използваното от вас приложение има достъп до разрешение за местоположението от „Мениджър на телефон > Мениджър на разрешенията > Достъп до информацията за местоположение“.
+5. Ако за режима за местоположение сте задали използване само на GPS, моля, уверете се, че използвате достъпа до местоположението само на открито и в среда без препятствия, в която GPS сигналът може да бъде приеман без проблеми.
+6. Ако сте установили връзка с обществена точка за безжичен достъп, опитайте да изключите WLAN и да активирате мобилните данни. След това опитайте отново да получите достъп до местоположението."</string>
+    <string name="location_help_scheme_body_two">"1. В режим за местоположение изберете GPS, WLAN и мобилни мрежи с цел достъп до по-точно местоположение.
+2. Ако използвате метален калъф за устройството си, премахнете го или го заменете с неметален и опитайте отново.
+3. Проверете дали използваното от вас приложение има достъп до разрешение за местоположението от „Мениджър на телефон > Мениджър на разрешенията > Достъп до информацията за местоположение“.
+4. Навигацията работи по-добре на просторни места без препятствия. Поставете телефона си в близост до предното стъкло на автомобила си, като например върху таблото за управление, или на друго място в автомобила, където достъпът не е възпрепятстван."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN мостът може значително да увеличи обхвата и силата на излъчване на WLAN сигнали. Към текущата ви WLAN мрежа могат да се свържат и други устройства чрез вашето устройство.
+%2$d. WLAN мостът поддържа достъп от до %6$d устройства.
+%3$d. WLAN мостът не работи с функциите на точката за WLAN достъп и WLAN Direct. Ако се активира WLAN мостът, възможно е някои приложения, които използват P2P услуги, да не работят добре.
+%4$d. Използването на WLAN мост води до по-бързо изтощаване на батерията.
+%5$d. Ако получите съобщение, което ви уведомява, че WLAN ресурсите се използват от друго устройство, отидете в „Настройки > WLAN > WLAN Direct“ и прекъснете връзката към всякакви свързани устройства. Друг начин е да изключите и включите обратно WLAN за автоматично прекъсване на връзката към всички устройства."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Може да използвате устройство с преносима WLAN точка за достъп като точка за достъп до интернет. Периферните устройства могат да се свързват към устройството чрез WLAN, а свързаните устройства ще получат достъп до интернет чрез мобилната мрежа.
+%2$d. Използването на преносима WLAN точка за достъп ще изисква активиране на връзката за мобилни данни и ще използва данни.
+%3$d. Използването на преносима WLAN точка за достъп може да изтощи батерията по-бързо."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Ръчно свързване:
+%2$d. Активирайте WLAN на целевото устройство и намерете точката за безжичен достъп %1$s.
+%3$d. Свържете се към точката за безжичен достъп."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Проверете дали функцията „Достъп до местоположението ми“ е активирана.
+%2$d. Изберете опцията за използване на GPS, WLAN и мобилни мрежи в режим на местоположение.
+%3$d. Свържете се с точка WLAN достъп или активирайте мобилните данни.
+%4$d. Проверете дали използваното от вас приложение има достъп до разрешение за местоположението от „Мениджър на телефон > Мениджър на разрешенията > Достъп до информацията за местоположение“.
+%5$d. Ако за режима за местоположение сте задали използване само на GPS, моля, уверете се, че използвате достъпа до местоположението само на открито и в среда без препятствия, в която GPS сигналът може да бъде приеман без проблеми.
+%6$d. Ако сте установили връзка с обществена точка за безжичен достъп, опитайте да изключите WLAN и да активирате мобилните данни. След това опитайте отново да получите достъп до местоположението."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. В режим за местоположение изберете GPS, WLAN и мобилни мрежи с цел достъп до по-точно местоположение.
+%2$d. Ако използвате метален калъф за устройството си, премахнете го или го заменете с неметален и опитайте отново.
+%3$d. Проверете дали използваното от вас приложение има достъп до разрешение за местоположението от „Мениджър на телефон > Мениджър на разрешенията > Достъп до информацията за местоположение“.
+%4$d. Навигацията работи по-добре на просторни места без препятствия. Поставете телефона си в близост до предното стъкло на автомобила си, като например върху таблото за управление, или на друго място в автомобила, където достъпът не е възпрепятстван."</string>
+    <string name="turn_off_data_saver_message">Използването на преносим хотспот изисква деактивиране на спестяването на данни. Деактивирате ли?</string>
+    <string name="first_wlan_hotspot_text">Точката за WLAN достъп ви позволява да споделяте вашата мрежова връзка с други хора, но може да източи заряда на батерията по-бързо и да увеличи таксите за потребление на данни.</string>
+    <string name="hotspot_power_notification_title">Изключена точка за WLAN достъп</string>
+    <string name="hotspot_power_notification_ticker_text">Изключена точка за WLAN достъп</string>
+    <string name="toast_entitle_wifi_need_close">Тази функция не може да се използва, докато WLAN е включена. Моля, първо изключете WLAN.</string>
+    <string name="wifi_activated_warning_Title">WLAN е включена</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Мобилната точка за безжичен достъп и WLAN не могат да се включат едновременно. Да се изключи ли WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN трябва да се изключи сега. Тя отново ще се включи автоматично, след като телефонът ви установи комуникация със сървърите на AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">Ако изключите опцията за име на мрежа за излъчване (SSID), телефонът ви няма да бъде видим за други устройства и няма да се появява в списъка на достъпните WLAN мрежи. Все пак, други устройства могат да се свързват с вашата точка за безжичен (Интернет) достъп чрез ръчно въвеждане на името на вашата мрежа.</string>
+    <string name="enable">Автоматичното свързване с WLAN на AT&amp;T е включено</string>
+    <string name="disable">Автоматичното свързване с WLAN на AT&amp;T е изключено</string>
+    <string name="auto_connect_wifi_suggestion">Рестартирай WLAN, за да влязат в сила настройките на Автоматично свързване.</string>
+    <string name="wifi_network_detect_summary">Проверете достъпността до Интернет, когато се свързвате с WLAN точка за безжичен достъп</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN е деактивирана от администратора на устройството.</string>
+    <string name="wifi_required_info_text">За да завършите настройката, таблетът трябва да има достъп до WLAN мрежа. След приключване на настройката ще можете да превключвате от мобилни данни на WLAN и обратно.</string>
+    <string name="wifi_setting_frequency_band_title">Честотен спектър за WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s управлява устройството Ви и не Ви позволява да променяте или изтривате тази WLAN мрежа. За повече информация се свържете с администратора си.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem android:gravity="center_vertical" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:mode="twoLine" android:paddingStart="@dimen/preference_item_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_item_title_size" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="16.0dip" android:layout_alignParentStart="true" style="@style/EmuiPrimaryTextFontStyle" />
+    <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:minHeight="10.0dip" android:layout_below="@android:id/text1" android:layout_alignStart="@android:id/text1" android:layout_alignParentStart="true" style="@style/EmuiSecondaryTextFontStyle" />
+</TwoLineListItem>

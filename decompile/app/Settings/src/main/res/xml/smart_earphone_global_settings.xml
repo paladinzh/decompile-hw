@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:key="smart_earphone_tutorial" android:summary="@string/smart_earphone_control_global_text" settings:drawable="@drawable/smart_earphone_global_animation" />
+    <SwitchPreference android:title="@string/smart_earphone_control_title" android:key="smart_earphone_switch" />
+</PreferenceScreen>

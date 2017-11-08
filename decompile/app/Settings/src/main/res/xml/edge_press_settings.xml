@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pressure_edge_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_virtual_key_category" android:key="virtual_key_category">
+        <SwitchPreference android:title="@string/virtual_key_title" android:key="virtual_key" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/virtual_notification_key_title" android:key="virtual_notification_key_toggle" android:summary="@string/pressure_edge_replace_navigation_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_launch_app_category">
+        <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/pressure_edge_left_press_title" android:key="left_edge_press" android:summary="@string/pressure_launch_app_none" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/pressure_edge_right_press_title" android:key="right_edge_press" android:summary="@string/pressure_launch_app_none" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Vyhledávání…</item>
+        <item>Připojování…</item>
+        <item>Ověřování…</item>
+        <item>Načítání adresy IP…</item>
+        <item>Připojeno</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování…</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasné předcházení slabému připojení</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Vyhledávání…</item>
+        <item>Připojování k síti %1$s…</item>
+        <item>Ověřování v síti %1$s…</item>
+        <item>Získávání adresy IP ze sítě %1$s…</item>
+        <item>Připojeno k síti %1$s</item>
+        <item>Pozastaveno</item>
+        <item>Odpojování od sítě %1$s…</item>
+        <item>Odpojeno</item>
+        <item>Neúspěšné</item>
+        <item>Blokováno</item>
+        <item>Dočasné předcházení slabému připojení</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nikdy nekontrolovat</item>
+        <item>Kontrolovat jen obsah DRM</item>
+        <item>Vždy kontrolovat</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Nikdy nepoužívat kontrolu HDCP</item>
+        <item>Použít kontrolu HDCP pouze pro obsah DRM</item>
+        <item>Vždy používat kontrolu HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Vypnuto</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Vypnuto</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Vypnuto</item>
+        <item>64 kB na vyrovnávací paměť protokolů</item>
+        <item>256 kB na vyrovnávací paměť protokolů</item>
+        <item>1 MB na vyrovnávací paměť protokolů</item>
+        <item>4 MB na vyrovnávací paměť protokolů</item>
+        <item>16 MB na vyrovnávací paměť protokolů</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animace je vypnuta</item>
+        <item>Měřítko animace 0,5x</item>
+        <item>Měřítko animace 1x</item>
+        <item>Měřítko animace 1,5x</item>
+        <item>Měřítko animace 2x</item>
+        <item>Měřítko animace 5x</item>
+        <item>Měřítko animace 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Žádný</item>
+        <item>480p</item>
+        <item>480p (zabezpečeno)</item>
+        <item>720p</item>
+        <item>720p (zabezpečeno)</item>
+        <item>1080p</item>
+        <item>1080p (zabezpečeno)</item>
+        <item>4K</item>
+        <item>4K (zabezpečeno)</item>
+        <item>4K (přepočteno)</item>
+        <item>4K (přepočteno, zabezpečeno)</item>
+        <item>720p, 1080p (duální obrazovka)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Žádné</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Zásobník volání funkce glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Vypnuto</item>
+        <item>Vykreslit neobdélníkový výstřižek modře</item>
+        <item>Zvýraznit testované příkazy vykreslování zeleně</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Vypnuto</item>
+        <item>Na obrazovce ve formě sloupců</item>
+        <item>V nástroji adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Vypnuto</item>
+        <item>Zobrazit překreslované oblasti</item>
+        <item>Zobrazit oblasti pro deuteranomálii</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardní limit</item>
+        <item>Procesy na pozadí deaktivovány</item>
+        <item>Maximálně 1 proces</item>
+        <item>Maximálně 2 procesy</item>
+        <item>Maximálně 3 procesy</item>
+        <item>Maximálně 4 procesy</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Nabíjení</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Zdroj zvuku</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Velmi pomalá</item>
+        <item>Pomalá</item>
+        <item>Normální</item>
+        <item>Mírně rychlá</item>
+        <item>Středně rychlá</item>
+        <item>Rychlá</item>
+        <item>Velmi rychlá</item>
+        <item>Ultra rychlá</item>
+        <item>Nejrychlejší</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Jasné (výchozí)</item>
+        <item>Přirozené</item>
+        <item>Standardní</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Vylepšené barvy</item>
+        <item>Přirozené barvy, jak je vidí oči</item>
+        <item>Barvy optimalizované pro digitální obsah</item>
+    </array>
+    <array name="clock_options">
+        <item>Zobrazovat hodiny, minuty a sekundy</item>
+        <item>Zobrazovat hodiny a minuty (výchozí nastavení)</item>
+        <item>Tuto ikonu nezobrazovat</item>
+    </array>
+    <array name="battery_options">
+        <item>Vždy zobrazovat procento</item>
+        <item>Zobrazovat procento při nabíjení (výchozí nastavení)</item>
+        <item>Tuto ikonu nezobrazovat</item>
+    </array>
+</resources>

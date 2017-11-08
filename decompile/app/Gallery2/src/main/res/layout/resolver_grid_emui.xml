@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.gallery.share.HwResolverView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="?unknown_attr_ref: 101032c" android:showDividers="UNKNOWN_DATA_0x0" android:dividerPadding="0dp">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.huawei.gallery.share.HwWrapContentViewPager android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <com.huawei.gallery.share.QuickNavigation android:id="@id/navigation_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xa01" />
+    <com.huawei.gallery.share.ButtonCancelBar android:orientation="horizontal" android:id="@id/button_cancel_bar" android:paddingTop="@dimen/share_dlg_btn_padding" android:paddingBottom="@dimen/share_dlg_btn_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale" style="?unknown_attr_ref: 101032e">
+        <Button android:id="@id/button_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0x1040000" android:maxLines="2" android:layout_weight="1.0" style="?unknown_attr_ref: 101032f" />
+    </com.huawei.gallery.share.ButtonCancelBar>
+</com.huawei.gallery.share.HwResolverView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/ic_step_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:layout_marginBottom="20.0dip" android:color="#fffcfcfc">
+        <TextView android:textSize="24.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/today" android:alpha="@dimen/preference_item_summary_alpha" android:fontFamily="chnfzxh" />
+        <TextView android:textSize="70.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/textview2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:color="#ff28c0c6" android:alpha="@dimen/preference_item_summary_alpha" android:fontFamily="chnfzxh" />
+        <TextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/textview3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="@dimen/preference_item_summary_alpha" android:fontFamily="chnfzxh" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/textview4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:alpha="@dimen/preference_item_summary_alpha" android:fontFamily="chnfzxh" />
+    <View android:id="@id/divider1" android:background="#ffbcbcbc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/switch_bar1" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="64.0dip" android:minHeight="64.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="8.0dip">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/beam_title1" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculator_title" android:singleLine="true" android:alpha="@dimen/preference_item_title_alpha" />
+        </RelativeLayout>
+        <Switch android:layout_gravity="center" android:id="@id/beam_switch1" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    </LinearLayout>
+    <View android:id="@id/divider2" android:background="#ffbcbcbc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/switch_bar2" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="64.0dip" android:minHeight="64.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="8.0dip">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/beam_title2" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculator_notification" android:singleLine="true" android:alpha="@dimen/preference_item_title_alpha" />
+        </RelativeLayout>
+        <Switch android:layout_gravity="center" android:id="@id/beam_switch2" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" />
+    </LinearLayout>
+    <View android:id="@id/divider1" android:background="#ffbcbcbc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

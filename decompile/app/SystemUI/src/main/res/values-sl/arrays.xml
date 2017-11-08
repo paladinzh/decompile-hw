@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Iskanje …</item>
+        <item>Vzpostavljanje povezave ...</item>
+        <item>Preverjanje pristnosti ...</item>
+        <item>Pridobivanje naslova IP …</item>
+        <item>Povezava je vzpostavljena</item>
+        <item>Preloženo</item>
+        <item>Prekinjanje povezave ...</item>
+        <item>Prekinjena povezava</item>
+        <item>Neuspešno</item>
+        <item>Blokirano</item>
+        <item>Začasno izogibanje slabi povezavi</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Iskanje …</item>
+        <item>Vzpostavljanje povezave z omrežjem %1$s …</item>
+        <item>Preverjanje pristnosti v omrežju %1$s …</item>
+        <item>Pridobivanje naslova IP od %1$s …</item>
+        <item>Povezava z omrežjem %1$s je vzpostavljena</item>
+        <item>Začasno ustavljeno</item>
+        <item>Prekinjanje povezave z omrežjem %1$s …</item>
+        <item>Prekinjena povezava</item>
+        <item>Neuspešno</item>
+        <item>Blokirano</item>
+        <item>Začasno izogibanje slabi povezavi</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nikoli ne preveri</item>
+        <item>Preveri samo glede vsebine DRM</item>
+        <item>Vedno preveri</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Nikoli ne uporabi preverjanja HDCP</item>
+        <item>Preverjanje HDCP uporabi samo za vsebino DRM</item>
+        <item>Vedno uporabi preverjanje HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Izklopljeno</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Izklopljeno</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Izklopljeno</item>
+        <item>64 K/medpomnilnik dnevnika</item>
+        <item>256 K/medpomnilnik dnevnika</item>
+        <item>1 M/medpomnilnik dnevnika</item>
+        <item>4 M/medpomnilnik dnevnika</item>
+        <item>16 M/medpomnilnik dnevnika</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animacija je izključena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animacija je izključena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animacija izklopljena</item>
+        <item>Merilo animacije: 0,5 x</item>
+        <item>Merilo animacije: 1 x</item>
+        <item>Merilo animacije: 1,5 x</item>
+        <item>Merilo animacije: 2 x</item>
+        <item>Merilo animacije: 5 x</item>
+        <item>Merilo animacije: 10 x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Brez</item>
+        <item>480p</item>
+        <item>480p (varno)</item>
+        <item>720p</item>
+        <item>720p (varno)</item>
+        <item>1080p</item>
+        <item>1080p (varno)</item>
+        <item>4K</item>
+        <item>4K (varno)</item>
+        <item>4K (izboljšan prikaz)</item>
+        <item>4K (izboljšan prikaz, varno)</item>
+        <item>720p, 1080p (dvojni zaslon)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Brez</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Pri napaki glGetError kliči sklad</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Izklopljeno</item>
+        <item>Izris obm. nepravok. izreza z modro</item>
+        <item>Ozn. presk. risal. ukazov z zeleno</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Izklopljeno</item>
+        <item>Na zaslonu kot vrstice</item>
+        <item>V dumpsys gfxinfo lupine adb</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Izklop</item>
+        <item>Pokaži risanje zunaj vidnega območja</item>
+        <item>Pokaži območja za devteranomalijo</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardna omejitev</item>
+        <item>Ni postopkov v ozadju</item>
+        <item>Največ 1 postopek</item>
+        <item>Največ 2 postopka</item>
+        <item>Največ 3 postopki</item>
+        <item>Največ 4 postopki</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Polnjenje</item>
+        <item>MTP (protokol za prenos predstavnosti)</item>
+        <item>PTP (protokol za prenos slik)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Vir zvoka</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Zelo počasi</item>
+        <item>Počasi</item>
+        <item>Običajno</item>
+        <item>Hitro</item>
+        <item>Hitreje</item>
+        <item>Zelo hitro</item>
+        <item>Naglo</item>
+        <item>Zelo naglo</item>
+        <item>Najhitreje</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Živo (privzeto)</item>
+        <item>Naravno</item>
+        <item>Standardno</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Izboljšane barve</item>
+        <item>Naravne barve, kot jih vidimo s prostim očesom</item>
+        <item>Barve, optimizirane za digitalno vsebino</item>
+    </array>
+    <array name="clock_options">
+        <item>Prikaži ure, minute in sekunde</item>
+        <item>Prikaži ure in minute (privzeto)</item>
+        <item>Ne prikaži te ikone</item>
+    </array>
+    <array name="battery_options">
+        <item>Vedno prikaži odstotek</item>
+        <item>Prikaži odstotek med polnjenjem (privzeto)</item>
+        <item>Ne prikaži te ikone</item>
+    </array>
+</resources>

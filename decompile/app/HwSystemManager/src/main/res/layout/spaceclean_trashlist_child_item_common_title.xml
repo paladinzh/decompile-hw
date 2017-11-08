@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/icon" android:layout_width="UNKNOWN_DATA_0x7f0a0015" android:layout_height="UNKNOWN_DATA_0x7f0a0015" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:src="@drawable/ic_storagecleaner_file" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_marginEnd="14dp" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/icon" style="@style/common_listview_title_margin">
+        <RelativeLayout android:id="@+id/process_manager_title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="middle" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250dp" android:text="@string/simple_text_stub" android:singleLine="true" android:layout_alignParentStart="true" style="@style/ListviewItemTextPrimary" />
+            <ImageView android:id="@+id/red_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/red_point_tip" android:layout_centerVertical="true" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/title" />
+            <ImageView android:id="@+id/lock_icon" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@drawable/ic_protected" android:layout_centerVertical="true" android:layout_marginStart="2dp" android:layout_toEndOf="@+id/title" />
+        </RelativeLayout>
+        <TextView android:id="@+id/trash_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/space_cache_item_cleaned" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/ListviewItemTextSecondary" />
+    </LinearLayout>
+</RelativeLayout>

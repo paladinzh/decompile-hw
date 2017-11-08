@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/application_info_label"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.applications.LayoutPreference android:layout="@layout/installed_app_details" android:selectable="false" android:key="header_view" />
+    <Preference android:title="@string/storage_settings" android:selectable="true" android:key="storage_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:title="@string/data_usage_summary_title" android:selectable="true" android:key="data_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:title="@string/permissions_label" android:selectable="true" android:key="permission_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:title="@string/notifications_label" android:selectable="true" android:key="notification_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:title="@string/launch_by_default" android:selectable="true" android:key="preferred_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:title="@string/power_usage_summary_title" android:selectable="true" android:key="battery" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:enabled="false" android:title="@string/memory_settings_title" android:selectable="true" android:key="memory" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

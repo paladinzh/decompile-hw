@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:id="@id/edit_fragment">
+    <ListPreference androidhwext:entries="@array/prefs_edit_resolution_title" androidhwext:layout="@layout/preference_edit_layout" androidhwext:title="@string/edit_resolution_mode" androidhwext:key="key-edit-resolution" androidhwext:defaultValue="1" androidhwext:dialogTitle="@string/edit_resolution_mode" androidhwext:entryValues="@array/prefs_edit_resolution_value" androidhwext:preferenceID="@id/key_edit_resolution" />
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.tiles.DataUsageDetailView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Usage" android:id="@id/usage_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.android.systemui.qs.DataUsageGraph android:id="@r$id/usage_graph" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:layout_marginTop="8dp" android:layout_marginBottom="@dimen/qs_panel_padding" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="@id/usage_carrier_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage" android:id="@id/usage_info_top_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Secondary" android:id="@id/usage_period_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textAppearance="@style/TextAppearance.QS.DataUsage.Secondary" android:id="@id/usage_info_bottom_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</com.android.systemui.qs.tiles.DataUsageDetailView>

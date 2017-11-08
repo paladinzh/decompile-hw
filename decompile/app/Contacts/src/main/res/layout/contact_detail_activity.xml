@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.hap.widget.MultiShrinkScroller xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/multiscroller" android:focusable="true" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/detail_header_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d02ca" layout="@layout/detail_header_contact_without_updates" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true"
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/detail_content_container" android:background="@drawable/contact_detail_list_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/detail_header_min_height">
+            <LinearLayout android:orientation="vertical" android:id="0x1020013" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+                <huawei.android.widget.SubTabWidget android:id="@+id/subTab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <android.support.v4.view.ViewPager android:id="@+id/detail_tab_pager" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+            </LinearLayout>
+            <FrameLayout android:id="@+id/call_log_detail_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="1px" />
+        </RelativeLayout>
+        <ViewStub android:id="@+id/contacts_detail_menu_container" android:layout="@layout/contact_detail_card_menu" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d023f" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.android.contacts.hap.widget.MultiShrinkScroller>

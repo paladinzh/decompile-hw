@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.gallery.refocus.wideaperture.ui.RefocusActionBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/refocus_action_bar" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/refocus_editor_filter_seekbar_item" />
+    <include layout="@layout/allfocus_filter_horizontal_scroll_view" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.huawei.gallery.editor.ui.ElasticBothHorizontalScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.gallery.refocus.wideaperture.ui.ApertureMenu android:orientation="horizontal" android:id="@id/aperture_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.huawei.gallery.editor.ui.ElasticBothHorizontalScrollView>
+        <include layout="@layout/editor_scroll_background" />
+        <include layout="@layout/refocus_editor_foot_bar" />
+    </FrameLayout>
+</com.huawei.gallery.refocus.wideaperture.ui.RefocusActionBar>

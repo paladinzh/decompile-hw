@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingLeft="16dp" android:paddingTop="6dp" android:paddingRight="16dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp">
+        <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:textColor="@color/emui_list_primary_text" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250dp" android:singleLine="true" android:layout_centerVertical="true" style="@style/PowerMediumTextSytle" />
+        <ImageView android:id="@+id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_alignParentEnd="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010432" android:textColor="@color/emui_list_secondray_text" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginEnd="3dp" android:layout_toStartOf="@+id/arrow" android:layout_toEndOf="@+id/title" />
+    </RelativeLayout>
+    <View style="@style/divider_line" />
+</LinearLayout>

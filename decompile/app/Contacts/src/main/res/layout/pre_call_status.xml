@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/precall_status_layout" android:background="@color/voicemail_status_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/precall_status_message_layout" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/contact_detail_calllog_item_senond_font" android:textColor="@color/voicemail_status_message_text_color" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/precall_status_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rcs_pre_call_disconnected" android:maxLines="2" android:drawablePadding="16dp" android:drawableStart="@drawable/symbol" android:paddingStart="16dp" android:layout_marginEnd="16dp" />
+            <TextView android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/precall_status_action" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/rcs_pre_call_nologin_self_set_text" android:singleLine="true" android:drawablePadding="4dp" android:drawableEnd="@drawable/btn_detail_normal" android:layout_marginEnd="16dp" android:layout_toEndOf="@+id/voicemail_status_message" style="@style/contact_calllog_detail_sub_text_style" />
+        </LinearLayout>
+        <View android:background="@color/voicemail_status_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" android:layout_below="@+id/precall_status_message_layout" />
+    </RelativeLayout>
+</merge>

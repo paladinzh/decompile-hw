@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category android:id="@id/system_section" android:title="@string/header_category_system">
+        <dashboard-tile android:icon="@drawable/abc_cab_background_top_mtrl_alpha_APKTOOL_DUPLICATENAME_0x7f0202c1" android:id="@id/browser_bar_settings" android:title="@string/browser_bar_settings_title">
+            <intent android:action="com.skyfire.browser.toolbar.intent.action.VIEW_SETTINGS" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_phone_updates" android:id="@id/phone_updates_settings" android:title="@string/system_update_settings_emotion">
+            <intent android:targetPackage="com.huawei.android.dmclient" android:targetClass="com.huawei.android.dmclient.main.DMMainATT" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_phone_updates" android:id="@id/cust_phone_updates_settings" android:title="@string/system_update" android:fragment="com.android.settings.SystemUpdatesFragment" />
+        <dashboard-tile android:icon="@drawable/ic_settings_dss" android:id="@id/activate_device_settings" android:title="@string/activate_device_title">
+            <intent android:mimeType="vnd.sprint.dsa/vnd.sprint.dsa.main" android:action="com.sprint.dsa.DSA_ACTIVITY">
+                <extra android:name="com.sprint.dsa.source" android:value="menu" />
+            </intent>
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/wireless_section" android:title="@string/header_category_wireless_networks">
+        <dashboard-tile android:icon="@drawable/ic_settings_location" android:id="@id/location_settings" android:title="@string/location_settings_title" android:fragment="com.android.settings.location.LocationSettings" />
+        <dashboard-tile android:icon="@drawable/abc_ic_menu_share_mtrl_alpha" android:id="@id/tether_settings" android:title="@string/tether_settings_title_all" android:fragment="com.android.settings.TetherSettings" />
+        <dashboard-tile android:icon="@drawable/abc_ic_star_black_36dp" android:id="@id/roaming_settings" android:title="@string/roaming_title">
+            <intent android:targetPackage="com.android.phone" android:targetClass="com.android.phone.HwCustCallFeatureSettingRoaming" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/device_section" android:title="@string/header_category_device">
+        <dashboard-tile android:icon="@drawable/ic_basemode" android:id="@id/charge_accessory" android:title="@string/charge_accessory">
+            <intent android:targetPackage="com.android.dreams.album" android:targetClass="com.android.dreams.album.PhotoChargeSettings" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_step" android:id="@id/calculator_settings" android:title="@string/calculator_title">
+            <intent android:action="huawei.intent.action.CALCULATOR_SETTINGS" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/smart_assistance_section" android:title="@string/header_category_smart_assistance">
+        <dashboard-tile android:icon="@drawable/ic_settings_smartkey" android:id="@id/smartkey_settings" android:title="@string/smart_key_title">
+            <intent android:targetPackage="com.android.huawei.smartkey" android:targetClass="com.android.huawei.smartkeyActivity.SmartkeyMainActivity" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/personal_section" android:title="@string/header_category_privacy_security">
+        <dashboard-tile android:icon="@drawable/abc_btn_radio_to_on_mtrl_015_APKTOOL_DUPLICATENAME_0x7f0200ba" android:id="@id/emergency_settings" android:title="@string/emergency_title_settings">
+            <intent android:targetPackage="com.huawei.sos" android:targetClass="com.huawei.sos.Settings$EmergencySettingsActivity" />
+        </dashboard-tile>
+    </dashboard-category>
+    <dashboard-category android:id="@id/honor_update" android:title="@string/header_category_privacy_security">
+        <dashboard-tile android:icon="@drawable/honor_updates" android:id="@id/honor_update_settings" android:title="@string/honor_update_setting_title">
+            <intent android:action="com.honor.broadcast.action.SUBSCRIPTION" />
+        </dashboard-tile>
+    </dashboard-category>
+</dashboard-categories>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.views.MmsVattchView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="12dp" android:paddingEnd="12dp">
+    <ImageView android:id="@+id/vattch_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/vattch_nodes" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="8dp">
+        <TextView android:textSize="@dimen/mms_main_text_size" android:textColor="@color/mms_main_text_color" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/vattch_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</com.android.mms.ui.views.MmsVattchView>

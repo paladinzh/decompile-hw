@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Ubrukt i over %1$d dager</item>
+        <item quantity="one">Ubrukt i over %1$d dag</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d apper kjører fortsatt etter at skjermen er slått av. Lukk dem for å spare strøm</item>
+        <item quantity="zero">%1$d apper kjører fortsatt etter at skjermen er slått av. Lukk dem for å spare strøm</item>
+        <item quantity="one">%1$d app kjører fortsatt etter at skjermen er slått av. Lukk den for å spare strøm</item>
+        <item quantity="two">%1$d apper kjører fortsatt etter at skjermen er slått av. Lukk dem for å spare strøm</item>
+        <item quantity="few">%1$d apper kjører fortsatt etter at skjermen er slått av. Lukk dem for å spare strøm</item>
+        <item quantity="many">%1$d apper kjører fortsatt etter at skjermen er slått av. Lukk dem for å spare strøm</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d strømkrevende apper lukket</item>
+        <item quantity="zero">%1$d strømkrevende apper lukket</item>
+        <item quantity="one">%1$d strømkrevende app lukket</item>
+        <item quantity="two">%1$d strømkrevende apper lukket</item>
+        <item quantity="few">%1$d strømkrevende apper lukket</item>
+        <item quantity="many">%1$d strømkrevende apper lukket</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d apper bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appene lukkes</item>
+        <item quantity="zero">%1$d apper bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appene lukkes</item>
+        <item quantity="one">%1$d app bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appen lukkes</item>
+        <item quantity="two">%1$d apper bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appene lukkes</item>
+        <item quantity="few">%1$d apper bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appene lukkes</item>
+        <item quantity="many">%1$d apper bruker strøm i det skjulte. Batterilevetiden kan forlenges med %2$s hvis appene lukkes</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">Hindret %d apper i å aktivere mobildata</item>
+        <item quantity="zero">Hindret %d apper i å aktivere mobildata</item>
+        <item quantity="one">Hindret %d app i å aktivere mobildata</item>
+        <item quantity="two">Hindret %d apper i å aktivere mobildata</item>
+        <item quantity="few">Hindret %d apper i å aktivere mobildata</item>
+        <item quantity="many">Hindret %d apper i å aktivere mobildata</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Hindret %d apper i å aktivere Wi-Fi</item>
+        <item quantity="zero">Hindret %d apper i å aktivere Wi-Fi</item>
+        <item quantity="one">Hindret %d app i å aktivere Wi-Fi</item>
+        <item quantity="two">Hindret %d apper i å aktivere Wi-Fi</item>
+        <item quantity="few">Hindret %d apper i å aktivere Wi-Fi</item>
+        <item quantity="many">Hindret %d apper i å aktivere Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="zero">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="one">Hindret %d app i å aktivere WLAN</item>
+        <item quantity="two">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="few">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="many">Hindret %d apper i å aktivere WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="zero">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="one">Hindret %d app i å aktivere WLAN</item>
+        <item quantity="two">Hindret %d apper i å aktivere WLAN-nettverk</item>
+        <item quantity="few">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="many">Hindret %d apper i å aktivere WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="zero">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="one">Hindret %d app i å aktivere WLAN</item>
+        <item quantity="two">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="few">Hindret %d apper i å aktivere WLAN</item>
+        <item quantity="many">Hindret %d apper i å aktivere WLAN</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">Hindret %d apper i å aktivere Bluetooth</item>
+        <item quantity="zero">Hindret %d apper i å aktivere Bluetooth</item>
+        <item quantity="one">Hindret %d app i å aktivere Bluetooth</item>
+        <item quantity="two">Hindret %d apper i å aktivere Bluetooth</item>
+        <item quantity="few">Hindret %d apper i å aktivere Bluetooth</item>
+        <item quantity="many">Hindret %d apper i å aktivere Bluetooth</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Denne funksjonen krever følgende tillatelser. Vil du gå til innstillingene og aktivere dem?</item>
+        <item quantity="zero">Denne funksjonen krever at du aktiverer følgende tillatelser. Vil du gå til innstillingene og aktivere disse?</item>
+        <item quantity="one">Denne funksjonen krever følgende tillatelse. Vil du gå til innstillingene og aktivere den?</item>
+        <item quantity="two">Denne funksjonen krever at du aktiverer følgende tillatelser. Vil du gå til innstillingene og aktivere disse?</item>
+        <item quantity="few">Denne funksjonen krever at du aktiverer følgende tillatelser. Vil du gå til innstillingene og aktivere disse?</item>
+        <item quantity="many">Denne funksjonen krever at du aktiverer følgende tillatelser. Vil du gå til innstillingene og aktivere disse?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Du kan når som helst deaktivere disse tillatelsene i appinnstillingene.</item>
+        <item quantity="zero">Du kan når som helst deaktivere disse tillatelsene i appinnstillingene.</item>
+        <item quantity="one">Du kan når som helst deaktivere denne tillatelsen i appinnstillingene.</item>
+        <item quantity="two">Du kan når som helst deaktivere disse tillatelsene i appinnstillingene.</item>
+        <item quantity="few">Du kan når som helst deaktivere disse tillatelsene i appinnstillingene.</item>
+        <item quantity="many">Du kan når som helst deaktivere disse tillatelsene i appinnstillingene.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">La %1$d apper fortsette å kjøre etter at skjermen er slått av</item>
+        <item quantity="one">La %1$d app fortsette å kjøre etter at skjermen er slått av</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">%1$d regler er valgt</item>
+        <item quantity="one">%1$d regel er valgt</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Slett de valgte %1$d filene?</item>
+        <item quantity="one">Slett den valgte %1$d filen?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Filene vil ikke kunne gjenopprettes.</item>
+        <item quantity="one">Filen vil ikke kunne gjenopprettes.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Slett de valgte %1$d dataene?</item>
+        <item quantity="one">Slett de valgte %1$d dataene?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Dataene vil ikke kunne gjenopprettes.</item>
+        <item quantity="one">Dataene vil ikke kunne gjenopprettes.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Avinstaller de valgte %1$d appene?</item>
+        <item quantity="one">Avinstaller den valgte %1$d appen?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Gjenopprett de valgte %1$d appene?</item>
+        <item quantity="one">Gjenopprett den valgte %1$d appen?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Alle app-data vil bli slettet. Disse appene vil bli tilbakestilt til opprinnelig status.</item>
+        <item quantity="one">Alle app-data vil bli slettet. Denne appen vil bli tilbakestilt til opprinnelig status.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d virus</item>
+        <item quantity="one">%1$d virus</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d risikoer for programvaren</item>
+        <item quantity="zero">%1$d risikoer for programvaren</item>
+        <item quantity="one">%1$d risiko for programvaren</item>
+        <item quantity="two">%1$d risikoer for programvaren</item>
+        <item quantity="few">%1$d risikoer for programvaren</item>
+        <item quantity="many">%1$d risikoer for programvaren</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d uoffisielle programmer</item>
+        <item quantity="zero">%1$d uoffisielle programmer</item>
+        <item quantity="one">%1$d uoffisielt program</item>
+        <item quantity="two">%1$d uoffisielle programmer</item>
+        <item quantity="few">%1$d uoffisielle programmer</item>
+        <item quantity="many">%1$d uoffisielle programmer</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til meldinger</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til meldinger</item>
+        <item quantity="one">Hindret %d app i å få tilgang til meldinger</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til meldinger</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til meldinger</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til meldinger</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til anropsloggen</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til anropsloggen</item>
+        <item quantity="one">Hindret %d app i å få tilgang til anropsloggen</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til anropsloggen</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til anropsloggen</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til anropsloggen</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til kontaktene</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til kontaktene</item>
+        <item quantity="one">Hindret %d app i å få tilgang til kontaktene</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til kontaktene</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til kontaktene</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til kontaktene</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til kalenderen</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til kalenderen</item>
+        <item quantity="one">Hindret %d app i å få tilgang til kalenderen</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til kalenderen</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til kalenderen</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til kalenderen</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til plasseringen din</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til plasseringen din</item>
+        <item quantity="one">Hindret %d app i å få tilgang til plasseringen din</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til plasseringen din</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til plasseringen din</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til plasseringen din</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">Hindret %d apper i å få tilgang til telefon-ID-en din</item>
+        <item quantity="zero">Hindret %d apper i å få tilgang til telefon-ID-en din</item>
+        <item quantity="one">Hindret %d app i å få tilgang til telefon-ID-en din</item>
+        <item quantity="two">Hindret %d apper i å få tilgang til telefon-ID-en din</item>
+        <item quantity="few">Hindret %d apper i å få tilgang til telefon-ID-en din</item>
+        <item quantity="many">Hindret %d apper i å få tilgang til telefon-ID-en din</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">Hindret %d apper i å gjøre lydopptak</item>
+        <item quantity="zero">Hindret %d apper i å gjøre lydopptak</item>
+        <item quantity="one">Hindret %d app i å gjøre lydopptak</item>
+        <item quantity="two">Hindret %d apper i å gjøre lydopptak</item>
+        <item quantity="few">Hindret %d apper i å gjøre lydopptak</item>
+        <item quantity="many">Hindret %d apper i å gjøre lydopptak</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">Hindret %d apper i å ringe</item>
+        <item quantity="zero">Hindret %d apper i å ringe</item>
+        <item quantity="one">Hindret %d app i å ringe</item>
+        <item quantity="two">Hindret %d apper i å ringe</item>
+        <item quantity="few">Hindret %d apper i å ringe</item>
+        <item quantity="many">Hindret %d apper i å ringe</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d apper</item>
+        <item quantity="zero">%d apper</item>
+        <item quantity="one">%d app</item>
+        <item quantity="two">%d apper</item>
+        <item quantity="few">%d apper</item>
+        <item quantity="many">%d apper</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d virus</item>
+        <item quantity="zero">%d virus</item>
+        <item quantity="one">%d virus</item>
+        <item quantity="two">%d virus</item>
+        <item quantity="few">%d virus</item>
+        <item quantity="many">%d virus</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Det ble funnet %d apper med annonser. Disse kan avinstalleres manuelt</item>
+        <item quantity="zero">Det ble funnet %d apper med annonser. Disse kan avinstalleres manuelt.</item>
+        <item quantity="one">Det ble funnet %d app med annonser. Denne kan avinstalleres manuelt</item>
+        <item quantity="two">Det ble funnet %d apper med annonser. Disse kan avinstalleres manuelt.</item>
+        <item quantity="few">Det ble funnet %d apper med annonser. Disse kan avinstalleres manuelt.</item>
+        <item quantity="many">Det ble funnet %d apper med annonser. Disse kan avinstalleres manuelt.</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Oppdatert for %1$d timer siden</item>
+        <item quantity="one">Oppdatert for %1$d time siden</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Oppdatert for %1$d dager siden</item>
+        <item quantity="one">Oppdatert for %1$d dag siden</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Oppdatert for %1$d måneder siden</item>
+        <item quantity="one">Oppdatert for %1$d måned siden</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Fjern de %d valgte kontaktene?</item>
+        <item quantity="one">Vil du fjerne %d valgt kontakt?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Lukket %1$d apper og frigjorde %2$s plass. %3$s</item>
+        <item quantity="zero">Lukket %1$d apper og frigjorde %2$s plass. %3$s</item>
+        <item quantity="one">Lukket %1$d app og frigjorde %2$s plass. %3$s</item>
+        <item quantity="two">Lukket %1$d apper og frigjorde %2$s plass. %3$s</item>
+        <item quantity="few">Lukket %1$d apper og frigjorde %2$s plass. %3$s</item>
+        <item quantity="many">Lukket %1$d apper og frigjorde %2$s plass. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Ubrukt: %1$d dager, str.: %2$s</item>
+        <item quantity="one">Ubrukt: %1$d dag, str.: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Lukk %1$d apper for å frigjøre %2$s minne</item>
+        <item quantity="zero">Lukk %1$d apper for å frigjøre %2$s minne</item>
+        <item quantity="one">Lukk %1$d app for å frigjøre %2$s minne</item>
+        <item quantity="two">Lukk %1$d apper for å frigjøre %2$s minne</item>
+        <item quantity="few">Lukk %1$d apper for å frigjøre %2$s minne</item>
+        <item quantity="many">Lukk %1$d apper for å frigjøre %2$s minne</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$d apper lukket, friga %2$s minne</item>
+        <item quantity="zero">%1$d apper lukket, friga %2$s minne</item>
+        <item quantity="one">%1$d app lukket, friga %2$s minne</item>
+        <item quantity="two">%1$d apper lukket, friga %2$s minne</item>
+        <item quantity="few">%1$d apper lukket, friga %2$s minne</item>
+        <item quantity="many">%1$d apper lukket, friga %2$s minne</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">Hindret %d app i å sende MMS-meldinger</item>
+        <item quantity="zero">Hindret %d app i å sende MMS-meldinger</item>
+        <item quantity="one">Hindret %d app i å sende MMS-meldinger</item>
+        <item quantity="two">Hindret %d app i å sende MMS-meldinger</item>
+        <item quantity="few">Hindret %d app i å sende MMS-meldinger</item>
+        <item quantity="many">Hindret %d app i å sende MMS-meldinger</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">Hindret %d apper i å endre oppføringer i anropsloggen</item>
+        <item quantity="zero">Hindret %d apper i å endre oppføringer i anropsloggen</item>
+        <item quantity="one">Hindret %d app i å endre oppføringer i anropsloggen</item>
+        <item quantity="two">Hindret %d apper i å endre oppføringer i anropsloggen</item>
+        <item quantity="few">Hindret %d apper i å endre oppføringer i anropsloggen</item>
+        <item quantity="many">Hindret %d apper i å endre oppføringer i anropsloggen</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">Hindret %d apper i å endre kontakter</item>
+        <item quantity="zero">Hindret %d apper i å endre kontakter</item>
+        <item quantity="one">Hindret %d app i å endre kontakter</item>
+        <item quantity="two">Hindret %d apper i å endre kontakter</item>
+        <item quantity="few">Hindret %d apper i å endre kontakter</item>
+        <item quantity="many">Hindret %d apper i å endre kontakter</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">Hindret %d apper i å slette oppføringer i anropsloggen</item>
+        <item quantity="zero">Hindret %d apper i å slette oppføringer i anropsloggen</item>
+        <item quantity="one">Hindret %d app i å slette oppføringer i anropsloggen</item>
+        <item quantity="two">Hindret %d apper i å slette oppføringer i anropsloggen</item>
+        <item quantity="few">Hindret %d apper i å slette oppføringer i anropsloggen</item>
+        <item quantity="many">Hindret %d apper i å slette oppføringer i anropsloggen</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">Hindret %d apper i å slette kontakter</item>
+        <item quantity="zero">Hindret %d apper i å slette kontakter</item>
+        <item quantity="one">Hindret %d app i å slette kontakter</item>
+        <item quantity="two">Hindret %d apper i å slette kontakter</item>
+        <item quantity="few">Hindret %d apper i å slette kontakter</item>
+        <item quantity="many">Hindret %d apper i å slette kontakter</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">Hindret %d apper i å ta bilder eller gjøre videoopptak</item>
+        <item quantity="zero">Hindret %d apper i å ta bilder eller gjøre videoopptak</item>
+        <item quantity="one">Hindret %d app i å ta bilder eller gjøre videoopptak</item>
+        <item quantity="two">Hindret %d apper i å ta bilder eller gjøre videoopptak</item>
+        <item quantity="few">Hindret %d apper i å ta bilder eller gjøre videoopptak</item>
+        <item quantity="many">Hindret %d apper i å ta bilder eller gjøre videoopptak</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">Hindret %d apper i å sende SMS-meldinger</item>
+        <item quantity="zero">Hindret %d apper i å sende SMS-meldinger</item>
+        <item quantity="one">Hindret %d app i å sende SMS-meldinger</item>
+        <item quantity="two">Hindret %d apper i å sende SMS-meldinger</item>
+        <item quantity="few">Hindret %d apper i å sende SMS-meldinger</item>
+        <item quantity="many">Hindret %d apper i å sende SMS-meldinger</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Tillatt %1$d apper å vise droppsone.</item>
+        <item quantity="zero">Tillatt %1$d apper å vise slippsone.</item>
+        <item quantity="one">Tillatt %1$d app å vise slippsone.</item>
+        <item quantity="two">Tillatt %1$d apper å vise slippsone.</item>
+        <item quantity="few">Tillatt %1$d apper å vise slippsone.</item>
+        <item quantity="many">Tillatt %1$d apper å vise slippsone.</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">dgr</item>
+        <item quantity="zero">dag</item>
+        <item quantity="one">dag</item>
+        <item quantity="two">dager</item>
+        <item quantity="few">dager</item>
+        <item quantity="many">dager</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d programmer låst</item>
+        <item quantity="zero">%1$d programmer låst</item>
+        <item quantity="one">%1$d program låst</item>
+        <item quantity="two">%1$d programmer låst</item>
+        <item quantity="few">%1$d programmer låst</item>
+        <item quantity="many">%1$d programmer låst</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d programmer kjører</item>
+        <item quantity="zero">%1$d programmer kjører</item>
+        <item quantity="one">%1$d program kjører</item>
+        <item quantity="two">%1$d programmer kjører</item>
+        <item quantity="few">%1$d programmer kjører</item>
+        <item quantity="many">%1$d programmer kjører</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Avinstallere valgte apper?</item>
+        <item quantity="one">Avinstallere valgt app?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d tillatelser</item>
+        <item quantity="zero">%1$d tillatelser</item>
+        <item quantity="one">%1$d tillatelse</item>
+        <item quantity="two">%1$d tillatelser</item>
+        <item quantity="few">%1$d tillatelser</item>
+        <item quantity="many">%1$d tillatelser</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Slette følgende filer? De kan ikke gjenopprettes.</item>
+        <item quantity="one">Slette følgende fil? Den kan ikke gjenopprettes.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Slette følgende filer? De kan ikke gjenopprettes.</item>
+        <item quantity="one">Slette følgende fil? Den kan ikke gjenopprettes.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Systemet vil slette alle data i de valgte programmene permanent. Programmene vil bli tilbakestilt til den tilstanden de hadde da de ble installert.</item>
+        <item quantity="one">Systemet vil slette alle data i det valgte programmet permanent. Programmet vil bli tilbakestilt til den tilstanden det hadde da det ble installert.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Brukertiden er forlenget med %1$d minutter.</item>
+        <item quantity="zero">Brukertiden er forlenget med %1$d minutter.</item>
+        <item quantity="one">Brukertiden er forlenget med %1$d minutt.</item>
+        <item quantity="two">Brukertiden er forlenget med %1$d minutter.</item>
+        <item quantity="few">Brukertiden er forlenget med %1$d minutter.</item>
+        <item quantity="many">Brukertiden er forlenget med %1$d minutter.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Lukket %1$d apper og frigjorde %2$s plass.</item>
+        <item quantity="zero">Lukket %1$d apper og frigjorde %2$s plass.</item>
+        <item quantity="one">Lukket %1$d app og frigjorde %2$s plass.</item>
+        <item quantity="two">Lukket %1$d apper og frigjorde %2$s plass.</item>
+        <item quantity="few">Lukket %1$d apper og frigjorde %2$s plass.</item>
+        <item quantity="many">Lukket %1$d apper og frigjorde %2$s plass.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d min</item>
+        <item quantity="zero">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="two">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+        <item quantity="many">%1$d min</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d t</item>
+        <item quantity="zero">%1$d t</item>
+        <item quantity="one">%1$d t</item>
+        <item quantity="two">%1$d t</item>
+        <item quantity="few">%1$d t</item>
+        <item quantity="many">%1$d t</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">%1$s min igjen</item>
+        <item quantity="zero">%1$s min igjen</item>
+        <item quantity="one">%1$s min igjen</item>
+        <item quantity="two">%1$s min igjen</item>
+        <item quantity="few">%1$s min igjen</item>
+        <item quantity="many">%1$s min igjen</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s min til full</item>
+        <item quantity="zero">%1$s min til full</item>
+        <item quantity="one">%1$s min til full</item>
+        <item quantity="two">%1$s min til full</item>
+        <item quantity="few">%1$s min til full</item>
+        <item quantity="many">%1$s min til full</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Kan forlenges %1$d min</item>
+        <item quantity="zero">Kan forlenges %1$d min</item>
+        <item quantity="one">Kan forlenges %1$d min</item>
+        <item quantity="two">Kan forlenges %1$d min</item>
+        <item quantity="few">Kan forlenges %1$d min</item>
+        <item quantity="many">Kan forlenges %1$d min</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Forlenget med %1$s</item>
+        <item quantity="zero">Forlenget med %1$s</item>
+        <item quantity="one">Forlenget med %1$s</item>
+        <item quantity="two">Forlenget med %1$s</item>
+        <item quantity="few">Forlenget med %1$s</item>
+        <item quantity="many">Forlenget med %1$s</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$ds</item>
+        <item quantity="zero">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+        <item quantity="two">%1$ds</item>
+        <item quantity="few">%1$ds</item>
+        <item quantity="many">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d ganger (forslag)</item>
+        <item quantity="one">%d gang (forslag)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d ganger</item>
+        <item quantity="one">%d gang</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">Merket av %d personer</item>
+        <item quantity="one">Merket av %d person</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">%1$d tilgjengelige apper</item>
+        <item quantity="zero">%1$d tilgjengelige apper</item>
+        <item quantity="one">%1$d tilgjengelig app</item>
+        <item quantity="two">%1$d tilgjengelige apper</item>
+        <item quantity="few">%1$d tilgjengelige apper</item>
+        <item quantity="many">%1$d tilgjengelige apper</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d kan optimeres</item>
+        <item quantity="zero">%1$d kan optimeres</item>
+        <item quantity="one">%1$d kan optimeres</item>
+        <item quantity="two">%1$d kan optimeres</item>
+        <item quantity="few">%1$d kan optimeres</item>
+        <item quantity="many">%1$d kan optimeres</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d programmer lukket pga.urimelig høyt strømforbruk. Berør for å se detaljer</item>
+        <item quantity="zero">%1$d apper ble avsluttet på grunn av høyt strømforbruk, berør for å vise detaljer</item>
+        <item quantity="one">%1$d app ble avsluttet på grunn av høyt strømforbruk. Berør for å få mer informasjon</item>
+        <item quantity="two">%1$d programmer lukket pga.urimelig høy strømforbruk. Berør for å se detaljer.</item>
+        <item quantity="few">%1$d programmer lukket pga.urimelig høy strømforbruk. Berør for å se detaljer.</item>
+        <item quantity="many">%1$d programmer lukket pga.urimelig høy strømforbruk. Berør for å se detaljer.</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d bilder</item>
+        <item quantity="zero">%1$d bilder</item>
+        <item quantity="one">%1$d bilde</item>
+        <item quantity="two">%1$d bilder</item>
+        <item quantity="few">%1$d bilder</item>
+        <item quantity="many">%1$d bilder</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Oppdatert for %d dager siden</item>
+        <item quantity="zero">Oppdatert for %d dager siden</item>
+        <item quantity="one">Oppdatert for %d dag siden</item>
+        <item quantity="two">Oppdatert for %d dager siden</item>
+        <item quantity="few">Oppdatert for %d dager siden</item>
+        <item quantity="many">Oppdatert for %d dager siden</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d dager er ikke ryddet. Berør for å rydde</item>
+        <item quantity="one">%d dag er ikke ryddet. Berør for å rydde</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Hindret %d apper fra å opprette snarveier på startskjermen.</item>
+        <item quantity="zero">Hindret %d apper fra å opprette snarveier på startskjermen.</item>
+        <item quantity="one">Hindret %d app fra å opprette snarveier på startskjermen.</item>
+        <item quantity="two">Hindret %d apper fra å opprette snarveier på startskjermen.</item>
+        <item quantity="few">Hindret %d apper fra å opprette snarveier på startskjermen.</item>
+        <item quantity="many">Hindret %d apper fra å opprette snarveier på startskjermen.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">%1$d apper vil bli hoppet over under oppryddingen.</item>
+        <item quantity="zero">%1$d apper vil bli hoppet over under oppryddingen.</item>
+        <item quantity="one">%1$d app vil bli hoppet over under oppryddingen.</item>
+        <item quantity="two">%1$d apper vil bli hoppet over under oppryddingen.</item>
+        <item quantity="few">%1$d apper vil bli hoppet over under oppryddingen.</item>
+        <item quantity="many">%1$d apper vil bli hoppet over under oppryddingen.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">%d apper er nektet tilgang til listen med installerte apper.</item>
+        <item quantity="zero">%d apper er nektet tilgang til listen med installerte apper.</item>
+        <item quantity="one">%d app er nektet tilgang til listen med installerte apper.</item>
+        <item quantity="two">%d apper er nektet tilgang til listen med installerte apper.</item>
+        <item quantity="few">%d apper er nektet tilgang til listen med installerte apper.</item>
+        <item quantity="many">%d apper er nektet tilgang til listen med installerte apper.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d apper er ryddet.</item>
+        <item quantity="zero">%d apper er ryddet.</item>
+        <item quantity="one">%d app er ryddet.</item>
+        <item quantity="two">%d apper er ryddet.</item>
+        <item quantity="few">%d apper er ryddet.</item>
+        <item quantity="many">%d apper er ryddet.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d apper begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting).</item>
+        <item quantity="zero">%d apper begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting). </item>
+        <item quantity="one">%d app begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting).</item>
+        <item quantity="two">%d apper begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting). </item>
+        <item quantity="few">%d apper begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting). </item>
+        <item quantity="many">%d apper begrenset fra å få tilgang til treningsdata (for å levere skrittelling og risting). </item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d apper ble hindret i å åpne helsedata.</item>
+        <item quantity="zero">%d apper ble hindret i å åpne helsedata.</item>
+        <item quantity="one">%d app ble hindret i å åpne helsedata.</item>
+        <item quantity="two">%d apper ble hindret i å åpne helsedata.</item>
+        <item quantity="few">%d apper ble hindret i å åpne helsedata.</item>
+        <item quantity="many">%d apper ble hindret i å åpne helsedata.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d elementer må optimaliseres manuelt</item>
+        <item quantity="zero">%1$d elementer må optimaliseres manuelt</item>
+        <item quantity="one">%1$d element må optimaliseres manuelt</item>
+        <item quantity="two">%1$d elementer må optimaliseres manuelt</item>
+        <item quantity="few">%1$d elementer må optimaliseres manuelt</item>
+        <item quantity="many">%1$d elementer må optimaliseres manuelt</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d oppdateringer å installere</item>
+        <item quantity="zero">%1$d oppdateringer å installere</item>
+        <item quantity="one">%1$d oppdatering å installere</item>
+        <item quantity="two">%1$d oppdateringer å installere</item>
+        <item quantity="few">%1$d oppdateringer å installere</item>
+        <item quantity="many">%1$d oppdateringer å installere</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d apper inneholder annonser</item>
+        <item quantity="zero">%1$d apper inneholder annonser</item>
+        <item quantity="one">%1$d app inneholder annonser</item>
+        <item quantity="two">%1$d apper inneholder annonser</item>
+        <item quantity="few">%1$d apper inneholder annonser</item>
+        <item quantity="many">%1$d apper inneholder annonser</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d apper har blitt tillatt å startes automatisk.</item>
+        <item quantity="zero">%d apper har blitt tillatt å startes automatisk.</item>
+        <item quantity="one">%d app har blitt tillatt å startes automatisk.</item>
+        <item quantity="two">%d apper har blitt tillatt å startes automatisk.</item>
+        <item quantity="few">%d apper har blitt tillatt å startes automatisk.</item>
+        <item quantity="many">%d apper har blitt tillatt å startes automatisk.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d apper kan startes av andre apper. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Begrensing av denne handlingen anbefales.</item>
+        <item quantity="one">%d app kan startes av andre apper. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Begrensing av denne handlingen anbefales.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d apper kan startes av andre apper. Dette kan føre til at %2$s blir tregere og bruker mer strøm. Det anbefales at du begrenser denne handlingen.</item>
+        <item quantity="one">%1$d app kan startes av andre apper. Dette kan føre til at %2$s blir tregere og bruker mer strøm. Det anbefales at du begrenser denne handlingen.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Appen kan startes automatisk i det følgende %d scenarioer. Tillate?</item>
+        <item quantity="zero">Appen kan startes automatisk i det følgende %d scenarioer. Tillate?</item>
+        <item quantity="one">Appen kan startes automatisk i det følgende %d scenario. Tillate?</item>
+        <item quantity="two">Appen kan startes automatisk i det følgende %d scenarioer. Tillate?</item>
+        <item quantity="few">Appen kan startes automatisk i det følgende %d scenarioer. Tillate?</item>
+        <item quantity="many">Appen kan startes automatisk i det følgende %d scenarioer. Tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Appen kan startes automatisk i det følgende %d scenarioer. Begrense?</item>
+        <item quantity="zero">Appen kan startes automatisk i det følgende %d scenarioer. Begrense?</item>
+        <item quantity="one">Appen kan startes automatisk i det følgende %d scenario. Begrense?</item>
+        <item quantity="two">Appen kan startes automatisk i det følgende %d scenarioer. Begrense?</item>
+        <item quantity="few">Appen kan startes automatisk i det følgende %d scenarioer. Begrense?</item>
+        <item quantity="many">Appen kan startes automatisk i det følgende %d scenarioer. Begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Appen og tvillingen starter automatisk i følgende %d scenarier. Vil du begrense?</item>
+        <item quantity="one">Appen og tvillingen starter automatisk i følgende %d scenario. Vil du begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Tillate?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Begrense?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette kan gjøre at telefonen din blir tregere og bruker mer strøm. Begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette vil gjøre at telefonen din blir tregere og bruker mer strøm. Tillate?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette vil gjøre at telefonen din blir tregere og bruker mer strøm. Tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette vil gjøre at telefonen din blir tregere og bruker mer strøm. Begrense?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette vil gjøre at telefonen din blir tregere og bruker mer strøm. Begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Vil du tillate?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Vil du tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Vil du begrense?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Vil du begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette vil føre til at %3$s blir tregere og bruker mer strøm. Vil du tillate?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette vil føre til at %3$s blir tregere og bruker mer strøm. Vil du tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%1$s kan startes av %2$d apper. Dette vil føre til at %3$s blir tregere og bruker mer strøm. Vil du begrense?</item>
+        <item quantity="one">%1$s kan startes av %2$d app. Dette vil føre til at %3$s blir tregere og bruker mer strøm. Vil du begrense?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Startet: %1$d ganger | Siste gang: %2$s</item>
+        <item quantity="one">Startet: %1$d gang | Siste gang: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Begrenset: %1$d ganger | Siste gang: %2$s</item>
+        <item quantity="one">Begrenset: %1$d gang | Siste gang: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Startet: %1$d ganger | Siste gang: %2$s</item>
+        <item quantity="one">Startet: %1$d gang | Siste gang: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Begrenset: %1$d ganger | Siste gang: %2$s</item>
+        <item quantity="one">Begrenset: %1$d gang | Siste gang: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">Det er funnet %d apper med automatisk oppstart</item>
+        <item quantity="zero">Det er funnet %d apper med automatisk oppstart</item>
+        <item quantity="one">Det er funnet %d app med automatisk oppstart</item>
+        <item quantity="two">Det er funnet %d apper med automatisk oppstart</item>
+        <item quantity="few">Det er funnet %d apper med automatisk oppstart</item>
+        <item quantity="many">Det er funnet %d apper med automatisk oppstart</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">%1$s filer totalt</item>
+        <item quantity="zero">%1$s filer totalt</item>
+        <item quantity="one">%1$s fil totalt</item>
+        <item quantity="two">%1$s filer totalt</item>
+        <item quantity="few">%1$s filer totalt</item>
+        <item quantity="many">%1$s filer totalt</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d dager uten skanning. Berør for å kjøre full skanning</item>
+        <item quantity="zero">%d dager uten skanning. Berør for å kjøre full skanning</item>
+        <item quantity="one">%d dag uten skanning. Berør for å kjøre full skanning</item>
+        <item quantity="two">%d dager uten skanning. Berør for å kjøre full skanning</item>
+        <item quantity="few">%d dager uten skanning. Berør for å kjøre full skanning</item>
+        <item quantity="many">%d dager uten skanning. Berør for å kjøre full skanning</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d apper har sensitive tillatelser</item>
+        <item quantity="zero">%1$d apper har sensitive tillatelser</item>
+        <item quantity="one">%1$d app har sensitive tillatelser</item>
+        <item quantity="two">%1$d apper har sensitive tillatelser</item>
+        <item quantity="few">%1$d apper har sensitive tillatelser</item>
+        <item quantity="many">%1$d apper har sensitive tillatelser</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+        <item quantity="zero">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+        <item quantity="one">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+        <item quantity="two">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+        <item quantity="few">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+        <item quantity="many">Kan ikke gjenkjenne fingeravtrykket, du har %1$d flere forsøk</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Fingeravtrykk stoppet. Prøv igjen om %1$d sekunder</item>
+        <item quantity="zero">Fingeravtrykk stoppet. Prøv igjen om %1$d sekunder</item>
+        <item quantity="one">Fingeravtrykk stoppet. Prøv igjen om %1$d sekund</item>
+        <item quantity="two">Fingeravtrykk stoppet. Prøv igjen om %1$d sekunder</item>
+        <item quantity="few">Fingeravtrykk stoppet. Prøv igjen om %1$d sekunder</item>
+        <item quantity="many">Fingeravtrykk stoppet. Prøv igjen om %1$d sekunder</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Feil svar. Du har %1$d forsøk igjen.</item>
+        <item quantity="one">Feil svar. Du har %1$d forsøk igjen.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Prøv igjen om %1$d timer.</item>
+        <item quantity="one">Prøv igjen om %1$d time.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Prøv igjen om %1$d minutter.</item>
+        <item quantity="one">Prøv igjen om %1$d minutt.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Prøv igjen om %1$d sekunder.</item>
+        <item quantity="one">Prøv igjen om %1$d sekund.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">Topp %1$d apper i batteribruk</item>
+        <item quantity="one">Topp %1$d app i batteribruk</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Alle valgte data i apper og tilhørende tvillinger vil bli slettet. Appene vil bli gjenopprettet til opprinnelig status.</item>
+        <item quantity="one">De valgte dataene i appen og tvillingen slettes. Appen gjenopprettes til opprinnelig status.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Appen og tvillingen kan startes automatisk i følgende %1$d scenarioer. Vil du tillate?</item>
+        <item quantity="one">Appen og tvillingen kan startes automatisk i følgende %1$d scenario. Vil du tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s og tvillingen kan startes av %2$d apper. Dette kan føre til at telefonen din blir tregere og bruker mer strøm. Vil du tillate?</item>
+        <item quantity="one">%1$s og tvillingen kan startes av %2$d app. Dette kan føre til at telefonen din blir tregere og bruker mer strøm. Vil du tillate?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">%1$s og tvillingen kan startes av %2$d apper. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Tillat?</item>
+        <item quantity="one">%1$s og tvillingen kan startes av %2$d app. Dette kan føre til at %3$s blir tregere og bruker mer strøm. Tillat?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">%1$d apper vil ikke bli lukket etter at skjermen er låst</item>
+        <item quantity="one">%1$d app vil ikke bli lukket etter at skjermen er låst</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">%1$d apper vil bli lukket etter at skjermen er låst</item>
+        <item quantity="one">%1$d app vil bli lukket etter at skjermen er låst</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">%d apper ble hindret i å åpne kalenderen.</item>
+        <item quantity="one">%d app ble hindret i å åpne kalenderen.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">%d apper ble hindret i å endre kalenderen.</item>
+        <item quantity="one">%d app ble hindret i å endre kalenderen.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">%d apper ble hindret i å slette kalenderaktiviteter.</item>
+        <item quantity="one">%d app ble hindret i å slette kalenderaktiviteter.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">%d apper ble hindret i å åpne nettleserloggen.</item>
+        <item quantity="one">%d app ble hindret i å åpne nettleserloggen.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">%d apper ble hindret i å viderekoble anrop.</item>
+        <item quantity="one">%d app ble hindret i å viderekoble anrop.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Blokkert annonser i %1$d apper</item>
+        <item quantity="one">Blokkert annonser i %1$d app</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d elementer må optimeres manuelt</item>
+        <item quantity="one">%1$d element må optimeres manuelt</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Lukket %1$d apper som brukte strøm i bakgrunnen</item>
+        <item quantity="one">Lukket %1$d app som brukte strøm i bakgrunnen</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d elementer</item>
+        <item quantity="one">%1$d element</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d apper kjører når skjermen er slått av. Lukk for å spare batteristrøm</item>
+        <item quantity="one">%1$d app kjører når skjermen er slått av. Lukk for å spare batteristrøm</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">%1$s risikable appnedlastinger er blokkert</item>
+        <item quantity="one">%1$s risikabel appnedlasting er blokkert</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">%1$d ikke-forhåndsinns. apper funnet. Avinstaller</item>
+        <item quantity="one">%1$d ikke-forhåndsinns. app funnet. Avinstaller</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Fant %2$s ikke-forhåndsinstallerte apper (eks. %1$s). Vennligst avinstaller.</item>
+        <item quantity="one">Fant %2$s ikke-forhåndsinstallert app (eks. %1$s). Vennligst avinstaller.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d apper ble lukket.</item>
+        <item quantity="zero">%d apper ble lukket.</item>
+        <item quantity="one">%d app ble lukket.</item>
+        <item quantity="two">%d apper ble lukket.</item>
+        <item quantity="few">%d apper ble lukket.</item>
+        <item quantity="many">%d apper ble lukket.</item>
+    </plurals>
+</resources>

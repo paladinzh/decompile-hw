@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/cover_analog_clock_view" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.huawei.keyguard.cover.widget.NewCoverDigitalClock android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@r$id/analog_clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:layout_marginTop="39dp" android:layout_marginRight="11dp">
+        <com.huawei.keyguard.cover.widget.CoverAnalogClockView android:id="@r$id/cover_analog_clock" android:layout_width="UNKNOWN_DATA_0x9901" android:layout_height="UNKNOWN_DATA_0x9901" android:layout_marginTop="11dp" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/cover_data_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_below="@r$id/cover_analog_clock" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14dp" android:ellipsize="end" android:id="@r$id/cover_date_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/cover_analogdate2_text_style" />
+            <TextView android:textSize="14dp" android:id="@r$id/cover_am_pm_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" style="@style/cover_am_pm_text_style" />
+        </LinearLayout>
+    </com.huawei.keyguard.cover.widget.NewCoverDigitalClock>
+    <ViewStub android:id="@r$id/analog_dualclock_view" android:layout="@layout/cover_analog_dualclock_view" android:inflatedId="@r$id/analog_dualclock_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="0dp" />
+</LinearLayout>

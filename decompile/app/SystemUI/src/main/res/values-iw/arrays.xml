@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>סורק…</item>
+        <item>מתחבר ...</item>
+        <item>מאמת…</item>
+        <item>משיג כתובת IP…</item>
+        <item>מחובר</item>
+        <item>בהשעיה</item>
+        <item>מתנתק...</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>נמנע זמנית מחיבור חלש</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>סורק…</item>
+        <item>מתחבר אל %1$s…</item>
+        <item>מאמת עם %1$s...</item>
+        <item>משיג כתובת IP מ-%1$s…</item>
+        <item>מחובר אל %1$s</item>
+        <item>בהשעיה</item>
+        <item>מתנתק מרשת %1$s...</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסומה</item>
+        <item>נמנע זמנית מחיבור חלש</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>אל תבדוק לעולם</item>
+        <item>‏בדוק אם יש תוכן DRM בלבד</item>
+        <item>בדוק תמיד</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>‏לעולם אל תשתמש בבדיקת HDCP</item>
+        <item>‏השתמש בבדיקת HDCP עבור תוכן DRM בלבד</item>
+        <item>‏תמיד השתמש בבדיקת HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>כבוי</item>
+        <item>64K</item>
+        <item>‎256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>כבוי</item>
+        <item>64K</item>
+        <item>‎256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>כבוי</item>
+        <item>‏64K לכל מאגר יומן</item>
+        <item>‏256K לכל מאגר יומן</item>
+        <item>‏1M לכל מאגר יומן</item>
+        <item>‏4M לכל מאגר יומן</item>
+        <item>‏16M לכל מאגר יומן</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>אנימציה כבויה</item>
+        <item>‏קנה מידה לאנימציה 5x.</item>
+        <item>‏קנה מידה לאנימציה 1x</item>
+        <item>‏קנה מידה לאנימציה 1.5x</item>
+        <item>‏קנה מידה לאנימציה 2x</item>
+        <item>‏קנה מידה לאנימציה 5x</item>
+        <item>‏קנה מידה לאנימציה 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>אין</item>
+        <item>‎480p</item>
+        <item>‏480p (מאובטח)</item>
+        <item>‎720p</item>
+        <item>‏720p (מאובטח)</item>
+        <item>‎1080p</item>
+        <item>‏1080p (מאובטח)</item>
+        <item>4K</item>
+        <item>‏4K (מאובטח)</item>
+        <item>‏4K (משופר)</item>
+        <item>‏4K (משופר, מאובטח)</item>
+        <item>‏720p‏, 1080p (מסך כפול)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>ללא</item>
+        <item>Logcat</item>
+        <item>‏Systrace (גרפיקה)</item>
+        <item>‏Call Stack ב-glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>כבוי</item>
+        <item>שרטט אזור חיתוך שאינו מלבני בצבע כחול</item>
+        <item>הדגש את פקודות האיור שנבדקות בצבע ירוק</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>כבוי</item>
+        <item>במסך כעמודות</item>
+        <item>‏ב-adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>כבוי</item>
+        <item>הצגת אזורים עם חריגה</item>
+        <item>הצגת אזורים לעיוורון צבעים</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>הגבלה סטנדרטית</item>
+        <item>אין תהליכים ברקע</item>
+        <item>תהליך אחד לכל היותר</item>
+        <item>2 תהליכים לכל היותר</item>
+        <item>3 תהליכים לכל היותר</item>
+        <item>4 תהליכים לכל היותר</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>בטעינה</item>
+        <item>‏MTP (פרוטוקול העברת מדיה)</item>
+        <item>‏PTP (פרוטוקול העברת תמונות)</item>
+        <item>‏RNDIS (אתרנט ב-USB)</item>
+        <item>מקור שמע</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>איטי מאוד</item>
+        <item>איטי</item>
+        <item>רגיל</item>
+        <item>מהיר</item>
+        <item>מהיר יותר</item>
+        <item>מהיר מאוד</item>
+        <item>מהיר במיוחד</item>
+        <item>יותר מהיר ממהיר במיוחד</item>
+        <item>הכי מהיר</item>
+    </array>
+    <array name="color_mode_names">
+        <item>דינמי (ברירת מחדל)</item>
+        <item>טבעי</item>
+        <item>רגיל</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>צבעים משופרים</item>
+        <item>צבעים טבעיים כפי שהם נראים לעין</item>
+        <item>צבעים מותאמים באופן אופטימלי לתוכן דיגיטלי</item>
+    </array>
+    <array name="clock_options">
+        <item>הצג שעות, דקות ושניות</item>
+        <item>הצג שעות ודקות (ברירת מחדל)</item>
+        <item>אל תציג את הסמל הזה</item>
+    </array>
+    <array name="battery_options">
+        <item>הצג תמיד באחוזים</item>
+        <item>הצג באחוזים בזמן טעינה (ברירת מחדל)</item>
+        <item>אל תציג את הסמל הזה</item>
+    </array>
+    <array name="degree">
+        <item>‎℃</item>
+        <item>‎℉</item>
+    </array>
+</resources>

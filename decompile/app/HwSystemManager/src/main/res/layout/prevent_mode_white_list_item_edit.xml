@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="18dp" android:layout_marginEnd="8dp">
+            <CheckBox android:id="@+id/prevent_mode_white_item_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@+id/prevent_mode_white_item_checkbox">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+                    <TextView android:ellipsize="end" android:id="@+id/prevent_mode_white_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListviewItemTextPrimary" />
+                    <TextView android:ellipsize="end" android:id="@+id/prevent_mode_white_item_mobile_operator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true" android:layout_below="@+id/prevent_mode_white_item_name" style="@style/ListviewItemTextSecondary" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:key="smart_cover_tutorial" android:summary="@string/smart_cover_text" settings:drawable="@drawable/smart_cover_animation" />
+    <SwitchPreference android:title="@string/cover_enable_settings_title" android:key="smart_cover_switch" />
+</PreferenceScreen>

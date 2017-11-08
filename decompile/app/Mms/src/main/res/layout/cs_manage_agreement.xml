@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/CS_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@+id/privacy_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/privacy_layout" android:paddingLeft="18dp" android:paddingTop="28dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11sp" android:textColor="@color/CS_more_detail" android:id="@+id/privacy_policy_detail" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CS_agreement_detail_new" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="14sp" android:textColor="@color/CS_black_100_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/CS_hwid_policy_new" android:layout_toLeftOf="@+id/privacy_policy_detail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@+id/privacy_policy_detail" android:layout_alignParentStart="true" />
+                </RelativeLayout>
+                <TextView android:textSize="11sp" android:textColor="@color/CS_black_100_percent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/CS_hw_agreement_privacy_policy_outline" />
+                <TextView android:textSize="11sp" android:textColor="@color/CS_black_50_percent" android:id="@+id/privacy_policy_signing_time" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/CS_agreement_signing_time" />
+                <LinearLayout android:orientation="horizontal" android:id="@+id/privacy_policy_agree" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+                    <LinearLayout android:id="@+id/privacy_policy_agree_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/privacy_policy_check" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/cs_checkbox_size" android:textColor="@color/CS_black_100_percent" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CS_agree_new_policy" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/line1" android:background="@drawable/cs_list_divider_holo_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginTop="28dp" android:layout_below="@+id/privacy_layout" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/user_term_layout" android:paddingLeft="18dp" android:paddingTop="28dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/line1" android:paddingStart="18dp" android:paddingEnd="18dp">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11sp" android:textColor="@color/CS_more_detail" android:id="@+id/user_terms_detail" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CS_agreement_detail_new" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                    <TextView android:textSize="14sp" android:textColor="@color/CS_black_100_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/CS_hwid_terms_new" android:layout_toLeftOf="@+id/user_terms_detail" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_toStartOf="@+id/user_terms_detail" android:layout_alignParentStart="true" />
+                </RelativeLayout>
+                <TextView android:textSize="11sp" android:textColor="@color/CS_black_100_percent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/CS_hw_agreement_user_terms_outline_new" />
+                <TextView android:textSize="11sp" android:textColor="@color/CS_black_50_percent" android:id="@+id/user_terms_signing_time" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/CS_agreement_signing_time" />
+                <LinearLayout android:orientation="horizontal" android:id="@+id/user_terms_agree" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp"
+                    <LinearLayout android:id="@+id/user_terms_agree_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <CheckBox android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/user_terms_check" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/cs_checkbox_size" android:textColor="@color/CS_black_100_percent" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CS_agree_new_policy" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/line2" android:background="@drawable/cs_list_divider_holo_light" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginTop="28dp" android:layout_below="@+id/user_term_layout" />
+        </RelativeLayout>
+    </ScrollView>
+    <Button android:id="@+id/btn_next" android:background="@drawable/cs_register_button_background_drawable" android:layout_marginLeft="18dp" android:layout_marginTop="28dp" android:layout_marginRight="18dp" android:layout_marginBottom="28dp" android:text="@string/CS_next" android:layout_marginStart="18dp" android:layout_marginEnd="18dp" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+</LinearLayout>

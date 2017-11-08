@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.notification.HybridNotificationView xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0x105003f" android:paddingEnd="12dp">
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Notification.Title" android:id="@id/notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="4dp" />
+    <TextView android:textAppearance="@*android:style/TextAppearance.Material.Notification" android:id="@id/notification_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="4dp" />
+</com.android.systemui.statusbar.notification.HybridNotificationView>

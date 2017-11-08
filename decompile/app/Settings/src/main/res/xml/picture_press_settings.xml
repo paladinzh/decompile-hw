@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pressure_icon_magnify_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:layout="@layout/preference_invisible" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/pressure_icon_magnify_title" android:key="picture_press_settings" />
+</PreferenceScreen>

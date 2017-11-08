@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/summary" style="@style/help_text_content_style" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layoutDirection="ltr" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/img_app_text" android:background="@drawable/suspend_button_tutorial_text_background" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="154.0dip" android:text="@string/suspend_button_tutorial_action" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_marginStart="26.0dip" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/img_app_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/suspend_button_tutorial_img" android:contentDescription="@null" />
+    </FrameLayout>
+    <View android:id="@id/preference_divider" android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_end" />
+</LinearLayout>

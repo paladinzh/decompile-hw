@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/range_measure_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.gallery.refocus.wideaperture.RangeMeasure.ui.RangeMeasureView android:id="@id/range_measure_view" android:background="@color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/gradient" android:background="@drawable/ab_bottom_pic" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <Button android:textSize="@dimen/remeasure_text_font_size" android:textColor="@color/distance_remeasure_color" android:id="@id/button_remeasure" android:background="@drawable/btn_range_remeasure" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0d00bb" android:layout_height="UNKNOWN_DATA_0x7f0d00bd" android:layout_marginBottom="@dimen/remeasure_button_bottom_padding" android:text="@string/range_remeasure" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="@dimen/textview_text_alpha_high" />
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:paddingTop="@dimen/preference_category_padding_top" android:paddingBottom="@dimen/preference_category_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end" style="?android:attr/listSeparatorTextViewStyle">
+        <TextView android:id="@id/huawei_beam_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huawei_beam_settings_title" />
+        <TextView android:id="@id/huawei_beam_empty" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/switch_bar" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="64.0dip" android:minHeight="64.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="8.0dip">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/beam_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huawei_beam_settings_title" android:singleLine="true" android:alpha="@dimen/preference_item_title_alpha" />
+        </RelativeLayout>
+        <Switch android:layout_gravity="center" android:id="@id/preference_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/android_beam_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/bg_hwbeam" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@id/android_beam_explained" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/huawei_beam_explained" android:alpha="@dimen/preference_item_summary_alpha" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+        <TextView android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

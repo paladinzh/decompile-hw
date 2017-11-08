@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/graph_label_group" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/label_group" android:layout_width="@dimen/usage_graph_labels_width" android:layout_height="fill_parent">
+            <include android:id="@id/label_top" layout="@layout/usage_side_label" />
+            <Space android:id="@id/space1" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <include android:id="@id/label_middle" layout="@layout/usage_side_label" />
+            <Space android:id="@id/space2" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <include android:id="@id/label_bottom" layout="@layout/usage_side_label" />
+        </LinearLayout>
+        <com.android.settingslib.graph.UsageGraph android:id="@id/usage_graph" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/usage_graph_margin_top_bottom" android:layout_marginBottom="@dimen/usage_graph_margin_top_bottom" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_label_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/usage_graph_labels_width">
+        <include android:id="@id/label_start" layout="@layout/usage_side_label" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <include android:id="@id/label_end" layout="@layout/usage_side_label" />
+    </LinearLayout>
+</LinearLayout>

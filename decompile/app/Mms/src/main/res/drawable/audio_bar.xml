@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000">
+        <shape>
+            <corners android:radius="5dp" />
+            <gradient android:startColor="@color/audio_bar_background_start_color" android:endColor="@color/audio_bar_background_end_color" android:angle="270.0" android:centerY="0.75" android:centerColor="@color/audio_bar_background_center_color" />
+        </shape>
+    </item>
+    <item android:id="0x102000f">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient android:startColor="@color/audio_bar_secondary_start_color" android:endColor="@color/audio_bar_secondary_end_color" android:angle="90.0" android:centerY="0.75" android:centerColor="@color/audio_bar_secondary_center_color" />
+            </shape>
+        </clip>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <shape>
+                <corners android:radius="8dp" />
+                <gradient android:startColor="@color/audio_bar_progress_start_color" android:endColor="@color/audio_bar_progress_end_color" android:angle="270.0" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/timerLayout" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false"
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/btn_container">
+        <com.android.deskclock.timer.TimerPicker android:id="@id/timer_picker" android:clickable="true" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <include android:id="@id/btn_container" android:layout_width="UNKNOWN_DATA_0xc401" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginBottom="39dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/animation_button_timer" />
+</RelativeLayout>

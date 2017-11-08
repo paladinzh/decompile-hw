@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <PreferenceCategory androidhwext:title="@string/harassment_call_rules_title" androidhwext:key="harassment_call_rules">
+        <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_intelligent_call_blocking" androidhwext:key="harass_call_block_intell" androidhwext:preferenceID="@+id/prefs_harass_call_block_intell" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:key="harass_call_block_intell_devideline" androidhwext:preferenceID="@+id/prefs_harass_call_block_intell_devideline" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_interception_blacklist" androidhwext:key="harass_call_block_blacklist" androidhwext:preferenceID="@+id/prefs_harass_call_block_blacklist" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:key="harass_call_block_blacklist_devideline" androidhwext:preferenceID="@+id/prefs_harass_call_block_blacklist_devideline" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_block_unknow_call" androidhwext:key="harass_call_block_unknown" androidhwext:summary="@string/harassment_block_unknow_call_des" androidhwext:preferenceID="@+id/prefs_harass_call_block_unknown" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui7" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_block_all_stranger" androidhwext:key="harass_call_block_stranger" androidhwext:summary="@string/harassment_block_stranger_call_des" androidhwext:preferenceID="@+id/prefs_harass_call_block_stranger" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui6" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_block_all_call" androidhwext:key="harass_call_block_all" androidhwext:summary="@string/harassment_interception_all_calls_des" androidhwext:preferenceID="@+id/prefs_harass_call_block_all" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/harassment_sms_rules_title" androidhwext:key="harassment_msg_rules">
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/interception_rule_intellligent_sms_title" androidhwext:key="harass_msg_block_intell" androidhwext:preferenceID="@+id/prefs_harass_msg_block_intell" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:key="harass_msg_block_intell_devideline" androidhwext:preferenceID="@+id/prefs_harass_msg_block_intell_devideline" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_interception_blacklist" androidhwext:key="harass_msg_block_blacklist" androidhwext:preferenceID="@+id/prefs_harass_msg_block_blacklist" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:key="harass_msg_block_blacklist_divideline" androidhwext:preferenceID="@+id/prefs_harass_msg_block_blacklist_divideline" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_block_all_stranger" androidhwext:key="harass_msg_block_stranger" androidhwext:preferenceID="@+id/prefs_harassment_block_all_stranger" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui5" />
+    </PreferenceCategory>
+</PreferenceScreen>

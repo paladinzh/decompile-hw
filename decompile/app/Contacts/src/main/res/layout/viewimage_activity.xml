@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image" android:layout_width="UNKNOWN_DATA_0x16801" android:layout_height="UNKNOWN_DATA_0x1e001" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/camcard_notify_content" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="UNKNOWN_DATA_0xd01" android:layout_height="UNKNOWN_DATA_0xd01" android:src="@drawable/cc_logo" android:contentDescription="@string/camcard_download" />
+        <TextView android:textSize="12dp" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camcard_supported" />
+    </LinearLayout>
+</RelativeLayout>

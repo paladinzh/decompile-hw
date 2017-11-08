@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deskclock.alarmclock.CoverView xmlns:android="http://schemas.android.com/apk/res/com.android.deskclock" custom:id="@id/cover_background" custom:layout_width="match_parent" custom:layout_height="match_parent">
+    <com.android.deskclock.alarmclock.CoverRelativeLayout custom:id="@id/cover_view" custom:layout_width="match_parent" custom:layout_height="match_parent">
+        <com.android.deskclock.DigitalClock custom:id="@id/digitalclock" custom:focusable="true" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_above="@id/cover_alarm_label" custom:clockMode="0">
+            <LinearLayout custom:orientation="horizontal" custom:id="@id/number_time" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_centerHorizontal="true">
+                <TextView custom:textSize="74dp" custom:textColor="#ffffffff" custom:id="@id/digital_full_time" custom:layout_width="wrap_content" custom:layout_height="wrap_content" />
+            </LinearLayout>
+            <com.android.deskclock.widgetlayout.DeskClockFontTypeTextView custom:textSize="12dp" custom:textColor="#ffffff" custom:id="@id/digital_left_ampm" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginRight="6dp" custom:layout_marginBottom="18dp" custom:layout_toLeftOf="@id/number_time" custom:layout_alignBottom="@id/number_time" />
+            <com.android.deskclock.widgetlayout.DeskClockFontTypeTextView custom:textSize="12dp" custom:textColor="#ffffff" custom:id="@id/digital_right_ampm" custom:focusable="false" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_marginLeft="6dp" custom:layout_marginBottom="18dp" custom:layout_toRightOf="@id/number_time" custom:layout_alignBottom="@id/number_time" />
+        </com.android.deskclock.DigitalClock>
+        <TextView custom:textSize="12dp" custom:textColor="#ffffff" custom:ellipsize="middle" custom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/cover_alarm_label" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:singleLine="true" custom:layout_above="@id/cover_snooze_layout" custom:alpha="0.6" />
+        <RelativeLayout custom:id="@id/cover_snooze_layout" custom:clickable="true" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_marginTop="66dp" custom:layout_marginBottom="66dp" custom:layout_above="@id/cover_close_layout">
+            <com.android.deskclock.widgetlayout.DeskClockFontTypeTextView custom:textSize="14dp" custom:textColor="#ff2abeca" custom:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/cover_snoozepause_group" custom:visibility="visible" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_centerHorizontal="true" custom:layout_centerVertical="true" />
+        </RelativeLayout>
+        <com.android.deskclock.alarmclock.CoverFrameView custom:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/cover_close_layout" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x6401" custom:layout_alignParentBottom="true" custom:orientation="horizontal" />
+        <View custom:background="#26ffffff" custom:layout_width="match_parent" custom:layout_height="UNKNOWN_DATA_0x100" custom:layout_marginLeft="16dp" custom:layout_marginRight="16dp" custom:layout_alignTop="@id/cover_close_layout" />
+    </com.android.deskclock.alarmclock.CoverRelativeLayout>
+</com.android.deskclock.alarmclock.CoverView>

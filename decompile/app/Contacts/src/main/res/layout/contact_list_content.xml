@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/contact_list_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/pinned_header_list_layout" android:background="?attr/contact_browser_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/lazy_mode_header" android:layout="@layout/profile_lazy_mode_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <include android:id="@+id/contact_list_serchlayout" android:background="@color/searchLayout_background_color" layout="@layout/contact_list_serchlayout" />
+        <ViewStub android:id="@+id/contact_list_sync_birthday_to_calendar_stub" android:layout="@layout/contact_list_group_sync_birthday_to_calendar_item" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@+id/tell_user_sync_birthday_to_calendar_stub" android:layout="@layout/contact_list_tell_user_sync_birthday_to_calendar_item" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@+id/pinnedHeaderRelativeLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.android.contacts.widget.SuspentionScroller android:id="@+id/suspention_scroller" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@+id/pinnedHeaderList_stub" android:layout="@layout/pinned_header_listview" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </com.android.contacts.widget.SuspentionScroller>
+            <ViewStub android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/search_list_empty" android:layout="@layout/online_search_empty" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.android.contacts.hap.widget.SplitActionBarView android:id="@+id/menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/searching_online_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_contacts_icon_top_margin" layout="@layout/search_header" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/list_empty" android:visibility="gone" android:clickable="true" android:drawableTop="@drawable/ic_empty_contacts" style="@style/contact_empty_icon_style" />
+    <ViewStub android:id="@+id/no_contacts_layout_container" android:layout="@layout/no_contacts_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:id="@+id/no_contacts_layout_container_split" android:layout="@layout/no_contacts_layout_split" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/loadingcontacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:indeterminateOnly="true" />
+        <TextView android:textSize="13sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_list_loading" />
+    </LinearLayout>
+</FrameLayout>

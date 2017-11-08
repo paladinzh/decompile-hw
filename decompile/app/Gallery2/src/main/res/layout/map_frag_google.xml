@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.gms.maps.MapView android:id="@id/map" android:layout_width="match_parent" android:layout_height="match_parent" android:apiKey="AIzaSyBNQzo444UyjdtEt77kSXKfchbg3VrxPhQ" />
+    <com.huawei.gallery.map.app.MapZoomButton android:id="@id/map_zoom_btn" android:background="@drawable/bg_map_btn" android:layout_width="UNKNOWN_DATA_0x7f0d0190" android:layout_height="UNKNOWN_DATA_0x7f0d0190" android:layout_marginBottom="@dimen/map_zoom_btn_padding" android:src="@drawable/btn_map_zoommax" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/map_zoom_btn_padding" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/screen_cache" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <TextView android:textSize="14dp" android:textColor="@color/date_label_text_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/no_picture_tips" android:background="@drawable/use_network" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="35dp" android:text="@string/no_picture_tips" android:layout_alignParentBottom="true" android:paddingStart="16dp" />
+</RelativeLayout>

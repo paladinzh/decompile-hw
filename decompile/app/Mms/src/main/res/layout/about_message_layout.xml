@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="15sp" android:textColor="@color/rcs_guide_message_color" android:id="@+id/text_about_message" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:text="@string/rcs_about_message_guide_one" />
+    <android.support.v4.view.ViewPager android:id="@+id/about_message_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="35dp" android:layout_below="@+id/text_about_message" />
+    <LinearLayout android:id="@+id/linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="31dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_message" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_message" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:padding="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_message" />
+    </LinearLayout>
+</RelativeLayout>

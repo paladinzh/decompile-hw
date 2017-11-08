@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:ordering="sequentially"
+    <set>
+        <objectAnimator android:duration="10" android:valueFrom="1.0" android:valueTo="0.0" android:valueType="floatType" android:propertyName="focusingAlpha" />
+        <objectAnimator android:duration="10" android:valueFrom="0.0" android:valueTo="1.0" android:valueType="floatType" android:propertyName="focusAlpha" />
+    </set>
+    <objectAnimator android:duration="2000" android:valueFrom="1.0" android:valueTo="0.5" android:valueType="floatType" android:propertyName="focusAlpha" />
+    <objectAnimator android:duration="700" android:valueFrom="0.5" android:valueTo="0.5" android:valueType="floatType" android:propertyName="focusAlpha" />
+    <objectAnimator android:duration="500" android:valueFrom="0.5" android:valueTo="0" android:valueType="floatType" android:propertyName="focusAlpha" />
+</set>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">%1$d দিনেরও বেশি অব্যবহৃত</item>
+        <item quantity="one">%1$d দিনেরও বেশি অব্যবহৃত</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে সেগুলি বন্ধ করুন</item>
+        <item quantity="zero">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে সেগুলি বন্ধ করুন</item>
+        <item quantity="one">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে এটি বন্ধ করুন</item>
+        <item quantity="two">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে সেগুলি বন্ধ করুন</item>
+        <item quantity="few">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে সেগুলি বন্ধ করুন</item>
+        <item quantity="many">স্ক্রিনটি বন্ধ করার পরে %1$dটি অ্যাপ এখনো চলছে, পাওয়ার সাশ্রয় করতে সেগুলি বন্ধ করুন</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d পাওয়ার নিবিড় অ্যাপগুলি বন্ধ আছে</item>
+        <item quantity="zero">%1$d পাওয়ার নিবিড় অ্যাপগুলি বন্ধ আছে</item>
+        <item quantity="one">%1$d পাওয়ার নিবিড় অ্যাপ বন্ধ আছে</item>
+        <item quantity="two">%1$d পাওয়ার নিবিড় অ্যাপগুলি বন্ধ আছে</item>
+        <item quantity="few">%1$d পাওয়ার নিবিড় অ্যাপগুলি বন্ধ আছে</item>
+        <item quantity="many">%1$d পাওয়ার নিবিড় অ্যাপগুলি বন্ধ আছে</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$dটি অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+        <item quantity="zero">%1$dটি অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+        <item quantity="one">%1$d অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+        <item quantity="two">%1$dটি অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+        <item quantity="few">%1$dটি অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+        <item quantity="many">%1$dটি অ্যাপ গোপনে পাওয়ার উপযোগ করছে। এই অ্যাপটি বন্ধ করা হলে ব্যাটারির আয়ুষ্কাল %2$s প্রসারিত করা যায়</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+        <item quantity="zero">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+        <item quantity="one">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+        <item quantity="two">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+        <item quantity="few">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+        <item quantity="many">মোবাইল ডেটা চালু করা থেকে %d অ্যাপ সীমাবদ্ধ</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="zero">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="one">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="two">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="few">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="many">%dটি অ্যাপকে Wi-Fi চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="zero">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="one">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="two">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="few">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="many">%dটি অ্যাপকে Bluetooth চালু করা থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">এই বৈশিষ্ট্যটি সক্রিয় হবার জন্য নিম্নোক্ত অনুমতির প্রয়োজন, সেটিংসে গিয়ে এটিকে সক্ষম করবেন?</item>
+        <item quantity="one">এই বৈশিষ্ট্যটি সক্রিয় হবার জন্য নিম্নোক্ত অনুমতির প্রয়োজন, সেটিংসে গিয়ে এটিকে সক্ষম করবেন?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">অ্যাপ সেটিংস থেকে যে কোনো সময়ে আপনি এই অনুমতিগুলি নিষ্ক্রিয় করতে পারেন।</item>
+        <item quantity="one">অ্যাপ সেটিংস থেকে যে কোনো সময়ে আপনি এই অনুমতি নিষ্ক্রিয় করতে পারেন।</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">%1$dটি অ্যাপকে স্ক্রিনটি বন্ধ হওয়ার পরে চালিয়ে যাওয়ার অনুমতি দিন</item>
+        <item quantity="one">%1$dটি অ্যাপকে স্ক্রিনটি বন্ধ হওয়ার পরে চালিয়ে যাওয়ার অনুমতি দিন</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">%1$dটি বিধি নির্বাচিত</item>
+        <item quantity="one">%1$dটি বিধি নির্বাচিত</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">নির্বাচিত %1$dটি ফাইল মুছবেন?</item>
+        <item quantity="one">নির্বাচিত %1$dটি ফাইল মুছবেন?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">ফাইলগুলি পুনরুদ্ধার করা যাবে না।</item>
+        <item quantity="one">ফাইলটি পুনরুদ্ধার করা যাবে না।</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">ডেটার %1$dটি আইটেম মুছবেন?</item>
+        <item quantity="one">ডেটার %1$dটি আইটেম মুছবেন?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">ডেটাটি পুনরুদ্ধার করা যাবে না।</item>
+        <item quantity="one">ডেটাটি পুনরুদ্ধার করা যাবে না।</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">নির্বাচিত %1$dটি অ্যাপ আনইনস্টল করবেন?</item>
+        <item quantity="one">নির্বাচিত %1$dটি অ্যাপ আনইনস্টল করবেন?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">নির্বাচিত %1$dটি অ্যাপ পুনরুদ্ধার করবেন?</item>
+        <item quantity="one">নির্বাচিত %1$dটি অ্যাপ পুনরুদ্ধার করবেন?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">সমস্ত ডেটা মুছে যাবে। অ্যাপগুলি সেগুলির প্রাথমিক ইনস্টল স্থিতিতে পুনঃস্থাপন হবে।</item>
+        <item quantity="one">সমস্ত ডেটা মুছে যাবে। এই অ্যাপটি সেটির প্রাথমিক ইনস্টল স্থিতিতে পুনঃস্থাপন হবে।</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$dটি ভাইরাস</item>
+        <item quantity="one">%1$dটি ভাইরাস</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d সফ্টওয়্যার ঝুঁকি</item>
+        <item quantity="zero">%1$d সফ্টওয়্যার ঝুঁকি</item>
+        <item quantity="one">%1$d সফ্টওয়্যার ঝুঁকি</item>
+        <item quantity="two">%1$d সফ্টওয়্যার ঝুঁকি</item>
+        <item quantity="few">%1$d সফ্টওয়্যার ঝুঁকি</item>
+        <item quantity="many">%1$d সফ্টওয়্যার ঝুঁকি</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+        <item quantity="zero">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+        <item quantity="one">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+        <item quantity="two">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+        <item quantity="few">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+        <item quantity="many">%1$d আনঅফিশিয়াল সফ্টওয়্যার</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">বার্তাগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">কল লগ অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">পরিচিতিগুলি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">ক্যালেন্ডার অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">আপনার অবস্থান অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+        <item quantity="zero">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+        <item quantity="one">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+        <item quantity="two">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+        <item quantity="few">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+        <item quantity="many">%dটি অ্যাপকে আপনার ফোনের ID অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত করা আছে</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">অডিও রেকর্ড করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">কল করা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d অ্যাপ</item>
+        <item quantity="zero">%d অ্যাপ</item>
+        <item quantity="one">%d অ্যাপ</item>
+        <item quantity="two">%d অ্যাপ</item>
+        <item quantity="few">%d অ্যাপ</item>
+        <item quantity="many">%d অ্যাপ</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%dটি ভাইরাস</item>
+        <item quantity="zero">%dটি ভাইরাস</item>
+        <item quantity="one">%dটি ভাইরাস</item>
+        <item quantity="two">%dটি ভাইরাস</item>
+        <item quantity="few">%dটি ভাইরাস</item>
+        <item quantity="many">%dটি ভাইরাস</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+        <item quantity="zero">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+        <item quantity="one">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+        <item quantity="two">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+        <item quantity="few">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+        <item quantity="many">বিজ্ঞাপনগুলি সহ %dটি অ্যাপ খুঁজে পাওয়া গেছে, হাতের দ্বারা আনইনস্টল করা যেতে পারে</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">%1$d ঘণ্টা আগে আপডেট হয়েছে</item>
+        <item quantity="one">%1$d ঘণ্টা আগে আপডেট হয়েছে</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">%1$d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="one">%1$d দিন আগে আপডেট হয়েছে</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">%1$d মাস আগে আপডেট হয়েছে</item>
+        <item quantity="one">%1$d মাস আগে আপডেট হয়েছে</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">নির্বাচিত %dটি পরিচিতি অপসারণ করবেন?</item>
+        <item quantity="one">নির্বাচিত %dটি পরিচিতি অপসারণ করবেন?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+        <item quantity="zero">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+        <item quantity="one">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+        <item quantity="two">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+        <item quantity="few">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+        <item quantity="many">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন। %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">অব্যবহৃত: %1$d দিন, আকার: %2$s</item>
+        <item quantity="one">অব্যবহৃত: %1$d দিন, আকার: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+        <item quantity="zero">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+        <item quantity="one">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+        <item quantity="two">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+        <item quantity="few">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+        <item quantity="many">মেমোরির %2$s খালি করতে %1$d বন্ধ করুন</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি করছে</item>
+        <item quantity="zero">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি করছে</item>
+        <item quantity="one">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি হয়েছে</item>
+        <item quantity="two">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি করছে</item>
+        <item quantity="few">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি করছে</item>
+        <item quantity="many">%1$dটি অ্যাপ বন্ধ হয়েছে, %2$sমেমোরি খালি করছে</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="zero">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="one">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="two">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="few">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="many">%dটি অ্যাপকে MMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">কল লগের এন্ট্রিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">পরিচিতিগুলি পরিবর্তন করা থেকে বিধিনিষেধ যুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">কল লগের এন্ট্রিগুলি মোছা থেকে বিধিনিষেধ যুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="zero">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="one">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="two">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="few">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+        <item quantity="many">পরিচিতিগুলি মোছা থেকে বিধিনিষেধযুক্ত %d টি অ্যাপ</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="zero">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="one">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="two">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="few">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+        <item quantity="many">ফটোগুলি বা ভিডিওগুলি তোলা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="zero">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="one">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="two">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="few">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+        <item quantity="many">%dটি অ্যাপকে SMS বার্তগুলি পাঠানো থেকে বিধিনিষেধযুক্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+        <item quantity="zero">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+        <item quantity="one">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+        <item quantity="two">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+        <item quantity="few">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+        <item quantity="many">dropzone দেখাতে অনুমোদিত %1$dটি অ্যাপ</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">দিন</item>
+        <item quantity="one">দিন</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$dটি অ্যাপ লক হয়েছে</item>
+        <item quantity="zero">%1$dটি অ্যাপ লক হয়েছে</item>
+        <item quantity="one">%1$dটি অ্যাপ লক হয়েছে</item>
+        <item quantity="two">%1$dটি অ্যাপ লক হয়েছে</item>
+        <item quantity="few">%1$dটি অ্যাপ লক হয়েছে</item>
+        <item quantity="many">%1$dটি অ্যাপ লক হয়েছে</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$dটি অ্যাপ চলছে</item>
+        <item quantity="zero">%1$dটি অ্যাপ চলছে</item>
+        <item quantity="one">%1$dটি অ্যাপ চলছে</item>
+        <item quantity="two">%1$dটি অ্যাপ চলছে</item>
+        <item quantity="few">%1$dটি অ্যাপ চলছে</item>
+        <item quantity="many">%1$dটি অ্যাপ চলছে</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">নির্বাচিত অ্যাপগুলি আনইনস্টল করবেন?</item>
+        <item quantity="one">নির্বাচিত অ্যাপটি আনইনস্টল করবেন?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$dটি আইটেম</item>
+        <item quantity="one">%1$dটি আইটেম</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$dটি অনুমতি</item>
+        <item quantity="zero">%1$dটি অনুমতি</item>
+        <item quantity="one">%1$dটি অনুমতি</item>
+        <item quantity="two">%1$dটি অনুমতি</item>
+        <item quantity="few">%1$dটি অনুমতি</item>
+        <item quantity="many">%1$dটি অনুমতি</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">নিম্নোক্ত ফাইলটি মুছবেন? সেগুলিকে পুনরুদ্ধার করা যাবে না।</item>
+        <item quantity="one">নিম্নোক্ত ফাইলটি মুছবেন? এটিকে পুনরুদ্ধার করা যাবে না।</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">নিম্নোক্ত ফাইলটি মুছবেন? সেগুলিকে পুনরুদ্ধার করা যাবে না।</item>
+        <item quantity="one">নিম্নোক্ত ফাইলটি মুছবেন? এটিকে পুনরুদ্ধার করা যাবে না।</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">সিস্টেমটি স্থায়ী ভাবে নির্বাচিত অ্যাপ্লিকেশনের সমস্ত ডেটা মুছে দেবে। অ্যাপ্লিকেশনটি সেটির প্রাথমিক ইনস্টল স্থিতিতে পুনঃস্থাপিত হবে।</item>
+        <item quantity="one">সিস্টেমটি স্থায়ী ভাবে নির্বাচিত অ্যাপ্লিকেশনের সমস্ত ডেটা মুছে দেবে। অ্যাপ্লিকেশনটি সেটির প্রাথমিক ইনস্টল স্থিতিতে পুনঃস্থাপিত হবে।</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+        <item quantity="zero">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+        <item quantity="one">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+        <item quantity="two">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+        <item quantity="few">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+        <item quantity="many">%1$d মিনিট সময়ের ব্যবহার বাড়ানো হয়েছে।</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+        <item quantity="zero">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+        <item quantity="one">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+        <item quantity="two">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+        <item quantity="few">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+        <item quantity="many">%1$dটি অ্যাপ বন্ধ হয়েছে এবং স্থানের %2$s খালি করুন।</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d মিনিট</item>
+        <item quantity="zero">%1$d মিনিট</item>
+        <item quantity="one">%1$d মিনিট</item>
+        <item quantity="two">%1$d মিনিট</item>
+        <item quantity="few">%1$d মিনিট</item>
+        <item quantity="many">%1$d মিনিট</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d ঘণ্টা</item>
+        <item quantity="zero">%1$d ঘণ্টা</item>
+        <item quantity="one">%1$d ঘণ্টা</item>
+        <item quantity="two">%1$d ঘণ্টা</item>
+        <item quantity="few">%1$d ঘণ্টা</item>
+        <item quantity="many">%1$d ঘণ্টা</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">%1$sমিনিট অবশিষ্ট</item>
+        <item quantity="zero">%1$sমিনিট অবশিষ্ট</item>
+        <item quantity="one">%1$sমিনিট অবশিষ্ট</item>
+        <item quantity="two">%1$sমিনিট অবশিষ্ট</item>
+        <item quantity="few">%1$sমিনিট অবশিষ্ট</item>
+        <item quantity="many">%1$sমিনিট অবশিষ্ট</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">শেষ না হওয়া অবধি %1$s মিনিট</item>
+        <item quantity="zero">শেষ না হওয়া অবধি %1$s মিনিট</item>
+        <item quantity="one">শেষ না হওয়া অবধি %1$s মিনিট</item>
+        <item quantity="two">শেষ না হওয়া অবধি %1$s মিনিট</item>
+        <item quantity="few">শেষ না হওয়া অবধি %1$s মিনিট</item>
+        <item quantity="many">শেষ না হওয়া অবধি %1$s মিনিট</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">%1$d মিনিট প্রসারিত করা যায়</item>
+        <item quantity="zero">%1$d মিনিট প্রসারিত করা যায়</item>
+        <item quantity="one">%1$d মিনিট প্রসারিত করা যায়</item>
+        <item quantity="two">%1$d মিনিট প্রসারিত করা যায়</item>
+        <item quantity="few">%1$d মিনিট প্রসারিত করা যায়</item>
+        <item quantity="many">%1$d মিনিট প্রসারিত করা যায়</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">%1$s মিনিট প্রসারিত</item>
+        <item quantity="zero">%1$s মিনিট প্রসারিত</item>
+        <item quantity="one">%1$s মিনিট প্রসারিত</item>
+        <item quantity="two">%1$s মিনিট প্রসারিত</item>
+        <item quantity="few">%1$s মিনিট প্রসারিত</item>
+        <item quantity="many">%1$s মিনিট প্রসারিত</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$d সেকেন্ড</item>
+        <item quantity="zero">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+        <item quantity="two">%1$ds</item>
+        <item quantity="few">%1$ds</item>
+        <item quantity="many">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d বার (প্রস্তাবিত)</item>
+        <item quantity="one">%d বার (প্রস্তাবিত)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d বার</item>
+        <item quantity="one">%d বার</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">%d জন চিহ্নিত করেছেন</item>
+        <item quantity="one">%d জন চিহ্নিত করেছেন</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">%1$dটি অ্যাপ উপলব্ধ</item>
+        <item quantity="one">%1$dটি অ্যাপ উপলব্ধ</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d কাম্য করা যেতে পারে</item>
+        <item quantity="one">%1$d কাম্য করা যেতে পারে</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+        <item quantity="zero">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+        <item quantity="one">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+        <item quantity="two">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+        <item quantity="few">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+        <item quantity="many">%1$d টি অ্যাপ অতিরিক্ত পাওয়ার ব্যবহারের জন্য বন্ধ হয়েছে, বিশদ দেখতে স্পর্শ করুন</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$dটি ফটো</item>
+        <item quantity="zero">%1$dটি ফটো</item>
+        <item quantity="one">%1$dটি ফটো</item>
+        <item quantity="two">%1$dটি ফটো</item>
+        <item quantity="few">%1$dটি ফটো</item>
+        <item quantity="many">%1$dটি ফটো</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">%d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="zero">%d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="one">%d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="two">%d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="few">%d দিন আগে আপডেট হয়েছে</item>
+        <item quantity="many">%d দিন আগে আপডেট হয়েছে</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d দিন পরিষ্কার করা হয়নি, পরিষ্কার করতে স্পর্শ করুন</item>
+        <item quantity="one">%d দিন পরিষ্কার করা হয়নি, পরিষ্কার করতে স্পর্শ করুন</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+        <item quantity="zero">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+        <item quantity="one">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+        <item quantity="two">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+        <item quantity="few">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+        <item quantity="many">হোমস্ক্রিন শর্টকাটগুলি তৈরি করা থেকে %dটি অ্যাপকে সীমাবদ্ধ করা হয়েছে।</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+        <item quantity="zero">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+        <item quantity="one">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+        <item quantity="two">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+        <item quantity="few">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+        <item quantity="many">%1$dটি অ্যাপ পরিষ্কার করার সময় ছেড়ে যাওয়া হবে</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">ইনস্টল থাকা অ্যাপগুলির তালিকাটি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ।</item>
+        <item quantity="one">ইনস্টল থাকা অ্যাপগুলির তালিকাটি অ্যাক্সেস করা থেকে বিধিনিষেধযুক্ত %dটি অ্যাপ।</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+        <item quantity="zero">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+        <item quantity="one">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+        <item quantity="two">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+        <item quantity="few">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+        <item quantity="many">%dটি অ্যাপ পরিষ্কার হয়েছে।</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%dটি অ্যাপ আপনার ফিটনেসের ডেটা অ্যাক্সেস করা থেকে বিধিনিষেধ যুক্ত (পদক্ষেপের গণনা এবং ঝাঁকানো সরবরাহ করা)।</item>
+        <item quantity="one">%dটি অ্যাপ আপনার ফিটনেসের ডেটা অ্যাক্সেস করা থেকে বিধিনিষেধ যুক্ত (পদক্ষেপের গণনা এবং ঝাঁকানো সরবরাহ করা)।</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">স্বাস্থ্য সম্পর্কিত ডেটা অ্যাক্সেস করা থেকে %d অ্যাপ বিধিনিষেধযুক্ত।</item>
+        <item quantity="one">স্বাস্থ্য সম্পর্কিত ডেটা অ্যাক্সেস করা থেকে %d অ্যাপ বিধিনিষেধযুক্ত।</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$dটি অ্যাপ ম্যানুয়ালি অপ্টিমাইজ করা প্রয়োজন</item>
+        <item quantity="zero">%1$dটি অ্যাপ ম্যানুয়ালি কাম্য করা প্রয়োজন</item>
+        <item quantity="one">%1$dটি অ্যাপ ম্যানুয়ালি কাম্য করা প্রয়োজন</item>
+        <item quantity="two">%1$dটি অ্যাপ ম্যানুয়ালি কাম্য করা প্রয়োজন</item>
+        <item quantity="few">%1$dটি অ্যাপ ম্যানুয়ালি কাম্য করা প্রয়োজন</item>
+        <item quantity="many">%1$dটি অ্যাপ ম্যানুয়ালি কাম্য করা প্রয়োজন</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">ইনস্টল করতে %1$d প্যাচ</item>
+        <item quantity="zero">ইনস্টল করতে %1$d প্যাচ</item>
+        <item quantity="one">ইনস্টল করতে %1$d প্যাচ</item>
+        <item quantity="two">ইনস্টল করতে %1$d প্যাচ</item>
+        <item quantity="few">ইনস্টল করতে %1$d প্যাচ</item>
+        <item quantity="many">ইনস্টল করতে %1$d প্যাচ</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+        <item quantity="zero">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+        <item quantity="one">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+        <item quantity="two">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+        <item quantity="few">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+        <item quantity="many">%1$dটি অ্যাপে বিজ্ঞাপন রয়েছে</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+        <item quantity="zero">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+        <item quantity="one">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+        <item quantity="two">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+        <item quantity="few">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+        <item quantity="many">%dটি অ্যাপ স্বয়ংক্রিয় ভাবে লঞ্চ করার জন্য অনুমোদিত।</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%dটি অ্যাপ অন্যান্য অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। এই ক্রিয়াকলাপটি বিধিনিষেধযুক্ত করা সুপারিশকৃত।</item>
+        <item quantity="one">%dটি অ্যাপ অন্যান্য অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। এই ক্রিয়াকলাপটি বিধিনিষেধযুক্ত করা সুপারিশকৃত।</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$dটি অ্যাপকে অন্যান্য অ্যাপ চালু করতে পারবে। এর ফলে আপনার %2$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। এই ক্রিয়াকলাপটি আটকে দেওয়ার সুপারিশ করা হচ্ছে।</item>
+        <item quantity="one">%1$dটি অ্যাপকে অন্যান্য অ্যাপ চালু করতে পারবে। এর ফলে আপনার %2$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। এই ক্রিয়াকলাপটি আটকে দেওয়ার সুপারিশ করা হচ্ছে।</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="zero">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="one">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="two">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="few">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="many">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="zero">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="one">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="two">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="few">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="many">অ্যাপ নিম্নলিখিত %d পরিবেশটি স্বয়ংক্রিয় ভাবে লঞ্চ করতে পারে। সীমাবদ্ধ করবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">অ্যাপটি এবং তার যমজ অ্যাপটি নিম্নলিখিত %dটি পরিস্থিতিতে স্বয়ংক্রিয়ভাবে চালু হবে। বাধা দিবেন?</item>
+        <item quantity="one">অ্যাপটি এবং তার যমজ অ্যাপটি নিম্নলিখিত %dটি পরিস্থিতিতে স্বয়ংক্রিয়ভাবে চালু হবে। বাধা দিবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="one">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="one">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। সীমাবদ্ধ করবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="one">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="one">%1$s %2$d অ্যাপ দ্বারা চালু হতে পারে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার অপচয় করতে পারে। সীমাবদ্ধ করবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। অনুমতি দেবেন?</item>
+        <item quantity="one">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="one">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হবে। সীমাবদ্ধ করবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হবে এবং আরও পাওয়ার খরচ হবে। অনুমতি দেবেন?</item>
+        <item quantity="one">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হবে এবং আরও পাওয়ার খরচ হবে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হবে এবং আরও পাওয়ার খরচ হবে। সীমাবদ্ধ করবেন?</item>
+        <item quantity="one">%1$s কে %2$d টি অ্যাপ চালু করতে পারবে। এর ফলে আপনার %3$s ধীর গতির হবে এবং আরও পাওয়ার খরচ হবে। সীমাবদ্ধ করবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">লঞ্চ হয়েছে: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+        <item quantity="one">লঞ্চ হয়েছে: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">বিধিনিষেধযুক্ত: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+        <item quantity="one">বিধিনিষেধযুক্ত: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">লঞ্চ হয়েছে: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+        <item quantity="one">লঞ্চ হয়েছে: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">বিধিনিষেধযুক্ত: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+        <item quantity="one">বিধিনিষেধযুক্ত: %1$d বার | অতি সাম্প্রতিক: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+        <item quantity="zero">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+        <item quantity="one">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+        <item quantity="two">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+        <item quantity="few">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+        <item quantity="many">%d স্বয়ংক্রিয় চালু হওয়া অ্যাপ খুঁজে পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">মোট %1$sটি ফাইল</item>
+        <item quantity="one">মোট %1$sটি ফাইল</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d দিন হয়ে গেছে স্ক্যান করেননি, সম্পূর্ণ স্ক্যান করতে স্পর্শ করুন</item>
+        <item quantity="one">%d দিন হয়ে গেছে স্ক্যান করেননি, সম্পূর্ণ স্ক্যান করতে স্পর্শ করুন</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$dটি অ্যাপে সংবেদনশীল অনুমতি রয়েছে</item>
+        <item quantity="one">%1$dটি অ্যাপে সংবেদনশীল অনুমতি রয়েছে</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">আঙুলের ছাপ চিনতে পারা যায়নি, আপনি আর %1$d বার চেষ্টা করতে পারবেন</item>
+        <item quantity="one">আঙুলের ছাপ চিনতে পারা যায়নি, আপনি আর %1$d বার চেষ্টা করতে পারবেন</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">আঙুলের ছাপ নিলম্বিত করা হয়েছে। %1$d সেকেন্ড পরে আবার চেষ্টা করুন</item>
+        <item quantity="one">আঙুলের ছাপ নিলম্বিত করা হয়েছে। %1$d সেকেন্ড পরে আবার চেষ্টা করুন</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">ভুল উত্তর। আপনার %1$dটি প্রয়াস বাকি আছে।</item>
+        <item quantity="one">ভুল উত্তর। আপনার %1$dটি প্রয়াস বাকি আছে।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">দয়া করে %1$d ঘন্টা পরে আবার চেষ্টা করুন।</item>
+        <item quantity="one">দয়া করে %1$d ঘন্টা পরে আবার চেষ্টা করুন।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">দয়া করে %1$d মিনিট পরে আবার চেষ্টা করুন।</item>
+        <item quantity="one">দয়া করে %1$d মিনিট পরে আবার চেষ্টা করুন।</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">দয়া করে %1$d সেকেন্ড পরে আবার চেষ্টা করুন।</item>
+        <item quantity="one">দয়া করে %1$d সেকেন্ড পরে আবার চেষ্টা করুন।</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">সেরা %1$d ব্যাটারি ব্যবহারের অ্যাপ</item>
+        <item quantity="one">সেরা %1$d ব্যাটারি ব্যবহারের অ্যাপ</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">অ্যাপের জন্য সমস্ত নির্বাচিত ডেটা এবং তাদের টুইনগুলি মোছা হবে। প্রারম্ভিক ইনস্টলের সময়ে অ্যাপ্স পুনঃস্থাপিত হবে।</item>
+        <item quantity="one">অ্যাপের জন্য সমস্ত নির্বাচিত ডেটা এবং এর টুইন মোছা হবে। প্রারম্ভিক ইনস্টলের সময়ে অ্যাপ পুনঃস্থাপিত হবে।</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">অ্যাপটি এবং তার যমজ অ্যাপটি নিম্নলিখিত %1$d টি পরিস্থিতিতে স্বয়ংক্রিয়ভাবে লঞ্চ হতে পারবে। অনুমতি দেবেন?</item>
+        <item quantity="one">অ্যাপটি এবং তার যমজ অ্যাপটি নিম্নলিখিত %1$d টি পরিস্থিতিতে স্বয়ংক্রিয়ভাবে লঞ্চ হতে পারবে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s এবং তার যমজটিকে %2$d টি অ্যাপ লঞ্চ করতে পারবে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হতে পারে। অনুমতি দেবেন?</item>
+        <item quantity="one">%1$s এবং তার যমজটিকে %2$d টি অ্যাপ লঞ্চ করতে পারবে। এর ফলে আপনার ফোন ধীর গতির হতে পারে এবং আরও পাওয়ার খরচ হতে পারে। অনুমতি দেবেন?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">স্ক্রিন লক হওয়ার পরে %1$d টি অ্যাপ বন্ধ হবে না।</item>
+        <item quantity="one">স্ক্রিন লক হওয়ার পরে %1$d টি অ্যাপ বন্ধ হবে না।</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">স্ক্রিন লক হওয়ার পরে %1$d টি অ্যাপ বন্ধ হবে।</item>
+        <item quantity="one">স্ক্রিন লক হওয়ার পরে %1$d টি অ্যাপ বন্ধ হবে।</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">ক্যালেন্ডার অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+        <item quantity="one">ক্যালেন্ডার অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">ক্যালেন্ডার পরিবর্তন করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+        <item quantity="one">ক্যালেন্ডার পরিবর্তন করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">ক্যালেন্ডার ইভেন্ট মোছা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+        <item quantity="one">ক্যালেন্ডার ইভেন্ট মোছা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">ব্রাউজার ইতিহাস অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+        <item quantity="one">ব্রাউজার ইতিহাস অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">কল ফরোয়ার্ড অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+        <item quantity="one">কল ফরোয়ার্ড অ্যাক্সেস করা থেকে %dটি অ্যাপকে আটকানো হয়েছে।</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">%1$d টি অ্যাপে বিজ্ঞাপন অবরোধ করা হয়েছে</item>
+        <item quantity="one">%1$d টি অ্যাপে বিজ্ঞাপন অবরোধ করা হয়েছে</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$dটি আইটেম ম্যানুয়ালি অপ্টিমাইজ করতে হবে</item>
+        <item quantity="one">%1$dটি আইটেম ম্যানুয়ালি অপ্টিমাইজ করতে হবে</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">ব্যাকগ্রাউন্ডে ব্যাটারি খরচ করা %1$dটি অ্যাপকে বন্ধ করা হয়েছে</item>
+        <item quantity="one">ব্যাকগ্রাউন্ডে ব্যাটারি খরচ করা %1$dটি অ্যাপকে বন্ধ করা হয়েছে</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$dটি আইটেম</item>
+        <item quantity="one">%1$dটি আইটেম</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$dটি আইটেম</item>
+        <item quantity="one">%1$dটি আইটেম</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">স্ক্রিন বন্ধ থাকা অবস্থাতেও %1$dটি অ্যাপ চলছে, ব্যাটারি সাশ্রয় করতে এইগুলি বন্ধ করুন</item>
+        <item quantity="one">স্ক্রিন বন্ধ থাকা অবস্থাতেও %1$dটি অ্যাপ চলছে, ব্যাটারি সাশ্রয় করতে তা বন্ধ করুন</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">%1$sটি বিপজ্জনক অ্যাপের ডাউনলোড আটকে দেওয়া হয়েছে</item>
+        <item quantity="one">%1$sটি বিপজ্জনক অ্যাপের ডাউনলোড আটকে দেওয়া হয়েছে</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">%1$d টি নন-প্রিসেট অ্যাপ খুঁজে পাওয়া গেছে, অনুগ্রহ করে আনইনস্টল করুন</item>
+        <item quantity="one">%1$d টি নন-প্রিসেট অ্যাপ খুঁজে পাওয়া গেছে, অনুগ্রহ করে আনইনস্টল করুন</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">পূর্বে ইনস্টল করা নয় এমন %2$s অ্যাপ খুঁজে পাওয়া গিয়েছে (যেমন %1$s)। অনুগ্রহপূর্বক আনইনস্টল করুন।</item>
+        <item quantity="one">পূর্বে ইনস্টল করা নয় এমন %2$s অ্যাপ খুঁজে পাওয়া গিয়েছে (যেমন %1$s)। অনুগ্রহপূর্বক আনইনস্টল করুন।</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+        <item quantity="zero">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+        <item quantity="one">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+        <item quantity="two">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+        <item quantity="few">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+        <item quantity="many">%dটি অ্যাপ সফল ভাবে বন্ধ হয়েছে।</item>
+    </plurals>
+</resources>

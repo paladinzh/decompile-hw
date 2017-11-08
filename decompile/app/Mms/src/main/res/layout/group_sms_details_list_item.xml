@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.GroupSmsDetailsListItem xmlns:android="http://schemas.android.com/apk/res/com.android.mms" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:minHeight="56dp" mms:itemType="11">
+    <RelativeLayout mms:id="@+id/group_sms_deatils_list_item" mms:layout_width="match_parent" mms:layout_height="match_parent" mms:minHeight="56dp" mms:paddingEnd="16dp">
+        <LinearLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="horizontal" mms:layout_width="match_parent" mms:layout_height="match_parent" mms:minHeight="56dp" mms:layout_centerVertical="true" mms:layout_toStartOf="@+id/resend_button"
+            <LinearLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:id="@+id/name_number_super" mms:paddingTop="9dp" mms:paddingBottom="9dp" mms:layout_width="UNKNOWN_DATA_0x1" mms:layout_height="wrap_content" mms:minHeight="56dp" mms:layout_weight="1.0">
+                <TextView mms:textSize="@dimen/mms_search_list_title_text_size" mms:textColor="@drawable/text_color_black" mms:ellipsize="end" mms:id="@+id/name" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" mms:fontFamily="HwChinese-medium" />
+                <TextView mms:textSize="@dimen/mms_search_list_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="marquee" mms:id="@+id/number" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" />
+            </LinearLayout>
+            <LinearLayout mms:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" mms:orientation="vertical" mms:id="@+id/time_status_super" mms:paddingTop="9dp" mms:paddingBottom="9dp" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:minHeight="56dp">
+                <TextView mms:textSize="@dimen/mms_search_list_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="marquee" mms:id="@+id/time" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" />
+                <TextView mms:textSize="@dimen/mms_search_list_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="marquee" mms:id="@+id/status" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView mms:id="@+id/resend_button" mms:background="@drawable/ic_alert_sms_failed" mms:visibility="gone" mms:layout_width="UNKNOWN_DATA_0x1801" mms:layout_height="UNKNOWN_DATA_0x1801" mms:layout_centerVertical="true" mms:contentDescription="@string/send_failed" mms:layout_marginStart="8dp" mms:layout_alignParentEnd="true" />
+        <ImageView mms:background="@drawable/conversation_item_divider" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.android.mms.ui.GroupSmsDetailsListItem>

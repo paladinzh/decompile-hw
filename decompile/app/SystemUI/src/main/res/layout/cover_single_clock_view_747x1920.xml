@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.cover.widget.NewCoverDigitalClock xmlns:android="http://schemas.android.com/apk/res/android" android:id="@r$id/clock_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="45dp" android:layout_alignParentStart="true">
+    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="99dp">
+        <TextView android:textSize="60dp" android:textColor="#ffffffff" android:id="@r$id/cover_digital_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:layout_below="@r$id/cover_am_pm_textview" android:layout_marginStart="-2dp" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:layout_alignBottom="@id/linearLayout" android:layout_marginStart="3dp" android:layout_toEndOf="@id/linearLayout">
+        <TextView android:textSize="13dp" android:textColor="#b3ffffff" android:id="@r$id/cover_am_pm_textview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/cover_am_pm_text_style" />
+    </RelativeLayout>
+    <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:id="@r$id/cover_date_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.5dp" android:layout_below="@id/linearLayout" android:layout_marginStart="3dp" style="@style/cover_date_text_style" />
+    <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:ellipsize="end" android:id="@r$id/cover_lunar_date_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBottom="@r$id/cover_date_time_textview" android:layout_marginStart="4dp" android:layout_toEndOf="@r$id/cover_date_time_textview" style="@style/cover_date_text_style" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dp" android:layout_below="@r$id/cover_date_time_textview" layout="@layout/cover_weather_city_view_747x1920" />
+</com.huawei.keyguard.cover.widget.NewCoverDigitalClock>

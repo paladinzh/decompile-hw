@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/set_wifi_ap_hotspot" android:paddingBottom="8.0dip" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/info" style="@style/wifi_section" />
+            <LinearLayout android:id="@id/type" style="@style/wifi_section">
+                <TextView android:id="@id/set_tv1" android:text="@string/wifi_ssid" android:textDirection="locale" style="@style/wifi_item_label" />
+                <EditText android:id="@id/ssid" android:hint="@string/wifi_ssid_hint" android:singleLine="true" android:inputType="textNoSuggestions" style="@style/wifi_item_edit_content" />
+                <com.android.settings.ListSpinner android:enabled="false" android:entries="@array/wifi_bridge_security" android:id="@id/security" android:prompt="@string/wifi_security" style="@style/wifi_spinner" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/list_divider" android:showDividers="beginning">
+                <TextView android:id="@id/set_tv3" android:text="@string/wifi_password" style="@style/wifi_item_label" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+                    <EditText android:textSize="15.0sp" android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edittext_min_height" android:singleLine="true" android:maxLength="63" android:inputType="textPassword" android:imeOptions="flagForceAscii" android:paddingEnd="50.0dip" />
+                    <CheckBox android:gravity="center" android:layout_gravity="end|center" android:id="@id/show_password" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip" style="@style/PasswordCheckboxStyle" />
+                </FrameLayout>
+                <TextView android:id="@id/hint" android:text="@string/credentials_password_too_short_and_suggest" style="@style/wifi_ap_password_hint" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/choose_channel_field" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.settings.ListSpinner android:entries="@array/wifi_ap_band_config_full" android:id="@id/choose_channel" android:prompt="@string/wifi_ap_band_config" style="@style/wifi_spinner" />
+            </LinearLayout>
+            <View android:id="@id/spinner_divider" android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerHorizontal">
+        <LinearLayout android:orientation="horizontal" android:measureWithLargestChild="true" style="@style/SecurityPreferenceButtonContainer">
+            <Button android:id="@id/btn_wifi_bridge_cancel" android:text="@string/wifi_cancel" style="@style/SecurityPreferenceButton" />
+            <Button android:id="@id/btn_wifi_bridge_save" android:text="@string/wifi_save" style="@style/SecurityPreferenceButton" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

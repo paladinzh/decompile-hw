@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTS2014030706697 wangjue/00103796 20140307 create -->
+<!-- DTS2014091108330 xiongshiyi/x00165767 20140911 modified -->
+<!-- DTS2014111809120 yubinke 00159260 20141118 modify -->
+<!-- DTS2015010504906 pengshaohua/00190360 20140106 modify-->
+<AllRules>
+    <!-- DTS2014042601449 wangjue/00103796 20140428 begin -->
+    <!-- There should NOT have two of more Rules with the same class name even they are in the different package -->
+    <!-- DTS2014091108330 guowei/00212954 20160907 begin -->
+    <Package path="com.huawei.systemmanager.comm.grule.rules.appflag" >
+        <Rule name="UnRemovableAppRule" />
+        <Rule name="ThirdPartyFlagRule" />
+    </Package>
+    <!-- DTS2014091108330 guowei/00212954 20160907 end -->
+    <Package path="com.huawei.systemmanager.comm.grule.rules.fixresult" >
+        <Rule name="AlwaysMatchRule" />
+        <Rule name="AlwaysMismatchRule" />
+    </Package>
+    <Package path="com.huawei.systemmanager.comm.grule.rules.pkgmanifest" >
+        <Rule name="DisableKeyGuardRule" />
+        <Rule name="HomeCategoryRule" />
+    </Package>
+    <Package path="com.huawei.systemmanager.comm.grule.rules.uid" >
+        <Rule name="SystemUIDRule" />
+    </Package>
+    <Package path="com.huawei.systemmanager.comm.grule.rules.xml" >
+        <Rule name="PermissionNotMonitorListRule" />
+        <Rule name="PermissionMonitorListRule" />
+        <Rule name="BootstartNotMonitorListRule" />
+        <Rule name="BootstartMonitorListRule" />
+        <Rule name="NotificationNotMonitorListRule" />
+        <Rule name="NotificationMonitorListRule" />
+        <Rule name="DropzoneNotMonitorListRule" />
+        <Rule name="DropzoneMonitorListRule" />
+        <Rule name="NetAccessNotMonitorListRule" />
+        <Rule name="NetAccessMonitorListRule" />
+        <Rule name="AppLockNotMonitorListRule" />
+        <Rule name="DefaultAllowListRule" />
+        <Rule name="DefaultMonitorListRule" />
+    </Package>
+    <Package path="com.huawei.systemmanager.comm.grule.rules.cloud" >
+        <Rule name="CloudAllowListRule" />
+        <Rule name="CloudMonitorListRule" />
+    </Package>
+    <!-- DTS2014042601449 wangjue/00103796 20140428 end -->
+</AllRules>

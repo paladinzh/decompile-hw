@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/head_select_left" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0170" android:layout_height="UNKNOWN_DATA_0x7f0d0170" android:layout_centerVertical="true" android:layout_marginStart="@dimen/action_bar_actionmode_margin_edge" android:layout_marginEnd="@dimen/action_bar_actionmode_margin_edge" android:layout_alignParentStart="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/undo_action" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0170" android:layout_height="UNKNOWN_DATA_0x7f0d0170" android:layout_centerVertical="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/redo_action" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0170" android:layout_height="UNKNOWN_DATA_0x7f0d0170" android:layout_centerVertical="true" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.huawei.gallery.actionbar.view.SimpleActionItem android:id="@id/head_select_right" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x7f0d0170" android:layout_height="UNKNOWN_DATA_0x7f0d0170" android:layout_centerVertical="true" android:layout_marginStart="@dimen/action_bar_actionmode_margin_edge" android:layout_marginEnd="@dimen/action_bar_actionmode_margin_edge" android:layout_alignParentEnd="true" />
+</LinearLayout>

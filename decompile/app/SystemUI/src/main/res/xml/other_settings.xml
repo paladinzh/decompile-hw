@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" sysui:title="@string/other">
+    <com.android.systemui.tuner.TunerSwitch sysui:title="@string/overview_nav_bar_gesture" sysui:key="overview_nav_bar_gesture" sysui:summary="@string/overview_nav_bar_gesture_desc" sysui:preferenceID="@id/id_overview_nav_bar_gesture" />
+    <Preference sysui:title="@string/tuner_full_importance_settings" sysui:key="power_notification_controls" sysui:fragment="com.android.systemui.tuner.PowerNotificationControlsFragment" sysui:preferenceID="@id/id_power_notification_controls" />
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_mode_screen_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/assisted_gps" android:key="assisted_gps" android:summaryOn="@string/assisted_gps_enabled" android:summaryOff="@string/assisted_gps_disabled" />
+    <Preference android:title="@string/assisted_gps_settings_title" android:key="assisted_gps_settings" android:summary="@string/assisted_gps_settings_summary" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="assisted_gps">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$AGPSSettingsActivity" />
+    </Preference>
+    <SwitchPreference android:title="@string/time_synchronization_title" android:key="time_synchronization" android:summary="@string/time_synchronization_summary" />
+    <SwitchPreference android:title="@string/pgps_switch_title" android:key="pgps_switch" android:summary="@string/pgps_switch_summary" />
+</PreferenceScreen>

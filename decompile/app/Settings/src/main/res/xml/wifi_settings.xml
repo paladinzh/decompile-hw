@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings" settings:keywords="@string/keywords_wifi"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ProgressCategory android:title="@string/wifi_list_category" android:key="wifi_list_category" />
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_ap_type_default" android:key="configed_access_points" />
+    <com.android.settings.ProgressCategory android:persistent="false" android:title="@string/wifi_list_category" android:key="new_access_points" />
+    <Preference android:layout="@layout/preference_add_other_network" android:key="add_other_network" />
+    <com.android.settings.CustomUpdatePreference android:title="@string/turn_on_data" android:key="switch_on_moblie_data" />
+    <Preference android:layout="@layout/preference_empty_view" android:selectable="false" android:key="empty" />
+</PreferenceScreen>

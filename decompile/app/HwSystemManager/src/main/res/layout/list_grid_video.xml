@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp"
+    <LinearLayout android:orientation="horizontal" android:id="@+id/list_grid_video_linearlayout" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <include android:id="@+id/image_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/list_grid_video_item" />
+        <include android:id="@+id/image_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" layout="@layout/list_grid_video_item" />
+        <include android:id="@+id/image_item_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" layout="@layout/list_grid_video_item" />
+        <include android:id="@+id/image_item_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" layout="@layout/list_grid_video_item" />
+    </LinearLayout>
+</LinearLayout>

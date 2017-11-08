@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">تم الاتصال عبر مساعد الشبكة اللاسلكية</string>
+    <string name="accessibility_wifi_off">تم قطع اتصال WLAN.</string>
+    <string name="accessibility_no_wifi">تم قطع اتصال WLAN.</string>
+    <string name="accessibility_wifi_one_bar">شريط واحد لـ WLAN.</string>
+    <string name="accessibility_wifi_two_bars">شريطان لـ WLAN.</string>
+    <string name="accessibility_wifi_three_bars">ثلاثة أشرطة لـ WLAN.</string>
+    <string name="accessibility_wifi_signal_full">إشارة WLAN كاملة.</string>
+    <string name="wifi_verbose_logging">التسجيل المطول في الشبكة اللاسلكية</string>
+    <string name="wifi_aggressive_handover">إجبار الشبكة اللاسلكية بالتبديل إلى شبكة الجوال</string>
+    <string name="wifi_allow_scan_with_traffic">السماح دائمًا للشبكة اللاسلكية بالتبديل بين نقاط الاتصال</string>
+    <string name="wifi_verbose_logging_summary">زيادة مستوى التسجيل في الشبكة اللاسلكية وإظهار تفاصيل مثل اسم شبكة الاتصال SSID ومؤشر قوة الإشارة المستلمة RSSI للشبكة التي تم اختيارها</string>
+    <string name="wifi_aggressive_handover_summary">عند تفعيل هذه الخاصية، فإن الشبكة اللاسلكية ستكون مجبرة على التبديل إلى شبكة الجوال عندما تكون إشارة التغطية لها ضعيفة</string>
+    <string name="wifi_allow_scan_with_traffic_summary">السماح/تقييد التبديل بين نقاط الاتصال وفقًا لحركة البيانات الظاهرة على الشاشة</string>
+    <string name="mobile_data_always_on_summary">تشغيل بيانات الجوال بشكل دائم، حتى عندما تكون الشبكة اللاسلكية قيد التشغيل (للتبديل السريع للشبكات)</string>
+    <string name="radio_controls_summary">إدارة WLAN والبلوتوث ووضع الطائرة وشبكات الجوال والشبكات الظاهرية الخاصة (VPN)</string>
+    <string name="wifi_assistant_title">‏مساعد WLAN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">تشغيل WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">إعدادات WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">تحديد WLAN</string>
+    <string name="wifi_select_network">اختيار الشبكة اللاسلكية</string>
+    <string name="wifi_starting">جاري تشغيل WLAN...</string>
+    <string name="wifi_stopping">جاري إيقاف تشغيل WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">تجاهل الاتصال بشبكات WLAN التي تكون إمكانية الاتصال بها ضعيفة</string>
+    <string name="wifi_automatically_connect_title">استخدام الشبكات اللاسلكية المفتوحة تلقائيًا</string>
+    <string name="wifi_automatically_connect_summary">السماح لمساعد الشبكة اللاسلكية بالاتصال تلقائيًا إلى الشبكات المفتوحة ذات الاتصال الجيد بالإنترنت</string>
+    <string name="wifi_scan_notify_text">لتحسين دقة الموقع، ستظل تطبيقات وخدمات النظام تبحث عن الشبكات اللاسلكية. يمكنك تغيير هذا الإعداد من \"LINK_BEGINإعدادات البحثLINK_END\".</string>
+    <string name="wifi_setting_sleep_policy_title">إستمرار تشغيل شبكة WLAN بعد إنطفاء الشاشة</string>
+    <string name="wifi_suspend_optimizations">تحسين WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">تقليل استهلاك البطارية أثناء تشغيل WLAN</string>
+    <string name="wifi_access_points">شبكات WLAN</string>
+    <string name="wifi_menu_p2p">اتصال WLAN مباشر</string>
+    <string name="wifi_empty_list_wifi_off">قم بتشغيل WLAN لمشاهدة الشبكات المتاحة.</string>
+    <string name="wifi_empty_list_wifi_on">جارِ البحث عن شبكات WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">ليس لديك إذن لتغيير شبكة WLAN.</string>
+    <string name="wifi_wps_setup_title">إعداد WLAN المحمي</string>
+    <string name="wifi_wps_onstart_pbc">اضغط على زر الإعداد المحمي لشبكة WLAN الموجود على جهاز التوجيه (الراوتر). قد يكون اسمه \"WPS\" أو قد يحتوي على الرمز التالي:</string>
+    <string name="wifi_wps_onstart_pin">أدخل رقم التعريف الشخصي %1$s في جهاز توجيه WLAN. يمكن أن يستغرق إكمال الإعداد فترة قد تصل إلى دقيقتين.</string>
+    <string name="wifi_wps_connected">تم الاتصال بشبكة WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"لتحسين دقة تحديد الموقع ولأغراض أخرى، يرغب %1$s في تشغيل البحث عن شبكة، حتى إذا كان الـ WLAN مطفأ.
+
+أترغب في السماح بهذا لجميع التطبيقات التي ترغب في البحث؟"</string>
+    <string name="wifi_skipped_message">"تحذير: قد تتحمل نفقات بيانات إضافية لمشغل شبكة الجوال.
+
+قد يتطلب إعداد الجوال نشاط شبكة قوي."</string>
+    <string name="wifi_and_mobile_skipped_message">تحذير: لن يتمكن الهاتف من التحقق من أن البرنامج محدث.</string>
+    <string name="wifi_connect_failed_message">لم يتمكن الهاتف من الاتصال بشبكة WLAN هذه.</string>
+    <string name="wifi_advanced_titlebar">إعدادات WLAN المتقدمة</string>
+    <string name="wifi_configure_titlebar">‏تهيئة WLAN</string>
+    <string name="wifi_advanced_not_available">‏إعدادات WLAN المتقدمة ليست متاحة لهذا المستخدم.</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">نقطة اتصال WLAN المتنقلة</string>
+    <string name="wifi_tether_failed_subtext">خطأ في نقطة اتصال WLAN المتنقلة</string>
+    <string name="wifi_tether_configure_ap_text">إعداد نقطة اتصال WLAN</string>
+    <string name="wifi_tether_configure_subtext">نقطة اتصال WLAN %1$s %2$s المتنقلة</string>
+    <string name="wifi_calling_settings_title">إعدادات الاتصال عبر الشبكة اللاسلكية</string>
+    <string name="wifi_calling_suggestion_title">‏تشغيل الاتصال عبر WLAN</string>
+    <string name="wifi_calling_suggestion_summary">‏استخدام شبكة WLAN بدلاً من شبكة الجوّال</string>
+    <string name="wifi_calling_mode_title">الاتصال عبر الشبكة اللاسلكية</string>
+    <string name="wifi_calling_mode_dialog_title">وضع اتصال الشبكة اللاسلكية</string>
+    <string name="wifi_calling_off_explanation">‏عند تشغيل الاتصال عبر WLAN، يمكن للهاتف توجيه المكالمات عبر شبكات WLAN أو عبر شبكة مشغّل شبكة الجوّال، حسب تفضيلك وحسب الإشارة الأقوى. وقبل تشغيل هذه الميزة، راجع رسوم مشغل شبكة الجوّال والتفاصيل الأخرى حول شبكة الجوّال.</string>
+    <string name="status_wifi_mac_address">عنوان Mac لـ WLAN</string>
+    <string name="reset_network_desc">"سيؤدي هذا إلى إعادة تعيين جميع إعدادات الشبكات، والتي تشمل:
+
+"<li>الشبكة اللاسلكية</li>"
+"<li>بيانات الجوال</li>"
+"<li>البلوتوث</li></string>
+    <string name="network_scorer_change_active_dialog_title">‏هل تريد تغيير مساعد WLAN؟</string>
+    <string name="location_mode_high_accuracy_description">استخدام شبكات GPS وشبكات WLAN وشبكات الجوال لمعرفة الموقع</string>
+    <string name="location_mode_battery_saving_description">استخدام شبكات WLAN وشبكات الجوال لمعرفة الموقع</string>
+    <string name="location_scanning_wifi_always_scanning_title">‏البحث عن WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">تحسين الموقع عن طريق السماح لخدمات وتطبيقات النظام بالعثور على الشبكات اللاسلكية في أي وقت</string>
+    <string name="location_network_based">موقع شبكة المحمول وWLAN</string>
+    <string name="location_neighborhood_level">السماح للتطبيقات باستخدام بيانات من مصادر مثل شبكة WLAN وشبكات الجوال لتحديد موقعك التقريبي</string>
+    <string name="location_neighborhood_level_wifi">الموقع الذي تم تحديده بواسطة WLAN</string>
+    <string name="battery_stats_wifi_running_label">" WLAN"</string>
+    <string name="wifi_on_time">وقت تشغيل WLAN</string>
+    <string name="bluetooth_on_time">وقت تشغيل WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">‏WLAN وقت تشغيل</string>
+    <string name="usage_type_data_wifi_send">تم إرسال بيانات WLAN</string>
+    <string name="usage_type_data_wifi_recv">تم استقبال بيانات WLAN</string>
+    <string name="battery_action_wifi">إعدادات WLAN</string>
+    <string name="battery_desc_wifi">مقدار الطاقة المستخدمة بواسطة WLAN</string>
+    <string name="battery_sugg_wifi">إيقاف WLAN عند عدم استخدامها أو عندما لا تكون متاحة</string>
+    <string name="gadget_toggle_wifi">تحديث إعداد WLAN</string>
+    <string name="gadget_wifi">لاسلكي</string>
+    <string name="backup_data_summary">الاحتفاظ بنسخة احتياطية من بيانات التطبيقات وكلمات المرور الخاصة بشبكات WLAN والإعدادات الأخرى على خوادم Google</string>
+    <string name="backup_erase_dialog_message">هل تريد إيقاف النسخ الاحتياطي لكلمات مرور الخاصة بشبكات WLAN، وإشارات المرجعية لصفحات الإنترنت وبيانات التطبيقات، وغيرها من الإعدادات، بالإضافة إلى حذف جميع النسخ الموجودة على خوادم Google؟</string>
+    <string name="fullbackup_erase_dialog_message">هل تريد إيقاف النسخ الاحتياطي للبيانات (مثل كلمات مرور الشبكة اللاسلكية وسجل المكالمات)، وبيانات التطبيقات (مثل الإعدادات والملفات المخزّنة بواسطة التطبيقات)، ومسح جميع النسخ الموجودة على قرص جوجل؟</string>
+    <string name="fullbackup_data_summary">"‏بإمكانك الاحتفاظ تلقائيًا بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور WLAN وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) عن بُعد.
+
+عند تشغيل الاحتفاظ التلقائي بنسخة احتياطية، يتم بشكل دوري حفظ بيانات الجهاز وبيانات التطبيقات عن بُعد. ويمكن أن تكون بيانات التطبيقات أية بيانات تم حفظها في التطبيق (استنادًا إلى إعدادات مطور التطبيق) بما في ذلك البيانات المحتمل أن تكون حساسة مثل جهات الاتصال والرسائل والصور."</string>
+    <string name="wifi_setup_title">إعداد WLAN</string>
+    <string name="wifi_setup_title_editing_network">الاتصال بشبكة WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">جارٍ الاتصال بشبكة WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">لا يمكنك تهيئة اتصال EAP WLAN أثناء الإعداد. بعد الإعداد، يمكنك إجراء ذلك من \"الإعدادات\" > اللاسلكي والشبكات.</string>
+    <string name="wifi_setup_description_connected">المس <b>التالي</b>" للاستمرار في الإعداد.
+
+المس "<b>رجوع</b> للاتصال بشبكة WLAN مختلفة.</string>
+    <string name="data_usage_menu_show_wifi">عرض استخدام WLAN</string>
+    <string name="data_usage_menu_hide_wifi">‏إخفاء WLAN</string>
+    <string name="data_usage_disable_wifi_limit">تعيين حد بيانات لـ WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">تعطيل بيانات الخلفية في شبكة بيانات الجوال فقط. سيتم استخدام شبكة WLAN إن كانت متاحة.</string>
+    <string name="data_usage_app_restrict_dialog">"قد تتسبب هذه الميزة في إيقاف تطبيق يعتمد على بيانات الخلفية عندما لا تكون شبكة WLAN متاحة.
+
+يمكن العثور على المزيد من البيانات المناسبة عن عناصر التحكم في الاستخدام في الإعدادات المتاحة من داخل التطبيق."</string>
+    <string name="data_usage_restrict_background">في حال حظر استخدام بيانات الجوال للخلفية، لن تعمل بعض التطبيقات والخدمات إلاّ إذا كنت متصلًا بشبكة WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"في حالة تقييد بيانات الجوال للخلفية، لن تعمل بعض التطبيقات والخدمات ما لم تكن متصلاً بشبكة WLAN.
+
+يؤثر هذا الإعداد على جميع مستخدمي هذا الهاتف."</string>
+    <string name="data_usage_metered_body">حدد شبكات WLAN التي تعتبر نقاط اتصال جوال. يمكن تقييد استخدام التطبيقات لهذه الشبكات أثناء عملها في الخلفية. قد ترسل التطبيقات تنبيهًا قبل استخدام هذه الشبكات عند تنزيل الملفات ذات الحجم الكبير.</string>
+    <string name="data_usage_metered_wifi">شبكات WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">لتحديد نقاط اتصال جوال، شغِّل WLAN.</string>
+    <string name="user_add_user_message_long">"يمكنك مشاركة هذا الجهاز مع أشخاص آخرين بإنشاء مستخدمين إضافيين. ويكون لكل مستخدم مساحته التي يمكنه تخصيصها بتطبيقاته وخلفياته وما إلى ذلك. ويمكن للمستخدمين أيضًا ضبط إعدادات الجهاز اللوحي مثل WLAN  والتي تؤثر على إعدادات الجميع.
+
+بعد إنشاء مستخدم جديد، يلزم هذا الشخص المرور بعملية الإعداد.
+
+ويمكن لأي مستخدم قبول أذونات التطبيقات المحدثة نيابة عن جميع المستخدمين الآخرين."</string>
+    <string name="restriction_wifi_config_title">WLAN وبيانات الجوال</string>
+    <string name="restriction_wifi_config_summary">السماح بتعديل WLAN وإعدادات شبكة الجوال</string>
+    <string name="keywords_wifi">‏اتصال شبكة واي فاي WLAN</string>
+    <string name="keywords_wifi_calling">الاتصال عبر الشبكة اللاسلكية</string>
+    <string name="setup_wifi_nfc_tag">إعداد علامة NFC لشبكة لاسلكية</string>
+    <string name="condition_hotspot_summary">‏نقطة اتصال WLAN المتنقلة %1$s نشطة، وتم تعطيل WLAN في هذا الجهاز.</string>
+    <string name="condition_airplane_summary">‏تم تعطيل WLAN وبلوتوث والشبكة الخلوية. ولا يمكنك إجراء مكالمات هاتفية أو الاتصال بالإنترنت.</string>
+    <string name="condition_cellular_summary">‏لا تتوفر خدمة الإنترنت إلا عبر WLAN</string>
+    <string name="condition_bg_data_summary">‏لا تتوفر بيانات الخلفية إلا عبر WLAN. وقد يؤثر هذا في أداء بعض التطبيقات أو الخدمات عند عدم توفر خدمة WLAN.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">جسر الشبكة اللاسلكية</string>
+    <string name="wifi_tether_bridge_tittle_text">إعدادات جسر الشبكة اللاسلكية</string>
+    <string name="wifi_tether_configure_bridge_text">إعداد جسر الشبكة اللاسلكية</string>
+    <string name="wifi_bridge_settings_summary">تعيين اسم الجسر، وكلمة المرور، وغيرها من الإعدادات</string>
+    <string name="wifi_bridge_use_help_title">نبذة عامة</string>
+    <string name="wifi_bridge_use_help_details">"1. يمكن لجسر الشبكة اللاسلكية تحسين مدى الإرسال وكثافة إشارة الشبكة اللاسلكية بشكل ملحوظ. ويمكن للأجهزة الأخرى الاتصال بالشبكة اللاسلكية الحالية لديك عبر جهازك.
+2. يدعم جسر الشبكة اللاسلكية اتصال 4 أجهزة كحدٍ أقصى.
+3. جسر الشبكة اللاسلكية لا يعمل مع نقاط الاتصال اللاسلكية واتصال WLAN Direct. وفي حال تمكين جسر الشبكة اللاسلكية، فإن بعض التطبيقات التي تستخدم خدمات نقطة إلى نقطة (P2P) قد لا تعمل بشكل طبيعي.
+4. يؤدي استخدام جسر الشبكة اللاسلكية إلى استهلاك طاقة البطارية بشكل أسرع."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">مطلوب الاتصال بشبكة لاسلكية</string>
+    <string name="wifi_bridge_switch_wifi_summary">مشاركة اتصال الشبكة اللاسلكية</string>
+    <string name="wifi_setup_title_connected_network_Toast">تم الاتصال بشبكة WLAN %s.</string>
+    <string name="huawei_beam_explained">تسمح لك خاصية Huawei Beam بنقل الملفات، مثل الصور ومقاطع الفيديو وجهات الاتصال وروابط المواقع، بين جهازك وجهاز آخر مزود بتقنية NFC. يتم تفعيل خاصية Huawei Beam بوضع كلا الجهازين بالقرب من بعضهما (الخلف إلى الخلف عادة) والنقر على الشاشة. يُرجى الانتباه بأنه قد يتم تشغيل البلوتوث أو شبكة WLAN تلقائيًا قبل عملية النقل.</string>
+    <string name="wifi_display_settings_summary">عرض شاشة الهاتف في شاشة عرض أخرى باستخدام اتصال WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">الشبكة اللاسلكية %s متاحة. هل تريد إيقاف خدمة بيانات الجوال والاتصال بالشبكة اللاسلكية؟</string>
+    <string name="switch_to_wifi_manual_prompt">تم العثور على شبكة لاسلكية، هل تريد الاتصال بهذه الشبكة؟</string>
+    <string name="switch_to_wifi_query_prompt">الشبكة اللاسلكية %s متاحة. هل تريد الاتصال بالشبكة اللاسلكية؟</string>
+    <string name="wifi_to_wifi_prompt">قوة إشارة الاتصال الحالي ضعيفة، هل تريد الاتصال بشبكة لاسلكية أخرى؟</string>
+    <string name="advanced_wifi_settings_title">الإعدادات المتقدمة</string>
+    <string name="huawei_beam_front_explained">"تسمح لك خاصية Huawei Beam بنقل الملفات إلى أي جهاز آخر يحتوي على تقنية NFC وذلك بوضع كلا الجهازين بالقرب من بعضهما. على سبيل المثال، يمكنك نقل الصور ومقاطع الفيديو وجهات الاتصال وروابط المواقع وأكثر من ذلك لاسلكيًا بين جهازين مزودين بتقنية NFC. ببساطة:
+1. قم بوضع الواجهة الأمامية لجهازك على جهاز NFC آخر، ثم قم برفع جهازك بعد سماع نغمة.
+2. انقر على شاشة جهازك خلال ثلاث ثواني من سماع النغمة.
+3. قم بوضع الواجهة الأمامية لجهازك على جهاز NFC الآخر مرة أخرى وذلك لإكمال عملية النقل. يُرجى الانتباه بأنه قد يتم تشغيل البلوتوث أو شبكة WLAN تلقائيًا قبل عملية النقل."</string>
+    <string name="wifiap_use_help_details">"1. يمكنك استخدام جهاز نقطة اتصال WLAN محمولة كنقطة وصول للإنترنت خاصة بك. يمكن توصيل أجهزة طرفية مع جهازك من خلال شبكة WLAN، وسوف يتم وصول الأجهزة المتصلة إلى الإنترنت من خلال شبكة الجوال.
+2. سيتطلب استخدام نقطة اتصال WLAN محمولة تشغيل اتصال بيانات الجوال الخاصة بك، وسوف تستهلك بعض رسوم نقل البيانات.
+3. قد يستنزف استخدام نقطة اتصال WLAN محمولة عمر بطاريتك بشكلٍ أسرع."</string>
+    <string name="wifiap_connect_help_details_open">"الاتصال يدويًا:
+1. قم بتشغيل WLAN على الجهاز الهدف، ثم ابحث على نقطة الاتصال %1$s.
+2. اتصل بنقطة الاتصال."</string>
+    <string name="wifi_connected_to_cmcc_title">شبكة China Mobile اللاسلكية</string>
+    <string name="wifi_connected_to_cmcc_warning">انت الآن متصل بشبكة China Mobile اللاسلكية. قد يؤدي استخدام هذه الشبكة إلى احتساب رسوم استخدام الشبكة اللاسلكية المفروضة.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">تذكير شبكة China Mobile اللاسلكية</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">تذكيري عند الاتصال بشبكة China Mobile اللاسلكية</string>
+    <string name="wifi_cmcc_no_notification_summary">عدم إظهار أي إشعارات عند تبديل الشبكات (بيانات الجوال إلى الشبكة اللاسلكية والعكس، أو بين الشبكات اللاسلكية ذاتها)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">استخدام كلًا من نظام GPS والشبكة اللاسلكية في تحديد الموقع</string>
+    <string name="location_mode_battery_saving_description_wifionly">استخدام الشبكة اللاسلكية في تحديد الموقع</string>
+    <string name="wifi_plus_title">الشبكة اللاسلكية الذكية</string>
+    <string name="wifi_plus_summary">الاختيار بذكاء ما بين الشبكة اللاسلكية أو شبكة الجوال</string>
+    <string name="wifi_plus_description">"عند تمكين الشبكة اللاسلكية الذكية، سيتم تقييم إمكانية الاتصال WLAN لديك لتوفير ميزة التبديل الذكي بين الشبكات (قد تزيد نسبة استخدام بيانات الشبكة اللاسلكية). تقوم ميزة الشبكة اللاسلكية الذكية بما يلي تلقائيًا:‪‎
+‬1. التبديل بين الاتصال بشبكة لاسلكية والاتصال بالإنترنت عن طريق بيانات الجوال (مع إرسال إشعارات) لتوفير تجربة سلسة عند الاتصال بالإنترنت.‪‎
+‬2. تشغيل ميزة الاتصال بشبكة لاسلكية عند وجود جهازك في نطاق شبكة لاسلكية معروفة والاتصال بها."</string>
+    <string name="wifi_plus_settings_title">إعدادات الشبكة اللاسلكية الذكية</string>
+    <string name="wifi_plus_intelligent_switch_description">التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لتجربة إنترنت أفضل.</string>
+    <string name="wifi_plus_auto_turn_on_description">التشغيل التلقائي لوظيفة WLAN عند الإقتراب من موقع معروف.</string>
+    <string name="wifi_plus_global_description">"عند تشغيل \"الشبكة اللاسلكية الذكية\"، سيتم التحقق من اتصال الشبكة اللاسلكية لديك واختباره من أجل تزويدك بإمكانية التبديل الذكي بين الشبكات (قد يزيد استهلاك بيانات الشبكة اللاسلكية). تقوم الشبكة اللاسلكية الذكية تلقائيًا بعمل الآتي:
+1. التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لضمان حصولك على تجربة إنترنت سلسة.
+2. تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها."</string>
+    <string name="location_mode_high_accuracy_title_emui">استخدام كلًا من نظام GPS والشبكات اللاسلكية وشبكات الجوال</string>
+    <string name="location_mode_battery_saving_title_emui">استخدام كلًا من الشبكات اللاسلكية وشبكات الجوال</string>
+    <string name="pgps_switch_summary">السماح لخدمة GPS بتجميع بيانات محطة الشبكات الخلوية القريبة وبيانات الشبكة اللاسلكية من أجل تقديم خدمة تحديد الموقع بسرعة أعلى ودقة أكبر.</string>
+    <string name="find_no_wlan_ap">تعذر العثور على نقطة اتصال لاسلكية</string>
+    <string name="cannot_connect_wlan">تعذر الاتصال بالشبكة اللاسلكية</string>
+    <string name="cannot_login_internet_with_wlan">تعذر الاتصال بالإنترنت عبر الشبكة اللاسلكية</string>
+    <string name="wfd_connect_fail">تعذر الاتصال عبر WLAN Direct</string>
+    <string name="find_no_wfd_device">تعذر العثور على جهاز يدعم خاصية WLAN Direct</string>
+    <string name="wfd_search_no_devices_causes">"لم يتم العثور على أجهزة متاحة، وقد يكون ذلك بسبب أن:
+1. الجهاز المقترن غير قابل للاكتشاف.
+2. الجهاز المقترن يعاني من مشاكل تقنية. حاول إعادة تشغيل WLAN وخاصية WLAN Direct.
+3. جهازك يعاني من مشاكل تقنية. حاول إعادة تشغيل WLAN وخاصية WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"تعذر إنشاء الاتصال. الأسباب المحتملة هي:
+1. الجهاز المقترن لم يقبل طلب الاتصال.
+2. أحد الأجهزة قد انشأ اتصال WLAN Direct آخر بالفعل.
+3. الجهاز المقترن يعاني من مشاكل تقنية. حاول إعادة تشغيله."</string>
+    <string name="wifi_qrcode_share_notice">قم بقراءة رمز QR للاتصال بهذه الشبكة اللاسلكية</string>
+    <string name="devices_not_found_solution_title">في حال تعذر العثور على الجهاز، حاول القيام بالآتي:</string>
+    <string name="devices_not_found_solution_message">"1. تأكد من قيام الجهاز بالبحث عن الأجهزة الأخرى.
+2. إذا كان الجهاز المطلوب الاتصال به يعاني من مشاكل، فقم بإعادة تشغيل WLAN والدخول إلى وظيفة WLAN Direct لذلك الجهاز مجددًا.
+3. إذا كان جهازك يعاني من مشاكل، فقم بإعادة تشغيل WLAN والدخول إلى وظيفة WLAN Direct مجددًا."</string>
+    <string name="devices_not_connected_solution_message">"1. تأكد من أن الجهاز المطلوب الاتصال به قد قبل طلب الاتصال.
+2. تأكد من عدم اتصال كلا الجهازين بأي أجهزة أخرى.
+3. وفي حال كان الجهاز المطلوب الاتصال به يعاني من أية مشاكل، حاول إعادة الاتصال به."</string>
+    <string name="wifi_plus_description_emui">"عند تشغيل \"الشبكة اللاسلكية الذكية\"، سيتم التحقق من اتصال الشبكة اللاسلكية لديك واختباره من أجل تزويدك بإمكانية التبديل الذكي بين الشبكات (قد يزيد استهلاك بيانات الشبكة اللاسلكية). تقوم الشبكة اللاسلكية الذكية تلقائيًا بالتالي:
+1. التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لتقديم تجربة إنترنت سلسة (يمكنك اختيار وضع التبديل الافتراضي من إعدادات شبكة الجوال).
+2. تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها."</string>
+    <string name="link_plus_live_update_description">عند تمكين التحديث الحي للارتباط الذكي، سيقوم هاتفك تلقائيًا بتحديث بيانات قيم الاتصال من خلال الشبكة اللاسلكية لديك (الشبكة اللاسلكية عادة)، وذلك من أجل تحسين الخصائص المرتبطة بخاصية الارتباط الذكي.</string>
+    <string name="wifi_plus_description_emui2">"عند تشغيل \"الشبكة اللاسلكية الذكية\"، سيتم التحقق من اتصال الشبكة اللاسلكية لديك واختباره من أجل تزويدك بإمكانية التبديل الذكي بين الشبكات (قد يزيد استهلاك بيانات الشبكة اللاسلكية). تقوم الشبكة اللاسلكية الذكية تلقائيًا بالتالي:
+1. التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لتقديم تجربة إنترنت سلسة (يمكنك اختيار وضع التبديل الافتراضي من إعدادات شبكة الجوال).
+2. تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها.
+3. تقييم الشبكات اللاسلكية المتاحة. بحيث لن يقوم الجهاز بالاتصال بالشبكات المحفوظة التي ليست متصلة بالإنترنت.
+4. ستقوم الشبكة اللاسلكية الذكية، في بعض نقاط الاتصال اللاسلكية المجانية، بالحصول على رمز التحقق من الرسائل النصية الواردة وتسجيل الدخول إلى الشبكة عبر المتصفح (حاليًا، هذه الخدمة مدعومة في الصين فقط)."</string>
+    <string name="wifi_plus_global_description2">"عند تشغيل \"الشبكة اللاسلكية الذكية\"، سيتم التحقق من اتصال الشبكة اللاسلكية لديك واختباره من أجل تزويدك بإمكانية التبديل الذكي بين الشبكات (قد يزيد استهلاك بيانات الشبكة اللاسلكية). تقوم الشبكة اللاسلكية الذكية تلقائيًا بالتالي:
+1. التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لتجربة إنترنت سلسة.
+2. تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها.
+3. تقييم الشبكات اللاسلكية المتاحة. بحيث لن يقوم الجهاز بالاتصال بالشبكات المحفوظة التي ليست متصلة بالإنترنت."</string>
+    <string name="help_message">"1. الهاتف والطابعة لديك ليسا متصلين بنفس الشبكة اللاسلكية.
+2. طابعتك لا تدعم خدمة الطباعة هذه (يُرجى التأكد من المُصنِّع).
+3. انتهت مهلة البحث. وفي هذه الحالة، يُرجى إعادة المحاولة.
+4. توقفت الطابعة لديك. قم بإعادة تشغيل الطابعة وإعادة المحاولة."</string>
+    <string name="wifi_cloud_security_check_title">التحقق من أمان الشبكة اللاسلكية</string>
+    <string name="wifi_cloud_security_check_summary">قيام مدير الهاتف بالتحقق من درجة أمان الشبكات اللاسلكية التي تم الاتصال بها، والإيقاف المؤقت لخاصية الاتصال التلقائي بالشبكات المحفوظة التي تعرض جهازك لمخاطر أمنية</string>
+    <string name="wifi_plus_description_emui3">"عند تشغيل \"الشبكة اللاسلكية الذكية\"، سيتم تقييم اتصال الشبكة اللاسلكية لديك لتقديم إمكانية التبديل الذكي بين الشبكات، وسيتم تحديث إعدادات التحسين من خلال الشبكة اللاسلكية (قد يزيد استهلاك بيانات الشبكة اللاسلكية). ستقوم الشبكة اللاسلكية الذكية تلقائيًا بما يلي:
+1. التبديل الذكي ما بين الشبكة اللاسلكية وشبكة بيانات الجوال لتقديم تجربة إنترنت سلسة (يمكنك اختيار وضع التبديل الافتراضي من إعدادات شبكة الجوال).
+2. تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها.
+3. تقييم الشبكات اللاسلكية المتاحة. وبالنسبة للشبكات المحفوظة التي لا يوجد بها اتصال إنترنت، فسيتم إيقاف خاصية الاتصال التلقائي مؤقتًا.
+4. ستقوم الشبكة اللاسلكية الذكية، في ما يخص بعض نقاط الاتصال اللاسلكية المجانية، بمعرفة رمز التحقق والوصول إليه في الرسائل النصية الواردة وتسجيل الدخول إلى الشبكة عبر المتصفح تلقائيًا (حاليًا، هذه الخدمة مدعومة في الصين فقط)."</string>
+    <string name="user_add_user_message">"يمكنك مشاركة هذا الجهاز مع الآخرين عن طريق إنشاء حسابات مستخدمين إضافية. وبذلك يصبح لكل مستخدم المساحة الخاصة به، حيث يستطيع تخصيص التطبيقات والخلفيات، والمزيد غير ذلك. كما يمكن للمستخدمين ضبط إعدادات الجهاز التي تؤثر على كافة المستخدمين، كإعدادات WLAN مثلًا.
+
+عند إضافة مستخدم جديد، يجب على ذلك الشخص تعيين المساحة الخاصة به.
+
+أي مستخدم يمكنه تحديث التطبيقات الخاصة بجميع المستخدمين الآخرين."</string>
+    <string name="print_user_warning">سيقوم جهازك بالبحث عن الطابعات القريبة من خلال اتصال الشبكة اللاسلكية حال تمكين خدمة الطباعة، والذي قد يتسبب في زيادة حركة بيانات الشبكة اللاسلكية.</string>
+    <string name="wifi_calling_settings_title_emui">الاتصال عبر الشبكة اللاسلكية</string>
+    <string name="wifi_calling_dialog_title">تمكين الاتصال عبر الشبكة اللاسلكية</string>
+    <string name="wifi_calling_dialog_message">في حال التمكين، لن تتمكن من أجراء مكالمات الطوارئ عبر الشبكة اللاسلكية. هل تريد التمكين؟</string>
+    <string name="device_name_settings_summary">عند استخدام البلوتوث، وخاصية WLAN Direct، والربط ونقطة الاتصال المتنقلة، سيظهر هذا الاسم للأجهزة الأخرى.</string>
+    <string name="device_name_settings_dialog">تعديل اسم الجهاز سيؤدي إلى قطع اتصال نقطة الاتصال اللاسلكية الحالية. هل تريد تعديله؟</string>
+    <string name="write_wifi_nfc_tag">كتابة علامة NFC لشبكة لاسلكية</string>
+    <string name="wifi_plus_smart_switch_title">التبديل الذكي بين الشبكة اللاسلكية وبيانات الجوال</string>
+    <string name="wifi_plus_smart_switch_summary">تقييم جودة اتصال الشبكة اللاسلكية والتبديل بين الشبكة اللاسلكية وبيانات الجوال (قد يؤدي هذا إلى زيادة استخدام البيانات) واختيار الاتصال الأفضل فيما بينها. حيث يمكنك تعيين وضع التبديل الافتراضي من إعدادات شبكة الجوال</string>
+    <string name="wifi_plus_smart_switch_summary_global">تقييم جودة اتصال الشبكة اللاسلكية والتبديل بين الشبكة اللاسلكية وبيانات الجوال (قد يؤدي هذا إلى زيادة استخدام البيانات) واختيار الاتصال الأفضل فيما بينها</string>
+    <string name="wifi_plus_auto_turn_title">تشغيل/إيقاف تشغيل وظيفة WLAN بشكلٍ تلقائي</string>
+    <string name="wifi_plus_auto_turn_summary">تشغيل وظيفة WLAN عند الاقتراب من شبكة لاسلكية معروفة والاتصال بها</string>
+    <string name="wifi_plus_quality_evaluation_title">تقييم الشبكات اللاسلكية المتاحة</string>
+    <string name="wifi_plus_quality_evaluation_summary">تقييم الشبكات اللاسلكية المتاحة. ويتم إيقاف خاصية الاتصال التلقائي مؤقتًا بالشبكات المحفوظة التي لا يوجد بها اتصال إنترنت</string>
+    <string name="wifi_plus_fast_connect_title">تحسين تجربة تسجيل الدخول لنقاط الاتصال اللاسلكية المجانية</string>
+    <string name="wifi_plus_fast_connect_summary">ستقوم الشبكة اللاسلكية الذكية، فيما يخص بعض نقاط الاتصال اللاسلكية المجانية، بمعرفة رمز التحقق والوصول إليه من الرسائل النصية الواردة وتسجيل الدخول إلى الشبكة عبر المتصفح تلقائيًا (حاليًا، هذه الخدمة مدعومة في الأراضي الصين فقط)</string>
+    <string name="link_plus_live_update_description_EMUI_5">عند تمكين التحديث الحي للارتباط الذكي، سيقوم هاتفك تلقائيًا بتحديث بيانات قيم الاتصال من خلال الشبكة اللاسلكية لديك (الشبكة اللاسلكية بشكلٍ افتراضي)، وذلك من أجل تحسين الخصائص المرتبطة بالاتصال.</string>
+    <string name="reset_network_desc_summary"><li>الشبكة اللاسلكية</li>"
+"<li>بيانات الجوال</li>"
+"<li>البلوتوث</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>البلوتوث</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">استخدام نظام GPS والشبكات اللاسلكية</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">استخدام الشبكات اللاسلكية</string>
+    <string name="wifi_bridge_use_help_new_details">"1. يحسّن جسر الشبكة اللاسلكية مدى الإرسال وكثافة إشارة الشبكة اللاسلكية بشكلٍ ملحوظ. بحيث يمكن للأجهزة الأخرى الاتصال بالشبكة اللاسلكية الحالية لديك عبر جهازك.
+2. يدعم جسر الشبكة اللاسلكية اتصال 4 أجهزة كحدٍ أقصى.
+3. جسر الشبكة اللاسلكية لا يعمل مع نقاط الاتصال اللاسلكية واتصال WLAN Direct. وفي حال تمكين جسر الشبكة اللاسلكية، فقد لا تعمل بعض التطبيقات التي تستخدم خدمات P2P بشكل سليم.
+4. استخدام جسر الشبكة يؤدي إلى استهلاك البطارية بشكل سريع.
+5. عند تلقي رسالة تشعرك باستخدام خدمة أخرى لموارد الشبكة اللاسلكية لديك، قم بالذهاب إلى الإعدادات > WLAN > ثم WLAN Direct، وقم بقطع الاتصال عن أي أجهزة متصلة. أو قم بإيقاف تشغيل WLAN وإعادة تشغيلها مجددًا لقطع الاتصال تلقائيًا عن جميع الأجهزة."</string>
+    <string name="wifi_qrcode_share_notice_new">قم بقراءة الرمز للاتصال بهذه الشبكة اللاسلكية</string>
+    <string name="location_help_scheme_body_one">"1. تأكد من تمكين خاصية الوصول إلى موقعي.
+2. حدد الخيار \"استخدام نظام GPS والشبكات اللاسلكية وشبكات الجوال\" في وضع الموقع.
+3. اتصل بشبكة لاسلكية أو قم بتمكين بيانات الجوال.
+4. تحقق من منح إذن الوصول إلى معلومات الموقع للتطبيق الذي تستخدمه، وذلك بالذهاب إلى مدير الهاتف > مدير الأذونات > معلومات الوصول إلى الموقع.
+5. في حال تحديد نمط الموقع إلى \"استخدام نظام GPS فقط\"، فيُرجى التأكد من استخدامك لهذا النمط في مكان مفتوح بدون حواجز تعيق من استقبال إشارة GPS بشكل طبيعي.
+6. إذا كنت متصلًا بشبكة لاسلكية عامة، فيُرجى إيقاف تشغيل WLAN وتمكين بيانات الجوال، ثم حاول الوصول إلى معلومات الموقع مجددًا."</string>
+    <string name="location_help_scheme_body_two">"1. حدد الخيار \"استخدام نظام GPS والشبكات اللاسلكية وشبكات الجوال\" في نمط الموقع، وذلك للوصول إلى موقعك بشكلٍ أدق.
+2. إذا كنت تستخدم غلافًا (جراب) معدني، فقم بإزالته أو استبدله بغلاف غير معدني وحاول مرةً أخرى.
+3. تحقق من منح إذن الوصول إلى معلومات الموقع للتطبيق الذي تستخدمه، وذلك بالذهاب إلى مدير الهاتف > مدير الأذونات > معلومات الوصول إلى الموقع.
+4. تعمل خدمة التوجيه بشكلٍ أفضل في المناطق ذات نطاق أوسع، أو التي لا توجد بها عوائق. لذا؛ ضع هاتفك على مقربة من الزجاج الأمامي من المركبة."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. يحسّن جسر الشبكة اللاسلكية مدى الإرسال وكثافة إشارة الشبكة اللاسلكية بشكلٍ ملحوظ. بحيث يمكن للأجهزة الأخرى الاتصال بالشبكة اللاسلكية الحالية لديك عبر جهازك.
+%2$d. يدعم جسر الشبكة اللاسلكية اتصال %6$d أجهزة كحدٍ أقصى.
+%3$d. جسر الشبكة اللاسلكية لا يعمل مع نقاط الاتصال اللاسلكية واتصال WLAN Direct. وفي حال تمكين جسر الشبكة اللاسلكية، فقد لا تعمل بعض التطبيقات التي تستخدم خدمات P2P بشكل سليم.
+%4$d. استخدام جسر الشبكة يؤدي إلى استهلاك البطارية بشكل سريع.
+%5$d. عند تلقي رسالة تشعرك باستخدام خدمة أخرى لموارد الشبكة اللاسلكية لديك، قم بالذهاب إلى الإعدادات > WLAN > ثم WLAN Direct، وقم بقطع الاتصال عن أي أجهزة متصلة. أو قم بإيقاف تشغيل WLAN وإعادة تشغيلها مجددًا لقطع الاتصال تلقائيًا عن جميع الأجهزة."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. يمكنك استخدام نقطة الاتصال اللاسلكية المتنقلة لجهازك للاتصال بالإنترنت. حيث يمكن للأجهزة الأخرى الاتصال بجهازك عبر خيار الشبكة اللاسلكية، وبذلك يمكنها الاتصال بالإنترنت.
+%2$d. استخدام نقطة الاتصال اللاسلكية المتنقلة سيتطلب تمكين اتصال بيانات الجوال لديك، وسيؤدي بدوره إلى استهلاك بيانات الجوال.
+%3$d. استخدام نقطة الاتصال اللاسلكية المتنقلة ربما يؤدي إلى استنزاف بطارية جهازك بشكلٍ أسرع."</string>
+    <string name="wifiap_connect_help_details_open_ex">"الاتصال يدويًا:
+%2$d. قم بتشغيل WLAN على الجهاز المطلوب، ثم ابحث عن نقطة الاتصال %1$s.
+%3$d. اتصل بنقطة الاتصال التي تم العثور عليها."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. تأكد من تمكين خاصية الوصول إلى موقعي.
+%2$d. حدد الخيار \"استخدام نظام GPS والشبكات اللاسلكية وشبكات الجوال\" في وضع الموقع.
+%3$d. اتصل بشبكة لاسلكية أو قم بتمكين بيانات الجوال.
+%4$d. تحقق من منح إذن الوصول إلى معلومات الموقع للتطبيق الذي تستخدمه، وذلك بالذهاب إلى مدير الهاتف > مدير الأذونات > معلومات الوصول إلى الموقع.
+%5$d. في حال تحديد نمط الموقع إلى \"استخدام نظام GPS فقط\"، فيُرجى التأكد من استخدامك لهذا النمط في مكان مفتوح بدون حواجز تعيق من استقبال إشارة GPS بشكل طبيعي.
+%6$d. إذا كنت متصلًا بشبكة لاسلكية عامة، فيُرجى إيقاف تشغيل WLAN وتمكين بيانات الجوال، ثم حاول الوصول إلى معلومات الموقع مجددًا."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. حدد الخيار \"استخدام نظام GPS والشبكات اللاسلكية وشبكات الجوال\" في نمط الموقع، وذلك للوصول إلى موقعك بشكلٍ أدق.
+%2$d. إذا كنت تستخدم غلافًا (جراب) معدني، فقم بإزالته أو استبدله بغلاف غير معدني وحاول مرةً أخرى.
+%3$d. تحقق من منح إذن الوصول إلى معلومات الموقع للتطبيق الذي تستخدمه، وذلك بالذهاب إلى مدير الهاتف > مدير الأذونات > معلومات الوصول إلى الموقع.
+%4$d. تعمل خدمة التوجيه بشكلٍ أفضل في المناطق ذات نطاق أوسع، أو التي لا توجد بها عوائق. لذا؛ ضع هاتفك على مقربة من الزجاج الأمامي من المركبة."</string>
+    <string name="turn_off_data_saver_message">استخدام خاصية نقطة اتصال متنقلة تتطلب إغلاق موفر البيانات. هل تريد إغلاقه؟</string>
+    <string name="first_wlan_hotspot_text">تسمح لك نقطة اتصال WLAN بمشاركة اتصال الشبكة مع الآخرين، غير أنها قد تستهلك طاقة البطارية بشكل أسرع وتزيد من رسوم استخدام البيانات.</string>
+    <string name="hotspot_power_notification_title">تم تعطيل نقطة اتصال WLAN</string>
+    <string name="hotspot_power_notification_ticker_text">تم تعطيل نقطة اتصال WLAN</string>
+    <string name="toast_entitle_wifi_need_close">لا يمكن استخدام هذه الوظيفة أثناء تشغيل WLAN. يُرجى إيقاف تشغيل WLAN أولاً.</string>
+    <string name="wifi_activated_warning_Title">تم تشغيل WLAN</string>
+    <string name="wifi_turn_off_warning_message_wifiap">لا يمكن تشغيل نقطة اتصال الجوال وشبكة WLAN في نفس الوقت. هل تريد إيقاف تشغيل WLAN؟</string>
+    <string name="wifi_turn_off_warning_message_usb">يجب إيقاف WLAN الآن. وسيتم تشغيله مجدداً بشكل تلقائي بمجرد اتصال جهازك بخوادم AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">إذا قمت بتعطيل خيار بث اسم الشبكة (SSID)، فلن يكون هاتفك مرئيًا للأجهزة الأخرى ولن يظهر في قائمة شبكات WLAN المتاحة. ولا يزال بإمكان الأجهزة الأخرى الاتصال بنقطة اتصال الشبكة الخاصة بك بواسطة إدخال اسم الشبكة يدويًا.</string>
+    <string name="enable">تم تمكين الاتصال التلقائي بشبكة AT&amp;T WLAN</string>
+    <string name="disable">تم تعطيل الاتصال التلقائي بشبكة AT&amp;T WLAN</string>
+    <string name="auto_connect_wifi_suggestion">قم بإعادة تشغيل WLAN لتفعيل إعدادات الاتصال التلقائي.</string>
+    <string name="wifi_network_detect_summary">التحقق من إمكانية الاتصال بالإنترنت عند الاتصال بنقطة إتصال WLAN</string>
+    <string name="wifi_disable_by_deivice_admin">تم تعطيل وظيفة WLAN بواسطة مسؤول الجهاز</string>
+    <string name="wifi_required_info_text">لاستكمال الإعداد، يحتاج جهازك اللوحي إلى الدخول إلى شبكة WLAN. فور انتهاء الإعداد، يمكنك التبديل بين بيانات الجوال وWLAN.</string>
+    <string name="wifi_setting_frequency_band_title">نطاق تردد WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">يدير %1$s هذا الجهاز ولم يسمح لك بتعديل أو حذف هذه الشبكة اللاسلكية. لمزيدٍ من المعلومات، يُرجى التواصل مع المسؤول.</string>
+</resources>

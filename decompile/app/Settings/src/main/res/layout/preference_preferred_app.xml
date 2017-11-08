@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidhwext="http://schemas.android.com/apk/res/androidhwext">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/preferred_app_pref" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <ImageView android:id="@android:id/icon" android:layout_width="@dimen/preference_bigger_icon_size" android:layout_height="@dimen/preference_bigger_icon_size" android:contentDescription="@null" android:layout_marginEnd="@dimen/preference_icon_margin_end" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:layout_width="0.0dip" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:singleLine="true" android:layout_weight="1.0" style="@style/EmuiPrimaryTextFontStyle" />
+        <RadioButton android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/radio" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <include layout="@layout/preference_shadow" />
+</FrameLayout>

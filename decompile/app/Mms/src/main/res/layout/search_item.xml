@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.SearchMessageListItem xmlns:android="http://schemas.android.com/apk/res/com.android.mms" mms:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:background="?unknown_attr_ref: 101030e" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:minHeight="56dp" mms:itemType="3">
+    <RelativeLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:id="@+id/search_item" mms:layout_width="match_parent" mms:layout_height="match_parent" mms:minHeight="56dp" mms:paddingEnd="16dp"
+        <RelativeLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:paddingTop="9dp" mms:paddingBottom="9dp" mms:layout_width="match_parent" mms:layout_height="match_parent" mms:minHeight="56dp" mms:layout_centerVertical="true">
+            <LinearLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="horizontal" mms:id="@+id/title_super" mms:layout_width="match_parent" mms:layout_height="wrap_content">
+                <view mms:textAppearance="?unknown_attr_ref: 1010041" mms:textSize="@dimen/mms_conversationlist_main_text_size" mms:textColor="@color/title_color_primary_dark" mms:ellipsize="end" mms:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:id="@+id/title" mms:layout_width="UNKNOWN_DATA_0x1" mms:layout_height="wrap_content" mms:singleLine="true" mms:layout_weight="1.0" mms:fontFamily="HwChinese-medium" class="com.huawei.mms.ui.TextViewSnippet" />
+                <TextView mms:textAppearance="?unknown_attr_ref: 1010042" mms:textSize="@dimen/mms_conversationlist_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:id="@+id/date_time" mms:layout_width="wrap_content" mms:layout_height="wrap_content" />
+            </LinearLayout>
+            <view mms:textAppearance="?unknown_attr_ref: 1010042" mms:textSize="@dimen/mms_conversationlist_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="end" mms:id="@+id/subtitle" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:singleLine="true" mms:layout_below="@+id/title_super" class="com.huawei.mms.ui.TextViewSnippet" />
+        </RelativeLayout>
+        <ImageView mms:background="@drawable/conversation_item_divider" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</com.android.mms.ui.SearchMessageListItem>

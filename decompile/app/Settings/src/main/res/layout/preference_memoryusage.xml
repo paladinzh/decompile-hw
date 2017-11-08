@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/storage_information" android:fadingEdge="horizontal" android:layout_marginBottom="9.0dip" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+    <com.android.settings.deviceinfo.PercentageBarChart android:gravity="center_vertical" android:id="@id/percentage_bar_chart" android:layout_width="fill_parent" android:layout_height="16.0dip" android:contentDescription="@string/details_title" settings:emptyColor="@color/memory_avail" settings:minTickWidth="6.0dip" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/camera_button_container_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/camera_video_counter_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a032e" android:layout_marginBottom="16dp" android:layout_above="@+id/camera_button_container" android:layout_centerHorizontal="true">
+        <Chronometer android:textSize="@dimen/camera_video_counter_textsize" android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/camera_video_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/camera_video_counter_padding" android:paddingEnd="@dimen/camera_video_counter_padding" />
+    </FrameLayout>
+    <FrameLayout android:id="@+id/camera_button_container" android:background="0x106000d" android:paddingBottom="@dimen/camera_bottom_btn_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/camera_swap_mode_button" android:background="@drawable/bg_camera_switchbutton_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/camera_swapmodel_btn_padding_end">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/camera_swap_mode_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_attachment_swape_video" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/camera_capture_button" android:background="@drawable/bg_camera_shutterbutton_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/camera_take_picture">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/camera_capture_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bg_camera_shutterbutton_camera" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16dp">
+            <ImageView android:id="@+id/camera_fullScreen_button" android:background="@drawable/transparent_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mp_full_screen_light" />
+            <ImageView android:id="@+id/camera_cancel_button" android:background="@drawable/transparent_button_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_remove_small_light" />
+        </FrameLayout>
+    </FrameLayout>
+</RelativeLayout>

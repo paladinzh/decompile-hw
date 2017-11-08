@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/navigation_bar" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@+id/back" android:background="?unknown_attr_ref: 101039c" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/am_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:src="?unknown_attr_ref: 101030b" android:paddingStart="8dp" android:paddingEnd="8dp" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/actionbardivider" android:background="?unknown_attr_ref: 101039b" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1801" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/multi_action_mode_text_size" android:textColor="@drawable/action_mode_text_color_black" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+</LinearLayout>

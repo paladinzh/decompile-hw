@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/rcs_map_action_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/mms_actionbar_edit_view" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.google.android.gms.maps.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@+id/my_location_container" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginBottom="8dp" android:layout_above="@+id/map" android:layout_alignParentBottom="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@+id/rcs_my_location" android:background="@drawable/rcs_map_current_location_selector" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" android:contentDescription="0x0" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/display_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+        <RelativeLayout android:id="@+id/loading_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp">
+            <ImageView android:id="@+id/loading_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <ProgressBar android:id="@+id/loading_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="15sp" android:textColor="#000000" android:id="@+id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toStartOf="@+id/loading_bar" android:layout_toEndOf="@+id/loading_image" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/neterror_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp">
+            <ImageView android:id="@+id/neterror_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_fail_neterror" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@+id/setting_network" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="8dp" android:layout_alignParentEnd="true">
+                <TextView android:textSize="13sp" android:textColor="#7f000000" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_netset_text" />
+                <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="0x2030033" android:contentDescription="0x0" android:paddingStart="4dp" />
+            </LinearLayout>
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="15sp" android:textColor="#ff5848" android:id="@+id/neterror_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_neterror_text" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_toStartOf="@+id/setting_network" android:layout_toEndOf="@+id/neterror_image" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/address_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/address_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_location_checked" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <Button android:textSize="15sp" android:id="@+id/navi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_map_navi" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?unknown_attr_ref: 2010016" />
+            <LinearLayout android:orientation="vertical" android:id="@+id/title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/navi" android:layout_toEndOf="@+id/address_image">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="15sp" android:textColor="#000000" android:id="@+id/text_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="13sp" android:textColor="#007dff" android:id="@+id/text_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:id="@id/func_desc" android:text="@string/fingerstartup_pwd_usage_tip" style="@style/fpStartupDescTipStyleTextOpt" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/fp_oobe_tip_reboot" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/fp_oobe_func_title_size" android:textColor="@color/edit_text_error_msg_color" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dot" />
+        <TextView android:textSize="@dimen/fp_oobe_func_title_size" android:textColor="@color/edit_text_error_msg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerstartup_device_reboot" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/fp_oobe_tip_three_day" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/fp_oobe_func_title_size" android:textColor="@color/edit_text_error_msg_color" android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dot" />
+        <TextView android:textSize="@dimen/fp_oobe_func_title_size" android:textColor="@color/edit_text_error_msg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerstartup_three_days_unlock" />
+    </LinearLayout>
+</LinearLayout>

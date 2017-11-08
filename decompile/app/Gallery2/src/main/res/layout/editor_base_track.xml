@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/base_root" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/seekbar_item" />
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.huawei.gallery.editor.ui.ElasticHorizontalScrollView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.gallery.editor.category.BaseViewTrack android:id="@id/listItems" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.huawei.gallery.editor.ui.ElasticHorizontalScrollView>
+        <include layout="@layout/editor_scroll_background" />
+        <include layout="@layout/editor_foot_bar" />
+    </FrameLayout>
+</LinearLayout>

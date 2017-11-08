@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false">
+    <alpha android:duration="240" android:fillBefore="false" android:fillAfter="true" android:fromAlpha="1.0" android:toAlpha="0.0" android:fillEnabled="true" />
+    <translate android:interpolator="@interpolator/cubic_bezier_interpolator_type_90_10" android:duration="240" android:fillBefore="true" android:fillAfter="true" android:fromYDelta="0.0" android:toYDelta="180.0" android:fillEnabled="true" />
+</set>

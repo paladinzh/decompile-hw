@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/people_action_bar_rcs_title" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/mms_main_text_size" android:textColor="@color/text_color_white_important" android:ellipsize="end" android:id="@+id/people_action_bar_rcs_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="210dp" android:singleLine="true" android:layout_weight="1.0" />
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/composing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginStart="2dp" android:layout_marginEnd="5dp">
+            <ImageView android:id="@+id/composing_pen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/composing_pen" />
+            <ImageView android:id="@+id/composing_paper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:src="@drawable/composing_paper" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/mms_main_text_size" android:textColor="@color/title_color_primary_dark" android:id="@+id/group_member_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="6dp" />
+    </LinearLayout>
+</LinearLayout>

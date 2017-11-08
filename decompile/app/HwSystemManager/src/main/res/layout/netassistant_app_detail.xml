@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:orientation="vertical" sm:layout_width="match_parent" sm:layout_height="match_parent">
+    <com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout sm:gravity="top|bottom|center_vertical|fill_vertical|center|fill" sm:id="@+id/sliding_layout" sm:layout_width="match_parent" sm:layout_height="match_parent" sm:shadowHeight="4dp" sm:paralaxOffset="100dp" sm:dragView="@+id/dragview" sm:showShadow="false" sm:panelMarginTop="395dp" sm:pullView="@+id/listview">
+        <LinearLayout sm:orientation="vertical" sm:id="@+id/sliding_layout_upperview" sm:layout_width="match_parent" sm:layout_height="UNKNOWN_DATA_0x7f0a00ed"
+            <LinearLayout sm:orientation="vertical" sm:id="@+id/traffic_info_view" sm:layout_width="match_parent" sm:layout_height="wrap_content">
+                <View sm:id="@+id/line_land" sm:background="@color/white" sm:visibility="gone" sm:layout_width="match_parent" sm:layout_height="UNKNOWN_DATA_0x100" sm:alpha="0.15" />
+                <huawei.android.widget.SubTabWidget sm:id="@+id/subTab_layout" sm:layout_width="match_parent" sm:layout_height="wrap_content" />
+                <com.huawei.netassistant.ui.view.NoScrollViewPager sm:id="@+id/pager" sm:layout_width="match_parent" sm:layout_height="match_parent" sm:layout_marginLeft="@dimen/net_assistant_noscrollviewpager_margindistance" sm:layout_marginRight="@dimen/net_assistant_noscrollviewpager_margindistance" />
+            </LinearLayout>
+        </LinearLayout>
+        <include sm:id="@+id/dragview_container" layout="@layout/netassistant_app_detail_more_text" />
+    </com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout>
+</LinearLayout>

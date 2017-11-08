@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.list.GroupListItemView xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:minHeight="@dimen/groups_list_item_height">
+    <View androidhwext:id="@+id/divider" androidhwext:background="?unknown_attr_ref: 1010214" androidhwext:layout_width="match_parent" androidhwext:layout_height="UNKNOWN_DATA_0x7f0d01ec" androidhwext:layout_marginEnd="?attr/list_item_padding_right" />
+    <include androidhwext:id="@+id/group_list_header" androidhwext:visibility="gone" layout="@layout/group_browse_list_account_header" />
+    <FrameLayout androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+        <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:orientation="horizontal" androidhwext:id="@+id/group_list_itme_main" androidhwext:background="?unknown_attr_ref: 101030e" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:baselineAligned="false" androidhwext:minHeight="48dp" androidhwext:paddingStart="@dimen/contacts_list_item_paddingstart" androidhwext:paddingEnd="@dimen/contacts_list_item_paddingend">
+            <RelativeLayout androidhwext:paddingTop="@dimen/contact_list_item_padding_top" androidhwext:paddingBottom="@dimen/contact_list_item_padding_bottom" androidhwext:layout_width="UNKNOWN_DATA_0x1" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0" androidhwext:layout_marginEnd="@dimen/contact_right_margin">
+                <TextView androidhwext:ellipsize="end" androidhwext:id="@+id/label" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:singleLine="true" style="@style/contact_list_item_main_text_style" />
+                <TextView androidhwext:ellipsize="end" androidhwext:id="@+id/count" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:singleLine="true" androidhwext:layout_below="@+id/label" style="@style/contact_list_item_sub_text_bottom_style" />
+            </RelativeLayout>
+            <LinearLayout androidhwext:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content">
+                <ImageView androidhwext:id="@+id/arrowhead" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:src="@drawable/btn_detail_normal" androidhwext:contentDescription="@string/btn_detail_description" />
+            </LinearLayout>
+        </LinearLayout>
+        <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+    </FrameLayout>
+    <View androidhwext:id="@+id/bottom_divider" androidhwext:background="?unknown_attr_ref: 1010214" androidhwext:layout_width="match_parent" androidhwext:layout_height="UNKNOWN_DATA_0x7f0d01ec" androidhwext:layout_marginEnd="?attr/list_item_padding_right" />
+</com.android.contacts.list.GroupListItemView>

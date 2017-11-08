@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <com.android.contacts.hap.calllog.PrimaryActionView androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/primary_action_view" androidhwext:background="?unknown_attr_ref: 101030e" androidhwext:nextFocusRight="@+id/checkbox" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+        <include androidhwext:id="@+id/call_log_list_item_time_axis_child_content" androidhwext:layout_centerVertical="true" layout="@layout/calllog_multi_select_item_time_axis_child_content" />
+        <LinearLayout androidhwext:orientation="vertical" androidhwext:id="@+id/secondary_action_icon_layout" androidhwext:visibility="gone" androidhwext:nextFocusLeft="@+id/primary_action_view" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_centerInParent="true" androidhwext:contentDescription="0x0" androidhwext:layout_toStartOf="@+id/checkbox" androidhwext:layout_alignParentEnd="true">
+            <ImageButton androidhwext:id="@+id/secondary_action_icon" androidhwext:background="0x106000d" androidhwext:focusable="false" androidhwext:focusableInTouchMode="false" androidhwext:nextFocusLeft="@+id/primary_action_view" androidhwext:clickable="false" androidhwext:layout_width="UNKNOWN_DATA_0x7f0d0216" androidhwext:layout_height="UNKNOWN_DATA_0x7f0d0217" androidhwext:scaleType="fitXY" androidhwext:layout_marginStart="@dimen/call_log_secondaryaction_icon_marigin_start" />
+        </LinearLayout>
+        <CheckBox androidhwext:id="@+id/checkbox" androidhwext:focusable="false" androidhwext:focusableInTouchMode="false" androidhwext:clickable="false" androidhwext:duplicateParentState="true" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_centerInParent="true" androidhwext:contentDescription="0x0" androidhwext:paddingStart="4dp" androidhwext:layout_alignParentEnd="true" />
+        <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+    </com.android.contacts.hap.calllog.PrimaryActionView>
+    <View androidhwext:id="@+id/call_log_divider" androidhwext:background="?unknown_attr_ref: 1010214" androidhwext:layout_width="match_parent" androidhwext:layout_height="UNKNOWN_DATA_0x7f0d01ec" />
+</LinearLayout>

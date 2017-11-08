@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/wifiap_allow_devices" android:key="devices_allow_status" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifiap_wps_connected_devices" android:key="current_connected_device" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="current_allowed_device">
+        <com.android.settings.wifi.ap.WifiApAddDevicePreference android:title="@string/wifiap_wps_add_device" android:key="add_allowed_device" android:dialogTitle="@string/wifi_ap_preference_add_allowed_device_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

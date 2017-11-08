@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" systemui:orientation="vertical" systemui:layout_width="match_parent" systemui:layout_height="wrap_content">
+    <TextView systemui:textAppearance="?unknown_attr_ref: 1010042" systemui:textColor="?unknown_attr_ref: 1010435" systemui:id="@id/charge_and_estimation" systemui:layout_width="match_parent" systemui:layout_height="wrap_content" systemui:paddingStart="72dp" />
+    <com.android.systemui.ResizingSpace systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0e0277" />
+    <com.android.settingslib.graph.UsageView systemui:id="@id/battery_usage" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x8d01" systemui:layout_marginStart="16dp" systemui:layout_marginEnd="24dp" systemui:colorAccent="?unknown_attr_ref: 1010435" systemui:sideLabels="@array/battery_labels" systemui:textColor="#66ffffff" />
+    <com.android.systemui.ResizingSpace systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0e0278" />
+    <View systemui:background="?unknown_attr_ref: 1010214" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x101" systemui:layout_marginBottom="8dp" />
+    <RelativeLayout systemui:id="@id/switch_container" systemui:background="?unknown_attr_ref: 101030e" systemui:paddingTop="16dp" systemui:paddingBottom="16dp" systemui:clickable="true" systemui:layout_width="match_parent" systemui:layout_height="wrap_content">
+        <ImageView systemui:id="0x1020006" systemui:layout_width="UNKNOWN_DATA_0x1801" systemui:layout_height="UNKNOWN_DATA_0x1801" systemui:scaleType="fitCenter" systemui:adjustViewBounds="true" systemui:layout_alignParentTop="true" systemui:layout_marginStart="16dp" systemui:layout_marginEnd="32dp" systemui:layout_alignParentStart="true" />
+        <TextView systemui:textAppearance="@style/TextAppearance.QS.DetailItemPrimary" systemui:id="0x1020016" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:text="@string/battery_detail_switch_title" systemui:layout_toStartOf="0x1020017" systemui:layout_toEndOf="0x1020006" />
+        <TextView systemui:textAppearance="@style/TextAppearance.QS.DetailItemSecondary" systemui:id="0x1020010" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:text="@string/battery_detail_switch_summary" systemui:layout_below="0x1020016" systemui:layout_toStartOf="0x1020017" systemui:layout_toEndOf="0x1020006" />
+        <Switch systemui:textAppearance="@style/TextAppearance.QS.DetailHeader" systemui:id="0x1020017" systemui:clickable="false" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_alignParentTop="true" systemui:layout_marginEnd="16dp" systemui:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

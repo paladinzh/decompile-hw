@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:key="pref_key_detail_root">
+    <PreferenceCategory androidhwext:layout="@layout/preference_category" androidhwext:title="@string/group_members" androidhwext:key="groupchat_detail_groupmember_setting">
+        <com.android.rcs.ui.RcsGroupMemberPrefrence androidhwext:key="pref_key_groupmember" androidhwext:preferenceID="@+id/groupmember" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:layout="@layout/preference_category" androidhwext:title="@string/group_settings" androidhwext:key="pref_key_group_settings">
+        <Preference androidhwext:layout="@layout/mms_preference_status" androidhwext:title="@string/pref_groupchat_rename_title" androidhwext:key="pref_key_update_group_title" androidhwext:widgetLayout="@layout/mms_preference_widget_arrow" androidhwext:preferenceID="@+id/pref_groupchat_rename" />
+        <Preference androidhwext:layout="@layout/listdivider" androidhwext:key="divider_pref_key_delivery_reports" androidhwext:preferenceID="@+id/divider_delivery_reports" />
+        <com.android.mms.ui.EmuiSwitchPreference androidhwext:title="@string/rcs_groupchat_notify_silent" androidhwext:key="pref_key_notify_silent" androidhwext:defaultValue="false" androidhwext:preferenceID="@+id/rcs_groupchat_notify_silent" />
+        <Preference androidhwext:layout="@layout/listdivider" androidhwext:key="divider_pref_key_delivery_reports" androidhwext:preferenceID="@+id/delivery_reports" />
+        <com.android.rcs.ui.RcsGroupExitPreference androidhwext:key="pref_key_exit_group" androidhwext:preferenceID="@+id/preference_exit_group" />
+    </PreferenceCategory>
+</PreferenceScreen>

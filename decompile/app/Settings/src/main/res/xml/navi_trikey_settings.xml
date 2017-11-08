@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/navigation_key_dasboard_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/enable_navbar" android:key="enable_virtual_key" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/navi_trikey_combination_title" />
+    <com.android.settings.location.RadioButtonPreference android:icon="@drawable/hard_key_type_1" android:key="physic_trikey_type_1" />
+    <com.android.settings.location.RadioButtonPreference android:icon="@drawable/hard_key_type_2" android:key="physic_trikey_type_2" />
+    <com.android.settings.location.RadioButtonPreference android:icon="@drawable/hard_key_type_3" android:key="physic_trikey_type_3" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/navi_trikey_light_title" android:key="navi_light_category" />
+    <com.android.settings.navigation.NaviLightPreference android:layout="@layout/preference_two_summay" android:title="@string/navi_trikey_light_title" android:key="navi_light_key" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/navi_light_values" />
+</PreferenceScreen>

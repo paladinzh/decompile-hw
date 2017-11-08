@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:persistent="false" android:title="@string/security_encryption_title" android:key="security_encryption_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/security_encryption" android:key="security_encryption" android:summary="@string/security_encryption_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

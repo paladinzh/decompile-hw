@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/contact_serachlayout_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00de" android:layout_alignStart="@+id/btn_status_group_parent" android:layout_alignEnd="@+id/btn_status_group_parent" />
+        <include android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_status_group_parent" android:layout_width="UNKNOWN_DATA_0x7f0d02bc" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dailpad_tab_layout_margin_top_bottom_height" android:layout_marginBottom="@dimen/dailpad_tab_layout_margin_top_bottom_height" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dailpad_tab_layout_margin_left_right_height" android:layout_marginEnd="@dimen/dailpad_tab_layout_margin_left_right_height" layout="@layout/contacts_radio_button_group" />
+    </RelativeLayout>
+</RelativeLayout>

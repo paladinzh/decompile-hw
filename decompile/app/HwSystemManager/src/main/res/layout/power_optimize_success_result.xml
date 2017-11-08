@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@+id/optimize_img_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/optimize_success_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_good_condition" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/optimize_content_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/optimize_img_layout">
+        <TextView android:textSize="@dimen/listview_item_font_size_1" android:id="@+id/optimize_success_good_condition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_optimize_good_condition" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/listview_item_font_size_2" android:textColor="@color/emui_list_secondray_text" android:ellipsize="end" android:id="@+id/optimize_success_manual_itemNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true" android:layout_below="@+id/optimize_success_good_condition" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

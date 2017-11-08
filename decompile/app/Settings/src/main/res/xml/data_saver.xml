@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_saver_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/unrestricted_data_saver" android:key="unrestricted_access" android:fragment="com.android.settings.datausage.UnrestrictedDataAccess" />
+    <com.android.settings.fuelgauge.WallOfTextPreference android:persistent="false" android:selectable="false" android:key="description" android:summary="@android:string/data_saver_description" settings:allowDividerAbove="true" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configure_notification_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/profile_section_header">
+        <com.android.settings.notification.NotificationLockscreenPreference android:title="@string/lock_screen_notifications_title" android:key="lock_screen_notifications_profile" android:summary="%s" />
+    </PreferenceCategory>
+</PreferenceScreen>

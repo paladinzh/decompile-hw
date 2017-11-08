@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--ConstValues#VALUE_DUALCARD_SETTING_BOTH = 0, VALUE_DUALCARD_SETTING_EACH = 1-->
+    <!--VALUE_BOTH_CLOSE = 0-->
+    <!--VALUE_CARD1_OPEN = 1-->
+    <!--VALUE_CARD2_OPEN = 2-->
+    <!--VALUE_BOTH_OPEN = 3-->
+
+    <!--Message rules -->
+    <item name="interception_msg_rules_sim" value="0"/>
+    <item name="interception_msg_rules_block_intelligent" value="3"/>
+    <item name="interception_msg_rules_block_blacklist" value="3"/>
+    <item name="interception_msg_rules_block_stranger" value="0"/>
+    <item name="interception_msg_rules_block_all"  value="0"/>
+
+    <!--Call rules -->
+    <item name="interception_call_rules_sim" value="0"/>
+    <item name="interception_call_rules_block_intelligent" value="0"/>
+    <item name="interception_call_rules_block_blacklist" value="3"/>
+    <item name="interception_call_rules_block_stranger" value="0"/>
+    <item name="interception_call_rules_block_unknown" value="0"/>
+    <item name="interception_call_rules_block_all" value="0"/>
+
+    <!--Call intelligent rules -->
+    <item name="intelligent_call_rules_scam" value="3"/>
+    <item name="intelligent_call_rules_harassment" value="3"/>
+    <item name="intelligent_call_rules_advertise" value="0"/>
+    <item name="intelligent_call_rules_estate" value="0"/>
+    <item name="intelligent_call_rules_suggestvalue" value="50"/>
+</resources>

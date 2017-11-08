@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" ratio:layout_width="match_parent" ratio:layout_height="match_parent">
+    <com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeCustomLayout ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:width_weight="16" ratio:height_weight="9" ratio:height_offset="46dp">
+        <ViewStub ratio:id="@+id/power_checkall_time_result" ratio:layout="@layout/power_wholecheck_result" ratio:layout_width="match_parent" ratio:layout_height="match_parent" />
+    </com.huawei.systemmanager.power.batteryoptimize.PowerOptimizeCustomLayout>
+</RelativeLayout>

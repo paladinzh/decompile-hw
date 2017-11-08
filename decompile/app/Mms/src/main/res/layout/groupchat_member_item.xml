@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/member_item" android:background="@drawable/background_transparent" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x6d01" android:minHeight="109dp">
+    <QuickContactBadge android:id="@+id/head_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <ImageView android:id="@+id/rcs_longin_status" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="11sp" android:textColor="#4c000000" android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <ImageView android:id="@+id/rcs_longin_status" android:paddingLeft="2dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rcs_core_notif_outline_icon" />
+    </LinearLayout>
+</LinearLayout>

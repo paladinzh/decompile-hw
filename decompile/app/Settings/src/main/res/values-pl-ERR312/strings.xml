@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Połączono przez asystenta WLAN</string>
+    <string name="accessibility_wifi_off">WLAN wyłączone.</string>
+    <string name="accessibility_no_wifi">WLAN odłączone.</string>
+    <string name="accessibility_wifi_one_bar">WLAN jeden pasek.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dwa paski.</string>
+    <string name="accessibility_wifi_three_bars">WLAN trzy paski.</string>
+    <string name="accessibility_wifi_signal_full">Sieć WLAN: pełna moc sygnału.</string>
+    <string name="wifi_verbose_logging">Włącz rozbudowane zapisy w rejestrze WLAN</string>
+    <string name="wifi_aggressive_handover">Agresywne przełączanie z WLAN do sieci komórkowej</string>
+    <string name="wifi_allow_scan_with_traffic">Zawsze zezwalaj na skanowanie roamingowe WLAN</string>
+    <string name="wifi_verbose_logging_summary">Podnieś poziom zapisów w rejestrze WLAN i wyświetlaj RSSI SSID na liście wyboru WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Po włączeniu tej opcji transmisja danych będzie częściej przekazywana do sieci komórkowej w przypadku słabego sygnału WLAN</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Zezwalaj lub nie zezwalaj na skanowanie roamingowe WLAN zależnie od natężenia transmisji danych</string>
+    <string name="mobile_data_always_on_summary">Zawsze utrzymuj aktywną komórkową transmisję danych, nawet po połączeniu z siecią WLAN (w celu szybkiego przełączania sieci)</string>
+    <string name="radio_controls_summary">Zarządzaj połączeniami WLAN i Bluetooth, trybem samolotowym, sieciami komórkowymi i VPN.</string>
+    <string name="wifi_assistant_title">Asystent WLAN</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Włącz WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Ustawienia WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Wybierz WLAN</string>
+    <string name="wifi_select_network">Wybierz sieć WLAN</string>
+    <string name="wifi_starting">Włączanie obsługi WLAN...</string>
+    <string name="wifi_stopping">Wyłączanie WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Nie łącz z siecią WLAN, chyba że ma dobrą łączność z Internetem</string>
+    <string name="wifi_automatically_connect_title">Automatycznie używaj otwartych sieci WLAN</string>
+    <string name="wifi_automatically_connect_summary">Zezwalaj asystentowi WLAN na automatyczne łączenie z otwartymi sieciami o dobrych parametrach połączenia z Internetem</string>
+    <string name="wifi_scan_notify_text">Aby poprawić dokładność lokalizacji, aplikacje i usługi systemowe mogą nadal szukać sieci WLAN. Opcje te można zmienić w LINK_BEGINustawieniach skanowaniaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Nie wyłączaj WLAN w trybie uśpienia.</string>
+    <string name="wifi_suspend_optimizations">Optymalizacja WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimalizuj zużycie baterii po włączeniu WLAN</string>
+    <string name="wifi_access_points">Sieci WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Aby zobaczyć dostępne sieci, włącz obsługę WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Wyszukuję sieci WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">Nie możesz zmieniać sieci WLAN.</string>
+    <string name="wifi_wps_setup_title">Konfiguracja zabezpieczonej sieci WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Naciśnij przycisk konfiguracji zabezpieczonej sieci WLAN na routerze. Może on mieć nazwę „WPS” lub ten symbol:</string>
+    <string name="wifi_wps_onstart_pin">Wpisz PIN %1$s na routerze WLAN. Konfiguracja może potrwać do dwóch minut.</string>
+    <string name="wifi_wps_connected">Połączono z siecią WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"W celu zwiększenia precyzji lokalizacji i dla innych celów, %1$s chce włączyć wyszukiwanie sieci, nawet przy wył. WLAN.
+
+Zezwolić na to wszystkim żądającym tego aplikacjom?"</string>
+    <string name="wifi_skipped_message">"OSTRZEŻENIE: Transmisja danych przez sieć komórkową może się wiązać z naliczaniem dodatkowych opłat przez operatora.
+
+Konfigurowanie telefonu może wymagać przesłania dużej ilości danych."</string>
+    <string name="wifi_and_mobile_skipped_message">OSTRZEŻENIE: telefon nie będzie mógł sprawdzić, czy oprogramowanie jest aktualne.</string>
+    <string name="wifi_connect_failed_message">Telefon nie może nawiązać połączenia z tą siecią WLAN.</string>
+    <string name="wifi_advanced_titlebar">Zaawansowane ustawienia WLAN</string>
+    <string name="wifi_configure_titlebar">Skonfiguruj WLAN</string>
+    <string name="wifi_advanced_not_available">Zaawansowane ustawienia WLAN są niedostępne dla tego użytkownika</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Przenośny punkt WLAN</string>
+    <string name="wifi_tether_failed_subtext">Błąd przenośnego punktu dostępu WLAN</string>
+    <string name="wifi_tether_configure_ap_text">Skonfiguruj punkt WLAN</string>
+    <string name="wifi_tether_configure_subtext">Przenośny punkt WLAN %1$s %2$s</string>
+    <string name="wifi_calling_settings_title">Ustawienia rozmów przez WLAN</string>
+    <string name="wifi_calling_suggestion_title">Włącz funkcję połączeń przez WLAN</string>
+    <string name="wifi_calling_suggestion_summary">Używaj WLAN zamiast sieci komórkowej</string>
+    <string name="wifi_calling_mode_title">Rozmowy przez WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Tryb dzwonienia przez WLAN</string>
+    <string name="wifi_calling_off_explanation">Gdy połączenia przez WLAN są włączone, telefon może przekazywać połączenia przez sieci WLAN lub sieć operatora (w zależności od ustawień i tego, który sygnał jest w danej chwili silniejszy). Przed włączeniem tej funkcji sprawdź koszt jej obsługi przez operatora.</string>
+    <string name="status_wifi_mac_address">Adres MAC karty WLAN</string>
+    <string name="reset_network_desc">"To spowoduje wyzerowanie wszystkich ustawień sieciowych, jak:
+
+"<li>WLAN</li>"
+"<li>Komórkowa transmisja danych</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Zmienić asystenta WLAN?</string>
+    <string name="location_mode_high_accuracy_description">"Określaj położenie za pomocą GPS, WLAN i sieci komórkowych "</string>
+    <string name="location_mode_battery_saving_description">Używaj WLAN i sieci komórkowych do szacowania położenia</string>
+    <string name="location_scanning_wifi_always_scanning_title">Skanowanie WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Ulepsz usługę lokalizacyjną, zezwalając aplikacjom i usługom systemowym na wykrywanie sieci WLAN przez cały czas</string>
+    <string name="location_network_based">Lokalizacja: sieć WLAN i komórkowa</string>
+    <string name="location_neighborhood_level">Zezwól aplikacjom na używanie danych (np. z sieci WLAN lub komórkowych) do określania przybliżonej lokalizacji</string>
+    <string name="location_neighborhood_level_wifi">Lokalizacja określona na podstawie sieci WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN na czas</string>
+    <string name="bluetooth_on_time">WLAN na czas</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Działanie WLAN</string>
+    <string name="usage_type_data_wifi_send">Dane wysłane przez WLAN</string>
+    <string name="usage_type_data_wifi_recv">Dane otrzymane przez WLAN</string>
+    <string name="battery_action_wifi">Ustawienia WLAN</string>
+    <string name="battery_desc_wifi">Użycie baterii przez WLAN</string>
+    <string name="battery_sugg_wifi">Wyłącz WLAN, gdy sieć nie jest używana lub jest niedostępna.</string>
+    <string name="gadget_toggle_wifi">Aktualizowanie ustawień WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Utwórz kopię zapasową danych aplikacji, haseł WLAN oraz innych ustawień z serwerów Google.</string>
+    <string name="backup_erase_dialog_message">Zatrzymać tworzenie kopii zapasowych haseł sieci WLAN, zakładek, innych ustawień oraz danych aplikacji, a także usunąć wszystkie kopie z serwerów Google?</string>
+    <string name="fullbackup_erase_dialog_message">Zaprzestać tworzenia kopii zapasowych danych z urządzenia (jak hasła do WLAN i historia połączeń) i danych z aplikacji (jak ustawienia i pliki zapisane przez aplikacje) i usunąć wszystkie kopie z Dysku Google?</string>
+    <string name="fullbackup_data_summary">"Automatycznie twórz zdalną kopię zapasową danych urządzenia (np. haseł WLAN i historii połączeń) oraz danych aplikacji (np. ustawień i plików zapisanych przez aplikacje).
+
+Kiedy włączysz automatyczną kopię zapasową, dane urządzenia i aplikacji będą regularnie zapisywane zdalnie. Dane aplikacji mogą obejmować dowolne informacje zapisane przez aplikację (w zależności od ustawień określonych przez programistę) – w tym potencjalnie poufne dane takie jak kontakty, wiadomości i zdjęcia."</string>
+    <string name="wifi_setup_title">Konfiguracja sieci WLAN</string>
+    <string name="wifi_setup_title_editing_network">Połącz z siecią WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Łączenie z siecią WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">Ustawień połączenia WLAN z zabezpieczeniami EAP nie można określić podczas konfiguracji. Możesz to zrobić później na ekranie Ustawienia > Sieci bezprzewodowe.</string>
+    <string name="wifi_setup_description_connected">Dotknij opcji <b>Dalej</b>", aby kontynuować konfigurację.
+
+Wybierz "<b>Wróć</b>, aby połączyć się z inną siecią WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Pokaż użycie WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Ukryj WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Ustaw limit trans. danych WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Wyłącz dane w tle dla sieci komórkowej (nadal używaj dla WLAN).</string>
+    <string name="data_usage_app_restrict_dialog">"Ta funkcja może zakłócić działanie aplikacji korzystających z przesyłania danych w tle, jeśli sieć WLAN będzie niedostępna.
+
+Szczegółowe ustawienia przesyłania danych są zazwyczaj dostępne bezpośrednio w aplikacji."</string>
+    <string name="data_usage_restrict_background">Jeśli ograniczysz transmisję danych w tle, niektóre aplikacje i usługi będą działać tylko po nawiązaniu połączenia z siecią WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Jeśli ograniczysz komórkową transmisję danych w tle, niektóre aplikacje i usługi będą działały wyłącznie po połączeniu z siecią WLAN.
+
+To ustawienie obowiązuje wszystkich użytkowników tego telefonu."</string>
+    <string name="data_usage_metered_body">Wybierz sieci WLAN, które są komórkowymi punktami dostępu. Może być włączone ograniczenie uniemożliwiające używanie tych sieci przez aplikacje działające w tle. Aplikacje mogą też ostrzegać, zanim użyją tych sieci do pobrania dużych ilości danych.</string>
+    <string name="data_usage_metered_wifi">Sieci WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Aby wybrać hotspoty komórkowe, włącz WLAN.</string>
+    <string name="user_add_user_message_long">"Możesz użytkować to urządzenie wspólnie z innymi osobami, tworząc dodatkowych użytkowników. Każdy użytkownik ma swoje własne miejsce, które może spersonalizować własnymi aplikacjami, tapetą itd. Użytkownicy mogą także zmieniać ustawienia tabletu, które dotyczą wszystkich, np. WLAN.
+
+Po utworzeniu nowego użytkownika musi on przejść przez proces konfiguracji.
+
+Każdy użytkownik może akceptować zaktualizowane uprawnienia aplikacji w imieniu wszystkich pozostałych użytkowników."</string>
+    <string name="restriction_wifi_config_title">WLAN i kom. transmisja danych</string>
+    <string name="restriction_wifi_config_summary">Zezwalaj na modyfikowanie ustawień WLAN i sieci komórkowych</string>
+    <string name="keywords_wifi">WLAN połączenie internet</string>
+    <string name="keywords_wifi_calling">WLAN WLAN rozmowy połączenia</string>
+    <string name="setup_wifi_nfc_tag">Skonfiguruj plakietkę NFC dla WLAN</string>
+    <string name="condition_hotspot_summary">Przenośny hotspot WLAN %1$s jest aktywny. WLAN na tym urządzeniu jest wyłączone.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth i sieci komórkowe są wyłączone. Nie można dzwonić ani łączyć się z Internetem.</string>
+    <string name="condition_cellular_summary">Internet jest dostępny tylko przez WLAN</string>
+    <string name="condition_bg_data_summary">Przesyłanie danych w tle działa tylko wtedy, gdy masz połączenie z WLAN. Może to mieć wpływ na niektóre aplikacje i usługi, gdy sieć WLAN jest niedostępna.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">Most WLAN</string>
+    <string name="wifi_tether_bridge_tittle_text">Ustawienia mostu WLAN</string>
+    <string name="wifi_tether_configure_bridge_text">Konfiguruj most WLAN</string>
+    <string name="wifi_bridge_settings_summary">Określ nazwę mostu, hasło i inne parametry</string>
+    <string name="wifi_bridge_use_help_title">Pomoc</string>
+    <string name="wifi_bridge_use_help_details">"1. Most WLAN potrafi znacznie zwiększyć zasięg i moc sygnału WLAN. Za jego pośrednictwem można podłączyć do obecnej sieci WLAN inne urządzenia.
+2. Most WLAN może obsługiwać do 4 urządzeń.
+3. Most WLAN nie może być używany równocześnie z funkcjami hotspotu WLAN i WLAN Direct. W przypadku włączenia mostu WLAN niektóre aplikacje korzystające z usług P2P mogą nie działać prawidłowo.
+4. Most WLAN powoduje przyspieszone zużywanie baterii."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">Wymagane połączenie z WLAN</string>
+    <string name="wifi_bridge_switch_wifi_summary">Udostępnij przyłączoną sieć WLAN</string>
+    <string name="wifi_setup_title_connected_network_Toast">Połączono z siecią WLAN %s</string>
+    <string name="huawei_beam_explained">Funkcja Huawei Beam pozwala przesyłać pliki, jak zdjęcia, filmy, kontakty i adresy URL między tym urządzeniem a innym urządzeniem obsługującym NFC. Aby włączyć funkcję Huawei Beam, wystarczy ustawić dwa urządzenia przy sobie (zazwyczaj zwrócone do siebie tyłami obudowy) i dotknąć ekranu. Należy pamiętać, że przed przesłaniem plików może nastąpić automatyczne włączenie funkcji Bluetooth lub WLAN.</string>
+    <string name="wifi_display_settings_summary">Wyświetl zawartość ekranu Twojego telefonu na innym wyświetlaczu przez połączenie WLAN</string>
+    <string name="cell_switch_to_wifi_prompt">Dostępna jest sieć WLAN %s. Czy chcesz zatrzymać transmisję komórkową i połączyć z siecią WLAN?</string>
+    <string name="switch_to_wifi_manual_prompt">Wykryto sygnał WLAN, czy chcesz korzystać z tej sieci WLAN?</string>
+    <string name="switch_to_wifi_query_prompt">Dostępna jest sieć WLAN %s. Czy chcesz połączyć z siecią WLAN?</string>
+    <string name="wifi_to_wifi_prompt">Obecna sieć ma słaby sygnał, czy chcesz użyć innej sieci WLAN?</string>
+    <string name="advanced_wifi_settings_title">Ustawienia zaawansowane</string>
+    <string name="huawei_beam_front_explained">"Funkcja Huawei Beam umożliwia przesyłanie plików do innych urządzeń z obsługą NFC. Wystarczy w tym celu zetknąć oba urządzenia. Na przykład za pomocą NFC można przesyłać bezprzewodowo zdjęcia, filmy, kontakty, adresy URL i inne dane. Sposób postępowania:
+1. Ustaw przedni panel urządzenia przy drugim urządzeniu NFC i podnieś urządzenie, gdy usłyszysz sygnał.
+2. Dotknij ekranu w ciągu trzech sekund od usłyszenia sygnału.
+3. Ponownie umieść przedni panel urządzenia naprzeciwko drugiego urządzenia NFC, aby dokonać transferu danych. Należy pamiętać, że przed przesłaniem plików może nastąpić automatyczne włączenie funkcji Bluetooth lub WLAN."</string>
+    <string name="wifiap_use_help_details">"1. Przenośne urządzenie WLAN może służyć jako punkt udostępniający połączenie internetowe (hotspot). Za pośrednictwem sieci WLAN można podłączać urządzenia peryferyjne, które będą korzystały z Internetu przez sieć komórkową.
+2. Punkt dostępu WLAN może działać tylko pod warunkiem, że włączona jest komórkowa transmisja danych i spowoduje zużycie części limitu transmisji danych.
+3. Włączenie punktu dostępu WLAN powoduje szybsze wyczerpywanie baterii."</string>
+    <string name="wifiap_connect_help_details_open">"Połączenie ręczne:
+1. Włącz funkcję WLAN w urządzeniu docelowym i znajdź punkt dostępu %1$s.
+2. Podłącz do punktu dostępu."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Połączono z siecią WLAN China Mobile. Korzystanie z tej sieci może powodować naliczanie opłat.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Powiadomienie o WLAN China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Powiadom o połączeniu z siecią WLAN China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Nie wyświetlaj żadnych powiadomień przy przełączaniu sieci (z komórkowej na WLAN i na odwrót lub między sieciami WLAN)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Używaj GPS i WLAN do ustalania lokalizacji</string>
+    <string name="location_mode_battery_saving_description_wifionly">Używaj WLAN do ustalania lokalizacji</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Inteligentnie wybierz sieć WLAN lub komórkową</string>
+    <string name="wifi_plus_description">"Kiedy funkcja WLAN+ jest włączona, parametry sieci WLAN będą monitorowane w celu inteligentnego przełączania sieci (transmisja danych w WLAN może się nasilić). WLAN+ automatycznie:
+1. Pozwala przełączać między siecią WLAN a siecią komórkową (z powiadomieniami), zapewniając wysoki komfort korzystania z Internetu.
+2. Gdy w zasięgu znajdzie się znana sieć WLAN, nastąpi włączenie funkcji WLAN i podłączenie do sieci."</string>
+    <string name="wifi_plus_settings_title">Ustawienia WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Inteligentne przełączanie między sieciami WLAN i komórkowymi poprawia komfort korzystania z Internetu.</string>
+    <string name="wifi_plus_auto_turn_on_description">Automatycznie włączaj WLAN w pobliżu znanych lokalizacji.</string>
+    <string name="wifi_plus_global_description">"Kiedy funkcja WLAN+ jest włączona, łączność z WLAN będzie przez cały czas monitorowana na potrzeby inteligentnego przełączania sieci (może to spowodować wzrost transmisji danych w sieciach WLAN). Funkcja WLAN+ automatycznie wykonuje następujące operacje:
+1. Przełącza między sieciami WLAN i komórkowymi, poprawiając komfort korzystania z Internetu.
+2. Włącza komunikację WLAN, gdy w zasięgu pojawia się znana sieć WLAN oraz nawiązuje połączenie z tą siecią."</string>
+    <string name="location_mode_high_accuracy_title_emui">Używaj GPS, WLAN i sieci komórkowych</string>
+    <string name="location_mode_battery_saving_title_emui">Używaj WLAN i sieci komórkowych</string>
+    <string name="pgps_switch_summary">Zezwalaj funkcji GPS na dokładniejsze określanie lokalizacji za pomocą okolicznych stacji bazowych i sieci WLAN</string>
+    <string name="find_no_wlan_ap">Nie można znaleźć punktu dostępu WLAN</string>
+    <string name="cannot_connect_wlan">Nie można połączyć z WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Brak dostępu do Internetu przez WLAN</string>
+    <string name="wfd_connect_fail">Nie połączono z WLAN Direct</string>
+    <string name="find_no_wfd_device">Nie można znaleźć urządzenia WLAN Direct</string>
+    <string name="wfd_search_no_devices_causes">"Nie znaleziono urządzeń. Możliwe przyczyny:
+1. Urządzenie do powiązania jest niewidoczne dla innych.
+2. Urządzenie do powiązania ma problemy techniczne. Spróbuj zrestartować WLAN i ponownie uruchomić funkcję WLAN Direct.
+3. Twoje urządzenie ma problemy techniczne. Spróbuj zrestartować WLAN i ponownie uruchomić funkcję WLAN Direct."</string>
+    <string name="wfd_connected_failed_causes">"Nie można nawiązać połączenia. Możliwe przyczyny:
+1. Urządzenie do powiązania nie akceptuje połączenia.
+2. Jedno z urządzeń już wcześniej ustanowiło inne połączenie WLAN Direct.
+3. Urządzenie do powiązania ma problemy techniczne. Spróbuj je zrestartować."</string>
+    <string name="wifi_qrcode_share_notice">Przeskanuj kod QR, by połączyć się z tą siecią WLAN</string>
+    <string name="devices_not_found_solution_title">Jeśli nie udaje się odnaleźć urządzenia, wypróbuj następujące rozwiązania:</string>
+    <string name="devices_not_found_solution_message">"1. Upewnij się, że urządzenie wyszukuje inne urządzenia.
+2. Jeśli drugie urządzenie nie działa prawidłowo, uruchom ponownie funkcję WLAN i włącz WLAN Direct.
+3. Jeśli Twoje urządzenie nie działa prawidłowo, uruchom ponownie funkcję WLAN i włącz WLAN Direct."</string>
+    <string name="devices_not_connected_solution_message">"1. Upewnij się, że drugie urządzenie przyjęło żądanie połączenia.
+2. Upewnij się, że żadne z urządzeń nie jest równolegle połączone z innymi, dodatkowymi urządzeniami.
+3. Jeśli drugie urządzenie nie działa prawidłowo, spróbuj ponowić połączenie."</string>
+    <string name="wifi_plus_description_emui">"Kiedy funkcja WLAN+ jest włączona, łączność z WLAN będzie przez cały czas monitorowana na potrzeby inteligentnego przełączania sieci (może to spowodować wzrost transmisji danych w sieci WLAN). Funkcja WLAN+ automatycznie wykonuje następujące operacje:
+1. Przełącza między WLAN a komórkową transmisją danych (możesz wybrać domyślny tryb przełączania w ustawieniach sieci komórkowej), aby zapewnić ciągłe połączenie z Internetem. 
+2. Włącza komunikację WLAN, gdy w zasięgu pojawia się znana sieć WLAN, oraz nawiązuje połączenie z tą siecią."</string>
+    <string name="link_plus_live_update_description">Jeśli włączona jest aktualizacja Link+ na bieżąco, telefon automatycznie aktualizuje dane parametrów komunikacyjnych przez sieć bezprzewodową (domyślnie przez WLAN) w celu podniesienia jakości odpowiednich funkcji Link+.</string>
+    <string name="wifi_plus_description_emui2">"Kiedy funkcja WLAN+ jest włączona, łączność z WLAN będzie przez cały czas monitorowana na potrzeby inteligentnego przełączania sieci (może to spowodować wzrost transmisji danych przez WLAN). Funkcja WLAN+ automatycznie wykonuje następujące operacje:
+1. Przełącza między WLAN a komórkową transmisją danych (możesz wybrać domyślny tryb przełączania w ustawieniach sieci komórkowej), aby zapewnić ciągłe połączenie z Internetem. 
+2. Włącza komunikację WLAN, gdy w zasięgu pojawia się znana sieć WLAN, oraz nawiązuje połączenie z tą siecią.
+3. Ocenia dostępne sieci WLAN. Przy łączeniu będą pomijane znane sieci, które są pozbawione dostępu do Internetu.
+4. W przypadku niektórych bezpłatnych hotspotów WLAN odczytywany jest kod weryfikacyjny z odebranej wiadomości SMS w celu zalogowania za pośrednictwem przeglądarki internetowej (obecnie funkcja dostępna tylko w Chinach)."</string>
+    <string name="wifi_plus_global_description2">"Kiedy funkcja WLAN+ jest włączona, łączność z WLAN będzie przez cały czas monitorowana na potrzeby inteligentnego przełączania sieci (może to spowodować wzrost transmisji danych przez WLAN). Funkcja WLAN+ automatycznie wykonuje następujące operacje:
+1. Przełącza między sieciami WLAN i komórkowymi, poprawiając komfort korzystania z Internetu.
+2. Włącza komunikację WLAN, gdy w zasięgu pojawia się znana sieć WLAN, oraz nawiązuje połączenie z tą siecią.
+3. Ocenia dostępne sieci WLAN. Przy łączeniu będą pomijane znane sieci, które są pozbawione dostępu do Internetu."</string>
+    <string name="help_message">"1. Drukarka i telefon nie są podłączone do tej samej sieci WLAN.
+2. Twoja drukarka nie obsługuje tej usługi (upewnij się na stronie producenta).
+3. Upłynął limit czasu wyszukiwania. W takim przypadku spróbuj ponownie.
+4. Drukarka zawiesiła się. Uruchom ponownie drukarkę i spróbuj jeszcze raz."</string>
+    <string name="wifi_cloud_security_check_title">Test zabezpieczeń WLAN</string>
+    <string name="wifi_cloud_security_check_summary">Sprawdzaj poziom zabezpieczeń podłączonych sieci WLAN przez Menedżera telefonu i wstrzymuj automatyczne łączenie z zapisanymi sieciami, które stwarzają zagrożenia</string>
+    <string name="wifi_plus_description_emui3">"Kiedy funkcja WLAN+ jest włączona, łączność z WLAN będzie stale monitorowana na potrzeby inteligentnego przełączania sieci, a parametry optymalizacji będą automatycznie aktualizowane przez WLAN (może to spowodować wzrost transmisji danych w sieciach WLAN). Funkcja WLAN+ automatycznie wykonuje następujące operacje:
+1. Pozwala przełączać między siecią WLAN a siecią komórkową (domyślny tryb przełączania można wybrać w ustawieniach sieci komórkowej), zapewniając wysoki komfort korzystania z Internetu.
+2. Włącza komunikację WLAN, gdy w zasięgu pojawia się znana sieć WLAN oraz nawiązuje połączenie z tą siecią.
+3. Ocenia jakość dostępnych sieci WLAN. W przypadku zapisanych sieci pozbawionych dostępu do Internetu automatyczne łączenie jest wstrzymywane.
+4. W przypadku niektórych bezpłatnych hotspotów WLAN usługa WLAN+ automatycznie wykrywa i odczytuje kod weryfikacyjny z otrzymanej wiadomości SMS i wykona logowanie w sieci przez przeglądarkę (obecnie funkcja dostępna tylko w Chinach)."</string>
+    <string name="user_add_user_message">"Możesz utworzyć konta innych użytkowników, by łatwiej udostępniać telefon innym osobom. Każdy użytkownik będzie mieć własną pamięć i indywidualne preferencje dotyczące aplikacji, tapety i innych ustawień. Użytkownicy mogą też zmieniać ustawienia typu WLAN, mające wpływ na każdego.
+
+Po dodaniu nowego konta użytkownik musi skonfigurować swoje preferencje.
+
+Każdy użytkownik może modyfikować aplikacje dla innych użytkowników."</string>
+    <string name="print_user_warning">Po włączeniu usługi drukowania urządzenie wyszuka pobliskie drukarki w sieci WLAN, co wiąże się z przesyłaniem danych w sieci WLAN.</string>
+    <string name="wifi_calling_settings_title_emui">Rozmowy przez WLAN</string>
+    <string name="wifi_calling_dialog_title">Wł. rozm. WLAN</string>
+    <string name="wifi_calling_dialog_message">Gdy opcja jest włączona, nie można wykonywać połączeń alarmowych przez WLAN. Włączyć?</string>
+    <string name="device_name_settings_summary">Nazwa będzie widoczna dla innych urządzeń podczas korzystania z funkcji Bluetooth, WLAN Direct, tetheringu i przenośnego hotspotu.</string>
+    <string name="device_name_settings_dialog">Zmiana nazwy urządzenia spowoduje rozłączenie połączenia z bieżącym hotspotem WLAN. Zmienić?</string>
+    <string name="write_wifi_nfc_tag">Zap. do NFC WLAN</string>
+    <string name="wifi_plus_smart_switch_title">Inteligentne przeł. między WLAN a transmisją komórkową</string>
+    <string name="wifi_plus_smart_switch_summary">Oceń połączenie z siecią WLAN i przełączaj między sieciami WLAN (może to zwiększyć transmisję danych w sieciach WLAN) a komórkową transmisją danych, aby wybrać najlepsze połączenie sieciowe. Domyślny tryb przełączania konfigurowany jest w ustawieniach sieci komórkowej</string>
+    <string name="wifi_plus_smart_switch_summary_global">Oceń połączenie z siecią WLAN i przełączaj między sieciami WLAN (może to zwiększyć transmisję danych w sieciach WLAN) a komórkową transmisją danych, aby wybrać najlepsze połączenie sieciowe</string>
+    <string name="wifi_plus_auto_turn_title">Włącz/wyłącz WLAN automatycznie</string>
+    <string name="wifi_plus_auto_turn_summary">Włącza WLAN, gdy telefon znajduje się w zasięgu znanej sieć WLAN i nawiązuje z nią połączenie</string>
+    <string name="wifi_plus_quality_evaluation_title">Oceń dostępne sieci WLAN</string>
+    <string name="wifi_plus_quality_evaluation_summary">Oceń dostępne sieci WLAN. Funkcja automatycznego łączenia jest wstrzymana dla zapisanych sieci bez dostępu do Internetu</string>
+    <string name="wifi_plus_fast_connect_title">Zoptymalizuj komfort logowania do darmowych hotspotów WLAN</string>
+    <string name="wifi_plus_fast_connect_summary">W przypadku niektórych bezpłatnych hotspotów WLAN usługa WLAN+ automatycznie wykrywa i odczytuje kod weryfikacyjny z otrzymanej wiadomości SMS i loguje się do sieci przez przeglądarkę (obecnie funkcja dostępna tylko w Chinach kontynentalnych)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Jeśli włączona jest aktualizacja Link+ na bieżąco, telefon automatycznie aktualizuje dane parametrów komunikacyjnych przez sieć bezprzewodową (domyślnie przez WLAN) w celu podniesienia jakości odpowiednich funkcji komunikacyjnych.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Komórkowa transmisja danych</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Użyj GPS i WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Użyj WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. Most WLAN potrafi znacznie zwiększyć zasięg i moc sygnału WLAN. Za jego pośrednictwem można podłączyć do obecnej sieci WLAN inne urządzenia.
+2. Most WLAN może obsługiwać do 4 urządzeń.
+3. Most WLAN nie może być używany równocześnie z funkcjami hotspotu WLAN i WLAN Direct. Jeśli most WLAN jest włączony, niektóre aplikacje używające usług P2P mogą nie działać prawidłowo.
+4. Korzystanie z funkcji mostu WLAN powoduje przyspieszone zużywanie baterii.
+5. Jeśli pojawi się komunikat informujący o wykorzystywaniu zasobów WLAN przez inną usługę, przejdź na ekran Ustawienia > WLAN > WLAN Direct i odłącz wszystkie podłączone urządzenia. Można też wyłączyć i ponownie włączyć WLAN, aby automatycznie rozłączyć wszystkie urządzenia."</string>
+    <string name="wifi_qrcode_share_notice_new">Skanuj, aby połączyć z tą siecią WLAN</string>
+    <string name="location_help_scheme_body_one">"1. Upewnij się, czy opcja Dostęp do mojej lokalizacji jest włączona.
+2. W menu Tryb lokalizacji wybierz opcję Używaj GPS, WLAN i sieci komórkowych.
+3. Połącz z hotspotem WLAN lub włącz komórkową transmisję danych.
+4. Upewnij się, czy aplikacja, z której korzystasz ma odstęp do uprawnienia Lokalizacja. Możesz to sprawdzić wybierając kolejno Menedżer telefonu > Menedżer uprawnień > Dostęp do danych lokalizacji.
+5. Jeżeli w menu Tryb lokalizacji wybrana jest opcja Używaj tylko GPS, upewnij się, czy w czasie odczytywania lokalizacji znajdujesz się na otwartej przestrzeni, gdzie odbiór sygnału GPS nie jest ograniczony.
+6. W przypadku połączenia z publicznym hotspotem, rozłącz połączenie WLAN i włącz komórkową transmisję danych, a następnie ponów próbę odczytu lokalizacji."</string>
+    <string name="location_help_scheme_body_two">"1. W menu Tryb lokalizacji wybierz opcję Używaj GPS, WLAN i sieci komórkowych, aby uzyskać dokładniejszą lokalizację.
+2. Jeżeli telefon znajduje się w metalowym etui, wyjmij go lub przełóż do etui wykonanego z materiałów niemetalicznych i spróbuj ponownie.
+3. Upewnij się, czy aplikacja, z której korzystasz ma odstęp do uprawnienia Lokalizacja. Możesz to sprawdzić wybierając kolejno Menedżer telefonu > Menedżer uprawnień > Dostęp do danych lokalizacji.
+4. Nawigacja działa lepiej na otwartej przestrzeni. Umieść telefon w pobliżu przedniej szyby samochodu, na przykład na desce rozdzielczej lub w innym miejscu, gdzie ma dostęp do „otwartego nieba”."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. Most WLAN znacznie zwiększa zasięg i moc sygnału WLAN. Za jego pośrednictwem można podłączyć do obecnej sieci WLAN inne urządzenia.
+%2$d. Most WLAN obsługuje do %6$d urządzeń.
+%3$d. Most WLAN nie może być używany równocześnie z funkcjami hotspotu WLAN i WLAN Direct. Jeśli most WLAN jest włączony, niektóre aplikacje używające usług P2P mogą nie działać prawidłowo.
+%4$d. Korzystanie z funkcji mostu WLAN powoduje przyspieszone zużywanie baterii.
+%5$d. Jeśli pojawi się komunikat informujący o wykorzystywaniu zasobów WLAN przez inną usługę, przejdź na ekran Ustawienia > WLAN > WLAN Direct i odłącz wszystkie podłączone urządzenia. Można też wyłączyć i ponownie włączyć WLAN, aby automatycznie rozłączyć wszystkie urządzenia."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Przenośny punkt WLAN może służyć jako punkt dostępu do Internetu. Urządzenia peryferyjne można podłączyć do urządzenia przez WLAN. Podłączone urządzenia będą miały dostęp do Internetu przez sieć komórkową.
+%2$d. Aby korzystać z przenośnego punktu WLAN, należy włączyć komórkową transmisję danych. Spowoduje to zużycie części limitu transmisji danych.
+%3$d. Korzystanie z przenośnego punktu WLAN może prowadzić do szybszego rozładowania baterii."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Połączenie ręczne:
+%2$d. Włącz funkcję WLAN w urządzeniu docelowym i znajdź punkt dostępu %1$s.
+%3$d. Połącz z punktem dostępu."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Upewnij się, czy opcja Dostęp do mojej lokalizacji jest włączona.
+%2$d. W menu Tryb lokalizacji wybierz opcję Używaj GPS, WLAN i sieci komórkowych.
+%3$d. Połącz z hotspotem WLAN lub włącz komórkową transmisję danych.
+%4$d. Upewnij się, czy aplikacja, z której korzystasz ma odstęp do uprawnienia Lokalizacja. Możesz to sprawdzić wybierając kolejno Menedżer telefonu > Menedżer uprawnień > Dostęp do danych lokalizacji.
+%5$d. Jeżeli w menu Tryb lokalizacji wybrana jest opcja Używaj tylko GPS, upewnij się, czy w czasie odczytywania lokalizacji znajdujesz się na otwartej przestrzeni, gdzie odbiór sygnału GPS nie jest ograniczony.
+%6$d. W przypadku połączenia z publicznym hotspotem, rozłącz połączenie WLAN i włącz komórkową transmisję danych, a następnie ponów próbę odczytu lokalizacji."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. W menu Tryb lokalizacji wybierz opcję Używaj GPS, WLAN i sieci komórkowych, aby uzyskać dokładniejszą lokalizację.
+%2$d. Jeżeli telefon znajduje się w metalowym etui, wyjmij go lub przełóż do etui wykonanego z materiałów niemetalicznych i spróbuj ponownie.
+%3$d. Upewnij się, czy aplikacja, z której korzystasz ma odstęp do uprawnienia Lokalizacja. Możesz to sprawdzić wybierając kolejno Menedżer telefonu > Menedżer uprawnień > Dostęp do danych lokalizacji.
+%4$d. Nawigacja działa lepiej na otwartej przestrzeni. Umieść telefon w pobliżu przedniej szyby samochodu, na przykład na desce rozdzielczej lub w innym miejscu, gdzie ma dostęp do „otwartego nieba”."</string>
+    <string name="turn_off_data_saver_message">Korzystanie z przenośnego hotspotu wymaga wyłączenia funkcji Oszczędzanie transmisji danych. Wyłączyć?</string>
+    <string name="first_wlan_hotspot_text">Punkt dostępu WLAN pozwala udostępniać połączenie sieciowe innym urządzeniom, ale powoduje szybsze wyczerpywanie baterii i nasila transmisję danych, która może być usługą płatną.</string>
+    <string name="hotspot_power_notification_title">Wyłączono punkt dostępu WLAN</string>
+    <string name="hotspot_power_notification_ticker_text">Wyłączono punkt dostępu WLAN</string>
+    <string name="toast_entitle_wifi_need_close">Nie można użyć tej funkcji, gdy aktywne jest połączenie WLAN. Najpierw wyłącz WLAN.</string>
+    <string name="wifi_activated_warning_Title">Włączono WLAN</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Nie można jednocześnie włączać komórkowego punktu dostępu i sieci WLAN. Wyłączyć WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">Teraz należy wyłączyć sieć WLAN. Usługa zostanie automatycznie włączona, gdy telefon skomunikuje się z serwerami AT&amp;T.</string>
+    <string name="broadcast_ssid_is_show_dialog">Jeśli wyłączysz opcję Rozgłaszaj nazwę sieci (SSID), telefon nie będzie widoczny dla innych urządzeń i nie będzie figurować na liście dostępnych sieci WLAN. Inne urządzenia mogą mimo to połączyć się z punktem dostępu po ręcznym wpisaniu nazwy sieci.</string>
+    <string name="enable">Łącz automatycznie z WLAN AT&amp;T</string>
+    <string name="disable">Nie łącz automatycznie z WLAN AT&amp;T</string>
+    <string name="auto_connect_wifi_suggestion">Uruchom ponownie WLAN, aby zastosować ustawienia łączenia automatycznego.</string>
+    <string name="wifi_network_detect_summary">Sprawdź dostępność Internetu przy podłączaniu do hotspotu WLAN</string>
+    <string name="wifi_disable_by_deivice_admin">Funkcja WLAN została wyłączona przez administratora</string>
+    <string name="wifi_required_info_text">Aby zakończyć konfigurację, tablet należy podłączyć do sieci WLAN. Po zakończeniu konfiguracji można przełączać się między transmisją danych przez sieć komórkową i przez WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">Pasmo częstotliwości sieci WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s zarządza tym urządzeniem i nie zezwala na zmodyfikowanie lub usunięcie tej sieci WLAN. Więcej informacji można uzyskać u administratora.</string>
+</resources>

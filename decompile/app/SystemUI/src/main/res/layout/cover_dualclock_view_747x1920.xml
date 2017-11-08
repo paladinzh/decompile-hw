@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@r$id/dual_clock_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="45dp">
+    <include android:id="@r$id/clock_view1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/cover_dualclock_view_stub_747x1920" />
+    <com.huawei.keyguard.cover.widget.NewCoverDigitalClock android:id="@r$id/clock_view2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.5dp" android:layout_below="@r$id/clock_view1" android:layout_alignParentStart="false">
+        <LinearLayout android:orientation="vertical" android:id="@id/cover_location_ll" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="horizontal" android:id="@id/cover_location_icon_ll" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:ellipsize="end" android:id="@id/current_location_view" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1401" android:text="@r$string/kg_clock_current_location" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="3dp" style="@style/cover_am_pm_text_style" />
+                <ImageView android:id="@id/cover_city_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xd01" android:layout_marginTop="3dp" android:src="@drawable/ic_public_gps_500x2560" android:singleLine="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8dp" android:layout_below="@id/cover_location_ll">
+            <TextView android:textSize="60dp" android:textColor="#ffffffff" android:id="@r$id/cover_digital_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8dp" android:layout_marginStart="-2dp" />
+            <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@r$id/cover_am_pm_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.5dp" android:singleLine="true" android:layout_marginStart="2dp" style="@style/cover_am_pm_text_style" />
+        </LinearLayout>
+        <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:id="@r$id/cover_date_time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-9.5dp" android:layout_below="@id/linearLayout" android:layout_marginStart="3dp" style="@style/cover_date_text_style" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_below="@r$id/cover_date_time_textview" layout="@layout/cover_weather_city_view_747x1920" />
+    </com.huawei.keyguard.cover.widget.NewCoverDigitalClock>
+</RelativeLayout>

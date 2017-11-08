@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/editor_head" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:id="@+id/head_image_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0244" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/stub_photo" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/edit_photo" android:clickable="false" layout="@layout/item_photo_editor" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/contact_editor_accout_types_top_margin" android:paddingStart="5dp" android:paddingEnd="5dp"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4" android:layout_marginBottom="@dimen/ice_contact_item_margin">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ice_contact_item_margin" android:text="@string/ice_my_info_my_name" />
+                <EditText android:id="@+id/et_ice_my_info_my_name" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ice_no_record_found" android:ems="10" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4" android:layout_marginBottom="@dimen/ice_contact_item_margin">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ice_contact_item_margin" android:text="@string/ice_my_info_health_record" />
+                <EditText android:id="@+id/et_ice_my_info_health_record" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ice_no_record_found" android:ems="10" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4" android:layout_marginBottom="@dimen/ice_contact_item_margin">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ice_contact_item_margin" android:text="@string/ice_my_info_allergies" />
+                <EditText android:id="@+id/et_ice_my_info_allergies" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ice_no_record_found" android:ems="10" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4" android:layout_marginBottom="@dimen/ice_contact_item_margin">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ice_contact_item_margin" android:text="@string/ice_my_info_current_medication" />
+                <EditText android:id="@+id/et_ice_my_info_current_medication" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ice_no_record_found" android:ems="10" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4" android:layout_marginBottom="@dimen/ice_contact_item_margin">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textStyle="bold" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ice_contact_item_margin" android:text="@string/ice_my_info_other" />
+                <EditText android:id="@+id/et_ice_my_info_other" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/ice_no_record_found" android:ems="10" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

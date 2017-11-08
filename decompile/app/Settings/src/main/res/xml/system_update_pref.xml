@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/system_upgrade_title" android:key="system_update_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="@string/update_prl_title" android:key="update_prl" android:summary="@string/update_prl_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.android.dmclient" android:targetClass="com.huawei.android.dmclient.main.DMMain">
+            <extra android:name="Session_Request" android:value="4" />
+        </intent>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/update_profile_title" android:key="update_profile" android:summary="@string/update_profile_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.android.dmclient" android:targetClass="com.huawei.android.dmclient.main.DMMain">
+            <extra android:name="Session_Request" android:value="3" />
+        </intent>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/update_firmware_title" android:key="update_firmware" android:summary="@string/update_firmware_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.android.dmclient" android:targetClass="com.huawei.android.dmclient.main.DMMain">
+            <extra android:name="Session_Request" android:value="5" />
+        </intent>
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/update_software_title" android:key="update_software" android:summary="@string/update_software_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="android.settings.SYSTEM_UPDATE_SETTINGS" />
+    </Preference>
+    <Preference android:persistent="false" android:title="@string/uicc_unlock_title" android:key="uicc_unlock" android:summary="@string/uicc_unlock_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.android.dmclient" android:targetClass="com.huawei.android.dmclient.main.DMMain">
+            <extra android:name="Session_Request" android:value="13" />
+        </intent>
+    </Preference>
+</PreferenceScreen>

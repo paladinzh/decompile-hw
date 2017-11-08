@@ -1,0 +1,18 @@
+package com.android.systemui.statusbar.phone;
+
+import com.android.systemui.statusbar.NotificationData.Entry;
+import com.android.systemui.statusbar.phone.PhoneStatusBar.AnonymousClass30;
+
+final /* synthetic */ class PhoneStatusBar$30$-void_onRemoteInputSent_com_android_systemui_statusbar_NotificationData$Entry_entry_LambdaImpl0 implements Runnable {
+    private /* synthetic */ Entry val$entry;
+    private /* synthetic */ AnonymousClass30 val$this;
+
+    public /* synthetic */ PhoneStatusBar$30$-void_onRemoteInputSent_com_android_systemui_statusbar_NotificationData$Entry_entry_LambdaImpl0(AnonymousClass30 anonymousClass30, Entry entry) {
+        this.val$this = anonymousClass30;
+        this.val$entry = entry;
+    }
+
+    public void run() {
+        this.val$this.-com_android_systemui_statusbar_phone_PhoneStatusBar$30_lambda$1(this.val$entry);
+    }
+}

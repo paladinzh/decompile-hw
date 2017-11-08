@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/language_settings" android:key="language_keyboard_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:layout="@layout/preference_more" android:title="@string/phone_language" android:key="phone_language" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.localepicker.LocaleListEditor" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="secure_ime_prefence">
+        <SwitchPreference android:title="@string/secure_input_switcher" android:key="secure_input_switcher" android:summary="@string/secure_input_switcher_sumary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/keyboard_settings_category" android:key="keyboard_settings_category">
+        <PreferenceScreen android:title="@string/virtual_keyboard_category" android:key="virtual_keyboard" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.inputmethod.VirtualKeyboardFragment" />
+        <PreferenceScreen android:title="@string/physical_keyboard_title" android:key="physical_keyboard" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.inputmethod.PhysicalKeyboardFragment" />
+        <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/default_keyboard" android:key="current_input_method" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/advanced" android:key="advanced_category">
+        <PreferenceScreen android:persistent="false" android:title="@string/spellcheckers_settings_title" android:key="spellcheckers_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+        <PreferenceScreen android:title="@string/user_dict_settings_title" android:key="key_user_dictionary_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+        <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.tts.TextToSpeechSettings" />
+        <com.android.settings.PointerSpeedPreference android:title="@string/pointer_speed" android:key="pointer_speed" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/pointer_speed" />
+        <SwitchPreference android:title="@string/vibrate_input_devices" android:key="vibrate_input_devices" android:summaryOn="@string/vibrate_input_devices_summary" android:summaryOff="@string/vibrate_input_devices_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

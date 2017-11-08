@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/bluetooth_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/bluetooth_quick_toggle_summary" android:key="bluetooth_switch" />
+    <SwitchPreference android:title="@string/bluetooth_visibility_title" android:key="bluetooth_visibility" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/my_device_name" android:key="my_device_name" android:widgetLayout="@layout/preference_widget_arrow" />
+    <Preference android:persistent="false" android:title="@string/bluetooth_show_received_files" android:key="show_received_files" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

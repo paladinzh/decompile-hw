@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/brush_shape_root" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@drawable/bg_screenshot_bar_lanscape" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x12c01">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/free_line_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_free" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/arrow_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_arrow" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/line_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_line" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/square_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_rectangle" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.huawei.gallery.editor.ui.SelectOrPressColorfulImageView android:id="@id/circle_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_gallery_edit_pen_shape_cirle" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

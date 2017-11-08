@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!--
+            配置文件作用:
+                手机管家悬浮窗默认开关值设置。
+            使用场景:
+                手机管家悬浮窗中，默认值是禁止悬浮窗。如果产品需要指定某个应用的默认值，可以在这个文件中进行配置。
+            加入这个名单后:
+        allow="true"表示第一次开机后，默认允许这个应用悬浮窗。allow="false"表示禁止这个应用悬浮窗。
+    -->
+    <!-- package name="com.lbe.security" allow="false"/ -->
+    <!-- package name="com.tencent.qqlive" allow="true"/ -->
+    <package name="kvpioneer.safecenter" allow="true"/>
+    <package name="com.aspire.mm" allow="true"/>
+    <package name="com.huawei.screenrecorder" allow="true"/>
+    <package name="com.rsupport.rs.activity.huawei" allow="true"/>
+</resources>
+

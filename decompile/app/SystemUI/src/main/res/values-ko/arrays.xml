@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>검색 중...</item>
+        <item>연결 중…</item>
+        <item>인증하는 중...</item>
+        <item>IP 주소를 가져오는 중...</item>
+        <item>연결됨</item>
+        <item>일시 정지됨</item>
+        <item>연결을 끊는 중…</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 불량 일시적으로 방지</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>검색 중...</item>
+        <item>%1$s에 연결 중...</item>
+        <item>%1$s에서 인증하는 중...</item>
+        <item>%1$s에서 IP 주소를 가져오는 중...</item>
+        <item>%1$s에 연결됨</item>
+        <item>일시 정지됨</item>
+        <item>%1$s에서 연결을 끊는 중...</item>
+        <item>연결 끊김</item>
+        <item>실패</item>
+        <item>차단됨</item>
+        <item>연결 상태 불량 일시적으로 방지</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>확인 안함</item>
+        <item>DRM 콘텐츠만 확인</item>
+        <item>항상 확인</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP 확인 사용 안함</item>
+        <item>DRM 콘텐츠에 대해서만 HDCP 확인 사용</item>
+        <item>항상 HDCP 확인 사용</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>끔</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>사용 안함</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>끔</item>
+        <item>로그 버퍼당 64K</item>
+        <item>로그 버퍼당 256K</item>
+        <item>로그 버퍼당 1M</item>
+        <item>로그 버퍼당 4M</item>
+        <item>로그 버퍼당 16M</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>애니메이션 사용 안함</item>
+        <item>애니메이션 배율 .5x</item>
+        <item>애니메이션 배율 1x</item>
+        <item>애니메이션 배율 1.5x</item>
+        <item>애니메이션 배율 2x</item>
+        <item>애니메이션 배율 5x</item>
+        <item>애니메이션 배율 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>없음</item>
+        <item>480p</item>
+        <item>480p(보안)</item>
+        <item>720p</item>
+        <item>720p(보안)</item>
+        <item>1080p</item>
+        <item>1080p(보안)</item>
+        <item>4K</item>
+        <item>4K(보안)</item>
+        <item>4K(업스케일됨)</item>
+        <item>4K(업스케일됨, 보안)</item>
+        <item>720p, 1080p(듀얼 화면)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>없음</item>
+        <item>로그캣</item>
+        <item>Systrace(그래픽)</item>
+        <item>glGetError의 스택 호출</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>끔</item>
+        <item>사각형이 아닌 클립 영역을 파란색으로 그립니다.</item>
+        <item>테스트한 그림 그리기 명령을 초록색으로 강조표시합니다.</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>끔</item>
+        <item>화면에 막대로 표시</item>
+        <item>adb shell dumpsys gfxinfo에서 사용</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>끔</item>
+        <item>오버드로 영역 표시</item>
+        <item>녹색약 영역 표시</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>표준 제한</item>
+        <item>백그라운드 프로세스 없음</item>
+        <item>최대 1개 프로세스</item>
+        <item>최대 2개 프로세스</item>
+        <item>최대 3개 프로세스</item>
+        <item>최대 4개 프로세스</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>충전 중</item>
+        <item>MTP(Media Transfer Protocol)</item>
+        <item>PTP(Picture Transfer Protocol)</item>
+        <item>RNDIS(USB 이더넷)</item>
+        <item>오디오 출처</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>매우 느리게</item>
+        <item>느리게</item>
+        <item>보통</item>
+        <item>빠르게</item>
+        <item>더 빠르게</item>
+        <item>매우 빠르게</item>
+        <item>상당히 빠르게</item>
+        <item>매우 빠르게</item>
+        <item>가장 빠르게</item>
+    </array>
+    <array name="color_mode_names">
+        <item>생동감(기본값)</item>
+        <item>내츄럴</item>
+        <item>표준</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>보정 색상</item>
+        <item>눈으로 보는 듯한 내츄럴 색상</item>
+        <item>디지털 콘텐츠에 최적화된 색상</item>
+    </array>
+    <array name="clock_options">
+        <item>시간, 분, 초 표시</item>
+        <item>시간, 분 표시(기본값)</item>
+        <item>이 아이콘 표시 안함</item>
+    </array>
+    <array name="battery_options">
+        <item>항상 퍼센트 표시</item>
+        <item>충전할 때 퍼센트 표시(기본값)</item>
+        <item>이 아이콘 표시 안함</item>
+    </array>
+</resources>

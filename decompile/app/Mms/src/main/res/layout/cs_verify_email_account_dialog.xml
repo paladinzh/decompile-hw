@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/CS_background" android:paddingLeft="@dimen/cs_dialog_padding" android:paddingRight="@dimen/cs_dialog_padding" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/cs_dialog_padding" android:paddingEnd="@dimen/cs_dialog_padding">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cs_not_verified_email_account_dlg" android:contentDescription="@string/CS_app_name" />
+        <TextView android:textSize="13sp" android:textColor="@color/CS_black_100_percent" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/CS_register_email_not_verified_info" />
+    </LinearLayout>
+</ScrollView>

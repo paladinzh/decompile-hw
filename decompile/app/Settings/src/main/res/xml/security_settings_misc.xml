@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/other_security_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/sim_lock_settings_title" android:key="sim_lock">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/preference_status" android:title="@string/sim_lock_settings_category" android:key="sim_lock_settings" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$IccLockSettingsActivity" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/sdcard_encryption_title" android:key="security_category_encryption_sd">
+        <com.android.settings.TwoSummaryPreference android:layout="@layout/preference_two_summay" android:title="@string/sdcard_encrypt" android:key="sdcardencryption" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/lock_sdcard_category" android:key="lock_sdcard_category">
+        <Preference android:persistent="false" android:title="@string/set_sdcard_pin_title" android:key="set_sdcard_pin" android:summary="@string/set_sdcard_pin_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:persistent="false" android:title="@string/change_sdcard_pin_title" android:key="change_sdcard_pin" android:summary="@string/change_sdcard_pin_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.ChooseLockSdCardPin" />
+        </Preference>
+        <Preference android:persistent="false" android:title="@string/unlock_sdcard_title" android:key="unlock_sdcard" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.ConfirmLockSdCardPin" />
+        </Preference>
+        <Preference android:persistent="false" android:title="@string/clear_sdcard_pin_title" android:key="clear_sdcard_pin" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:persistent="false" android:title="@string/force_clear_sdcard_title" android:key="force_clear_sdcard" android:summary="@string/force_clear_sdcard_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/security_passwords_title">
+        <com.android.settings.CustomSwitchPreference android:title="@string/show_password" android:key="show_password" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/device_admin_title" android:key="device_admin_category">
+        <Preference android:persistent="false" android:title="@string/manage_device_admin" android:key="manage_device_admin" android:summary="@string/manage_device_admin_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.DeviceAdminSettings" />
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/download_non_market_app_title" android:key="toggle_download_application" android:summary="@string/download_non_market_app_summary" />
+        <com.android.settingslib.RestrictedSwitchPreference android:title="@string/install_applications" android:key="toggle_install_applications" android:summaryOn="@string/install_unknown_applications_emui" android:summaryOff="@string/install_unknown_applications_emui" settings:useAdditionalSummary="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/usb_hisuite_emotion_title" android:key="hisuite_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/hdb_allowed_title" android:key="hdb_allowed" android:summary="@string/hdb_allowed_summary" />
+        <com.android.settings.HisuitePreference android:persistent="false" android:title="@string/hdb_authorization_cancel_title" android:key="hdb_authorization_cancel" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/credentials_title" android:key="credentials_management">
+        <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/credential_storage_type" android:key="credential_storage_type" />
+        <Preference android:persistent="false" android:title="@string/trusted_credentials" android:key="trusted_credentials" android:summary="@string/trusted_credentials_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.TrustedCredentialsSettings" />
+        <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/user_credentials" android:key="user_credentials" android:summary="@string/user_credentials_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.UserCredentialsSettings" />
+        <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/credentials_install" android:key="credentials_install" android:summary="@string/credentials_install_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.certinstaller" android:action="android.credentials.INSTALL" android:targetClass="com.android.certinstaller.CertInstallerMain" />
+        </com.android.settingslib.RestrictedPreference>
+        <com.android.settingslib.RestrictedPreference android:persistent="false" android:title="@string/credentials_reset" android:key="credentials_reset" android:summary="@string/credentials_reset_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:action="com.android.credentials.RESET" android:targetClass="com.android.settings.CredentialStorage" />
+        </com.android.settingslib.RestrictedPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:layout="@layout/preference_category" android:title="@string/advanced_security_title" android:key="advanced_security">
+        <Preference android:persistent="false" android:title="@string/manage_trust_agents" android:key="manage_trust_agents" android:summary="@string/manage_trust_agents_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.TrustAgentSettings" />
+        <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/screen_pinning_title" android:key="screen_pinning_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.ScreenPinningSettings" />
+        <Preference android:title="@string/usage_access_title" android:key="usage_access" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$UsageAccessSettingsActivity">
+                <extra android:name="classname" android:value="com.android.settings.Settings$UsageAccessSettingsActivity" />
+            </intent>
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

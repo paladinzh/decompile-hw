@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:clickable="false" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <view androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/inner_view" androidhwext:clickable="false" androidhwext:descendantFocusability="blocksDescendants" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" class="com.android.contacts.list.ContactListFilterView">
+        <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:orientation="vertical" androidhwext:clickable="false" androidhwext:layout_width="UNKNOWN_DATA_0x1" androidhwext:layout_height="wrap_content" androidhwext:layout_marginTop="9dp" androidhwext:layout_marginBottom="9dp" androidhwext:layout_weight="1.0" androidhwext:layout_marginStart="@dimen/contact_list_item_indent" androidhwext:layout_marginEnd="8dp">
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010041" androidhwext:textSize="@dimen/show_sim_contacts_text_size" androidhwext:ellipsize="end" androidhwext:id="@+id/accountType" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" androidhwext:layout_marginEnd="10dp" androidhwext:layout_alignParentStart="true" />
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010042" androidhwext:ellipsize="end" androidhwext:id="@+id/accountName" androidhwext:visibility="gone" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" />
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010042" androidhwext:ellipsize="end" androidhwext:id="@+id/contacts_count" androidhwext:visibility="gone" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="1" androidhwext:layout_alignParentEnd="true" />
+        </LinearLayout>
+        <RadioButton androidhwext:id="@+id/radioButton" androidhwext:clickable="false" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_marginTop="1dp" androidhwext:minHeight="48dp" androidhwext:paddingEnd="16dp" />
+    </view>
+    <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+</FrameLayout>

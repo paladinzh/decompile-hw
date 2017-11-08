@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/fingerprint_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/fp_touch_function_category_slip" android:key="fp_touch_function_category">
+        <com.android.settings.CustomSwitchPreference android:title="@string/fp_show_notification_title" android:key="key_fp_show_notification" android:summary="@string/fp_show_notification_summary" />
+        <Preference android:key="fp_main_settings_comment" android:summary="@string/fp_main_settings_comments" />
+    </PreferenceCategory>
+</PreferenceScreen>

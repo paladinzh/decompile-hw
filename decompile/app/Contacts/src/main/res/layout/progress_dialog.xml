@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="14dp" android:paddingEnd="14dp"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010077" />
+        <TextView android:textSize="18sp" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/update_call_loc_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/update_dialog_tips" android:paddingStart="14dp" android:paddingEnd="14dp" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/update_call_loc_progressbar" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminateOnly="false" style="?unknown_attr_ref: 1010078" />
+    <TextView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/update_call_loc_percents" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/initial_progress" />
+</LinearLayout>

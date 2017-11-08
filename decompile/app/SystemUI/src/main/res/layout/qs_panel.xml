@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QSContainer xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/quick_settings_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
+    <com.android.systemui.qs.QSPanel android:id="@id/quick_settings_panel" android:paddingLeft="@dimen/qs_panel_padding_left" android:paddingRight="@dimen/qs_panel_padding_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qs_panel_margin_top" />
+    <include layout="@layout/hw_quick_status_bar_expanded_header" />
+    <include android:id="@id/qs_detail" layout="@layout/qs_detail" />
+    <include android:id="@id/qs_customize" android:visibility="gone" layout="@layout/qs_customize_panel" />
+    <View android:id="@id/qs_line" android:background="@color/qs_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginTop="@dimen/status_bar_header_height" android:alpha="0.1" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+</com.android.systemui.qs.QSContainer>

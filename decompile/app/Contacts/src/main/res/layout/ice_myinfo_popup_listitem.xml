@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/tv_emergency_contact_911" android:paddingLeft="@dimen/ice_contact_item_margin" android:paddingTop="@dimen/ice_list_item_padding" android:paddingBottom="@dimen/ice_list_item_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/tv_record" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemData" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/tv_record_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ContactDetailItemType" />
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+</LinearLayout>

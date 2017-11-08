@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_icon_status" android:title="@string/setting" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/allow_all" android:title="@string/allow_all" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/restrict_all" android:title="@string/restrict_all" android:showAsAction="UNKNOWN_DATA_0x0" />
+        </menu> />
+</menu>

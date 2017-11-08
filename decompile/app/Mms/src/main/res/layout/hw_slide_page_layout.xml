@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.HwSlidePage xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/slidepage_number" android:paddingBottom="@dimen/hwslidepage_page_text_marginbottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/hwslidepage_page_text_marginstart" android:layout_alignParentEnd="true">
+            <TextView android:textSize="@dimen/attachment_preview_page_textsize" android:textColor="@color/attachment_preview_slide_page_textcolor" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/hw_page_number_text" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.huawei.mms.ui.EditTextWithSmiley android:textSize="@dimen/mms_edit_text_size" android:textColor="@color/single_text_editor_color" android:textColorHint="@color/compose_hint_text_color" android:id="@+id/text_message" android:background="@color/transparent" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="32dp" android:hint="@string/input_text" android:includeFontPadding="false" android:capitalize="sentences" android:lineSpacingMultiplier="1.1" android:layout_toStartOf="@+id/slidepage_number" style="@style/new_message_input_style" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/slides_splite_line" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="10sp" android:textColor="@color/slide_page_number_color" android:id="@+id/page_number_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <ImageView android:id="@+id/chat_theme_line" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="0dp" />
+    </LinearLayout>
+</com.android.mms.ui.HwSlidePage>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/mainView" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@id/mainPanel" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1.0">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <com.android.gallery3d.filtershow.crop.CropView android:id="@id/cropView" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/loading" android:background="0x106000d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateOnly="true" style="@*style/Widget.Holo.ProgressBar.Large" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

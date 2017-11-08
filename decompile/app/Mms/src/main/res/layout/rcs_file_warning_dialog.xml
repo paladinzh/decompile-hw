@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="13sp" android:textColor="@color/black" android:ellipsize="middle" android:id="@+id/waring_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="18dp" android:layout_marginEnd="17dp" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/do_not_hit" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:src="@drawable/mms_menu_choose" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:onClick="doClick" android:layout_marginStart="14dp" />
+        <TextView android:textSize="14sp" android:textColor="0x106000c" android:id="@+id/do_not_hit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checkbox_not_remind_again" android:layout_centerInParent="true" android:layout_toEndOf="@+id/do_not_hit" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Käyttämättä yli %1$d pv</item>
+        <item quantity="one">Käyttämättä yli %1$d pv</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d sovellusta jää edelleen käyttöön, kun näyttö sammuu. Säästä virtaa sulkemalla ne</item>
+        <item quantity="one">%1$d sovellus jää edelleen käyttöön, kun näyttö sammuu. Säästä virtaa sulkemalla se</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d paljon virtaa käyttävää sovellusta suljettu</item>
+        <item quantity="one">%1$d paljon virtaa käyttävä sovellus suljettu</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d sovellusta kuluttaa virtaa salaa. Akun käyttöikää voidaan pidentää %2$s, jos sovellukset suljetaan</item>
+        <item quantity="one">%1$d sovellus kuluttaa virtaa salaa. Akun käyttöikää voidaan pidentää %2$s, jos sovellus suljetaan</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">%d sovellusta estetty ottamasta mobiilidataa käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta mobiilidataa käyttöön</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d sovellusta estetty ottamasta Wi-Fiä käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta Wi-Fiä käyttöön</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d sovellusta estetty ottamasta WLANä käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta WLANä käyttöön</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d sovellusta estetty ottamasta WLAN-verkkoa käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta WLAN-verkkoa käyttöön</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d sovellusta estetty ottamasta WLAN-verkkoa käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta WLAN-verkkoa käyttöön</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">%d sovellusta estetty ottamasta Bluetoothia käyttöön</item>
+        <item quantity="one">%d sovellusta estetty ottamasta Bluetoothia käyttöön</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Tämä ominaisuus edellyttää seuraavien lupien käyttöönottoa, siirrytäänkö asetuksiin ottamaan ne käyttöön?</item>
+        <item quantity="one">Tämä ominaisuus edellyttää seuraavan luvan käyttöönottoa, siirrytäänkö asetuksiin ottamaan se käyttöön?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Voit poistaa nämä luvat käytöstä milloin tahansa sovelluksen asetuksista.</item>
+        <item quantity="one">Voit poistaa tämän luvan käytöstä milloin tahansa sovelluksen asetuksista.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">Anna %1$d sovelluksen pysyä käynnissä, kun näyttö on sammutettu</item>
+        <item quantity="one">Anna %1$d sovelluksen pysyä käynnissä, kun näyttö on sammutettu</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">%1$d sääntöä valittu</item>
+        <item quantity="one">%1$d sääntö valittu</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Poistetaanko valitut %1$d tiedostoa?</item>
+        <item quantity="one">Poistetaanko valittu %1$d tiedosto?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Tiedostoja ei voi palauttaa.</item>
+        <item quantity="one">Tiedostoa ei voi palauttaa.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Poistetaanko valitut %1$d tietoa?</item>
+        <item quantity="one">Poistetaanko valittu %1$d tieto?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Tietoja ei voi palauttaa.</item>
+        <item quantity="one">Tietoja ei voi palauttaa.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Poistetaanko valitut %1$d sovellusta?</item>
+        <item quantity="one">Poistetaanko valittu %1$d sovellus?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Palautetaanko valitut %1$d sovellusta?</item>
+        <item quantity="one">Palautetaanko valittu %1$d sovellus?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Kaikki sovellustiedot poistetaan. Sovellukset palautetaan tilaan, jossa ne olivat asennushetkellä.</item>
+        <item quantity="one">Kaikki sovellustiedot poistetaan. Tämä sovellus palautetaan tilaan, jossa se oli asennushetkellä.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d virusta</item>
+        <item quantity="one">%1$d virus</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d ohjelmariskit</item>
+        <item quantity="one">%1$d ohjelmariski</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d epäviralliset ohjelmat</item>
+        <item quantity="one">%1$d epävirallinen ohjelma</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy viesteihin</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy viesteihin</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy puhelulokiin</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy puhelulokiin</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy yhteystietoihin</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy yhteystietoihin</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy kalenteriin</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy kalenteriin</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy sijaintiisi</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy sijaintiisi</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy puhelimen tunnukseen</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy puhelimen tunnukseen</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">Estettiin %d sovellusta nauhoittamasta ääntä</item>
+        <item quantity="one">Estettiin %d sovellusta nauhoittamasta ääntä</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta soittamasta puheluita</item>
+        <item quantity="one">Estettiin %d sovellusta soittamasta puheluita</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d sovell</item>
+        <item quantity="one">%d sovell</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d virusta</item>
+        <item quantity="one">%d virus</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Löytyi %d sovellusta, joissa on mainoksia, asennuksen voi poistaa manuaalisesti</item>
+        <item quantity="one">Löytyi %d sovellus, jossa on mainoksia, asennuksen voi poistaa manuaalisesti</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Päivitetty %1$d tuntia sitten</item>
+        <item quantity="one">Päivitetty %1$d tunti sitten</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Päivitetty %1$d päivää sitten</item>
+        <item quantity="one">Päivitetty %1$d päivä sitten</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Päivitetty %1$d kuukautta sitten</item>
+        <item quantity="one">Päivitetty %1$d kuukausi sitten</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Poistetaanko valitut %d yhteystietoa?</item>
+        <item quantity="one">Poistetaanko valittu %d yhteystieto?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Suljettiin %1$d sovellusta ja vapautettiin %2$s tilaa. %3$s</item>
+        <item quantity="one">Suljettiin %1$d sovellus ja vapautettiin %2$s tilaa. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Käyttämättä %1$d pvää, koko %2$s</item>
+        <item quantity="one">Käyttämättä: %1$d pvä, koko: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Vapauta %2$s muistia sulkemalla %1$d sovellusta</item>
+        <item quantity="one">Vapauta %2$s muistia sulkemalla %1$d sovellus</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$d sovellusta suljettu, %2$s muistia vapautettu</item>
+        <item quantity="one">%1$d sovellus suljettu, %2$s muistia vapautettu</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta lähettämästä multimediaviestejä</item>
+        <item quantity="one">Estettiin %d sovellusta lähettämästä multimediaviestejä</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta muokkaamasta puhelulokin syötteitä</item>
+        <item quantity="one">Estettiin %d sovellusta muokkaamasta puhelulokin syötteitä</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta muokkaamasta yhteystietoja</item>
+        <item quantity="one">Estettiin %d sovellusta muokkaamasta yhteystietoja</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta poistamasta puhelulokin syötteitä</item>
+        <item quantity="one">Estettiin %d sovellusta poistamasta puhelulokin syötteitä</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta poistamasta yhteystietoja</item>
+        <item quantity="one">Estettiin %d sovellusta poistamasta yhteystietoja</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">Estettiin %d sovellusta ottamasta valokuvia tai videoita</item>
+        <item quantity="one">Estettiin %d sovellusta ottamasta valokuvia tai videoita</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">Estettiin %d sovellusta lähettämästä tekstiviestejä</item>
+        <item quantity="one">Estettiin %d sovellusta lähettämästä tekstiviestejä</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Sallittiin %1$d sovelluksen näyttää ponnahdusikkuna</item>
+        <item quantity="one">Sallittiin %1$d sovelluksen näyttää pudotusvyöhyke.</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">päivää</item>
+        <item quantity="one">päivän</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d sovellusta lukittu</item>
+        <item quantity="one">%1$d sovellus lukittu</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d sovellusta käynnissä</item>
+        <item quantity="one">%1$d sovellus käynnissä</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Poistetaanko val. sovellukset?</item>
+        <item quantity="one">Poistetaanko valittu sovellus?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d kohdetta</item>
+        <item quantity="one">%1$d kohde</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d käyttöoikeutta</item>
+        <item quantity="one">%1$d käyttöoikeus</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Poistetaanko seuraavat tiedostot? Niitä ei voi palauttaa.</item>
+        <item quantity="one">Poistetaanko seuraava tiedosto? Sitä ei voi palauttaa.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Poistetaanko seuraavat tiedostot? Niitä ei voi palauttaa.</item>
+        <item quantity="one">Poistetaanko seuraava tiedosto? Sitä ei voi palauttaa.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Järjestelmä poistaa pysyvästi valittujen sovellusten kaiken datan. Sovellukset palautetaan alkuperäisiin tiloihinsa.</item>
+        <item quantity="one">Järjestelmä poistaa pysyvästi valitun sovelluksen kaiken datan. Sovellus palautetaan alkuperäiseen tilaansa.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Käyttöaikaa pidennettiin %1$d minuuttia.</item>
+        <item quantity="one">Käyttöaikaa pidennettiin %1$d minuutti.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Suljettiin %1$d sovellusta ja vapautettiin %2$s tilaa.</item>
+        <item quantity="one">Suljettiin %1$d sovellus ja vapautettiin %2$s tilaa.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">%1$s min jäljellä</item>
+        <item quantity="one">%1$s min jäljellä</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s min kunnes täysi</item>
+        <item quantity="one">%1$s min kunnes täysi</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Voidaan jatkaa %1$d min</item>
+        <item quantity="one">Voidaan jatkaa %1$d min</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Jatkettu %1$s min</item>
+        <item quantity="one">Jatkettu %1$s min</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d kertaa (ehdotus)</item>
+        <item quantity="one">%d kerran (ehdotus)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d kertaa</item>
+        <item quantity="one">%d kerran</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">%d henkilöä merkinnyt</item>
+        <item quantity="one">%d henkilö merkinnyt</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">%1$d sovellusta käytettävissä</item>
+        <item quantity="one">%1$d sovellus käytettävissä</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d voidaan optimoida</item>
+        <item quantity="one">%1$d voidaan optimoida</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d-sovellukset on suljettu liian virrankäytön takia; näytä tiedot koskettamalla</item>
+        <item quantity="one">%1$d sovellus on suljettu liiallisen virrankäytön takia, näytä tiedot koskettamalla</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d valokuvaa</item>
+        <item quantity="one">%1$d valokuva</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Päivitetty %d päivää sitten</item>
+        <item quantity="one">Päivitetty %d päivä sitten</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d päivää puhdistamatta, puhdista koskettamalla</item>
+        <item quantity="one">%d päivä puhdistamatta, puhdista koskettamalla</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta luomasta aloitusnäytön pikavalikoita.</item>
+        <item quantity="one">Estettiin %d sovellusta luomasta aloitusnäytön pikavalikoita.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">%1$d sovellusta ohitetaan puhdistuksen aikana.</item>
+        <item quantity="one">%1$d sovellus ohitetaan puhdistuksen aikana.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">Estettiin %d sovellusta käyttämästä asennettujen sovellusten luetteloa.</item>
+        <item quantity="one">Estettiin %d sovellusta käyttämästä asennettujen sovellusten luetteloa.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d sovellusta puhdistettu.</item>
+        <item quantity="one">%d sovellus puhdistettu.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d sovellusta esti kuntotietojesi käyttämisen (askelmäärän ja ravistuksen antamista varten).</item>
+        <item quantity="one">%d sovellus esti kuntotietojesi käyttämisen (askelmäärän ja ravistuksen antamista varten).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d sovellusta estetty käyttämästä terveystietoja.</item>
+        <item quantity="one">%d sovellusta estetty käyttämästä terveystietoja.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d kohdetta täytyy optimoida manuaalisesti</item>
+        <item quantity="one">%1$d kohde täytyy optimoida manuaalisesti</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d asennettavaa korjausta</item>
+        <item quantity="one">%1$d asennettava korjaus</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d sovellusta sisältää mainoksia</item>
+        <item quantity="one">%1$d sovellus sisältää mainoksia</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d sovelluksen automaattinen käynnistyminen sallittu.</item>
+        <item quantity="one">%d sovelluksen automaattinen käynnistyminen sallittu.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">Muut sovellukset voivat käynnistää %d sovellusta. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Tämän toimenpiteen rajoittamista suositellaan.</item>
+        <item quantity="one">Muut sovellukset voivat käynnistää %d sovelluksen. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Tämän toimenpiteen rajoittamista suositellaan.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">Muut sovellukset voivat käynnistää %1$d sovellusta. Tämä voi hidastaa %2$s-laitetta ja kuluttaa enemmän virtaa. Tämän toimenpiteen rajoittamista suositellaan.</item>
+        <item quantity="one">Muut sovellukset voivat käynnistää %1$d sovelluksen. Tämä voi hidastaa %2$s-laitetta ja kuluttaa enemmän virtaa. Tämän toimenpiteen rajoittamista suositellaan.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Sovellus voi käynnistyä automaattisesti %d seuraavassa skenaariossa. Sallitaanko se?</item>
+        <item quantity="one">Sovellus voi käynnistyä automaattisesti %d seuraavassa skenaariossa. Sallitaanko se?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Sovellus voi käynnistyä automaattisesti %d seuraavassa skenaariossa. Rajoitetaanko sitä?</item>
+        <item quantity="one">Sovellus voi käynnistyä automaattisesti %d seuraavassa skenaariossa. Rajoitetaanko sitä?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Sovellus ja sen kaksonen käynnistyvät automaattisesti seuraavissa %d tilanteissa. Rajoita?</item>
+        <item quantity="one">Sovellus ja sen kaksonen käynnistyvät automaattisesti seuraavassa %d tilanteessa. Rajoita?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko se?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko se?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Rajoitetaanko sitä?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Rajoitetaanko sitä?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s. Tämä hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko se?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s. Tämä hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko se?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s. Tämä hidastaa puhelinta ja kuluttaa enemmän virtaa. Rajoitetaanko sitä?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s. Tämä hidastaa puhelinta ja kuluttaa enemmän virtaa. Rajoitetaanko sitä?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%2$d sovellusta voi käynnistää: %1$s. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää: %1$s. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%2$d sovellusta voi käynnistää: %1$s. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Rajoita?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää: %1$s. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Rajoita?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%2$d sovellusta voi käynnistää: %1$s. Tämä hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää: %1$s. Tämä hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%2$d sovellusta voi käynnistää: %1$s. Tämä hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Rajoita?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää: %1$s. Tämä hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Rajoita?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Käynnistetty: %1$d kertaa | Viimeksi: %2$s</item>
+        <item quantity="one">Käynnistetty: %1$d kerran | Viimeksi: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Rajoitettu: %1$d kertaa | Viimeksi: %2$s</item>
+        <item quantity="one">Rajoitettu: %1$d kerran | Viimeksi: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Käynnistetty: %1$d kertaa | Viimeksi: %2$s</item>
+        <item quantity="one">Käynnistetty: %1$d kerran | Viimeksi: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Rajoitettu: %1$d kertaa | Viimeksi: %2$s</item>
+        <item quantity="one">Rajoitettu: %1$d kerran | Viimeksi: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">%d automaattisesti käynnistyvää sovellusta löytyi</item>
+        <item quantity="one">%d automaattisesti käynnistyvä sovellus löytyi</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">%1$s tiedostoa yhteensä</item>
+        <item quantity="one">%1$s tiedosto yhteensä</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d päivää ilman tarkistusta, suorita täysi tarkistus koskettamalla</item>
+        <item quantity="one">%d päivä ilman tarkistusta, suorita täysi tarkistus koskettamalla</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d sovellusta sisältää arkaluontoisia lupia</item>
+        <item quantity="one">%1$d sovellus sisältää arkaluontoisia lupia</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Sormenjälkeä ei tunnisteta, sinulla on %1$d yritystä jäljellä</item>
+        <item quantity="one">Sormenjälkeä ei tunnisteta, sinulla on %1$d yritys jäljellä</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Sormenjälki keskeytetty. Yritä uudelleen %1$d sekunnin kuluttua</item>
+        <item quantity="one">Sormenjälki keskeytetty. Yritä uudelleen %1$d sekunnin kuluttua</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Väärä vastaus. Sinulla on %1$d yritystä jäljellä.</item>
+        <item quantity="one">Väärä vastaus. Sinulla on %1$d yritys jäljellä.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Yritä uudelleen %1$d tunnin kuluttua.</item>
+        <item quantity="one">Yritä uudelleen %1$d tunnin kuluttua.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Yritä uudelleen %1$d minuutin kuluttua.</item>
+        <item quantity="one">Yritä uudelleen %1$d minuutin kuluttua.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Yritä uudelleen %1$d sekunnin kuluttua.</item>
+        <item quantity="one">Yritä uudelleen %1$d sekunnin kuluttua.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">%1$d eniten akkua käyttävää sovellusta</item>
+        <item quantity="one">%1$d eniten akkua käyttävä sovellus</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d päivä</item>
+        <item quantity="one">%1$d päivä</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Kaikki sovellusten ja niiden kaksosten valittu data poistetaan. Sovellukset palautetaan tilaan, jossa ne olivat asennushetkellä.</item>
+        <item quantity="one">Kaikki sovelluksen ja sen kaksosen valittu data poistetaan. Sovellus palautetaan tilaan, jossa se oli asennushetkellä.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Sovellus ja sen kaksonen voivat käynnistyä automaattisesti seuraavissa %1$d tilanteissa. Sallitaanko?</item>
+        <item quantity="one">Sovellus ja sen kaksonen voivat käynnistyä automaattisesti seuraavassa %1$d tilanteessa. Sallitaanko?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s ja sen kaksosen. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s ja sen kaksosen. Tämä voi hidastaa puhelinta ja kuluttaa enemmän virtaa. Sallitaanko?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">%2$d sovellusta voi käynnistää sovelluksen %1$s ja sen kaksosen. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Salli?</item>
+        <item quantity="one">%2$d sovellus voi käynnistää sovelluksen %1$s ja sen kaksosen. Tämä voi hidastaa %3$s-laitetta ja kuluttaa enemmän virtaa. Salli?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">%1$d sovellusta ei suljeta, kun näyttö lukitaan</item>
+        <item quantity="one">%1$d sovellusta ei suljeta, kun näyttö lukitaan</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">%1$d sovellusta suljetaan, kun näyttö lukitaan</item>
+        <item quantity="one">%1$d sovellus suljetaan, kun näyttö lukitaan</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">Estettiin %d sovellusta käyttämästä kalenteria.</item>
+        <item quantity="one">Estettiin %d sovellusta käyttämästä kalenteria.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">Estettiin %d sovellusta muokkaamasta kalenteria.</item>
+        <item quantity="one">Estettiin %d sovellusta muokkaamasta kalenteria.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">Estettiin %d sovellusta poistamasta kalenterin tapahtumia.</item>
+        <item quantity="one">Estettiin %d sovellusta poistamasta kalenterin tapahtumia.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">Estettiin %d sovelluksen pääsy selainhistoriaan.</item>
+        <item quantity="one">Estettiin %d sovelluksen pääsy selainhistoriaan.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">Estettiin %d sovellusta käyttämästä puhelun siirtoa.</item>
+        <item quantity="one">Estettiin %d sovellusta käyttämästä puhelun siirtoa.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Estetty mainoksia %1$d sovelluksessa</item>
+        <item quantity="one">Estetty mainoksia %1$d sovelluksessa</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d kohdetta täytyy optimoida manuaalisesti</item>
+        <item quantity="one">%1$d kohde täytyy optimoida manuaalisesti</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Suljettiin %1$d taustalla virtaa kuluttavaa sovellusta</item>
+        <item quantity="one">Suljettiin %1$d taustalla virtaa kuluttava sovellus</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d kohdetta</item>
+        <item quantity="one">%1$d kohde</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d kohdetta</item>
+        <item quantity="one">%1$d kohde</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d sovellusta on käynnissä, kun näyttö on sammutettu, sulje ne akun virran säästämiseksi</item>
+        <item quantity="one">%1$d sovellus on käynnissä, kun näyttö on sammutettu, sulje se akun virran säästämiseksi</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">%1$s arveluttavan sovelluksen lataus estetty</item>
+        <item quantity="one">%1$s arveluttavan sovelluksen lataus estetty</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">Poista %1$d löydettyä esiasentamat. sov.</item>
+        <item quantity="one">Poista %1$d löydetty esiasentamaton sov.</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Löytyi %2$s ei esiasennettua sovellusta (esim. %1$s). Poista asennus.</item>
+        <item quantity="one">Löytyi %2$s ei esiasennettu sovellus (esim. %1$s). Poista asennus.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d sovelluksen sulkeminen onnistui.</item>
+        <item quantity="one">%d sovelluksen sulkeminen onnistui.</item>
+    </plurals>
+</resources>

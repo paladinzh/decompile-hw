@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="usage_amount">
+        <com.android.settings.datausage.ChartDataUsagePreference android:key="chart_data" />
+        <Preference android:selectable="false" android:summary="@string/operator_warning" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="apps_group" />
+</PreferenceScreen>

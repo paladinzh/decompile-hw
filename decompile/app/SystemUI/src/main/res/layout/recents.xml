@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.recents.views.HwRecentsView android:id="@id/recents_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ViewStub android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/incompatible_app_overlay_stub" android:layout="@layout/recents_incompatible_app_overlay" android:inflatedId="@id/incompatible_app_overlay" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x8001" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nav_bar_scrim" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/recents_lower_gradient" android:scaleType="fitXY" />
+</FrameLayout>

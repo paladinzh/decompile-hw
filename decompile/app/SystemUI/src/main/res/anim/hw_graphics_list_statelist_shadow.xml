@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <set android:interpolator="@interpolator/hw_graphics_cubic_bezier_interpolator_type_10_90" android:duration="200">
+            <objectAnimator android:valueTo="-5dp" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="Alpha" />
+        </set>
+    </item>
+    <item android:state_pressed="false">
+        <set android:interpolator="@interpolator/hw_graphics_cubic_bezier_interpolator_type_10_90" android:duration="100">
+            <objectAnimator android:valueTo="0dp" android:valueType="floatType" android:propertyName="translationZ" />
+            <objectAnimator android:valueTo="0" android:valueType="floatType" android:propertyName="Alpha" />
+        </set>
+    </item>
+</selector>

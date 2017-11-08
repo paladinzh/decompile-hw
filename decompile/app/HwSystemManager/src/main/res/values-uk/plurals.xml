@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Викор. %1$d дн. тому</item>
+        <item quantity="one">Викор. %1$d д. тому</item>
+        <item quantity="few">Викор. %1$d дн. тому</item>
+        <item quantity="many">Викор. %1$d дн. тому</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d програм все ще працює після вимкнення екрана. Закрийте їх, щоб зберегти заряд акумулятора</item>
+        <item quantity="one">%1$d програма все ще працює після вимкнення екрана. Закрийте її, щоб зберегти заряд акумулятора</item>
+        <item quantity="few">%1$d програм все ще працює після вимкнення екрана. Закрийте їх, щоб зберегти заряд акумулятора</item>
+        <item quantity="many">%1$d програм все ще працює після вимкнення екрана. Закрийте їх, щоб зберегти заряд акумулятора</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d енергоємних програм закрито</item>
+        <item quantity="one">%1$d енергоємну програму закрито</item>
+        <item quantity="few">%1$d енергоємних програм закрито</item>
+        <item quantity="many">%1$d енергоємних програм закрито</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d програм приховано споживає заряд акумулятора. Ресурс акумулятора можна збільшити на %2$s, якщо закрити ці програми</item>
+        <item quantity="one">%1$d програма приховано споживає заряд акумулятора. Ресурс акумулятора можна збільшити на %2$s, якщо закрити цю програму</item>
+        <item quantity="few">%1$d програм приховано споживає заряд акумулятора. Ресурс акумулятора можна збільшити на %2$s, якщо закрити ці програми</item>
+        <item quantity="many">%1$d програм приховано споживає заряд акумулятора. Ресурс акумулятора можна збільшити на %2$s, якщо закрити ці програми</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">Заборонено вмикати мобільний Інтернет такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати мобільний Інтернет такій кількості програм: %d</item>
+        <item quantity="few">Заборонено вмикати мобільний Інтернет такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати мобільний Інтернет такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Заборонено вмикати Wi-Fi такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати Wi-Fi такій кількості програм: %d</item>
+        <item quantity="few">Заборонено вмикати Wi-Fi такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати Wi-Fi такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Заборонено вмикати WLAN такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати WLAN такій кількості програм: %d</item>
+        <item quantity="few">Заборонено вмикати WLAN такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати WLAN такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати мережу WLAN %d програмі</item>
+        <item quantity="few">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати мережу WLAN %d програмі</item>
+        <item quantity="few">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати мережу WLAN такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">Заборонено вмикати Bluetooth такій кількості програм: %d</item>
+        <item quantity="one">Заборонено вмикати Bluetooth такій кількості програм: %d</item>
+        <item quantity="few">Заборонено вмикати Bluetooth такій кількості програм: %d</item>
+        <item quantity="many">Заборонено вмикати Bluetooth такій кількості програм: %d</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Для роботи цієї функції потрібно ввімкнути вказані нижче дозволи. Перейти до розділу Налаштув. і ввімкнути їх?</item>
+        <item quantity="one">Для роботи цієї функції потрібно ввімкнути вказаний нижче дозвіл. Перейти до розділу Налаштув. і ввімкнути його?</item>
+        <item quantity="few">Для цієї функції потрібно надати наведені нижче дозволи. Перейти в налаштування та ввімкнути їх?</item>
+        <item quantity="many">Для цієї функції потрібно надати наведені нижче дозволи. Перейти в налаштування та ввімкнути їх?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Ці дозволи можна будь-коли вимкнути в налаштуваннях програми.</item>
+        <item quantity="one">Цей дозвіл можна будь-коли вимкнути в налаштув. програми.</item>
+        <item quantity="few">Ці дозволи можна будь-коли вимкнути в налаштув. програми.</item>
+        <item quantity="many">Ці дозволи можна будь-коли вимкнути в налаштув. програми.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">Програми, які можуть продовжувати працювати після вимкнення екрану: %1$d</item>
+        <item quantity="one">Програми, які можуть продовжувати працювати після вимкнення екрану: %1$d</item>
+        <item quantity="few">Програми, які можуть продовжувати працювати після вимкнення екрану: %1$d</item>
+        <item quantity="many">Програми, які можуть продовжувати працювати після вимкнення екрану: %1$d</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">Вибрано правил: %1$d</item>
+        <item quantity="one">Вибрано %1$d правило</item>
+        <item quantity="few">Вибрано правил: %1$d</item>
+        <item quantity="many">Вибрано правил: %1$d</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Видалити %1$d вибрані (-их) файли (-ів)?</item>
+        <item quantity="one">Видалити %1$d вибраний файл?</item>
+        <item quantity="few">Видалити %1$d вибраних файлів?</item>
+        <item quantity="many">Видалити %1$d вибрані файли?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Файли неможливо буде відновити.</item>
+        <item quantity="one">Файл неможливо буде відновити.</item>
+        <item quantity="few">Файли неможливо буде відновити.</item>
+        <item quantity="many">Файли неможливо буде відновити.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Видалити %1$d вибрані (-их) елементи (-ів) даних?</item>
+        <item quantity="one">Видалити %1$d вибраний елемент даних?</item>
+        <item quantity="few">Видалити %1$d вибраних елементів даних?</item>
+        <item quantity="many">Видалити %1$d вибрані елементи даних?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Дані неможливо буде відновити.</item>
+        <item quantity="one">Дані неможливо буде відновити.</item>
+        <item quantity="few">Дані неможливо буде відновити.</item>
+        <item quantity="many">Дані неможливо буде відновити.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Видалити %1$d вибраних (-і) програм (-и)?</item>
+        <item quantity="one">Видалити %1$d вибрану програму?</item>
+        <item quantity="few">Видалити %1$d вибраних програм?</item>
+        <item quantity="many">Видалити %1$d вибрані програми?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Відновити %1$d вибраних (-і) програм (-и)?</item>
+        <item quantity="one">Відновити %1$d вибрану програму?</item>
+        <item quantity="few">Відновити %1$d вибраних програм?</item>
+        <item quantity="many">Відновити %1$d вибрані програми?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Усі дані програм буде видалено. Програми буде відновлено до початкового стану після встановлення.</item>
+        <item quantity="one">Усі дані програми буде видалено. Цю програму буде відновлено до початкового стану після встановлення.</item>
+        <item quantity="few">Усі дані програм буде видалено. Програми буде відновлено до початкового стану після встановлення.</item>
+        <item quantity="many">Усі дані програм буде видалено. Програми буде відновлено до початкового стану після встановлення.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">Вірусів: %1$d</item>
+        <item quantity="one">%1$d вірус</item>
+        <item quantity="few">Вірусів: %1$d</item>
+        <item quantity="many">Вірусів: %1$d</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">Небезпечних програм: %1$d</item>
+        <item quantity="one">Небезпечних програм: %1$d</item>
+        <item quantity="few">Небезпечних програм: %1$d</item>
+        <item quantity="many">Небезпечних програм: %1$d</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">Неофіційних програм: %1$d</item>
+        <item quantity="one">Неофіційних програм: %1$d</item>
+        <item quantity="few">Неофіційних програм: %1$d</item>
+        <item quantity="many">Неофіційних програм: %1$d</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до повідомлень</item>
+        <item quantity="one">Обмежено доступ %d програми до повідомлень</item>
+        <item quantity="few">Обмежено доступ %d програм до повідомлень</item>
+        <item quantity="many">Обмежено доступ %d програм до повідомлень</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до журналу дзвінків</item>
+        <item quantity="one">Обмежено доступ %d програми до журналу дзвінків</item>
+        <item quantity="few">Обмежено доступ %d програм до журналу дзвінків</item>
+        <item quantity="many">Обмежено доступ %d програм до журналу дзвінків</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до контактів</item>
+        <item quantity="one">Обмежено доступ %d програми до контактів</item>
+        <item quantity="few">Обмежено доступ %d програм до контактів</item>
+        <item quantity="many">Обмежено доступ %d програм до контактів</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до календаря</item>
+        <item quantity="one">Обмежено доступ %d програми до календаря</item>
+        <item quantity="few">Обмежено доступ %d програм до календаря</item>
+        <item quantity="many">Обмежено доступ %d програм до календаря</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до вашого розташування</item>
+        <item quantity="one">Обмежено доступ %d програми до вашого розташування</item>
+        <item quantity="few">Обмежено доступ %d програм до вашого розташування</item>
+        <item quantity="many">Обмежено доступ %d програм до вашого розташування</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм до ідентифікатора телефону</item>
+        <item quantity="one">Обмежено доступ %d програми до ідентифікатора телефону</item>
+        <item quantity="few">Обмежено доступ %d програм до ідентифікатора телефону</item>
+        <item quantity="many">Обмежено доступ %d програм до ідентифікатора телефону</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">Обмежено доступ %d програм для запису аудіо</item>
+        <item quantity="one">Обмежено доступ %d програми для запису аудіо</item>
+        <item quantity="few">Обмежено доступ %d програм для запису аудіо</item>
+        <item quantity="many">Обмежено доступ %d програм для запису аудіо</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">Обмежено доступ %d програм для здійснення викликів</item>
+        <item quantity="one">Обмежено доступ %d програми для здійснення викликів</item>
+        <item quantity="few">Обмежено доступ %d програм для здійснення викликів</item>
+        <item quantity="many">Обмежено доступ %d програм для здійснення викликів</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d прог.</item>
+        <item quantity="one">%d прог.</item>
+        <item quantity="few">%d прог.</item>
+        <item quantity="many">%d прог.</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">Віруси: %d</item>
+        <item quantity="one">Віруси: %d</item>
+        <item quantity="few">Віруси: %d</item>
+        <item quantity="many">Віруси: %d</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Знайдено програми з рекламою (%d), можливе видалення вручну</item>
+        <item quantity="one">Знайдено %d програму з рекламою, можливе видалення вручну</item>
+        <item quantity="few">Знайдено програми з рекламою (%d), можливе видалення вручну</item>
+        <item quantity="many">Знайдено програми з рекламою (%d), можливе видалення вручну</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Оновлено %1$d год. тому</item>
+        <item quantity="one">Оновлено %1$d годину тому</item>
+        <item quantity="few">Оновлено %1$d год. тому</item>
+        <item quantity="many">Оновлено %1$d год. тому</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Оновлено %1$d дн. тому</item>
+        <item quantity="one">Оновлено %1$d день тому</item>
+        <item quantity="few">Оновлено %1$d дн. тому</item>
+        <item quantity="many">Оновлено %1$d дн. тому</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Оновлено %1$d міс. тому</item>
+        <item quantity="one">Оновлено %1$d місяць тому</item>
+        <item quantity="few">Оновлено %1$d міс. тому</item>
+        <item quantity="many">Оновлено %1$d міс. тому</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Видалити %d вибрані (-их) контакти (-ів)?</item>
+        <item quantity="one">Видалити %d вибраний контакт?</item>
+        <item quantity="few">Видалити %d вибраних контактів?</item>
+        <item quantity="many">Видалити %d вибрані контакти?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Закрито програм: %1$d, звільнено обсяг пам’яті: %2$s. %3$s</item>
+        <item quantity="one">Закрито програм: %1$d, звільнено обсяг пам’яті: %2$s. %3$s</item>
+        <item quantity="few">Закрито програм: %1$d, звільнено обсяг пам’яті: %2$s. %3$s</item>
+        <item quantity="many">Закрито програм: %1$d, звільнено обсяг пам’яті: %2$s. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Не викор. днів: %1$d, розмір: %2$s</item>
+        <item quantity="one">Не використано: %1$d дн., розмір: %2$s</item>
+        <item quantity="few">Не викор. днів: %1$d, розмір: %2$s</item>
+        <item quantity="many">Не викор. днів: %1$d, розмір: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Закрити програм: %1$d, щоб звільнити %2$s пам&apos;яті</item>
+        <item quantity="one">Закрити %1$d програму, щоб звільнити %2$s пам&apos;яті</item>
+        <item quantity="few">Закрити програм: %1$d, щоб звільнити %2$s пам&apos;яті</item>
+        <item quantity="many">Закрити програм: %1$d, щоб звільнити %2$s пам&apos;яті</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">Програм закрито: %1$d, звільнено пам&apos;яті: %2$s</item>
+        <item quantity="one">Програм закрито: %1$d, звільнено пам&apos;яті: %2$s</item>
+        <item quantity="few">Програм закрито: %1$d, звільнено пам&apos;яті: %2$s</item>
+        <item quantity="many">Програм закрито: %1$d, звільнено пам&apos;яті: %2$s</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">Заборонено надсилати повідомлення MMS %d прог.</item>
+        <item quantity="one">Заборонено надсилати повідомлення MMS %d прог.</item>
+        <item quantity="few">Заборонено надсилати повідомлення MMS %d прог.</item>
+        <item quantity="many">Заборонено надсилати повідомлення MMS %d прог.</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">Заборонено вносити зміни до записів журналу викликів %d прог.</item>
+        <item quantity="one">Заборонено вносити зміни до записів журналу викликів %d прог.</item>
+        <item quantity="few">Заборонено вносити зміни до записів журналу викликів %d прог.</item>
+        <item quantity="many">Заборонено вносити зміни до записів журналу викликів %d прог.</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">Заборонено вносити зміни до контактів %d прог.</item>
+        <item quantity="one">Заборонено вносити зміни до контактів %d прог.</item>
+        <item quantity="few">Заборонено вносити зміни до контактів %d прог.</item>
+        <item quantity="many">Заборонено вносити зміни до контактів %d прог.</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">Заборонено видаляти записи журналу викликів %d прог.</item>
+        <item quantity="one">Заборонено видаляти записи журналу викликів %d прог.</item>
+        <item quantity="few">Заборонено видаляти записи журналу викликів %d прог.</item>
+        <item quantity="many">Заборонено видаляти записи журналу викликів %d прог.</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">Заборонено видаляти контакти %d прог.</item>
+        <item quantity="one">Заборонено видаляти контакти %d прог.</item>
+        <item quantity="few">Заборонено видаляти контакти %d прог.</item>
+        <item quantity="many">Заборонено видаляти контакти %d прог.</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">Обмежено доступ %d програм для фотографування або знімання відео</item>
+        <item quantity="one">Обмежено доступ %d програми для фотографування або знімання відео</item>
+        <item quantity="few">Обмежено доступ %d програм для фотографування або знімання відео</item>
+        <item quantity="many">Обмежено доступ %d програм для фотографування або знімання відео</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">Заборонено надсилати повідомлення SMS %d прог.</item>
+        <item quantity="one">Заборонено надсилати повідомлення SMS %d прог.</item>
+        <item quantity="few">Заборонено надсилати повідомлення SMS %d прог.</item>
+        <item quantity="many">Заборонено надсилати повідомлення SMS %d прог.</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Надано дозвіл %1$d програмам(-і) показувати область перетягування (Dropzone).</item>
+        <item quantity="one">Надано дозвіл %1$d програмі показувати область перетягування (Dropzone).</item>
+        <item quantity="few">Надано дозвіл %1$d програмам(-і) показувати область перетягування (Dropzone).</item>
+        <item quantity="many">Надано дозвіл %1$d програмам(-і) показувати область перетягування (Dropzone).</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">днів</item>
+        <item quantity="one">день</item>
+        <item quantity="few">днів</item>
+        <item quantity="many">днів</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">Заблоковано програм: %1$d</item>
+        <item quantity="one">Заблоковано програм: %1$d</item>
+        <item quantity="few">Заблоковано програм: %1$d</item>
+        <item quantity="many">Заблоковано програм: %1$d</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">Працює програм: %1$d</item>
+        <item quantity="one">Працює програм: %1$d</item>
+        <item quantity="few">Працює програм: %1$d</item>
+        <item quantity="many">Працює програм: %1$d</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Видалити вибрані програми?</item>
+        <item quantity="one">Видалити вибрану програму?</item>
+        <item quantity="few">Видалити вибрані програми?</item>
+        <item quantity="many">Видалити вибрані програми?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d елем.</item>
+        <item quantity="one">%1$d елем.</item>
+        <item quantity="few">%1$d елем.</item>
+        <item quantity="many">%1$d елем.</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">Прав доступу: %1$d</item>
+        <item quantity="one">Прав доступу: %1$d</item>
+        <item quantity="few">Прав доступу: %1$d</item>
+        <item quantity="many">Прав доступу: %1$d</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Видалити ці файли? Їх не можна буде відновити.</item>
+        <item quantity="one">Видалити цей файл? Його не можна буде відновити.</item>
+        <item quantity="few">Видалити ці файли? Їх не можна буде відновити.</item>
+        <item quantity="many">Видалити ці файли? Їх не можна буде відновити.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Видалити ці файли? Їх неможливо буде відновити.</item>
+        <item quantity="one">Видалити цей файл? Його неможливо буде відновити.</item>
+        <item quantity="few">Видалити ці файли? Їх неможливо буде відновити.</item>
+        <item quantity="many">Видалити ці файли? Їх неможливо буде відновити.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Система остаточно видалить усі дані вибраних програм. Для програм буде відновлено початкові налаштування.</item>
+        <item quantity="one">Система остаточно видалить усі дані вибраної програми. Для програми буде відновлено початкові налаштування.</item>
+        <item quantity="few">Система остаточно видалить усі дані вибраних програм. Для програм буде відновлено початкові налаштування.</item>
+        <item quantity="many">Система остаточно видалить усі дані вибраних програм. Для програм буде відновлено початкові налаштування.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Час використання збільшено на %1$d хв.</item>
+        <item quantity="one">Час використання збільшено на %1$d хв.</item>
+        <item quantity="few">Час використання збільшено на %1$d хв.</item>
+        <item quantity="many">Час використання збільшено на %1$d хв.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Закрито програм: %1$d, звільнено місця в пам&apos;яті: %2$s</item>
+        <item quantity="one">Закрито програм: %1$d, звільнено місця в пам&apos;яті: %2$s</item>
+        <item quantity="few">Закрито програм: %1$d, звільнено місця в пам&apos;яті: %2$s</item>
+        <item quantity="many">Закрито програм: %1$d, звільнено місця в пам&apos;яті: %2$s</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d хв</item>
+        <item quantity="one">%1$d хв</item>
+        <item quantity="few">%1$d хв</item>
+        <item quantity="many">%1$d хв</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d год</item>
+        <item quantity="one">%1$d год</item>
+        <item quantity="few">%1$d год</item>
+        <item quantity="many">%1$d год</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">Ще %1$s хв</item>
+        <item quantity="one">Ще %1$s хв</item>
+        <item quantity="few">Ще %1$s хв</item>
+        <item quantity="many">Ще %1$s хв</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">Ще %1$s хв</item>
+        <item quantity="one">Ще %1$s хв</item>
+        <item quantity="few">Ще %1$s хв</item>
+        <item quantity="many">Ще %1$s хв</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Ще %1$d хв</item>
+        <item quantity="one">Ще %1$d хв</item>
+        <item quantity="few">Ще %1$d хв</item>
+        <item quantity="many">Ще %1$d хв</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Ще %1$s хв</item>
+        <item quantity="one">Ще %1$s хв</item>
+        <item quantity="few">Ще %1$s хв</item>
+        <item quantity="many">Ще %1$s хв</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$d сек.</item>
+        <item quantity="one">%1$d сек.</item>
+        <item quantity="few">%1$d сек.</item>
+        <item quantity="many">%1$d сек.</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d разів (реком.)</item>
+        <item quantity="one">%d раз (реком.)</item>
+        <item quantity="few">%d разів (реком.)</item>
+        <item quantity="many">%d разів (реком.)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d разів</item>
+        <item quantity="one">%d раз</item>
+        <item quantity="few">%d разів</item>
+        <item quantity="many">%d разів</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">Позначено стількома особами: %d</item>
+        <item quantity="one">Позначено %d особою</item>
+        <item quantity="few">Позначено стількома особами: %d</item>
+        <item quantity="many">Позначено стількома особами: %d</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">Наявних програм: %1$d</item>
+        <item quantity="one">Наявних програм: %1$d</item>
+        <item quantity="few">Наявних програм: %1$d</item>
+        <item quantity="many">Наявних програм: %1$d</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">Можна оптимізувати %1$d</item>
+        <item quantity="one">Можна оптимізувати %1$d</item>
+        <item quantity="few">Можна оптимізувати %1$d</item>
+        <item quantity="many">Можна оптимізувати %1$d</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d програми закриті через інтенсивне енергоспоживання. Торкніться для перегляду деталей</item>
+        <item quantity="one">Програму %1$d було закрито через надмірне енергоспоживання, торкніться, щоб переглянути деталі</item>
+        <item quantity="few">%1$d програми закриті через інтенсивне енергоспоживання. Торкніться для перегляду деталей</item>
+        <item quantity="many">%1$d програми закриті через інтенсивне енергоспоживання. Торкніться для перегляду деталей</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d фото</item>
+        <item quantity="one">%1$d фото</item>
+        <item quantity="few">%1$d фото</item>
+        <item quantity="many">%1$d фото</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Оновлено %d дн. тому</item>
+        <item quantity="one">Оновлено %d день тому</item>
+        <item quantity="few">Оновлено %d дн. тому</item>
+        <item quantity="many">Оновлено %d дн. тому</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">Очищення не виконувалося %d дн. Торкніться, щоб виконати його.</item>
+        <item quantity="one">Очищення не виконувалось %d день. Торкніться, щоб виконати його.</item>
+        <item quantity="few">Очищення не виконувалося %d дн. Торкніться, щоб виконати його.</item>
+        <item quantity="many">Очищення не виконувалося %d дн. Торкніться, щоб виконати його.</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Програм, для яких не можна створити ярлики на головному екрані: %d.</item>
+        <item quantity="one">Програм, для яких не можна створити ярлики на головному екрані: %d.</item>
+        <item quantity="few">Програм, для яких не можна створити ярлики на головному екрані: %d.</item>
+        <item quantity="many">Програм, для яких не можна створити ярлики на головному екрані: %d.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">Програм, які буде пропущено під час очищення: %1$d.</item>
+        <item quantity="one">Під час очищення буде пропущено %1$d програму.</item>
+        <item quantity="few">Програм, які буде пропущено під час очищення: %1$d.</item>
+        <item quantity="many">Програм, які буде пропущено під час очищення: %1$d.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">Програм, яким обмежено доступ до списку встановлених програм: %d</item>
+        <item quantity="one">%d програмі обмежено доступ до списку встановлених програм.</item>
+        <item quantity="few">Програм, яким обмежено доступ до списку встановлених програм: %d</item>
+        <item quantity="many">Програм, яким обмежено доступ до списку встановлених програм: %d</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">Очищено програм: %d.</item>
+        <item quantity="one">%d програму очищено.</item>
+        <item quantity="few">Очищено програм: %d.</item>
+        <item quantity="many">Очищено програм: %d.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d програмам заборонено використовувати дані тренувань (щоб показувати кількість зроблених кроків і жестів струшування).</item>
+        <item quantity="one">%d програмі заборонено використовувати дані тренувань (щоб показувати кількість зроблених кроків і жестів струшування).</item>
+        <item quantity="few">%d програмам заборонено використовувати дані тренувань (щоб показувати кількість зроблених кроків і жестів струшування).</item>
+        <item quantity="many">%d програмам заборонено використовувати дані тренувань (щоб показувати кількість зроблених кроків і жестів струшування).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">Програмам %d обмежений доступ до даних про стан здоров&apos;я.</item>
+        <item quantity="one">Програмі %d обмежений доступ до даних про стан здоров&apos;я.</item>
+        <item quantity="few">Програмам %d обмежений доступ до даних про стан здоров&apos;я.</item>
+        <item quantity="many">Програмам %d обмежений доступ до даних про стан здоров&apos;я.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">Необхідно оптимізувати %1$d елементів</item>
+        <item quantity="one">Необхідно оптимізувати %1$d елемент</item>
+        <item quantity="few">Необхідно оптимізувати %1$d елементи</item>
+        <item quantity="many">Необхідно оптимізувати %1$d елементів</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d патчі для встановлення</item>
+        <item quantity="one">%1$d патч для встановлення</item>
+        <item quantity="few">%1$d патчі для встановлення</item>
+        <item quantity="many">%1$d патчі для встановлення</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d програм містять рекламу</item>
+        <item quantity="one">%1$d програма містить рекламу</item>
+        <item quantity="few">%1$d програм містять рекламу</item>
+        <item quantity="many">%1$d програм містять рекламу</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">Дозволено автоматичний запуск стільком програмам: %d.</item>
+        <item quantity="one">Дозволено автоматичний запуск стільком програмам: %d.</item>
+        <item quantity="few">Дозволено автоматичний запуск стільком програмам: %d.</item>
+        <item quantity="many">Дозволено автоматичний запуск стільком програмам: %d.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">Інші програми можуть запускати таку кількість програм: %d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Рекомендуємо заборонити цю дію.</item>
+        <item quantity="one">%d програму можуть запускати інші програми. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Рекомендуємо заборонити цю дію.</item>
+        <item quantity="few">Інші програми можуть запускати таку кількість програм: %d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Рекомендуємо заборонити цю дію.</item>
+        <item quantity="many">Інші програми можуть запускати таку кількість програм: %d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Рекомендуємо заборонити цю дію.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">Інші програми можуть запускати стільки програм: %1$d. Це може призвести до того, що %2$s працюватиме повільніше, а його енергоспоживання зросте. Рекомендується обмежити такий режим роботи.</item>
+        <item quantity="one">%1$d програма може запускатися іншими програмами. Це може призвести до того, що %2$s працюватиме повільніше, а його енергоспоживання зросте. Рекомендується обмежити такий режим роботи.</item>
+        <item quantity="few">Інші програми можуть запускати стільки програм: %1$d. Це може призвести до того, що %2$s працюватиме повільніше, а його енергоспоживання зросте. Рекомендується обмежити такий режим роботи.</item>
+        <item quantity="many">Інші програми можуть запускати стільки програм: %1$d. Це може призвести до того, що %2$s працюватиме повільніше, а його енергоспоживання зросте. Рекомендується обмежити такий режим роботи.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Програма може автоматично запускатися за наведених нижче умов (%d). Дозволити?</item>
+        <item quantity="one">Програма може автоматично запускатися за наведених нижче умов (%d). Дозволити?</item>
+        <item quantity="few">Програма може автоматично запускатися за наведених нижче умов (%d). Дозволити?</item>
+        <item quantity="many">Програма може автоматично запускатися за наведених нижче умов (%d). Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Програма може автоматично запускатися за наведених нижче умов (%d). Заборонити?</item>
+        <item quantity="one">Програма може автоматично запускатися за наведених нижче умов (%d). Заборонити?</item>
+        <item quantity="few">Програма може автоматично запускатися за наведених нижче умов (%d). Заборонити?</item>
+        <item quantity="many">Програма може автоматично запускатися за наведених нижче умов (%d). Заборонити?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Програма та її копія будуть автоматично запускатися за наведених нижче умов (%d). Обмежити?</item>
+        <item quantity="one">Програма та її копія будуть автоматично запускатися за наведених нижче умов (%d). Обмежити?</item>
+        <item quantity="few">Програма та її копія будуть автоматично запускатися за наведених нижче умов (%d). Обмежити?</item>
+        <item quantity="many">Програма та її копія будуть автоматично запускатися за наведених нижче умов (%d). Обмежити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="one">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="few">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="many">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="one">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="few">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="many">%1$s може запускати така кількість програм: %2$d. Це може призвести до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="one">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="few">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+        <item quantity="many">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="one">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="few">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+        <item quantity="many">%1$s може запускати така кількість програм: %2$d. Це призведе до повільнішої роботи телефону та більшого енергоспоживання. Заборонити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="one">Програму %1$s може запускати інша програма (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="few">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="many">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="one">Програму %1$s може запускати інша програма (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="few">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="many">Програму %1$s можуть запускати інші програми (%2$d). Це може призвести до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="one">Програму %1$s може запускати інша програма (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="few">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="many">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="one">Програму %1$s може запускати інша програма (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="few">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+        <item quantity="many">Програму %1$s можуть запускати інші програми (%2$d). Це призведе до того, що %3$s працюватиме повільніше, а його енергоспоживання зросте. Обмежити?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Запущено: %1$d разів | Останній раз: %2$s</item>
+        <item quantity="one">Запущено: %1$d раз | Останній раз: %2$s</item>
+        <item quantity="few">Запущено: %1$d рази | Останній раз: %2$s</item>
+        <item quantity="many">Запущено: %1$d разів | Останній раз: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Обмежено: %1$d разів | Останній раз: %2$s</item>
+        <item quantity="one">Обмежено: %1$d раз | Останній раз: %2$s</item>
+        <item quantity="few">Обмежено: %1$d рази | Останній раз: %2$s</item>
+        <item quantity="many">Обмежено: %1$d разів | Останній раз: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Запущено: %1$d разів | Останній раз: %2$s</item>
+        <item quantity="one">Запущено: %1$d раз | Останній раз: %2$s</item>
+        <item quantity="few">Запущено: %1$d рази | Останній раз: %2$s</item>
+        <item quantity="many">Запущено: %1$d разів | Останній раз: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Обмежено: %1$d разів | Останній раз: %2$s</item>
+        <item quantity="one">Обмежено: %1$d раз | Останній раз: %2$s</item>
+        <item quantity="few">Обмежено: %1$d рази | Останній раз: %2$s</item>
+        <item quantity="many">Обмежено: %1$d разів | Останній раз: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">Знайдено програми з автоматичним запуском (%d)</item>
+        <item quantity="one">Знайдено програму з автоматичним запуском (%d)</item>
+        <item quantity="few">Знайдено програми з автоматичним запуском (%d)</item>
+        <item quantity="many">Знайдено програми з автоматичним запуском (%d)</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">Усього файлів: %1$s</item>
+        <item quantity="one">Усього файлів: %1$s</item>
+        <item quantity="few">Усього файлів: %1$s</item>
+        <item quantity="many">Усього файлів: %1$s</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d д. без сканув. – нат., щоб виконати повне ск.</item>
+        <item quantity="one">%d д. без сканув. – нат., щоб виконати повне ск.</item>
+        <item quantity="few">%d д. без сканув. – нат., щоб виконати повне ск.</item>
+        <item quantity="many">%d д. без сканув. – нат., щоб виконати повне ск.</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d пр. містять підозрілі права</item>
+        <item quantity="one">%1$d пр. містить підозрілі права</item>
+        <item quantity="few">%1$d пр. містять підозрілі права</item>
+        <item quantity="many">%1$d пр. містять підозрілі права</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Не вдається розпізнати відбиток, у вас ще є %1$d спроб(и)</item>
+        <item quantity="one">Не вдається розпізнати відбиток, у вас є ще %1$d спроба</item>
+        <item quantity="few">Не вдається розпізнати відбиток, у вас ще є %1$d спроб(и)</item>
+        <item quantity="many">Не вдається розпізнати відбиток, у вас ще є %1$d спроб(и)</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Сканування відбитка відкладено. Повторіть спробу через %1$d секунд(и)</item>
+        <item quantity="one">Сканування відбитка відкладено. Повторіть спробу через %1$d секунду</item>
+        <item quantity="few">Сканування відбитка відкладено. Повторіть спробу через %1$d секунд(и)</item>
+        <item quantity="many">Сканування відбитка відкладено. Повторіть спробу через %1$d секунд(и)</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Відповідь неправильна. Залишилося спроб: %1$d.</item>
+        <item quantity="one">Відповідь неправильна. Залишилась %1$d спроба.</item>
+        <item quantity="few">Відповідь неправильна. Залишилося спроб: %1$d.</item>
+        <item quantity="many">Відповідь неправильна. Залишилося спроб: %1$d.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Спробуйте знову через %1$d год.</item>
+        <item quantity="one">Спробуйте знову через %1$d год.</item>
+        <item quantity="few">Спробуйте знову через %1$d год.</item>
+        <item quantity="many">Спробуйте знову через %1$d год.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Спробуйте знову через %1$d хв.</item>
+        <item quantity="one">Спробуйте знову через %1$d хв.</item>
+        <item quantity="few">Спробуйте знову через %1$d хв.</item>
+        <item quantity="many">Спробуйте знову через %1$d хв.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Спробуйте знову через %1$d с.</item>
+        <item quantity="one">Спробуйте знову через %1$d с.</item>
+        <item quantity="few">Спробуйте знову через %1$d с.</item>
+        <item quantity="many">Спробуйте знову через %1$d с.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">Програми (%1$d), що найбільше розряджають акумулятор</item>
+        <item quantity="one">Програми (%1$d), що найбільше розряджають акумулятор</item>
+        <item quantity="few">Програми (%1$d), що найбільше розряджають акумулятор</item>
+        <item quantity="many">Програми (%1$d), що найбільше розряджають акумулятор</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d д.</item>
+        <item quantity="one">%1$d д.</item>
+        <item quantity="few">%1$d д.</item>
+        <item quantity="many">%1$d д.</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Усі вибрані дані для програм і їхніх копій буде видалено. Після встановлення буде відновлено початковий стан програм.</item>
+        <item quantity="one">Усі вибрані дані для програми і її копії буде видалено. Після встановлення буде відновлено початковий стан програми.</item>
+        <item quantity="few">Усі вибрані дані для програм і їхніх копій буде видалено. Після встановлення буде відновлено початковий стан програм.</item>
+        <item quantity="many">Усі вибрані дані для програм і їхніх копій буде видалено. Після встановлення буде відновлено початковий стан програм.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Програма та її копія можуть автоматично запускатися за наведених нижче умов (%1$d). Дозволити?</item>
+        <item quantity="one">Програма та її копія можуть автоматично запускатися за наведених нижче умов (%1$d). Дозволити?</item>
+        <item quantity="few">Програма та її копія можуть автоматично запускатися за наведених нижче умов (%1$d). Дозволити?</item>
+        <item quantity="many">Програма та її копія можуть автоматично запускатися за наведених нижче умов (%1$d). Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">Програму %1$s та її копію можуть запускати інші програми (%2$d). Це може призвести до того, що телефон працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="one">Програму %1$s та її копію може запускати інша програма (%2$d). Це може призвести до того, що телефон працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="few">Програму %1$s та її копію можуть запускати інші програми (%2$d). Це може призвести до того, що телефон працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+        <item quantity="many">Програму %1$s та її копію можуть запускати інші програми (%2$d). Це може призвести до того, що телефон працюватиме повільніше, а його енергоспоживання зросте. Дозволити?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">Програму %1$s та її копію можуть запускати інші програми (%2$d). У результаті %3$s може працювати повільніше й споживати більше енергії. Дозволити?</item>
+        <item quantity="one">Програму %1$s та її копію може запускати %2$d програма. У результаті %3$s може працювати повільніше й споживати більше енергії. Дозволити?</item>
+        <item quantity="few">Програму %1$s та її копію можуть запускати інші програми (%2$d). У результаті %3$s може працювати повільніше й споживати більше енергії. Дозволити?</item>
+        <item quantity="many">Програму %1$s та її копію можуть запускати інші програми (%2$d). У результаті %3$s може працювати повільніше й споживати більше енергії. Дозволити?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">Після блокування екрана не буде закрито деякі програми (%1$d)</item>
+        <item quantity="one">Після блокування екрана не буде закрито %1$d програму</item>
+        <item quantity="few">Після блокування екрана не буде закрито деякі програми (%1$d)</item>
+        <item quantity="many">Після блокування екрана не буде закрито деякі програми (%1$d)</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">Після блокування екрана буде закрито програми (%1$d)</item>
+        <item quantity="one">Після блокування екрана буде закрито %1$d програму</item>
+        <item quantity="few">Після блокування екрана буде закрито програми (%1$d)</item>
+        <item quantity="many">Після блокування екрана буде закрито програми (%1$d)</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">Доступ до календаря обмежений для %d програм.</item>
+        <item quantity="one">Доступ до календаря обмежений для %d програми.</item>
+        <item quantity="few">Доступ до календаря обмежений для %d програм.</item>
+        <item quantity="many">Доступ до календаря обмежений для %d програм.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">Зміна календаря обмежена для %d програм.</item>
+        <item quantity="one">Зміна календаря обмежена для %d програми.</item>
+        <item quantity="few">Зміна календаря обмежена для %d програм.</item>
+        <item quantity="many">Видалення подій з календаря обмежене для %d програм.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">Видалення подій з календаря обмежене для %d програм.</item>
+        <item quantity="one">Видалення подій з календаря обмежене для %d програми.</item>
+        <item quantity="few">Видалення подій з календаря обмежене для %d програм.</item>
+        <item quantity="many">Видалення подій з календаря обмежене для %d програм.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">Доступ до історії браузера обмежений для %d програм.</item>
+        <item quantity="one">Доступ до історії браузера обмежений для %d програми.</item>
+        <item quantity="few">Доступ до історії браузера обмежений для %d програм.</item>
+        <item quantity="many">Доступ до історії браузера обмежений для %d програм.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">Доступ до переадрес. виклику обмеж. для %d програм.</item>
+        <item quantity="one">Доступ до переадрес. виклику обмеж. для %d програми.</item>
+        <item quantity="few">Доступ до переадрес. виклику обмеж. для %d програм.</item>
+        <item quantity="many">Доступ до переадрес. виклику обмеж. для %d програм.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Реклама заблокована в %1$d програмах</item>
+        <item quantity="one">Реклама заблокована в %1$d програмі</item>
+        <item quantity="few">Реклама заблокована в %1$d програмах</item>
+        <item quantity="many">Реклама заблокована в %1$d програмах</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d елемент необхідно оптимізувати вручну</item>
+        <item quantity="one">%1$d елемент необхідно оптимізувати вручну</item>
+        <item quantity="few">%1$d елемент необхідно оптимізувати вручну</item>
+        <item quantity="many">%1$d елемент необхідно оптимізувати вручну</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Закрито %1$d програм, які витрачають заряд акумулятора в фоновому режимі</item>
+        <item quantity="one">Закрита %1$d програма, яка витрачає заряд акумулятора в фоновому режимі</item>
+        <item quantity="few">Закрито %1$d програми, які витрачають заряд акумулятора в фоновому режимі</item>
+        <item quantity="many">Закрито %1$d програм, які витрачають заряд акумулятора в фоновому режимі</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d елем.</item>
+        <item quantity="one">%1$d елем.</item>
+        <item quantity="few">%1$d елем.</item>
+        <item quantity="many">%1$d елем.</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d елем.</item>
+        <item quantity="one">%1$d елем.</item>
+        <item quantity="few">%1$d елем.</item>
+        <item quantity="many">%1$d елем.</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d програм працюють при вимкненому екрані, закрийте для збереження заряду акумулятора</item>
+        <item quantity="one">%1$d програма працює при вимкненому екрані, закрийте для збереження заряду акумулятора</item>
+        <item quantity="few">%1$d програми працюють при вимкненому екрані, закрийте для збереження заряду акумулятора</item>
+        <item quantity="many">%1$d програм працюють при вимкненому екрані, закрийте для збереження заряду акумулятора</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">Заблоковано завантажень підозрілих програм: %1$s</item>
+        <item quantity="one">Заблоковано %1$s завантаження підозрілих програм</item>
+        <item quantity="few">Заблоковано завантажень підозрілих програм: %1$s</item>
+        <item quantity="many">Заблоковано завантажень підозрілих програм: %1$s</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">Знайдено %1$d поперед. не визнач. прог., видаліть їх</item>
+        <item quantity="one">Знайдена %1$d поперед. не визнач. прог., видаліть її</item>
+        <item quantity="few">Знайдено %1$d поперед. не визнач. прог., видаліть їх</item>
+        <item quantity="many">Знайдено %1$d поперед. не визнач. прог., видаліть їх</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Знайдено %2$s не попередньо встановлених додатка(ів) (тобто %1$s). Будь ласка, видаліть їх.</item>
+        <item quantity="one">Знайдено %2$s не попередньо встановлений додаток (тобто %1$s). Будь ласка, видаліть його.</item>
+        <item quantity="few">Знайдено %2$s не попередньо встановлених додатка(ів) (тобто %1$s). Будь ласка, видаліть їх.</item>
+        <item quantity="many">Знайдено %2$s не попередньо встановлених додатка(ів) (тобто %1$s). Будь ласка, видаліть їх.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">Успішно закрито програм: %d.</item>
+        <item quantity="one">Успішно закрито програм: %d.</item>
+        <item quantity="few">Успішно закрито програм: %d.</item>
+        <item quantity="many">Успішно закрито програм: %d.</item>
+    </plurals>
+</resources>

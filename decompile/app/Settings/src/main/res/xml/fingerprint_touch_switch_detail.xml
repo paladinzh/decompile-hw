@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:layout_below="@id/fp_touch_content_layout" android:title="@string/fingerprint_touch"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:persistent="true" android:title="@string/title_fingetprint_slide" android:key="fingerprint_slide_switch" android:defaultValue="false" />
+    <SwitchPreference android:persistent="true" android:title="@string/title_fingetprint_camera" android:key="fingerprint_camera_switch" android:defaultValue="false" />
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" android_custom:layout_width="wrap_content" android_custom:layout_height="wrap_content">
+    <com.huawei.rcs.ui.RoundProgressBar android_custom:id="@+id/squareProgressBar1" android_custom:visibility="gone" android_custom:layout_width="wrap_content" android_custom:layout_height="wrap_content" android_custom:layout_centerInParent="true" style="@style/RoundProgressBarStyle" />
+    <RelativeLayout android_custom:layout_width="match_parent" android_custom:layout_height="match_parent">
+        <ImageView android_custom:id="@+id/imageView1" android_custom:layout_width="match_parent" android_custom:layout_height="match_parent" android_custom:layout_centerInParent="true" />
+        <ImageView android_custom:id="@+id/rcs_file_icon" android_custom:layout_width="UNKNOWN_DATA_0x2201" android_custom:layout_height="UNKNOWN_DATA_0x2201" android_custom:layout_centerInParent="true" />
+        <RelativeLayout android_custom:id="@+id/rcs_media_info" android_custom:visibility="gone" android_custom:layout_width="match_parent" android_custom:layout_height="wrap_content" android_custom:layout_alignParentBottom="true">
+            <ImageView android_custom:id="@+id/rcs_media_backgroud" android_custom:background="@drawable/rcs_media_backgroud" android_custom:layout_width="match_parent" android_custom:layout_height="wrap_content" android_custom:layout_alignParentBottom="true" android_custom:alpha="100.0" />
+            <TextView android_custom:textColor="0x106000b" android_custom:id="@+id/rcs_media_info_size" android_custom:layout_width="wrap_content" android_custom:layout_height="wrap_content" android_custom:layout_marginRight="6dp" android_custom:layout_alignParentRight="true" android_custom:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

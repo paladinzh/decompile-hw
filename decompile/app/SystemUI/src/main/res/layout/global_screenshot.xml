@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+    <ImageView systemui:id="@id/global_screenshot_background" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:src="0x106000c" />
+    <LinearLayout systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="vertical" systemui:id="@id/global_screenshot_linear_layout" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content"
+        <LinearLayout systemui:background="@drawable/popup_top_bright_emui" systemui:paddingLeft="@dimen/global_screenshot_parent_padding" systemui:paddingTop="@dimen/global_screenshot_parent_padding" systemui:paddingRight="@dimen/global_screenshot_parent_padding" systemui:paddingBottom="@dimen/global_screenshot_parent_padding_bottom" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+            <com.android.emui.view.RoundedImageView systemui:id="@id/global_screenshot" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:scaleType="matrix" />
+        </LinearLayout>
+        <com.android.systemui.screenshot.views.HwScreenshotItemsLayout systemui:orientation="horizontal" systemui:background="@drawable/global_screenshot_btn_bg" systemui:paddingTop="6dp" systemui:paddingBottom="6dp" systemui:layout_width="match_parent" systemui:layout_height="wrap_content" systemui:paddingStart="16dp" systemui:paddingEnd="16dp">
+            <include layout="@layout/actionpanel_one_item" />
+            <include layout="@layout/actionpanel_two_item" />
+            <include layout="@layout/actionpanel_three_item" />
+        </com.android.systemui.screenshot.views.HwScreenshotItemsLayout>
+    </LinearLayout>
+    <ImageView systemui:id="@id/global_screenshot_flash" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:src="0x106000b" />
+    <com.android.systemui.screenshot.ScreenshotSelectorView systemui:id="@id/global_screenshot_selector" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:pointerIcon="1007" />
+</FrameLayout>

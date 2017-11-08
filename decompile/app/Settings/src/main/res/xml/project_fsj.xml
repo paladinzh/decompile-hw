@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/settings_label" android:key="project_fsj_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/emui_version_emotion" android:key="emui_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/status_serial_number" android:key="serial_number" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status_no_widget" android:title="@string/product_ID" android:key="product_ID" android:summary="@string/device_info_default" />
+</PreferenceScreen>

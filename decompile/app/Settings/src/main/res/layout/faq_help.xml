@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/wifi_help" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/not_findout_solutions" style="@style/help_text_title_style" />
+        <TextView android:id="@id/not_findout_solutions_details" android:layout_marginTop="@dimen/help_solutions_text_margin_top" android:layout_marginBottom="0.0dip" style="@style/help_text_content_style" />
+        <TextView android:textColor="@color/color_yalan" android:id="@id/not_findout_causes_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/know_more" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end" />
+        <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginTop="@dimen/help_text_margin_top" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end" />
+        <TextView android:id="@id/connect_fail_solutions" style="@style/help_text_title_style" />
+        <TextView android:id="@id/connect_fail_solutions_details" android:layout_marginTop="@dimen/help_solutions_text_margin_top" android:layout_marginBottom="0.0dip" style="@style/help_text_content_style" />
+        <TextView android:textColor="@color/color_yalan" android:id="@id/connect_fail_causes_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/know_more" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end" />
+        <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_marginTop="@dimen/help_text_margin_top" android:layout_marginBottom="@dimen/help_text_margin_bottom" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end" />
+    </LinearLayout>
+</ScrollView>

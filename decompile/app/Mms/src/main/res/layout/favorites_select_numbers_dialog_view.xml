@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View style="@style/contact_horizontal_divider_style" />
+    <ListView android:id="@+id/contact_number_select_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <View style="@style/contact_horizontal_divider_style" />
+    <CheckBox android:textSize="@dimen/contact_popup_list_item_textsize" android:id="@+id/set_to_default_check" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/number_select_dialog_checkbox_margin_top" android:layout_marginBottom="@dimen/number_select_dialog_checkbox_margin_bottom" android:text="@string/set_default" android:layout_marginStart="15dp" android:layout_marginEnd="@dimen/contact_popup_list_item_padding" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.HwSignalClusterView xmlns:android="http://schemas.android.com/apk/res-auto" systemui:gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:orientation="horizontal" systemui:layout_width="wrap_content" systemui:layout_height="match_parent">
+    <com.android.systemui.tint.TintImageView systemui:id="@id/vpn" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_vpn_ic" systemui:contentDescription="@string/legacy_vpn_name" />
+    <FrameLayout systemui:id="@id/ethernet_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneLightTheme" systemui:id="@id/ethernet" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneDarkTheme" systemui:id="@id/ethernet_dark" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:alpha="0.0" />
+    </FrameLayout>
+    <FrameLayout systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/wifi_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneLightTheme" systemui:id="@id/wifi_signal" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+        <com.android.systemui.statusbar.AlphaOptimizedImageView systemui:theme="@style/DualToneDarkTheme" systemui:id="@id/wifi_signal_dark" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:alpha="0.0" />
+        <com.android.systemui.tint.TintImageView systemui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/wifi_inout" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+        <com.android.systemui.tint.TintImageView systemui:id="@id/wifi_hotspot" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_wifi_hotspot" />
+        <com.android.systemui.tint.TintImageView systemui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/wifi_noInternet" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/stat_sys_wifi_no_internet" />
+    </FrameLayout>
+    <View systemui:id="@id/wifi_signal_spacer" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0e01ac" systemui:layout_height="UNKNOWN_DATA_0x401" />
+    <LinearLayout systemui:id="@id/mobile_signal_group" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    <FrameLayout systemui:layout_width="wrap_content" systemui:layout_height="wrap_content">
+        <View systemui:id="@id/spacer" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0e02a3" systemui:layout_height="UNKNOWN_DATA_0x601" />
+        <LinearLayout systemui:orientation="horizontal" systemui:id="@id/mobile_combo" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout systemui:orientation="vertical" systemui:id="@id/no_sims" systemui:visibility="gone" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    <View systemui:id="@id/wifi_airplane_spacer" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0e01ad" systemui:layout_height="UNKNOWN_DATA_0x401" />
+    <com.android.systemui.tint.TintImageView systemui:id="@id/airplane" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+</com.android.systemui.statusbar.HwSignalClusterView>

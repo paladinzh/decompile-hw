@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/gallery_statelist_view" android:paddingTop="1dp" android:paddingBottom="1dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/album_cover_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:src="@drawable/shape_wb" />
+    <TextView android:textSize="15dp" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/empty_album_name" android:visibility="gone" android:maxLines="2" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" style="@style/discover_label_text_style" />
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/albumset_info" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+            <TextView android:textSize="15dp" android:ellipsize="end" android:id="@id/album_name" android:singleLine="true" style="@style/discover_label_text_style" />
+            <Space android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x1" />
+            <TextView android:textSize="13dp" android:id="@id/newpicture_count" android:background="@drawable/bg_gallery_infosign_number" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="invisible" style="@style/discover_label_text_style" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginBottom="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+            <TextView android:textSize="13dp" android:ellipsize="end" android:id="@id/album_tips" android:maxLines="1" android:singleLine="true" style="@style/discover_label_text_style" />
+            <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x101" android:layout_weight="1.0" />
+            <TextView android:textSize="13dp" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/photo_count" android:maxLines="2" android:singleLine="true" style="@style/discover_label_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

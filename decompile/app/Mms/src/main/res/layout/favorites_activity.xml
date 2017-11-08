@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <include layout="@layout/favorites_list_view_v3" />
+        <include android:id="@+id/no_favorites" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true" layout="@layout/no_message_view" />
+    </FrameLayout>
+    <include android:id="@+id/blank_footer_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/blank_footer_view" />
+</LinearLayout>

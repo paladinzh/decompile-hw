@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <huawei.android.widget.SubTabWidget android:id="@id/subTab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.android.settings.ViewPagerEx android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</LinearLayout>

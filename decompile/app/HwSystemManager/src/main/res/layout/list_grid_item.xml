@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/list_grid_item_linearLayout" android:paddingTop="2dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/image_item_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/list_grid_photo_item" />
+        <include android:id="@+id/image_item_1" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="2dp" android:layout_weight="1.0" layout="@layout/list_grid_photo_item" />
+        <include android:id="@+id/image_item_2" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="2dp" android:layout_weight="1.0" layout="@layout/list_grid_photo_item" />
+        <include android:id="@+id/image_item_3" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="2dp" android:layout_weight="1.0" layout="@layout/list_grid_photo_item" />
+    </LinearLayout>
+</LinearLayout>

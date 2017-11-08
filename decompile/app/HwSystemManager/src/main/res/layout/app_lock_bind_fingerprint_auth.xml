@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <include android:id="@+id/applock_password_display_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/applock_password_hint_margin_top" layout="@layout/app_lock_password_display_layout" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="1.0">
+        <include android:id="@+id/app_lock_password_input_numPad" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0a009c" android:layout_weight="0.75" layout="@layout/app_lock_password_input_numpad" />
+    </LinearLayout>
+</LinearLayout>

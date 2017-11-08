@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">ບໍ່​ໄດ້​ໃຊ້​ເປັນ​ເວ​ລາ​ເກີນ %1$d ວັນ</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d ແອັບ​ຍັງ​ແລ່ນ​ຢູ່​ຫຼັງ​ຈາກ​ໜ້າ​ຈໍ​ມອດ, ປິດພວກ​ມັນເພື່ອ​ປ​ະ​ຢັດ​ໄຟ</item>
+        <item quantity="one">%1$d ແອັບ​ຍັງ​ແລ່ນ​ຢູ່​ຫຼັງ​ຈາກ​ໜ້າ​ຈໍ​ມອດ, ປິດ​ມັນເພື່ອ​ປ​ະ​ຢັດ​ໄຟ</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">ປິດ %1$d ແອັບທີ່​ໃຊ້​ໄຟ​ຫຼາຍ​ແລ້ວ</item>
+        <item quantity="one">ປິດ %1$d ແອັບທີ່​ໃຊ້​ໄຟ​ຫຼາຍ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d ແອັບກຳ​ລັງ​ໃຊ້​ໄຟ​ຢູ່​ຢ່າງງຽບໆ. ໄຟ​ແບັດ​ເຕີ​ຣີ​ສາ​ມາດ​ຕໍ່​ໄດ້​ %2$s ຖ້າ​ປິດ​ແອັບ​ໄປ</item>
+        <item quantity="one">%1$d ແອັບກຳ​ລັງ​ໃຊ້​ໄຟ​ຢູ່​ຢ່າງງຽບໆ. ໄຟ​ແບັດ​ເຕີ​ຣີ​ສາ​ມາດ​ຕໍ່​ໄດ້​ %2$s ຖ້າ​ປິດ​ແອັບ​ໄປ</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດຂໍ້​ມູນ​ມື​ຖືຂອງ​ທ່ານແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດຂໍ້​ມູນ​ມື​ຖືຂອງ​ທ່ານແລ້ວ</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດ Wi-Fi ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດ Wi-Fi ແລ້ວ</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດ Bluetooth ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເປີດ Bluetooth ແລ້ວ</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">ຟີ​ເຈີ​ນີ້ຕ້ອງໄດ້​ມີ​ການ​ອະ​ນຸ​ຍາດ​ຕໍ່​ໄປ​ນີ້ ເພື່ອ​ໃຫ້​ເປີດ​ໃຊ້​ງານໄດ້, ໄປ​ທີ່​ການ​ຕັ້ງ​ຄ່າ ແລະ ເປີດ​ໃຊ້​ງານ​ພວກມັນ​ບໍ?</item>
+        <item quantity="one">ຟີ​ເຈີ​ນີ້ຕ້ອງໄດ້​ມີ​ການ​ອະ​ນຸ​ຍາດ​ຕໍ່​ໄປ​ນີ້ ເພື່ອ​ໃຫ້​ເປີດ​ໃຊ້​ງານໄດ້, ໄປ​ທີ່​ການ​ຕັ້ງ​ຄ່າ ແລະ ເປີດ​ໃຊ້​ງານ​ມັນ​ບໍ?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">ທ່ານ​ສາ​ມາດປິດ​ໃຊ້​ງານການ​ອະ​ນຸ​ຍາດເຫຼົ່ານີ້ໃນ​ເວ​ລາ​ໃດ​ກໍ່​ໄດ້​ຈາກ​ການ​ຕັ້ງ​ຄ່າແອັບ.</item>
+        <item quantity="one">ທ່ານ​ສາ​ມາດປິດ​ໃຊ້​ງານການ​ອະ​ນຸ​ຍາດນີ້ໃນ​ເວ​ລາ​ໃດ​ກໍ່​ໄດ້​ຈາກ​ການ​ຕັ້ງ​ຄ່າແອັບ.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">ອະ​ນຸ​ຍາດ​ໃຫ້ %1$d ແອັບ​ສືບ​ຕໍ່​ແລ່ນ ຫຼັງ​ຈາກ​ໜ້າ​ຈໍ​ປິດ</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">ເລືອກ %1$d ກົດ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">ລຶບ %1$d ໄຟ​ລ໌​ທີ່​ເລືອກ​ໄວ້​ບໍ?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">ຈະ​ບໍ່​ສາ​ມາດ​ກູ້​ໄຟ​ລ໌ຄືນໄດ້.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">ລຶບ​ %1$d ລາຍ​ການ​ຂໍ້​ມູນ​ທີ່​ເລືອກ​ໄວ້​ບໍ?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">ຈະ​ບໍ່​ສາ​ມາດ​ກູ້​ຂໍ້​ມູນຄືນໄດ້.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">ຖອນ​ຕິດ​ຕັ້ງ %1$d ແອັບທີ່​ເລືອກ​ໄວ້ບໍ?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">ກູ້​ຄືນ %1$d ແອັບທີ່​ເລືອກ​ໄວ້ບໍ?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">ທຸກຂໍ້​ມູນ​ແອັບຈະຖືກລຶບ. ບັນ​ດາແອັບຈະ​ຖືກ​ກູ້​ຄືນ​ສູ່​ສະ​ພາບ​ການ​ຕິດ​ຕັ້ງ​ເລີ່ມ​ຕົ້ນ​ຂອ​ງພວກ​ມັນ.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">%1$d ໄວ​ຣັ​ສ</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d ຄວາມ​ສ່ຽງຊອບ​ແວ</item>
+        <item quantity="one">%1$d ຄວາມ​ສ່ຽງຊອບ​ແວ</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d ຊອບ​ແວ​ບໍ່​ເປັນ​ທາງ​ການ</item>
+        <item quantity="one">%1$d ຊອບ​ແວ​ບໍ່​ເປັນ​ທາງ​ການ</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​​ຂໍ້​ຄວາມ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​​ຂໍ້​ຄວາມ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​ບັນ​ທຶກ​ການ​ໂທ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​ບັນ​ທຶກ​ການ​ໂທ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​ລາຍ​ຊື່​​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​ລາຍ​ຊື່​​ແລ້ວ</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາປະ​ຕິ​ທິນແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາປະ​ຕິ​ທິນແລ້ວ</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​​ທີ່​ຕັ້ງ​ຂອງ​ທ່ານແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​​ທີ່​ຕັ້ງ​ຂອງ​ທ່ານແລ້ວ</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ ID ໂທ​ລະ​ສັບຂອງ​ທ່ານແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາ ID ໂທ​ລະ​ສັບ ຂອງ​ທ່ານແລ້ວ</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ບັນ​ທຶກ​ສຽງ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ບັນ​ທຶກ​ສຽງ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​​ໂທ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​​ໂທ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d ແອັບ</item>
+        <item quantity="one">%d ແອັບ</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">ໄວ​ຣັ​ສ %d ຕົວ</item>
+        <item quantity="one">ໄວ​ຣັ​ສ %d ຕົວ</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">ພົບ %d ແອັບ​ທີ່​ມີ​ການ​ໂຄ​ສະ​ນາ, ສາ​ມາດ​ຖອນ​ຕິດ​ຕັ້ງ​ເອົາ​ເອງ​ໄດ້</item>
+        <item quantity="one">ພົບ %d ພ້ອມ​ການ​ໂຄ​ສະ​ນາ, ສາ​ມາດ​ຖອນ​ຕິດ​ຕັ້ງ​ເອົາ​ເອງ​ໄດ້</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">ອັບ​ເດດ​ແລ້ວ %1$d ຊົ່ວ​ໂມງກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">ອັບ​ເດດ​ແລ້ວ %1$d ວັນ​ກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">ອັບ​ເດດ​ແລ້ວ %1$d ເດືອນກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">ເອົາ %d ລາຍ​ຊື່​ຕິດ​ຕໍ່ທີ່​ເລືອກ​ໄວ້​ອອກ​ໄປບໍ?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">ປິດ %1$d ແອັບແລ້ວ ແລະເຮັດ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ. %3$s</item>
+        <item quantity="one">ປິດ %1$d ແອັບແລ້ວ ແລະເຮັດ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">ບໍ່​ໄດ້​ໃຊ້: %1$d ວັນ, ຂະ​ໜາດ: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">ປິດ %1$d ແອັບ ເພື່ອ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s</item>
+        <item quantity="one">ປິດ %1$d ແອັບ ເພື່ອ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">ປິດ %1$d ແອັບ​ແລ້ວ, ​ເຮັດ​ໃຫ້ຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ</item>
+        <item quantity="one">ປິດ %1$d ແອັບ​ແລ້ວ, ​ເຮັດ​ໃຫ້ຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ສົ່ງ​ຂໍ້​ຄວາມ MMS ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ສົ່ງ​ຂໍ້​ຄວາມ MMS ແລ້ວ</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ແກ້​ໄຂ​ການ​ປ້ອນ​ບັນ​ທຶກ​ການ​ໂທແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ແກ້​ໄຂ​ການ​ປ້ອນ​ບັນ​ທຶກ​ການ​ໂທແລ້ວ</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ແກ້​ໄຂ​ລາຍ​ຊື່ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ແກ້​ໄຂ​ລາຍ​ຊື່ແລ້ວ</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້ລຶບ​ການ​ປ້ອນ​ບັນ​ທຶກ​ການ​ໂທ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້ລຶບ​ການ​ປ້ອນ​ບັນ​ທຶກ​ການ​ໂທ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ລຶບ​ລາຍ​ຊື່​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ລຶບ​ລາຍ​ຊື່​ແລ້ວ</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້ຖ່າຍ​ຮູບ ຫຼື​ວິ​ດີ​ໂອ​ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້ຖ່າຍ​ຮູບ ຫຼື​ວິ​ດີ​ໂອ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ສົ່ງ​ຂໍ້​ຄວາມ SMS ແລ້ວ</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ສົ່ງ​ຂໍ້​ຄວາມ SMS ແລ້ວ</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">ອະ​ນຸ​ຍາດ​ໃຫ້ %1$d ແອັບສະ​ແດງ​ເຂດ​ວາງ​ລົງ​ແລ້ວ</item>
+        <item quantity="one">ອະ​ນຸ​ຍາດ​ໃຫ້ %1$d ແອັບສະ​ແດງ​ເຂດ​ວາງ​ລົງ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">ວັນ</item>
+        <item quantity="one">ວັນ</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">ລັອກ %1$d ແອັບ​ແລ້ວ</item>
+        <item quantity="one">ລັອກ %1$d ແອັບ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d ແອັບ​ແລ່ນ​ຢູ່</item>
+        <item quantity="one">%1$d ແອັບ​ແລ່ນ​ຢູ່</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">ຖອນ​ຕິດ​ຕັ້ງ​ແອັບ​ທີ່​ເລືອກ​ໄວ້​ບໍ?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d ລາຍ​ການ</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d ການ​ອະ​ນຸ​ຍາດ</item>
+        <item quantity="one">%1$d ການ​ອະ​ນຸ​ຍາດ</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">ລຶບ​ບັນ​ດາໄຟ​ລ໌​ຕໍ່​ໄປ​ນີ້​ບໍ? ບໍ່​ສາ​ມາດ​ກູ້​ພວກມັນ​ຄືນ​ມາ​ໄດ້.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">ລຶບ​ບັນ​ດາໄຟ​ລ໌​ຕໍ່​ໄປ​ນີ້​ບໍ? ບໍ່​ສາ​ມາດ​ກູ້​ພວກມັນ​ຄືນ​ມາ​ໄດ້.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">ລະ​ບົບ​ຈະ​ລຶບ​ທຸກ​ຂໍ້​ມູນ​ຢູ່​ໃນ​ແອັບ​ພ​ລິ​ເຄ​ຊັນ​ເລືອກ​ໄວ້​ຢ່າງ​ຖາ​ວອນ. ບັນ​ດາແອັບ​ພ​ລິ​ເຄ​ຊັນ​ຈະ​ຖືກ​ກູ້​ຄືນ​ສູ່​ສະ​ພາບ​ການ​ຕິດ​ຕັ້ງ​ເລີ່ມ​ຕົ້ນ​ຂອ​ງພວກ​ມັນ.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">ເວ​ລາ​ໃຊ້​ຕໍ່​ອ​ອກ​ໄປ %1$d ນາ​ທີ.</item>
+        <item quantity="one">ເວ​ລາ​ໃຊ້​ຕໍ່​ອ​ອກ​ໄປ %1$d ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">ປິດ %1$d ແອັບແລ້ວ ແລະເຮັດ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ.</item>
+        <item quantity="one">ປິດ %1$d ແອັບແລ້ວ ແລະເຮັດ​ໃຫ້​ມີຄວາມ​ຈຳ​ຫວ່າງ %2$s ແລ້ວ.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d ນ​ທ</item>
+        <item quantity="one">%1$d ນ​ທ</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d ຊມ</item>
+        <item quantity="one">%1$d ຊມ</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">ຍັງ​ເຫຼືອ %1$s ນ​ທ</item>
+        <item quantity="one">ຍັງ​ເຫຼືອ %1$s ນ​ທ</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s ນ​ທ ຈົນ​ກວ່າ​ຈະ​ເຕັມ</item>
+        <item quantity="one">%1$s ນ​ທ ຈົນ​ກວ່າ​ຈະ​ເຕັມ</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">ສາ​ມາດຕໍ່​ອອກ​ໄປໄດ້ %1$d ນ​ທ</item>
+        <item quantity="one">ສາ​ມາດຕໍ່​ອອກ​ໄປໄດ້ %1$d ນ​ທ</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">ຕໍ່​ອອກ​ໄປ %1$s ນ​ທ ແລ້ວ</item>
+        <item quantity="one">ຕໍ່​ອອກ​ໄປ %1$s ນ​ທ ແລ້ວ</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$d ວິ</item>
+        <item quantity="one">%1$d ວິ</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d ຄັ້ງ (ແນະ​ນຳ)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d ຄັ້ງ</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">ໝາຍ​ໂດຍ %d ຄົ​ນແລ້ວ</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">ມີ %1$d ແອັບໃຫ້​ຢູ່</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">ສາ​ມາດ​ປັບ %1$d ​ໃຫ້​ພໍ​ດີ​ໄດ້</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d ແອັບຖືກ​ປິດ​ໄປ ເນື່ອງ​ຈາກ​ການ​ໃຊ້​ໄຟ​ເກີນ​ຂະ​ໜາດ, ສຳ​ຜັດ​ເພື່ອ​ເບິ່ງ​ລາຍ​ລະ​ອຽດ</item>
+        <item quantity="one">%1$d ແອັບຖືກ​ປິດ​ໄປ ເນື່ອງ​ຈາກ​ການ​ໃຊ້​ໄຟ​ເກີນ​ຂະ​ໜາດ, ສຳ​ຜັດ​ເພື່ອ​ເບິ່ງ​ລາຍ​ລະ​ອຽດ</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d ຮູບ</item>
+        <item quantity="one">%1$d ຮູບ</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">ອັບ​ເດດ​ແລ້ວ %d ວັນ​ກ່ອນ​ນີ້</item>
+        <item quantity="one">ອັບ​ເດດ​ແລ້ວ %d ວັນ​ກ່ອນ​ນີ້</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">ບໍ່​ໄດ້​ລ້າງ %d ວັນ, ສຳ​ຜັດ​ເພື່ອ​ລ້າງ</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ສ້າງ​ທາງ​ລັດ​ໜ້າ​ຈໍ​ຫຼັກ.</item>
+        <item quantity="one">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ສ້າງ​ທາງ​ລັດ​ໜ້າ​ຈໍ​ຫຼັກ.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">%1$d ແອັບ​ຈະ​ຖືກ​ຂ້າມ​ໄປ​ໃນ​ລະ​ຫວ່າງ​ການ​ລ້າງ.</item>
+        <item quantity="one">%1$d ແອັບ​ຈະ​ຖືກ​ຂ້າມ​ໄປ​ໃນ​ລະ​ຫວ່າງ​ການ​ລ້າງ.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​ເຂົ້າ​ຫາລາຍ​ການ​ແອັບ​ຕິດ​ຕັ້ງ​ໄວ້​ແລ້ວ.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d ແອັບ​ຖືກ​ລ້າງ​ໄປ​ແລ້ວ.</item>
+        <item quantity="one">%d ແອັບ​ຖືກ​ລ້າງ​ໄປ​ແລ້ວ.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d ແອັບ​ຖືກ​ຈຳ​ກັດ​ບໍ່​ໃຫ້ເຂົ້າ​ຫາຂໍ້​ມູນ​ຄວາມ​ຟິດຂອງ​ທ່ານ (ເພື່ອ​ໃຫ້​ການ​ນັບ​ກ້າວ​ຍ່າງ ແລະ ການ​ສັ່ນ).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d ແອັບຖືກ​ຈຳ​ກັດບໍ່​ໃຫ້​ເຂົ້າ​ຫາຂໍ້​ມູນ​ສຸ​ຂະ​ພາບ.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d ລາຍ​ການ​ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຮັບ​ການ​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ເອົາ​ເອງ</item>
+        <item quantity="one">%1$d ລາຍ​ການ​ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຮັບ​ການ​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ເອົາ​ເອງ</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d ແຜ່ນ​ຕິດທີ່ຈະ​ຕິດ​ຕັ້ງ</item>
+        <item quantity="one">%1$d ແຜ່ນ​ຕິດທີ່ຈະ​ຕິດ​ຕັ້ງ</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d ແອັບມີ​ການ​ໂຄ​ສະ​ນາ</item>
+        <item quantity="one">%1$d ແອັບມີ​ການ​ໂຄ​ສະ​ນາ</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">%d ແອັບ​ໄດ້​ຮັບ​ອະ​ນຸ​ຍາດ​ໃຫ້​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ.</item>
+        <item quantity="one">%d ແອັບ​ໄດ້​ຮັບ​ອະ​ນຸ​ຍາດ​ໃຫ້​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d ແອັບ​ສາ​ມາດ​ຖືກ​ແອັບ​ອື່ນໆ​ເປີດ​ໃຊ້​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ແນະ​ນຳ​ໃຫ້​ມີ​ການ​ຈຳ​ກັດ​ການ​ດຳ​ເນີນ​ການ​ນີ້.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d ແອັບ​ສາ​ມາດ​ຖືກ​ແອັບ​ອື່ນໆ​ເປີດ​ໃຊ້​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້ %2$s ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ແນະ​ນຳ​ໃຫ້​ມີ​ການ​ຈຳ​ກັດ​ການ​ດຳ​ເນີນ​ການ​ນີ້.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">ແອັບ​ສາ​ມາດ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນບັນ​ດາ​ພາບ​ເຫດ​ການ %d ຕໍ່​ໄປ​ນີ້. ອະນຸຍາດບໍ?</item>
+        <item quantity="one">ແອັບ​ສາ​ມາດ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນ​ພາບ​ເຫດ​ການ %d ຕໍ່​ໄປ​ນີ້. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">ແອັບ​ສາ​ມາດ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນບັນ​ດາ​ພາບ​ເຫດ​ການ %d ຕໍ່​ໄປ​ນີ້. ຈຳ​ກັດບໍ?</item>
+        <item quantity="one">ແອັບ​ສາ​ມາດ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນ​ພາບ​ເຫດ​ການ %d ຕໍ່​ໄປ​ນີ້. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">ແອັບ ແລະ ຄູ່​ຂອງ​ມັນ​​ຈະ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນ %d ​ພາບ​ເຫດ​ການຕໍ່​ໄປ​ນີ້. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ຈະ​ເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ຈະ​ເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້ %3$s ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ອາດຈະ​ເຮັດ​ໃຫ້ %3$s ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ຈະ​ເຮັດ​ໃຫ້ %3$s ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">%1$s ສາ​ມາດ​ຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ຈະ​ເຮັດ​ໃຫ້ %3$s ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ຈຳ​ກັດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">ເປີດໃຊ້​ແລ້ວ: %1$d ຄັ້ງ | ​ໃໝ່​ຫຼ້າສຸດ: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">ຈຳ​ກັດແລ້ວ: %1$d ຄັ້ງ | ​ໃໝ່​ຫຼ້າສຸດ: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">ເປີດໃຊ້​ແລ້ວ: %1$d ຄັ້ງ | ​ໃໝ່​ຫຼ້າສຸດ: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">ຈຳ​ກັດແລ້ວ: %1$d ຄັ້ງ | ​ໃໝ່​ຫຼ້າສຸດ: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">ພົບ %d ແອັບເປີດ​ໃຊ້​ອັດ​ຕະ​ໂນ​ມັດ​ແລ້ວ</item>
+        <item quantity="one">ພົບ %d ແອັບເປີດ​ໃຊ້​ອັດ​ຕະ​ໂນ​ມັດ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">%1$s ໄຟ​ລ໌​ທັງ​ໝົດ</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d ວັນ​ໂດຍ​ບໍ່​ມີ​ການ​ສະ​ແກນ, ສຳ​ຜັດ​ເພື່ອ​ດຳ​ເນີນ​ການ​ສະ​ແກນ​ເຕັມ</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d ແອັບມີການ​ອະ​ນຸ​ຍາດ​ລະ​ອຽດ​ອ່ອນ</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">ບໍ່​ສາ​ມາດ​ຈົດ​ຈຳ​ລາຍ​ນີ້ວ​ມື​ໄດ້, ທ່ານ​ຍັງພະ​ຍາ​ຍາມ​ໄດ້ອີກ %1$d ​ຄັ້ງ</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">ງົດ​ລາຍ​ນີ້ວ​ມື​ແລ້ວ. ລອງໃໝ່ອີກໃນ %1$d ວິ​ນາ​ທີ</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">ຄໍາຕອບບໍ່ຖືກຕ້ອງ. ທ່ານ​ຍັງ​ລອງ​ໄດ້​ອີກ %1$d ຄັ້ງ.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">ກະລຸນາລອງອີກຫຼັງ​ຈາກ %1$d ຊົ່ວ​ໂມງ.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">ກະລຸນາລອງອີກຫຼັງ​ຈາກ %1$d ນາ​ທີ.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">ກະລຸນາລອງອີກຫຼັງ​ຈາກ %1$d ວິນາ​ທີ.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">%1$d ແອັບ​ໃຊ້​ແບັດ​ເຕີ​ຣີ​ສູງ​ສຸດ</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d ວັນ</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">ທຸກ​ຂໍ້​ມູນ​ທີ່​ເລືອກ​ໄວ້​ສຳ​ລັບ​ແອັບ ແລະ ແອັບ​ແຝດ​ຂອງ​ພວກ​ມັນ​ຈະ​ຖືກ​ລຶບ. ບັນ​ດາແອັບຈະ​ຖືກ​ກູ້​ຄືນ​ສູ່​ສະ​ພາບ​ການ​ຕິດ​ຕັ້ງ​ເລີ່ມ​ຕົ້ນ​ຂອ​ງພວກ​ມັນ.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">ແອັບ ແລະ ແອັບ​ແຝດ​ຂອງ​ມັນ​ສາ​ມາດ​ເປີດ​ໃຊ້​ໂດຍ​ອັດ​ຕະ​ໂນ​ມັດ​ໄດ້​ຢູ່​ໃນ​ພາບ​ເຫດ​ການ %1$d ຕໍ່​ໄປ​ນີ້. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">%1$s ແລະ ແອັບ​ແຝດ​ຂອງ​ມັນສາ​ມາດຖືກ​ເປີດ​ໃຊ້​ໂດຍ %2$d ແອັບ​ໄດ້. ອັນ​ນີ້ສາ​ມາດເຮັດ​ໃຫ້​ໂທ​ລະ​ສັບ​ຂອງ​ທ່ານ​ຊ້າ​ລົງ ແລະ ໃຊ້​ໄຟ​ຫຼາຍ​ຂຶ້ນ. ອະນຸຍາດບໍ?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">%1$d ແອັບຈະ​ບໍ່ຖືກ​ປິດ​ໄປ ຫຼັງ​ຈາກ​ໜ້າ​ຈໍ​ຂອງ​ທ່ານ​ຖືກ​ລັອກ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">%1$d ແອັບຈະ​ຖືກ​ປິດ​ໄປ ຫຼັງ​ຈາກ​ໜ້າ​ຈໍ​ຂອງ​ທ່ານ​ຖືກ​ລັອກ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາປະ​ຕິ​ທິນແລ້ວ.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້ດັດ​ແປງປະ​ຕິ​ທິນແລ້ວ.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ລຶບ​ເຫດ​ການ​ປະ​ຕິ​ທິນ​ແລ້ວ.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບບໍ່​ໃຫ້​ເຂົ້າ​ຫາປະ​ຫວັດ​ບ​ຣາວ​ເຊີແລ້ວ.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">ຈຳ​ກັດ %d ແອັບ​ບໍ່​ໃຫ້​ເຂົ້າ​ຫາ​ການ​ໂອນ​ສາຍແລ້ວ.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">ບ​ລັອກໂຄ​ສະ​ນາ​ຢູ່​ໃນ %1$d ແອັບ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d ລາຍ​ການ​ຈຳ​ເປັນ​ຕ້ອງ​ໄດ້​ຮັບ​ການ​ປັບ​ໃຫ້​ເໝາະ​ສົມ​ເອົາ​ເອງ</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">ປິດ %1$d ແອັບ​ໃຊ້​ໄຟ​ຢູ່​ພື້ນ​ຫຼັງ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d ລາຍ​ການ</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d ລາຍ​ການ</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d ແອັບກຳ​ລັງ​ແລ່ນ​ຢູ່ ເມື່ອ​ໜ້າ​ຈໍ​ມອດ, ປິດເພື່ອ​ປ​ະ​ຢັດ​ໄຟແບັດ​ເຕີ​ຣີ</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">ການ​ດາວ​ໂຫຼດ​ແອັບ​ສ່ຽງ %1$s ອັນ​ຖືກບ​ລັອກ​ແລ້ວ</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">ພົບ %1$d ແອັບບໍ່​ໄດ້​ຕັ້ງ​ມາ​ກ່ອນ, ກະ​ລຸ​ນາ​ຖອນ​ຕິດ​ຕັ້ງ</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">ພົບ %2$s ແອັບ​ທີ່​ບໍ່​ໄດ້​ຕິດ​ຕັ້ງ​ມາ​ກ່ອນ (ຕົວ​ຢ່າງ %1$s). ກະ​ລຸ​ນາ​ຖອນ​ຕິດ​ຕັ້ງ.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">ປິດ %d ແອັບ​ສຳ​ເລັດແລ້ວ.</item>
+        <item quantity="one">ປິດ %d ແອັບ​ສຳ​ເລັດ​ແລ້ວ.</item>
+    </plurals>
+</resources>

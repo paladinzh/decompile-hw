@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTS2014080804071  lixue/00214442 20140809 created> -->
+<root>
+    <!-- Sms from these numbers or numbers with these prefixes will not 
+    be checked by intelligent engine ,but it can aslo be intercepted by 
+    other rule like "block stranger"-->
+    <whitelist>
+        <prefix value="1065796709" />
+        <prefix value="1065502043" />
+        <prefix value="1065902090" />
+        <prefix value="+861065796709" />
+        <prefix value="+861065502043" />
+        <prefix value="+861065902090" />
+        <!-- DTS2014082804440  lixue/00214442 20140829 begin -->
+        <prefix value="106575550211" />
+        <prefix value="106550200271" />
+        <prefix value="1065902002801" />
+        <prefix value="+86106575550211" />
+        <prefix value="+86106550200271" />
+        <prefix value="+861065902002801" />
+        <!-- DTS2014082804440  lixue/00214442 20140829 end -->
+        <prefix value="1065755502" />
+        <prefix value="1069013383" />
+        <prefix value="+861065755502" />
+        <prefix value="+861069013383" />
+        <!-- examples -->
+        <!-- <number value = "123"/> -->
+        <number value = "106571204990310168"/>
+        <number value = "106550966666228175"/>
+        <number value = "+86106571204990310168"/>
+        <number value = "+86106550966666228175"/>
+        <number value = "106906071234"/>
+        <number value = "+86106906071234"/>
+    </whitelist>
+
+</root>

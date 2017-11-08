@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_settings_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:icon="@drawable/wifi_settings" android:persistent="false" android:layout="@layout/preference_wifi_setup_wizard" android:title="@string/wifi_settings_title" android:key="wifi_switch" />
+</PreferenceScreen>

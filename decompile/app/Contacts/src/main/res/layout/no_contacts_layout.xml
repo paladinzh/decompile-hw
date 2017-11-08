@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/no_contacts_screen_layout" android:paddingBottom="@dimen/no_contacts_empty_button_margin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/lazy_mode_header" android:layout="@layout/profile_lazy_mode_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_no_contacts_parent_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" style="@style/gravity_style">
+        <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/text_no_contacts" android:clickable="true" android:layout_marginTop="0dp" android:drawableTop="@drawable/ic_empty_contacts" style="@style/contact_layout_empty_icon_style" />
+    </LinearLayout>
+    <Button android:id="@+id/btn_sign_into_account" android:layout_width="UNKNOWN_DATA_0x7f0d0131" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_marginTop="10dp" android:text="@string/contacts_unavailable_add_account" />
+    <Button android:id="@+id/btn_import_contacts" android:layout_width="UNKNOWN_DATA_0x7f0d0131" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_marginTop="10dp" android:text="@string/btntxt_import_contacts" />
+    <Button android:id="@+id/btn_create_new_contact" android:layout_width="UNKNOWN_DATA_0x7f0d0131" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_marginTop="10dp" android:text="@string/contacts_unavailable_create_contact" />
+    <Button android:id="@+id/btn_view_camcard" android:layout_width="UNKNOWN_DATA_0x7f0d0131" android:layout_height="UNKNOWN_DATA_0x7f0d0134" android:layout_marginTop="10dp" android:text="@string/camcard_scan_card" />
+</LinearLayout>

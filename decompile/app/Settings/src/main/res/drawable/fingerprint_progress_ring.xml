@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="?fingerprint_ring_radius" android:thickness="@dimen/fingerprint_ring_thickness">
+            <solid android:color="@color/fingerprint_progress_ring_bg" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:innerRadius="?fingerprint_ring_radius" android:thickness="@dimen/fingerprint_ring_thickness">
+            <gradient android:startColor="@color/fingerprint_progress_ring" android:endColor="@color/fingerprint_progress_ring" android:angle="0.0" />
+        </shape>
+    </item>
+</layer-list>

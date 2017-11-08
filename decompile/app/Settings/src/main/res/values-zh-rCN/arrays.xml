@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>test</item>
+        <item>正在扫描...</item>
+        <item>正在连接...</item>
+        <item>正在进行身份验证...</item>
+        <item>正在获取 IP 地址...</item>
+        <item>已连接</item>
+        <item>已暂停</item>
+        <item>正在断开连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭状况不佳的连接</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>正在扫描...</item>
+        <item>正在连接到 %1$s...</item>
+        <item>正在通过 %1$s 进行身份验证...</item>
+        <item>正在从 %1$s 获取 IP 地址...</item>
+        <item>已连接到 %1$s</item>
+        <item>已暂停</item>
+        <item>正在断开与 %1$s 的连接...</item>
+        <item>已断开连接</item>
+        <item>失败</item>
+        <item>已阻止</item>
+        <item>暂时关闭状况不佳的连接</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>从不检查</item>
+        <item>仅检查 DRM 内容</item>
+        <item>总是检查</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>从不使用 HDCP 检查</item>
+        <item>仅使用 HDCP 检查 DRM 内容</item>
+        <item>始终使用 HDCP 检查</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB/缓冲区</item>
+        <item>256 KB/缓冲区</item>
+        <item>1 MB/缓冲区</item>
+        <item>4 MB/缓冲区</item>
+        <item>16 MB/缓冲区</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>关闭动画</item>
+        <item>动画缩放 0.5x</item>
+        <item>动画缩放 1x</item>
+        <item>动画缩放 1.5x</item>
+        <item>动画缩放 2x</item>
+        <item>动画缩放 5x</item>
+        <item>动画缩放 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>无</item>
+        <item>480p</item>
+        <item>480p (安全)</item>
+        <item>720p</item>
+        <item>720p (安全)</item>
+        <item>1080p</item>
+        <item>1080p (安全)</item>
+        <item>4K</item>
+        <item>4K (安全)</item>
+        <item>4K (画质提升)</item>
+        <item>4K (画质提升、安全)</item>
+        <item>720p，1080p (双屏)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>无</item>
+        <item>Logcat</item>
+        <item>"Systrace  (图形)"</item>
+        <item>glGetError 上的调用堆栈</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>关闭</item>
+        <item>以蓝色填充非矩形剪裁区域</item>
+        <item>以绿色突出显示测试绘制命令</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>关闭</item>
+        <item>在屏幕上显示为条形图</item>
+        <item>在屏幕上显示为线型图</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>关闭</item>
+        <item>显示过度绘制区域</item>
+        <item>显示适合绿色弱视查看的区域</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>标准限制</item>
+        <item>不允许后台进程</item>
+        <item>不得超过 1 个进程</item>
+        <item>不得超过 2 个进程</item>
+        <item>不得超过 3 个进程</item>
+        <item>不得超过 4 个进程</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>仅充电</item>
+        <item>MTP (多媒体传输)</item>
+        <item>PTP (图片传输)</item>
+        <item>RNDIS (USB 网络)</item>
+        <item>音频来源</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>很慢</item>
+        <item>慢</item>
+        <item>正常</item>
+        <item>快</item>
+        <item>很快</item>
+        <item>非常快</item>
+        <item>迅速</item>
+        <item>很迅速</item>
+        <item>最快</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>鲜亮（默认）</item>
+        <item>自然</item>
+        <item>标准</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>增强的颜色</item>
+        <item>肉眼所看到的自然颜色</item>
+        <item>针对数字内容优化的颜色</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>美洲</item>
+        <item>欧洲</item>
+        <item>非洲</item>
+        <item>亚洲</item>
+        <item>澳大利亚</item>
+        <item>太平洋</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>从不</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>立即</item>
+        <item>5 秒</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>小</item>
+        <item>标准</item>
+        <item>大</item>
+        <item>超大</item>
+        <item>特大</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>很低</item>
+        <item>低</item>
+        <item>正常</item>
+        <item>高</item>
+        <item>很高</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>开放</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>按钮</item>
+        <item>从对等设备获取的 PIN 码</item>
+        <item>从此设备生成的 PIN 码</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>已连接</item>
+        <item>正在连接…</item>
+        <item>连接此设备</item>
+        <item>可用</item>
+        <item>超出范围</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>1 小时</item>
+        <item>从不超时</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>弱</item>
+        <item>一般</item>
+        <item>较强</item>
+        <item>强</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>始终</item>
+        <item>仅限充电时</item>
+        <item>从不 (会增加数据流量)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>始终</item>
+        <item>仅限充电时</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>过去 30 天</item>
+        <item>设置流量周期…</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>自动</item>
+        <item>仅使用 5 GHz 频带</item>
+        <item>仅使用 2.4 GHz 频带</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>使用时间</item>
+        <item>启动次数</item>
+        <item>应用名称</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>无</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>关闭</item>
+        <item>按钮</item>
+        <item>从接入点获取的 PIN 码</item>
+        <item>从此设备生成的 PIN 码</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>静态</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>无</item>
+        <item>手动</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>关闭</item>
+        <item>警报</item>
+        <item>振动</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>无</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP 或 CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>未指定</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>无</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>设备内部存储</item>
+        <item>可卸载的 SD 卡</item>
+        <item>由系统确定</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>位置信息</item>
+        <item>个人</item>
+        <item>信息</item>
+        <item>媒体</item>
+        <item>设备</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>粗略位置</item>
+        <item>精准位置</item>
+        <item>GPS</item>
+        <item>振动</item>
+        <item>读取联系人</item>
+        <item>修改联系人</item>
+        <item>读取通话记录</item>
+        <item>修改通话记录</item>
+        <item>读取日历</item>
+        <item>修改日历</item>
+        <item>Wi-Fi 扫描</item>
+        <item>通知</item>
+        <item>手机网络扫描</item>
+        <item>拨打电话</item>
+        <item>读取短信</item>
+        <item>编写短信</item>
+        <item>接收短信</item>
+        <item>接收紧急短信</item>
+        <item>接收彩信</item>
+        <item>接收 WAP PUSH 消息</item>
+        <item>发送短信</item>
+        <item>读取 ICC 短信</item>
+        <item>写入 ICC 短信</item>
+        <item>修改设置</item>
+        <item>在顶部绘制</item>
+        <item>访问通知</item>
+        <item>相机</item>
+        <item>录制音频</item>
+        <item>播放音频</item>
+        <item>读取剪贴板内容</item>
+        <item>修改剪贴板内容</item>
+        <item>媒体按钮</item>
+        <item>音频焦点</item>
+        <item>主音量</item>
+        <item>语音音量</item>
+        <item>铃声音量</item>
+        <item>媒体音量</item>
+        <item>闹钟音量</item>
+        <item>通知音量</item>
+        <item>蓝牙音量</item>
+        <item>保持唤醒状态</item>
+        <item>监测位置</item>
+        <item>监控高耗电位置信息服务</item>
+        <item>获取使用情况统计信息</item>
+        <item>将麦克风静音或取消静音</item>
+        <item>投影媒体</item>
+        <item>激活 VPN</item>
+        <item>写入壁纸</item>
+        <item>辅助结构</item>
+        <item>辅助屏幕截图</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>位置信息</item>
+        <item>位置信息</item>
+        <item>位置信息</item>
+        <item>振动</item>
+        <item>读取联系人</item>
+        <item>修改联系人</item>
+        <item>读取通话记录</item>
+        <item>修改通话记录</item>
+        <item>读取日历</item>
+        <item>修改日历</item>
+        <item>位置信息</item>
+        <item>发布通知</item>
+        <item>位置信息</item>
+        <item>拨打电话</item>
+        <item>读取短信/彩信</item>
+        <item>编写短信/彩信</item>
+        <item>接收短信/彩信</item>
+        <item>接收短信/彩信</item>
+        <item>接收短信/彩信</item>
+        <item>接收短信/彩信</item>
+        <item>发送短信/彩信</item>
+        <item>读取短信/彩信</item>
+        <item>编写短信/彩信</item>
+        <item>修改设置</item>
+        <item>在顶部绘制</item>
+        <item>访问通知</item>
+        <item>相机</item>
+        <item>录制音频</item>
+        <item>播放音频</item>
+        <item>读取剪贴板内容</item>
+        <item>修改剪贴板内容</item>
+        <item>媒体按钮</item>
+        <item>音频焦点</item>
+        <item>主音量</item>
+        <item>语音音量</item>
+        <item>铃声音量</item>
+        <item>媒体音量</item>
+        <item>闹钟音量</item>
+        <item>通知音量</item>
+        <item>蓝牙音量</item>
+        <item>保持唤醒状态</item>
+        <item>位置信息</item>
+        <item>位置信息</item>
+        <item>获取使用情况统计信息</item>
+        <item>将麦克风静音或取消静音</item>
+        <item>投影媒体</item>
+        <item>激活 VPN</item>
+        <item>写入壁纸</item>
+        <item>辅助结构</item>
+        <item>辅助屏幕截图</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>短</item>
+        <item>中</item>
+        <item>长</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>默认</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Sans-serif monospace</item>
+        <item>Serif</item>
+        <item>Serif monospace</item>
+        <item>Casual</item>
+        <item>Cursive</item>
+        <item>Small capitals</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>超小</item>
+        <item>小</item>
+        <item>标准</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>默认</item>
+        <item>无</item>
+        <item>轮廓</item>
+        <item>阴影</item>
+        <item>凸起</item>
+        <item>凹陷</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>默认</item>
+        <item>黑底白字</item>
+        <item>白底黑字</item>
+        <item>黑底黄字</item>
+        <item>蓝底黄字</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>具有预共享密钥的 L2TP/IPSec VPN</item>
+        <item>具有证书的 L2TP/IPSec VPN</item>
+        <item>具有预共享密钥且进行 Xauth 身份验证的 IPSec VPN</item>
+        <item>具有证书且进行 Xauth 身份验证的 IPSec VPN</item>
+        <item>具有证书且进行混合身份验证的 IPSec VPN</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>连接已断开</item>
+        <item>正在初始化...</item>
+        <item>正在连接...</item>
+        <item>已连接</item>
+        <item>超时</item>
+        <item>失败</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>关闭</item>
+        <item>音乐</item>
+        <item>电影</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>1 个用户</item>
+        <item>2 个用户</item>
+        <item>3 个用户</item>
+        <item>4 个用户</item>
+        <item>5 个用户</item>
+        <item>6 个用户</item>
+        <item>7 个用户</item>
+        <item>8 个用户</item>
+    </string-array>
+    <string-array name="max_connect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>帐户 1</item>
+        <item>帐户 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>询问</item>
+        <item>从不允许</item>
+        <item>始终允许</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>正常</item>
+        <item>中</item>
+        <item>低</item>
+        <item>严重不足</item>
+        <item>未知</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>正常</item>
+        <item>中等</item>
+        <item>不足</item>
+        <item>严重不足</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>常驻</item>
+        <item>顶层活动</item>
+        <item>重要 (前台)</item>
+        <item>重要 (后台)</item>
+        <item>备份</item>
+        <item>重量级</item>
+        <item>服务 (正在运行)</item>
+        <item>服务 (正在重新启动)</item>
+        <item>接收器</item>
+        <item>桌面</item>
+        <item>前一个活动</item>
+        <item>已缓存 (活动)</item>
+        <item>已缓存 (活动客户端)</item>
+        <item>已缓存 (空)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>青色</item>
+        <item>蓝色</item>
+        <item>靛青色</item>
+        <item>紫色</item>
+        <item>粉红色</item>
+        <item>红色</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>自动</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>自动连接</item>
+        <item>手动连接</item>
+        <item>总是询问</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 分钟</item>
+        <item>15 分钟</item>
+        <item>30 分钟</item>
+        <item>1 小时</item>
+        <item>无限</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>桌面</item>
+        <item>拨号</item>
+        <item>信息</item>
+        <item>相机</item>
+        <item>图库</item>
+        <item>音乐</item>
+        <item>邮件</item>
+        <item>浏览器</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>电池图标外</item>
+        <item>电池图标内</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>不显示</item>
+        <item>电池图标外</item>
+        <item>电池图标内</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>仅一次</item>
+        <item>星期一到星期五</item>
+        <item>法定工作日 (智能跳过节假日)</item>
+        <item>每天</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+        <item>星期日</item>
+    </string-array>
+    <string-array name="agps_location_method_key">
+        <item>自主模式</item>
+        <item>基站辅助</item>
+        <item>手机辅助</item>
+    </string-array>
+    <string-array name="agps_location_method_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>本地网络开启</item>
+        <item>本地和漫游网络均开启</item>
+    </string-array>
+    <string-array name="agps_network_use_entry">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="gps_start_method_key">
+        <item>热启动</item>
+        <item>温启动</item>
+        <item>冷启动</item>
+    </string-array>
+    <string-array name="gps_start_method_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>谷歌</item>
+        <item>中国移动</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>星期一到星期五</item>
+        <item>周末</item>
+        <item>每天</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>所有网络下 (将增加数据流量)</item>
+        <item>仅 Wi-Fi 下</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>所有网络下</item>
+        <item>仅 Wi-Fi 下</item>
+        <item>关闭</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>通知图标</item>
+        <item>通知数量</item>
+        <item>不提示</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>默认</item>
+        <item>黑底白字</item>
+        <item>白底黑字</item>
+        <item>黑底黄字</item>
+        <item>蓝底黄字</item>
+        <item>自定义</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>首选 Wi-Fi</item>
+        <item>首选移动网络</item>
+        <item>仅限 WLAN</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>首选 WLAN 网络</item>
+        <item>首选移动网络</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>铃声</item>
+        <item>本地音乐</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>Wi-Fi 优先</item>
+        <item>移动网络优先</item>
+        <item>仅 Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>Wi-Fi 优先</item>
+        <item>移动网络优先</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>Wi-Fi 优先</item>
+        <item>移动网络优先</item>
+        <item>4G 网络优先</item>
+        <item>仅 Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>Wi-Fi 优先</item>
+        <item>移动网络优先</item>
+        <item>4G 网络优先</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>Wi-Fi 优先</item>
+        <item>4G 网络优先</item>
+        <item>仅 Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>Wi-Fi 优先</item>
+        <item>4G 网络优先</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>10 秒</item>
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>1 分钟</item>
+        <item>2 分钟</item>
+        <item>5 分钟</item>
+        <item>10 分钟</item>
+        <item>30 分钟</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>空闲 5 分钟后</item>
+        <item>空闲 10 分钟后</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>5 分钟后</item>
+        <item>10 分钟后</item>
+        <item>从不</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>PPTP VPN</item>
+        <item>L2TP</item>
+        <item>具有预共享密钥的 L2TP/IPSec VPN</item>
+        <item>具有证书的 L2TP/IPSec VPN</item>
+        <item>具有预共享密钥且进行 Xauth 身份验证的 IPSec VPN</item>
+        <item>具有证书且进行 Xauth 身份验证的 IPSec VPN</item>
+        <item>具有证书且进行混合身份验证的 IPSec VPN</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 秒</item>
+        <item>30 秒</item>
+        <item>60 秒</item>
+        <item>90 秒</item>
+        <item>120 秒</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>类型 1</item>
+        <item>类型 2</item>
+        <item>类型 3</item>
+        <item>类型 4</item>
+        <item>类型 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>北京时间</item>
+        <item>本地时间</item>
+    </string-array>
+    <string-array name="cell_wlan_switch_entries">
+        <item>总是询问</item>
+        <item>手动重选</item>
+        <item>自动重选</item>
+    </string-array>
+    <string-array name="wlan_switch_entries">
+        <item>手动重选</item>
+        <item>自动重选</item>
+    </string-array>
+</resources>

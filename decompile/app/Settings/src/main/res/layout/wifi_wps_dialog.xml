@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="300.0sp" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_padding_start" android:paddingEnd="@dimen/dialog_padding_end">
+        <TextView android:textSize="@dimen/dialog_frame_text_size" android:textColor="@color/emui_text_dark" android:id="@id/wps_dialog_txt" android:paddingTop="@dimen/dialog_frame_padding_top" android:layout_width="fill_parent" android:lineSpacingMultiplier="@dimen/help_text_line_spacing_multiplier" style="@style/EmuiPrimaryTextFontStyle" />
+        <ImageView android:layout_gravity="center" android:id="@id/set_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:src="@drawable/ic_wps" android:contentDescription="@string/wifi_network_setup" />
+        <ProgressBar android:id="@id/wps_timeout_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="?android:attr/progressBarStyleHorizontal" />
+        <ProgressBar android:id="@id/wps_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" style="?android:attr/progressBarStyle" />
+        <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

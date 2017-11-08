@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Config>
+    <version>
+        <XML_Base_Date>2016070710</XML_Base_Date>
+    </version>
+
+    <subversion>
+        <XML_Update_Date>2016070710</XML_Update_Date>
+    </subversion>
+
+    <Control>
+        <CTRL_DoSharpness>1</CTRL_DoSharpness>
+        <CTRL_DoAce>1</CTRL_DoAce>
+        <CTRL_DoSr>1</CTRL_DoSr>
+        <CTRL_DoAcm>0</CTRL_DoAcm>
+        <CTRL_DoGmp>0</CTRL_DoGmp>
+        <CTRL_DoHardwareSharpness>0</CTRL_DoHardwareSharpness>
+        <CTRL_DoHardwareAce>0</CTRL_DoHardwareAce>
+        <CTRL_DoWideColorGamut>0</CTRL_DoWideColorGamut>
+    </Control>
+
+    <SharpnessHardwareLevel>
+        <SHP_HistLevel_AvgL>90</SHP_HistLevel_AvgL>
+        <SHP_HistLevel_AvgH>200</SHP_HistLevel_AvgH>
+        <SHP_HistLevel_Exp>58</SHP_HistLevel_Exp>
+        <SHP_HistLevel_Bright>80</SHP_HistLevel_Bright>
+        <SHP_HistLevel_Dark>550</SHP_HistLevel_Dark>
+        <SHP_HistLevel_DarkH>300</SHP_HistLevel_DarkH>
+        <SHP_HistLevel_DarkL>100</SHP_HistLevel_DarkL>
+    </SharpnessHardwareLevel>
+
+    <ContrastEnhancement>
+        <ACE_GammaGain>36</ACE_GammaGain>
+        <ACE_WeightWhite>12</ACE_WeightWhite>
+        <ACE_WeightBlack>14</ACE_WeightBlack>
+    <!-- ZeroPosition-->
+        <ACE_ZeroPosition_AverageTH0>32</ACE_ZeroPosition_AverageTH0>
+        <ACE_ZeroPosition_AverageTH1>92</ACE_ZeroPosition_AverageTH1>
+        <ACE_ZeroPosition_AverageTH2>140</ACE_ZeroPosition_AverageTH2>
+        <ACE_ZeroPosition_AverageTH3>192</ACE_ZeroPosition_AverageTH3>
+        <ACE_ZeroPosition_PositionTH0>32</ACE_ZeroPosition_PositionTH0>
+        <ACE_ZeroPosition_PositionTH1>80</ACE_ZeroPosition_PositionTH1>
+        <ACE_ZeroPosition_PositionTH2>90</ACE_ZeroPosition_PositionTH2>
+        <ACE_ZeroPosition_PositionTH3>130</ACE_ZeroPosition_PositionTH3>
+    <!-- DarkSlope-->
+        <ACE_DarkSlope_DarkLen>32</ACE_DarkSlope_DarkLen>
+        <ACE_DarkSlope_SatMinTH>160</ACE_DarkSlope_SatMinTH>
+        <ACE_DarkSlope_SatMaxTH>600</ACE_DarkSlope_SatMaxTH>
+        <ACE_DarkSlope_DarkRatioMinTH>0.06</ACE_DarkSlope_DarkRatioMinTH>
+        <ACE_DarkSlope_DarkRatioMaxTH>0.15</ACE_DarkSlope_DarkRatioMaxTH>
+        <ACE_DarkSlope_SlopeMinTH>1.04</ACE_DarkSlope_SlopeMinTH>
+        <ACE_DarkSlope_SlopeMaxTH>1.08</ACE_DarkSlope_SlopeMaxTH>
+    <!-- BrightSlope-->
+        <ACE_BrightSlope_BrightLen>64</ACE_BrightSlope_BrightLen>
+        <ACE_BrightSlope_BrightRatioMinTH>0.06</ACE_BrightSlope_BrightRatioMinTH>
+        <ACE_BrightSlope_BrightRatioMaxTH>0.40</ACE_BrightSlope_BrightRatioMaxTH>
+        <ACE_BrightSlope_SlopeMinTH>1.16</ACE_BrightSlope_SlopeMinTH>
+        <ACE_BrightSlope_SlopeMaxTH>1.24</ACE_BrightSlope_SlopeMaxTH>
+        <ACE_BrightSlope_EndRatioTH>0.72</ACE_BrightSlope_EndRatioTH>
+        <ACE_BrightSlope_EndRatioMinTH>0.55</ACE_BrightSlope_EndRatioMinTH>
+    <!-- LinearEx-->
+        <ACE_LinearEx_DarkRatio>0.002</ACE_LinearEx_DarkRatio>
+        <ACE_LinearEx_BrightRatio>0.005</ACE_LinearEx_BrightRatio>
+        <ACE_LinearEx_AverageMinTH>55</ACE_LinearEx_AverageMinTH>
+        <ACE_LinearEx_SatTH>900</ACE_LinearEx_SatTH>
+        <ACE_LinearEx_DarkMaxTH>25</ACE_LinearEx_DarkMaxTH>
+        <ACE_LinearEx_BrightMinTH>220</ACE_LinearEx_BrightMinTH>
+        <ACE_LinearEx_DarkMaxVal>2</ACE_LinearEx_DarkMaxVal>
+        <ACE_LinearEx_BrightMinVal>253</ACE_LinearEx_BrightMinVal>
+    <!-- MaxDarkVal-->
+        <ACE_MaxDarkVal_DarkMinTH>7</ACE_MaxDarkVal_DarkMinTH>
+        <ACE_MaxDarkVal_DarkMaxTH>10</ACE_MaxDarkVal_DarkMaxTH>
+        <ACE_MaxDarkVal_AverageMinTH>152</ACE_MaxDarkVal_AverageMinTH>
+        <ACE_MaxDarkVal_AverageMaxTH>168</ACE_MaxDarkVal_AverageMaxTH>
+        <ACE_MaxDarkVal_BrightMaxTH>14</ACE_MaxDarkVal_BrightMaxTH>
+        <ACE_MaxDarkVal_EndMaxTH>252</ACE_MaxDarkVal_EndMaxTH>
+    <!-- DarkLeak-->
+        <ACE_DarkLeak_DarkLenTH>64</ACE_DarkLeak_DarkLenTH>
+        <ACE_DarkLeak_DarkMinRatioTH>0.3</ACE_DarkLeak_DarkMinRatioTH>
+        <ACE_DarkLeak_DarkMaxRatioTH>0.8</ACE_DarkLeak_DarkMaxRatioTH>
+        <ACE_DarkLeak_BrightLenTH>232</ACE_DarkLeak_BrightLenTH>
+        <ACE_DarkLeak_BrightRatioMinTH>0.001</ACE_DarkLeak_BrightRatioMinTH>
+        <ACE_DarkLeak_BrightRatioMaxTH>0.08</ACE_DarkLeak_BrightRatioMaxTH>
+        <ACE_DarkLeak_LeakRatioTH>2.0</ACE_DarkLeak_LeakRatioTH>
+        <ACE_DarkLeak_DarkRatioTH>0.9</ACE_DarkLeak_DarkRatioTH>
+        <ACE_DarkLeak_SatValTH>900</ACE_DarkLeak_SatValTH>
+    </ContrastEnhancement>
+
+    <Sharpness>
+    <!-- Level_0-->
+        <SHP_MF_GainL_0>15</SHP_MF_GainL_0>
+        <SHP_MF_GainH_0>30</SHP_MF_GainH_0>
+        <SHP_MF_Limit_0>28</SHP_MF_Limit_0>
+        <SHP_HF_GainL_0>20</SHP_HF_GainL_0>
+        <SHP_HF_GainH_0>10</SHP_HF_GainH_0>
+        <SHP_HF_Limit_0>16</SHP_HF_Limit_0>
+        <SHP_Coring_0>2</SHP_Coring_0>
+        <SHP_OS_Gain_0>8</SHP_OS_Gain_0>
+        <SHP_OS_Limit_0>4</SHP_OS_Limit_0>
+        <SHP_US_Gain_0>6</SHP_US_Gain_0>
+        <SHP_US_Limit_0>3</SHP_US_Limit_0>
+        <SHP_OS_Cut_0>6</SHP_OS_Cut_0>
+        <SHP_US_Cut_0>6</SHP_US_Cut_0>
+    <!-- Level_1-->
+        <SHP_MF_GainL_1>21</SHP_MF_GainL_1>
+        <SHP_MF_GainH_1>42</SHP_MF_GainH_1>
+        <SHP_MF_Limit_1>24</SHP_MF_Limit_1>
+        <SHP_HF_GainL_1>24</SHP_HF_GainL_1>
+        <SHP_HF_GainH_1>12</SHP_HF_GainH_1>
+        <SHP_HF_Limit_1>20</SHP_HF_Limit_1>
+        <SHP_Coring_1>3</SHP_Coring_1>
+        <SHP_OS_Gain_1>10</SHP_OS_Gain_1>
+        <SHP_OS_Limit_1>6</SHP_OS_Limit_1>
+        <SHP_US_Gain_1>10</SHP_US_Gain_1>
+        <SHP_US_Limit_1>6</SHP_US_Limit_1>
+        <SHP_OS_Cut_1>8</SHP_OS_Cut_1>
+        <SHP_US_Cut_1>8</SHP_US_Cut_1>
+    <!-- Level_2-->
+        <SHP_MF_GainL_2>27</SHP_MF_GainL_2>
+        <SHP_MF_GainH_2>54</SHP_MF_GainH_2>
+        <SHP_MF_Limit_2>15</SHP_MF_Limit_2>
+        <SHP_HF_GainL_2>26</SHP_HF_GainL_2>
+        <SHP_HF_GainH_2>13</SHP_HF_GainH_2>
+        <SHP_HF_Limit_2>24</SHP_HF_Limit_2>
+        <SHP_Coring_2>3</SHP_Coring_2>
+        <SHP_OS_Gain_2>14</SHP_OS_Gain_2>
+        <SHP_OS_Limit_2>9</SHP_OS_Limit_2>
+        <SHP_US_Gain_2>14</SHP_US_Gain_2>
+        <SHP_US_Limit_2>9</SHP_US_Limit_2>
+        <SHP_OS_Cut_2>10</SHP_OS_Cut_2>
+        <SHP_US_Cut_2>16</SHP_US_Cut_2>
+    <!-- Level_3-->
+        <SHP_MF_GainL_3>29</SHP_MF_GainL_3>
+        <SHP_MF_GainH_3>58</SHP_MF_GainH_3>
+        <SHP_MF_Limit_3>25</SHP_MF_Limit_3>
+        <SHP_HF_GainL_3>28</SHP_HF_GainL_3>
+        <SHP_HF_GainH_3>14</SHP_HF_GainH_3>
+        <SHP_HF_Limit_3>24</SHP_HF_Limit_3>
+        <SHP_Coring_3>3</SHP_Coring_3>
+        <SHP_OS_Gain_3>14</SHP_OS_Gain_3>
+        <SHP_OS_Limit_3>9</SHP_OS_Limit_3>
+        <SHP_US_Gain_3>14</SHP_US_Gain_3>
+        <SHP_US_Limit_3>9</SHP_US_Limit_3>
+        <SHP_OS_Cut_3>7</SHP_OS_Cut_3>
+        <SHP_US_Cut_3>12</SHP_US_Cut_3>
+    <!-- edge-->
+        <SHP_Edge_RatioL>64</SHP_Edge_RatioL>
+        <SHP_Edge_RatioH>192</SHP_Edge_RatioH>
+        <SHP_Edge_DetLmt0>1</SHP_Edge_DetLmt0>
+        <SHP_Edge_DetLmt1>5</SHP_Edge_DetLmt1>
+    <!-- Histogram-->
+        <SHP_CTRL_DoHistLevel>1</SHP_CTRL_DoHistLevel>
+        <SHP_Hist_AvgL>115</SHP_Hist_AvgL>
+        <SHP_Hist_AvgH>200</SHP_Hist_AvgH>
+        <SHP_Hist_Exp>58</SHP_Hist_Exp>
+        <SHP_Hist_Bright>100</SHP_Hist_Bright>
+        <SHP_Hist_Dark>550</SHP_Hist_Dark>
+        <SHP_Hist_DarkH>300</SHP_Hist_DarkH>
+        <SHP_Hist_DarkL>100</SHP_Hist_DarkL>
+    <!-- other-->
+        <SHP_Satval>110</SHP_Satval>
+        <SHP_Skin_HFcut>8</SHP_Skin_HFcut>
+        <SHP_Skin_LimitCut>6</SHP_Skin_LimitCut>
+        <SHP_Skin_Coring>3</SHP_Skin_Coring>
+        <SHP_Gray_Max>3</SHP_Gray_Max>
+        <SHP_Skin_Cut_Low>10</SHP_Skin_Cut_Low>
+        <SHP_Skin_Cut_Hig>10</SHP_Skin_Cut_Hig>
+        <SHP_Filter_Limit>50</SHP_Filter_Limit>
+        <SHP_MFGain_Increase>0.5</SHP_MFGain_Increase>
+        <SHP_HFGain_Increase>0.5</SHP_HFGain_Increase>
+        <SHP_OUSCut_Increase>0.5</SHP_OUSCut_Increase>
+    </Sharpness>
+
+    <GamutMapping>
+    <!-- SatTH Sat0TH-->
+        <GMP_Sat_TH>0</GMP_Sat_TH>
+        <GMP_Sat0_TH>20</GMP_Sat0_TH>
+    <!-- Gamma ratio -->
+        <GMP_Gamma_Ratio>2.2</GMP_Gamma_Ratio>
+        <GMP_DeGamma_Ratio>2.2</GMP_DeGamma_Ratio>
+    <!-- Gray gain -->
+        <GMP_Gray_SlopA>0.0</GMP_Gray_SlopA>
+        <GMP_Gray_SlopB>0.0</GMP_Gray_SlopB>
+    <!-- 3x3x3-LUT -->
+        <GMP_IN_OUT_NODE1>(0,0,0),(0,0,0)</GMP_IN_OUT_NODE1>
+        <GMP_IN_OUT_NODE2>(0,0,128),(0,0,128)</GMP_IN_OUT_NODE2>
+        <GMP_IN_OUT_NODE3>(0,0,255),(0,0,255)</GMP_IN_OUT_NODE3>
+        <GMP_IN_OUT_NODE4>(0,128,0),(0,128,0)</GMP_IN_OUT_NODE4>
+        <GMP_IN_OUT_NODE5>(0,128,128),(0,128,128)</GMP_IN_OUT_NODE5>
+        <GMP_IN_OUT_NODE6>(0,128,255),(0,128,255)</GMP_IN_OUT_NODE6>
+        <GMP_IN_OUT_NODE7>(0,255,0),(0,255,0)</GMP_IN_OUT_NODE7>
+        <GMP_IN_OUT_NODE8>(0,255,128),(0,255,128)</GMP_IN_OUT_NODE8>
+        <GMP_IN_OUT_NODE9>(0,255,255),(0,255,255)</GMP_IN_OUT_NODE9>
+        <GMP_IN_OUT_NODE10>(128,0,0),(128,0,0)</GMP_IN_OUT_NODE10>
+        <GMP_IN_OUT_NODE11>(128,0,128),(128,0,128)</GMP_IN_OUT_NODE11>
+        <GMP_IN_OUT_NODE12>(128,0,255),(128,0,255)</GMP_IN_OUT_NODE12>
+        <GMP_IN_OUT_NODE13>(128,128,0),(128,128,0)</GMP_IN_OUT_NODE13>
+        <GMP_IN_OUT_NODE14>(128,128,128),(128,128,128)</GMP_IN_OUT_NODE14>
+        <GMP_IN_OUT_NODE15>(128,128,255),(128,128,255)</GMP_IN_OUT_NODE15>
+        <GMP_IN_OUT_NODE16>(128,255,0),(128,255,0)</GMP_IN_OUT_NODE16>
+        <GMP_IN_OUT_NODE17>(128,255,128),(128,255,128)</GMP_IN_OUT_NODE17>
+        <GMP_IN_OUT_NODE18>(128,255,255),(128,255,255)</GMP_IN_OUT_NODE18>
+        <GMP_IN_OUT_NODE19>(255,0,0),(255,0,0)</GMP_IN_OUT_NODE19>
+        <GMP_IN_OUT_NODE20>(255,0,128),(255,0,128)</GMP_IN_OUT_NODE20>
+        <GMP_IN_OUT_NODE21>(255,0,255),(255,0,255)</GMP_IN_OUT_NODE21>
+        <GMP_IN_OUT_NODE22>(255,128,0),(255,128,0)</GMP_IN_OUT_NODE22>
+        <GMP_IN_OUT_NODE23>(255,128,128),(255,128,128)</GMP_IN_OUT_NODE23>
+        <GMP_IN_OUT_NODE24>(255,128,255),(255,128,255)</GMP_IN_OUT_NODE24>
+        <GMP_IN_OUT_NODE25>(255,255,0),(255,255,0)</GMP_IN_OUT_NODE25>
+        <GMP_IN_OUT_NODE26>(255,255,128),(255,255,128)</GMP_IN_OUT_NODE26>
+        <GMP_IN_OUT_NODE27>(255,255,255),(255,255,255)</GMP_IN_OUT_NODE27>
+    <!-- Skin LUT -->
+        <GMP_SKIN_IN_OUT_NODE1>(47,16,16),(47,16,16)</GMP_SKIN_IN_OUT_NODE1>
+        <GMP_SKIN_IN_OUT_NODE2>(47,47,16),(47,47,16)</GMP_SKIN_IN_OUT_NODE2>
+        <GMP_SKIN_IN_OUT_NODE3>(88,47,47),(88,47,47)</GMP_SKIN_IN_OUT_NODE3>
+        <GMP_SKIN_IN_OUT_NODE4>(128,88,16),(128,88,16)</GMP_SKIN_IN_OUT_NODE4>
+        <GMP_SKIN_IN_OUT_NODE5>(128,88,47),(128,88,47)</GMP_SKIN_IN_OUT_NODE5>
+        <GMP_SKIN_IN_OUT_NODE6>(128,88,88),(128,88,88)</GMP_SKIN_IN_OUT_NODE6>
+        <GMP_SKIN_IN_OUT_NODE7>(168,128,47),(168,128,47)</GMP_SKIN_IN_OUT_NODE7>
+        <GMP_SKIN_IN_OUT_NODE8>(168,128,88),(168,128,88)</GMP_SKIN_IN_OUT_NODE8>
+        <GMP_SKIN_IN_OUT_NODE9>(209,16,16),(209,16,16)</GMP_SKIN_IN_OUT_NODE9>
+        <GMP_SKIN_IN_OUT_NODE10>(209,168,88),(209,168,88)</GMP_SKIN_IN_OUT_NODE10>
+        <GMP_SKIN_IN_OUT_NODE11>(255,47,16),(255,47,16)</GMP_SKIN_IN_OUT_NODE11>
+        <GMP_SKIN_IN_OUT_NODE12>(255,47,47),(255,47,47)</GMP_SKIN_IN_OUT_NODE12>
+        <GMP_SKIN_IN_OUT_NODE13>(255,88,16),(255,88,16)</GMP_SKIN_IN_OUT_NODE13>
+        <GMP_SKIN_IN_OUT_NODE14>(255,88,88),(255,88,88)</GMP_SKIN_IN_OUT_NODE14>
+        <GMP_SKIN_IN_OUT_NODE15>(255,128,47),(255,128,47)</GMP_SKIN_IN_OUT_NODE15>
+        <GMP_SKIN_IN_OUT_NODE16>(255,128,128),(255,128,128)</GMP_SKIN_IN_OUT_NODE16>
+        <GMP_SKIN_IN_OUT_NODE17>(255,168,88),(255,168,88)</GMP_SKIN_IN_OUT_NODE17>
+        <GMP_SKIN_IN_OUT_NODE18>(255,168,128),(255,168,128)</GMP_SKIN_IN_OUT_NODE18>
+    </GamutMapping>
+
+    <GamutMapping_2>
+    <!-- SatTH Sat0TH-->
+        <GMP2_Sat_TH>0</GMP2_Sat_TH>
+        <GMP2_Sat0_TH>20</GMP2_Sat0_TH>
+    <!-- Gamma ratio -->
+        <GMP2_Gamma_Ratio>2.2</GMP2_Gamma_Ratio>
+        <GMP2_DeGamma_Ratio>2.2</GMP2_DeGamma_Ratio>
+    <!-- Gray gain -->
+        <GMP2_Gray_SlopA>0.0</GMP2_Gray_SlopA>
+        <GMP2_Gray_SlopB>0.0</GMP2_Gray_SlopB>
+    <!-- 3x3x3-LUT -->
+        <GMP2_IN_OUT_NODE1>(0,0,0),(0,0,0)</GMP2_IN_OUT_NODE1>
+        <GMP2_IN_OUT_NODE2>(0,0,128),(0,0,128)</GMP2_IN_OUT_NODE2>
+        <GMP2_IN_OUT_NODE3>(0,0,255),(0,0,255)</GMP2_IN_OUT_NODE3>
+        <GMP2_IN_OUT_NODE4>(0,128,0),(0,128,0)</GMP2_IN_OUT_NODE4>
+        <GMP2_IN_OUT_NODE5>(0,128,128),(0,128,128)</GMP2_IN_OUT_NODE5>
+        <GMP2_IN_OUT_NODE6>(0,128,255),(0,128,255)</GMP2_IN_OUT_NODE6>
+        <GMP2_IN_OUT_NODE7>(0,255,0),(0,255,0)</GMP2_IN_OUT_NODE7>
+        <GMP2_IN_OUT_NODE8>(0,255,128),(0,255,128)</GMP2_IN_OUT_NODE8>
+        <GMP2_IN_OUT_NODE9>(0,255,255),(0,255,255)</GMP2_IN_OUT_NODE9>
+        <GMP2_IN_OUT_NODE10>(128,0,0),(128,0,0)</GMP2_IN_OUT_NODE10>
+        <GMP2_IN_OUT_NODE11>(128,0,128),(128,0,128)</GMP2_IN_OUT_NODE11>
+        <GMP2_IN_OUT_NODE12>(128,0,255),(128,0,255)</GMP2_IN_OUT_NODE12>
+        <GMP2_IN_OUT_NODE13>(128,128,0),(128,128,0)</GMP2_IN_OUT_NODE13>
+        <GMP2_IN_OUT_NODE14>(128,128,128),(128,128,128)</GMP2_IN_OUT_NODE14>
+        <GMP2_IN_OUT_NODE15>(128,128,255),(128,128,255)</GMP2_IN_OUT_NODE15>
+        <GMP2_IN_OUT_NODE16>(128,255,0),(128,255,0)</GMP2_IN_OUT_NODE16>
+        <GMP2_IN_OUT_NODE17>(128,255,128),(128,255,128)</GMP2_IN_OUT_NODE17>
+        <GMP2_IN_OUT_NODE18>(128,255,255),(128,255,255)</GMP2_IN_OUT_NODE18>
+        <GMP2_IN_OUT_NODE19>(255,0,0),(255,0,0)</GMP2_IN_OUT_NODE19>
+        <GMP2_IN_OUT_NODE20>(255,0,128),(255,0,128)</GMP2_IN_OUT_NODE20>
+        <GMP2_IN_OUT_NODE21>(255,0,255),(255,0,255)</GMP2_IN_OUT_NODE21>
+        <GMP2_IN_OUT_NODE22>(255,128,0),(255,128,0)</GMP2_IN_OUT_NODE22>
+        <GMP2_IN_OUT_NODE23>(255,128,128),(255,128,128)</GMP2_IN_OUT_NODE23>
+        <GMP2_IN_OUT_NODE24>(255,128,255),(255,128,255)</GMP2_IN_OUT_NODE24>
+        <GMP2_IN_OUT_NODE25>(255,255,0),(255,255,0)</GMP2_IN_OUT_NODE25>
+        <GMP2_IN_OUT_NODE26>(255,255,128),(255,255,128)</GMP2_IN_OUT_NODE26>
+        <GMP2_IN_OUT_NODE27>(255,255,255),(255,255,255)</GMP2_IN_OUT_NODE27>
+    <!-- Skin LUT -->
+        <GMP2_SKIN_IN_OUT_NODE1>(47,16,16),(47,16,16)</GMP2_SKIN_IN_OUT_NODE1>
+        <GMP2_SKIN_IN_OUT_NODE2>(47,47,16),(47,47,16)</GMP2_SKIN_IN_OUT_NODE2>
+        <GMP2_SKIN_IN_OUT_NODE3>(88,47,47),(88,47,47)</GMP2_SKIN_IN_OUT_NODE3>
+        <GMP2_SKIN_IN_OUT_NODE4>(128,88,16),(128,88,16)</GMP2_SKIN_IN_OUT_NODE4>
+        <GMP2_SKIN_IN_OUT_NODE5>(128,88,47),(128,88,47)</GMP2_SKIN_IN_OUT_NODE5>
+        <GMP2_SKIN_IN_OUT_NODE6>(128,88,88),(128,88,88)</GMP2_SKIN_IN_OUT_NODE6>
+        <GMP2_SKIN_IN_OUT_NODE7>(168,128,47),(168,128,47)</GMP2_SKIN_IN_OUT_NODE7>
+        <GMP2_SKIN_IN_OUT_NODE8>(168,128,88),(168,128,88)</GMP2_SKIN_IN_OUT_NODE8>
+        <GMP2_SKIN_IN_OUT_NODE9>(209,16,16),(209,16,16)</GMP2_SKIN_IN_OUT_NODE9>
+        <GMP2_SKIN_IN_OUT_NODE10>(209,168,88),(209,168,88)</GMP2_SKIN_IN_OUT_NODE10>
+        <GMP2_SKIN_IN_OUT_NODE11>(255,47,16),(255,47,16)</GMP2_SKIN_IN_OUT_NODE11>
+        <GMP2_SKIN_IN_OUT_NODE12>(255,47,47),(255,47,47)</GMP2_SKIN_IN_OUT_NODE12>
+        <GMP2_SKIN_IN_OUT_NODE13>(255,88,16),(255,88,16)</GMP2_SKIN_IN_OUT_NODE13>
+        <GMP2_SKIN_IN_OUT_NODE14>(255,88,88),(255,88,88)</GMP2_SKIN_IN_OUT_NODE14>
+        <GMP2_SKIN_IN_OUT_NODE15>(255,128,47),(255,128,47)</GMP2_SKIN_IN_OUT_NODE15>
+        <GMP2_SKIN_IN_OUT_NODE16>(255,128,128),(255,128,128)</GMP2_SKIN_IN_OUT_NODE16>
+        <GMP2_SKIN_IN_OUT_NODE17>(255,168,88),(255,168,88)</GMP2_SKIN_IN_OUT_NODE17>
+        <GMP2_SKIN_IN_OUT_NODE18>(255,168,128),(255,168,128)</GMP2_SKIN_IN_OUT_NODE18>
+    </GamutMapping_2>
+
+    <ACM_General_Control>
+    <!-- SkinDetectControlParam-->
+        <SKIN_TH_MIN_H>110</SKIN_TH_MIN_H>
+        <SKIN_TH_MAX_H>140</SKIN_TH_MAX_H>
+        <SKIN_SLOP_H>30.0</SKIN_SLOP_H>
+        <SKIN_TH_MIN_S>20.0</SKIN_TH_MIN_S>
+        <SKIN_TH_MAX_S>60.0</SKIN_TH_MAX_S>
+        <SKIN_SLOP_S>30.0</SKIN_SLOP_S>
+        <SKIN_TH_MIN_V>100.0</SKIN_TH_MIN_V>
+        <SKIN_TH_MAX_V>220.0</SKIN_TH_MAX_V>
+        <SKIN_SLOP_V>30.0</SKIN_SLOP_V>
+        <SKIN_GainMax_V>0.0</SKIN_GainMax_V>
+        <SKIN_GainMax_S>0.0</SKIN_GainMax_S>
+        <SKIN_GainMax_H>0.0</SKIN_GainMax_H>
+        <SKIN_IsChange>1</SKIN_IsChange>
+    <!-- SatTH -->
+        <Sat_TH>0.0</Sat_TH>
+    </ACM_General_Control>
+
+    <ACM_Table>
+    <!-- ACM Module Control-->
+        <CTRL_DoHueAdjust>1</CTRL_DoHueAdjust>
+        <CTRL_DoSatAdjust>0</CTRL_DoSatAdjust>
+        <CTRL_DoValAdjust>0</CTRL_DoValAdjust>
+    <!-- HSV_Global_Adjust-->
+        <Global_Hoffset>0</Global_Hoffset>
+    <!-- HbyH_Offset_Table-->
+        <HUE_Offset>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</HUE_Offset>
+    <!-- SbyS_Intervals_Table-->
+        <SbyS_Intervals>(0, 128, 256, 384, 512)</SbyS_Intervals>
+    <!-- SbyHS_Offset_Table-->
+        <SAT_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_0>
+        <SAT_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_1>
+        <SAT_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT_HS_Offset_2>
+    <!-- VbyV_Intervals_Table-->
+        <VbyV_Intervals>(0, 256, 512, 768, 1023)</VbyV_Intervals>
+    <!-- VbyHV_Offset_Table-->
+        <VAL_HV_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_0>
+        <VAL_HV_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_1>
+        <VAL_HV_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HV_Offset_2>
+    <!-- VbyS_Intervals_Table-->
+        <VbyS_Intervals>(0, 128, 256, 384, 512)</VbyS_Intervals>
+    <!-- VbyHS_Offset_Table-->
+        <VAL_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_0>
+        <VAL_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_1>
+        <VAL_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL_HS_Offset_2>
+    </ACM_Table>
+
+    <ACM2_General_Control>
+    <!-- SkinDetectControlParam-->
+        <SKIN2_TH_MIN_H>110</SKIN2_TH_MIN_H>
+        <SKIN2_TH_MAX_H>140</SKIN2_TH_MAX_H>
+        <SKIN2_SLOP_H>30.0</SKIN2_SLOP_H>
+        <SKIN2_TH_MIN_S>20.0</SKIN2_TH_MIN_S>
+        <SKIN2_TH_MAX_S>60.0</SKIN2_TH_MAX_S>
+        <SKIN2_SLOP_S>30.0</SKIN2_SLOP_S>
+        <SKIN2_TH_MIN_V>100.0</SKIN2_TH_MIN_V>
+        <SKIN2_TH_MAX_V>220.0</SKIN2_TH_MAX_V>
+        <SKIN2_SLOP_V>30.0</SKIN2_SLOP_V>
+        <SKIN2_GainMax_V>0.0</SKIN2_GainMax_V>
+        <SKIN2_GainMax_S>0.0</SKIN2_GainMax_S>
+        <SKIN2_GainMax_H>0.0</SKIN2_GainMax_H>
+        <SKIN2_IsChange>1</SKIN2_IsChange>
+    <!-- SatTH -->
+        <Sat2_TH>0.0</Sat2_TH>
+    </ACM2_General_Control>
+
+     <ACM2_Table>
+    <!-- ACM Module Control-->
+        <CTRL_DoHueAdjust2>0</CTRL_DoHueAdjust2>
+        <CTRL_DoSatAdjust2>0</CTRL_DoSatAdjust2>
+        <CTRL_DoValAdjust2>0</CTRL_DoValAdjust2>
+    <!-- HSV_Global_Adjust-->
+        <Global_Hoffset2>0</Global_Hoffset2>
+    <!-- HbyH_Offset_Table-->
+        <HUE_Offset2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</HUE_Offset2>
+    <!-- SbyS_Intervals_Table-->
+        <SbyS_Intervals2>(0, 128, 256, 384, 512)</SbyS_Intervals2>
+    <!-- SbyHS_Offset_Table-->
+        <SAT2_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_0>
+        <SAT2_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_1>
+        <SAT2_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</SAT2_HS_Offset_2>
+    <!-- VbyV_Intervals_Table-->
+        <VbyV_Intervals2>(0, 256, 512, 768, 1023)</VbyV_Intervals2>
+    <!-- VbyHV_Offset_Table-->
+        <VAL2_HV_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_0>
+        <VAL2_HV_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_1>
+        <VAL2_HV_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HV_Offset_2>
+    <!-- VbyS_Intervals_Table-->
+        <VbyS_Intervals2>(0, 128, 256, 384, 512)</VbyS_Intervals2>
+    <!-- VbyHS_Offset_Table-->
+        <VAL2_HS_Offset_0>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_0>
+        <VAL2_HS_Offset_1>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_1>
+        <VAL2_HS_Offset_2>(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)</VAL2_HS_Offset_2>
+    </ACM2_Table>
+
+</Config>

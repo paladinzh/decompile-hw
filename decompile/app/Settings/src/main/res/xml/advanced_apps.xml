@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configure_apps" android:key="applications_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:title="@string/app_permissions" android:key="manage_perms" android:widgetLayout="@layout/preference_widget_arrow" settings:keywords="@string/keywords_app_permissions" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/default_apps_title">
+        <PreferenceScreen android:title="@string/domain_urls_title" android:key="domain_urls" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$DomainsURLsAppListActivity">
+                <extra android:name="classname" android:value="com.android.settings.Settings$DomainsURLsAppListActivity" />
+            </intent>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/title_preferred_list_settings" android:key="default_apps" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.applications.PreferredListSettings" settings:keywords="@string/title_preferred_list_settings" />
+    </PreferenceCategory>
+    <com.android.settings.WorkOnlyCategory android:title="@string/default_for_work" android:key="work_defaults">
+        <com.android.settings.applications.DefaultBrowserPreference android:title="@string/default_browser_title" android:key="work_default_browser" android:summary="@string/default_browser_title_none" settings:forWork="true" />
+        <com.android.settings.applications.DefaultPhonePreference android:title="@string/default_phone_title" android:key="work_default_phone_app" settings:keywords="@string/keywords_default_phone_app" settings:forWork="true" />
+    </com.android.settings.WorkOnlyCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/advanced_apps">
+        <PreferenceScreen android:title="@string/special_access" android:key="special_access" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.applications.SpecialAccessSettings" />
+    </PreferenceCategory>
+</PreferenceScreen>

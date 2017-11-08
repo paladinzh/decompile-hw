@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.contacts" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d0221"
+    <RelativeLayout ex:id="@+id/header_background" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d0220" ex:layout_alignParentBottom="true">
+        <com.android.contacts.widget.DialpadHeaderLayout ex:id="@+id/header_background0" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x601" ex:layout_above="@+id/header_background1" ex:layout_alignParentStart="true" ex:left_top_radius="@dimen/contact_detail_card_roundrect_radius" ex:left_bottom_radius="0dp" ex:right_top_radius="@dimen/contact_detail_card_roundrect_radius" ex:right_bottom_radius="0dp" ex:blur_top="0dp" ex:bg_rect_left="@dimen/contact_detail_blur_bg_left" ex:bg_rect_right="@dimen/contact_detail_blur_bg_right" ex:bg_rect_top="@dimen/contact_detail_blur_bg_top" ex:bg_rect_bottom="@dimen/contact_detail_blur_bg_bottom" ex:background_change="@color/background_change" ex:background="@drawable/header_background0" />
+        <com.android.contacts.widget.DialpadHeaderLayout ex:id="@+id/header_background1" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x4c01" ex:layout_alignParentBottom="true" ex:bg_rect_left="@dimen/contact_detail_blur_bg_left" ex:bg_rect_right="@dimen/contact_detail_blur_bg_right" ex:bg_rect_top="@dimen/contact_detail_blur_bg_top" ex:bg_rect_bottom="@dimen/contact_detail_blur_bg_bottom" ex:background_change="@color/background_change" ex:background="@drawable/header_background1" />
+    </RelativeLayout>
+    <LinearLayout ex:id="@+id/photo_container" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_marginStart="@dimen/contact_detail_photo_margin_start_landscape">
+        <include ex:id="@+id/static_photo_container" layout="@layout/photo_selector_view" />
+    </LinearLayout>
+    <LinearLayout ex:gravity="top|bottom|center_vertical|fill_vertical|center|fill" ex:orientation="horizontal" ex:id="@+id/namecompay" ex:paddingLeft="10dp" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layout_marginTop="2dp" ex:layout_below="@+id/photo_container">
+        <com.android.contacts.util.AutoEllipseTextView ex:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:id="@+id/title" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:singleLine="true" style="@style/contact_detail_important_text_style" />
+    </LinearLayout>
+    <LinearLayout ex:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" ex:orientation="vertical" ex:id="@+id/menu_layout" ex:background="@drawable/contact_detail_card_menu_background" ex:paddingLeft="10dp" ex:paddingRight="10dp" ex:layout_width="wrap_content" ex:layout_height="UNKNOWN_DATA_0x7f0d0224" ex:layout_alignParentBottom="true" ex:layout_alignParentEnd="true">
+        <ImageView ex:id="@+id/imageView1" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:src="@drawable/contacts_ic_edit" />
+    </LinearLayout>
+</RelativeLayout>

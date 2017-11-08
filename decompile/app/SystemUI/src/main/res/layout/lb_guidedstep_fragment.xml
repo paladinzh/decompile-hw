@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v17.leanback.app.GuidedStepRootLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/guidedstep_root" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="2.0">
+    <FrameLayout android:id="@id/guidedstep_background_view_root" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="?attr/guidedStepHeightWeight">
+        <LinearLayout android:orientation="horizontal" android:id="@r$id/content_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v17.leanback.widget.NonOverlappingFrameLayout android:id="@id/content_fragment" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_alignParentStart="true" />
+            <android.support.v17.leanback.widget.NonOverlappingFrameLayout android:orientation="horizontal" android:id="@id/action_fragment_root" android:clipChildren="false" android:clipToPadding="false" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="?attr/guidedActionContentWidthWeight" android:paddingStart="@dimen/lb_guidedactions_section_shadow_width" android:layout_alignParentEnd="true" android:transitionName="action_fragment_root" android:transitionGroup="false">
+                <android.support.v17.leanback.widget.NonOverlappingView android:orientation="horizontal" android:id="@id/action_fragment_background" android:background="?attr/guidedActionsBackground" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionName="action_fragment_background" android:elevation="?attr/guidedActionsElevation" android:outlineProvider="paddedBounds" />
+                <android.support.v17.leanback.widget.NonOverlappingLinearLayout android:orientation="horizontal" android:id="@id/action_fragment" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionName="action_fragment" android:transitionGroup="false" android:elevation="?attr/guidedActionsElevation" />
+            </android.support.v17.leanback.widget.NonOverlappingFrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v17.leanback.app.GuidedStepRootLayout>

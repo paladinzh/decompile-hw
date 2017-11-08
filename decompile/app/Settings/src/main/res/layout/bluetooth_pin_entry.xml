@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:id="@id/message_caption" android:layout_marginTop="2.0dip" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/message_subhead" android:layout_marginBottom="12.0dip" android:layout_marginStart="@dimen/bluetooth_dialog_padding" android:layout_marginEnd="@dimen/bluetooth_dialog_padding" style="@style/EmuiPrimaryTextFontStyle" />
+        <EditText android:id="@id/text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/edittext_min_height" android:hint="@string/bluetooth_pin_values_hint" android:singleLine="true" android:inputType="textPassword" />
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:gravity="center" android:id="@id/alphanumeric_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/bluetooth_enable_alphanumeric_pin" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:id="@id/message_below_pin" android:layout_marginBottom="12.0dip" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" style="@style/EmuiPrimaryTextFontStyle" />
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:gravity="center_vertical" android:id="@id/phonebook_sharing_message_entry_pin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth_pairing_shares_phonebook" android:layout_marginStart="@dimen/bluetooth_dialog_padding" android:layout_marginEnd="@dimen/bluetooth_dialog_padding" />
+    </LinearLayout>
+</ScrollView>

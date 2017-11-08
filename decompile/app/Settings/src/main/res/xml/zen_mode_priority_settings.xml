@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_priority_settings_title" android:key="zen_mode_priority_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:enabled="false" android:title="@string/zen_mode_alarms" android:key="alarms" android:defaultValue="true" />
+    <ListPreference android:layout="@layout/preference_status" android:title="@string/zen_mode_calls" android:key="calls" android:widgetLayout="@layout/preference_widget_arrow" />
+    <ListPreference android:layout="@layout/preference_status" android:title="@string/zen_mode_messages" android:key="messages" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceScreen android:title="@string/zen_mode_white_list_settings_title" android:key="white_list_settings" android:summary="@string/zen_mode_white_list_settings_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="huawei.intent.action.HSM_PREVENTMODE_WHITENUMBER" />
+    </PreferenceScreen>
+    <SwitchPreference android:title="@string/zen_mode_repeat_callers" android:key="repeat_callers" />
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+    <EditText android:id="@+id/text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="4" android:numeric="integer|signed|decimal" android:layout_weight="1.0" />
+    <TextView android:textSize="14sp" android:id="@+id/txt_secs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/secs" android:singleLine="true" android:paddingEnd="6dp" android:layout_marginStart="4dp" />
+</LinearLayout>

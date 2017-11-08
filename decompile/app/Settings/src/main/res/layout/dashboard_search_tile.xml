@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/search_view_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SearchView android:id="@id/search_view" android:focusable="false" android:focusableInTouchMode="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/edittext_min_height" android:singleLine="true" android:iconifiedByDefault="false" android:queryHint="@string/search_hint" android:layout_marginStart="@dimen/preference_item_padding_end" android:layout_marginEnd="@dimen/preference_item_padding_start" />
+</LinearLayout>

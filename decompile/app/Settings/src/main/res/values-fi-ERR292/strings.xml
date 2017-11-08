@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Yhdistetty WLAN-avustajan kautta</string>
+    <string name="accessibility_wifi_off">WLAN poissa päältä.</string>
+    <string name="accessibility_no_wifi">WLAN katkaistu.</string>
+    <string name="accessibility_wifi_one_bar">WLAN-signaali: yksi palkki.</string>
+    <string name="accessibility_wifi_two_bars">WLAN-signaali: kaksi palkkia.</string>
+    <string name="accessibility_wifi_three_bars">WLAN-signaali: kolme palkkia.</string>
+    <string name="accessibility_wifi_signal_full">Vahva WLAN-signaali.</string>
+    <string name="wifi_verbose_logging">Ota käyttöön WLANn yksityiskohtainen kirjaaminen</string>
+    <string name="wifi_aggressive_handover">Aggressiivinen siirto WLANstä matkapuhelinverkkoon</string>
+    <string name="wifi_allow_scan_with_traffic">Salli aina WLAN-verkkovierailuskannaukset</string>
+    <string name="wifi_verbose_logging_summary">Nosta WLAN-kirjaamistasoa ja näytä SSID RSSI -kohtaisesti WLAN-valitsimessa</string>
+    <string name="wifi_aggressive_handover_summary">Kun toiminto on otettu käyttöön, WLAN siirtää datayhteyden aggressiivisemmin matkapuhelinverkkoon, kun WLAN-signaali on heikko</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Salli WLAN-verkkovierailuskannaukset / rajoita niitä liittymässä olevan dataliikenteen määrän perusteella</string>
+    <string name="mobile_data_always_on_summary">Pidä mobiilidata aina aktiivisena, vaikka WLAN olisi aktiivinen (nopeaa verkon vaihtoa varten)</string>
+    <string name="radio_controls_summary">Hallinnoi WLAN- ja Bluetooth-yhteyksiä, lentokonetilaa ja mobiili- ja VPN-verkkoja</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Ota WLAN-yhteys käyttöön</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN-asetukset</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Valitse WLAN-verkko</string>
+    <string name="wifi_select_network">Valitse WLAN-verkko</string>
+    <string name="wifi_starting">WLANä otetaan käyttöön...</string>
+    <string name="wifi_stopping">Sammutetaan WLAN-yhteyttä…</string>
+    <string name="wifi_poor_network_detection_summary">Vältä yhdistämistä WLAN-verkkoon, jos sillä on huono Internet-yhteys</string>
+    <string name="wifi_automatically_connect_title">Käytä avointa WLAN-verkkoa autom.</string>
+    <string name="wifi_automatically_connect_summary">Anna WLAN-avustajan muodostaa autom. yhteys avoimiin verkkoihin, joilla on hyvä Internet-yhteys</string>
+    <string name="wifi_scan_notify_text">Sijainnin tarkkuuden parantamiseksi järjestelmäsovellukset ja -palvelut voivat edelleen etsiä WLAN-verkkoja. Tämä voidaan muuttaa LINK_BEGINetsintäasetuksissaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN käytössä lepotilassa</string>
+    <string name="wifi_suspend_optimizations">WLAN-optimointi</string>
+    <string name="wifi_suspend_optimizations_summary">Vähennä akun kulutusta, kun WLAN on käytössä</string>
+    <string name="wifi_access_points">WLAN-verkot</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">"Näet käytettävissä olevat verkot, kun otat WLAN:n käyttöön. "</string>
+    <string name="wifi_empty_list_wifi_on">Haetaan WLAN-verkkoja...</string>
+    <string name="wifi_empty_list_user_restricted">Sinulla ei ole oikeutta vaihtaa WLAN-verkkoa.</string>
+    <string name="wifi_wps_setup_title">Suojatut WLAN-asetukset</string>
+    <string name="wifi_wps_onstart_pbc">Paina reitittimen WLAN Protected Setup -painiketta. Siinä voi lukea WPS tai se voi sisältää seuraavan symbolin:</string>
+    <string name="wifi_wps_onstart_pin">Näppäile WLAN-reitittimen pin-koodi %1$s. Asennus voi kestää kaksi minuuttia.</string>
+    <string name="wifi_wps_connected">Yhdistetty WLAN-verkkoon %s</string>
+    <string name="wifi_scan_always_turnon_message">"Sijainnin tarkkuuden parantamiseksi ja muita tarkoituksia varten %1$s haluaa ottaa verkkohaun käyttöön, vaikka WLAN olisi pois päältä.
+
+Sallitaanko tämä kaikille sovelluksille, jotka haluavat hakea?"</string>
+    <string name="wifi_skipped_message">"VAROITUS: Tiedonsiirrosta voi aiheutua dataverkkomaksuja.
+
+Puhelimen asetusten määritys voi edellyttää suuren datamäärän siirtoa verkon kautta."</string>
+    <string name="wifi_and_mobile_skipped_message">VAROITUS: puhelin ei voi tarkistaa, onko ohjelmisto ajan tasalla.</string>
+    <string name="wifi_connect_failed_message">Puhelin ei voi muodostaa yhteyttä tähän WLAN-verkkoon.</string>
+    <string name="wifi_advanced_titlebar">WLAN:n lisäasetukset</string>
+    <string name="wifi_configure_titlebar">Määritä WLAN-asetukset</string>
+    <string name="wifi_advanced_not_available">WLAN-lisäasetukset eivät ole tämän käyttäjän käytettävissä.</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Kannettava WLAN-yhteyspiste</string>
+    <string name="wifi_tether_failed_subtext">Kannettavan WLAN-yhteyspisteen virhe</string>
+    <string name="wifi_tether_configure_ap_text">Määritä WLAN-yhteyspisteen asetukset</string>
+    <string name="wifi_tether_configure_subtext">%1$s%2$s kannettava WLAN-yhteyspiste</string>
+    <string name="wifi_calling_settings_title">WLAN-puheluasetukset</string>
+    <string name="wifi_calling_suggestion_title">Ota WLAN-puhelut käyttöön</string>
+    <string name="wifi_calling_suggestion_summary">Käytä WLANä mobiiliverkon sijaan</string>
+    <string name="wifi_calling_mode_title">WLAN-puhelut</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-puhelutila</string>
+    <string name="wifi_calling_off_explanation">Kun WLAN-puhelut on käytössä, puhelimesi voi ohjata puhelut WLAN-verkkojen tai operaattorisi verkon kautta, riippuen asetuksistasi ja siitä, kummassa on voimakkaampi signaali. Ennen kuin otat tämän ominaisuuden käyttöön, tarkista maksut ja muut tiedot operaattoriltasi.</string>
+    <string name="status_wifi_mac_address">WLAN-yhteyden MAC-osoite</string>
+    <string name="reset_network_desc">"Tämä nollaa kaikki verkkoasetukset, mukaan lukien:
+
+"<li>WLAN</li>"
+"<li>Mobiilidata</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Vaihdetaanko WLAN Assistant?</string>
+    <string name="location_mode_high_accuracy_description">"Käytä GPS:ää sekä WLAN- ja mobiiliverkkoja sijainnin arviointiin "</string>
+    <string name="location_mode_battery_saving_description">Käytä WLAN- ja mobiiliverkkoja sijainnin arviointiin</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN-haku</string>
+    <string name="location_scanning_wifi_always_scanning_description">Paranna sijaintia sallimalla järjestelmäsovellusten ja -palvelujen havaita WLAN-verkot milloin tahansa</string>
+    <string name="location_network_based">WLAN- ja mobiiliverkon sijainti</string>
+    <string name="location_neighborhood_level">Anna sovelluksien määrittää sijaintisi WLAN- ja mobiiliverkkojen tietojen avulla.</string>
+    <string name="location_neighborhood_level_wifi">Sijainti määritetty WLAN-yhteyden perusteella</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN ajoissa</string>
+    <string name="bluetooth_on_time">WLAN ajoissa</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN käytössä</string>
+    <string name="usage_type_data_wifi_send">Lähetetty WLAN-data</string>
+    <string name="usage_type_data_wifi_recv">Vastaanotettu WLAN-data</string>
+    <string name="battery_action_wifi">WLAN-asetukset</string>
+    <string name="battery_desc_wifi">WLAN-yhteyden käyttämä akku</string>
+    <string name="battery_sugg_wifi">Poista WLAN käytöstä, kun sitä ei käytetä tai kun yhteys ei ole käytettävissä.</string>
+    <string name="gadget_toggle_wifi">Päivitetään WLAN-asetuksia</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Varmuuskopioi sovelluksen tiedot, WLAN-salasanat ja muut asetukset Googlen palvelimille.</string>
+    <string name="backup_erase_dialog_message">Haluatko lopettaa WLAN-salasanojen, kirjanmerkkien, muiden asetuksien ja sovellustietojen varmuuskopioinnin ja poistaa kaikki kopiot Googlen palvelimilta?</string>
+    <string name="fullbackup_erase_dialog_message">Lopetetaanko laitteen datan (kuten WLAN-salasanojen ja puheluhistorian) ja sovellusten tietojen (kuten asetusten ja sovellusten tallentamien tiedostojen) varmuuskopiointi ja pyyhitään kaikki kopiot Google Drivessä?</string>
+    <string name="fullbackup_data_summary">"Varmuuskopioi laitteen tiedot (kuten WLAN-salasanat ja soittohistoria) sekä sovellusten tiedot (kuten asetukset ja sovellusten tallentamat tiedostot) automaattisesti etäyhteyden kautta.
+
+Kun otat automaattisen varmuuskopioinnin käyttöön, laitteen ja sovellusten tiedot varmuuskopioidaan säännöllisesti etäyhteyden kautta. Sovellusten tietoihin voi sisältyä mitä tahansa tietoja, joita sovellukset ovat tallentaneet (kehittäjien asetuksien perusteella). Ne saattavat sisältää myös arkaluontoisia tietoja, kuten yhteystietoja, viestejä ja valokuvia."</string>
+    <string name="wifi_setup_title">WLAN-asetukset</string>
+    <string name="wifi_setup_title_editing_network">Yhdistä WLAN-verkkoon %s</string>
+    <string name="wifi_setup_title_connecting_network">Yhdistetään WLAN-verkkoon %s...</string>
+    <string name="wifi_setup_eap_not_supported">Et voi määrittää EAP WLAN -yhteyttä asennuksen aikana. Voit määrittää yhteyden asennuksen jälkeen kohdassa Asetukset > Langaton verkko ja verkot.</string>
+    <string name="wifi_setup_description_connected">Jatka asetuksien määrittämistä koskettamalla <b>Seuraava</b>".
+
+Muodosta yhteys eri WLAN-verkkoon koskettamalla "<b>Takaisin</b>.</string>
+    <string name="data_usage_menu_show_wifi">Näytä WLAN-tiedonsiirto</string>
+    <string name="data_usage_menu_hide_wifi">Piilota WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Aseta WLAN-tiedonsiirtoraja</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Poista taustatiedonsiirto käytöstä vain mob.verkossa. WLANä käytetään, jos se on saatavilla.</string>
+    <string name="data_usage_app_restrict_dialog">"Tämä toiminto voi pysäyttää taustatiedonsiirrosta riippuvaisen sovelluksen toiminnan, jos WLAN-yhteyttä ei ole käytettävissä.
+
+Saatat löytää sopivampia tiedonsiirtoasetuksia sovellusasetuksista."</string>
+    <string name="data_usage_restrict_background">Jos rajoitat taustalla tapahtuvaa mobiilitiedonsiirtoa, jotkin sovellukset ja palvelut eivät toimi, ellei WLAN-verkko ole käytettävissä.</string>
+    <string name="data_usage_restrict_background_multiuser">"Jos rajoitat taustalla tapahtuvaa mobiilitiedonsiirtoa, jotkin sovellukset ja palvelut eivät toimi, ellet ole yhteydessä WLAN-verkkoon.
+
+Tämä asetus vaikuttaa kaikkiin tämän puhelimen käyttäjiin."</string>
+    <string name="data_usage_metered_body">Valitse WLAN-verkot, joita käytetään mobiiliyhteyden hotspotteina. Sovelluksia voidaan estää käyttämästä näitä verkkoja niiden toimiessa taustalla. Sovellukset voivat myös näyttää varoituksia ennen suurien tiedostojen lataamista näiden verkkojen kautta.</string>
+    <string name="data_usage_metered_wifi">WLAN-verkot</string>
+    <string name="data_usage_metered_wifi_disabled">Ota WLAN käyttöön valitaksesi mobiiliyhteyden hotspotteja.</string>
+    <string name="user_add_user_message_long">"Voit jakaa tämän laitteen muiden kanssa luomalla uusia käyttäjiä. Jokaisella käyttäjällä on oma tila, johon he voivat lisätä omia sovelluksiaan, taustakuvan ynnä muuta. Käyttäjät voivat myös muokata kaikkiin käyttäjiin vaikuttavia tablet-laitteen asetuksia, kuten WLAN-yhteysasetuksia.
+
+Kun luot uuden käyttäjän, hänen täytyy määrittää omat asetuksensa.
+
+Kaikki käyttäjät voivat hyväksyä päivitettyjä sovelluksien lupia muiden käyttäjien puolesta."</string>
+    <string name="restriction_wifi_config_title">WLAN- ja mobiilidata</string>
+    <string name="restriction_wifi_config_summary">Salli WLAN- ja mobiiliverkon asetusten muokkaus</string>
+    <string name="keywords_wifi">WLAN verkko yhteys</string>
+    <string name="keywords_wifi_calling">WLAN WLAN puhelu soittaminen</string>
+    <string name="setup_wifi_nfc_tag">Aseta WLAN NFC -tunniste</string>
+    <string name="condition_hotspot_summary">Kannettava WLAN-hotspot %1$s on aktiivinen, tämän laitteen WLAN on poistettu käytöstä.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth ja matkapuhelinverkko ovat poissa käytöstä. Et voi soittaa puheluita tai muodostaa internetyhteyttä.</string>
+    <string name="condition_cellular_summary">Voit muodostaa yhteyden internetiin vain WLANn kautta.</string>
+    <string name="condition_bg_data_summary">Taustatiedot ovat käytettävissä vain WLAN-yhteyden kautta. Tämä voi vaikuttaa joidenkin sovellusten tai palvelujen toimintaan, kun et käytä WLAN-yhteyttä.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN-silta</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN-sillan asetukset</string>
+    <string name="wifi_tether_configure_bridge_text">Määritä WLAN-silta</string>
+    <string name="wifi_bridge_settings_summary">Aseta sillan nimi, salasana yms.</string>
+    <string name="wifi_bridge_use_help_title">Ohje</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN-silta voi parantaa WLAN-signaalien lähetyksen kantamaa ja voimakkuutta merkittävästi. Muut laitteet voivat muodostaa yhteyden nykyiseen WLAN-verkkoosi laitteesi kautta.
+2. WLAN-silta tukee käyttöä enintään 4 laitteesta.
+3. WLAN-silta ei toimi WLAN-hotspotin ja WLAN Direct -ominaisuuksien kanssa. Jos WLAN-silta on käytössä, eräät P2P-palveluja käyttävät sovellukset eivät välttämättä toimi oikein.
+4. WLAN-silta kuluttaa akun virtaa nopeammin."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN-yhteys tarvitaan</string>
+    <string name="wifi_bridge_switch_wifi_summary">Jaa yhdistetty WLAN-verkko</string>
+    <string name="wifi_setup_title_connected_network_Toast">Yhdistetty WLAN-verkkoon %s</string>
+    <string name="huawei_beam_explained">Huawei Beamin avulla voidaan siirtää tiedostoja, kuten kuvia, videoita, yhteystietoja ja URL-osoitteita, laitteesi ja toisen NFC-laitteen välillä. Huawei Beam aktivoidaan asettamalla kaksi laitetta lähekkäin (yleensä selät vastakkain) ja napauttamalla näyttöä. Huomaa, että Bluetooth tai WLAN voidaan kytkeä automaattisesti päälle ennen tiedostonsiirtoa.</string>
+    <string name="wifi_display_settings_summary">Näytä puhelimen näyttö toisessa näytössä WLAN-yhteyden kautta</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN-verkko %s saatavilla. Haluatko pysäyttää datapalvelun ja muodostaa yhteyden WLAN-verkkoon?</string>
+    <string name="switch_to_wifi_manual_prompt">WLAN-signaali löytyi, haluatko käyttää tätä WLAN-verkkoa?</string>
+    <string name="switch_to_wifi_query_prompt">WLAN-verkko %s saatavilla. Haluatko muodostaa yhteyden WLAN-verkkoon?</string>
+    <string name="wifi_to_wifi_prompt">Nykyinen yhteyssignaali on heikko, haluatko käyttää toista WLAN-verkkoa?</string>
+    <string name="advanced_wifi_settings_title">Lisäasetukset</string>
+    <string name="huawei_beam_front_explained">"Huawei Beamin avulla voidaan siirtää tiedostoja muihin NFC-laitteisiin asettamalla laitteet lähekkäin. Voit esimerkiksi siirtää langattomasti kuvia, videoita, yhteystietoja, URL-osoitteita yms. kahden NFC-laitteen välillä. Yksinkertaisesti:
+1. Aseta laitteesi etupaneeli vasten toista NFC-laitetta ja nosta laitteesi ylös, kun kuulet äänimerkin.
+2. Kosketa näyttöä kolmen sekunnin kuluessa äänimerkin kuulumisesta.
+3. Viimeistele siirto asettamalla laitteesi uudelleen etupaneeli vasten toista NFC-laitetta. Huomaa, että Bluetooth tai WLAN voidaan kytkeä automaattisesti päälle ennen tiedostonsiirtoa."</string>
+    <string name="wifiap_use_help_details">"1. Voit käyttää kannettavaa WLAN-hotspot-laitetta Internet-tukiasemana. Laitteeseen voidaan yhdistää oheislaitteita WLAN-verkon kautta, ja yhdistetyt laitteet käyttävät Internetiä mobiiliverkon kautta.
+2. Kannettavan WLAN-hotspotin käyttö edellyttää, että mobiilidatayhteys on päällä, ja kuluttaa jonkin verran dataliikennettä.
+3. Kannettavan WLAN-hotspotin käyttäminen voi tyhjentää akun nopeammin."</string>
+    <string name="wifiap_connect_help_details_open">"Manuaalinen yhteys:
+1. Kytke kohdelaitteen WLAN päälle ja etsi aktiivialue %1$s.
+2. Muodosta yhteys aktiivialueeseen."</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">Yhteys on muodostettu China Mobilen WLAN-verkkoon. Tämän verkon käyttö voi olla maksullista.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">China Mobile WLAN -muistutus</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Muistuta minua, kun on muodostettu yhteys China Mobilen WLAN-verkkoon</string>
+    <string name="wifi_cmcc_no_notification_summary">Älä näytä ilmoituksia, kun vaihdetaan verkkoa (mobiilidatasta WLAN-verkkoon ja päinvastoin tai WLAN-verkosta toiseen)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Käytä GPS:ää ja WLANä sijainnin arviointiin</string>
+    <string name="location_mode_battery_saving_description_wifionly">Käytä WLANä sijainnin arviointiin</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Valitse WLAN- tai mobiilidataverkko älykkäästi</string>
+    <string name="wifi_plus_description">"Kun WLAN+ on käytössä, WLAN-yhteytesi arvioidaan älykästä verkon vaihtoa varten (WLAN-datakäyttö voi lisääntyä). WLAN+ automaattisesti: 
+1. Vaihtaa WLAN- ja mobiilidatan välillä (ilmoitusten kanssa) sujuvan Internet-kokemuksen tarjoamiseksi.
+2. Kytkee WLANn päälle, kun ollaan tunnetun WLAN-verkon kantoalueella, ja muodostaa siihen yhteyden."</string>
+    <string name="wifi_plus_settings_title">WLAN+-asetukset</string>
+    <string name="wifi_plus_intelligent_switch_description">Vaihda älykkäästi WLAN- ja mobiilidataverkkojen välillä parempaa Internet-kokemusta varten.</string>
+    <string name="wifi_plus_auto_turn_on_description">Ota WLAN automaattisesti käyttöön, kun lähestyt tunnettua sijaintia.</string>
+    <string name="wifi_plus_global_description">"Kun WLAN+ on käytössä, WLAN-yhdistettävyys arvioidaan älykästä verkon vaihtoa varten (WLAN-datakäyttö voi kasvaa). WLAN+ automaattisesti: 
+1. Vaihtaa WLAN- ja mobiilidatan välillä sujuvaa Internet-kokemusta varten.
+2. Ottaa WLANn käyttöön, kun ollaan tunnetun WLAN-verkon alueella, ja muodostaa siihen yhteyden."</string>
+    <string name="location_mode_high_accuracy_title_emui">Käytä GPS:ää ja WLAN- ja mobiiliverkkoja</string>
+    <string name="location_mode_battery_saving_title_emui">Käytä WLAN- ja mobiiliverkkoja</string>
+    <string name="pgps_switch_summary">Anna GPS:n kerätä GSM-tukiasema- ja WLAN-tiedot paikkapalvelujen nopeuttamiseksi ja tarkentamiseksi.</string>
+    <string name="find_no_wlan_ap">WLAN-hotspotia ei löytynyt</string>
+    <string name="cannot_connect_wlan">WLAN-yhteyttä ei voi muodostaa</string>
+    <string name="cannot_login_internet_with_wlan">Internetiä ei voi käyttää WLANn kautta</string>
+    <string name="wfd_connect_fail">WLAN Direct -yhteys epäonnistui</string>
+    <string name="find_no_wfd_device">WLAN Direct -laitetta ei löytynyt</string>
+    <string name="wfd_search_no_devices_causes">"Käytettävissä olevia laitteita ei löytynyt. Syy voi olla:
+1. Laitepariksi muodostettu laite ei ole löydettävissä.
+2. Laitepariksi muodostetussa laitteessa on teknisiä ongelmia. Kokeile käynnistää WLAN uudelleen ja avaa WLAN Direct uudelleen.
+3. Omassa laitteessasi on teknisiä ongelmia. Kokeile käynnistää WLAN uudelleen ja avaa WLAN Direct uudelleen."</string>
+    <string name="wfd_connected_failed_causes">"Yhteyttä ei voitu muodostaa. Mahdollisia syitä:
+1. Laitepariksi muodostettu laite ei hyväksynyt yhteyspyyntöä.
+2. Jompikumpi laite on jo muodostanut toisen WLAN Direct -yhteyden.
+3. Laitepariksi muodostetussa laitteessa on teknisiä ongelmia. Kokeile käynnistää se uudelleen."</string>
+    <string name="wifi_qrcode_share_notice">Muodosta yhteys tähän WLAN-verkkoon lukemalla QR-koodi</string>
+    <string name="devices_not_found_solution_title">Jos laitetta ei löydy, kokeile seuraavaa:</string>
+    <string name="devices_not_found_solution_message">"1. Varmista, että laite etsii muita laitteita.
+2. Jos toisessa laitteessa on ongelmia, käynnistä WLAN uudelleen ja käytä WLAN Directiä uudelleen.
+3. Jos omassa laitteessasi on ongelmia, käynnistä WLAN uudelleen ja käytä WLAN Directiä uudelleen."</string>
+    <string name="devices_not_connected_solution_message">"1. Varmista, että toinen laite on hyväksynyt yhteyspyynnön.
+2. Varmista, että kumpikaan laite ei ole muodostanut yhteyttä muihin laitteisiin.
+3. Jos toisessa laitteessa on ongelmia, yritä muodostaa yhteys uudelleen."</string>
+    <string name="wifi_plus_description_emui">"Kun WLAN+ on käytössä, WLAN-yhdistettävyytesi arvioidaan, jotta verkkoa voidaan vaihtaa älykkäästi (WLAN-datakäyttö saattaa lisääntyä). WLAN+ automaattisesti:
+1. Vaihtaa WLAN- ja mobiilidatan välillä (voit valita oletusvaihtotilan mobiiliverkon asetuksista) tarjotakseen sujuvan Internet-kokemuksen.
+2. Kytkee WLAN-yhteyden päälle, kun katealueella on tunnettu WLAN-verkko, ja muodostaa siihen yhteyden."</string>
+    <string name="link_plus_live_update_description">Kun Link+:n Live Update -toiminto on käytössä, puhelimesi parantaa kulloisenkin Link+-ominaisuuden toimivuutta päivittämällä tietoliikenneparametrien tiedot automaattisesti langattoman verkon (oletusarvoisesti WLAN) kautta.</string>
+    <string name="wifi_plus_description_emui2">"Kun WLAN+ on käytössä, WLAN-yhdistettävyytesi arvioidaan, jotta verkkoa voidaan vaihtaa älykkäästi (WLAN-datakäyttö saattaa lisääntyä). WLAN+ automaattisesti:
+1. Vaihtaa WLAN- ja mobiilidatan välillä (voit valita oletusvaihtotilan mobiiliverkon asetuksissa) sujuvaa Internet-kokemusta varten.
+2. Ottaa WLANn käyttöön, kun ollaan tunnetun WLAN-verkon alueella, ja muodostaa siihen yhteyden.
+3. Arvioi käytettävissä olevat WLAN-verkot. Laite ei muodosta automaattisesti yhteyttä tallennettuihin verkkoihin, joissa ei ole Internet-yhteyttä.
+4. Hankkii eräissä ilmaisissa WLAN-hotspoteissa varmennuskoodin saapuneesta tekstiviestistä ja kirjautuu verkkoon selaimen kantta (tällä hetkellä tuettu vain Kiinassa)."</string>
+    <string name="wifi_plus_global_description2">"Kun WLAN+ on käytössä, WLAN-yhdistettävyytesi arvioidaan, jotta verkkoa voidaan vaihtaa älykkäästi (WLAN-datakäyttö saattaa lisääntyä). WLAN+ automaattisesti:
+1. Vaihtaa WLAN- ja mobiilidatan välillä sujuvaa Internet-kokemusta varten.
+2. Ottaa WLANn käyttöön, kun ollaan tunnetun WLAN-verkon alueella, ja muodostaa siihen yhteyden.
+3. Arvioi käytettävissä olevat WLAN-verkot. Laite ei muodosta automaattisesti yhteyttä tallennettuihin verkkoihin, joissa ei ole Internet-yhteyttä."</string>
+    <string name="help_message">"1. Tulostinta ja puhelinta ei ole yhdistetty samaan WLAN-verkkoon.
+2. Tulostin ei tue juuri tätä tulostuspalvelua (tarkista valmistajalta).
+3. Haku aikakatkaistiin. Yritä uudelleen, jos näin tapahtui.
+4. Tulostin on kaatunut. Käynnistä tulostin uudelleen ja yritä uudelleen."</string>
+    <string name="wifi_cloud_security_check_title">WLAN-turvallisuuden tarkistus</string>
+    <string name="wifi_cloud_security_check_summary">Tarkista yhdistettyjen WLAN-verkkojen turvallisuustaso Puhelimen hallinnan kautta ja keskeytä automaattinen yhdistäminen tallennettuihin verkkoihin, jotka aiheuttavat turvallisuusriskejä</string>
+    <string name="wifi_plus_description_emui3">"Kun WLAN+ on käytössä, WLAN-yhdistettävyys arvioidaan älykkään verkonvaihdon tarjoamista varten, ja se päivittää automaattisesti optimointiparametrit WLAN-yhteyden kautta (WLAN-datakäyttö saattaa lisääntyä). WLAN+ automaattisesti:
+1. Vaihtaa WLAN- ja mobiilidatan välillä (voit valita oletusvaihtotilan mobiiliverkon asetuksista) sujuvan Internet-kokemuksen tarjoamista varten.
+2. Kytkee WLAN-yhteyden päälle, kun katealueella on tunnettu WLAN-verkko, ja muodostaa siihen yhteyden.
+3. Arvioi saatavilla olevat WLAN-verkot. Tallennettujen verkkojen, joilla ei ole Internet-yhteyttä, automaattinen yhdistäminen keskeytetään.
+4. Tunnistaa ja käyttää saapuvan tekstiviestitodennusviestin todennuskoodia eräissä ilmaisissa WLAN-hotspoteissa ja kirjautuu verkkoon selaimen kautta automaattisesti (tällä hetkellä tuettu vain Kiinassa)."</string>
+    <string name="user_add_user_message">"Voit jakaa tämän laitteen muiden henkilöiden kanssa luomalla lisää käyttäjiä. Jokaisella käyttäjällä on oma tilansa, jota he voivat mukauttaa sovelluksilla, taustakuvalla yms. Käyttäjät voivat myös säätää laitteen asetuksia, kuten WLANä, jotka vaikuttavat kaikkiin.
+
+Kun lisäät uuden käyttäjän, hänen täytyy määrittää oma tilansa.
+
+Kuka tahansa käyttäjä voi päivittää sovelluksia kaikkien muiden käyttäjien puolesta."</string>
+    <string name="print_user_warning">Laite etsii tulostimia WLAN-yhteyden kautta, kun otat tulostuspalvelun käyttöön. Se tuottaa WLAN-liikennettä.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN-puhelut</string>
+    <string name="wifi_calling_dialog_title">Ota WLAN-puhelut käyttöön</string>
+    <string name="wifi_calling_dialog_message">Et voi soittaa hätäpuheluja WLAN:n kautta, jos tämä on käytössä. Otetaanko käyttöön?</string>
+    <string name="device_name_settings_summary">Kun käytetään Bluetoothia, WLAN Directiä, yhteyden jakamista ja kannettavaa aktiivialuetta, muut sovellukset näkevät tämän nimen.</string>
+    <string name="device_name_settings_dialog">Laitteen nimen muuttaminen katkaisee nykyisen WLAN-hotspot-yhteyden. Muutetaanko sitä?</string>
+    <string name="write_wifi_nfc_tag">Kirjoita WLAN NFC -tunnisteeseen</string>
+    <string name="wifi_plus_smart_switch_title">Älykäs vaihto WLAN- ja mobiilidatan välillä</string>
+    <string name="wifi_plus_smart_switch_summary">Arvioi WLAN-yhdistettävyys ja vaihda WLAN- (voi lisätä liikennettä) ja mobiilidatan välillä parhaan verkkoyhteyden valitsemiseksi. Oletuskytkentätila asetetaan mobiiliverkon asetuksissa</string>
+    <string name="wifi_plus_smart_switch_summary_global">Arvioi WLAN-yhdistettävyys ja vaihda WLAN- (voi lisätä liikennettä) ja mobiilidatan välillä parhaan verkkoyhteyden valitsemiseksi</string>
+    <string name="wifi_plus_auto_turn_title">Kytke WLAN automaattisesti päälle/pois</string>
+    <string name="wifi_plus_auto_turn_summary">Kytke WLAN-yhteys päälle, kun katealueella on tunnettu WLAN-verkko, ja muodosta siihen yhteys</string>
+    <string name="wifi_plus_quality_evaluation_title">Arvioi käytettävissä olevat WLAN-verkot</string>
+    <string name="wifi_plus_quality_evaluation_summary">Arvioi käytettävissä olevat WLAN-verkot. Automaattinen yhdistäminen on keskeytetty tallennetuille verkoille, joilla ei ole Internet-yhteyttä</string>
+    <string name="wifi_plus_fast_connect_title">Optimoi ilmaisten WLAN-hotspotien kirjautumiskokemus</string>
+    <string name="wifi_plus_fast_connect_summary">Tunnistaa ja käyttää saapuvan tekstiviestitodennusviestin todennuskoodia eräissä ilmaisissa WLAN-hotspoteissa ja kirjautuu verkkoon selaimen kautta automaattisesti (tällä hetkellä tuettu vain Manner-Kiinassa)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Kun Link+:n Live Update -toiminto on käytössä, puhelimesi parantaa kulloisenkin tiedonsiirron toimivuutta päivittämällä tietoliikenneparametridatan automaattisesti langattoman verkon (oletusarvoisesti WLAN) kautta.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Mobiilidata</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Käytä GPS:ää ja WLAN:ä</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Käytä WLAN:ä</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN-toistin parantaa WLAN-signaaleiden lähetysalaa ja voimakkuutta huomattavasti. Muut laitteet voivat muodostaa yhteyden nykyiseen WLAN-verkkoosi laitteesi kautta.
+2. WLAN-toistin tukee käyttöä enintään 4 laitteesta.
+3. WLAN-toistin ei toimi WLAN-aktiivialueen ja WLAN Direct -ominaisuuksien kanssa. Jos WLAN-toistin on käytössä, eräät P2P-palveluja käyttävät sovellukset eivät välttämättä toimi oikein.
+4. WLAN-toistimen käyttö lisää akkuvirran kulutusta.
+5. Jos saat viestin, jossa ilmoitetaan että toinen palvelu käyttää WLAN-lähdettäsi, mene kohtaan Asetukset > WLAN > WLAN Direct, ja katkaisen kaikkien liitettyjen laitteiden yhteys. Tai voit sulkea WLAN:n ja käynnistää sen uudelleen katkaistaksesi kaikkien laitteiden yhteyden automaattisesti."</string>
+    <string name="wifi_qrcode_share_notice_new">Etsi yhdistääksesi tähän WLAN-verkkoon</string>
+    <string name="location_help_scheme_body_one">"1. Varmista, että Käytä sijaintiani on käytössä.
+2. Valitse Sijaintitilassa Käytä GPS-, WLAN- ja mobiiliverkkoja.
+3. Yhdistä WLAN-hotspotiin tai ota mobiilidata käyttöön.
+4. Tarkista onko käyttämälläsi sovelluksella käyttöoikeus Sijainnin lupiin kohdassa Puhelimen hallinta > Lupien hallinta > Käytä sijaintitietoa.
+5. Jos olet asettanut Sijaintitilaksi Käytä vain GPS:ää, varmista, että käytät sijaintia avoimessa ja esteettömässä ympäristössä, missä laite voi vastaanottaa GPS-signaalit normaalisti.
+6. Jos laite on yhteydessä julkiseen hotspotiin, kokeile ottaa WLAN pois päältä ja ottaa mobiilidata käyttöön. Yritä sitten sijainnin käyttöä uudelleen."</string>
+    <string name="location_help_scheme_body_two">"1. Valitse Sijaintitilassa Käytä GPS-, WLAN- ja mobiiliverkkoja, kun tarvitset tarkempaa sijaintitietoa.
+2. Jos laitteessasi on metallinen suojus, poista se, tai käytä muuta kuin metallista suojusta, ja yritä uudelleen.
+3. Tarkista onko käyttämälläsi sovelluksella käyttöoikeus Sijainnin lupiin kohdassa Puhelimen hallinta > Lupien hallinta > Käytä sijaintitietoa.
+4. Navigointi toimii paremmin avoimilla, esteettömillä alueilla. Aseta puhelin lähelle auton tuulilasia, kuten kojelaudalle tai johonkin muuhun esteettömään paikkaan autossasi."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN-toistin parantaa WLAN-signaaleiden lähetysalaa ja voimakkuutta huomattavasti. Muut laitteet voivat muodostaa yhteyden nykyiseen WLAN-verkkoosi laitteesi kautta.
+%2$d. WLAN-toistin tukee käyttöä enintään %6$d laitteesta.
+%3$d. WLAN-toistin ei toimi WLAN-aktiivialueen ja WLAN Direct -ominaisuuksien kanssa. Jos WLAN-toistin on käytössä, eräät P2P-palveluja käyttävät sovellukset eivät välttämättä toimi oikein.
+%4$d. WLAN-toistimen käyttö lisää akkuvirran kulutusta.
+%5$d. Jos saat viestin, jossa ilmoitetaan että toinen palvelu käyttää WLAN-lähdettäsi, mene kohtaan Asetukset > WLAN > WLAN Direct, ja katkaisen kaikkien liitettyjen laitteiden yhteys. Tai voit sulkea WLAN:n ja käynnistää sen uudelleen katkaistaksesi kaikkien laitteiden yhteyden automaattisesti."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Voit käyttää kannettavaa WLAN-hotspotia Internet-yhteytenä. Laitteeseen voi kytkeä oheislaitteita WLAN-yhteyden kautta, ja kytketyt laitteet voivat olla yhteydessä Internetiin mobiiliverkon kautta.
+%2$d. Kannettavan WLAN-hotspotin käyttö edellyttää, että mobiilidata on käytössä, mikä aiheuttaa jonkin verran dataliikennettä.
+%3$d. Kannettavan WLAN-hotspotin käyttö voi kuluttaa akkua tavallista nopeammin."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Manuaalinen yhteys:
+%2$d. Kytke kohdelaitteen WLAN päälle ja etsi hotspot %1$s.
+%3$d. Muodosta yhteys hotspotiin."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Varmista, että Käytä sijaintiani on käytössä.
+%2$d. Valitse Sijaintitilassa Käytä GPS-, WLAN- ja mobiiliverkkoja.
+%3$d. Yhdistä WLAN-hotspotiin tai ota mobiilidata käyttöön.
+%4$d. Tarkista onko käyttämälläsi sovelluksella käyttöoikeus Sijainnin lupiin kohdassa Puhelimen hallinta > Lupien hallinta > Käytä sijaintitietoa.
+%5$d. Jos olet asettanut Sijaintitilaksi Käytä vain GPS:ää, varmista, että käytät sijaintia avoimessa ja esteettömässä ympäristössä, missä laite voi vastaanottaa GPS-signaalit normaalisti.
+%6$d. Jos laite on yhteydessä julkiseen hotspotiin, kokeile ottaa WLAN pois päältä ja ottaa mobiilidata käyttöön. Yritä sitten sijainnin käyttöä uudelleen."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Valitse Sijaintitilassa Käytä GPS-, WLAN- ja mobiiliverkkoja, kun tarvitset tarkempaa sijaintitietoa.
+%2$d. Jos laitteessasi on metallinen suojus, poista se, tai käytä muuta kuin metallista suojusta, ja yritä uudelleen.
+%3$d. Tarkista onko käyttämälläsi sovelluksella käyttöoikeus Sijainnin lupiin kohdassa Puhelimen hallinta > Lupien hallinta > Käytä sijaintitietoa.
+%4$d. Navigointi toimii paremmin avoimilla, esteettömillä alueilla. Aseta puhelin lähelle auton tuulilasia, kuten kojelaudalle tai johonkin muuhun esteettömään paikkaan autossasi."</string>
+    <string name="turn_off_data_saver_message">Kannettavan hotspotin käyttö edellyttää, että datan säästö poistetaan käytöstä. Poistetaanko käytöstä?</string>
+    <string name="first_wlan_hotspot_text">WLAN-hotspotin avulla voit jakaa verkkoyhteyden muiden kanssa, mutta se voi kuluttaa akun virtaa nopeammin ja kasvattaa datakäyttömaksuja.</string>
+    <string name="hotspot_power_notification_title">WLAN-hotspot pois käytöstä</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN-hotspot pois käytöstä</string>
+    <string name="toast_entitle_wifi_need_close">Tätä toimintoa ei voi käyttää, kun WLAN on päällä. Kytke WLAN ensin pois päältä.</string>
+    <string name="wifi_activated_warning_Title">WLAN kytketty päälle</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Mobiili aktiivialue ja WLAN eivät voi olla päällä samaan aikaan. Sammutetaanko WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN täytyy nyt kytkeä pois päältä. Se kytketään automaattisesti päälle uudelleen, kun puhelin on ollut yhteydessä AT&amp;T:n palvelimiin.</string>
+    <string name="broadcast_ssid_is_show_dialog">Jos poistat Lähetä langattoman lähiverkon verkkotunnus (SSID) -vaihtoehdon käytöstä, puhelin ei näy muille laitteille eikä se näy käytettävissä olevien WLAN-verkkojen luettelossa. Muut laitteet voivat silti edelleen muodostaa yhteyden aktiivialueeseesi antamalla verkon nimen manuaalisesti.</string>
+    <string name="enable">Automaattinen yhteys AT&amp;T:n WLAN-verkkoon käytössä</string>
+    <string name="disable">Automaattinen yhteys AT&amp;T:n WLAN-verkkoon pois käytöstä</string>
+    <string name="auto_connect_wifi_suggestion">Käynnistä WLAN uudelleen, jotta automaattiset yhteysasetukset tulevat voimaan.</string>
+    <string name="wifi_network_detect_summary">Tarkista Internet-yhteys, kun muodostat yhteyden WLAN-aktiivialueeseen</string>
+    <string name="wifi_disable_by_deivice_admin">Laitteen järjestelmänvalvoja on poistanut WLANn käytöstä</string>
+    <string name="wifi_required_info_text">Asetusten viimeistely edellyttää yhteyden muodostamista WLAN-verkkoon. Kun asetukset on määritetty, voit vaihtaa mobiilidatan ja WLAN-verkon välillä.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN-taajuusalue</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s hallitsee laitettasi eikä salli tämän WLAN-verkon muuttamista tai poistamista. Kysy lisätietoja järjestelmänvalvojalta.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/filter_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:textAlignment="viewStart" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="@dimen/preference_item_padding_end" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/row_divider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/filter_settings" android:visibility="gone" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_menu_setting" android:scaleType="center" android:minWidth="0.0dip" android:minHeight="0.0dip" android:layout_centerVertical="true" android:contentDescription="@string/configure" android:layout_alignParentEnd="true" style="?android:attr/borderlessButtonStyle" />
+</RelativeLayout>

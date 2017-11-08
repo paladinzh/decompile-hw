@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout android:id="@id/setup_wizard_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?attr/fingerprint_layout_theme"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="0.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SuwContentFrame">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_finish_message" style="@style/TextAppearance.FingerprintMessage" />
+            <TextView android:textColor="?android:textColorSecondary" android:id="@id/message_secondary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suw_description_margin_top" android:text="@string/setup_fingerprint_enroll_finish_message_secondary" style="@style/TextAppearance.FingerprintMessage" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="-12.0dip">
+                <Button android:gravity="start|center" android:id="@id/add_another_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fingerprint_enroll_button_add" android:layout_marginEnd="8.0dip" style="@style/Button.FingerprintButton" />
+                <Button android:id="@id/next_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/security_settings_fingerprint_enroll_done" style="@style/Button.FingerprintButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/fingerprint_in_app_indicator" android:layout_width="@dimen/fingerprint_in_app_indicator_size" android:layout_height="@dimen/fingerprint_in_app_indicator_size" android:src="@drawable/fp_app_indicator" android:contentDescription="@android:string/fingerprint_icon_content_description" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.setupwizardlib.SetupWizardLayout>

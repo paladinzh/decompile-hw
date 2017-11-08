@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android" android:label="@string/recentCallsIconLabel" android:icon="@mipmap/ic_launcher_phone" android:hint="@string/searchHintCallLog" android:searchMode="queryRewriteFromText" android:searchSuggestAuthority="call_log" android:searchSuggestIntentAction="android.provider.CallLog.SEARCH_SUGGESTION_CLICKED" android:includeInGlobalSearch="true" android:queryAfterZeroResults="true" android:searchSettingsDescription="@string/search_settings_description_calllog">
+    <actionkey android:keycode="KEYCODE_CALL" android:queryActionMsg="call" android:suggestActionMsg="call" />
+</searchable>

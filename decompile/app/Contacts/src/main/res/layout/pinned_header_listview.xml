@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/main_frame_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <view android:id="0x102000a" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true" class="com.android.contacts.widget.PinnedHeaderListView" />
+    <FrameLayout android:id="@+id/overlay" android:visibility="invisible" style="@style/contact_overlay_style">
+        <TextView android:textSize="50sp" android:textColor="@color/pinned_header_textview_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/overlay_textview" android:paddingTop="0dp" android:paddingBottom="1dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="0dp" android:paddingEnd="0dp" />
+        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/overlay_image" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x2601" android:layout_height="UNKNOWN_DATA_0x2601" android:src="@drawable/ic_star_overlay" android:contentDescription="0x0" />
+    </FrameLayout>
+</FrameLayout>

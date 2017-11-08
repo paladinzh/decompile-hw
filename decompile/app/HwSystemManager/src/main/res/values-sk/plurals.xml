@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Nepouž. sa %1$d dní</item>
+        <item quantity="one">Nepouž. sa %1$d deň</item>
+        <item quantity="few">Nepouž. sa %1$d dní</item>
+        <item quantity="many">Nepouž. sa %1$d dní</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d sú ešte spustené po vypnutí obrazovky, uzavrite pre úsporu energie</item>
+        <item quantity="one">%1$d je ešte spustená po vypnutí obrazovky, uzavrite pre úsporu energie</item>
+        <item quantity="few">%1$d je ešte spustených po vypnutí obrazovky, uzavrite pre úsporu energie</item>
+        <item quantity="many">%1$d je ešte spustených po vypnutí obrazovky, uzavrite pre úsporu energie</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">%1$d aplikácie nadmerne využívajúce energiu zatvorené</item>
+        <item quantity="one">%1$d aplikácia nadmerne využívajúca energiu zatvorená</item>
+        <item quantity="few">%1$d aplikácií nadmerne využívajúcich energiu zatvorených</item>
+        <item quantity="many">%1$d aplikácií nadmerne využívajúcich energiu zatvorených</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d aplikácie potajomky spotrebujú energiu. Životnosť batérie sa môže predĺžiť o %2$s, ak aplikácie sú zatvorené</item>
+        <item quantity="one">%1$d aplikácia potajomky spotrebuje energiu. Životnosť batérie sa môže predĺžiť o %2$s, ak aplikácia je zatvorená</item>
+        <item quantity="few">%1$d aplikácií potajomky spotrebuje energiu. Životnosť batérie sa môže predĺžiť o %2$s, ak aplikácie sú zatvorené</item>
+        <item quantity="many">%1$d aplikácií potajomky spotrebuje energiu. Životnosť batérie sa môže predĺžiť o %2$s, ak aplikácie sú zatvorené</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť mobilné dáta</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť mobilné dáta</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť mobilné dáta</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť mobilné dáta</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť Wi-Fi</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť Wi-Fi</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť Wi-Fi</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť WLAN</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť WLAN</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť WLAN</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť WLAN</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť WLAN</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">%d aplikácie majú zakázané zapnúť Bluetooth</item>
+        <item quantity="one">%d aplikácia má zakázané zapnúť Bluetooth</item>
+        <item quantity="few">%d aplikácie majú zakázané zapnúť Bluetooth</item>
+        <item quantity="many">%d aplikácie majú zakázané zapnúť Bluetooth</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Táto funkcia vyžaduje zapnutie nasledujúcich povolení; prejsť do nastavení a zapnúť ich?</item>
+        <item quantity="one">Táto funkcia vyžaduje zapnutie nasledujúceho povolenia; prejsť do nastavení a zapnúť ho?</item>
+        <item quantity="few">Pri tejto funkcii musia byť zapnuté nasledujúce povolenia, chcete prejsť do nastavení a zapnúť ich?</item>
+        <item quantity="many">Pri tejto funkcii musia byť zapnuté nasledujúce povolenia, chcete prejsť do nastavení a zapnúť ich?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Tieto povolenia môžete kedykoľvek vypnúť prostredníctvom nastavení aplikácie.</item>
+        <item quantity="one">Toto povolenie môžete kedykoľvek vypnúť prostredníctvom nastavení aplikácie.</item>
+        <item quantity="few">Tieto povolenia môžete kedykoľvek vypnúť prostredníctvom nastavení aplikácie.</item>
+        <item quantity="many">Tieto povolenia môžete kedykoľvek vypnúť prostredníctvom nastavení aplikácie.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">Umožniť %1$d aplikáciám zostať bežať po vypnutí obrazovky</item>
+        <item quantity="one">Umožniť %1$d aplikácii zostať bežať po vypnutí obrazovky</item>
+        <item quantity="few">Umožniť %1$d aplikáciám zostať bežať po vypnutí obrazovky</item>
+        <item quantity="many">Umožniť %1$d aplikáciám zostať bežať po vypnutí obrazovky</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">Počet vybr. pravidiel: %1$d</item>
+        <item quantity="one">Počet vybr. pravidiel: %1$d</item>
+        <item quantity="few">Počet vybr. pravidiel: %1$d</item>
+        <item quantity="many">Počet vybr. pravidiel: %1$d</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Odstrániť zvolené súbory (%1$d)?</item>
+        <item quantity="one">Odstrániť zvolené súbory (%1$d)?</item>
+        <item quantity="few">Odstrániť zvolené súbory (%1$d)?</item>
+        <item quantity="many">Odstrániť zvolené súbory (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Súbory nebude možné obnoviť.</item>
+        <item quantity="one">Súbor nebude možné obnoviť.</item>
+        <item quantity="few">Súbory nebude možné obnoviť.</item>
+        <item quantity="many">Súbory nebude možné obnoviť.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Odstrániť zvolené položky dát (%1$d)?</item>
+        <item quantity="one">Odstrániť zvolené položky dát (%1$d)?</item>
+        <item quantity="few">Odstrániť zvolené položky dát (%1$d)?</item>
+        <item quantity="many">Odstrániť zvolené položky dát (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Dáta nebude možné obnoviť.</item>
+        <item quantity="one">Dáta nebude možné obnoviť.</item>
+        <item quantity="few">Dáta nebude možné obnoviť.</item>
+        <item quantity="many">Dáta nebude možné obnoviť.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Odinštalovať zvolené apl. (%1$d)?</item>
+        <item quantity="one">Odinštalovať zvolené apl. (%1$d)?</item>
+        <item quantity="few">Odinštalovať zvolené apl. (%1$d)?</item>
+        <item quantity="many">Odinštalovať zvolené apl. (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Obnoviť zvolené apl. (%1$d)?</item>
+        <item quantity="one">Obnoviť zvolené apl. (%1$d)?</item>
+        <item quantity="few">Obnoviť zvolené apl. (%1$d)?</item>
+        <item quantity="many">Obnoviť zvolené apl. (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Všetky dáta apl. budú odstránené. Apl. budú obnovené do predvol. stavu po inšt.</item>
+        <item quantity="one">Všetky dáta apl. budú odstránené. Táto apl. bude obnovená do predvol. stavu po inšt.</item>
+        <item quantity="few">Všetky dáta apl. budú odstránené. Apl. budú obnovené do predvol. stavu po inšt.</item>
+        <item quantity="many">Všetky dáta apl. budú odstránené. Apl. budú obnovené do predvol. stavu po inšt.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">Počet vírusov: %1$d</item>
+        <item quantity="one">Počet vírusov: %1$d</item>
+        <item quantity="few">Počet vírusov: %1$d</item>
+        <item quantity="many">Počet vírusov: %1$d</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d softvérové riziká</item>
+        <item quantity="one">%1$d softvérové riziko</item>
+        <item quantity="few">%1$d softvérových rizík</item>
+        <item quantity="many">%1$d softvérových rizík</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d neoficiálne softvéry</item>
+        <item quantity="one">%1$d neoficiálny softvér</item>
+        <item quantity="few">%1$d neoficiálnych softvérov</item>
+        <item quantity="many">%1$d neoficiálnych softvérov</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup k správam</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup k správam</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup k správam</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup k správam</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup k denníku hovorov</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup k denníku hovorov</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup k denníku hovorov</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup k denníku hovorov</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup ku kontaktom</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup ku kontaktom</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup ku kontaktom</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup ku kontaktom</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup ku kalendáru</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup ku kalendáru</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup ku kalendáru</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup ku kalendáru</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup k polohe</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup k polohe</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup k polohe</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup k polohe</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzený prístup k ID telefónu</item>
+        <item quantity="one">%d aplikácia má obmedzený prístup k ID telefónu</item>
+        <item quantity="few">%d aplikácií má obmedzený prístup k ID telefónu</item>
+        <item quantity="many">%d aplikácií má obmedzený prístup k ID telefónu</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">%d aplikácie majú obmedzenie zaznamenať zvuk</item>
+        <item quantity="one">%d aplikácia má obmedzenie zaznamenať zvuk</item>
+        <item quantity="few">%d aplikácií má obmedzenie zaznamenať zvuk</item>
+        <item quantity="many">%d aplikácií má obmedzenie zaznamenať zvuk</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">%d aplikácie majú obmedzenie uskutočniť hovory</item>
+        <item quantity="one">%d aplikácia má obmedzenie uskutočniť hovory</item>
+        <item quantity="few">%d aplikácií má obmedzenie uskutočniť hovory</item>
+        <item quantity="many">%d aplikácií má obmedzenie uskutočniť hovory</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d aplik.</item>
+        <item quantity="one">%d aplik.</item>
+        <item quantity="few">%d aplik.</item>
+        <item quantity="many">%d aplik.</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d vírusy</item>
+        <item quantity="one">%d vírus</item>
+        <item quantity="few">%d vírusy</item>
+        <item quantity="many">%d vírusy</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Našlo sa %d aplikácií s reklamami, môžu sa odinštalovať manuálne</item>
+        <item quantity="one">Našla sa %d aplikácia s reklamami, môže sa odinštalovať manuálne</item>
+        <item quantity="few">Našlo sa %d aplikácií s reklamami, môžu sa odinštalovať manuálne</item>
+        <item quantity="many">Našlo sa %d aplikácií s reklamami, môžu sa odinštalovať manuálne</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Aktualizované pred %1$d hodinami</item>
+        <item quantity="one">Aktualizované pred %1$d hodinou</item>
+        <item quantity="few">Aktualizované pred %1$d hodinami</item>
+        <item quantity="many">Aktualizované pred %1$d hodinami</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Aktualizované pred %1$d dňami</item>
+        <item quantity="one">Aktualizované pred %1$d dňom</item>
+        <item quantity="few">Aktualizované pred %1$d dňami</item>
+        <item quantity="many">Aktualizované pred %1$d dňami</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Aktualizované pred %1$d mesiacmi</item>
+        <item quantity="one">Aktualizované pred %1$d mesiacom</item>
+        <item quantity="few">Aktualizované pred %1$d mesiacmi</item>
+        <item quantity="many">Aktualizované pred %1$d mesiacmi</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Odstrániť zvolené kontakty (%d)?</item>
+        <item quantity="one">Odstrániť zvolené kontakty (%d)?</item>
+        <item quantity="few">Odstrániť zvolené kontakty (%d)?</item>
+        <item quantity="many">Odstrániť zvolené kontakty (%d)?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s. %3$s</item>
+        <item quantity="one">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s. %3$s</item>
+        <item quantity="few">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s. %3$s</item>
+        <item quantity="many">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Nepoužívané: %1$d dňa, Veľkosť: %2$s</item>
+        <item quantity="one">Nepoužité: %1$d deň, veľkosť: %2$s</item>
+        <item quantity="few">Nepoužívané: %1$d dni, Veľkosť: %2$s</item>
+        <item quantity="many">Nepoužívané: %1$d dní, Veľkosť: %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Zatvoriť %1$d aplik. na uvoľnenie %2$s pamäti</item>
+        <item quantity="one">Zatvoriť %1$d aplik. na uvoľnenie %2$s pamäti</item>
+        <item quantity="few">Zatvoriť %1$d aplik. na uvoľnenie %2$s pamäti</item>
+        <item quantity="many">Zatvoriť %1$d aplik. na uvoľnenie %2$s pamäti</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">%1$d aplik. zatvor., uvoľnilo sa %2$s pamäti</item>
+        <item quantity="one">%1$d aplik. zatvor., uvoľnilo sa %2$s pamäti</item>
+        <item quantity="few">%1$d aplik. zatvor., uvoľnilo sa %2$s pamäti</item>
+        <item quantity="many">%1$d aplik. zatvor., uvoľnilo sa %2$s pamäti</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">Obmedzená %d aplikácia z odosielania správ MMS</item>
+        <item quantity="one">Obmedzená %d aplikácia z odosielania správ MMS</item>
+        <item quantity="few">Obmedzených %d aplikácií z odosielania správ MMS</item>
+        <item quantity="many">Obmedzených %d aplikácií z odosielania správ MMS</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">Obmedzené %d aplikácie z úpravy položiek denníka hovorov</item>
+        <item quantity="one">Obmedzená %d aplikácia z úpravy položiek denníka hovorov</item>
+        <item quantity="few">Obmedzených %d aplikácií z úpravy položiek denníka hovorov</item>
+        <item quantity="many">Obmedzených %d aplikácií z úpravy položiek denníka hovorov</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">Obmedzené %d aplikácie z úpravy kontaktov</item>
+        <item quantity="one">Obmedzená %d aplikácia z úpravy kontaktov</item>
+        <item quantity="few">Obmedzených %d aplikácií z úpravy kontaktov</item>
+        <item quantity="many">Obmedzených %d aplikácií z úpravy kontaktov</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">Obmedzené %d aplikácie z odstraňovania položiek denníka hovorov</item>
+        <item quantity="one">Obmedzená %d aplikácia z odstraňovania položiek denníka hovorov</item>
+        <item quantity="few">Obmedzených %d aplikácií z odstraňovania položiek denníka hovorov</item>
+        <item quantity="many">Obmedzených %d aplikácií z odstraňovania položiek denníka hovorov</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">Obmedzené %d aplikácie z odstraňovania kontaktov</item>
+        <item quantity="one">Obmedzená %d aplikácia z odstraňovania kontaktov</item>
+        <item quantity="few">Obmedzených %d aplikácií z odstraňovania kontaktov</item>
+        <item quantity="many">Obmedzených %d aplikácií z odstraňovania kontaktov</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">%d aplikácie majú obmedzenie snímať fotky a videá</item>
+        <item quantity="one">%d aplikácia má obmedzenie snímať fotky a videá</item>
+        <item quantity="few">%d aplikácií majú obmedzenie snímať fotky a videá</item>
+        <item quantity="many">%d aplikácie majú obmedzenie snímať fotky a videá</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">Obmedzené %d aplikácie z odosielania správ SMS</item>
+        <item quantity="one">Obmedzená %d aplikácia z odosielania správ SMS</item>
+        <item quantity="few">Obmedzených %d aplikácií z odosielania správ SMS</item>
+        <item quantity="many">Obmedzených %d aplikácií z odosielania správ SMS</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Zobrazenie zóny dropzone povolené pre %1$d aplik.</item>
+        <item quantity="one">Zobrazenie zóny dropzone povolené pre %1$d aplikáciu.</item>
+        <item quantity="few">Zobrazenie zón dropzone povolené pre %1$d aplikácie.</item>
+        <item quantity="many">Zobrazenie zón dropzone povolené pre %1$d aplikácií.</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">dni</item>
+        <item quantity="one">deň</item>
+        <item quantity="few">dni</item>
+        <item quantity="many">dni</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">%1$d aplikácií zamknutých</item>
+        <item quantity="one">%1$d aplikácia zamknutá</item>
+        <item quantity="few">%1$d aplikácií zamknutých</item>
+        <item quantity="many">%1$d aplikácií zamknutých</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">%1$d aplikácií je spustených</item>
+        <item quantity="one">%1$d aplikácia je spustená</item>
+        <item quantity="few">%1$d aplikácií je spustených</item>
+        <item quantity="many">%1$d aplikácií je spustených</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Odinštalovať zvol. aplikácie?</item>
+        <item quantity="one">Odinštalovať zvol. aplikáciu?</item>
+        <item quantity="few">Odinštalovať zvol. aplikácie?</item>
+        <item quantity="many">Odinštalovať zvol. aplikácie?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d položky</item>
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položiek</item>
+        <item quantity="many">%1$d položiek</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">%1$d povolení</item>
+        <item quantity="one">%1$d povolenie</item>
+        <item quantity="few">%1$d povolenia</item>
+        <item quantity="many">%1$d povolení</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Odstrániť nasledovné súbory? Nemožno ich obnoviť.</item>
+        <item quantity="one">Odstrániť nasledovný súbor? Nemožno ho obnoviť.</item>
+        <item quantity="few">Odstrániť nasledovné súbory? Nemožno ich obnoviť.</item>
+        <item quantity="many">Odstrániť nasledovné súbory? Nemožno ich obnoviť.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Odstrániť nasledovné súbory? Nedajú sa obnoviť.</item>
+        <item quantity="one">Odstrániť nasledovný súbor? Nedá sa obnoviť.</item>
+        <item quantity="few">Odstrániť nasledovné súbory? Nedajú sa obnoviť.</item>
+        <item quantity="many">Odstrániť nasledovné súbory? Nedajú sa obnoviť.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">Systém natrvalo odstráni všetky dáta pre vybrané aplikácie. Aplikácie budú obnovené na počiatočný stav inštalácie.</item>
+        <item quantity="one">Systém natrvalo odstráni všetky dáta pre vybranú aplikáciu. Aplikácia bude obnovená na počiatočný stav inštalácie.</item>
+        <item quantity="few">Systém natrvalo odstráni všetky dáta pre vybrané aplikácie. Aplikácie budú obnovené na počiatočný stav inštalácie.</item>
+        <item quantity="many">Systém natrvalo odstráni všetky dáta pre vybrané aplikácie. Aplikácie budú obnovené na počiatočný stav inštalácie.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Počet minút, o ktoré sa predĺži doba používania: %1$d</item>
+        <item quantity="one">Počet minút, o ktoré sa predĺži doba používania: %1$d</item>
+        <item quantity="few">Počet minút, o ktoré sa predĺži doba používania: %1$d</item>
+        <item quantity="many">Počet minút, o ktoré sa predĺži doba používania: %1$d</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s.</item>
+        <item quantity="one">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s.</item>
+        <item quantity="few">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s.</item>
+        <item quantity="many">Počet zatvorených aplikácií: %1$d, uvoľnené miesto: %2$s.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d min.</item>
+        <item quantity="one">%1$d min.</item>
+        <item quantity="few">%1$d min.</item>
+        <item quantity="many">%1$d min.</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+        <item quantity="many">%1$d h</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">Zost. %1$s min</item>
+        <item quantity="one">Zost. %1$s min</item>
+        <item quantity="few">Zost. %1$s min</item>
+        <item quantity="many">Zost. %1$s min</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s min do nabitia</item>
+        <item quantity="one">%1$s min do nabitia</item>
+        <item quantity="few">%1$s min do nabitia</item>
+        <item quantity="many">%1$s min do nabitia</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Možno predĺ.o %1$d min</item>
+        <item quantity="one">Možno predĺ.o %1$d min</item>
+        <item quantity="few">Možno predĺ.o %1$d min</item>
+        <item quantity="many">Možno predĺ.o %1$d min</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Predĺžené o %1$s min</item>
+        <item quantity="one">Predĺžené o %1$s min</item>
+        <item quantity="few">Predĺžené o %1$s min</item>
+        <item quantity="many">Predĺžené o %1$s min</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+        <item quantity="few">%1$ds</item>
+        <item quantity="many">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d krát (odpor.)</item>
+        <item quantity="one">%d krát (odpor.)</item>
+        <item quantity="few">%d krát (odpor.)</item>
+        <item quantity="many">%d krát (odpor.)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d krát</item>
+        <item quantity="one">%d krát</item>
+        <item quantity="few">%d krát</item>
+        <item quantity="many">%d krát</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">Označené %d osobami</item>
+        <item quantity="one">Označené %d osobou</item>
+        <item quantity="few">Označené %d osobami</item>
+        <item quantity="many">Označené %d osobami</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">Dostupných aplikácií: %1$d</item>
+        <item quantity="one">Dostupná %1$d aplikácia</item>
+        <item quantity="few">Dostupných aplikácií: %1$d</item>
+        <item quantity="many">Dostupných aplikácií: %1$d</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d možno optimalizovať</item>
+        <item quantity="one">%1$d možno optimalizovať</item>
+        <item quantity="few">%1$d možno optimalizovať</item>
+        <item quantity="many">%1$d možno optimalizovať</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">Aplikácie (%1$d) boli zatvorené v dôsledku nadmernej spotreby, dotykom zobrazíte podrobnosti</item>
+        <item quantity="one">Počet aplikácií zatvorených kvôli nadmernému využitiu energie: %1$d; stlačením zobrazíte podrobnosti</item>
+        <item quantity="few">Aplikácie (%1$d) boli zatvorené v dôsledku nadmernej spotreby, dotykom zobrazíte podrobnosti</item>
+        <item quantity="many">Aplikácie (%1$d) boli zatvorené v dôsledku nadmernej spotreby, dotykom zobrazíte podrobnosti</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d fotografií</item>
+        <item quantity="one">%1$d fotografia</item>
+        <item quantity="few">%1$d fotografií</item>
+        <item quantity="many">%1$d fotografií</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Aktualizované pred %d dňami</item>
+        <item quantity="one">Aktualizované pred %d dňom</item>
+        <item quantity="few">Aktualizované pred %d dňami</item>
+        <item quantity="many">Aktualizované pred %d dňami</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d dni nevymazané, stlačte na vymazanie</item>
+        <item quantity="one">%d deň nevymazaný, stlačte na vymazanie</item>
+        <item quantity="few">%d dní nevymazaných, stlačte na vymazanie</item>
+        <item quantity="many">%d dní nevymazaných, stlačte na vymazanie</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Počet zakázaných aplikácií pri vytváraní odkazov na domovskej obrazovke: %d</item>
+        <item quantity="one">Počet zakázaných aplikácií pri vytváraní odkazov na domovskej obrazovke: %d</item>
+        <item quantity="few">Počet zakázaných aplikácií pri vytváraní odkazov na domovskej obrazovke: %d</item>
+        <item quantity="many">Počet zakázaných aplikácií pri vytváraní odkazov na domovskej obrazovke: %d</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">Počet aplikácií vynechaných pri čistení: %1$d.</item>
+        <item quantity="one">Počet preskoč. aplik. počas čistenia: %1$d.</item>
+        <item quantity="few">Počet preskočených aplikácií počas čistenia: %1$d.</item>
+        <item quantity="many">Počet preskočených aplikácií počas čistenia: %1$d.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">Obmedzený %d počet aplikácií pri získaní prístupu k zoznamu inštalovaných aplikácií.</item>
+        <item quantity="one">Obmedzená %d aplikácia pri získaní prístupu k zoznamu inštalovaných aplikácií.</item>
+        <item quantity="few">Obmedzených %d aplikácií pri získaní prístupu k zoznamu inštalovaných aplikácií.</item>
+        <item quantity="many">Obmedzených %d aplikácií pri získaní prístupu k zoznamu inštalovaných aplikácií.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">%d počet aplikácií vymazaný.</item>
+        <item quantity="one">%d aplikácia vymazaná.</item>
+        <item quantity="few">%d aplikácií vymazaných.</item>
+        <item quantity="many">%d aplikácií vymazaných.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d aplikáciám bol zakázaný prístup k vašim fitness údajom (s cieľom poskytovať údaje o počte krokov a zatrasení).</item>
+        <item quantity="one">%d aplikácii bol zakázaný prístup k vašim fitness údajom (s cieľom poskytovať údaje o počte krokov a zatrasení).</item>
+        <item quantity="few">%d aplikáciám bol zakázaný prístup k vašim fitness údajom (s cieľom poskytovať údaje o počte krokov a zatrasení).</item>
+        <item quantity="many">%d aplikáciám bol zakázaný prístup k vašim fitness údajom (s cieľom poskytovať údaje o počte krokov a zatrasení).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">Pre %d aplikácie je obmedzené získavanie prístupu k údajom o zdravotnom stave.</item>
+        <item quantity="one">Pre %d aplikáciu je obmedzené získavanie prístupu k údajom o zdravotnom stave.</item>
+        <item quantity="few">Pre %d aplikácií je obmedzené získavanie prístupu k údajom o zdravotnom stave.</item>
+        <item quantity="many">Pre %d aplikácií je obmedzené získavanie prístupu k údajom o zdravotnom stave.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d položky je nutné manuálne optimalizovať</item>
+        <item quantity="one">%1$d položku je nutné manuálne optimalizovať</item>
+        <item quantity="few">%1$d položiek je nutné manuálne optimalizovať</item>
+        <item quantity="many">%1$d položiek je nutné manuálne optimalizovať</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">%1$d opravy na nainštalovanie</item>
+        <item quantity="one">%1$d oprava na nainštalovanie</item>
+        <item quantity="few">%1$d opráv na nainštalovanie</item>
+        <item quantity="many">%1$d opráv na nainštalovanie</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">%1$d aplikácie obsahujú reklamy</item>
+        <item quantity="one">%1$d aplikácia obsahuje reklamy</item>
+        <item quantity="few">%1$d aplikácií obsahuje reklamy</item>
+        <item quantity="many">%1$d aplikácií obsahuje reklamy</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">Povolené automatické spustenie pre %d aplikácie.</item>
+        <item quantity="one">Povolené automatické spustenie pre %d aplikáciu.</item>
+        <item quantity="few">Povolené automatické spustenie pre %d aplikácií.</item>
+        <item quantity="many">Povolené automatické spustenie pre %d aplikácií.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d aplikácie možno spustiť prostredníctvom iných aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Odporúča sa obmedziť túto možnosť.</item>
+        <item quantity="one">%d aplikáciu možno spustiť prostredníctvom iných aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Odporúča sa obmedziť túto možnosť.</item>
+        <item quantity="few">%d aplikácií možno spustiť prostredníctvom iných aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Odporúča sa obmedziť túto možnosť.</item>
+        <item quantity="many">%d aplikácií možno spustiť prostredníctvom iných aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Odporúča sa obmedziť túto možnosť.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d aplikácií možno spustiť prostredníctvom iných aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %2$s a zvýšenú spotrebu elektrickej energie. Odporúčame obmedziť používanie tejto aplikácie.</item>
+        <item quantity="one">%1$d aplikáciu možno spustiť prostredníctvom iných aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %2$s a zvýšenú spotrebu elektrickej energie. Odporúčame obmedziť používanie tejto aplikácie.</item>
+        <item quantity="few">%1$d aplikácií možno spustiť prostredníctvom iných aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %2$s a zvýšenú spotrebu elektrickej energie. Odporúčame obmedziť používanie tejto aplikácie.</item>
+        <item quantity="many">%1$d aplikácií možno spustiť prostredníctvom iných aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %2$s a zvýšenú spotrebu elektrickej energie. Odporúčame obmedziť používanie tejto aplikácie.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Povoliť?</item>
+        <item quantity="one">Aplikáciu možno spúšťať automaticky v nasledovnej %d situácii. Povoliť?</item>
+        <item quantity="few">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Povoliť?</item>
+        <item quantity="many">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Obmedziť?</item>
+        <item quantity="one">Aplikáciu možno spustiť automaticky v nasledovnej %d situácii. Obmedziť?</item>
+        <item quantity="few">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Obmedziť?</item>
+        <item quantity="many">Aplikáciu možno spustiť automaticky v nasledovných %d situáciách. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Aplikácia a jej paralelná aplikácia sa automaticky spustia v rámci nasledujúcich %d scenárov. Obmedziť?</item>
+        <item quantity="one">Aplikácia a jej paralelná aplikácia sa automaticky spustia v rámci nasledujúceho %d scenára. Obmedziť?</item>
+        <item quantity="few">Aplikácia a jej paralelná aplikácia sa automaticky spustia v rámci nasledujúcich %d scenárov. Obmedziť?</item>
+        <item quantity="many">Aplikácia a jej paralelná aplikácia sa automaticky spustia v rámci nasledujúcich %d scenárov. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="one">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="few">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="many">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="one">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="few">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="many">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="one">%1$s možno spustiť prostredníctvom %2$d aplikácie. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="few">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+        <item quantity="many">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="one">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="few">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+        <item quantity="many">%1$s možno spustiť prostredníctvom %2$d aplikácií. Môže to spôsobiť spomalenie telefónu a vyššiu spotrebu energie. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="one">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácie. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="few">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="many">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="one">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácie. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="few">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="many">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="one">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácie. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="few">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="many">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="one">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácie. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="few">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+        <item quantity="many">Aplikáciu %1$s možno spustiť pomocou %2$d aplikácií. To spôsobí spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Obmedziť?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="one">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="few">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="many">Spustené: %1$d krát | Najnovšie: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="one">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="few">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="many">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="one">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="few">Spustené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="many">Spustené: %1$d krát | Najnovšie: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="one">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="few">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+        <item quantity="many">Obmedzené: %1$d krát | Najnovšie: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">Počet zistených automatických spustení aplikácií: %d</item>
+        <item quantity="one">Počet zistených automatických spustení aplikácií: %d</item>
+        <item quantity="few">Počet zistených automatických spustení aplikácií: %d</item>
+        <item quantity="many">Počet zistených automatických spustení aplikácií: %d</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">Celkom %1$s súborov</item>
+        <item quantity="one">Celkom %1$s súbor</item>
+        <item quantity="few">Celkom %1$s súborov</item>
+        <item quantity="many">Celkom %1$s súborov</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d dní bez vyhľadávania, stlačením spustite úplné vyhľadávanie</item>
+        <item quantity="one">%d deň bez vyhľadávania, stlačením spustite úplné vyhľadávanie</item>
+        <item quantity="few">%d dní bez vyhľadávania, stlačením spustite úplné vyhľadávanie</item>
+        <item quantity="many">%d dní bez vyhľadávania, stlačením spustite úplné vyhľadávanie</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">%1$d apl. má citlivé povolenia</item>
+        <item quantity="one">%1$d apl. má citlivé povolenia</item>
+        <item quantity="few">%1$d apl. má citlivé povolenia</item>
+        <item quantity="many">%1$d apl. má citlivé povolenia</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Odtlačok prsta nemožno rozpoznať, zostávajúce pokusy: %1$d</item>
+        <item quantity="one">Odtlačok prsta nemožno rozpoznať, zostávajúce pokusy: %1$d</item>
+        <item quantity="few">Odtlačok prsta nemožno rozpoznať, zostávajúce pokusy: %1$d</item>
+        <item quantity="many">Odtlačok prsta nemožno rozpoznať, zostávajúce pokusy: %1$d</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Odtlačok prsta vypnutý. Skúste znova o %1$d sek</item>
+        <item quantity="one">Odtlačok prsta vypnutý. Skúste znova o %1$d sek</item>
+        <item quantity="few">Odtlačok prsta vypnutý. Skúste znova o %1$d sek</item>
+        <item quantity="many">Odtlačok prsta vypnutý. Skúste znova o %1$d sek</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Nesprávna odpoveď. Zost. pokusy: %1$d.</item>
+        <item quantity="one">Nesprávna odpoveď. Máte ešte %1$d pokus.</item>
+        <item quantity="few">Nesprávna odpoveď. Máte ešte %1$d pokusov.</item>
+        <item quantity="many">Nesprávna odpoveď. Máte ešte %1$d pokusov.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Skúste znovu o %1$d hod.</item>
+        <item quantity="one">Skúste znovu o %1$d hod.</item>
+        <item quantity="few">Skúste znovu o %1$d hod.</item>
+        <item quantity="many">Skúste znovu o %1$d hod.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Skúste znovu o %1$d min.</item>
+        <item quantity="one">Skúste znovu o %1$d min.</item>
+        <item quantity="few">Skúste znovu o %1$d min.</item>
+        <item quantity="many">Skúste znovu o %1$d min.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Skúste znovu o %1$d s.</item>
+        <item quantity="one">Skúste znovu o %1$d s.</item>
+        <item quantity="few">Skúste znovu o %1$d s.</item>
+        <item quantity="many">Skúste znovu o %1$d s.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">%1$d top aplikácie využívajúce batériu</item>
+        <item quantity="one">%1$d top aplikácia využívajúca batériu</item>
+        <item quantity="few">%1$d top aplikácií využívajúcich batériu</item>
+        <item quantity="many">%1$d top aplikácií využívajúcich batériu</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d</item>
+        <item quantity="few">%1$d d</item>
+        <item quantity="many">%1$d d</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Všetky vybrané dáta pre aplikácie a ich dvojníkov sa odstránia. Aplikácie budú obnovené do svojho počiatočného stavu pri inštalácii.</item>
+        <item quantity="one">Všetky vybrané dáta pre aplikácie a jej dvojníka sa odstránia. Aplikácia bude obnovená do svojho počiatočného stavu pri inštalácii.</item>
+        <item quantity="few">Všetky vybrané dáta pre aplikácie a ich dvojníkov sa odstránia. Aplikácie budú obnovené do svojho počiatočného stavu pri inštalácii.</item>
+        <item quantity="many">Všetky vybrané dáta pre aplikácie a ich dvojníkov sa odstránia. Aplikácie budú obnovené do svojho počiatočného stavu pri inštalácii.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Aplikácia a jej dvojník sa môžu automaticky spúšťať v rámci nasledujúcich %1$d scenárov. Povoliť?</item>
+        <item quantity="one">Aplikácia a jej dvojník sa môžu automaticky spúšťať v rámci nasledujúceho %1$d scenára. Povoliť?</item>
+        <item quantity="few">Aplikácia a jej dvojník sa môžu automaticky spúšťať v rámci nasledujúcich %1$d scenárov. Povoliť?</item>
+        <item quantity="many">Aplikácia a jej dvojník sa môžu automaticky spúšťať v rámci nasledujúcich %1$d scenárov. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti telefónu a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="one">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácia. To môže spôsobiť spomalenie činnosti telefónu a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="few">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti telefónu a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="many">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti telefónu a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="one">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácia. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="few">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+        <item quantity="many">Aplikáciu %1$s a jej dvojníka môže spúšťať %2$d aplikácií. To môže spôsobiť spomalenie činnosti zariadenia %3$s a zvýšenú spotrebu elektrickej energie. Povoliť?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">Po uzamknutí obrazovky sa nezavrú %1$d aplikácie</item>
+        <item quantity="one">Po uzamknutí obrazovky sa nezavrie %1$d aplikácia</item>
+        <item quantity="few">Po uzamknutí obrazovky sa nezavrú %1$d aplikácie</item>
+        <item quantity="many">Po uzamknutí obrazovky sa nezavrú %1$d aplikácie</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">Po uzamknutí obrazovky sa zavrú %1$d aplikácie</item>
+        <item quantity="one">Po uzamknutí obrazovky sa zavrie %1$d aplikácia</item>
+        <item quantity="few">Po uzamknutí obrazovky sa zavrú %1$d aplikácie</item>
+        <item quantity="many">Po uzamknutí obrazovky sa zavrú %1$d aplikácie</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">Aplik. s obmedz. na získanie prístupu ku kalendáru: %d.</item>
+        <item quantity="one">Aplik. s obmedz. na získanie prístupu ku kalendáru: %d.</item>
+        <item quantity="few">Aplik. s obmedz. na získanie prístupu ku kalendáru: %d.</item>
+        <item quantity="many">Aplik. s obmedz. na získanie prístupu ku kalendáru: %d.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">Aplikácie s obmedz. na úpravy udalostí z kalendára: %d.</item>
+        <item quantity="one">Aplikácie s obmedz. na úpravy udalostí z kalendára: %d.</item>
+        <item quantity="few">Aplikácie s obmedz. na úpravy udalostí z kalendára: %d.</item>
+        <item quantity="many">Aplikácie s obmedz. na odstr. udalostí z kalendára: %d.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">Aplikácie s obmedz. na odstr. udalostí z kalendára: %d.</item>
+        <item quantity="one">Aplikácie s obmedz. na odstr. udalostí z kalendára: %d.</item>
+        <item quantity="few">Aplikácie s obmedz. na odstr. udalostí z kalendára: %d.</item>
+        <item quantity="many">Aplikácie s obmedz. na odstr. udalostí z kalendára: %d.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">Apl. s obm. získania prístupu k histórii prehliadača: %d.</item>
+        <item quantity="one">Apl. s obm. získania prístupu k histórii prehliadača: %d.</item>
+        <item quantity="few">Apl. s obm. získania prístupu k histórii prehliadača: %d.</item>
+        <item quantity="many">Apl. s obm. získania prístupu k histórii prehliadača: %d.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">Apl. s obm. získania prístupu k presmerovaniu hovoru: %d.</item>
+        <item quantity="one">Apl. s obm. získania prístupu k presmerovaniu hovoru: %d.</item>
+        <item quantity="few">Apl. s obm. získania prístupu k presmerovaniu hovoru: %d.</item>
+        <item quantity="many">Apl. s obm. získania prístupu k presmerovaniu hovoru: %d.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Blokované reklamy v %1$d aplikáciách</item>
+        <item quantity="one">Blokované reklamy v %1$d aplikácii</item>
+        <item quantity="few">Blokované reklamy v %1$d aplikáciách</item>
+        <item quantity="many">Blokované reklamy v %1$d aplikáciách</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">Položky, ktoré treba ručne optimalizovať: %1$d</item>
+        <item quantity="one">Pol., ktoré treba ručne optimalizovať: %1$d</item>
+        <item quantity="few">Pol., ktoré treba ručne optimalizovať: %1$d</item>
+        <item quantity="many">Pol., ktoré treba ručne optimalizovať: %1$d</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Počet zavretých aplikácií na pozadí, ktoré odoberajú elektrickú energiu: %1$d</item>
+        <item quantity="one">Počet zavretých aplikácií na pozadí, ktoré odoberajú elektrickú energiu: %1$d</item>
+        <item quantity="few">Počet zavretých aplikácií na pozadí, ktoré odoberajú elektrickú energiu: %1$d</item>
+        <item quantity="many">Počet zavretých aplikácií na pozadí, ktoré odoberajú elektrickú energiu: %1$d</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d položiek</item>
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položiek</item>
+        <item quantity="many">%1$d položiek</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d pol.</item>
+        <item quantity="one">%1$d položka</item>
+        <item quantity="few">%1$d položiek</item>
+        <item quantity="many">%1$d položiek</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d apl. spustené pri vypnutej obrazovke; zavrite ich na šetrenie elektrickej energie</item>
+        <item quantity="one">Pri vypnutej obrazovke je spustená %1$d aplikácia; zavrite na šetrenie elektrickej energie</item>
+        <item quantity="few">Pri vypnutej obrazovke je spustených %1$d aplikácií; zavrite na šetrenie elektrickej energie</item>
+        <item quantity="many">Pri vypnutej obrazovke je spustených %1$d aplikácií; zavrite na šetrenie elektrickej energie</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">Je blokovaných %1$s prevzatých rizikových aplikácií</item>
+        <item quantity="one">Je blokovaná %1$s prevzatá riziková aplikácia</item>
+        <item quantity="few">Je blokovaných %1$s prevzatých rizikových aplikácií</item>
+        <item quantity="many">Je blokovaných %1$s prevzatých rizikových aplikácií</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">Našli sa %1$d vopred nenainšt. apl.; odinštalujte ich</item>
+        <item quantity="one">Našla sa %1$d vopred nenainšt. apl.; odinštalujte ju</item>
+        <item quantity="few">Našlo sa %1$d vopred nenainšt. apl.; odinštalujte ich</item>
+        <item quantity="many">Našlo sa %1$d vopred nenainšt. apl.; odinštalujte ich</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Našlo sa %2$s aplikácií, ktoré nie sú predinštalované (napr. %1$s). Prosíme vás o odinštalovanie.</item>
+        <item quantity="one">Našla sa %2$s aplikácia, ktorá nie je predinštalovaná (napr. %1$s). Prosíme vás o odinštalovanie.</item>
+        <item quantity="few">Našlo sa %2$s aplikácií, ktoré nie sú predinštalované (napr. %1$s). Prosíme vás o odinštalovanie.</item>
+        <item quantity="many">Našlo sa %2$s aplikácií, ktoré nie sú predinštalované (napr. %1$s). Prosíme vás o odinštalovanie.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">%d aplikácie úspešne zatvorené.</item>
+        <item quantity="one">%d aplikácia úspešne zatvorená.</item>
+        <item quantity="few">%d aplikácie úspešne zatvorené.</item>
+        <item quantity="many">%d aplikácií úspešne zatvorených.</item>
+    </plurals>
+</resources>

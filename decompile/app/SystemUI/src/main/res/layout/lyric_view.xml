@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.hwlockscreen.LyricView xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="@dimen/music_lyric_palying_textsize" android:ellipsize="marquee" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/first_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerHorizontal="true" android:textIsSelectable="false" style="@style/music_lyric_playing_style" />
+        <TextView android:textSize="@dimen/music_lyric_to_play_textsize" android:ellipsize="marquee" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/second_line" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@r$id/first_line" android:layout_centerHorizontal="true" android:textIsSelectable="false" style="@style/music_lyric_to_play_style" />
+    </RelativeLayout>
+</com.android.keyguard.hwlockscreen.LyricView>

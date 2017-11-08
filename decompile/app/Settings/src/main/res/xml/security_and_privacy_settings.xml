@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/header_category_security_and_privacy"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/security_settings_title" android:key="category_security" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/trust_space_settings" android:key="trustspace_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.trustspace" android:targetClass="com.huawei.trustspace.settings.SettingsActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/start_finder_phone_new" android:key="finderphone_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/encrypted_sms_settings_title" android:key="encryptedsms_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.mms" android:targetClass="com.huawei.mms.ui.MsimSmsEncryptSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/harrassment_interception_settings_title" android:key="harrassmentinterception_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.systemmanager" android:targetClass="com.huawei.harassmentinterception.ui.InterceptionActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/anti_virus_settings_title" android:key="antivirus_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.systemmanager" android:targetClass="com.huawei.systemmanager.antivirus.ui.AntiVirusActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/other_security_settings_title" android:key="security_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.SecuritySettings" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/privacy_category" android:key="category_privacy" />
+    <PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.location.LocationSettings" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/strongbox_settings_title" android:key="strongbox_settings" android:widgetLayout="@layout/preference_widget_arrow" />
+    <PreferenceScreen android:title="@string/applock_settings_title" android:key="applock_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.systemmanager" android:targetClass="com.huawei.systemmanager.applock.password.AuthEnterAppLockActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

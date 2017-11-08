@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phone.StatusBarWindowView xmlns:android="http://schemas.android.com/apk/res-auto" sysui:fitsSystemWindows="true" sysui:layout_width="match_parent" sysui:layout_height="match_parent">
+    <include sysui:layout_width="match_parent" sysui:layout_height="match_parent" layout="@layout/keyguard_backdrop" />
+    <com.android.systemui.statusbar.ScrimView sysui:id="@id/scrim_behind" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+    <com.android.emui.blur.WindowBlurView sysui:id="@id/blur" sysui:visibility="gone" sysui:layout_width="match_parent" sysui:layout_height="match_parent" />
+    <com.android.systemui.statusbar.AlphaOptimizedView sysui:id="@id/heads_up_scrim" sysui:background="@drawable/heads_up_scrim" sysui:layout_width="match_parent" sysui:layout_height="UNKNOWN_DATA_0x7f0e0215" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+    <include sysui:layout_width="match_parent" sysui:layout_height="UNKNOWN_DATA_0x7f0e02cf" layout="@layout/status_bar" />
+    <include layout="@layout/brightness_mirror" />
+    <ViewStub sysui:id="@id/fullscreen_user_switcher_stub" sysui:layout="@layout/car_fullscreen_user_switcher" sysui:layout_width="match_parent" sysui:layout_height="match_parent" />
+    <include sysui:visibility="gone" layout="@layout/keyguard_status_bar" />
+    <include sysui:visibility="gone" sysui:layout_width="match_parent" sysui:layout_height="UNKNOWN_DATA_0x7f0e02cf" layout="@layout/backstage_calling_status_bar" />
+    <include sysui:visibility="gone" sysui:layout_width="match_parent" sysui:layout_height="match_parent" layout="@layout/status_bar_expanded" />
+    <com.android.systemui.statusbar.ScrimView sysui:id="@id/scrim_in_front" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+    <com.huawei.keyguard.view.CurveScreenAnimView sysui:id="@id/curve_touch_effect_view" sysui:tag="curve_touch_effect_view" sysui:layout_width="match_parent" sysui:layout_height="match_parent" sysui:importantForAccessibility="no" sysui:ignoreRightInset="true" />
+    <TextView sysui:textSize="13sp" sysui:textColor="#ffffffff" sysui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" sysui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sysui:id="@id/hw_keyguard_notification_touch_toast" sysui:background="@drawable/bg_noti_toast" sysui:paddingLeft="12dp" sysui:paddingRight="12dp" sysui:visibility="invisible" sysui:layout_width="wrap_content" sysui:layout_height="UNKNOWN_DATA_0x2001" sysui:layout_marginTop="160dp" sysui:text="@string/hw_keyguard_notification_touch_toast" />
+</com.android.systemui.statusbar.phone.StatusBarWindowView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/prevent_list_explain_size" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/netassistant_explain" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:text="@string/netassistant_lockscreen_explain" android:lineSpacingMultiplier="1.2" android:fontFamily="chnfzxh" android:layout_marginStart="17dp" android:layout_marginEnd="17dp" />
+    <include layout="@layout/lockscreen_list_header_network" />
+    <View android:id="@+id/divline" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <ListView android:id="@+id/listview" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/province_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/operator_set_view" />
+        <include android:id="@+id/city_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/operator_set_view" />
+        <include android:id="@+id/operator_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/operator_set_view" />
+        <include android:id="@+id/brand_view" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/operator_set_view" />
+    </LinearLayout>
+    <Button android:textSize="14sp" android:id="@+id/button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="@dimen/net_assistant_fst_operator_marginbottom" android:text="@string/common_finish" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/operator_message" android:layout_above="@+id/button" android:fontFamily="chnfzxh" />
+</RelativeLayout>

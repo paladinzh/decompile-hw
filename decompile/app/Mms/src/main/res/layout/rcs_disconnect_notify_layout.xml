@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:background="@color/mms_default_sms_notify_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:id="@+id/rl_notify" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+        <ImageView android:id="@+id/disconnect_notify_icon" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_fail_connect_rcs" android:layout_centerVertical="true" android:paddingEnd="8dp" android:layout_marginStart="16dp" />
+        <TextView android:textSize="15sp" android:textColor="@color/text_color_balck_sub" android:id="@+id/disconnect_notify" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_disconnect" android:singleLine="false" android:layout_centerVertical="true" android:fontFamily="chnfzxh" android:paddingStart="10dp" android:paddingEnd="8dp" android:layout_toEndOf="@+id/disconnect_notify_icon" />
+    </RelativeLayout>
+    <ImageView android:id="@+id/divide_line" android:background="@drawable/ab_list_2_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/rl_notify" />
+</RelativeLayout>

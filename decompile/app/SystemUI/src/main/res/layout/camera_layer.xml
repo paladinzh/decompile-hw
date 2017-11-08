@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.CameraLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/camera_draglayer" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@r$id/camera_container" android:paddingBottom="@dimen/camera_imageview_to_parent_bottom" android:layout_width="UNKNOWN_DATA_0x7f0e03d6" android:layout_height="UNKNOWN_DATA_0x7f0e03d7" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/camera_imageview_to_parent_right" android:layout_alignParentEnd="true">
+        <ImageView android:id="@r$id/camera_imageview" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera" android:adjustViewBounds="true" android:layout_alignParentBottom="true" android:contentDescription="@r$string/camera_app_accessibility_description" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</com.huawei.keyguard.view.CameraLayout>

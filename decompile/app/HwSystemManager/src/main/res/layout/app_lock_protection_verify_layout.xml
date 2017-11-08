@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/app_lock_protect_buttons_layout" layout="@layout/app_lock_protection_bottom_buttons_layout" />
+    <ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/app_lock_protect_buttons_layout">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14sp" android:textColor="@color/emui_list_primary_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/app_lock_protect_verify_question" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginTop="20dp" android:layout_alignParentTop="true" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginStart="18dp" android:layout_marginEnd="18dp" />
+            <EditText android:textSize="15sp" android:id="@+id/app_lock_protect_verify_answer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:hint="@string/applock_protect_answer_tip" android:singleLine="true" android:layout_below="@+id/app_lock_protect_verify_question" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+            <RelativeLayout android:id="@+id/app_lock_protect_verify_lockout_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginTop="4dp" android:layout_below="@+id/app_lock_protect_verify_question" android:layout_marginStart="18dp" android:layout_marginEnd="18dp">
+                <TextView android:textSize="14sp" android:textColor="?unknown_attr_ref: 1010036" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/app_lock_protect_verify_lockout_textview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_marginStart="4dp" android:layout_marginEnd="4dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

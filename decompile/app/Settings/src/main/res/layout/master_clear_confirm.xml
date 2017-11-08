@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:id="@id/master_clear_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/master_clear_final_desc_emotion" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textSize="14.0sp" android:id="@id/execute_master_backup_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/master_clear_final_backup" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textColor="@color/red" android:id="@id/execute_master_clear" android:text="@string/master_clear_button_text" style="@style/bottom_single_button" />
+</LinearLayout>

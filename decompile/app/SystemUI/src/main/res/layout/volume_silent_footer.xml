@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.HwVolumeSilentView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/silent_view_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginStart="@dimen/silent_title_padding_start">
+    <TextView android:textAppearance="@style/TextAppearance.Volume.Header" android:ellipsize="end" android:id="@id/silent_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_bar_settings_mute_label" android:singleLine="true" android:layout_centerVertical="true" />
+    <Switch android:id="@id/silent_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/silent_switch_margin_end" android:layout_toEndOf="@id/silent_title" />
+</com.android.systemui.volume.HwVolumeSilentView>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Ansluten via WLAN-assistent</string>
+    <string name="accessibility_wifi_off">WLAN av.</string>
+    <string name="accessibility_no_wifi">WLAN frånkopplat.</string>
+    <string name="accessibility_wifi_one_bar">WLAN: en stapel.</string>
+    <string name="accessibility_wifi_two_bars">WLAN: två staplar.</string>
+    <string name="accessibility_wifi_three_bars">WLAN: tre staplar.</string>
+    <string name="accessibility_wifi_signal_full">WLAN-signalen är full.</string>
+    <string name="wifi_verbose_logging">Aktivera utförlig loggning via WLAN</string>
+    <string name="wifi_aggressive_handover">Aggressivt WLAN för mobil överföring</string>
+    <string name="wifi_allow_scan_with_traffic">Tillåt alltid WLAN att skanna efter roaming</string>
+    <string name="wifi_verbose_logging_summary">Öka loggningsnivån för WLAN och visa per SSID RSSI i WLAN-väljaren</string>
+    <string name="wifi_aggressive_handover_summary">När detta är aktiverat är WLAN mer aggressivt vid överföring av dataanslutning till mobiler när WLAN-signalen är låg</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Tillåt/begränsa WLAN att skanna efter roaming beroende på tillgänglig datatrafik i gränssnittet</string>
+    <string name="mobile_data_always_on_summary">Håll alltid mobildata aktivt även om WLAN är aktivt (för snabbt nätverksbyte)</string>
+    <string name="radio_controls_summary">Hantera WLAN, Bluetooth, flygplansläge, mobila nätverk och VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Aktivera WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN-inställningar</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Välj WLAN</string>
+    <string name="wifi_select_network">Välj WLAN-nätverk</string>
+    <string name="wifi_starting">WLAN aktiveras</string>
+    <string name="wifi_stopping">Inaktiverar WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Anslut inte till WLAN-nätverk som har dålig anslutning</string>
+    <string name="wifi_automatically_connect_title">Använd öppet WLAN automatiskt</string>
+    <string name="wifi_automatically_connect_summary">Låt WLAN-assistenten autoansluta till öppna nätverk med bra Internetanslutning</string>
+    <string name="wifi_scan_notify_text">Systemappar och systemtjänster kan fortfarande skanna efter WLAN-nätverk för att förbättra platsprecisionen. Du kan ändra detta i LINK_BEGINskanningsinställningarnaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Behåll WLAN i viloläge</string>
+    <string name="wifi_suspend_optimizations">WLAN-optimering</string>
+    <string name="wifi_suspend_optimizations_summary">Minimera batterianvändningen när WLAN är aktiverat</string>
+    <string name="wifi_access_points">WLAN-nätverk</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Aktivera WLAN för att visa tillgängliga nätverk.</string>
+    <string name="wifi_empty_list_wifi_on">Söker efter WLAN-nätverk …</string>
+    <string name="wifi_empty_list_user_restricted">Du saknar behörighet att ändra WLAN-nätverket.</string>
+    <string name="wifi_wps_setup_title">Skyddad WLAN-konfiguration</string>
+    <string name="wifi_wps_onstart_pbc">Tryck på knappen WLAN Protected Setup på routern. Den kan kallas WPS eller vara märkt med denna symbol:</string>
+    <string name="wifi_wps_onstart_pin">Ange pinkoden %1$s på din WLAN-router. Det kan ta upp till två minuter att slutföra installationen.</string>
+    <string name="wifi_wps_connected">Ansluten till WLAN-nätverket %s</string>
+    <string name="wifi_scan_always_turnon_message">"För att förbättra platsens exakthet och i andra syften vill %1$s aktivera nätverkssökning även när WLAN är avstängt.
+
+Vill du tillåta detta för alla appar som vill söka?"</string>
+    <string name="wifi_skipped_message">"VARNING! Datakostnaderna kan debiteras av operatören.
+
+Konfigurationen av telefonen kan kräva avsevärd nätverksaktivitet."</string>
+    <string name="wifi_and_mobile_skipped_message">VARNING! Mobilen kommer inte att kunna kontrollera om programvaran är uppdaterad.</string>
+    <string name="wifi_connect_failed_message">Mobilen kunde inte anslutas till WLAN-nätverket.</string>
+    <string name="wifi_advanced_titlebar">Avancerade WLAN-inställningar</string>
+    <string name="wifi_configure_titlebar">Konfigurera WLAN</string>
+    <string name="wifi_advanced_not_available">Den här användaren har inte tillgång till avancerade WLAN-inställningar</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Mobil WLAN-hotspot</string>
+    <string name="wifi_tether_failed_subtext">Fel på mobil WLAN-surfzon</string>
+    <string name="wifi_tether_configure_ap_text">Konfigurera WLAN-surfzon</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s mobil WLAN-surfzon</string>
+    <string name="wifi_calling_settings_title">Inställningar för WLAN-samtal</string>
+    <string name="wifi_calling_suggestion_title">Aktivera samtal via WLAN</string>
+    <string name="wifi_calling_suggestion_summary">Använd WLAN i stället för mobilnätverk</string>
+    <string name="wifi_calling_mode_title">WLAN-samtal</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-uppringningsläge</string>
+    <string name="wifi_calling_off_explanation">När WLAN-samtal har aktiverats kan mobilen dirigera samtal via WLAN-nätverk eller operatörens nätverk, beroende på dina inställningar och vilken signal som är starkast. Innan du aktiverar funktionen frågar du operatören om eventuella avgifter och annan information.</string>
+    <string name="status_wifi_mac_address">WLAN Mac-adress</string>
+    <string name="reset_network_desc">"Återställer alla nätverksinställningar, inklusive:
+
+"<li>WLAN</li>"
+"<li>Mobildata</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Vill du byta WLAN-assistentapp?</string>
+    <string name="location_mode_high_accuracy_description">"Använd GPS, WLAN- och mobilnätverk för att bedöma plats "</string>
+    <string name="location_mode_battery_saving_description">Använd WLAN- och mobilnätverk för att bedöma plats</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN-sökning</string>
+    <string name="location_scanning_wifi_always_scanning_description">Förbättra plats genom att tillåta att systemets appar och tjänster när som helst upptäcker WLAN-nätverk</string>
+    <string name="location_network_based">WLAN- och mobilnätsplats</string>
+    <string name="location_neighborhood_level">Tillåt att appar använder data från källor som WLAN-nätverk och nätverk för mobilenheter för att avgöra din ungefärliga position</string>
+    <string name="location_neighborhood_level_wifi">Platsen fastställs av WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN i tid</string>
+    <string name="bluetooth_on_time">WLAN i tid</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN körs</string>
+    <string name="usage_type_data_wifi_send">WLAN-data skickade</string>
+    <string name="usage_type_data_wifi_recv">WLAN-data mottagna</string>
+    <string name="battery_action_wifi">WLAN-inställningar</string>
+    <string name="battery_desc_wifi">Batteri som förbrukats av WLAN</string>
+    <string name="battery_sugg_wifi">Inaktivera WLAN när det inte används eller när det inte är tillgängligt</string>
+    <string name="gadget_toggle_wifi">Uppdaterar WLAN-inställningar</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Säkerhetskopiera mina inställningar, WLAN-lösenord och andra programdata till Google servrar.</string>
+    <string name="backup_erase_dialog_message">Vill du sluta säkerhetskopiera WLAN-lösenord, bokmärken, andra inställningar och appdata samt ta bort alla kopior på Googles servrar?</string>
+    <string name="fullbackup_erase_dialog_message">Stoppa säkerhetskopiering av enhetsdata (t.ex. WLAN-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som lagras av appar), och radera alla kopior av Google Drive?</string>
+    <string name="fullbackup_data_summary">"Fjärrsäkerhetskopiera enhetsdata (t.ex. WLAN-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar) automatiskt.
+
+När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdata då och då. Appdata kan vara all data som har sparats i en app (beroende på utvecklarinställningarna), inklusive data som kan vara känslig, till exempel kontakter, meddelanden och foton."</string>
+    <string name="wifi_setup_title">WLAN-konfiguration</string>
+    <string name="wifi_setup_title_editing_network">Anslut till WLAN-nätverk %s</string>
+    <string name="wifi_setup_title_connecting_network">Ansluter till WLAN-nätverket %s ...</string>
+    <string name="wifi_setup_eap_not_supported">Det går inte att konfigurera en EAP-WLAN-anslutning under installationen. Efter installationen kan du göra det i Inställningar > Trådlöst och nätverk.</string>
+    <string name="wifi_setup_description_connected">Tryck på <b>Nästa</b>" om·du vill fortsätta med installationen.
+
+Tryck på "<b>Tillbaka</b> om du vill ansluta till ett annat WLAN-nätverk.</string>
+    <string name="data_usage_menu_show_wifi">Visa WLAN-användning</string>
+    <string name="data_usage_menu_hide_wifi">Dölj WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Ange gräns för data via WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Inaktivera bara bakgrundsdata i mobildatanät. WLAN används om det finns.</string>
+    <string name="data_usage_app_restrict_dialog">"Den här funktionen kan leda till att en app som är beroende av bakgrundsdata slutar fungera när WLAN inte är tillgängligt.
+
+Andra kontroller för dataanvändning finns i inställningarna i appen."</string>
+    <string name="data_usage_restrict_background">Om du begränsar mobildata i bakgrunden kanske vissa appar och tjänster inte fungerar såvida du inte är ansluten till ett WLAN-nätverk.</string>
+    <string name="data_usage_restrict_background_multiuser">"Om du begränsar användningen av mobildata i bakgrunden kommer vissa appar och tjänster bara att fungera när du är ansluten till ett WLAN-nätverk.
+
+Den här inställningen påverkar samtliga användare."</string>
+    <string name="data_usage_metered_body">Välj de WLAN-nätverk som är mobila hotspots. Appar kan hindras från att använda dessa nätverk när de körs i bakgrunden. Det kan även visas en varning i apparna när dessa nätverk används för stora hämtningar.</string>
+    <string name="data_usage_metered_wifi">WLAN-nätverk</string>
+    <string name="data_usage_metered_wifi_disabled">Aktivera WLAN om du vill välja trådlösa surfzoner för mobilen.</string>
+    <string name="user_add_user_message_long">"Du kan dela den här enheten med andra genom att skapa fler användare. Alla användare har sitt eget utrymme som de kan anpassa med appar, bakgrunder med mera. Användarna kan även justera inställningar för surfplattan som påverkar alla andra, till exempel WLAN.
+
+När du skapar en ny användare måste han eller hon genomgå en konfigureringsprocess.
+
+Alla användare kan godkänna uppdaterade appbehörigheter för alla andra användare."</string>
+    <string name="restriction_wifi_config_title">WLAN och mobildata</string>
+    <string name="restriction_wifi_config_summary">Tillåt ändring av inställningar för WLAN och mobilnätverk</string>
+    <string name="keywords_wifi">WLAN-nätverksanslutning</string>
+    <string name="keywords_wifi_calling">WLAN WLAN samtal ring</string>
+    <string name="setup_wifi_nfc_tag">Ställ in WLAN NFC-tagg</string>
+    <string name="condition_hotspot_summary">Den mobila WLAN-surfzonen %1$s är aktiverad. WLAN har inaktiverats på enheten.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth och mobilnätverk är inaktiverat. Du kan inte ringa eller ansluta till internet.</string>
+    <string name="condition_cellular_summary">Internet är endast tillgängligt via WLAN</string>
+    <string name="condition_bg_data_summary">Bakgrundsdata är endast tillgänglig via WLAN. Det här kan påverka vissa appar eller tjänster när du inte har tillgång till WLAN.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN-brygga</string>
+    <string name="wifi_tether_bridge_tittle_text">Inställningar WLAN-brygga</string>
+    <string name="wifi_tether_configure_bridge_text">Konfigurera WLAN-brygga</string>
+    <string name="wifi_bridge_settings_summary">Ange bryggans namn, lösenord med mera</string>
+    <string name="wifi_bridge_use_help_title">Hjälp</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN-bryggan kan öka överföringsavståndet och styrkan i WLAN-signaler avsevärt. Andra enheter kan ansluta till ditt befintliga WLAN-nätverk via din enhet.
+2 WLAN-bryggan har stöd för åtkomst till upp till fyra enheter.
+3. WLAN-bryggan fungerar inte med funktionerna WLAN-hotspot och WLAN Direct. Om WLAN-bryggan är aktiverad kan det hända att vissa av de program som använder P2P-tjänster inte fungerar som de ska.
+4. När WLAN-brygga används förbrukar ditt batteri ström snabbare."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN-anslutning krävs</string>
+    <string name="wifi_bridge_switch_wifi_summary">Dela anslutet WLAN-nätverk</string>
+    <string name="wifi_setup_title_connected_network_Toast">Ansluten till WLAN-nätverk %s</string>
+    <string name="huawei_beam_explained">Huawei Beam låter dig föra över filer, t.ex. bilder, videor, kontakter och URL:er, mellan din enhet och andra NFC-kompatibla enheter. Du aktiverar Huawei Beam genom att placera de två enheterna nära varandra (oftast baksida mot baksida) och sedan knacka på din skärm. Observera att Bluetooth eller WLAN kan starta automatiskt innan filöverföring.</string>
+    <string name="wifi_display_settings_summary">Visa din telefonskärm på en annan display via en WLAN-anslutning</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN-nätverk %s är tillgängliga. Vill du avsluta datatjänsten och ansluta till ett WLAN-nätverk?</string>
+    <string name="switch_to_wifi_manual_prompt">En WLAN-signal hittades, vill du använda det här WLAN-nätverket?</string>
+    <string name="switch_to_wifi_query_prompt">WLAN-nätverk %s är tillgängliga. Vill du ansluta till ett WLAN-nätverk?</string>
+    <string name="wifi_to_wifi_prompt">Den aktuella anslutningssignalen är svag, vill du använda ett annat WLAN-nätverk?</string>
+    <string name="advanced_wifi_settings_title">Avancerade Inställningar</string>
+    <string name="huawei_beam_front_explained">"Med Huawei Beam kan du överföra filer till andra NFC-enheter genom att lägga enheterna intill varandra. Du kan trådlöst överföra bilder, videofilmer, kontakter, webbadresser och mer därtill mellan två NFC-kapabla enheter. Så här enkelt är det:
+1. Lägg din enhet med framsidan mot en annan NFC-enhet. Lyft upp enheten när du har hört en ton.
+2. Peka på skärmen inom tre sekunder efter tonen.
+3. Lägg din enhet med framsidan mot den andra NFC-enheten igen så fullföljs överföringen. Observera att Bluetooth eller WLAN kan starta automatiskt innan filöverföring."</string>
+    <string name="wifiap_use_help_details">"1. Du kan använda en WLAN-hotspot på en bärbar enhet som din åtkomstpunkt till Internet. Kringenheter kan anslutas till din enhet via WLAN och anslutna enheter får åtkomst till Internet via mobilnätverket.
+2. Användning av en bärbar WLAN-hotspot kräver att din mobildataanslutning är på och leder till viss datatrafik.
+3. Användning av en bärbar WLAN-hotspot kan leda till att batteriet tar slut snabbare."</string>
+    <string name="wifiap_connect_help_details_open">"Manuell anslutning:
+1. Slå på WLAN i målenheten och sök efter hotspoten %1$s.
+2. Anslut hotspoten."</string>
+    <string name="wifi_connected_to_cmcc_title">WLAN från China Mobile</string>
+    <string name="wifi_connected_to_cmcc_warning">Du är ansluten till ett WLAN-nätverk från China Mobile. Om du använder detta nätverk kan avgifter för WLAN tillkomma.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">Påminnelse om WLAN från China Mobile</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Påminn mig när jag ansluter till ett WLAN-nätverk från China Mobile</string>
+    <string name="wifi_cmcc_no_notification_summary">Visa inte någon avisering vid byte av nätverk (mobildata till WLAN eller tvärtom, eller mellan olika WLAN-nätverk)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Använd GPS och WLAN för att uppskatta plats</string>
+    <string name="location_mode_battery_saving_description_wifionly">Använd WLAN för att uppskatta plats</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Välj WLAN eller mobildatanätverk intelligent</string>
+    <string name="wifi_plus_description">"När WLAN+ har aktiverats utvärderas din WLAN-anslutning för att tillhandahålla smart nätverksväxling (användningen av WLAN-data kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN- och mobildata (med aviseringar) för att ge en smidig internetupplevelse.
+2. Sätter på WLAN när ett WLAN-nätverk känns igen och ansluter till det."</string>
+    <string name="wifi_plus_settings_title">Inställningar för WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Växla på ett intelligent sätt mellan WLAN och mobila datanätverk för en bättre internetupplevelse.</string>
+    <string name="wifi_plus_auto_turn_on_description">Slå automatiskt på WLAN när du närmar dig en känd plats.</string>
+    <string name="wifi_plus_global_description">"När WLAN+ har aktiverats utvärderas din WLAN-anslutning för att tillhandahålla smart nätverksväxling (WLAN-dataanvändningen kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN och mobildata för att ge en smidig internetupplevelse.
+2. Slår på WLAN när ett känt WLAN-nätverk hittas och ansluter till det."</string>
+    <string name="location_mode_high_accuracy_title_emui">Använd GPS, WLAN och mobila nätverk</string>
+    <string name="location_mode_battery_saving_title_emui">Använd WLAN och mobila nätverk</string>
+    <string name="pgps_switch_summary">Tillåt GPS att samla in mobilbasstation- och WLAN-data nära dig för snabbare och exaktare platstjänst</string>
+    <string name="find_no_wlan_ap">Det går inte att hitta WLAN-hotspot</string>
+    <string name="cannot_connect_wlan">Det går inte att ansluta till WLAN</string>
+    <string name="cannot_login_internet_with_wlan">Det går inte att komma åt Internet via WLAN</string>
+    <string name="wfd_connect_fail">WLAN Direct-anslutning misslyckades</string>
+    <string name="find_no_wfd_device">Det går inte att hitta WLAN Direct-enhet</string>
+    <string name="wfd_search_no_devices_causes">"Inga tillgängliga enheter hittades. Det kan bero på:
+1. Den kopplade enheten är inte upptäckbar.
+2. Den kopplade enheten har tekniska problem. Försök starta om WLAN och öppna WLAN Direct på nytt.
+3. Din egen enhet har tekniska problem. Försök starta om WLAN och öppna WLAN Direct på nytt."</string>
+    <string name="wfd_connected_failed_causes">"Anslutningen kunde inte upprättas. Möjliga orsaker:
+1. Den kopplade enheten godkände inte anslutningsbegäran.
+2. Endera enheten har redan upprättat en annan WLAN Direct-anslutning.
+3. Den kopplade enheten har tekniska problem. Försök starta om den."</string>
+    <string name="wifi_qrcode_share_notice">Skanna QR-koden för att ansluta till det här WLAN-nätverket</string>
+    <string name="devices_not_found_solution_title">Prova med följande om enheten inte kan hittas:</string>
+    <string name="devices_not_found_solution_message">"1. Kontrollera att enheten skannar efter andra enheter.
+2. Om det är problem med den andra enheten, startar du om WLAN och öppnar WLAN Direct igen.
+3. Om det är problem med din enhet, startar du om WLAN och öppnar WLAN Direct igen."</string>
+    <string name="devices_not_connected_solution_message">"1. Kontrollera att den andra enheten har godkänt anslutningsbegäran.
+2. Kontrollera att de båda enheterna inte har anslutit till andra enheter.
+3. Försök att ansluta igen om det är problem med den andra enheten."</string>
+    <string name="wifi_plus_description_emui">"När WLAN+ aktiveras utvärderas WLAN-anslutningsbarhet för att erbjuda smart nätverksbyte (WLAN-dataanvändning kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN och mobildata (du kan välja standardläge för växling i inställningarna för mobila nätverk) för att ge en smidig användning av internet.
+2. Slår på WLAN när ett känt WLAN-nätverk är inom räckvidden och ansluter till det."</string>
+    <string name="link_plus_live_update_description">När Link+-liveuppdatering är aktiverad uppdaterar telefonen automatiskt kommunikationsparametrarnas data via ditt trådlösa nätverk (WLAN som standard) för att förbättra relevanta Link+-funktioner.</string>
+    <string name="wifi_plus_description_emui2">"När WLAN+ är aktiverat utvärderas WLAN-anslutningsbarheten för att erbjuda smart nätverksbyte (WLAN-dataanvändning kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN och mobildata (du kan välja standardläget för växling i inställningarna för mobilnätverk) för att ge en friktionsfri Internetanvändning.
+2. Slår på WLAN när ett känt WLAN-nätverk är inom räckhåll och ansluter till det.
+3. Utvärderar tillgängliga WLAN-nätverk. Enheten kommer inte att automatiskt ansluta till sparade nätverk utan en Internetanslutning.
+4. För vissa fria WLAN-hotspot erhålls verifieringskoden från det inkommande SMS-meddelandet och användaren loggas in till nätverket via webbläsaren (stöds för närvarande endast i Kina)."</string>
+    <string name="wifi_plus_global_description2">"När WLAN+ är aktiverat utvärderas WLAN-anslutningsbarheten för att erbjuda smart nätverksbyte (WLAN-dataanvändning kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN och mobildata för att ge en friktionsfri Internetanvändning.
+2. Slår på WLAN när ett känt WLAN-nätverk är inom räckhåll och ansluter till det.
+3. Utvärderar tillgängliga WLAN-nätverk. Enheten kommer inte att automatiskt ansluta till sparade nätverk utan en Internetanslutning."</string>
+    <string name="help_message">"1. Din skrivare och telefon är inte anslutna till samma WLAN-nätverk.
+2. Din skrivare stöder inte just den här utskriftstjänsten (bekräfta detta hos tillverkaren).
+3. Tiden har gått ut för sökningen. Prova igen i så fall.
+4. Det är fel på din skrivare. Starta om skrivaren och försök igen."</string>
+    <string name="wifi_cloud_security_check_title">WLAN-säkerhetskontroll</string>
+    <string name="wifi_cloud_security_check_summary">Kontrollera säkerhetsnivån för anslutna WLAN-nätverk via Telefonhanterare och pausa automatisk anslutning till sparade nätverk som utgör säkerhetsrisker</string>
+    <string name="wifi_plus_description_emui3">"När WLAN+ är aktiverat utvärderas WLAN-anslutningsbarheten för att ge smart nätverksväxling. Optimeringsparametrarna uppdateras automatiskt via WLAN (WLAN-dataanvändning kan öka). WLAN+ automatiskt:
+1. Växlar mellan WLAN och mobildata (du kan välja standardläge för växling i inställningarna för mobila nätverk) för att ge en smidig användning av internet.
+2. Slår på WLAN när ett känt WLAN-nätverk är inom räckvidden och ansluter till det.
+3. Utvärderar tillgängliga WLAN-nätverk. Automatisk anslutning är pausad för sparade nätverk utan internetåtkomst.
+4. Verifieringskoden från det inkommande SMS-verifieringsmeddelandet upptäcks och läses för vissa fria WLAN-hotspot och användaren loggas automatiskt in till nätverket via webbläsaren (stöds för närvarande endast i Kina)."</string>
+    <string name="user_add_user_message">"Du kan dela den här enheten med andra genom att skapa fler användare. Varje användare har sitt eget utrymme som de kan anpassa med bland annat appar och bakgrundsbilder. Användare kan även ändra enhetsinställningar som WLAN som påverkar alla.
+
+När du lägger till en ny användare behöver den personen konfigurera sitt utrymme.
+
+Alla användare kan uppdatera apparna för alla andra användare."</string>
+    <string name="print_user_warning">Enheten söker efter skrivare i närheten via en WLAN-anslutning när utskriftstjänsten aktiveras. Det orsakar WLAN-trafik.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN-samtal</string>
+    <string name="wifi_calling_dialog_title">Aktivera WLAN-samtal</string>
+    <string name="wifi_calling_dialog_message">Om funktionen är aktiverad kommer du inte att kunna ringa nödsamtal via WLAN. Aktivera?</string>
+    <string name="device_name_settings_summary">När du använder Bluetooth, WLAN Direct och Internetdelning &amp; bärbar hotspot, kommer andra enheter att se det här namnet.</string>
+    <string name="device_name_settings_dialog">Om enhetsnamnet ändras kopplas den nuvarande anslutningen till WLAN-hotspot ifrån. Ändra det?</string>
+    <string name="write_wifi_nfc_tag">Skriv till NFC-tagg via WLAN</string>
+    <string name="wifi_plus_smart_switch_title">Smart växling mellan WLAN och mobildata</string>
+    <string name="wifi_plus_smart_switch_summary">Utvärdera WLAN-anslutningsbarhet och växla mellan WLAN (kan öka trafiken) och mobildata för att välja den bästa nätverksanslutningen. Standardväxlingsläge ställs in i inställningarna för mobilt nätverk</string>
+    <string name="wifi_plus_smart_switch_summary_global">Utvärdera WLAN-anslutningsbarhet och växla mellan WLAN (kan öka trafiken) och mobildata för att välja den bästa nätverksanslutningen</string>
+    <string name="wifi_plus_auto_turn_title">Slå på/stäng av WLAN automatiskt</string>
+    <string name="wifi_plus_auto_turn_summary">Slå på WLAN när ett känt WLAN-nätverk är inom räckvidd och anslut till det</string>
+    <string name="wifi_plus_quality_evaluation_title">Utvärdera tillgängliga WLAN-nätverk</string>
+    <string name="wifi_plus_quality_evaluation_summary">Utvärdera tillgängliga WLAN-nätverk. Automatisk anslutning är pausad för sparade nätverk utan Internetåtkomst</string>
+    <string name="wifi_plus_fast_connect_title">Optimera inloggning för fria WLAN-hotspots</string>
+    <string name="wifi_plus_fast_connect_summary">Verifieringskoden från det inkommande SMS-verifieringsmeddelandet upptäcks och läses för vissa fria WLAN-hotspots och användaren loggas automatiskt in till nätverket via webbläsaren (stöds för närvarande endast på Kinas fastland)</string>
+    <string name="link_plus_live_update_description_EMUI_5">När Link+-liveuppdatering är aktiverad uppdaterar telefonen automatiskt kommunikationsparametrarnas data via ditt trådlösa nätverk (WLAN som standard) för att förbättra relevanta kommunikationsfunktioner.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Mobildata</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">Använd GPS och WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">Använd WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN-bryggan förbättrar avsevärt WLAN-signalernas överföringsavstånd och intensitet. Andra enheter kan ansluta till ditt befintliga WLAN-nätverk via din enhet.
+2. WLAN-bryggan har stöd för åtkomst till upp till 4 enheter.
+3. WLAN-bryggan fungerar inte med funktionerna WLAN-hotspot och WLAN Direct. Om WLAN-bryggan är aktiverad kan det hända att vissa appar som använder P2P-tjänster inte fungerar som de ska.
+4. Användningen av WLAN-bryggan förbrukar batteriet snabbare.
+5. Om du får ett meddelande som informerar dig att WLAN-resurser används av en annan tjänst, gå till Inställningar > WLAN > WLAN Direct och koppla ifrån alla anslutna enheter. Eller så kan du slå av och på WLAN igen för att automatiskt koppla ifrån alla enheter."</string>
+    <string name="wifi_qrcode_share_notice_new">Skanna för att ansluta till detta WLAN-nätverk</string>
+    <string name="location_help_scheme_body_one">"1. Kontrollera att Kom åt min plats är aktiverat.
+2. Välj Använd GPS, WLAN och mobilt nätverk i Platsläge.
+3. Anslut till en WLAN-hotspot eller aktivera mobildata.
+4. Kontrollera om den app du använder har åtkomst till platsbehörigheten i Telefonhanterare > Behörighetshanterare > Åtkomst till platsinfo.
+5. Om du har ställt in platsläget på Använd endast GPS, kontrollerar du att du använder platsåtkomst i en öppen miljö utan hinder där GPS-signaler kan tas emot normalt.
+6. Om du är ansluten till en offentlig hotspot, provar du med att stänga av WLAN och aktivera mobildata. Prova sedan platsåtkomst igen."</string>
+    <string name="location_help_scheme_body_two">"1. Välj Använd GPS, WLAN och mobilt nätverk i platsläge för mer exakt platsåtkomst.
+2. Om du använder ett metallfodral på enheten, tar du bort fodralet eller använder ett fodral som inte är av metall och försöker igen.
+3. Kontrollera om den app du använder har åtkomst till platsbehörigheten i Telefonhanterare > Behörighetshanterare > Åtkomst till platsinfo.
+4. Navigering fungerar bättre i öppna områden utan hinder. Placera telefonen i en position nära fordonets vindruta, till exempel på instrumentbrädan eller något annat ställe i bilen utan hinder."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN-bryggan förbättrar avsevärt WLAN-signalernas överföringsavstånd och intensitet. Andra enheter kan ansluta till ditt befintliga WLAN-nätverk via din enhet.
+ %2$d. WLAN-bryggan har stöd för åtkomst till upp till %6$d enheter.
+ %3$d. WLAN-bryggan fungerar inte med funktionerna WLAN-surfzon och WLAN Direct. Om WLAN-bryggan är aktiverad kan det hända att vissa appar som använder P2P-tjänster inte fungerar som de ska.
+ %4$d. Användningen av WLAN-bryggan förbrukar batteriet snabbare.
+ %5$d. Om du får ett meddelande som informerar dig att WLAN-resurser används av en annan tjänst, gå till Inställningar > WLAN > WLAN Direct och koppla ifrån alla anslutna enheter. Eller så kan du slå av och på WLAN igen för att automatiskt koppla ifrån alla enheter."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Du kan använda en enhet med bärbar WLAN-hotspot som din Internetåtkomstpunkt. Periferienheter kan anslutas till din enhet via WLAN och anslutna enheter har åtkomst till Internet via det mobila nätverket.
+%2$d. För att använda en bärbar WLAN-hotspot måste mobildata vara på och viss datatrafik förbrukas.
+%3$d. Användning av en bärbar WLAN-hotspot kan tömma batteriet snabbare."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Manuell anslutning:
+%2$d. Aktivera WLAN på målenheten och sök efter hotspot %1$s.
+%3$d. Anslut till hotspot."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Kontrollera att Kom åt min plats är aktiverat.
+ %2$d. Välj Använd GPS, WLAN och mobilt nätverk i Platsläge.
+ %3$d. Anslut till en WLAN-surfzon eller aktivera mobildata.
+ %4$d. Kontrollera om den app du använder har åtkomst till platsbehörigheten i Telefonhanterare > Behörighetshanterare > Åtkomst till platsinfo.
+ %5$d. Om du har ställt in platsläget på Använd endast GPS, kontrollerar du att du använder platsåtkomst i en öppen miljö utan hinder där GPS-signaler kan tas emot normalt.
+ %6$d. Om du är ansluten till en offentlig surfzon, provar du med att stänga av WLAN och aktivera mobildata. Prova sedan platsåtkomst igen."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Välj Använd GPS, WLAN och mobilt nätverk i platsläge för mer exakt platsåtkomst.
+%2$d. Om du använder ett metallfodral på enheten, tar du bort fodralet eller använder ett fodral som inte är av metall och försöker igen.
+%3$d. Kontrollera om den app du använder har åtkomst till platsbehörigheten i Telefonhanterare > Behörighetshanterare > Åtkomst till platsinfo.
+%4$d. Navigering fungerar bättre i öppna områden utan hinder. Placera telefonen i en position nära fordonets vindruta, till exempel på instrumentbrädan eller något annat ställe i bilen utan hinder."</string>
+    <string name="turn_off_data_saver_message">Användning av en portabel surfzon kräver avaktivering av datasparare. Avaktivera?</string>
+    <string name="first_wlan_hotspot_text">Med WLAN-hotspot kan du dela nätverksanslutning med andra, men batteriet kan ta slut snabbare och avgifterna för dataanvändning kan öka.</string>
+    <string name="hotspot_power_notification_title">WLAN-hotspot inaktiverad</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN-hotspot inaktiverad</string>
+    <string name="toast_entitle_wifi_need_close">Det går inte att använda denna funktion när WLAN är aktiverat. Inaktivera WLAN först.</string>
+    <string name="wifi_activated_warning_Title">WLAN har aktiverats</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Mobil hotspot och WLAN kan inte vara på samtidigt. Vill du stänga av WLAN?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN måste stängas av nu. Det kommer automatiskt att aktiveras igen när telefonen har kommunicerat med AT&amp;T:s servrar.</string>
+    <string name="broadcast_ssid_is_show_dialog">Om du stänger av alternativet för att sända nätverksnamn (SSID), är din telefon inte synlig för andra enheter och visas inte i listan över tillgängliga WLAN-nätverk. Andra enheter kan fortfarande ansluta till din hotspot genom att ange ditt nätverksnamn manuellt.</string>
+    <string name="enable">Automatisk anslutning till AT&amp;T WLAN har aktiverats</string>
+    <string name="disable">Automatisk anslutning till AT&amp;T WLAN har inaktiverats</string>
+    <string name="auto_connect_wifi_suggestion">Starta om WLAN för att aktivera inställningarna för automatisk anslutning.</string>
+    <string name="wifi_network_detect_summary">Kontrollera att Internet är tillgängligt vid anslutning till en WLAN-hotspot</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN har inaktiverats av enhetens administratör</string>
+    <string name="wifi_required_info_text">Åtkomst till ett WLAN-nätverk krävs av pekdatorn för att slutföra konfigurationen. Efter konfigurationen kan du växla mellan mobila data och WLAN.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN-frekvensband</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s hanterar enheten och tillåter inte att du ändrar eller tar bort det här WLAN-nätverket. Kontakta administratören för mer information.</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/dividing_line_to_bottom" android:layout_alignParentBottom="true" style="@style/divider_line" />
+    <ImageView android:id="@+id/image" android:layout_width="UNKNOWN_DATA_0x7f0a0048" android:layout_height="UNKNOWN_DATA_0x7f0a0049" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginStart="@dimen/list_item_padding_start_end_emui" android:layout_alignParentStart="true" />
+    <include android:id="@+id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_item_padding_start_end_emui" android:layout_alignParentEnd="true" layout="@layout/preference_widget_arrow" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010432" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="@dimen/list_item_detail_start_padding" android:paddingEnd="8dp" android:layout_toStartOf="@+id/arrow" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/detail" android:layout_toEndOf="@+id/image" layout="0x2070011" />
+</RelativeLayout>

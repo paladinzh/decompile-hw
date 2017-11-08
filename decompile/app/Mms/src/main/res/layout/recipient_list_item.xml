@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.RecipientListItem xmlns:android="http://schemas.android.com/apk/res/com.android.mms" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:minHeight="56dp" mms:itemType="10">
+    <RelativeLayout mms:id="@+id/recipient_list_item" mms:layout_width="match_parent" mms:layout_height="match_parent" mms:minHeight="56dp">
+        <LinearLayout mms:gravity="top|bottom|center_vertical|fill_vertical|center|fill" mms:orientation="vertical" mms:paddingTop="9dp" mms:paddingBottom="9dp" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:minHeight="56dp" mms:layout_centerVertical="true" mms:paddingEnd="16dp">
+            <TextView mms:textSize="@dimen/mms_search_list_title_text_size" mms:textColor="@drawable/text_color_black" mms:ellipsize="marquee" mms:id="@+id/name" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" mms:fontFamily="HwChinese-medium" />
+            <TextView mms:textSize="@dimen/mms_search_list_sub_text_size" mms:textColor="@color/text_color_black_sub_1" mms:ellipsize="marquee" mms:id="@+id/number" mms:layout_width="wrap_content" mms:layout_height="wrap_content" mms:singleLine="true" />
+        </LinearLayout>
+        <ImageView mms:background="@drawable/conversation_item_divider" mms:layout_width="match_parent" mms:layout_height="wrap_content" mms:layout_alignParentBottom="true" mms:layout_marginEnd="16dp" />
+    </RelativeLayout>
+</com.android.mms.ui.RecipientListItem>

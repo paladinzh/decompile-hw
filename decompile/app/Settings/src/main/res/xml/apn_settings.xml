@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/apn_settings" android:key="apn_list"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/apn_general_title" android:key="category_apn_general" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/apn_mms_title" android:key="category_apn_mms" />
+</PreferenceScreen>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/lazy_mode_header" android:layout="@layout/profile_lazy_mode_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@+id/voicemail_status" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/call_log_voicemail_status" />
+    </FrameLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/loadingcontacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/contact_nocall_icon_top_margin">
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:indeterminateOnly="true" />
+        <TextView android:textSize="13sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_list_loading" />
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/call_log_list" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.contacts.widget.SuspentionScroller android:id="@+id/suspention_scroller" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.android.contacts.widget.CallLogListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d017f" android:cacheColorHint="0x106000d" android:divider="0x0" android:importantForAccessibility="no" />
+        </com.android.contacts.widget.SuspentionScroller>
+        <ViewStub android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/contact_empty_view_stub" android:visibility="gone" android:layout="@layout/call_log_empty_view_stub" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

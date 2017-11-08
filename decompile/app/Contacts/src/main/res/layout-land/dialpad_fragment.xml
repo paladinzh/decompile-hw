@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:id="@+id/dialpad_fragment_content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+        <RelativeLayout android:id="@+id/frg_content" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <include android:id="@+id/btn_status_group_parent" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d02bc" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dailpad_tab_layout_margin_top_bottom_height" android:layout_marginBottom="@dimen/dailpad_tab_layout_margin_top_bottom_height" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/dailpad_tab_layout_margin_left_right_height" android:layout_marginEnd="@dimen/dailpad_tab_layout_margin_left_right_height" layout="@layout/contacts_radio_button_group" />
+            <ViewStub android:id="@+id/calllog_fragment_container" android:layout="@layout/calllog_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/btn_status_group_parent" />
+            <ListView android:id="@+id/dialer_option_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="0x0" android:layout_below="@+id/btn_status_group_parent" android:layout_alignParentTop="true" />
+            <ViewStub android:id="@+id/list_container_stub" android:layout="@layout/dialpad_fragment_list_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03b1" android:layout_below="@+id/btn_status_group_parent" />
+            <ViewStub android:id="@+id/stub_menu_view" android:layout="@layout/dialpad_splitactionbar_viewstub" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <View android:id="@+id/vertical_divider" android:background="@drawable/line_vertical" android:layout_width="UNKNOWN_DATA_0x7f0d01ec" android:layout_height="match_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/dialer_container" android:background="@drawable/contact_dialpad" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" android:layoutDirection="locale"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/dialpad_huawei_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="@dimen/diapad_land_margin_top" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/layout_additional_button_with_ip_call" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/dialpad_additional_buttions_ip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/split_mask_overlay" android:background="@color/split_transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" /> />

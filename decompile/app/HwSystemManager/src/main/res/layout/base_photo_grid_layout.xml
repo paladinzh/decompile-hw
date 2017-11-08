@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/linearlayout_photo_base" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/photo_tips_base" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_view_tips_style_normal" />
+        <View android:background="@color/divider_line_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a001c" />
+    </LinearLayout>
+    <com.huawei.systemmanager.spacecleanner.view.GridViewWithHeaderAndFooter android:id="@+id/grid_view" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:numColumns="UNKNOWN_DATA_0x7f0d000c" android:layout_below="@+id/linearlayout_photo_base" />
+    <include android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/common_empty_layout" />
+</RelativeLayout>

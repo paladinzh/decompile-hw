@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/security_encryption"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_text" android:key="description_preference" android:summary="@string/encrypted_call_description" />
+    <SwitchPreference android:persistent="false" android:title="@string/security_encryption" android:key="call_encryption_switch" />
+</PreferenceScreen>

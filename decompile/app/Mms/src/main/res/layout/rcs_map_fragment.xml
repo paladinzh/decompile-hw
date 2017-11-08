@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/rcs_map_action_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" layout="@layout/mms_actionbar_edit_view" />
+    <SearchView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/searchview" android:paddingLeft="10dp" android:focusable="false" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" android:singleLine="true" android:iconifiedByDefault="false" android:queryHint="@string/rcs_location_search" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <com.amap.api.maps.TextureMapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@+id/my_location_container" android:background="0x106000d" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginBottom="8dp" android:layout_above="@+id/map" android:layout_alignParentBottom="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true">
+            <ImageButton android:id="@+id/rcs_my_location" android:background="@drawable/rcs_map_current_location_selector" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" android:contentDescription="0x0" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/receive_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <ImageView android:id="@+id/receive_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sms_location_checked" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <Button android:textSize="15sp" android:id="@+id/receive_navi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_map_navi" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="?unknown_attr_ref: 2010016" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/receive_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/receive_navi" android:layout_toEndOf="@+id/receive_image">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="15sp" android:textColor="#000000" android:id="@+id/receive_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13sp" android:textColor="#007dff" android:id="@+id/receive_sub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/request_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/rcs_map_headerview" />
+            <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/nearby_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="32dp">
+                <TextView android:textSize="@dimen/mms_conversationlist_sub_text_size" android:textColor="@color/text_color_black_sub3" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="32dp" android:text="@string/rcs_location_nearby" android:textAllCaps="true" android:fontFamily="HwChinese-medium" android:paddingStart="16dp" style="?unknown_attr_ref: 1010208" />
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/nearby_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <ProgressBar android:id="@+id/nearby_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_centerInParent="true" />
+                <com.huawei.rcs.utils.map.impl.RcsMapListView android:id="@+id/nearby_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="0x0" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

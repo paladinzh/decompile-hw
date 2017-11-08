@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/favorite_group_contact_tile_list" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/lazy_mode_header" android:layout="@layout/profile_lazy_mode_header" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@+id/contact_favorites_content_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.android.contacts.hap.widget.PullRefreshListView android:id="@+id/contact_tile_list" android:paddingTop="@dimen/contact_tile_list_padding_top" android:fadingEdge="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" android:cacheColorHint="0x106000d" android:divider="0x0" />
+        </FrameLayout>
+        <com.android.contacts.hap.widget.SplitActionBarView android:id="@+id/menu_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@+id/no_favorites_layout_container" android:layout="@layout/no_favorites_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

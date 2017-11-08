@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lb:id="@id/details_root" lb:paddingBottom="@dimen/lb_details_overview_margin_bottom" lb:focusable="true" lb:focusableInTouchMode="true" lb:clipToPadding="false" lb:descendantFocusability="afterDescendants" lb:layout_width="match_parent" lb:layout_height="wrap_content"
+    <FrameLayout lb:id="@id/details_frame" lb:background="?attr/defaultBrandColor" lb:clipToPadding="false" lb:layout_width="match_parent" lb:layout_height="UNKNOWN_DATA_0x7f0e00c8" lb:layout_marginTop="@dimen/lb_details_v2_blank_height" lb:elevation="@dimen/lb_details_overview_z">
+        <LinearLayout lb:orientation="vertical" lb:layout_width="match_parent" lb:layout_height="match_parent"
+            <LinearLayout lb:orientation="vertical" lb:id="@id/details_overview_actions_background" lb:background="?attr/defaultBrandColorDark" lb:layout_width="match_parent" lb:layout_height="wrap_content">
+                <android.support.v17.leanback.widget.HorizontalGridView lb:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lb:id="@id/details_overview_actions" lb:focusable="true" lb:focusableInTouchMode="true" lb:clipToPadding="false" lb:layout_width="match_parent" lb:layout_height="UNKNOWN_DATA_0x7f0e00cb" lb:paddingStart="@dimen/lb_details_v2_description_margin_start" lb:paddingEnd="@dimen/lb_details_v2_description_margin_end" lb:horizontalMargin="@dimen/lb_details_overview_action_items_margin" lb:rowHeight="@dimen/lb_details_v2_actions_height" />
+            </LinearLayout>
+            <android.support.v17.leanback.widget.NonOverlappingFrameLayout lb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lb:id="@id/details_overview_description" lb:paddingTop="@dimen/lb_details_v2_description_margin_top" lb:focusable="true" lb:focusableInTouchMode="true" lb:clipChildren="false" lb:clipToPadding="false" lb:descendantFocusability="afterDescendants" lb:layout_width="match_parent" lb:layout_height="wrap_content" lb:paddingStart="@dimen/lb_details_v2_description_margin_start" lb:paddingEnd="@dimen/lb_details_v2_description_margin_end" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

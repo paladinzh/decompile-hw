@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/cover_weather_enable_settings_title" android:key="smart_cover_weather_switch" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/cover_cover_background_settings_title" android:key="smart_cover_background_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.smartcover.SmartCoverBackgroundActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/cover_standby_settings_title" android:key="smart_cover_standby_settings" android:summary="@string/cover_standby_settings_summary" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.smartcover.SmartCoverStandByActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/cover_animation_title" android:key="smart_cover_animation_mode_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.smartcover.SmartCoverAnimationModeActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/notification_and_status_bar_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/notification_management_title" android:key="notification_manager" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="huawei.intent.action.NOTIFICATIONMANAGER" />
+    </PreferenceScreen>
+    <com.android.settings.CustomSwitchPreference android:title="@string/wakeup_when_receive_notification_title" android:key="wakeup_when_receive_notification" android:summary="@string/wakeup_when_receive_notification_summary" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/pulse_notification_light_title" android:key="notification_pulse" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/notification_panel_category" android:key="notification_panel_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/usage_display_title" android:key="usage_display" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/status_bar_category" android:key="status_bar_category">
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/show_operator_name_title" android:key="show_operator_name" android:summary="@string/show_operator_name_summary" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_display_notification_way_title_emui" android:layout="@layout/preference_status" android:title="@string/notification_way_title" android:key="notification_way" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/values_display_notification_way_title" />
+        <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/eu3_su_lf_displaysettings_displaynetworkspeed" android:key="show_network_speed" />
+        <ListPreference android:persistent="false" android:entries="@array/entries_display_battery_percentage_EMUI_5" android:layout="@layout/preference_status" android:title="@string/battery_percentage_display_ways" android:key="ways_display_battery_percentage" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/values_display_location_EMUI_5" />
+    </PreferenceCategory>
+</PreferenceScreen>

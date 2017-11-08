@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/oobe_main_layout" android:background="#ff28c0c6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/oobe_title_layout" android:background="@color/user_experience_background_color" android:layout_width="fill_parent" android:layout_height="250.0dip">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/color_yalan" android:gravity="center" android:id="@id/top_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/invitation_title" android:layout_below="@id/home_page" android:layout_marginStart="55.0dip" android:layout_marginEnd="55.0dip" />
+        <ImageView android:id="@id/home_page" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/userexperience_emui_logo" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:background="@color/user_experience_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/oobe_title_layout">
+        <LinearLayout android:orientation="vertical" android:id="@id/lay_join" android:background="@color/user_experience_background_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/help_text_margin_start" android:layout_marginEnd="@dimen/help_text_margin_end">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:layout_gravity="center" android:id="@id/user_improve" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/user_exp_improve" android:layout_marginEnd="2.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:layout_gravity="center" android:id="@id/user_experience_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/user_experience_plan_explanation" android:fontFamily="chnfzxh" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/lay_join" android:paddingStart="@dimen/help_text_margin_start" android:paddingEnd="@dimen/help_text_margin_end">
+            <CheckBox android:gravity="center" android:id="@id/agree_policy_checkbox" android:layout_width="32.0dip" android:layout_height="32.0dip" android:checked="true" android:layout_marginStart="0.0dip" />
+            <TextView android:textSize="13.0sp" android:gravity="center_vertical" android:id="@id/agree_policy_txtView" android:layout_width="fill_parent" android:layout_height="32.0dip" android:text="@string/user_experience_plan_choice" android:layout_alignBottom="@id/agree_policy_checkbox" android:fontFamily="chnfzxh" android:layout_marginStart="32.0dip" android:layout_alignParentEnd="true" style="@style/EmuiPrimaryTextFontStyle" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

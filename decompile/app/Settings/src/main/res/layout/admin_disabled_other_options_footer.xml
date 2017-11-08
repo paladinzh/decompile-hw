@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/admin_disabled_other_options" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:dialogPreferredPadding" android:paddingEnd="?android:dialogPreferredPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/admin_disabled_other_options" />
+    <TextView android:textColor="?android:colorAccent" android:id="@id/admin_more_details_link" android:background="?android:selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/admin_more_details" />
+</LinearLayout>

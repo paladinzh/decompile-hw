@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/playback_state_text" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/voicemail_playback_media" />
+    <TextView android:textSize="13sp" android:id="@+id/playback_translate_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:paddingTop="@dimen/voicemail_playback_button_layout_paddingTop" android:paddingBottom="@dimen/voicemail_playback_button_layout_paddingBottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/playback_start_stop" android:src="@drawable/ic_contacts_play_voicemail" android:contentDescription="@string/notification_action_voicemail_play" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+        <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/playback_speakerphone" android:src="@drawable/ic_contacts_earpiece" android:contentDescription="@string/content_description_earpiece" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+        <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/msg" android:src="@drawable/voicemail_send_message" android:contentDescription="@string/notification_missedCall_message" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+        <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/call" android:src="@drawable/voicemail_ic_phone" android:contentDescription="@string/call_other" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+        <Space android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/delete_voicemail" android:src="@drawable/ic_trash_normal" android:contentDescription="@string/menu_deleteContact" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+        <Space android:id="@+id/translate_space" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+        <ImageView android:id="@+id/translate" android:visibility="gone" android:src="@drawable/ic_contacts_switch_voicemail" android:contentDescription="@string/content_description_translate" style="@style/VoicemailPlaybackLayoutButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

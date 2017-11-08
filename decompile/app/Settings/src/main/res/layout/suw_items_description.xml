@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/suw_description_margin_top" android:paddingBottom="@dimen/suw_description_margin_bottom_lists" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuwItemContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/suw_items_icon_container" android:layout_width="@dimen/suw_items_icon_container_width" android:layout_height="wrap_content">
+        <ImageView android:id="@id/suw_items_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.SuwDescription" android:gravity="start" android:id="@id/suw_items_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/suw_description_line_spacing_extra" android:textAlignment="viewStart" style="@style/SuwItemTitle" />
+        <TextView android:gravity="start" android:id="@id/suw_items_summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/SuwItemSummary" />
+    </LinearLayout>
+</LinearLayout>

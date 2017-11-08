@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="default_apps"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:title="@string/assist_and_voice_input_title" android:key="assist_and_voice_input" android:fragment="com.android.settings.applications.ManageAssist" />
+    <com.android.settings.applications.DefaultBrowserPreference android:title="@string/default_browser_title" android:key="default_browser" android:summary="@string/default_browser_title_none" />
+    <com.android.settings.applications.DefaultPhonePreference android:title="@string/default_phone_title" android:key="default_phone_app" settings:keywords="@string/keywords_default_phone_app" />
+    <com.android.settings.applications.DefaultEmergencyPreference android:title="@string/default_emergency_app" android:key="default_emergency_app" settings:keywords="@string/keywords_emergency_app" />
+    <com.android.settings.applications.DefaultSmsPreference android:title="@string/sms_application_title" android:key="default_sms_app" settings:keywords="@string/keywords_more_default_sms_app" />
+</PreferenceScreen>

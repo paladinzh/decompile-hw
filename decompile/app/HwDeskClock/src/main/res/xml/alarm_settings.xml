@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <PreferenceCategory androidhwext:title="@string/setting_alarm" androidhwext:key="alarm" androidhwext:preferenceID="@id/preferece_setting_alarm">
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/alarm_in_silent_mode_title" androidhwext:key="alarm_in_slient_mode" androidhwext:summary="@string/alarm_in_silent_mode_summary" androidhwext:preferenceID="@id/switch_alarm_in_slient_mode" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line" />
+        <Preference androidhwext:persistent="false" androidhwext:title="@string/bell_length_setting_title" androidhwext:key="ring_duration" androidhwext:summary="@string/bell_length_setting_title" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@id/preference_ring_duration" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line_two" />
+        <Preference androidhwext:persistent="false" androidhwext:title="@string/duration_dialog_title" androidhwext:key="snooze_duration_settings" androidhwext:summary="@string/duration_dialog_title" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@id/preference_snooze_duration_settings" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line_three" />
+        <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/volume_btn_fuc_tittle" androidhwext:key="vloume_buttons" androidhwext:detail="@string/silent_alarm_summary" androidhwext:netherSummary="@string/volume_btn_fuc_context" androidhwext:preferenceID="@id/textarrow_vloume_buttons" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/setting_worldclock" androidhwext:key="world_clock" androidhwext:preferenceID="@id/category_world_clock">
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/automatic_home_clock" androidhwext:key="display_home_clock" androidhwext:summary="@string/automatic_home_clock_summary" androidhwext:preferenceID="@id/switch_display_home_clock" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line_four" />
+        <Preference androidhwext:persistent="false" androidhwext:title="@string/home_time_zone_title" androidhwext:key="home_time_zone" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@id/preference_home_time_zone" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line_five" />
+        <Preference androidhwext:persistent="false" androidhwext:title="@string/date_time_title" androidhwext:key="date_time" androidhwext:summary="@string/date_time_summary" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@id/preference_date_time" />
+        <com.android.alarmclock.DividerLinePreference androidhwext:persistent="false" androidhwext:layout="@layout/divider_line" androidhwext:key="divider_line_preference" androidhwext:preferenceID="@id/preference_divider_line_six" />
+        <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/clock_style" androidhwext:key="clock_stylep" androidhwext:detail="@string/digital_clock" androidhwext:netherSummary="@string/select_clock_style" androidhwext:preferenceID="@id/textarrow_clock_stylep" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/setting_timer" androidhwext:key="TIMER" androidhwext:preferenceID="@id/preference_timer">
+        <TextArrowPreference androidhwext:persistent="false" androidhwext:title="@string/List_alarm_setalarm" androidhwext:key="ringtone" androidhwext:detail=" " androidhwext:netherSummary="@string/select_ringtone_of_timer" androidhwext:preferenceID="@id/textarrow_ringtone" />
+    </PreferenceCategory>
+</PreferenceScreen>

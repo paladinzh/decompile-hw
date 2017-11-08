@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/main_tab_grid_verticalSpacing" android:layout_width="@dimen/main_grid_item_flw" android:layout_height="@dimen/main_grid_item_image"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.smartcover.BackgroundImage android:id="@id/local_grid_item" android:background="@drawable/abc_btn_radio_to_on_mtrl_000_APKTOOL_DUPLICATENAME_0x7f020090" android:layout_width="@dimen/main_grid_item_flw" android:layout_height="@dimen/main_grid_item_image" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/cover_bg_font_size" android:textColor="@color/white" android:gravity="center" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cover_background_none" android:layout_centerInParent="true" />
+</RelativeLayout>

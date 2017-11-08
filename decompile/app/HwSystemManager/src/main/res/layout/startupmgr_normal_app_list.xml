@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/startup_app_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/startupmgr_main_app_loading" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/startupmgr_loading_progress_layout" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/startupmgr_awaked_jump_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/startupmgr_awaked_jump_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginEnd="@dimen/emui_space_horizontal" android:layout_alignParentEnd="true" />
+                <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/startupmgr_awaked_jump_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="@string/startupmgr_awaked_jump_tip_new" android:layout_centerVertical="true" android:layout_marginStart="@dimen/emui_space_horizontal" android:layout_marginEnd="@dimen/emui_space_horizontal" android:layout_toStartOf="@+id/startupmgr_awaked_jump_img" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <View android:id="@+id/startupmgr_awaked_jump_layout_divider" style="@style/divider_line" />
+            <RelativeLayout android:id="@+id/startupmgr_normal_record_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/startupmgr_normal_record_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginEnd="@dimen/startupmgr_normal_record_margin" android:layout_alignParentEnd="true" />
+                <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/startupmgr_normal_record_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="@string/startupmgr_normal_record_title" android:layout_centerVertical="true" android:layout_marginStart="@dimen/startupmgr_normal_record_margin" android:layout_marginEnd="@dimen/emui_space_horizontal" android:layout_toStartOf="@+id/startupmgr_normal_record_img" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <View android:id="@+id/startupmgr_normal_record_layout_divider" style="@style/divider_line" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/autostart_allowed_count_tip" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/startupmgr_list_tip_style" />
+            </LinearLayout>
+            <View style="@style/divider_line" />
+            <include android:id="@+id/all_op_switch_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/common_list_item_singleline_switch" />
+            <View style="@style/divider_line" />
+            <GridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/startupmgr_main_grid_view" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchMode="columnWidth" android:numColumns="UNKNOWN_DATA_0x1" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/no_startup_app_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/no_startup_app_icon" android:background="@drawable/ic_no_apps" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/main_screen_detect_item_bootup_safe" android:layout_below="@+id/no_startup_app_icon" android:layout_centerHorizontal="true" android:layout_marginStart="28dp" android:layout_marginEnd="28dp" />
+    </RelativeLayout>
+</RelativeLayout>

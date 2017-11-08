@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/cover_animation_title" android:key="smart_cover_animation_switch" />
+    <PreferenceCategory android:title="@string/cover_animation_mode_title" />
+    <PreferenceScreen android:key="smart_cover_animation_mode_preference" />
+    <PreferenceScreen android:title="@string/cover_animation_mode_text_set" android:key="animation_standby_text_mode_settings" />
+</PreferenceScreen>

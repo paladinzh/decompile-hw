@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xbe01"
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xbe01">
+        <com.android.deskclock.timer.TimerPanel android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/timer_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.android.deskclock.timer.WhellPicker android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/timer_whell_picker" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <com.android.deskclock.timer.PickedTime android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/timer_picked_time" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <include android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/timer_unit" android:layout_width="UNKNOWN_DATA_0xf001" android:layout_height="UNKNOWN_DATA_0x7f0a008b" layout="@layout/timer_unit" />
+</FrameLayout>

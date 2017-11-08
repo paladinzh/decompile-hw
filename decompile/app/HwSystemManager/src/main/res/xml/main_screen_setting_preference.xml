@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="settings">
+    <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/main_screen_entry_open_intelligent_title" androidhwext:key="cloud_switch" androidhwext:summary="@string/main_screen_entry_open_intelligent_summary" androidhwext:preferenceID="@+id/prefs_main_screen_entry_open_intelligent_summary" />
+    <TextArrowPreference androidhwext:title="@string/shortcut_title" androidhwext:key="shortcut" androidhwext:preferenceID="@+id/prefs_shortcut_title" />
+    <TextArrowPreference androidhwext:title="@string/main_screen_entry_feedback" androidhwext:key="feedback" androidhwext:preferenceID="@+id/prefs_main_screen_entry_feedback" />
+    <TextArrowPreference androidhwext:title="@string/setting_about" androidhwext:key="about" androidhwext:preferenceID="@+id/prefs_setting_about" />
+</PreferenceScreen>

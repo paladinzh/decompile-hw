@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTS2014030706697 wangjue/00103796 20140307 create -->
+<!-- DTS2014091108330 xiongshiyi/x00165767 20140911 modified -->
+<!-- DTS2014111809120 yubinke 00159260 20141118 modify -->
+<!-- DTS2015010504906 pengshaohua/00190360 20140106 modify-->
+<MonitorScenarios>
+    <!-- Scenario name: common; permission; notification; bootstart; netmanager; dropzone
+    If matching secnario is not configured, using 'common' as default. -->
+    <!-- Rule name must be the same as the class name in code, or it can't be find -->
+    <!-- post value: continue; allow; monitor -->
+    <!-- Here the Rule name must be the same as it in grule_all_concrete_rules.xml -->
+    <!-- Any field parse failed, the single rule will be ignored -->
+    <!-- Add an AlwaysMatchRule to make sure the code would not throw an exception -->
+    <Scenario name="common">
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <Scenario name="permission">
+        <Rule name="PermissionMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="PermissionNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="CloudMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="CloudAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="SystemUIDRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <Scenario name="bootstart">
+        <Rule name="BootstartMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="BootstartNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="CloudMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="CloudAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <Scenario name="notification">
+        <Rule name="NotificationMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="NotificationNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <!--<Rule name="CloudMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="CloudAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />-->
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <!-- DTS2014091108330 guowei/00212954 20160907 begin -->
+    <Scenario name="notification_firststart">
+        <Rule name="ThirdPartyFlagRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="allow" mismatchPost="continue" />
+    </Scenario>
+    <!-- DTS2014091108330 guowei/00212954 20160907 end -->
+    <Scenario name="dropzone">
+        <Rule name="DropzoneMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DropzoneNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="CloudMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="CloudAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <Scenario name="netmanager">
+        <Rule name="NetAccessMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="NetAccessNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="CloudMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="CloudAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="DefaultMonitorListRule" matchPost="monitor" mismatchPost="continue" />
+        <Rule name="DefaultAllowListRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="UnRemovableAppRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <!-- DTS2014042601449 wangjue/00103796 20140428 begin -->
+    <Scenario name="applock">
+        <Rule name="AppLockNotMonitorListRule" matchPost="allow" mismatchPost="continue" />
+        <!-- DTS2015032603547 wangjue/00302548 20150328 delete this rule
+        <Rule name="DisableKeyGuardRule" matchPost="allow" mismatchPost="continue" />
+        -->
+        <Rule name="HomeCategoryRule" matchPost="allow" mismatchPost="continue" />
+        <Rule name="AlwaysMatchRule" matchPost="monitor" mismatchPost="continue" />
+    </Scenario>
+    <!-- DTS2014042601449 wangjue/00103796 20140428 end -->
+</MonitorScenarios>
+

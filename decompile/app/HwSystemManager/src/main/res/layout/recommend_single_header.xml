@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/recommend_single_header_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/divider_line" />
+    <com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout android:orientation="horizontal" android:id="@+id/trust_app_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="0dp">
+        <Switch android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/trust_single_app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="@dimen/permission_arrow_padding_right" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:id="@+id/textview_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_centerVertical="true" android:paddingStart="16dp" android:layout_toStartOf="@+id/trust_single_app" android:layout_alignParentStart="true">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/single_app_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/appTrustName" style="@style/ListviewItemTextPrimary" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/single_app_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/appTrustDescription" style="@style/ListviewItemTextSecondary" />
+        </LinearLayout>
+    </com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>
+    <include android:id="@+id/boot_startup_view" layout="@layout/recommend_common_header" />
+    <include android:id="@+id/app_awaked_view" layout="@layout/recommend_common_header" />
+    <include android:id="@+id/addview_view" layout="@layout/recommend_common_header" />
+</LinearLayout>

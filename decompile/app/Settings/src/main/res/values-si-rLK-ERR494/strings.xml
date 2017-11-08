@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">WLAN සහායක ඔස්සේ සබැඳිණි</string>
+    <string name="accessibility_wifi_off">WLAN ඕෆ් කර ඇත.</string>
+    <string name="accessibility_no_wifi">WLAN විසන්ධි කෙරිණි.</string>
+    <string name="accessibility_wifi_one_bar">WLAN එක් තීරුවක් ඇත.</string>
+    <string name="accessibility_wifi_two_bars">WLAN තීරු දෙකක් ඇත.</string>
+    <string name="accessibility_wifi_three_bars">WLAN තීරු තුනක් ඇත.</string>
+    <string name="accessibility_wifi_signal_full">WLAN සංඥා පූර්ණයි.</string>
+    <string name="wifi_verbose_logging">විස්තරාත්මක WLAN ලොග් කිරීම සබල කරන්න</string>
+    <string name="wifi_aggressive_handover">ආක්‍රමණික WLAN සිට සෙලියුලර් බාර දීම</string>
+    <string name="wifi_allow_scan_with_traffic">WLAN රෝම් පරිලෝකන වෙතට සැමවිට අවසර දෙන්න</string>
+    <string name="wifi_verbose_logging_summary">WLAN ලොග් මට්ටම වැඩි කරන්න, WLAN තෝරනයෙහි SSID RSSI අනුව පෙන්වන්න</string>
+    <string name="wifi_aggressive_handover_summary">සබල විට WLAN සිග්නලය අඩු විට WLAN දත්ත සම්බන්ධතාවය සෙලියුලර් වෙත භාර දීමට වඩා ආක්‍රමණික වේ</string>
+    <string name="wifi_allow_scan_with_traffic_summary">අතුරු මුහුණතෙහි ඇති දත්ත තදබදය අනුව WLAN රෝම් පරිලෝකන වෙත ඉඩ දෙන්න/නොදෙන්න</string>
+    <string name="mobile_data_always_on_summary">WLAN සක්‍රීයව තිබුනද, සෑම විටම ජංගම දත්ත සක්‍රීයව තබන්න (වේගවත් ජාල අතර මාරු වීම සඳහා)</string>
+    <string name="wifi_automatically_connect_title">"WLAN විවෘත කිරීම ස්වයංව භාවිතා කරන්න "</string>
+    <string name="wifi_automatically_connect_summary">"යහපත් අන්තර්ජාල සම්බන්ධතාවයක් සහිතව ජාල විවෘත කිරීමට WLAN සහායක ස්වයං සම්බන්ධ වීම හට ඉඩ දෙන්න "</string>
+    <string name="wifi_scan_notify_text">"ස්ථාන නිරවද්‍යතාවය වැඩි දියුණු කිරීමට පද්ධති යෙදුම් හා සේවා හට තවමත් WLAN ජාල ස්කෑන් කළ හැකිය. ඔබට මෙය LINK_BEGIN ස්කෑන් සැකසුම්LINK_ENDවෙතින් වෙනස් කළ හැකිය. "</string>
+    <string name="wifi_access_points">WLAN ජාල</string>
+    <string name="wifi_menu_p2p">ඍජු WLAN</string>
+    <string name="wifi_empty_list_wifi_off">ලබා ගත හැකි ජාල බැලීමට WLAN සක්‍රිය කරන්න.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN සඳහා පරිලෝකනය කරමින්…</string>
+    <string name="wifi_skipped_message">"අනතුරු ඇඟවීමයි: ඔබට අමතර වාහක දත්ත ගාස්තු දැරීමට සිදුවිය හැකිය.
+
+දුරකථනය සැකසීමට සුවිශේෂී ජාල ක්‍රියාකාරකමක් අවශ්‍ය විය හැක."</string>
+    <string name="wifi_and_mobile_skipped_message">අවවාදයයි: ඔබගේ මෘදුකාංග යාවත්කාලීනදැයි සනාථ කිරීමට දුරකථනයට නොහැකි වෙනු ඇත.</string>
+    <string name="wifi_advanced_titlebar">උසස් WLAN සැකසුම්</string>
+    <string name="wifi_configure_titlebar">WLAN වින්‍යාස කිරීම</string>
+    <string name="wifi_advanced_not_available">මෙම පරිශීලකයා සඳහා WLAN උසස් සැකසීම් නැත</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_calling_settings_title">WLAN ඇමතුම් සැකසුම්</string>
+    <string name="wifi_calling_suggestion_title">WLAN ඇමතුම ක්‍රියාත්මක කරන්න</string>
+    <string name="wifi_calling_suggestion_summary">ජංගම ජාලය වෙනුවට WLAN භාවිත කරන්න</string>
+    <string name="wifi_calling_mode_title">WLAN ඇමතුම්</string>
+    <string name="wifi_calling_mode_dialog_title">"WLAN ඇමතුම් මාදිලිය "</string>
+    <string name="wifi_calling_off_explanation">WLAN ඇමතීම ක්‍රියාත්මකයි, ඔබේ දුරකථනයට ඔබේ මනාපය සහ සංඥා ප්‍රබලතාව අනුව, WLAN ජාල හරහා හෝ ඔබේ වාහකයේ ජාලය හරහා ඇමතුම් ගමන් කරවිය හැකිය. මෙම විශේෂාංගය ක්‍රියාත්මක කිරීමට පෙර, ගාස්තු සහ අනෙකුත් විස්තර පිළිබඳව ඔබේ වාහකය සමගින් පරීක්ෂා කර බලන්න.</string>
+    <string name="status_wifi_mac_address">Wi‑Fi MAC ලිපිනය</string>
+    <string name="reset_network_desc"><li>WLAN</li>"
+"<li>ජංගම දත්ත</li>"
+"<li>Bluetooth</li>"
+
+ඇතුලත්ව මෙය ජාල සැකසුම් යලි සකසනු ඇත"</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN පරිලෝකනය</string>
+    <string name="location_scanning_wifi_always_scanning_description">ඕනෑම මොහොතක WLAN ජාල හඳුනා ගැනීමට පද්ධති යෙදුම් වලට සහ සේවා වලට ඉඩ දීමෙන් ස්ථානය වැඩි දියුණු කරන්න</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN ධාවනය</string>
+    <string name="battery_desc_wifi">WLAN මඟින් භාවිතා කර ඇති බැටරි ප්‍රමාණය</string>
+    <string name="battery_sugg_wifi">WLAN භාවිතා නොකරන විට හෝ එය ලද නොහැකි විට වසා දමන්න</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">යෙදුම් දත්ත, WLAN මුරපද, සහ වෙනත් සැකසුම් Google සේවාදායක වෙත උපස්ථ කරන්න</string>
+    <string name="backup_erase_dialog_message">ඔබගේ WLAN මුරපද, පිටුසන්, වෙනත් සැකසීම්, සහ යෙදුම් දත්ත උපස්ථ කිරීම නවත්වා, තවත Google සේවාදායක මත ඇති සියලු පිටපත් මකා දමන්නද?</string>
+    <string name="fullbackup_erase_dialog_message">"උපාංග දත්ත හා (WLAN මුරපද හා ඇමතුම් ඉතිහාසය වැනි) යෙදුම් දත්ත (යෙදුම් මගින් ගබඩා කර ඇති සැකසුම් හා ගොනු) උපස්ථ කිරීම නවතා, Google Driveහි ඇති සියළුම පිටපත් මකන්නද? "</string>
+    <string name="fullbackup_data_summary">"දුරස්ථව උපාංග දත්ත (WLAN මුරපද හා ඇමතුම් ඉතිහාසය වැනි) සහ යෙදුම් දත්ත (යෙදුම් මඟින් ගබඩා කරන සැකසීම් සහ ගොනු) ස්වයංක්‍රියව උපස්ථ කරයි.
+
+ඔබ ස්වයංක්‍රියව උපස්ථ කිරීම ක්‍රියාත්මක කළ විට, උපාංග සහ යෙදුම් දත්ත කලින් කලට දුරස්ථව සුරකිනු ලැබේ. සම්බන්ධතා, පණිවුඩ, හා ඡායාරූප වැනි සංවේදී දත්ත ඇතුළුව යෙදුම් දත්ත ඕනෑම එකක් විය හැකි වේ (සංවර්ධක සැකසුම් මත පදනම්ව)."</string>
+    <string name="data_usage_menu_show_wifi">WLAN භාවිතය පෙන්වන්න</string>
+    <string name="data_usage_menu_hide_wifi">WLAN සඟවන්න</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">ජංගම දත්ත ජාලවල පසුබිම් දත්ත අක්‍රිය කරන්න. ලබා ගත හැකි විට ජංගම නොවන ජාල භාවිත වෙයි.</string>
+    <string name="data_usage_app_restrict_dialog">"මෙම අංගය මඟින් පසුබිම් දත්ත මත යැපෙන යෙදුමක් ජංගම ජාල තිබෙන විට පමණක් ක්‍රියා නොකිරීමට හේතු විය හැක.
+
+යෙදුම තුළ ඇති සැකසීම් වලින් ඔබට වඩාත් සුදුසු දත්ත භාවිතා පාලන සොයාගත හැක."</string>
+    <string name="data_usage_restrict_background">ඔබ පසුබිම් දත්ත සිමා කළහොත්, ඔබ WLAN ජාලයකට සම්බන්ධ වී නොමැති නම් සමහර යෙදුම් සහ සේවා ක්‍රියා නොකරයි</string>
+    <string name="data_usage_restrict_background_multiuser">"ඔබ පසුබිම් ජංගම දත්ත සීමා කරයි නම්, සමහර යෙදුම් සහ සේවාවන් ඔබ WLAN ජාලයකට සම්බන්ධ වී නැතොත් ක්‍රියා නොකරනු ඇත.
+
+මෙම සැකසීම දුරකථනයේ සියලු පරිශීලකයින්ට බලපානු ඇත."</string>
+    <string name="data_usage_metered_body">ජංගම හොට්ස්පොට් වන Wi‑Fi ජාල තෝරන්න. යෙදුම් පසුබිමේ සිටින විට මෙම ජාල භාවිතය සිමා කළ හැක. විශාල බාගැනීම් සඳහා යෙදුම් මෙම ජාල භාවිතයේදී ඒ වෙත අනතුරු ඇඟවිය හැක.</string>
+    <string name="data_usage_metered_wifi">WLAN ජාල</string>
+    <string name="user_add_user_message_long">"අමතර පරිශීලකයන් නිර්මාණය කිරීමෙන් වෙනත් පුද්ගලයන් සමග මෙම උපාංගය ඔබට හුවමාරු කර ගත හැක. ඔවුනගේ යෙදුම්, වෝල්පේපරය, සහ තව දේ වෙනස් කිරීමට හැක වෙනම ඉඩක් සෑම පරිශීලකයෙකු සතුවම ඇත. සියල්ලටම බලපාන WLAN ආදී ටැබ්ලට් සැකසීම් පරිශීලකයන්ට සැකසිය හැක
+
+ඔබ නව පරිශීලකයෙකු නිර්මාණය කළ විට, එම පුද්ගලයාට සැකසුම් ක්‍රියාවලියක් හරහා යා යුතු වෙයි
+
+වෙනත් සියලු පරිශීලකයන් වෙනුවෙන් යාවත්කාලීන කළ යෙදුම් අවසර ඕනෑම පරිශීලකයෙකුට පිළිගත හැක."</string>
+    <string name="keywords_wifi">WLAN ජාල සම්බන්ධතාවය</string>
+    <string name="keywords_wifi_calling">WLAN WLAN ඇමතුම ඇමතීම</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC ටැග සකසන්න</string>
+    <string name="condition_hotspot_summary">අතේ ගෙන යා හැකි WLAN හොට්ස්පොට් %1$s සක්‍රියයි. මෙම උපාංගය සඳහා WLAN ක්‍රියාවිරහිත කර ඇත.</string>
+    <string name="condition_airplane_summary">WLAN, බ්ලූටූත්, සහ සෙලියුලර් ජාලය ක්‍රියාවිරහිත කර ඇත. ඔබට දුරකථන ඇමතුම් සිදු කිරීමට හෝ අන්තර්ජාලයට සබැඳීමට නොහැකිය.</string>
+    <string name="condition_cellular_summary">අන්තර්ජාලය WLAN හරහා පමණක් ලබා ගත හැකිය</string>
+    <string name="condition_bg_data_summary">පසුබිම් දත්ත WLAN හරහා පමණක් ලබා ගත හැකිය. WLAN ලබා ගත නොහැකි වූ විට මෙය සමහර යෙදුම් හෝ සේවා කෙරෙහි බලපෑ හැකිය.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN bridge</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN bridge සැකසුම්</string>
+    <string name="wifi_tether_configure_bridge_text">WLAN bridge වින්‍යාසකරණය කරන්න</string>
+    <string name="wifi_bridge_settings_summary">bridge නම, රහස්වචනය හා තවත් දේ සකසන්න</string>
+    <string name="wifi_bridge_use_help_title">උපකාර</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN bridge හට සම්ප්‍රේෂණ පරාසය හා WLAN සංඥා සැලකිය යුතු තරම් වැඩි කළ හැකිය. ඔබගේ උපාංගය හරහා අනෙක් උපාංග ඔබගේ වත්මන් WLAN ජාලය වෙත සම්බන්ධ කළ හැකිය.
+2. WLAN bridge උපාංග 4 ක් දක්වා උපාංග ගණනක් වෙතින් පිවිසීමට සහය දෙනු ලබයි.
+3. WLAN හොට්ස්පොට් හා WLAN Direct විශේෂාංග සමග WLAN bridge ක්‍රියා නොකරයි. WLAN bridge සක්‍රිය කර ඇත්නම් P2P සේවා භාවිතා කරන සමගර යෙදුම් නිසි ලෙස ක්‍රියා නොකරනු ඇත.
+4. WLAN bridge භාවිතය සඳහා බැටරි බලය වේගයෙන් වැය වෙනු ඇත."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN සබඳතාවය අවශ්‍ය වේ</string>
+    <string name="wifi_bridge_switch_wifi_summary">සම්බන්ධිත WLAN ජාලය හුවමාරු කරන්න</string>
+    <string name="huawei_beam_explained">"Huawei Beam ඔබට ඔබේ උපාංගය සහ NFC-හැකියාව ඇති වෙනත් උපාංගයක් අතර, පින්තූර, වීඩියෝ, සබඳතා සහ URLs යනාදී ගොනු මාරු කිරීමට ඉඩ දෙයි. උපාංග දෙක එකිනෙකට ආසන්නව තබා (සාමාන්‍යයෙන් පසුපසට පසුපස) ඔබේ තිරය ස්පර්ශ කිරීමෙන් Huawei Beam සක්‍රිය කෙරේ. ගොනු සම්ප්‍රේෂණයට පෙර ස්වයංක්‍රීයව බ්ලූටූත් හෝ WLAN සක්‍රීය  වෙන බව කරුණාකර සිහිතබා ගන්න."</string>
+    <string name="wifi_display_settings_summary">WLAN සම්බන්ධතාවක් හරහා ඔබේ දුරකථන තිරය හෝ වෙනත් සංදර්ශතයක් පෙන්වන්න</string>
+    <string name="advanced_wifi_settings_title">උසස් සැකසුම්</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam ඔබට ඔබේ උපාංගය සහ NFC-හැකියාව ඇති වෙනත් උපාංගයක් අතර ගොනු මාරු කිරීමට ඉඩ දෙයි. උදාහරණයක් ලෙස, ඔබට NFC-හැකියාව ඇති උපාංග දෙකක් අතර, පින්තූර, වීඩියෝ, සබඳතා සහ URLs, සහ තවත් දේ නොරැහැන්ව මාරු කළ හැකිය. සරලව:
+1. ඔබේ උපාංගයේ ඉදිරිපස පුවරුව වෙනත් NFC උපාංගයකට ඉදිරියෙන් තබා ඔබට නාදයක් ඇසුණ පසුව ඔබේ උපාංගය ගන්න.
+2. නාදය ඇසීමෙන් තත්පර තුනක් ඇතුළත ඔබේ තිරය ස්පර්ශ කරන්න.
+3. මාරු කිරීම සම්පූර්ණ කිරීමට ඔබේ උපාංගයේ ඉදිරිපස පුවරුව වෙනත් NFC උපාංගයකට ඉදිරියෙන් නැවත තබන්න. ගොනු සම්ප්‍රේෂණයට පෙර ස්වයංක්‍රීයව බ්ලූටූත් හෝ WLAN සක්‍රීය  වෙන බව කරුණාකර සිහිතබා ගන්න."</string>
+    <string name="wifiap_use_help_details">"1. ඔබට ඔබේ අන්තර්ජාල ප්‍රවේශ ලක්ෂ්‍යය ලෙස සැහැල්ලු WLAN හොට්ස්පොට් උපාංගයක් භාවිත කළ හැකිය. WLAN හරහා ඔබේ උපාංගයට පර්යන්ත සම්බන්ධ කළ හැකි අතර සම්බන්ධ කළ උපාංග ජංගම ජාලය හරහා අන්තර්ජාලයට ප්‍රවේශ වනු ඇත.
+2. සැහැල්ලු WLAN හොට්ස්පොට් එකක් භාවිත කිරීම සඳහා ඔබේ ජංගම දත්ත සම්බන්ධතාව ක්‍රියාත්මක කර තිබීම අවශ්‍ය වනු ඇති අතර, යම් දත්ත ගමනාගමනයක් පාරිභෝජනය කරනු ඇත.
+3. සැහැල්ලු WLAN හොට්ස්පොට් එකක් භාවිත කිරීම ඔබේ බැටරි ආයු කාලය වඩාත් අවසන් කරනු ඇත."</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">මා China Mobile WLAN ජාලය හා සම්බන්ධ වූ විට සිහිපත් කරවන්න. මෙම ජාලය භාවිතා කිරීමෙන් අදාල WLAN භාවිත ගාස්තු අය විය හැකිය.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">China Mobile WLAN සිහිකැඳවනය</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">මා China Mobile WLAN ජාලය හා සම්බන්ධ වූ විට සිහිපත් කරවන්න</string>
+    <string name="wifi_cmcc_no_notification_summary">ජාල මාරු කරන විට කිසිදු දැනුම් දීමක් සංදර්ශනය නොකරන්න (ජංගම දත්ත සිට WLAN වෙත හා ප්‍රතිලෝමව, හෝ WLAN ජාල අතර)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">පිහිටීම ඇස්තමේන්තු කිරීම සඳහා GPS සහ WLAN භාවිතා කරන්න.</string>
+    <string name="location_mode_battery_saving_description_wifionly">පිහිටීම ඇස්තමේන්තු කිරීම සඳහා WLAN භාවිතා කරන්න.</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">WLAN හෝ ජංගම දත්ත ජාලය බුද්ධිමත්ව තෝරන්න</string>
+    <string name="wifi_plus_description">"WLAN+ සක්‍රීය කර ඇති විට, ස්මාර්ට් ජාල මාරුවීම ලබා දීම සඳහා ඔබේ WLAN සම්බන්ධතාවය අගයනු ඇත ( WLAN දත්ත භාවිතය ඉහල යනු ඇත) WLAN+ ස්වයංක්‍රීයව:
+1. වඩා සුමුදු අන්තර්ජාල අත්දැකීමක් ලඩා දීමට WLAN සහ ජංගම දත්ත අතර මාරු වන්න (දැනුම්දීම් සහිතව).
+2. දන්නා WLAN සබඳතාවයන් අවට ඇති විට සහ ඊට සම්බන්ධතා ඇති විට WLAN ක්‍රියාත්මක කරන්න."</string>
+    <string name="wifi_plus_settings_title">WLAN+ සැකසුම්</string>
+    <string name="wifi_plus_intelligent_switch_description">වඩා හොඳ අන්තර්ජාල අත්දැකීමක් සඳහා WLAN හා ජංගම දත්ත අතර බුද්ධිමත්ව මාරුවන්න.</string>
+    <string name="wifi_plus_auto_turn_on_description">නොදන්නා පිහිටීමකට ආසන්න වන විට ස්වයංක්‍රීයව WLAN ක්‍රියාත්මක කරන්න.</string>
+    <string name="wifi_plus_global_description">"WLAN+ සක්‍රීය කර ඇති විට, ස්මාර්ට් ජාල මාරුවීම ලබා දීම සඳහා ඔබේ WLAN සම්බන්ධතාවය අගයනු ඇත ( WLAN දත්ත භාවිතය ඉහල යනු ඇත) WLAN+ ස්වයංක්‍රීයව:
+1. වඩා සුමුදු අන්තර්ජාල අත්දැකීමක් ලබා දීමට WLAN සහ ජංගම දත්ත අතර මාරු වන්න.
+2. දන්නා WLAN සබඳතාවයන් අවට ඇති විට සහ ඊට සම්බන්ධතා ඇති විට WLAN ක්‍රියාත්මක කරන්න."</string>
+    <string name="location_mode_high_accuracy_title_emui">"GPS, WLAN හා ජංගම ජාල භාවිතා කරන්න "</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN හා ජංගම ජාල භාවිතා කරන්න</string>
+    <string name="pgps_switch_summary">වඩා ඉක්මන් හා වඩා නිවැරදි පිහිටීම් සේවා ලබාදීම සඳහා යාබද සෙලියුලර් ප්‍රධාන මධ්‍යස්ථාන හා WLAN දත්ත ලබාගැනීමට GPS හට ඉඩ දෙන්න</string>
+    <string name="find_no_wlan_ap">WLAN හොට්ස්පොට් සෙවීමට නොහැකිය</string>
+    <string name="cannot_connect_wlan">WLAN හා සම්බන්ධ වීමට අසමත් විය</string>
+    <string name="cannot_login_internet_with_wlan">WLAN හරහා අන්තර්ජාලයට සම්බන්ධ වීමට අසමත් විය</string>
+    <string name="wfd_connect_fail">WLAN Direct සම්බන්ධ වීම අසමත් විය</string>
+    <string name="find_no_wfd_device">WLAN Direct උපාංගය සෙවීමට නොහැකිය</string>
+    <string name="wfd_search_no_devices_causes">"ලද හැකි උපාංග කිසිවක් සොයාගත නොහැක,එම නිසා විය හැකිය:
+1. මෙම යුගල කළ උපාංගය සොයාගත නොහැක.
+2. යුගල කළ උපාංගය තාක්ෂණික ගැටළු අත්දකිමින් සිටී. WLAN නැවත ආරම්භ කර WLAN Direct නැවත විවෘත කර බලන්න.
+3. ඔබගේම උපාංගය තාක්ෂණික ගැටළුවලට මුහුණ දෙමින් සිටී. WLAN නැවත ආරම්භ කර WLAN Direct නැවත විවෘත කර බලන්න."</string>
+    <string name="wfd_connected_failed_causes">"මෙම සම්බන්ධතාවය ස්ථාපනය කළ නොහැකිය. වියහැකි හේතු:
+1. යුගල කළ උපාංගය ඉල්ලන ලද සම්බන්ධතාවය පිළිනොගන්නා ලදී.
+2. එක් හෝ උපාංගයක් වෙනත් WLAN Direct සම්බන්ධතාවයක් දැනටමත් ස්ථාපනය කර ඇත.
+3. යුගල කළ උපාංගය තාක්ෂණික ගැටළු අත්දකිමින් සිටී. එය නැවත ආරම්භ කර බලන්න."</string>
+    <string name="wifi_qrcode_share_notice">මෙම WLAN ජාලය හා සම්බන්ධ වීමට QR කේතය ස්කෑන් කරන්න</string>
+    <string name="devices_not_found_solution_title">උපාංගය සොයා ගත නොහැකි නම්, පහත දෑ උත්සාහ කරන්න:</string>
+    <string name="devices_not_found_solution_message">"1. උපාංගය වෙනත් උපාංග සඳහා ස්කෑන් කරන බව තහවුරු කර ගන්න.
+2. මිතුරු උපාංගය ගැටළු අත්විඳිමින් සිටී නම්, WLAN නැවත ආරම්භ කර WLAN Direct වෙත නැවත ප්‍රවේශ වන්න.
+3. ඔබේ උපාංගය ගැටළු අත්විඳිමින් සිටී නම්, WLAN නැවත ආරම්භ කර WLAN Direct වෙත නැවත ප්‍රවේශ වන්න."</string>
+    <string name="devices_not_connected_solution_message">"1. මිතුරු උපාංගය සම්බන්ධතා ඉල්ලීමට එකඟ වී ඇති බව තහවුරු කර ගන්න.
+2. උපාංග දෙකම වෙනත් උපාංග වෙත සම්බන්ධ වී නැති බවට වග බලා ගන්න.
+3. මිතුරු උපාංගය ගැටළු අත්විඳිමින් සිටී නම්, යළි සබැඳීමට උත්සාහ කරන්න."</string>
+    <string name="wifi_plus_description_emui">"WLAN+ සක්‍රිය කර ඇති විට, ස්මාර්ට් ජාල මාරුවීම ලබා දීම සඳහා ඔබේ WLAN සම්බන්ධතාවය අගයනු ඇත (WLAN දත්ත භාවිතය ඉහළ යා හැක). WLAN+ ස්වයංක්‍රීයව:
+1. සුමට අන්තර්ජාල අත්දැකීමක් ලබා දීමට WLAN සහ ජංගම දත්ත අතර මාරු වෙයි (ඔබට ජංගම ජාල සැකසුම් තුළ පෙරනිමි මාරු කිරීමේ ප්‍රකාරය තෝරා ගත හැකිය).
+2. දන්නා WLAN ජාලයක පරාසයේ සිටින විට WLAN ක්‍රියාත්මක කරන අතර ඊට සම්බන්ධ වෙයි."</string>
+    <string name="link_plus_live_update_description">Link+ සජීවී යාවත්කාලීනය සක්‍රිය කර ඇති විට, Link+ අදාල විශේෂාංග වැඩි දියුණු කිරීම සඳහා ඔබේ රැහැන් රහිත ජාලය හරහා (පෙරනිමි ලෙස WLAN) සන්නිවේදන පරාමිති දත්ත ස්වයංක්‍රීයව යාවත්කාලීන වනු ඇත.</string>
+    <string name="wifi_plus_description_emui2">"WLAN+ සක්‍රිය කර ඇති විට, ස්මාර්\ufffd\ufffd\ufffd් ජාල මාරුවීම ලබා දීම සඳහා ඔබේ WLAN සම්බන්ධතාවය අගයනු ඇත (WLAN දත්ත භාවිතය ඉහළ යා හැක). WLAN+ ස්වයංක්‍රීයව:
+1. සුමට අන්තර්ජාල අත්දැකීමක් ලබා දීමට WLAN සහ ජංගම දත්ත අතර මාරු වෙයි (ඔබට ජංගම ජාල සැකසුම් තුළ පෙරනිමි මාරු කිරීමේ ප්‍රකාරය තෝරා ගත හැකිය).
+2. දන්නා WLAN සබඳතාවයන් අවට ඇති විට සහ ඊට සම්බන්ධතා ඇති විට WLAN ක්‍රියාත්මක කරන්න.
+3. තිබෙන WLAN ජාල අගය කෙරේ. අන්තර්ජාල සම්බන්ධයක් නොමැතිව උපාංගය සුරැකි ජාල වෙත ස්වයංව-සම්බන්ධ නොකෙරෙනු ඇත.
+4. නොමිලේ WLAN හොට්ස්පොට් සමහරක් සඳහා, ලැබෙන SMS පණිවුඩයකින් සත්‍යාපන කේතය ලබා ගෙන බ්‍රව්සරය හරහා ජාලය වෙත ලොග් වේ (දැනට ආධාරක වනුයේ චීනයේ පමණි)."</string>
+    <string name="wifi_plus_global_description2">"WLAN+ සක්‍රිය කර ඇති විට, ස්මාර්\ufffd\ufffd\ufffd් ජාල මාරුවීම ලබා දීම සඳහා ඔබේ WLAN සම්බන්ධතාවය අගයනු ඇත (WLAN දත්ත භාවිතය ඉහළ යා හැක). WLAN+ ස්වයංක්‍රීයව:
+1. වඩා සුමුදු අන්තර්ජාල අත්දැකීමක් ලබා දීමට WLAN සහ ජංගම දත්ත අතර මාරු වන්න.
+2. දන්නා WLAN සබඳතාවයන් අවට ඇති විට සහ ඊට සම්බන්ධතා ඇති විට WLAN ක්‍රියාත්මක කරන්න.
+3. තිබෙන WLAN ජාල අගය කෙරේ. අන්තර්ජාල සම්බන්ධයක් නොමැතිව උපාංගය සුරැකි ජාල වෙත ස්වයංව-සම්බන්ධ නොකෙරෙනු ඇත."</string>
+    <string name="help_message">"1.ඔබේ මුද්‍රණ යන්ත්‍රය සහ දුරකථනය එකම WLAN ජාලයට සම්බන්ධ කර නැත.
+2. ඔබේ මුද්‍රණ යන්ත්‍රය මෙම විශේෂිත මුද්‍රණ සේවාවට ආධාරක නොවේ (නිෂ්පාදක වෙතින් තහවුරු කර ගන්න).
+3. සෙවීමේ කාලය අවසන්ව තිබේ. තත්වය දිගටම පැවතුණහොත් නැවත උත්සාහ කරන්න.
+4. ඔබේ මුද්‍රණ යන්ත්‍රය ක්‍රෑෂ් වී තිබේ. ඔබගේ මුද්‍රණ යන්ත්‍රය නැවත අරඹා උත්සාහ කරන්න."</string>
+    <string name="wifi_cloud_security_check_title">WLAN ආරක්ෂක පරීක්ෂණය</string>
+    <string name="wifi_cloud_security_check_summary">දුරකථන කලමනාකරු තුළින් සම්බන්ධිත WLAN ජාලවල ආරක්ෂක මට්ටම පරීක්ෂා කර, ආරක්ෂක අවදානම් ඇති සුරැකුම් කළ ජාල වෙත ස්වයංක්‍රීයව -සම්බන්ධ කරන්න විරාම කරන්න</string>
+    <string name="wifi_plus_description_emui3">"WLAN+ සක්‍රිය කර ඇති විට, ස්මාට් ජාල මාරුකිරීම ලබාදීම සඳහා ඔබගේ WLAN සම්බන්ධනය අගයනු ඇති අතර, එය ස්වයංක්‍රීයවම WLAN හරහා ප්‍රශස්තකරණ පරාමිතීන් යාවත් කරනු ඇත (WLAN දත්ත භාවිතය වැඩිවෙනු ඇත). WLAN+ ස්වයංක්‍රීයව:
+1. වඩා සුමුදු අන්තර්ජාල අත්දැකීමක් ලබාදීම සඳහා WLAN හා ජංගම දත්ත අතර මාරු වේ (ඔබට ජංගම ජාල සැකසුම් තුළ පෙරනිමි මාරුකිරීම් මාදිලිය තේරිය හැකිය).
+2. දන්නා WLAN ජාල පරාසයක සිටින විට WLAN ඔන් වෙන අතර එයට සම්බන්ධ වේ.
+3. ලද හැකි WLAN ජාල අගයනු ලබයි. අන්තර්ජාල පිවිසුම නොමැති සුරැකුම් කරන ලද ජාල සඳහා ස්වයංක්‍රීය- සම්බන්ධවීම විරාම කෙරිණි.
+4. නොමිලේ ලබාදෙන සමහර WLAN හොට්ස්පොට් සඳහා පැමිණෙන SMS සනාථ කිරීම් පණිවුඩය වෙතින් සනාථ කිරීම් කේතය හඳුනාගෙන පිවිසෙන අතර ස්වයංක්‍රීයවම බ්‍රව්සරය හරහා ජාලය වෙත ලොගින් වේ (දැනට මේ සඳහා සහය දක්වන්නේ චීනය තුළ පමණි)."</string>
+    <string name="user_add_user_message">"අතිරේක පරිශීලකයන් තැනීමෙන් ඔබට මෙම උපාංගය අන් අය සමග හුවමාරු කරගත හැකිය. එක් එක් පරිශීලකයාට ඔවුන්ගේම වූ ඉඩක් ඇති අතර ඔවුන්ට එය යෙදුම්, වෝල්පේපර හා තවත් දේ සමග ගැලපුම් කළ හැකිය. පරිශීලකයන්ට සෑම දෙනාටම බලපාන WLAN වැනි උපාංග සැකසුම් ගැලපීමටද හැකිය.
+
+ඔබ නව පරිශීලකයෙක් එක් කරන විට, එම පුද්ගලයාට ඔවුන්ගේ ඉඩ සකසා ගැනීමට අවශ්‍ය වේ.
+
+ඕනෑම පරිශීලකයෙකුට අන් සියළු පරිශීලකයන් සඳහා යෙදුම් යාවත් කළ හැකිය."</string>
+    <string name="print_user_warning">ඔබ මුද්‍රණ සේවා සක්‍රිය කරන විට ඔබගේ උපාංගය WLAN තදබදයක් ඇති කරමින් WLAN සම්බන්ධතාවය හරහා යාබද මුද්‍රණ යන්ත්‍ර සොයනු ඇත.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN ඇමතුම</string>
+    <string name="wifi_calling_dialog_title">WLAN ඇමතීම සක්‍රිය කරන්න</string>
+    <string name="wifi_calling_dialog_message">සක්‍රිය කළහොත් ඔබට WLAN හරහා හදිසි ඇමතුම් ගත නොහැකි වනු ඇත. සක්‍රිය කරන්නද?</string>
+    <string name="device_name_settings_summary">ඔබ බ්ලූටූත් භාවිතා කරන විට, WLAN Direct සහ ටෙදරින් හා අතේ ගෙන යා හැකි හොට්ස්පොට්, වෙනත් උපාංග මෙම නම දකිනු ඇත.</string>
+    <string name="device_name_settings_dialog">උපාංග නම වෙනස් කිරීමෙන් වත්මන් WLAN හොට්ස්පොට් සම්බන්ධතාව විසන්ධි වනු ඇත. එය වෙනස් කරන්න ද?</string>
+    <string name="write_wifi_nfc_tag">WLAN NFC ටැගයට ලියන්න</string>
+    <string name="wifi_plus_smart_switch_title">WLAN හා ජංගම දත්ත අතර ස්මාට් මාරුවීම</string>
+    <string name="wifi_plus_smart_switch_summary">WLAN සම්බන්ධතාවය අගයා හොඳම ජාල සම්බන්ධතාවය තේරීමට WLAN (තදබදය වැඩි විය හැකිය)හා ජංගම දත්ත අතර මාරු වෙන්න. ජංගම ජාල සැකසුම් තුළ පෙරනිමි මාරු මාදිලිය සකසා ඇත</string>
+    <string name="wifi_plus_smart_switch_summary_global">WLAN සම්බන්ධතාවය අගයා හොඳම ජාල සම්බන්ධතාවය තේරීමට WLAN (තදබදය වැඩි විය හැකිය)හා ජංගම දත්ත අතර මාරු වෙන්න</string>
+    <string name="wifi_plus_auto_turn_title">ස්වයංක්‍රීයව WLAN ඔන්/ඕෆ් කරන්න</string>
+    <string name="wifi_plus_auto_turn_summary">දන්නා WLAN ජාල පරාසයක සිටින විට WLAN ඔන් කර එයට සම්බන්ධ වේ.</string>
+    <string name="wifi_plus_quality_evaluation_title">ලද හැකි WLAN ජාල අගයන්න</string>
+    <string name="wifi_plus_quality_evaluation_summary">ලබාගත හැකි WLAN ජාලයන් ඇගයුම් කරන්න. අන්තර්ජාල පිවිසුම් නැති සුරකින ලද ජාලයන් සඳහා ස්වයං සම්බන්ධ කිරීම විරාමය කෙරිණි</string>
+    <string name="wifi_plus_fast_connect_title">නොමිලේ ලබාදෙන WLAN හොට්ස්පොට් වෙත ලොගින් අත්දැකීම ප්‍රශස්තකරණය කරන්න</string>
+    <string name="wifi_plus_fast_connect_summary">නොමිලේ ලබාදෙන සමහර WLAN හොට්ස්පොට් සඳහා පැමිණෙන SMS සනාථ කිරීම් පණිවුඩය වෙතින් සනාථ කිරීම් කේතය හඳුනාගෙන පිවිසෙන අතර ස්වයංක්‍රීයවම බ්‍රව්සරය හරහා ජාලය වෙත ලොගින් වේ (දැනට මේ සඳහා සහය දක්වන්නේ චීන මහා භූමි ප්‍රදේශය තුළ පමණි).</string>
+    <string name="link_plus_live_update_description_EMUI_5">Link+ සජීව යාවත්කාලය සක්‍රිය කළ විට, අදාල සන්නිවේදන විශේෂාංග වැඩි දියුණු කිරීම පිණිස ඔබගේ දුරකථනය ස්වයංක්‍රීයවම ඔබගේ රැහැන් රහිත ජාලය තුළින් (පෙරනිමියෙන් WLAN) සන්නිවේදන පරාමිති දත්ත යාවත් කරනු ඇත.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>ජංගම දත්ත</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS සහ WLAN භාවිත කරන්න</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN භාවිත කරන්න</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN බ්‍රිජ් සැලකිය යුතු තරමින් WLAN සංඥාවල සම්ප්‍රේෂණ පරාසය හා තීව්‍රතාවය වැඩි දියුණු කරයි. ඔබගේ උපාංගය හරහා අනෙක් උපාංග ඔබගේ වත්මන් WLAN ජාලයට සම්බන්ධ කළ හැකිය.
+2. WLAN බ්‍රිජ් උපාංග 4 ක් දක්වා ප්‍රමාණයකට පිවිසීමට සහය දක්වයි.
+3. WLAN බ්‍රිජ්, WLAN හොට්ස්පොට් හා WLAN Direct විශේෂාංග සමඟ ක්‍රියා නොකරයි. WLAN බ්‍රිජ් සක්‍රිය කර ඇත්නම් P2P සේවාවන් භාවිතා කරන සමහර යෙදුම් නිසි ලෙස ක්‍රියා නොකරනු ඇත.
+4. WLAN බ්‍රිජ් භාවිතා කිරීමෙන් බැටරි බලය ඉක්මණින් වැය වේ.
+5. WLAN සම්පත් වෙනත් සේවාවකින් භාවිතා කරන බවට ඔබ වෙත පණිවුඩයක් ලැබේ නම් සැකසුම් > WLAN > WLAN Direct වෙත ගොස් සම්බන්ධ කර ඇති ඕනෑම උපාංගයක් විසන්ධි කරන්න. නැතහොත් ඔබට සියළුම උපාංග ස්වයංක්‍රීයව විසන්ධි කිරීම සඳහා WLAN ඕෆ් කර නැවත ඔන් කළ හැකිය."</string>
+    <string name="wifi_qrcode_share_notice_new">මෙම WLAN ජාලයට සම්බන්ධ කිරීමට ස්කෑන් කරන්න</string>
+    <string name="location_help_scheme_body_one">"1. මගේ පිහිටීමට පිවිසෙන්න සක්‍රීයව තිබෙන බව තහවුරු කරන්න.
+2. පිහිටීම් මාදිලියේ GPS, WLAN හා ජංගම ජාල භාවිතා කරීම තෝරන්න.
+3. WLAN හොට්ස්පොට් එකකට සම්බන්ධ කරන්න නැතහොත් ජංගම දත්ත සක්‍රීය කරන්න.
+4. ඔබ භාවිතා කරන යෙදුමට දුරකථන කලමණාකරු > අවසර කළමනාකරු > පිහිටීම් පිවිසුම තුළ පිහිටීම් අවසරය වෙත පිවිසුම තිබේ දයි පරීක්ෂා කරන්න.
+5. ඔබ පිහිටීම් මාදිලිය ලෙස GPS පමණක් භාවිතා කරන්න සකසා තිබේ නම්, GPS සංඥා සාමාන්‍යයෙන් ලැබිය හැකි විවෘත සහ අනාවරණ පරිසරයක ඔබ පිහිටීම් පිවිසුම බාවිතා කරන බව කරුණාකර තහවුරු කර ගන්න.
+6. ඔබ පොදු හොට්ස්පොට් එකකට සම්බන්ධ වී සිටින්නේ නම්, WLAN ඕෆ් කර ජංගම දත්ත සක්‍රීය කර උත්සාහ කරන්න. පසුව පිහිටීම් පිවිසුම නැවත උත්සාහ කරන්න."</string>
+    <string name="location_help_scheme_body_two">"1. වඩාත් නිවැරදි පිහිටීම් පිවිසුම සඳහා පිහිටීම් මාදිලියේ GPS, WLAN හා ජංගම ජාල භාවිතා කරීම තෝරන්න.
+2. ඔබ ඔබේ උපාංගයේ ලෝහ ආවරණයක් භාවිතා කරන්නේ නම්, එම ආවරණය ඉවත් කර, නැතහොත් ලෝහ නොවන ආවරණයක් භාවිතා කර නැවත උත්සාහ කරන්න.
+3. ඔබ භාවිතා කරන යෙදුමට දුරකථන කලමණාකරු > අවසර කළමනාකරු > පිහිටීම් පිවිසුම තුළ පිහිටීම් අවසරය වෙත පිවිසුම තිබේ දයි පරීක්ෂා කරන්න.
+4. යාත්‍රණය පුළුල්, අනාවරණ ප්‍රදේශවල වැඩත් හොඳින් ක්‍රියාත්මක වේ. ඔබේ දුරකථනය ඔබේ කාරයේ ඩෑෂ් පුවුරුව හෝ අනෙකුත් අනාවරණ ප්‍රදේශ වැනි ඔබේ වාහනයේ හුලං පලිහ ස්ථානයකට ආසන්නව තබන්න."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN බ්‍රිජ් සැලකිය යුතු තරමින් WLAN සංඥාවල සම්ප්‍රේෂණ පරාසය හා තීව්‍රතාවය වැඩි දියුණු කරයි. ඔබගේ උපාංගය හරහා අනෙක් උපාංග ඔබගේ වත්මන් WLAN ජාලයට සම්බන්ධ කළ හැකිය.
+%2$d. WLAN බ්‍රිජ් උපාංග %6$d ක් දක්වා ප්‍රමාණයකට පිවිසීමට සහය දක්වයි.
+%3$d. WLAN බ්‍රිජ්, WLAN හොට්ස්පොට් හා WLAN Direct විශේෂාංග සමඟ ක්‍රියා නොකරයි. WLAN බ්‍රිජ් සක්‍රිය කර ඇත්නම් P2P සේවාවන් භාවිතා කරන සමහර යෙදුම් නිසි ලෙස ක්‍රියා නොකරනු ඇත.
+%4$d. WLAN බ්‍රිජ් භාවිතා කිරීමෙන් බැටරි බලය ඉක්මණින් වැය වේ.
+%5$d. WLAN සම්පත් වෙනත් සේවාවකින් භාවිතා කරන බවට ඔබ වෙත පණිවුඩයක් ලැබේ නම් සැකසුම් > WLAN > WLAN Direct වෙත ගොස් සම්බන්ධ කර ඇති ඕනෑම උපාංගයක් විසන්ධි කරන්න. නැතහොත් ඔබට සියළුම උපාංග ස්වයංක්‍රීයව විසන්ධි කිරීම සඳහා WLAN ඕෆ් කර නැවත ඔන් කළ හැකිය."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. ඔබට ඔබේ අන්තර්ජාල පිවිසුම් ස්ථානය ලෙස සැහැල්ලු WLAN හොට්ස්පොට් උපාංගයක් භාවිත කළ හැකිය. WLAN හරහා ඔබේ උපාංගයට පර්යන්තයන් සම්බන්ධ කළ හැකි අතර සම්බන්ධිත උපාංග ජංගම ජාලය හරහා අන්තර්ජාලය වෙත පිවිසෙනු ඇත.
+%2$d. සැහැල්ලු WLAN හොට්ස්පොට් භාවිතා කිරීම සඳහා ඔබේ ජංගම දත්ත සම්බන්ධතාව සක්‍රීය කිරීම අවශ්‍ය වන අතර යම් ප්‍රමාණයක දත්ත පරිභෝජනය වේ.
+%3$d. සැහැල්ලු WLAN හොට්ස්පොට් භාවිතා කිරීමෙන් ඔබගේ බැටරි බලය වේගයෙන් අඩු වෙනු ඇත."</string>
+    <string name="wifiap_connect_help_details_open_ex">"හස්තීය සම්බන්ධතාව:
+%2$d. ඉලක්ක උපාංගය මත WLAN සක්‍රීය කර, %1$s හොට්ස්පොට් සොයන්න.
+%3$d. හොට්ස්පොට් වෙත සම්බන්ධ කරන්න."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. මගේ පිහිටීමට පිවිසෙන්න සක්‍රීයව තිබෙන බව තහවුරු කරන්න.
+%2$d. පිහිටීම් මාදිලියේ GPS, WLAN හා ජංගම ජාල භාවිතා කිරීම තෝරන්න.
+%3$d. WLAN හොට්ස්පොට් එකකට සම්බන්ධ කරන්න, නැතහොත් ජංගම දත්ත සක්‍රීය කරන්න.
+%4$d. ඔබ භාවිතා කරන යෙදුමට දුරකථන කළමණාකරු > අවසර කළමනාකරු > පිහිටීම් පිවිසුම තුළ පිහිටීම් අවසරය වෙත පිවිසුම තිබේ දැයි පරීක්ෂා කරන්න.
+%5$d. ඔබ පිහිටීම් මාදිලිය ලෙස GPS පමණක් භාවිතා කරන්න සකසා තිබේ නම්, GPS සංඥා සාමාන්‍යයෙන් ලැබිය හැකි විවෘත සහ අනාවරණ පරිසරයක ඔබ පිහිටීම් පිවිසුම භාවිතා කරන බව කරුණාකර තහවුරු කර ගන්න.
+%6$d. ඔබ පොදු හොට්ස්පොට් එකකට සම්බන්ධ වී සිටින්නේ නම්, WLAN ඕෆ් කර ජංගම දත්ත සක්‍රීය කර උත්සාහ කරන්න. පසුව පිහිටීම් පිවිසුම නැවත උත්සාහ කරන්න."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. වඩාත් නිවැරදි පිහිටුම් පිවිසුම සඳහා පිහිටුම් මාදිලියේ GPS, WLAN හා ජංගම ජාල භාවිත කිරීම තෝරන්න.
+%2$d. ඔබ ඔබේ උපාංගයේ ලෝහ ආවරණයක් භාවිත කරන්නේ නම්, එම ආවරණය ඉවත් කර, නැතහොත් ලෝහ නොවන ආවරණයක් භාවිත කර නැවත උත්සාහ කරන්න.
+%3$d. ඔබ භාවිත කරන යෙදුමට දුරකථන කලමණාකරු > අවසර කළමනාකරු > පිහිටුම් පිවිසුම තුළ පිහිටුම් අවසරය වෙත පිවිසුම තිබේ දැයි පරීක්ෂා කරන්න.
+%4$d. යාත්‍රණය පුළුල්, අනාවරණ ප්‍රදේශවල වඩාත් හොඳින් ක්‍රියාත්මක වේ. ඔබේ දුරකථනය ඔබේ කාරයේ ඩෑෂ් පුවුරුව හෝ අනෙකුත් අනාවරණ ප්‍රදේශ වැනි ඔබේ වාහනයේ හුලං පලිහ ස්ථානයකට ආසන්නව තබන්න."</string>
+    <string name="turn_off_data_saver_message">සැහැල්ලු හොට්ස්පොට් එකක් භාවිතා කිරීමට දත්ත සර්වරය අක්‍රිය කිරීම අවශ්‍ය වේ. අක්‍රිය කරන්න ද?</string>
+    <string name="first_wlan_hotspot_text">ඔබේ ජාල සම්බන්ධතාවය අනෙක් අය සමග හුවමාරු කර ගැනීමට WLAN හොට්ස්පොට් ඔබට ඉඩ දෙයි, නමුත් ඉන් බැටරි බලය ඉක්මනින් බැස යාමට හා දත්ත භාවිතය ඉහල දැමීමට හේතු වේ.</string>
+    <string name="hotspot_power_notification_title">WLAN හොට්ස්පොට් අක්‍රිය කරන ලදී</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN හොට්ස්පොට් අක්‍රිය කරන ලදී</string>
+    <string name="toast_entitle_wifi_need_close">WLAN සක්‍රිය අතරතුර මෙම ශ්‍රිතය භාවිත කිරීමට නොහැකිය. කරුණාකර පළමුව WLAN අක්‍රිය කරන්න.</string>
+    <string name="wifi_activated_warning_Title">WLAN ඔන් කර ඇත</string>
+    <string name="wifi_turn_off_warning_message_wifiap">ජංගම හොට්ස්පොටය සහ WLAN එකවර ක්‍රියාත්මක කළ නොහැක. WLAN ඔෆ් කරන්නද?</string>
+    <string name="wifi_turn_off_warning_message_usb">දැන් WLAN නිවා දැමීම අනිවාර්ය වේ. ඔබේ දුරකතනය AT&amp;T සර්වර්ය සමග සන්නිවේදනය කළ සැනින් එය ස්වයංක්‍රීයවම ආරම්භ වේ.</string>
+    <string name="broadcast_ssid_is_show_dialog">ඔබ ජාල නම විකාශනය කිරීම (SSID) විකල්පය ඕෆ් කර ඇත්නම්, ඔබේ දුරකතනය අනෙක් උපාංග වලට නොපෙනේ සහ පවතින WLAN ජාල ලයිස්තුවේ නොපෙන්වනු ඇත. ඔබේ ජාල නාමය හස්තීයව ඇතුල් කරමින් අනෙක් උපාංග වලට තවමත් ඔබේ හොට්ස්පොටයට සම්බන්ධ විය හැක.</string>
+    <string name="enable">AT&amp;T WLAN වෙත ස්වයං-සම්බන්ධතාවය සක්‍රිය කරන ලදී</string>
+    <string name="disable">AT&amp;T WLAN වෙත ස්වයං-සම්බන්ධතාවය අක්‍රිය කරන ලදී</string>
+    <string name="auto_connect_wifi_suggestion">ස්වයං-සබඳතා සැකසුම් බලපෑම් ඇතිවීමට WLAN නැවත අරඹන්න.</string>
+    <string name="wifi_disable_by_deivice_admin">උපාංග පරිපාලක විසින් WLAN අක්‍රිය කර ඇත</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s ඔබගේ උපාංගය කලමනාකරණය කරන අතර ඔබට මෙම WLAN ජාලය නවීකරණය කිරීමට හෝ මැකීමට ඉඩ නොදේ. වැඩිදුර තොරතුරු සඳහා, ඔබේ පරිපාලක අමතන්න.</string>
+</resources>

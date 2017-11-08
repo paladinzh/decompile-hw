@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>A procurar...</item>
+        <item>A ligar...</item>
+        <item>A autenticar...</item>
+        <item>A obter endereço IP...</item>
+        <item>Ligado</item>
+        <item>Suspenso</item>
+        <item>A desligar...</item>
+        <item>Desligado</item>
+        <item>Sem êxito</item>
+        <item>Bloqueado</item>
+        <item>A evitar temporariamente uma ligação fraca</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>A procurar...</item>
+        <item>A ligar a %1$s…</item>
+        <item>A autenticar com %1$s…</item>
+        <item>A obter endereço IP de %1$s…</item>
+        <item>Ligado a %1$s</item>
+        <item>Suspenso</item>
+        <item>A desligar de %1$s…</item>
+        <item>Desligado</item>
+        <item>Sem êxito</item>
+        <item>Bloqueado</item>
+        <item>A evitar temporariamente uma ligação fraca</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nunca verificar</item>
+        <item>Verificar apenas conteúdo DRM</item>
+        <item>Verificar sempre</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Nunca utilizar a verificação HDCP</item>
+        <item>Utilizar a verificação HDCP para conteúdo DRM apenas</item>
+        <item>Utilizar sempre a verificação HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Desativado</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Desativado</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Desativado</item>
+        <item>64 K por buffer de registo</item>
+        <item>256 K por buffer de registo</item>
+        <item>1 MB por buffer de registo</item>
+        <item>4 M por buffer de registo</item>
+        <item>16 M por buffer de registo</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animação desativada</item>
+        <item>0,5x</item>
+        <item>1x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+        <item>5x</item>
+        <item>10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animação desativada</item>
+        <item>0,5x</item>
+        <item>1x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+        <item>5x</item>
+        <item>10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animação desativada</item>
+        <item>0,5x</item>
+        <item>1x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+        <item>5x</item>
+        <item>10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Nenhuma</item>
+        <item>480p</item>
+        <item>480p (seguro)</item>
+        <item>720p</item>
+        <item>720p (seguro)</item>
+        <item>1080p</item>
+        <item>1080p (seguro)</item>
+        <item>4K</item>
+        <item>4K (seguro)</item>
+        <item>4K (redimensionado)</item>
+        <item>4K (redimensionado, seguro)</item>
+        <item>720p, 1080p (ecrã duplo)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Nada</item>
+        <item>Logcat</item>
+        <item>Systrace (Gráficos)</item>
+        <item>Pilha de chamadas em glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Desativado</item>
+        <item>Desenhar região de clipe não retangular a azul</item>
+        <item>Realçar comandos de desenho testados a verde</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Desativado</item>
+        <item>No ecrã como barras</item>
+        <item>Em adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Desativado</item>
+        <item>Mostrar áreas de sobreposição</item>
+        <item>Mostrar áreas para deuteranomalia</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Limite padrão</item>
+        <item>Sem processos em segundo plano</item>
+        <item>No máximo, 1 processo</item>
+        <item>No máximo, 2 processos</item>
+        <item>No máximo, 3 processos</item>
+        <item>No máximo, 4 processos</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Carregamento</item>
+        <item>MTP (Protocolo de transferência de multimédia)</item>
+        <item>PTP (Protocolo de transferência de imagens)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Fonte de áudio</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Muito lenta</item>
+        <item>Lenta</item>
+        <item>Normal</item>
+        <item>Rápida</item>
+        <item>Mais rápida</item>
+        <item>Muito rápida</item>
+        <item>Acelerada</item>
+        <item>Muito acelerada</item>
+        <item>A mais rápida</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Vibrante (predefinição)</item>
+        <item>Natural</item>
+        <item>Padrão</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Cores melhoradas</item>
+        <item>Cores naturais e realistas</item>
+        <item>Cores otimizadas para conteúdos digitais</item>
+    </array>
+    <array name="clock_options">
+        <item>Mostrar horas, minutos e segundos</item>
+        <item>Mostrar horas e minutos (predefinição)</item>
+        <item>Não mostrar este ícone</item>
+    </array>
+    <array name="battery_options">
+        <item>Mostrar sempre a percentagem</item>
+        <item>Mostrar a percentagem durante o carregamento (predefinição)</item>
+        <item>Não mostrar este ícone</item>
+    </array>
+</resources>

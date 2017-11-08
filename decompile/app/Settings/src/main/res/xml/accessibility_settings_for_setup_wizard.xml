@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:persistent="true" android:title="@string/vision_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.accessibility.DividerAllowedBelowPreference android:layout="@layout/preference_multiline_title" android:title="@string/vision_settings_description" android:selectable="false" android:key="vision_settings_summary" />
+    <Preference android:title="@string/accessibility_screen_magnification_title" android:key="screen_magnification_preference" android:summary="@string/accessibility_screen_magnification_short_summary" android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragmentForSetupWizard" />
+    <Preference android:title="@string/title_font_size" android:key="font_size_preference" android:summary="@string/short_summary_font_size" android:fragment="com.android.settings.accessibility.FontSizePreferenceFragmentForSetupWizard" />
+    <com.android.settings.display.ScreenZoomPreference android:title="@string/display_mode_title" android:key="force_density_preference" android:summary="@string/screen_zoom_short_summary" android:fragment="com.android.settings.display.ScreenZoomPreferenceFragmentForSetupWizard" />
+    <Preference android:persistent="true" android:key="screen_reader_preference" android:summary="@string/talkback_summary" android:fragment="com.android.settings.accessibility.ToggleScreenReaderPreferenceFragmentForSetupWizard" />
+</PreferenceScreen>

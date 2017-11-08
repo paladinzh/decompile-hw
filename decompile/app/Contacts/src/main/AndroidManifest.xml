@@ -1,0 +1,955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.shared" android:versionCode="50000" android:versionName="V5.0.0" package="com.android.contacts" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <original-package android:name="com.android.contacts" />
+    <permission android:name="com.android.contacts.permission.READ_CONTACTS_PRIVATE_INFO" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.contacts.permission.WRITE_CONTACTS_PRIVATE_INFO" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="android.permission.WRITE_PRE_INSTALLED" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.permission.read_csp_configuration" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.contacts.permission.PRIVATE_CONTACTS" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:label="@string/choose_subscription_permission_label" android:icon="@drawable/perm_group_contacts" android:name="com.huawei.contacts.permission.CHOOSE_SUBSCRIPTION" android:protectionLevel="dangerous|signatureOrSystem" android:description="@string/choose_subscription_permission_description" />
+    <permission android:label="@string/choose_subscription_permission_label" android:icon="@drawable/perm_group_contacts" android:name="com.huawei.contacts.permission.CHOOSE_SUBSCRIPTION_HUAWEI" android:protectionLevel="signature|signatureOrSystem" android:description="@string/choose_subscription_permission_description" />
+    <permission android:name="com.huawei.contacts.permission.hicloudLogin" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="com.huawei.ims.permission.GET_IMS_SERVICE_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="huawei.permmisons.mms.READ_TEMP_FILE" />
+    <uses-permission android:name="android.permission.WRITE_PRE_INSTALLED" />
+    <uses-permission android:name="com.huawei.sprint.chameleon.permission.READ_DATA" />
+    <uses-permission android:name="com.android.contacts.permission.READ_CONTACTS_PRIVATE_INFO" />
+    <uses-permission android:name="com.android.contacts.permission.WRITE_CONTACTS_PRIVATE_INFO" />
+    <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL" />
+    <uses-permission android:name="com.google.android.gm.permission.WRITE_GMAIL" />
+    <uses-permission android:name="com.android.huawei.permission.OUTSIDE_LAUNCH_RECORD_LIST" />
+    <uses-permission android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="com.huawei.rcs.ACCESS_SERVICE" />
+    <uses-permission android:name="org.gsma.joyn.RCS_READ_CAPABILITIES" />
+    <uses-permission android:name="huawei.permission.RCS_READ_CONFIGURATION" />
+    <uses-permission android:name="org.gsma.joyn.RCS_USE_CHAT" />
+    <uses-permission android:name="org.gsma.joyn.RCS_FILETRANSFER_READ" />
+    <uses-permission android:name="com.huawei.rcs.RCS_BROADCASTER" />
+    <uses-permission android:name="com.huawei.rcs.READ_MESSAGE" />
+    <uses-permission android:name="com.huawei.rcs.WRITE_MESSAGE" />
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.WRITE_PROFILE" />
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="com.google.android.googleapps.permission.GOOGLE_AUTH.mail" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL" />
+    <uses-permission android:name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="24" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCOUNT_MANAGER" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="com.android.contacts.permission.READ_CONTACTS_PRIVACY_DATA" />
+    <uses-permission android:name="com.android.contacts.permission.WRITE_CONTACTS_PRIVACY_DATA" />
+    <uses-permission android:name="com.android.contacts.permission.PRIVELEGED_ACCESS_ALLOWED" />
+    <uses-permission android:name="com.huawei.hicloud.permission.READ_SYNC_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTHIMPORT_SHARE" />
+    <uses-permission android:name="com.huawei.bluetooth.permission.ACCESS_BLUETOOTHIMPORT_SHARE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFIDIRECTIMPORT_SHARE" />
+    <uses-permission android:name="com.huawei.android.wfdft.permission.ACCESS_WIFIDIRECTIMPORT_SHARE" />
+    <uses-permission android:name="android.permission.SECURITY_ACTIVITY" />
+    <uses-permission android:name="com.android.permission.system_manager_interface" />
+    <uses-permission android:name="com.huawei.systemmanager.permission.ACCESS_INTERFACE" />
+    <uses-permission android:name="com.huawei.hicloud.permission.hicloudLogin" />
+    <uses-permission android:name="com.huawei.android.contacts.permission.WRITE_HUAWEI_ACCOUNT" />
+    <uses-permission android:name="com.huawei.hwradar.permission.SEND_RADAR_DATA" />
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES" />
+    <uses-permission android:name="com.huawei.contacts.permission.HW_CONTACTS_ALL" />
+    <uses-permission android:name="com.huawei.phone.permission.RCS_CLIR_STATUS" />
+    <uses-permission android:name="com.huawei.phone.permission.CONTACTS_CLIR" />
+    <uses-permission android:name="com.huawei.motion.permission.READ_DATA" />
+    <uses-permission android:name="com.huawei.motion.permission.WRITE_DATA" />
+    <uses-permission android:name="com.huawei.motion.permission.START_MOTION_SERVICE" />
+    <uses-permission android:name="com.huawei.motion.permission.MOTION_ACTION_OPERATE" />
+    <uses-permission android:name="com.huawei.motion.permission.MOTION_ACTION_RECOGNITION" />
+    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE" />
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL" />
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL" />
+    <uses-permission android:name="com.huawei.contacts.permission.HW_ERASE_CONTACT_MARK" />
+    <uses-permission android:name="com.huawei.yellowpage.permission" />
+    <uses-permission android:name="com.huawei.lives.permission.USE_SERVICE" />
+    <uses-permission android:name="com.huawei.camera.permission.CARDREADER" />
+    <uses-permission android:name="com.huawei.permission.DELETE_MESSAGES_BY_CONTACTID" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="zdws.permission.READ_CONTENTPROVIDER" />
+    <uses-permission android:name="com.huawei.hicloud.permission.CONTACT_RESTORE_FINISHED" />
+    <uses-permission android:name="com.huawei.it.w3m.systemmanager.permission.ACCESS_INTERFACE" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="com.huawei.permission.TF_SIM_UNLOCK" />
+    <uses-permission android:name="com.huawei.vvm.permission.ACTIVATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <permission android:name="com.wei.android.beginning.permission.MAPS_RECEIVE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.wei.android.beginning.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+    <uses-permission android:name="com.huawei.contacts.permission.READ_RCS_CACHE" />
+    <uses-permission android:name="com.huawei.contacts.permission.WRITE_RCS_CACHE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INJECT_EVENTS" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <application android:label="@string/contactsList" android:icon="@mipmap/ic_launcher_contacts" android:name="com.android.contacts.ContactsApplication" android:taskAffinity="android.task.contacts" android:configChanges="locale|fontScale" android:allowBackup="false" android:hardwareAccelerated="false" android:supportsRtl="true" android:multiArch="true">
+        <meta-data android:name="com.google.android.gms.version" android:value="8487000" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBmxm5ss5CiXFMNdI48rKKLj5u1nGNQ1sQ" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="c65d1f80a1eb018ac713754fecd43adb" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        <uses-library android:name="com.android.contacts.separated" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".activities.NonPhoneActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="voicemail" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tel" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="vnd.android.cursor.dir/calls" />
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.CALL_BUTTON" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.IceActivity" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".activities.IceMyInfoActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" />
+        <activity android:name=".activities.IceMyInfoEditViewActivity" android:exported="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/PeopleTheme" android:label="@string/contactsList" android:name=".activities.PeopleActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTask" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow" android:resizeableActivity="false" android:directBootAware="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.WithActionBar" />
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value=".QuickPressService" />
+            <intent-filter>
+                <action android:name="com.huawei.android.ADDFROM_GROUP" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.APP_CONTACTS" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_ALL_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter android:label="@string/starredList">
+                <action android:name="com.android.contacts.action.LIST_STARRED" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter android:label="@string/frequentList">
+                <action android:name="com.android.contacts.action.LIST_FREQUENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter android:label="@string/contactsFavoritesLabel">
+                <action android:name="com.android.contacts.action.LIST_STREQUENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/contact" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FILTER_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/contact" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/person" />
+                <data android:mimeType="vnd.android.cursor.dir/contact" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/contact_searchable" />
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="voicemail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="vnd.android.cursor.dir/calls" />
+                <data android:mimeType="vnd.android.cursor.item/voicemail" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.phone.action.TOUCH_DIALER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter android:label="@string/recentCallsIconLabel">
+                <action android:name="com.android.phone.action.RECENT_CALLS" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.TAB" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.android.intent.action.CALL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".QuickPressService" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.android.quickaction.QuickActionService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".QuickPressPickNumberActivity" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE" android:taskAffinity="android.task.quickaction" android:excludeFromRecents="true" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.QUICK_ACTION_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contactsList" android:name=".activities.ContactSelectionActivity$TranslucentActivity" android:exported="false" android:clearTaskOnLaunch="true" android:launchMode="singleTop" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="com.android.contacts:style/TranslucentForSplit" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contactsList" android:name=".activities.ContactSelectionActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTop" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT_OR_EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/contact" />
+                <data android:mimeType="vnd.android.cursor.dir/person" />
+                <data android:mimeType="vnd.android.cursor.dir/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.dir/phone" />
+                <data android:mimeType="vnd.android.cursor.dir/postal-address_v2" />
+                <data android:mimeType="vnd.android.cursor.dir/postal-address" />
+                <data android:mimeType="vnd.android.cursor.dir/email_v2" />
+                <data android:mimeType="vnd.android.cursor.item/himessage" />
+                <data android:mimeType="vnd.android.cursor.item/rcs" />
+                <data android:mimeType="vnd.android.cursor.item/phone_mail_rcse_msgplus" />
+                <data android:mimeType="vnd.android.cursor.item/phone_rcse_msgplus" />
+                <data android:mimeType="vnd.android.cursor.item/rcs_contacts_for_message" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+                <data android:mimeType="vnd.android.cursor.item/phone_v2" />
+                <data android:mimeType="vnd.android.cursor.item/phone" />
+                <data android:mimeType="vnd.android.cursor.item/postal-address_v2" />
+                <data android:mimeType="vnd.android.cursor.item/postal-address" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="ContactsListActivity" android:targetActivity=".activities.PeopleActivity" />
+        <activity-alias android:name=".activities.ContactsFrontDoor" android:exported="true" android:targetActivity=".activities.PeopleActivity" />
+        <activity-alias android:name="DialtactsContactsEntryActivity" android:exported="true" android:targetActivity=".activities.PeopleActivity" />
+        <activity-alias android:name="DialtactsActivity" android:exported="true" android:targetActivity=".activities.PeopleActivity" />
+        <activity-alias android:name="RecentCallsListActivity" android:exported="true" android:targetActivity=".activities.PeopleActivity" />
+        <activity-alias android:label="@string/recentCallsIconLabel" android:icon="@drawable/ic_calllog_launcher" android:name=".activities.CallLogActivity" android:enabled="0x112005c" android:exported="true" android:targetActivity=".activities.PeopleActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".activities.JoinContactActivity" android:exported="false" android:clearTaskOnLaunch="true" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.JOIN_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/activity_title_settings" android:name=".preference.ContactsPreferenceActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contacts_display_conacts" android:name=".list.AccountFilterActivity" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/custom_list_filter" android:name=".list.CustomContactListFilterActivity" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".activities.ShowOrCreateActivity" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="mailto" />
+                <data android:scheme="tel" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ChooseSubActivity" android:permission="com.huawei.contacts.permission.CHOOSE_SUBSCRIPTION" android:taskAffinity="android.task.choosesub" android:excludeFromRecents="true" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.CHOOSE_SUB" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:name="HuaweiChooseSubActivity" android:permission="com.huawei.contacts.permission.CHOOSE_SUBSCRIPTION_HUAWEI" android:taskAffinity="android.task.choosesub" android:excludeFromRecents="true" android:targetActivity="ChooseSubActivity" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.CHOOSE_SUB_HUAWEI" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contacts_my_group" android:name=".activities.GroupBrowserActivity" android:clearTaskOnLaunch="true" android:launchMode="singleTop" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="" android:name=".activities.GroupDetailActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".activities.GroupEditorActivity" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity-alias android:label="@string/contact_shortcut_contact" android:icon="@mipmap/ic_launcher_shortcut_contact" android:name="ContactShortcut" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/shortcutDialContact" android:icon="@mipmap/ic_launcher_shortcut_directdial" android:name="alias.DialShortcut" android:enabled="0x112005c" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.CAR_MODE" />
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:label="@string/shortcutMessageContact" android:icon="@mipmap/ic_launcher_shortcut_directmessage" android:name="alias.MessageShortcut" android:enabled="0x112005f" android:targetActivity=".activities.ContactSelectionActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:name=".activities.ContactDetailActivity" android:windowSoftInputMode="adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".activities.PeopleActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+                <data android:mimeType="vnd.android.cursor.item/yellow_page" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/calls" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ContactDetailActivity$TranslucentActivity" android:exported="false" android:windowSoftInputMode="adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".activities.PeopleActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity-alias android:label="@string/shortcutDialContact" android:icon="@mipmap/ic_launcher_phone" android:name="CallDetailActivity" android:taskAffinity="android.task.contacts.phone" android:excludeFromRecents="true" android:targetActivity=".activities.ContactDetailActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity-alias>
+        <activity android:name=".quickcontact.QuickContactActivity" android:taskAffinity="android.task.quickcontact" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="android.provider.action.QUICK_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ContactsSearchDetail" android:taskAffinity="com.android.search.detail" android:excludeFromRecents="true" android:hardwareAccelerated="true" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".activities.ContactEditorAccountsChangedActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:label="@string/edit_contact" android:name=".activities.ContactEditorActivity" android:taskAffinity="com.android.contacts.editcontact" android:configChanges="locale|keyboardHidden|orientation|screenSize|layoutDirection|fontScale" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible|adjustResize|adjustNothing" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter android:label="@string/editContactDescription">
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/person" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+                <data android:mimeType="vnd.android.cursor.item/raw_contact" />
+            </intent-filter>
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="android.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/person" />
+                <data android:mimeType="vnd.android.cursor.dir/contact" />
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact" />
+            </intent-filter>
+        </activity>
+        <service android:name=".util.EmptyService" android:exported="false" />
+        <service android:name=".ContactSaveService" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/attach_photo_dialog_title" android:name=".activities.AttachPhotoActivity" android:taskAffinity="" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.PhotoSelectionActivity" android:launchMode="singleTop" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:windowSoftInputMode="stateUnchanged|stateAlwaysHidden|stateAlwaysVisible" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@style/Theme_Translucent" android:name=".vcard.ImportVCardActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <data android:mimeType="text/directory" />
+                <data android:mimeType="text/vcard" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="text/x-vCard" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_WLAN_VCARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".vcard.NfcImportVCardActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <data android:mimeType="text/vcard" />
+                <data android:mimeType="text/x-vcard" />
+                <data android:mimeType="text/x-vCard" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".vcard.CancelActivity" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTask" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".vcard.SelectAccountActivity" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".vcard.ExportVCardActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <service android:name=".vcard.VCardService" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".hap.copy.CancelActivity" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTask" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <service android:name=".hap.copy.CopyContactService" android:exported="false" />
+        <service android:name=".hap.delete.DuplicateContactsService" android:exported="false" />
+        <service android:name=".hap.delete.ExtendedContactSaveService" android:exported="false" />
+        <receiver android:name=".calllog.CallLogReceiver" android:enabled="0x112005c">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_VOICEMAIL" />
+                <data android:mimeType="vnd.android.cursor.item/voicemail" android:scheme="content" android:host="com.android.voicemail" />
+            </intent-filter>
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".calllog.CallLogNotificationsService" android:exported="false" android:directBootAware="true" />
+        <receiver android:name=".calllog.MissedCallNotificationReceiver" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".hap.util.RingtoneUpdateServiceOnMediaMount" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/select_contact_label" android:name=".hap.activities.ContactMultiSelectionActivity$TranslucentActivity" android:exported="false" android:taskAffinity="" android:clearTaskOnLaunch="true" android:launchMode="standard" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="com.android.contacts:style/TranslucentForSplit" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/select_contact_label" android:name=".hap.activities.ContactMultiSelectionActivity" android:exported="false" android:taskAffinity="" android:clearTaskOnLaunch="true" android:launchMode="standard" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.community.action.MULTIPLE_PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/phone_v2" android:host="com.android.contacts" />
+                <data android:mimeType="vnd.android.cursor.dir/email_v2" />
+                <data android:mimeType="vnd.android.cursor.dir/email_phone" />
+                <data android:mimeType="vnd.android.cursor.item/himessage" />
+                <data android:mimeType="vnd.android.cursor.item/rcs" />
+                <data android:mimeType="vnd.android.cursor.item/phone_mail_rcse_msgplus" />
+                <data android:mimeType="vnd.android.cursor.item/phone_rcse_msgplus" />
+                <data android:mimeType="vnd.android.cursor.item/rcs_contacts_for_message" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_ADD_FAVORITES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_REMOVE_FAVORITES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_DELETE_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_SHARE_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_ADD_GROUP_MEMBERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_REMOVE_GROUP_MEMBERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_SEND_GROUP_MESSAGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_SEND_GROUP_MAIL" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_COPY_TO_ACCOUNT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_COPY_FROM_SIM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_EXPORT_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.android.groups.multiple.delete" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.contacts.rcs.ACTION_REDIRECT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_ADD_COMPANY_MEMBERS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".hap.calllog.CallLogMultiSelectionActivity" android:clearTaskOnLaunch="true" android:launchMode="standard" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".hap.calllog.CallLogMultiSelectionActivity$TranslucentActivity" android:exported="false" android:clearTaskOnLaunch="true" android:launchMode="standard" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="com.android.contacts:style/TranslucentForSplit" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/select_contact_label" android:name=".hap.activities.ContactAndGroupMultiSelectionActivity" android:exported="false" android:clearTaskOnLaunch="true" android:launchMode="standard" android:windowSoftInputMode="adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.community.action.MULTIPLE_PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".hap.activities.ViewJoinContactsActivity" android:exported="false" android:hardwareAccelerated="true">
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_JOINED_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".hap.sim.SimStateChangeReceiver" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SUBINFO_CONTENT_CHANGE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SUBSCRIPTION_SET_UICC_RESULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".hap.sim.SimStateHandlerService" android:exported="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.huawei.settings.HANDLE_PHONESTATE" />
+            </intent-filter>
+        </service>
+        <service android:name=".hap.sim.SimBootUpService" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/strBluetoothHelpActivityTitle" android:name=".hap.bluetooth.BluetoothVCardHandler" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_BT_VCARD" />
+                <data android:mimeType="text/directory" />
+                <data android:mimeType="text/x-vcard" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW_BT_VCARD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/button_speed_dial" android:name=".speeddial.SpeedDialerActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.HAP_LAUNCH_SPEED_DIAL_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".gridwidget.DummyActivityForFavWidget" android:exported="false" android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.huawei.intent.action.deletefavorites" />
+                <action android:name="com.android.contacts.favorites.updated" />
+                <action android:name="com.huawei.android.CLICK_DONE" />
+                <action android:name="com.huawei.android.socialwidget.launch_contact" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.android.contacts.gridwidget.ContactWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+        <receiver android:name=".hap.receiver.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.contacts.gridwidget.UpdateContactGridWidgetService" android:exported="false" />
+        <receiver android:name=".hap.PreBootReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_INITIALIZE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".ViewNotificationService" android:permission="android.permission.WRITE_CONTACTS" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.contacts.VIEW_NOTIFICATION" />
+                <data android:mimeType="vnd.android.cursor.item/contact" />
+            </intent-filter>
+        </service>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.android.contacts.files" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+        <receiver android:name=".compatibility.ContactsProviderReceiver" android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.android.contacts.hap.receiver.HiCloudAccountLogOnOffReceiver" android:permission="com.huawei.contacts.permission.hicloudLogin">
+            <intent-filter>
+                <action android:name="com.huawei.hicloud.intent.action.HICLOUD_LOGON_ACTION" />
+                <action android:name="com.huawei.hicloud.intent.action.HICLOUD_LOGOFF_ACTION" />
+            </intent-filter>
+        </receiver>
+        <provider android:name=".hap.provider.ContactsAppProvider" android:readPermission="android.permission.READ_CONTACTS" android:writePermission="android.permission.WRITE_PRE_INSTALLED" android:exported="true" android:authorities="com.android.contacts.app" android:directBootAware="true" />
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/merge_duplicated_contacts" android:name=".hap.activities.MergeDuplicatedContactsActivity" android:exported="false" android:configChanges="orientation|screenSize" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.MERGE_DUPLICATED_CONTACTS" />
+                <action android:name="android.intent.action.MERGE_PARTIAL_DUPLICATED_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/importexport_contacts" android:name=".interactions.ManageContactsActivity" android:excludeFromRecents="true" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity-alias android:theme="@*android:style/Theme.Holo.Light.NoActionBar" android:label="@string/dialerLauncher" android:icon="@mipmap/ic_launcher_phone" android:name=".activities.DialtactsActivity" android:enabled="0x112005c" android:targetActivity=".activities.PeopleActivity" android:windowSoftInputMode="adjustResize|adjustPan|adjustNothing">
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value=".QuickPressService" />
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.NoActionBar" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.DIAL" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tel" />
+            </intent-filter>
+        </activity-alias>
+        <meta-data android:name="android.nfc.disable_beam_default" android:value="true" />
+        <meta-data android:name="APPKEY" android:value="5" />
+        <meta-data android:name="CHANNEL" android:value="push" />
+        <provider android:name="com.huawei.numberlocation.NLContentProvider" android:readPermission="com.android.contacts.permission.READ_CONTACTS_PRIVATE_INFO" android:writePermission="com.android.contacts.permission.WRITE_CONTACTS_PRIVATE_INFO" android:exported="true" android:authorities="com.huawei.numberlocation" android:directBootAware="true" />
+        <receiver android:name="com.android.contacts.hap.receiver.ContactsPropertyChangeReceiver" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:protectionLevel="dangerous|signature|signatureOrSystem">
+            <intent-filter>
+                <action android:name="com.huawei.contacts.action.property" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/contacts_starred" android:name=".hap.activities.FavoriteContactsActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.contacts.action.FAVORITE_CONTACTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="@string/contact_list_business_cards" android:name=".hap.camcard.CamCardActivity" android:exported="false" android:taskAffinity="" android:clearTaskOnLaunch="true" android:launchMode="standard" android:windowSoftInputMode="adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.android.intent.action.CAMCARD_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/camcard_about" android:name=".hap.camcard.AboutActivity" android:exported="false" android:hardwareAccelerated="false" />
+        <service android:name=".hap.camcard.bcr.CCSaveService" android:exported="false" />
+        <receiver android:name=".hap.camcard.groups.GroupUpdateReceiver" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL">
+            <intent-filter>
+                <action android:name="com.huawei.hicloud.CONTACT_RESTORE_FINISHED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/bluetooth_prepare" android:name=".activities.BluetoothPrepareActivity" android:exported="false" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.android.huawei.bluetooth.prepare" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.android.contacts.hap.receiver.MediaChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_FINISHED" />
+                <action android:name="android.intent.action.MEDIA_SCANNER_STARTED" />
+                <data android:scheme="file" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:name=".hap.activities.ContactsMultiSelectMessageActivitySimplified" android:exported="false" android:clearTaskOnLaunch="true" android:launchMode="standard" android:windowSoftInputMode="adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.community.action.MULTIPLE_PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/search_result_title" android:name="com.android.contacts.activities.VoiceSearchResultActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:hardwareAccelerated="true" android:parentActivityName=".activities.PeopleActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.contacts.searchresult" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/tianyi_dialer_label" android:name=".hap.tianyi.TianyiDialer" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.android.TIANYI_DIALER" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="tel" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/tianyi_country_label" android:name=".hap.tianyi.SelectCountryActivity" android:exported="false" android:screenOrientation="portrait" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.android.TIANYI_DIALER_LIST" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/tianyi_helper_label" android:name=".hap.tianyi.TianyiHelper" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.android.TIANYI_HELPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hap.numbermark.NumberMarkActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="huawei.intent.action.MARK_PHONENUMBER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/numbermark_setting_title" android:name=".hap.numbermark.NumberMarkSettings" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" android:launchMode="singleInstance" android:configChanges="orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.android.contacts.NumberMarkSettings" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".update.UpdaterPreview" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.UPDATE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.android.contacts.update.DownloadService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.UPDATE_FILE" />
+            </intent-filter>
+        </service>
+        <service android:name=".hap.KeepContactsAliveService" android:exported="false" />
+        <activity android:label="@string/update_call_locations_title" android:name=".locationdataupdate.LocationDataUpdater" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:protectionLevel="dangerous|signature|signatureOrSystem" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.android.contacts.locationdataupdate.action.UPDATE_LOCATION_DATA" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="" android:name=".activities.SmartGroupBrowserActivity" android:exported="false" android:clearTaskOnLaunch="true" android:launchMode="singleTop" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".hap.activities.DeleteProgressBarActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name=".hap.activities.CopyProgressBarActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contact_select_group" android:name=".hap.activities.GroupSelectActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contacts_missing_items" android:name=".hap.activities.ContactsMissingItemsActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Holo.Light" android:label="@string/contacts_missing_items" android:name=".hap.activities.ContactsMissingItemsDetailActivity" android:exported="false" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <provider android:name="com.huawei.csp.CspPrefsProvider" android:readPermission="com.huawei.permission.read_csp_configuration" android:writePermission="com.huawei.permission.read_csp_configuration" android:exported="true" android:authorities="csp-prefs-cfg" />
+        <activity android:name=".activities.DisplayModeActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+            <intent-filter>
+                <action android:name="com.android.contacts.action.CALLLOG_DISPLAY_MODE" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/PeopleTheme" android:name=".activities.RequestPermissionsActivity" android:exported="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/PeopleTheme" android:name=".activities.RequestImportVCardPermissionsActivity" android:exported="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/Theme_CallSubjectDialogTheme" android:name=".dialog.CallSubjectDialog" android:exported="false" android:windowSoftInputMode="stateVisible|stateAlwaysVisible|adjustResize|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.dialer.greeting.GreetingsActivity" android:exported="false" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/greetings" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.android.dialer.greeting.GreetingsSaveService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.android.contacts.greetings.action.save" />
+                <action android:name="com.android.contacts.greetings.action.delete" />
+                <action android:name="com.android.contacts.greetings.action.active" />
+            </intent-filter>
+        </service>
+        <activity android:name=".activities.ProfileSimpleCardActivity" android:permission="com.huawei.contacts.permission.HW_CONTACTS_ALL" android:exported="true" android:windowSoftInputMode="adjustResize|adjustPan|adjustNothing" android:hardwareAccelerated="true" android:uiOptions="splitActionBarWhenNarrow" android:parentActivityName=".activities.PeopleActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+            <intent-filter>
+                <action android:name="com.huawei.android.intent.action.PROFILE_CONTACT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".hap.rcs.activities.RcsPreCallActivity" android:exported="false" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.NoActionBar" />
+        </activity>
+        <activity android:name=".hap.rcs.activities.RcsPreCallPreviewActivity" android:exported="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.NoActionBar" />
+        </activity>
+        <service android:name="com.amap.api.location.APSService" android:exported="false" android:directBootAware="true" />
+        <receiver android:name="com.huawei.rcs.CarrierConfigChangeBroadcastReceiver" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.telephony.action.CARRIER_CONFIG_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

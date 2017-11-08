@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:gravity="top|bottom|center_vertical|fill_vertical|center|fill" sm:orientation="vertical" sm:id="@+id/data_saver_root_layout" sm:layout_width="match_parent" sm:layout_height="match_parent" sm:shadowHeight="4dp" sm:paralaxOffset="100dp" sm:dragView="@+id/drag_view" sm:showShadow="false">
+    <LinearLayout sm:orientation="vertical" sm:id="@+id/data_saver_container" sm:layout_width="match_parent" sm:layout_height="wrap_content" />
+    <LinearLayout sm:orientation="vertical" sm:id="@+id/drag_view" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:layout_below="@+id/data_saver_container"
+        <LinearLayout sm:orientation="vertical" sm:id="@+id/data_saver_title_container" sm:layout_width="match_parent" sm:layout_height="wrap_content" />
+        <huawei.android.widget.SubTabWidget sm:id="@+id/subTab_layout" sm:layout_width="match_parent" sm:layout_height="wrap_content" />
+        <android.support.v4.view.ViewPager sm:id="@+id/pager" sm:layout_width="match_parent" sm:layout_height="match_parent" />
+    </LinearLayout>
+</com.huawei.systemmanager.comm.widget.slideview.SlidingUpPanelLayout>

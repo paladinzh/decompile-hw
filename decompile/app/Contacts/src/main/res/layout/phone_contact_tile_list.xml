@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="?unknown_attr_ref: 101032c" android:showDividers="end" style="@style/FragmentActionBarPadding">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/contact_tile_list" android:paddingTop="@dimen/contact_tile_list_padding_top" android:fadingEdge="UNKNOWN_DATA_0x0" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textColor="?unknown_attr_ref: 1010038" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/contact_tile_list_empty" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/empty_message_top_margin" />
+    </FrameLayout>
+</LinearLayout>

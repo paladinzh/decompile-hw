@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme">
+    </style>
+    <style name="AppTheme">
+    </style>
+    <style name="ShareDialog">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+    </style>
+    <style name="popwin_anim_style">
+        <item>@anim/menu_show</item>
+        <item>@anim/menu_hide</item>
+    </style>
+    <style name="duoqu_bubble_body_hint_text_style_color">
+        <item>@dimen/duoqu_table_body_genralone_hint2_text_size</item>
+        <item>@color/duoqu_theme_color_5010</item>
+    </style>
+    <style name="duoqu_bubble_body_hint_text_style">
+        <item>@dimen/duoqu_table_body_genralone_hint2_text_size</item>
+    </style>
+    <style name="duoqu_bubble_body_main_text_style_color">
+        <item>@dimen/duoqu_table_body_genralone_main_text_size</item>
+        <item>@color/duoqu_black2</item>
+    </style>
+    <style name="duoqu_bubble_body_main_text_style_normal">
+        <item>@dimen/duoqu_table_body_genralone_main_text_size_normal</item>
+    </style>
+    <style name="duoqu_bubble_body_main_text_style_small">
+        <item>@dimen/duoqu_table_body_genralone_main_text_size_small</item>
+    </style>
+    <style name="duoqu_bubble_body_main_text_style_huge">
+        <item>@dimen/duoqu_table_body_genralone_main_text_size_huge</item>
+    </style>
+    <style name="duoqu_bubble_body_unit_text_style_normal">
+        <item>@dimen/duoqu_table_body_genralone_unit_text_size_normal</item>
+    </style>
+    <style name="duoqu_bubble_body_unit_text_style_small">
+        <item>@dimen/duoqu_table_body_genralone_unit_text_size_small</item>
+    </style>
+    <style name="duoqu_bubble_body_unit_text_style_huge">
+        <item>@dimen/duoqu_table_body_genralone_unit_text_size_huge</item>
+    </style>
+    <style name="duoqu_web_progress_circle">
+        <item>24dp</item>
+        <item>24dp</item>
+        <item>@drawable/duoqu_progressbar_circle</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="CS_linkTextStyle">
+        <item>18sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+        <item>@color/CS_highlight_color</item>
+        <item>@color/CS_link_color</item>
+    </style>
+    <style name="CS_HoloButtonStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>@color/cs_button_text_color</item>
+        <item>4</item>
+        <item>1</item>
+        <item>@dimen/cs_button_paddingLeft</item>
+        <item>@dimen/cs_button_paddingRight</item>
+        <item>-2</item>
+        <item>@dimen/cs_button_height</item>
+        <item>@dimen/cs_button_max_width</item>
+        <item>@dimen/cs_button_min_width</item>
+        <item>true</item>
+        <item>@dimen/cs_button_paddingLeft</item>
+        <item>@dimen/cs_button_paddingRight</item>
+    </style>
+    <style name="CS_EmoutionUI3_HoloButtonStyle">
+        <item>@dimen/cs_button_size</item>
+        <item>@color/cs_button_text_color</item>
+        <item>4</item>
+        <item>1</item>
+        <item>@dimen/cs_button_paddingLeft</item>
+        <item>@dimen/cs_button_paddingRight</item>
+        <item>-1</item>
+        <item>@dimen/cs_button_height</item>
+        <item>true</item>
+        <item>@dimen/cs_button_paddingLeft</item>
+        <item>@dimen/cs_button_paddingRight</item>
+    </style>
+    <style name="CS_EmoutionUI3_EditTextStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>@dimen/cs_edittext_size</item>
+        <item>@color/CS_black_75_percent</item>
+        <item>@color/CS_black_30_percent</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>@dimen/cs_text_height</item>
+        <item>true</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+    </style>
+    <style name="CS_EmoutionUI3_OOBE_EditTextStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>@dimen/cs_edittext_size</item>
+        <item>@color/CS_black</item>
+        <item>@color/CS_black_30_percent</item>
+        <item>@drawable/cs_edittext_background_drawable</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>@dimen/cs_text_height</item>
+        <item>true</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+    </style>
+    <style name="CS_EmoutionUI3_OOBE_EditText_NewStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>@dimen/cs_edittext_size</item>
+        <item>@color/CS_black_100_percent</item>
+        <item>@color/CS_black_50_percent</item>
+        <item>@drawable/cs_edittext_background_drawable</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>@dimen/cs_text_height</item>
+        <item>true</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+    </style>
+    <style name="CS_EmoutionUI3_EditText_NewStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>@dimen/cs_edittext_size</item>
+        <item>@color/CS_black_100_percent</item>
+        <item>@color/CS_black_50_percent</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>true</item>
+        <item>-1</item>
+        <item>@dimen/cs_text_height</item>
+        <item>true</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+    </style>
+    <style name="CS_EmoutionUI2_EditTextStyle">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>18sp</item>
+        <item>@color/CS_black</item>
+        <item>@color/CS_hint_color</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>true</item>
+        <item>@dimen/cs_text_height</item>
+        <item>true</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+        <item>@dimen/cs_pass_edit_padding</item>
+    </style>
+    <style name="CS_Spinner_Style">
+        <item>@dimen/cs_country_region_spinner_padding</item>
+        <item>@dimen/cs_country_region_spinner_padding</item>
+        <item>@dimen/cs_country_region_spinner_height</item>
+        <item>false</item>
+        <item>-1</item>
+        <item>@dimen/cs_country_region_spinner_padding</item>
+        <item>@dimen/cs_country_region_spinner_padding</item>
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview.Base">
+    </style>
+    <style name="Theme.AppInvite.Preview">
+        <item>?unknown_ref: 106000b</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>true</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/wallet_secondary_text_holo_dark</item>
+        <item>@color/wallet_highlighted_text_holo_dark</item>
+        <item>@color/wallet_hint_foreground_holo_dark</item>
+        <item>@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance">
+        <item>1</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/wallet_primary_text_holo_light</item>
+        <item>@color/wallet_highlighted_text_holo_light</item>
+        <item>@color/wallet_hint_foreground_holo_light</item>
+        <item>@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item>48dp</item>
+        <item>-1</item>
+        <item>5</item>
+        <item>4</item>
+        <item>@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item>@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item>@color/wallet_bright_foreground_holo_light</item>
+        <item>@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item>?unknown_ref: 1080004</item>
+        <item>@color/wallet_bright_foreground_holo_dark</item>
+        <item>3</item>
+    </style>
+    <style name="TextAppearance">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>#ffff9200</item>
+        <item>?unknown_attr_ref: 101009a</item>
+        <item>#5c5cff</item>
+    </style>
+    <style name="TextAppearance.SearchResult">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010039</item>
+        <item>?unknown_attr_ref: 101003f</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Title">
+        <item>16sp</item>
+    </style>
+    <style name="TextAppearance.SearchResult.Subtitle">
+        <item>13sp</item>
+        <item>?unknown_attr_ref: 101003a</item>
+    </style>
+    <style name="MmsHoloTheme">
+        <item>@style/hwListViewDropDown</item>
+    </style>
+    <style name="hwListViewDropDown">
+        <item>@drawable/dropdown_list_bg</item>
+        <item>@drawable/dropdown_list_divider_holo</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="SimpleButtomButtonStyle">
+        <item>18sp</item>
+        <item>@color/send_button_text_color</item>
+        <item>4</item>
+        <item>11</item>
+        <item>50</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>1.0</item>
+    </style>
+    <style name="TextViewListSeparatorMms">
+        <item>@color/text_color_preference_category</item>
+        <item>@drawable/header_dither</item>
+    </style>
+    <style name="ListSeparator">
+        <item>14sp</item>
+        <item>1</item>
+        <item>10</item>
+        <item>@drawable/header_dither</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>8dp</item>
+    </style>
+    <style name="Preference">
+        <item>@layout/preference_holo</item>
+    </style>
+    <style name="TextAppearanceMedium">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/primary_text_holo</item>
+    </style>
+    <style name="TextAppearanceSmall">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/second_text_holo</item>
+    </style>
+    <style name="WidgetTitle">
+        <item>#333333</item>
+        <item>true</item>
+    </style>
+    <style name="NotificationPrimaryText">
+        <item>#cccccc</item>
+    </style>
+    <style name="NotificationSecondaryText">
+        <item>#666666</item>
+    </style>
+    <style name="NotificationSubjectText">
+        <item>#999999</item>
+    </style>
+    <style name="TextShadowLight">
+        <item>@color/solid_white</item>
+        <item>@color/text_shadow_color_light</item>
+        <item>1.0</item>
+        <item>2.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="BannerTitleText">
+        <item>18sp</item>
+        <item>1</item>
+        <item>3</item>
+        <item>true</item>
+    </style>
+    <style name="BannerContentText">
+        <item>14sp</item>
+        <item>3</item>
+        <item>true</item>
+    </style>
+    <style name="SendButtonStyle">
+        <item>18sp</item>
+        <item>@color/send_button_text_color</item>
+        <item>11</item>
+        <item>50</item>
+        <item>1</item>
+        <item>false</item>
+        <item>0dp</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="AttachmentSizeStyle">
+        <item>12sp</item>
+        <item>@color/text_color</item>
+        <item>4</item>
+        <item>11</item>
+        <item>true</item>
+    </style>
+    <style name="compose_layout_weight_style">
+        <item>2.0</item>
+    </style>
+    <style name="compose_layout_weight_style">
+        <item>4.0</item>
+    </style>
+    <style name="compose_attachment_style">
+        <item>0.74</item>
+    </style>
+    <style name="compose_attachment_style">
+        <item>1.5</item>
+    </style>
+    <style name="attachment_layout_style">
+        <item>11</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="attachment_layout_style">
+        <item>51</item>
+        <item>5dp</item>
+        <item>-2dp</item>
+        <item>13dp</item>
+    </style>
+    <style name="attachment_layout_style">
+        <item>51</item>
+        <item>5dp</item>
+        <item>-1dp</item>
+        <item>13dp</item>
+    </style>
+    <style name="attachment_layout_style">
+        <item>51</item>
+        <item>5dp</item>
+        <item>13dp</item>
+    </style>
+    <style name="icon_list_item_layout_style">
+        <item>11</item>
+        <item>11</item>
+        <item>?unknown_attr_ref: 101004d</item>
+    </style>
+    <style name="icon_list_item_layout_style">
+        <item>11</item>
+        <item>1dp</item>
+        <item>1dp</item>
+        <item>9dp</item>
+        <item>9dp</item>
+    </style>
+    <style name="icon_list_item_layout_style">
+        <item>11</item>
+        <item>5dp</item>
+        <item>1dp</item>
+        <item>9dp</item>
+        <item>9dp</item>
+    </style>
+    <style name="icon_list_item_text_style">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>10dp</item>
+        <item>#e5000000</item>
+        <item>11</item>
+        <item>11</item>
+    </style>
+    <style name="icon_list_item_text_style">
+        <item>?unknown_attr_ref: 1010042</item>
+        <item>10dp</item>
+        <item>#e5000000</item>
+        <item>11</item>
+        <item>11</item>
+    </style>
+    <style name="smiley_face_style">
+        <item>11</item>
+        <item>10dp</item>
+        <item>1dp</item>
+        <item>45dp</item>
+        <item>9dp</item>
+        <item>9dp</item>
+    </style>
+    <style name="smiley_face_style">
+        <item>11</item>
+        <item>0dp</item>
+        <item>3dp</item>
+        <item>0dp</item>
+        <item>9dp</item>
+        <item>9dp</item>
+    </style>
+    <style name="smiley_face_icon_style">
+        <item>1</item>
+        <item>0dp</item>
+    </style>
+    <style name="smiley_face_icon_style">
+        <item>1</item>
+        <item>4dp</item>
+    </style>
+    <style name="smiley_face_icon_style">
+        <item>1</item>
+        <item>10dp</item>
+    </style>
+    <style name="textcounter_ismms_mutisim_model_style">
+        <item>8dp</item>
+        <item>800013</item>
+        <item>2</item>
+        <item>40dp</item>
+        <item>-1</item>
+        <item>true</item>
+        <item>true</item>
+    </style>
+    <style name="attachment_button_style">
+        <item>@color/attachment_button_text_color_seletor</item>
+        <item>4</item>
+        <item>true</item>
+    </style>
+    <style name="text_color_weak">
+        <item>12sp</item>
+        <item>#a5000000</item>
+    </style>
+    <style name="multisim_send_btn_text_style">
+        <item>14sp</item>
+        <item>@color/send_button_text_color</item>
+        <item>4</item>
+        <item>11</item>
+        <item>11</item>
+        <item>true</item>
+        <item>0dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+        <item>10dp</item>
+    </style>
+    <style name="mycard_edit_style">
+        <item>18sp</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@color/text_color</item>
+        <item>@color/setting_click_cannot</item>
+    </style>
+    <style name="edit_card_title_style">
+        <item>14sp</item>
+        <item>#ff666666</item>
+    </style>
+    <style name="spantextview_style">
+        <item>@dimen/mms_pop_text_size</item>
+        <item>@color/incoming_msg_text_color</item>
+        <item>false</item>
+        <item>1.1</item>
+    </style>
+    <style name="new_message_input_style">
+        <item>@color/recipients_editor_color</item>
+        <item>@color/recipients_editor_hint_color</item>
+    </style>
+    <style name="sending_prg_style">
+        <item>@dimen/mms_sub_text_size</item>
+        <item>0</item>
+        <item>0</item>
+        <item>#db000000</item>
+        <item>800003</item>
+    </style>
+    <style name="group_sending_prg_style">
+        <item>@dimen/mms_group_sub_text_size</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@drawable/text_color_black</item>
+        <item>800003</item>
+    </style>
+    <style name="detail_btn_txt_style">
+        <item>@color/msg_list_item_btn_text_color_selector</item>
+    </style>
+    <style name="chat_content_txt_style">
+        <item>@dimen/mms_group_content_text_size</item>
+        <item>0</item>
+        <item>0</item>
+        <item>@drawable/text_color_black</item>
+        <item>11</item>
+        <item>false</item>
+        <item>1.1</item>
+    </style>
+    <style name="view_gravity_style">
+        <item>800013</item>
+    </style>
+    <style name="msg_status_style">
+        <item>@dimen/mms_message_status_text_size</item>
+        <item>@color/mms_sub_text_color</item>
+        <item>2dp</item>
+        <item>true</item>
+    </style>
+    <style name="translucent">
+        <item>@color/guide_transparent</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@style/no_animation</item>
+    </style>
+    <style name="no_animation">
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="dialog_padding_style">
+        <item>15dp</item>
+        <item>15dp</item>
+    </style>
+    <style name="title_font_style">
+        <item>chnfzxh</item>
+    </style>
+    <style name="contact_horizontal_divider_style">
+        <item>?unknown_attr_ref: 101032c</item>
+        <item>-1</item>
+        <item>1px</item>
+    </style>
+    <style name="rcs_RoundProgressBarStyle">
+        <item>100dp</item>
+        <item>100dp</item>
+        <item>@drawable/rcs_progressbar_circle</item>
+        <item>1000</item>
+        <item>4dp</item>
+        <item>4dp</item>
+    </style>
+    <style name="gravity_style">
+    </style>
+    <style name="gravity_style">
+        <item>11</item>
+    </style>
+    <style name="empty_layout_style">
+        <item>-1</item>
+        <item>-1</item>
+    </style>
+    <style name="empty_layout_style">
+        <item>11</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>true</item>
+    </style>
+    <style name="trans_status_bar">
+    </style>
+    <style name="PreferenceCategoryContainerStyle">
+        <item>@drawable/list_section_divider_emui</item>
+        <item>@dimen/preference_category_padding_top</item>
+        <item>@dimen/preference_category_padding_bottom</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>@dimen/preference_category_min_height</item>
+        <item>@dimen/preference_item_padding_start</item>
+        <item>@dimen/preference_item_padding_end</item>
+    </style>
+    <style name="PreferenceCategoryTitleStyle">
+        <item>@dimen/emui_list_separator_text_size</item>
+        <item>0</item>
+        <item>@color/emui_list_separator_default</item>
+        <item>3</item>
+        <item>10</item>
+        <item>1000</item>
+        <item>true</item>
+        <item>HwChinese-medium</item>
+    </style>
+    <style name="CameraChooserFrameStyle">
+        <item>16dp</item>
+    </style>
+    <style name="AttachmentPreviewMoreItemsText">
+        <item>@dimen/attachment_preview_more_items_text_size</item>
+        <item>?unknown_ref: 106000b</item>
+    </style>
+    <style name="ConversationMessageText">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="ConversationMessage">
+        <item>@dimen/conversation_message_text_size</item>
+        <item>@color/message_text</item>
+    </style>
+    <style name="AttachmentPreviewAttachmentStyle">
+        <item>10dp</item>
+    </style>
+    <style name="AttachmentPreviewCloseButtonStyle">
+        <item>3</item>
+    </style>
+    <style name="ComposeMessageViewDraftViewStyle">
+        <item>53dp</item>
+        <item>63dp</item>
+    </style>
+    <style name="CameraBtnStyle">
+        <item>50</item>
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="CameraBtnStyle">
+        <item>800005</item>
+        <item>-2</item>
+        <item>-1</item>
+    </style>
+    <style name="CameraCaptureBtnStyle">
+        <item>800035</item>
+        <item>@dimen/camera_swapcamera_button_margintop</item>
+        <item>@dimen/camera_swapcamera_button_marginend</item>
+    </style>
+    <style name="CameraCaptureBtnStyle">
+        <item>800033</item>
+        <item>@dimen/camera_swapcamera_button_marginend</item>
+        <item>@dimen/camera_swapcamera_button_margintop</item>
+    </style>
+    <style name="CameraPreviewStyle">
+        <item>-1</item>
+        <item>-2</item>
+    </style>
+    <style name="CameraPreviewStyle">
+        <item>-2</item>
+        <item>-1</item>
+    </style>
+    <style name="dialog">
+        <item>@color/banner_item_transparent</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>false</item>
+        <item>false</item>
+    </style>
+    <style name="progressBar_goto">
+        <item>false</item>
+        <item>@drawable/file_trans_send_progress</item>
+    </style>
+    <style name="RoundProgressBarStyle">
+        <item>100dp</item>
+        <item>100dp</item>
+        <item>@drawable/progressbar_circle</item>
+        <item>1000</item>
+        <item>4dp</item>
+        <item>4dp</item>
+    </style>
+</resources>

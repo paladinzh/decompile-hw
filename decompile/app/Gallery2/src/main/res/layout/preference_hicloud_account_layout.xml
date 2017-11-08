@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/icon" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:src="@drawable/ic_contact_default" android:layout_centerVertical="true" android:layout_marginStart="@dimen/margin_16dp" android:layout_marginEnd="12dp" android:layout_alignParentStart="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/account_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_centerVertical="true" android:layout_marginEnd="40dp" android:layout_toEndOf="@id/icon">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow_right" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginStart="4dp" android:layout_marginEnd="@dimen/margin_16dp" android:layout_alignParentEnd="true" />
+</RelativeLayout>

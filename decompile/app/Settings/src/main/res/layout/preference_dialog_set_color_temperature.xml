@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@android:id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/test_image" android:layout_width="244.0dip" android:layout_height="178.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/color_temperature_pic_port" android:contentDescription="@null" />
+        </LinearLayout>
+        <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/default_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="14.0dip" android:text="@string/color_temperature_default" android:layout_marginStart="20.0dip" />
+        <SeekBar android:layout_gravity="center_horizontal" android:id="@id/seekbar" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/warm_cold_linear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_temperature_gray_color" android:id="@id/warm_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/color_temperature_warm" android:layout_weight="1.0" android:layout_marginStart="34.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/color_temperature_gray_color" android:gravity="right" android:id="@id/cold_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/color_temperature_cold" android:layout_marginEnd="34.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

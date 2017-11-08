@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="20dp">
+    <ViewStub android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/end_icon_container_stub" android:layout="@layout/spaceclean_trashlist_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="15sp" android:textColor="@color/emui_list_primary_text" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:text="@string/simple_text_stub" android:layout_centerVertical="true" android:layout_marginStart="24dp" android:layout_marginEnd="4dp" android:layout_toStartOf="@+id/end_icon_container_stub" />
+</RelativeLayout>

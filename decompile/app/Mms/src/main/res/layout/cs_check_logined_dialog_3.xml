@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/CS_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/cs_textview_jump_size" android:textColor="@color/CS_black_100_percent" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/user_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cs_view_margin" android:layout_marginRight="@dimen/cs_view_margin" android:layout_marginBottom="@dimen/cs_pwd_textview_margin_bottom" android:layout_marginStart="@dimen/cs_view_margin" android:layout_marginEnd="@dimen/cs_view_margin" />
+        <include layout="@layout/cs_password_edit_view" />
+        <include layout="@layout/cs_disable_pwd_dialog_include" />
+        <include layout="@layout/cs_textview_jump" />
+        <include android:visibility="gone" layout="@layout/cs_checkbox_min_auto" />
+    </LinearLayout>
+</ScrollView>

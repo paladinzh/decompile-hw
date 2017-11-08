@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/icon_size" android:layout_height="@dimen/icon_size" android:layout_centerVertical="true" android:layout_marginStart="@dimen/preference_item_padding_start" android:layout_marginEnd="12.0dip" android:layout_alignParentStart="true" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/content_section" android:paddingTop="@dimen/user_preference_item_padding_top" android:paddingBottom="@dimen/user_preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_toEndOf="@android:id/icon">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:id="@android:id/summary" android:maxLines="4" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:id="@id/preference_divider" android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" android:layout_alignParentBottom="true" android:layout_alignStart="@id/content_section" />
+</RelativeLayout>

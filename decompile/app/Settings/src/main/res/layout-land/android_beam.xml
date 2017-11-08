@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/nfc_switch_bar" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/nfc_title" android:fadingEdge="horizontal" android:text="@string/nfc_quick_toggle_title" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@id/android_nfc_explained" android:layout_width="fill_parent" android:layout_marginTop="2.0dip" android:text="@string/nfc_quick_toggle_summary" style="@style/EmuiSecondaryTextFontStyle" />
+            </LinearLayout>
+            <Switch android:layout_gravity="center" android:id="@id/nfc_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+        </LinearLayout>
+        <include layout="@layout/divider" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end" style="@style/PreferenceCategoryContainerStyle">
+            <TextView android:id="@id/huawei_beam_category" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huawei_beam_settings_title" style="@style/PreferenceCategoryTitleStyle" />
+            <TextView android:id="@id/huawei_beam_empty" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/PreferenceCategoryTitleStyle" />
+        </LinearLayout>
+        <include layout="@layout/divider" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/switch_bar" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip">
+            <RelativeLayout android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@id/beam_title" android:fadingEdge="horizontal" android:text="@string/huawei_beam_settings_title" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            </RelativeLayout>
+            <Switch android:layout_gravity="center" android:id="@id/beam_switch" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingStart="82.0dip" android:paddingEnd="82.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/android_beam_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:gravity="top" android:layout_gravity="center_vertical" android:id="@id/android_beam_explained" android:layout_width="0.0dip" android:text="@string/huawei_beam_explained" android:layout_weight="1.0" android:layout_marginStart="18.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

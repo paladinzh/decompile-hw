@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:orientation="horizontal" systemui:layout_width="match_parent" systemui:layout_height="wrap_content">
+    <com.android.systemui.statusbar.phone.CoverStatusBarView systemui:id="@id/keyguard_header" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0e01ca" systemui:baselineAligned="false" systemui:layout_alignParentTop="true">
+        <include systemui:id="@id/operator_name_container" systemui:layout_width="wrap_content" systemui:layout_height="UNKNOWN_DATA_0x7f0e01ca" systemui:layout_marginStart="@dimen/keyguard_carrier_text_margin" systemui:layout_alignParentStart="true" layout="@layout/hw_operator_name_parent_keyguard" />
+        <com.android.systemui.statusbar.phone.MultiUserSwitch systemui:id="@id/multi_user_switch" systemui:background="@r$drawable/ripple_drawable" systemui:visibility="gone" systemui:layout_width="UNKNOWN_DATA_0x7f0e022c" systemui:layout_height="UNKNOWN_DATA_0x7f0e01ca" systemui:layout_marginEnd="@dimen/multi_user_switch_keyguard_margin" systemui:layout_alignParentEnd="true">
+            <ImageView systemui:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/multi_user_avatar" systemui:layout_width="UNKNOWN_DATA_0x7f0e022e" systemui:layout_height="UNKNOWN_DATA_0x7f0e022e" systemui:scaleType="centerInside" />
+        </com.android.systemui.statusbar.phone.MultiUserSwitch>
+        <com.android.systemui.statusbar.HwSystemIcons systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/system_icons_super_container" systemui:layout_width="wrap_content" systemui:layout_height="UNKNOWN_DATA_0x7f0e01c8" systemui:layout_alignWithParentIfMissing="true" systemui:paddingEnd="@dimen/system_icons_keyguard_padding_end" systemui:layout_marginStart="16dp" systemui:layout_toEndOf="@id/operator_name_container" systemui:layout_alignParentEnd="true">
+            <include layout="@layout/status_bar_network_speed" />
+            <FrameLayout systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:id="@id/system_icons_container" systemui:layout_width="wrap_content" systemui:layout_height="UNKNOWN_DATA_0x7f0e02cf">
+                <include layout="@layout/system_icons" />
+            </FrameLayout>
+            <include layout="@layout/hw_status_bar_clock" />
+        </com.android.systemui.statusbar.HwSystemIcons>
+    </com.android.systemui.statusbar.phone.CoverStatusBarView>
+</LinearLayout>

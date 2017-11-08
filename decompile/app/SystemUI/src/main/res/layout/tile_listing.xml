@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/qs_background_primary" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/notification_header_bg" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+        <ImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="0x106000b" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="0x1020016" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10dp" />
+    </LinearLayout>
+    <GridLayout android:id="@id/tile_grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:columnCount="4" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.attachment.ui.mediapicker.MediaPickerPanel xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/mediapicker_view_split" android:background="@color/mediapicker_view_split_bg_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0349" />
+    <com.android.mms.attachment.ui.PagingAwareViewPager android:id="@+id/mediapicker_view_pager" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mediapicker_default_chooser_height" />
+    <ImageView android:id="@+id/mediapicker_bottom_view_split" android:background="@color/mediapicker_view_split_bg_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a034a" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/mediapicker_tabstrip" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" />
+</com.android.mms.attachment.ui.mediapicker.MediaPickerPanel>

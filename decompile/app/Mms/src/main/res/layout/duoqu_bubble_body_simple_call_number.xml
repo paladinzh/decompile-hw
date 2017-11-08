@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/duoqu_normal_padding_left" android:paddingRight="@dimen/duoqu_normal_padding_right" android:paddingBottom="@dimen/duoqu_part_go_pb" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/duoqu_table_body_genralone_hint_text_size" android:textColor="@color/duoqu_theme_color_5010" android:id="@+id/duoqu_bubble_generalone_number_tag" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/duoqu_table_body_genralone_main_text_size_normal" android:textColor="@color/duoqu_black2" android:ellipsize="end" android:id="@+id/duoqu_bubble_generalone_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/duoqu_bubble_generalone_number_tag" android:layout_alignLeft="@+id/duoqu_bubble_generalone_number_tag" android:layout_alignRight="@+id/duoqu_bubble_generalone_number_tag" />
+</RelativeLayout>

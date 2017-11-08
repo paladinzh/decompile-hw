@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.widget.WidgetHomeView android:gravity="center" android:orientation="horizontal" android:id="@id/main" android:background="@drawable/widget_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/appwidget_min_height_keyguard"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_wifi" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_margin_bottom" android:contentDescription="@null" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/settings_menu_color" android:ellipsize="end" android:id="@id/txt_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_settings_title" android:lines="1" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/set_img1" android:background="@drawable/divider_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_bluetooth" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_margin_bottom" android:contentDescription="@null" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/settings_menu_color" android:ellipsize="end" android:id="@id/txt_bluetooth" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bluetooth" android:lines="1" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/set_img2" android:background="@drawable/divider_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_location" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_margin_bottom" android:contentDescription="@null" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/settings_menu_color" android:ellipsize="end" android:id="@id/txt_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usage_type_gps" android:lines="1" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/set_img3" android:background="@drawable/divider_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_sync" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_margin_bottom" android:contentDescription="@null" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/settings_menu_color" android:ellipsize="end" android:id="@id/txt_sync" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_auto_data" android:lines="1" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/set_img4" android:background="@drawable/divider_line" android:layout_width="1.0dip" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/btn_brightness" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/widget_margin_bottom" android:contentDescription="@null" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/settings_menu_color" android:ellipsize="end" android:id="@id/txt_brightness" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/brightness_title" android:lines="1" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    </LinearLayout>
+</com.android.settings.widget.WidgetHomeView>

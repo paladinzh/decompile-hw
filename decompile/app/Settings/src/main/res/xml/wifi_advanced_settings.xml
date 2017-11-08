@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_advanced_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifi_settings_category" android:key="wifi_settings_category">
+        <SwitchPreference android:persistent="false" android:title="@string/wifi_cloud_security_check_title" android:key="wifi_cloud_security_check" android:summary="@string/wifi_cloud_security_check_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/credentials_management" android:key="credentials_management">
+        <Preference android:persistent="false" android:title="@string/wifi_install_credentials" android:key="install_credentials" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wps_connection_title" android:key="wps_category">
+        <Preference android:persistent="false" android:title="@string/wps_connection_title" android:key="wps_push_button" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:persistent="false" android:title="@string/wps_pin_connection_title" android:key="wps_pin_entry" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+</PreferenceScreen>

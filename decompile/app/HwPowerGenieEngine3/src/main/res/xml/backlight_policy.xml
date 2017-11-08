@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<backlight_policy xmlns:android="http://schemas.android.com/apk/res/android" version="1">
+    <mode id="0" />
+    <mode id="1">
+        <action name="browser front" id="203">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                70 />
+        </action>
+        <action name="special front" id="-1">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                95 />
+            <item name="package_name"
+                com.huawei.appmarket />
+            <item name="package_name"
+                com.android.email />
+            <item name="package_name"
+                com.android.contacts />
+            <item name="package_name"
+                com.huawei.hidisk />
+            <item name="package_name"
+                com.qzone />
+            <item name="package_name"
+                com.tencent.mm />
+        </action>
+        <action name="game2d front" id="233">
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="game3d front" id="204">
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="office front" id="225">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                65 />
+        </action>
+        <action name="video front" id="228">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                85 />
+        </action>
+        <action name="video start" id="246">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                85 />
+        </action>
+        <action name="video end" id="247" />
+        <action name="ebook front" id="205">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                65 />
+        </action>
+        <action name="mms front" id="235">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                80 />
+        </action>
+    </mode>
+    <mode id="2">
+        <action name="browser front" id="203">
+            <item name="policy_ratio"
+                70 />
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="office front" id="225">
+            <item name="policy_ratio"
+                70 />
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="mms front" id="235">
+            <item name="policy_ratio"
+                85 />
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="ebook front" id="205">
+            <item name="policy_ratio"
+                70 />
+            <item name="policy_auto"
+                1 />
+        </action>
+        <action name="special front" id="-1">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                95 />
+            <item name="package_name"
+                com.android.email />
+            <item name="package_name"
+                com.google.android.gm />
+            <item name="package_name"
+                com.huawei.hidisk />
+            <item name="package_name"
+                com.qzone />
+            <item name="package_name"
+                com.tencent.mm />
+            <item name="package_name"
+                com.android.contacts />
+            <item name="package_name"
+                com.taobao.taobao />
+            <item name="package_name"
+                com.jingdong.app.mall />
+        </action>
+        <action name="special front" id="-1">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                70 />
+            <item name="package_name"
+                com.huawei.android.webcustomize />
+        </action>
+        <action name="special front" id="-1">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                80 />
+            <item name="package_name"
+                com.huawei.hwmwlauncher />
+        </action>
+        <action name="fuzzy front" id="-2">
+            <item name="policy_auto"
+                1 />
+            <item name="policy_ratio"
+                95 />
+            <item name="package_name"
+                *blog />
+            <item name="package_name"
+                *weibo />
+            <item name="package_name"
+                *zaker />
+            <item name="package_name"
+                *mobileqq />
+            <item name="package_name"
+                *.news />
+        </action>
+    </mode>
+    <mode id="3" />
+    <mode id="4" />
+</backlight_policy>

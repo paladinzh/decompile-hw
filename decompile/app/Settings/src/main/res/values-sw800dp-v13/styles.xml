@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="S10_ActionBarTabText">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="Settings_Theme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:tabWidgetStyle">@style/Settings_Theme.TabWidgetStyle</item>
+        <item name="android:actionBarStyle">@style/Settings_Theme.ActionBarStyle</item>
+        <item name="android:actionBarTabTextStyle">@style/S10_ActionBarTabText</item>
+    </style>
+</resources>

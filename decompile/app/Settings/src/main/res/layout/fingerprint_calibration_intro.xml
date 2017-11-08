@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0dip" android:textColor="@color/emui_secondary_text" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fp_calibration_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/fp_calibrate_intro_tip" android:layout_centerHorizontal="true" android:lineSpacingMultiplier="1.1" android:fontFamily="chnfzxh" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fp_calibration_start_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="114.0dip" android:minHeight="40.0dip" android:text="@string/fp_calibrate_intro_start" android:layout_centerHorizontal="true" style="@style/bottom_single_button" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/fp_calibration_anim_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fp_calibration_anim_image_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/fp_calibration_anim_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

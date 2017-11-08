@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/join_contact_blurb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/join_header_top_margin" android:layout_marginBottom="@dimen/join_header_bottom_margin" android:maxLines="2" android:paddingStart="?attr/list_item_header_text_indent" android:layout_marginStart="@dimen/join_header_left_margin" android:layout_marginEnd="@dimen/join_header_right_margin" />
+    <FrameLayout android:id="@+id/pinned_header_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <view android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" android:fastScrollEnabled="true" android:layout_marginStart="?attr/contact_browser_list_padding_left" android:layout_marginEnd="?attr/contact_browser_list_padding_right" class="com.android.contacts.widget.PinnedHeaderListView" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/empty_contacts_icon" android:paddingTop="@dimen/empty_contacts_icon_top_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_empty_contacts" android:contentDescription="@string/noContactsToJoin" />
+            <TextView android:textSize="@dimen/contact_label_text_size" android:textColor="@color/no_contacts_text_viewcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/list_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/loadingcontacts" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:indeterminateOnly="true" />
+            <TextView android:textSize="13sp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_list_loading" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

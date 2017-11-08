@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/contact_detail_view" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/menu_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0224">
+        <ImageView android:id="@+id/backImg" android:layout_width="UNKNOWN_DATA_0x7f0d0336" android:layout_height="UNKNOWN_DATA_0x7f0d0336" android:src="@drawable/ic_public_back" android:scaleType="fitXY" android:contentDescription="@string/content_description_navigate_up" android:layout_marginStart="@dimen/detail_name_container_margin_start_orgin" />
+    </LinearLayout>
+    <View android:id="@+id/menu_divider" android:background="@color/quickcontact_list_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01eb" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/detail_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/detail_header_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="9.3" layout="@layout/detail_header_contact_without_updates" />
+        <LinearLayout android:orientation="vertical" android:id="0x1020013" android:background="@drawable/contact_detail_list_background" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="14.0">
+            <huawei.android.widget.SubTabWidget android:id="@+id/subTab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <android.support.v4.view.ViewPager android:id="@+id/detail_tab_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </LinearLayout>
+        <FrameLayout android:id="@+id/call_log_detail_container" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="14.0" />
+        <ViewStub android:id="@+id/contacts_detail_menu_container" android:layout="@layout/contact_detail_card_menu" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d023f" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/default_app_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:minHeight="@dimen/main_screen_scan_item_height">
+        <TextView sm:textSize="@dimen/item_explain_textview" sm:textColor="@color/emui_list_primary_text" sm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/permission_description_text" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:text="@string/banner_set_default_title" sm:includeFontPadding="false" sm:layout_centerVertical="true" sm:fontFamily="chnfzxh" sm:layout_marginStart="@dimen/main_screen_scan_item_margin_start" sm:layout_marginEnd="8dp" sm:layout_toStartOf="@+id/default_mms_set_button" sm:layout_alignParentStart="true" />
+        <Button sm:textSize="@dimen/permission_cfg_value_textsize" sm:textColor="@color/emui5_theme" sm:id="@+id/default_mms_set_button" sm:layout_width="wrap_content" sm:layout_height="UNKNOWN_DATA_0x2001" sm:text="@string/menu_settings" sm:layout_centerVertical="true" sm:layout_marginEnd="@dimen/main_screen_scan_list_frame_margin_end" sm:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View style="@style/divider_line" />
+</LinearLayout>

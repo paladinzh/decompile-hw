@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/prevent_mode_loading_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/prevent_no_contact_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/noContactImg" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/ic_no_contact" android:layout_centerHorizontal="true" android:contentDescription="0x0" />
+        <TextView android:textSize="12sp" android:textColor="?unknown_attr_ref: 1010038" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/prevent_list_null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/empty_view_textview_margin_top" android:text="@string/Other_VIP_NoVIP" android:layout_below="@+id/noContactImg" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/prevent_mode_white_list" android:layout_width="wrap_content" android:layout_height="match_parent" android:footerDividersEnabled="true" />
+    </LinearLayout>
+</LinearLayout>

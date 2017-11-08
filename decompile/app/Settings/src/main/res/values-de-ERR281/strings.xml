@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">Über WLAN-Assistenten verbunden</string>
+    <string name="accessibility_wifi_off">WLAN aus.</string>
+    <string name="accessibility_no_wifi">WLAN getrennt.</string>
+    <string name="accessibility_wifi_one_bar">WLAN, ein Balken</string>
+    <string name="accessibility_wifi_two_bars">WLAN, zwei Balken</string>
+    <string name="accessibility_wifi_three_bars">WLAN, drei Balken</string>
+    <string name="accessibility_wifi_signal_full">Volle WLAN-Signalstärke</string>
+    <string name="wifi_verbose_logging">Ausf. WL‑AN-Protok. aktiv.</string>
+    <string name="wifi_aggressive_handover">Aggr. Übergabe WL‑AN an mobil</string>
+    <string name="wifi_allow_scan_with_traffic">Immer WL‑AN Roam.-Scans zulassen</string>
+    <string name="wifi_verbose_logging_summary">WL‑AN-Protok-St. erhöhen + pro SSID RSSI in WL‑AN Ausw. anz.</string>
+    <string name="wifi_aggressive_handover_summary">Wenn aktiviert, ist WL‑AN bei Übergabe an mobile Datenverb. aggressiver, wenn Signal WL‑AN schwach</string>
+    <string name="wifi_allow_scan_with_traffic_summary">WL‑AN Roam.-Scans je nach Datenv. an Schnittst. zul./beschr.</string>
+    <string name="mobile_data_always_on_summary">Mobildaten immer aktiv, auch wenn WLAN verfügbar ist (für schnelle Netzwerkwechsel)</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, Flugmodus, Mobilfunknetze und VPNs verwalten</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN aktivieren</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN-Einstellungen</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN auswählen</string>
+    <string name="wifi_select_network">WLAN-Netzwerk auswählen</string>
+    <string name="wifi_starting">WLAN aktivieren?</string>
+    <string name="wifi_stopping">WLAN wird deaktiviert...</string>
+    <string name="wifi_poor_network_detection_summary">WLAN nur bei guter Internetverbindung verwenden</string>
+    <string name="wifi_automatically_connect_title">Autom. offenes WLAN verwenden</string>
+    <string name="wifi_automatically_connect_summary">Autom. Verb. des WLAN-Assist. Zul., um Netzwerke m. guter Internetv. zu öffnen</string>
+    <string name="wifi_scan_notify_text">Um die Standortgenauigkeit zu verbessern, können System-Apps und -dienste nach wie vor nach WLAN-Netzwerken scannen. Sie können dies in den LINK_BEGINScaneinstellungenLINK_END ändern.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN im Standby-Modus an</string>
+    <string name="wifi_suspend_optimizations">WLAN-Optimierung</string>
+    <string name="wifi_suspend_optimizations_summary">Akkuverbrauch bei aktiviertem WLAN minimieren</string>
+    <string name="wifi_access_points">WLAN-Netzwerke</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">WLAN aktivieren, um verfügbare Geräte anzuzeigen</string>
+    <string name="wifi_empty_list_wifi_on">Suche nach WLAN-Netzwerken läuft…</string>
+    <string name="wifi_empty_list_user_restricted">Sie haben keine Berechtigung zum Ändern des WLAN-Netzwerks.</string>
+    <string name="wifi_wps_setup_title">Geschützte WLAN-Einrichtung</string>
+    <string name="wifi_wps_onstart_pbc">Drücken Sie die Taste \"WLAN Protected Setup\" auf Ihrem Router. Eventuell lautet sie auch \"WPS\" oder enthält dieses Symbol:</string>
+    <string name="wifi_wps_onstart_pin">Geben Sie die PIN %1$s auf Ihrem WLAN-Router ein. Die Einrichtung kann bis zu 2 Minuten dauern.</string>
+    <string name="wifi_wps_connected">Mit WLAN-Netzwerk %s verbunden</string>
+    <string name="wifi_scan_always_turnon_message">"Zur Verbesserung der Standortgenauigkeit und für andere Zwecke will %1$s die Netzwerksuche aktivieren, selbst wenn das WLAN deaktiviert ist.
+
+Dies für alle Apps gestatten, die gesucht werden sollen?"</string>
+    <string name="wifi_skipped_message">"WARNUNG: Es können zusätzliche Gebühren bei Ihrem Mobilfunkanbieter anfallen.
+
+Die Telefon-Einrichtung kann umfangreiche Netzwerkaktivitäten erforderlich machen."</string>
+    <string name="wifi_and_mobile_skipped_message">Achtung: Das Telefon kann nicht prüfen, ob Ihre Software aktuell ist.</string>
+    <string name="wifi_connect_failed_message">Das Telefon konnte nicht auf dieses WLAN zugreifen.</string>
+    <string name="wifi_advanced_titlebar">Erweiterte WLAN-Einstellungen</string>
+    <string name="wifi_configure_titlebar">WLAN konfigurieren</string>
+    <string name="wifi_advanced_not_available">Erweiterte WLAN-Einstellungen sind für diesen Nutzer nicht verfügbar</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Mobiler WLAN-Hotspot</string>
+    <string name="wifi_tether_failed_subtext">Fehler beim mobilen WLAN-Hotspot</string>
+    <string name="wifi_tether_configure_ap_text">WLAN-Hotspot konfigurieren</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s mobiler WLAN-Hotspot</string>
+    <string name="wifi_calling_settings_title">Einstellungen für WLAN-Calling</string>
+    <string name="wifi_calling_suggestion_title">Anrufe über WLAN aktivieren</string>
+    <string name="wifi_calling_suggestion_summary">Verwende WLAN statt einem Mobilfunknetz</string>
+    <string name="wifi_calling_mode_title">WLAN-Calling</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-Calling-Modus</string>
+    <string name="wifi_calling_off_explanation">Wenn die Option \"Anrufe über WLAN\" aktiviert ist, kann Ihr Smartphone abhängig von Ihrer Einstellung und von der Signalstärke Anrufe über WLAN-Netzwerke oder über das Netz Ihres Mobilfunkanbieters übertragen. Erkundigen Sie sich bei Ihrem Mobilfunkanbieter über die hierfür erhobenen Gebühren und andere Informationen, bevor Sie diese Funktion aktivieren.</string>
+    <string name="status_wifi_mac_address">WLAN-MAC-Adresse</string>
+    <string name="reset_network_desc">"Dabei werden alle Netzwerkeinstellungen zurückgesetzt, inklusive:
+
+"<li>WLAN</li>"
+"<li>Mobildaten</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">WLAN-Assistenten ändern?</string>
+    <string name="location_mode_high_accuracy_description">Schätzen Sie den Standort über GPS, WLAN und mobile Netzwerke ein</string>
+    <string name="location_mode_battery_saving_description">Schätzen Sie den Standort über WLAN und mobile Netzwerke ein</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN-Suche</string>
+    <string name="location_scanning_wifi_always_scanning_description">Verbessern Sie die Standorterkennung, indem Sie zulassen, dass System-Apps und Dienste WLAN-Netzwerke jederzeit erkennen können.</string>
+    <string name="location_network_based">Standort WLAN- &amp; Mobilfunknetzwerk</string>
+    <string name="location_neighborhood_level">Zulassen, dass Apps WLAN und Mobilfunknetze für die Bestimmung meines ungefähren Standorts verwenden</string>
+    <string name="location_neighborhood_level_wifi">Standort per WLAN bestimmt</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN-Aktivzeit</string>
+    <string name="bluetooth_on_time">WLAN-Aktivzeit</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN aktiv</string>
+    <string name="usage_type_data_wifi_send">WLAN-Daten gesendet</string>
+    <string name="usage_type_data_wifi_recv">WLAN-Daten empfangen</string>
+    <string name="battery_action_wifi">WLAN-Einstellungen</string>
+    <string name="battery_desc_wifi">Akkuverbrauch durch WLAN</string>
+    <string name="battery_sugg_wifi">WLAN bei Nichtverwendung oder Nichtverfügbarkeit deaktivieren</string>
+    <string name="gadget_toggle_wifi">Aktualisieren der WLAN-Einstellung</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Meine Einstellungen u. andere Anwendungsdaten bei Google online sichern</string>
+    <string name="backup_erase_dialog_message">Sicherung Ihrer WLAN-Passwörter, Lesezeichen, anderer Einstellungen und App-Daten beenden und alle Kopien auf Google-Servern löschen?</string>
+    <string name="fullbackup_erase_dialog_message">Das Sichern von Gerätedaten (wie z. B. WLAN-Passwörter und die Anrufliste) und von App-Daten (wie z. B. von Apps gespeicherte Einstellungen und Dateien) beenden und alle Kopien bei Google Drive löschen?</string>
+    <string name="fullbackup_data_summary">"Automatische Remote-Sicherung von Gerätedaten wie WLAN-Passwörtern und Anrufverlauf und App-Daten, z. B. Einstellungen und von Apps gespeicherte Dateien
+
+Wenn Sie die automatische Sicherung aktivieren, werden Geräte- und App-Daten regelmäßig an einem Remote-Speicherort gespeichert. Bei App-Daten kann es sich um alle Daten handeln, die von einer App entsprechend der Entwicklereinstellungen gespeichert wurden, einschließlich potenziell sensiblen Daten wie Kontakten, Nachrichten und Fotos."</string>
+    <string name="wifi_setup_title">WLAN-Einrichtung</string>
+    <string name="wifi_setup_title_editing_network">Mit WLAN-Netzwerk verbinden: %s</string>
+    <string name="wifi_setup_title_connecting_network">Verbinden mit WLAN %s...</string>
+    <string name="wifi_setup_eap_not_supported">Während der Einrichtung können Sie keine EAP-WLAN-Verbindung konfigurieren. Sie können dies anschließend in den Einstellungen unter \"Drahtlos &amp; Netzwerke\" vornehmen.</string>
+    <string name="wifi_setup_description_connected">Tippen Sie auf <b>Weiter</b>", um mit der Einrichtung fortzufahren.
+
+Tippen Sie auf "<b>Zurück</b>, um eine Verbindung zu einem anderen WLAN-Netzwerk herzustellen.</string>
+    <string name="data_usage_menu_show_wifi">WLAN anzeigen</string>
+    <string name="data_usage_menu_hide_wifi">WLAN ausblenden</string>
+    <string name="data_usage_disable_wifi_limit">WLAN-Datenlimit festlegen</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Hintergrunddaten nur in Mobilfunknetzen deaktivieren und sofern verfügbar WLAN verwenden</string>
+    <string name="data_usage_app_restrict_dialog">"Diese Funktion kann dazu führen, dass eine von Hintergrunddaten abhängige App nicht mehr funktioniert, wenn kein WLAN verfügbar ist.
+
+Die innerhalb der App verfügbaren Einstellungen bieten geeignetere Steuerelemente zur Datennutzung."</string>
+    <string name="data_usage_restrict_background">Wenn Sie mobile Hintergrunddaten beschränken, funktionieren einige Apps und Dienste nur, sofern Sie mit einem WLAN-Netzwerk verbunden sind.</string>
+    <string name="data_usage_restrict_background_multiuser">"Wenn Sie die mobilen Hintergrunddaten beschränken, funktionieren einige Apps und Dienste nur bei verfügbarer WLAN-Verbindung.
+
+Diese Einstellung betrifft alle Benutzer auf diesem Telefon."</string>
+    <string name="data_usage_metered_body">Wählen Sie die WLAN-Netzwerke aus, die mobile Hotspots sind. Die Verwendung dieser Netzwerke kann für Apps im Hintergrund eingeschränkt werden. Eventuell senden Apps auch Warnungen, bevor diese Netzwerke für umfangreiche Downloads verwendet werden.</string>
+    <string name="data_usage_metered_wifi">WLAN-Netzwerke</string>
+    <string name="data_usage_metered_wifi_disabled">Aktivieren Sie WLAN, um mobile Hotspots auszuwählen.</string>
+    <string name="user_add_user_message_long">"Sie können dieses Gerät mit anderen Personen teilen und dazu zusätzliche Benutzer erstellen. Jeder Benutzer hat seinen eigenen Bereich, in dem er unter anderem eigene Apps oder Hintergründe installieren kann. Benutzer können auch Tablet-Einstellungen wie WLAN anpassen, die jeden Benutzer betreffen.
+
+Nachdem Sie einen neuen Benutzer erstellt haben, muss dieser einen Einrichtungsprozess durchlaufen.
+
+Jeder Benutzer kann aktualisierte App-Berechtigungen im Namen aller anderen Benutzer akzeptieren."</string>
+    <string name="restriction_wifi_config_title">WLAN und Mobilgeräte-Daten</string>
+    <string name="restriction_wifi_config_summary">Die Änderung der Einstellungen von WLAN und Mobilgeräte-Netzwerken zulassen</string>
+    <string name="keywords_wifi">wlan WLAN netzwerkverbindung</string>
+    <string name="keywords_wifi_calling">WLAN WLAN-Anruf anrufen</string>
+    <string name="setup_wifi_nfc_tag">WLAN-NFC-Tag einrichten</string>
+    <string name="condition_hotspot_summary">Der mobile WLAN-Hotspot %1$s ist aktiviert. Das WLAN ist auf diesem Gerät deaktiviert.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth und Mobilfunknetz sind deaktiviert. Sie können keine Anrufe tätigen und keine Internetverbindung herstellen.</string>
+    <string name="condition_cellular_summary">Eine Internetverbindung kann nur über WLAN hergestellt werden.</string>
+    <string name="condition_bg_data_summary">Hintergrunddaten sind nur über WLAN verfügbar. Diese Einstellung kann sich auf einige Apps oder Dienste auswirken, wenn kein WLAN verfügbar ist.</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN Bridge</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN Bridge-Einstellungen</string>
+    <string name="wifi_tether_configure_bridge_text">WLAN Bridge konfigurieren</string>
+    <string name="wifi_bridge_settings_summary">Name, Kennwort usw. für Bridge festlegen</string>
+    <string name="wifi_bridge_use_help_title">Hilfe</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN Bridge kann den Übertragungsbereich und die Stärke von WLAN-Signalen erheblich erhöhen. Andere Geräte können über Ihr Gerät mit Ihrem aktuellen WLAN-Netzwerk verbunden werden.
+2. WLAN Bridge unterstützt den Zugriff von bis zu 4 Geräten.
+3. WLAN Bridge kann nicht in Kombination mit einem WLAN-Hotspot und den WLAN Direct-Funktionen eingesetzt werden. Wenn WLAN Bridge aktiviert ist, funktionieren einige Anwendungen mit P2P-Diensten möglicherweise nicht richtig.
+4. Die Verwendung von WLAN Bridge erhöht den Akkuverbrauch."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN-Verbindung erforderlich</string>
+    <string name="wifi_bridge_switch_wifi_summary">Verbundenes WLAN-Netzwerk freigeben</string>
+    <string name="wifi_setup_title_connected_network_Toast">Mit WLAN-Netzwerk %s verbunden</string>
+    <string name="huawei_beam_explained">Mit Huawei Beam können Sie Dateien wie Bilder, Videos, Kontakte und URLs zwischen Ihrem Gerät und einem anderen NFC-fähigen Gerät übertragen. Sie können Huawei Beam aktivieren, indem Sie die beiden Geräte aneinanderstellen (in der Regel so, dass sie sich gegenüber stehen) und auf Ihren Bildschirm tippen. Beachten Sie, dass vor der Dateiübertragung Ihr Bluetooth oder WLAN möglicherweise automatisch eingeschaltet wird.</string>
+    <string name="wifi_display_settings_summary">Telefon-Bildschirm über eine WLAN-Verbindung auf einem anderen Display anzeigen</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN-Netzwerke %s verfügbar. Wollen Sie Datendienst beenden und eine Verbindung zu einem WLAN-Netzwerk herstellen?</string>
+    <string name="switch_to_wifi_manual_prompt">WLAN-Signal gefunden, möchten Sie dieses WLAN-Netzwerk verwenden?</string>
+    <string name="switch_to_wifi_query_prompt">WLAN-Netzwerke %s verfügbar. Möchten Sie eine Verbindung zu einem WLAN-Netzwerk herstellen?</string>
+    <string name="wifi_to_wifi_prompt">Das aktuelle Verbindungssignal ist schwach, möchten Sie ein anderes WLAN-Netzwerk verwenden?</string>
+    <string name="advanced_wifi_settings_title">Erweiterte Einstellungen</string>
+    <string name="huawei_beam_front_explained">"Mit Huawei Beam können Sie Ihre Dateien an andere NFC-Geräte übertragen, indem Sie die Geräte aneinanderstellen. Sie können z. B. Bilder, Videos, Kontakte, URLs und vieles mehr zwischen zwei NFC-fähigen Geräten drahtlos übertragen. Dies geht ganz einfach:
+1. Stellen Sie die Vorderseite Ihres Geräts an ein anderes NFC-Gerät und nehmen Sie Ihr Gerät ab, sobald Sie einen Ton hören.
+2. Berühren Sie Ihren Bildschirm nach Erklingen des Tons innerhalb von drei Sekunden.
+3. Stellen Sie die Vorderseite Ihres Geräts erneut an das andere NFC-Gerät, um die Übertragung abzuschließen. Beachten Sie, dass vor der Dateiübertragung Ihr Bluetooth oder WLAN möglicherweise automatisch eingeschaltet wird."</string>
+    <string name="wifiap_use_help_details">"1. Sie können ein tragbares WLAN-Hotspot-Gerät als Internet-Zugangspunkt verwenden. Peripheriegeräte können mit Ihrem Gerät per WLAN verbunden werden und angeschl. Geräte greifen über das Mobilfunknetz auf das Internet zu.
+2. Bei einem mobilen WLAN-Hotspot muss Ihre mobile Datenverbindung aktiv sein und verbraucht Datenverkehr.
+3. Durch einen mobilen WLAN-Hotspot kann sich die Akkulaufzeit verkürzen."</string>
+    <string name="wifiap_connect_help_details_open">"Manuelle Verbindung:
+1. Deaktivieren Sie das WLAN im Zielgerät und finden Sie den Hotspot %1$s.
+2. Stellen Sie eine Verbindung zum Hotspot her."</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">Sie sind mit einem China Mobile WLAN-Netzwerk verbunden. Bei Verwendung dieses Netzwerks können WLAN-Nutzungsgebühren erhoben werden.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">China Mobile WLAN-Benachrichtigungen</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Benachrichtige mich, wenn ich mit einem China Mobile WLAN-Netzwerk verbunden werde</string>
+    <string name="wifi_cmcc_no_notification_summary">Keine Benachrichtigungen anzeigen, wenn Netzwerke umgeschaltet werden (Mobile Daten an WLAN und umgekehrt oder zwischen WLAN-Netzen)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Für ungefähren Standort GPS und WLAN verwenden</string>
+    <string name="location_mode_battery_saving_description_wifionly">Für ungefähren Standort WLAN verwenden</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">Intelligente Auswahl von WLAN- oder mobilem Datennetz</string>
+    <string name="wifi_plus_description">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwechsel zu ermöglichen (WLAN-Datennutzung kann zunehmen). WLAN+ bewirkt Folgendes automatisch:
+1. Wechsel zwischen WLAN und mobilen Daten (mit Benachrichtigung), um ein reibungsloses Interneterlebnis zu ermöglichen.
+2. WLAN-Aktivierung im Empfangsbereich eines bekannten WLAN-Netzwerks und Herstellung der WLAN-Verbindung."</string>
+    <string name="wifi_plus_settings_title">Einstellungen mit WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">Intelligenter Wechsel zwischen WLAN und mobilen Datennetzwerken für ein besseres Interneterlebnis.</string>
+    <string name="wifi_plus_auto_turn_on_description">WLAN automatisch einschalten, wenn Sie sich einem bekannten Standort nähern.</string>
+    <string name="wifi_plus_global_description">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwechsel zu ermöglichen (WLAN-Datennutzung kann zunehmen). Automatisches WLAN+:
+1. Wechsel zwischen WLAN und mobilen Daten zur Bereitstellung einer reibungslosen Interneterfahrung.
+2. WLAN-Aktivierung im Empfangsbereich eines bekannten WLAN-Netzwerks und Herstellung der WLAN-Verbindung."</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS, WLAN und mobile Netzwerke verwenden</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN und mobile Netzwerke verwenden</string>
+    <string name="pgps_switch_summary">GPS-Daten für die Erfassung von in der Nähe befindlichen Mobilfunk-Basisstationen und WLAN-Daten zur schnelleren und genaueren Bereitstellung von Ortungsdiensten zulassen</string>
+    <string name="find_no_wlan_ap">WLAN-Hotspot konnte nicht gefunden werden.</string>
+    <string name="cannot_connect_wlan">WLAN-Verbindung nicht möglich.</string>
+    <string name="cannot_login_internet_with_wlan">Internetzugang über WLAN nicht möglich.</string>
+    <string name="wfd_connect_fail">WLAN-Verbindung fehlgeschlagen.</string>
+    <string name="find_no_wfd_device">WLAN Direct-Gerät konnte nicht gefunden werden.</string>
+    <string name="wfd_search_no_devices_causes">"Es wurden keine verfügbaren Geräte gefunden, unter Umständen liegen folgende Gründe vor:
+1. Das gekoppelte Gerät kann nicht entdeckt werden.
+2. Am gekoppelten Gerät treten technische Probleme auf. Versuchen Sie, das WLAN neu zu starten und öffnen Sie das WLAN direkt erneut.
+3. An Ihrem eigenen Gerät treten technische Probleme auf. Versuchen Sie, das WLAN neu zu starten und öffnen Sie das WLAN direkt erneut."</string>
+    <string name="wfd_connected_failed_causes">"Die Verbindung konnte nicht hergestellt werden. Mögliche Gründe:
+1. Das gekoppelte Gerät akzeptierte die Verbindungsanfrage nicht.
+2. Eines der Geräte hat bereits eine andere WLAN-Direktverbindung hergestellt.
+3. Am gekoppelten Gerät treten technische Probleme auf. Versuchen Sie, es erneut zu starten."</string>
+    <string name="wifi_qrcode_share_notice">Scannen Sie den QR-Code, um sich mit diesem WLAN-Netzwerk zu verbinden.</string>
+    <string name="devices_not_found_solution_title">Versuchen Sie Folgendes, wenn das Gerät nicht gefunden wird:</string>
+    <string name="devices_not_found_solution_message">"1. Stellen Sie sicher, dass das Gerät nach andern Geräten sucht.
+2. Wenn das Partnergerät Probleme bereitet, so starten Sie WLAN neu und verbinden Sie erneut mit WLAN Direct.
+3. Wenn Ihr Gerät Probleme bereitet, so starten Sie WLAN neu und verbinden Sie erneut mit WLAN Direct."</string>
+    <string name="devices_not_connected_solution_message">"1. Stellen Sie sicher, dass das Partnergerät die Verbindungsanfrage empfangen hat.
+2. Stellen Sie sicher, dass beide Geräte nicht mit andern Geräten verbunden sind.
+3. Wenn das Partnergerät Probleme bereitet, versuchen Sie erneut zu verbinden."</string>
+    <string name="wifi_plus_description_emui">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwechsel zu ermöglichen (WLAN-Datennutzung kann zunehmen). Automatisches WLAN+:
+1. Wechselt zwischen WLAN und mobilen Daten (sie können den Standardmodus in den mobilen Netzwerkeinstellungen festlegen), um ein reibungsloses Interneterlebnis zu ermöglichen.
+2. Aktiviert WLAN im Empfangsbereich eines bekannten WLAN-Netzwerks und verbindet sich damit."</string>
+    <string name="link_plus_live_update_description">Bei aktivierter Link+-Live-Aktualisierung aktualisiert Ihr Telefon die Daten der Kommunikationsparameter automatisch über Ihr Drahtlosnetzwerk (standardmäßig WLAN), um relevante Link+-Funktionen zu verbessern.</string>
+    <string name="wifi_plus_description_emui2">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwerkwechsel zu ermöglichen (WLAN-Datennutzung kann sich erhöhen). Automatisches WLAN+:
+1. Wechselt zwischen WLAN und mobilen Daten (Sie können den Standardmodus in den mobilen Netzwerkeinstellungen festlegen), um ein reibungsloses Interneterlebnis zu ermöglichen.
+2. Aktiviert WLAN im Empfangsbereich eines bekannten WLAN-Netzwerks und verbindet sich damit.
+3. Bewertet verfügbare WLAN-Netzwerke. Das Gerät stellt ohne Internetverbindung keine automatische Verbindung zu gespeicherten Netzwerken her.
+4. Ruft bei einigen kostenlosen WLAN-Hotspots den Bestätigungscode von der eingehenden SMS-Nachricht ab und meldet sich beim Netzwerk über den Browser an (derzeit nur in China unterstützt)."</string>
+    <string name="wifi_plus_global_description2">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwerkwechsel zu ermöglichen (WLAN-Datennutzung kann sich erhöhen). Automatisches WLAN+:
+1. Wechselt zwischen WLAN und mobilen Daten, um ein reibungsloses Interneterlebnis zu ermöglichen.
+2. Aktiviert WLAN im Empfangsbereich eines bekannten WLAN-Netzwerks und verbindet sich damit.
+3. Bewertet verfügbare WLAN-Netzwerke. Das Gerät stellt ohne Internetverbindung keine automatische Verbindung zu gespeicherten Netzwerken her."</string>
+    <string name="help_message">"1. Ihr Drucker und Telefon sind nicht mit demselben WLAN-Netzwerk verbunden.
+2. Ihr Drucker unterstützt nicht diesen Druckdienst (Rücksprache mit Hersteller halten).
+3. Bei der Suche kam es zu einer Zeitüberschreitung. Versuchen Sie es in diesem Fall erneut.
+4. Ihr Drucker ist abgestürzt. Starten Sie den Drucker neu und versuchen Sie es erneut."</string>
+    <string name="wifi_cloud_security_check_title">WLAN-Sicherheitsprüfung</string>
+    <string name="wifi_cloud_security_check_summary">Prüfen Sie die Sicherheitsstufe verbundener WLAN-Netzwerke über Telefonmanager und setzen Sie die automatische Verbindung mit gespeicherten Netzwerken aus, die Sicherheitsrisiken darstellen.</string>
+    <string name="wifi_plus_description_emui3">"Bei Aktivierung von WLAN+ wird Ihre WLAN-Verbindung bewertet, um einen intelligenten Netzwechsel zu ermöglichen, und die Optimierungsparameter über WLAN werden automatisch aktualisiert (WLAN-Datennutzung kann zunehmen). Automatisches WLAN+:
+1. Wechselt zwischen WLAN und mobilen Daten (Sie können den Standardmodus in den mobilen Netzwerkeinstellungen festlegen), um ein reibungsloses Interneterlebnis zu ermöglichen.
+2. Aktiviert WLAN im Empfangsbereich eines bekannten WLAN-Netzwerks und verbindet sich damit.
+3. Bewertet verfügbare WLAN-Netzwerke. Für gespeicherte Netzwerke ohne Internetzugang wird die automatische Verbindung ausgesetzt.
+4. Erkennt bei einigen kostenlosen WLAN-Hotspots den Bestätigungscode der eingehenden Bestätigungs-SMS und ruft diesen ab, und meldet sich beim Netzwerk automatisch über den Browser an (derzeit nur in China unterstützt)."</string>
+    <string name="user_add_user_message">"Sie können dieses Gerät für andere freigeben, indem Sie zusätzliche Benutzerprofile erstellen. Alle Benutzer verfügen über einen eigenen Bereich, in dem sie Apps, Hintergründe usw. anpassen können. Benutzer können außerdem Geräteeinstellungen anpassen, die alle Benutzer betreffen, z. B. WLAN.
+
+Beim Hinzufügen eines neuen Benutzers muss diese Person ihren eigenen Bereich einrichten.
+
+Jeder Benutzer kann Apps für alle anderen Benutzer aktualisieren."</string>
+    <string name="print_user_warning">Wenn Sie den Druckdienst aktivieren, sucht Ihr Gerät über die WLAN-Verbindung nach einem Drucker in der Nähe. Dies verursacht WLAN-Datenverkehr.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN-Anruf</string>
+    <string name="wifi_calling_dialog_title">WLAN aktivieren</string>
+    <string name="wifi_calling_dialog_message">Sofern aktiviert, können Sie keine Notrufe über das WLAN tätigen. Aktivieren?</string>
+    <string name="device_name_settings_summary">Wenn Sie Bluetooth, WLAN Direct und Tethering &amp; mobiler Hotspot verwenden, ist dieser Name für andere Geräte sichtbar.</string>
+    <string name="device_name_settings_dialog">Durch die Änderung des Gerätenamens wird die Verbindung mit dem aktuellen WLAN-Hotspot getrennt. Möchten Sie diese ändern?</string>
+    <string name="write_wifi_nfc_tag">In WLAN-NFC-Tag schreiben</string>
+    <string name="wifi_plus_smart_switch_title">Smartes Wechseln zw. WLAN u. mob. Daten</string>
+    <string name="wifi_plus_smart_switch_summary">WLAN-Konnektivität bewerten und zwischen WLAN (kann Verkehr erhöhen) und mobilen Daten wechseln, um die beste Netzwerkverbindung zu wählen. Standart-Wechselmodus ist in den Einstellungen für mobile Netzwerke festgelegt</string>
+    <string name="wifi_plus_smart_switch_summary_global">WLAN-Konnektivität bewerten und zwischen WLAN (kann Verkehr erhöhen) und mobilen Daten wechseln, um die beste Netzwerkverbindung zu wählen</string>
+    <string name="wifi_plus_auto_turn_title">WLAN autom. akt./deakt.</string>
+    <string name="wifi_plus_auto_turn_summary">Aktiviert WLAN im Empfangsbereich eines bekannten WLAN-Netzwerks und verbindet sich damit</string>
+    <string name="wifi_plus_quality_evaluation_title">Verfügbare WLAN-Netzwerke bewerten</string>
+    <string name="wifi_plus_quality_evaluation_summary">Verfügbare WLAN-Netzwerke überprüfen. Die automatische Verbindung wird bei gespeicherten Netzwerken, die keinen Internetzugriff besitzen, angehalten.</string>
+    <string name="wifi_plus_fast_connect_title">Anmeldeerlebnis f. kostenl. WLAN-Hotspots optim.</string>
+    <string name="wifi_plus_fast_connect_summary">Erkennt bei einigen kostenlosen WLAN-Hotspots den Bestätigungscode der eingehenden Bestätigungs-SMS, ruft diesen ab, und meldet sich beim Netzwerk automatisch über den Browser an (derzeit nur in Festland-China unterstützt)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Bei aktivierter Link+-Live-Aktualisierung aktualisiert Ihr Telefon Kommunikationsparameterdaten automatisch über Ihr Drahtlosnetzwerk (standardmäßig WLAN), um relevante Kommunikationsfunktionen zu verbessern.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Mobile Daten</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS und WLAN verwenden</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN verwenden</string>
+    <string name="wifi_bridge_use_help_new_details">"1. Die WLAN-Brücke erhöht den Übertragungsbereich und die Stärke von WLAN-Signalen erheblich. Andere Geräte können über Ihr Gerät mit Ihrem aktuellen WLAN-Netzwerk verbunden werden.
+2. Die WLAN-Brücke unterstützt den Zugriff von bis zu 4 Geräten.
+3. Die WLAN-Brücke kann nicht in Kombination mit einem WLAN-Hotspot und den WLAN Direct-Funktionen eingesetzt werden. Wenn die WLAN-Brücke aktiviert ist, funktionieren einige Apps mit P2P-Diensten möglicherweise nicht richtig.
+4. Bei der Verwendung der WLAN-Brücke wird mehr Akkuladung verwendet.
+5. Wenn Sie eine Nachricht erhalten, dass WLAN-Ressourcen von einem anderen Dienst verwendet werden, navigieren Sie zu „Einstellungen > WLAN > WLAN Direkt“ und trennen Sie alle verbundenen Geräte. Oder Sie können WLAN aus- und wieder einschalten, um alle Geräte automatisch zu trennen."</string>
+    <string name="wifi_qrcode_share_notice_new">Scannen, um eine Verbindung mit diesem WLAN-Netzwerk herzustellen</string>
+    <string name="location_help_scheme_body_one">"1. Stellen Sie sicher, dass \"Auf meinen Standort zugreifen\" aktiviert ist.
+2. Wählen Sie \"GPS, WLAN und mobile Netzwerke verwenden\" unter \"Standortmodus\" aus.
+3. Stellen Sie eine Verbindung zu einem WLAN-Hotspot her oder aktivieren Sie mobile Daten.
+4. Überprüfen Sie unter \"Telefonmanager > Berechtigungsmanager > Zugriff a. Standortinfos\", ob die derzeit verwendete App über die Standortberechtigung verfügt.
+5. Wenn für den Standortmodus die Option \"Nur GPS verwenden\" festgelegt ist, stellen Sie sicher, dass Sie den Standortzugriff in einer freien Umgebung ohne Hindernisse verwenden, wo in der Regel GPS-Signale empfangen werden können.
+6. Wenn Sie mit einem öffentlichen Hotspot verbunden sind, versuchen Sie, WLAN auszuschalten und mobile Daten zu aktivieren. Versuchen Sie dann erneut, den Standortzugriff zu verwenden."</string>
+    <string name="location_help_scheme_body_two">"1. Wählen Sie \"GPS, WLAN und mobile Netzwerke verwenden\" unter \"Standortmodus\" aus, um einen genaueren Standortzugriff zu erhalten.
+2. Wenn Sie eine Schutzhülle aus Metall für Ihr Gerät verwenden, nehmen Sie die Hülle ab oder verwenden Sie eine Hülle aus einem anderen Material. Versuchen Sie es anschließend erneut.
+3. Überprüfen Sie unter \"Telefonmanager > Berechtigungsmanager > Zugriff a. Standortinfos\", ob die derzeit verwendete App über die Standortberechtigung verfügt.
+4. Die Navigation funktioniert in großen Bereichen ohne Hindernisse besser. Positionieren Sie Ihr Telefon an eine Stelle in der Nähe der Windschutzscheibe Ihres Fahrzeugs, wie etwa auf dem Armaturenbrett oder in einen anderen Bereich Ihres Autos."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. Der WLAN-Verstärker erhöht den Übertragungsbereich und die Stärke von WLAN-Signalen erheblich. Andere Geräte können über Ihr Gerät mit Ihrem aktuellen WLAN-Netzwerk verbunden werden.
+%2$d. Der WLAN-Verstärker unterstützt den Zugriff von bis zu %6$d Geräten.
+%3$d. Der WLAN-Verstärker kann nicht in Kombination mit einem WLAN-Hotspot und den WLAN Direct-Funktionen eingesetzt werden. Wenn der WLAN-Verstärker aktiviert ist, funktionieren einige Apps mit P2P-Diensten möglicherweise nicht richtig.
+%4$d. Bei der Verwendung des WLAN-Verstärkers wird mehr Akkuladung verbraucht.
+%5$d. Wenn Sie eine Nachricht erhalten, dass WLAN-Ressourcen von einem anderen Dienst verwendet werden, gehen Sie zu „Einstellungen > WLAN > WLAN Direct“ und trennen Sie alle verbundenen Geräte. Alternativ können Sie WLAN deaktivieren und es dann wieder einschalten, um alle Geräte automatisch zu trennen."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Sie können ein tragbares WLAN-Hotspot-Gerät als Internet-Zugangspunkt verwenden. Peripheriegeräte können über WLAN mit Ihrem Gerät verbunden werden und angeschlossene Geräte können über das mobile Netzwerk auf das Internet zugreifen.
+%2$d. Bei der Verwendung als mobiler WLAN-Hotspot müssen Ihre mobilen Daten aktiviert sein und es werden Daten verbraucht.
+%3$d. Die Verwendung eines mobilen WLAN-Hotspots kann die Akkulaufzeit verkürzen."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Manuelle Verbindung:
+%2$d. Deaktivieren Sie das WLAN im Zielgerät und finden Sie den Hotspot %1$s.
+%3$d. Stellen Sie eine Verbindung zum Hotspot her."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. Stellen Sie sicher, dass \"Auf meinen Standort zugreifen\" aktiviert ist.
+%2$d. Wählen Sie \"GPS, WLAN und mobile Netzwerke verwenden\" unter \"Standortmodus\" aus.
+%3$d. Stellen Sie eine Verbindung zu einem WLAN-Hotspot her oder aktivieren Sie mobile Daten.
+%4$d. Überprüfen Sie unter \"Telefonmanager > Berechtigungsmanager > Zugriff a. Standortinfos\", ob die derzeit verwendete App über die Standortberechtigung verfügt.
+%5$d. Wenn für den Standortmodus die Option \"Nur GPS verwenden\" festgelegt ist, stellen Sie sicher, dass Sie den Standortzugriff in einer freien Umgebung ohne Hindernisse verwenden, wo in der Regel GPS-Signale empfangen werden können.
+%6$d. Wenn Sie mit einem öffentlichen Hotspot verbunden sind, versuchen Sie, WLAN auszuschalten und mobile Daten zu aktivieren. Versuchen Sie dann erneut, den Standortzugriff zu verwenden."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Wählen Sie \"GPS, WLAN und mobile Netzwerke verwenden\" unter \"Standortmodus\" aus, um einen genaueren Standortzugriff zu erhalten.
+%2$d. Wenn Sie eine Schutzhülle aus Metall für Ihr Gerät verwenden, nehmen Sie die Hülle ab oder verwenden Sie eine Hülle aus einem anderen Material. Versuchen Sie es anschließend erneut.
+%3$d. Überprüfen Sie unter \"Telefonmanager > Berechtigungsmanager > Zugriff a. Standortinfos\", ob die derzeit verwendete App über die Standortberechtigung verfügt.
+%4$d. Die Navigation funktioniert in freiliegenden Bereichen besser. Positionieren Sie Ihr Telefon an einer Stelle in der Nähe der Windschutzscheibe Ihres Fahrzeugs, wie etwa auf dem Armaturenbrett oder in einem anderen Bereich Ihres Autos."</string>
+    <string name="turn_off_data_saver_message">Die Datenverbrauchsoptimierung muss zur Nutzung eines mobilen Hotspots deaktiviert werden. Deaktivieren?</string>
+    <string name="first_wlan_hotspot_text">Über WLAN-Hotspot können Sie Ihre Netzwerkverbindung mit anderen teilen, was jedoch zu einer schnelleren Reduzierung der Akkukapazität und höheren Datennutzungsgebühren führt.</string>
+    <string name="hotspot_power_notification_title">WLAN-Hotspot deaktiviert</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN-Hotspot deaktiviert</string>
+    <string name="toast_entitle_wifi_need_close">Funktion kann bei aktiviertem WLAN nicht verwendet werden. Bitte deaktivieren Sie zuerst WLAN.</string>
+    <string name="wifi_activated_warning_Title">WLAN eingeschaltet</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Der mobile Hotspot und WLAN können nicht gleichzeitig deaktiviert werden. WLAN deaktivieren?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN muss jetzt deaktiviert werden. Es wird automatisch wieder aktiviert, wenn das Telefon wieder mit den Servern von AT&amp;Tkommuniziert.</string>
+    <string name="broadcast_ssid_is_show_dialog">Wenn Sie die Option Netzwerknamen übertragen (SSID) deaktivieren, ist Ihr Telefon für andere Geräte nicht sichtbar und wird nicht in der Liste der verfügbaren WLAN-Netzwerke angezeigt. Andere Geräte können sich immer noch mit Ihrem Hotspot verbinden, indem Sie manuell den Netzwerknamen eingeben.</string>
+    <string name="enable">Automatische Verbindung zu AT&amp;T-WLAN aktiviert</string>
+    <string name="disable">Automatische Verbindung zu AT&amp;T-WLAN deaktiviert</string>
+    <string name="auto_connect_wifi_suggestion">WLAN neu starten, damit die Einstellungen für die automatische Verbindung wirksam werden.</string>
+    <string name="wifi_network_detect_summary">Bei Verbindung mit einem WLAN-Hotspot auf Internetverfügbarkeit prüfen</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN wurde vom Geräteadministrator deaktiviert.</string>
+    <string name="wifi_required_info_text">Zum Abschluss der Einrichtung benötigt Ihr Tablet Zugriff auf das WLAN-Netzwerk. Nachdem die Einrichtung abgeschlossen ist, können Sie zwischen mobilen Daten und WLAN wechseln.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN-Frequenzband</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s verwaltet Ihr Gerät und verbietet das Ändern oder Löschen dieses WLAN-Netzwerks. Wenden Sie sich an Ihren Administrator, um weitere Informationen zu erhalten.</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/main_container" android:background="@color/pressure_experience_dialog_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.views.RoundImageView android:layout_gravity="center|top" android:id="@id/init_dialog_image" android:layout_width="245.0dip" android:layout_height="149.0dip" android:layout_margin="15.0dip" android:src="@drawable/pressure_experience_final" android:scaleType="centerCrop" settings:borderRadius="10.0dip" />
+</LinearLayout>

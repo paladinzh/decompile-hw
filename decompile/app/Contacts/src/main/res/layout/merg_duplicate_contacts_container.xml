@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <LinearLayout androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent">
+        <RelativeLayout androidhwext:layout_width="wrap_content" androidhwext:layout_height="match_parent" androidhwext:layout_marginStart="@dimen/contact_left_margin" androidhwext:layout_marginEnd="8dp"
+            <RelativeLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/action_view_layout" androidhwext:layout_width="wrap_content" androidhwext:layout_height="match_parent" androidhwext:layout_centerVertical="true" androidhwext:layout_alignParentEnd="true">
+                <CheckBox androidhwext:id="@+id/select" androidhwext:layout_width="wrap_content" androidhwext:layout_height="match_parent" androidhwext:contentDescription="@string/select_label" />
+            </RelativeLayout>
+            <Button androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/button" androidhwext:visibility="gone" androidhwext:layout_width="wrap_content" androidhwext:layout_height="match_parent" androidhwext:text="@string/merge_label" androidhwext:layout_centerVertical="true" androidhwext:paddingStart="10dp" androidhwext:layout_marginEnd="8dp" androidhwext:layout_toStartOf="@+id/action_view_layout" />
+            <LinearLayout androidhwext:orientation="vertical" androidhwext:id="@+id/contacts_container" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:layout_toStartOf="@+id/button" />
+        </RelativeLayout> />
+    <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+</FrameLayout>

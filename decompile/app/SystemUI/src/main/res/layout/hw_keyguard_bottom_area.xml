@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.hwlockscreen.HwKeyguardBottomArea xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:id="@id/hw_keyguard_bottom_area" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+    <RelativeLayout systemui:id="@r$id/front_content" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+        <FrameLayout systemui:id="@r$id/bottom_container" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:elevation="5dp" systemui:outlineProvider="none" />
+        <com.huawei.keyguard.view.CameraLayout systemui:id="@r$id/camera_container" systemui:paddingBottom="@dimen/camera_imageview_to_parent_bottom" systemui:layout_width="UNKNOWN_DATA_0x7f0e03d6" systemui:layout_height="UNKNOWN_DATA_0x7f0e03d7" systemui:layout_alignParentBottom="true" systemui:paddingEnd="@dimen/camera_imageview_to_parent_right" systemui:layout_alignParentEnd="true">
+            <ImageView systemui:id="@r$id/camera_imageview" systemui:focusable="true" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:src="@drawable/ic_camera" systemui:adjustViewBounds="true" systemui:layout_alignParentBottom="true" systemui:contentDescription="@r$string/camera_app_accessibility_description" systemui:layout_alignParentEnd="true" />
+        </com.huawei.keyguard.view.CameraLayout>
+    </RelativeLayout>
+</com.android.keyguard.hwlockscreen.HwKeyguardBottomArea>

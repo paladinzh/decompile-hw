@@ -1,0 +1,36 @@
+package com.android.internal.telephony.cdma;
+
+import com.android.internal.telephony.ProxyController;
+import com.android.internal.telephony.ServiceStateTracker;
+
+public class HwCustTelephonyPlusCode {
+    protected static final HwCustMccIddNddSid[] MccIddNddSidMap_support;
+    protected static final HwCustMccSidLtmOff[] MccSidLtmOffMap_support = new HwCustMccSidLtmOff[]{new HwCustMccSidLtmOff(310, 1, -20, -10), new HwCustMccSidLtmOff(404, 1, 11, 11), new HwCustMccSidLtmOff(310, 7, -20, -10), new HwCustMccSidLtmOff(404, 7, 11, 11), new HwCustMccSidLtmOff(310, 13, -20, -10), new HwCustMccSidLtmOff(454, 13, 16, 16), new HwCustMccSidLtmOff(310, 1111, -20, -10), new HwCustMccSidLtmOff(450, 1111, 18, 18), new HwCustMccSidLtmOff(310, 1112, -20, -10), new HwCustMccSidLtmOff(450, 1112, 18, 18), new HwCustMccSidLtmOff(310, 1113, -20, -10), new HwCustMccSidLtmOff(450, 1113, 18, 18), new HwCustMccSidLtmOff(310, 1700, -20, -10), new HwCustMccSidLtmOff(450, 1700, 18, 18), new HwCustMccSidLtmOff(310, 2177, -20, -10), new HwCustMccSidLtmOff(450, 2177, 18, 18), new HwCustMccSidLtmOff(310, 2179, -20, -10), new HwCustMccSidLtmOff(450, 2179, 18, 18), new HwCustMccSidLtmOff(310, 2181, -20, -10), new HwCustMccSidLtmOff(450, 2181, 18, 18), new HwCustMccSidLtmOff(310, 2183, -20, -10), new HwCustMccSidLtmOff(450, 2183, 18, 18), new HwCustMccSidLtmOff(310, 2185, -20, -10), new HwCustMccSidLtmOff(450, 2185, 18, 18), new HwCustMccSidLtmOff(310, 2187, -20, -10), new HwCustMccSidLtmOff(450, 2187, 18, 18), new HwCustMccSidLtmOff(310, 2189, -20, -10), new HwCustMccSidLtmOff(450, 2189, 18, 18), new HwCustMccSidLtmOff(310, 2191, -20, -10), new HwCustMccSidLtmOff(450, 2191, 18, 18), new HwCustMccSidLtmOff(310, 2193, -20, -10), new HwCustMccSidLtmOff(450, 2193, 18, 18), new HwCustMccSidLtmOff(310, 2195, -20, -10), new HwCustMccSidLtmOff(450, 2195, 18, 18), new HwCustMccSidLtmOff(310, 2197, -20, -10), new HwCustMccSidLtmOff(450, 2197, 18, 18), new HwCustMccSidLtmOff(310, 2199, -20, -10), new HwCustMccSidLtmOff(450, 2199, 18, 18), new HwCustMccSidLtmOff(310, 2201, -20, -10), new HwCustMccSidLtmOff(450, 2201, 18, 18), new HwCustMccSidLtmOff(310, 2203, -20, -10), new HwCustMccSidLtmOff(450, 2203, 18, 18), new HwCustMccSidLtmOff(310, 2205, -20, -10), new HwCustMccSidLtmOff(450, 2205, 18, 18), new HwCustMccSidLtmOff(310, 2207, -20, -10), new HwCustMccSidLtmOff(450, 2207, 18, 18), new HwCustMccSidLtmOff(310, 2209, -20, -10), new HwCustMccSidLtmOff(450, 2209, 18, 18), new HwCustMccSidLtmOff(310, 2211, -20, -10), new HwCustMccSidLtmOff(450, 2211, 18, 18), new HwCustMccSidLtmOff(310, 2213, -20, -10), new HwCustMccSidLtmOff(450, 2213, 18, 18), new HwCustMccSidLtmOff(310, 2215, -20, -10), new HwCustMccSidLtmOff(450, 2215, 18, 18), new HwCustMccSidLtmOff(310, 2217, -20, -10), new HwCustMccSidLtmOff(450, 2217, 18, 18), new HwCustMccSidLtmOff(310, 2219, -20, -10), new HwCustMccSidLtmOff(450, 2219, 18, 18), new HwCustMccSidLtmOff(310, 2221, -20, -10), new HwCustMccSidLtmOff(450, 2221, 18, 18), new HwCustMccSidLtmOff(310, 2223, -20, -10), new HwCustMccSidLtmOff(450, 2223, 18, 18), new HwCustMccSidLtmOff(310, 2225, -20, -10), new HwCustMccSidLtmOff(450, 2225, 18, 18), new HwCustMccSidLtmOff(310, 2227, -20, -10), new HwCustMccSidLtmOff(450, 2227, 18, 18), new HwCustMccSidLtmOff(310, 2229, -20, -10), new HwCustMccSidLtmOff(450, 2229, 18, 18), new HwCustMccSidLtmOff(310, 2231, -20, -10), new HwCustMccSidLtmOff(450, 2231, 18, 18), new HwCustMccSidLtmOff(310, 2233, -20, -10), new HwCustMccSidLtmOff(450, 2233, 18, 18), new HwCustMccSidLtmOff(310, 2235, -20, -10), new HwCustMccSidLtmOff(450, 2235, 18, 18), new HwCustMccSidLtmOff(310, 2237, -20, -10), new HwCustMccSidLtmOff(450, 2237, 18, 18), new HwCustMccSidLtmOff(310, 2239, -20, -10), new HwCustMccSidLtmOff(450, 2239, 18, 18), new HwCustMccSidLtmOff(310, 2241, -20, -10), new HwCustMccSidLtmOff(450, 2241, 18, 18), new HwCustMccSidLtmOff(310, 2243, -20, -10), new HwCustMccSidLtmOff(450, 2243, 18, 18), new HwCustMccSidLtmOff(310, 2301, -20, -10), new HwCustMccSidLtmOff(450, 2301, 18, 18), new HwCustMccSidLtmOff(310, 2303, -20, -10), new HwCustMccSidLtmOff(450, 2303, 18, 18), new HwCustMccSidLtmOff(310, 2369, -20, -10), new HwCustMccSidLtmOff(450, 2369, 18, 18), new HwCustMccSidLtmOff(310, 2370, -20, -10), new HwCustMccSidLtmOff(450, 2370, 18, 18), new HwCustMccSidLtmOff(310, 2371, -20, -10), new HwCustMccSidLtmOff(450, 2371, 18, 18), new HwCustMccSidLtmOff(450, 2222, 18, 18), new HwCustMccSidLtmOff(404, 2222, 11, 11), new HwCustMccSidLtmOff(440, 12461, 18, 18), new HwCustMccSidLtmOff(470, 12461, 12, 12), new HwCustMccSidLtmOff(440, 12463, 18, 18), new HwCustMccSidLtmOff(470, 12463, 12, 12), new HwCustMccSidLtmOff(440, 12464, 18, 18), new HwCustMccSidLtmOff(470, 12464, 12, 12)};
+
+    static {
+        r7 = new HwCustMccIddNddSid[23];
+        r7[1] = new HwCustMccIddNddSid(310, ProxyController.MODEM_1, 1, 2175, "011", ProxyController.MODEM_1);
+        r7[2] = new HwCustMccIddNddSid(311, ProxyController.MODEM_1, 2304, 7679, "011", ProxyController.MODEM_1);
+        r7[3] = new HwCustMccIddNddSid(312, ProxyController.MODEM_1, 0, 0, "011", ProxyController.MODEM_1);
+        r7[4] = new HwCustMccIddNddSid(313, ProxyController.MODEM_1, 0, 0, "011", ProxyController.MODEM_1);
+        r7[5] = new HwCustMccIddNddSid(314, ProxyController.MODEM_1, 0, 0, "011", ProxyController.MODEM_1);
+        r7[6] = new HwCustMccIddNddSid(315, ProxyController.MODEM_1, 0, 0, "011", ProxyController.MODEM_1);
+        r7[7] = new HwCustMccIddNddSid(316, ProxyController.MODEM_1, 0, 0, "011", ProxyController.MODEM_1);
+        r7[8] = new HwCustMccIddNddSid(334, "52", 24576, 25075, ServiceStateTracker.DEFAULT_MNC, "01");
+        r7[9] = new HwCustMccIddNddSid(334, "52", 25100, 25124, ServiceStateTracker.DEFAULT_MNC, "01");
+        r7[10] = new HwCustMccIddNddSid(404, "91", 14464, 14847, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[11] = new HwCustMccIddNddSid(425, "972", 8448, 8479, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[12] = new HwCustMccIddNddSid(428, "976", 15520, 15551, "002", ProxyController.MODEM_0);
+        r7[13] = new HwCustMccIddNddSid(440, "81", 12288, 13311, "010", ProxyController.MODEM_0);
+        r7[14] = new HwCustMccIddNddSid(450, "82", 2176, 2303, "00700", ProxyController.MODEM_0);
+        r7[15] = new HwCustMccIddNddSid(452, "84", 13312, 13439, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[16] = new HwCustMccIddNddSid(454, "852", 10640, 10655, "001", "");
+        r7[17] = new HwCustMccIddNddSid(455, "853", 11296, 11311, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[18] = new HwCustMccIddNddSid(460, "86", 13568, 14335, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[19] = new HwCustMccIddNddSid(460, "86", 25600, 26111, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[20] = new HwCustMccIddNddSid(466, "886", 13504, 13535, "005", "");
+        r7[21] = new HwCustMccIddNddSid(470, "880", 13472, 13503, ServiceStateTracker.DEFAULT_MNC, ProxyController.MODEM_0);
+        r7[22] = new HwCustMccIddNddSid(510, "62", 10496, 10623, "01033", ProxyController.MODEM_0);
+        MccIddNddSidMap_support = r7;
+    }
+}

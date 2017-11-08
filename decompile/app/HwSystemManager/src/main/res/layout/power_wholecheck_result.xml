@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/dividerLine" android:layout_alignParentBottom="true" style="@style/divider_line" />
+    <RelativeLayout android:id="@+id/result_optimize_time_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hsm_nuoyi_circleinfo_marginbottom" android:layout_above="@+id/dividerLine" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15sp" android:ellipsize="end" android:id="@+id/optimize_manual_itemNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/time_size_result_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/result_optimize_time_content">
+        <TextView android:textSize="50dp" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/time_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="13dp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/time_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/power_result_min" android:singleLine="true" android:layout_alignBottom="@+id/time_size" android:layout_marginStart="4dp" android:layout_toEndOf="@+id/time_size" />
+        <TextView android:textSize="13dp" android:id="@+id/time_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_optimize_time_extend" android:layout_above="@+id/time_size" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

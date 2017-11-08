@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_new_contact" android:id="@+id/menu_new_greeting" android:orderInCategory="1" android:title="@string/action_new_greeting" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_trash_normal" android:id="@+id/menu_delete" android:orderInCategory="2" android:title="@string/menu_deleteContact" android:showAsAction="always" />
+    <item android:id="@+id/menu_action_selectall" android:visible="false" android:orderInCategory="3" android:title="@string/contact_menu_select_all" android:showAsAction="always" />
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:orientation="horizontal" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:baselineAligned="true" androidhwext:minHeight="46dp" androidhwext:paddingStart="18dp" androidhwext:paddingEnd="8dp">
+        <RelativeLayout androidhwext:paddingTop="14dp" androidhwext:paddingBottom="14dp" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0" androidhwext:layout_marginEnd="28dp">
+            <TextView androidhwext:textSize="14sp" androidhwext:id="0x1020016" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:text="@string/location_data_manual_update_setting_option" androidhwext:singleLine="true" androidhwext:alpha="0.85" />
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010042" androidhwext:textSize="12dp" androidhwext:ellipsize="end" androidhwext:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:id="0x1020010" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="2" androidhwext:layout_below="0x1020016" androidhwext:alpha="0.65" />
+        </RelativeLayout>
+        <LinearLayout androidhwext:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:layout_width="UNKNOWN_DATA_0x1" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0">
+            <ImageView androidhwext:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:id="@+id/arrow" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:src="@drawable/btn_detail_normal" androidhwext:contentDescription="@string/btn_detail_description" />
+        </LinearLayout>
+    </LinearLayout>
+    <include androidhwext:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+</FrameLayout>

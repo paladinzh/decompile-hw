@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/storage_settings" settings:keywords="@string/keywords_storage"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/memory_settings_title" android:key="manage_memory" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.android.settings.PROCESS_STATS_SUMMARY" />
+    </Preference>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/storage_internal_title" android:key="storage_internal" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/storage_external_title" android:key="storage_external" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/storage_settings_title" android:key="category_storage_settings" android:order="100">
+        <com.android.settings.deviceinfo.StorageListPreference android:layout="@layout/preference_status" android:title="@string/default_storage_location_short" android:key="default_storage_location" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:layout="@layout/preference_status" android:title="@string/storage_cleaner" android:key="storage_cleaner" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="huawei.intent.action.HSM_STORAGE_CLEANER" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/net_app_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:visibility="gone" layout="@layout/common_empty_layout" />
+        <include android:id="@+id/rl_all_checkbox" layout="@layout/list_header_network" />
+        <include layout="@layout/divider_line_new" />
+        <ListView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include layout="@layout/divider_line_new" />
+    </LinearLayout>
+</RelativeLayout>

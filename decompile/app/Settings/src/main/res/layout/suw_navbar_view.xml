@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.setupwizardlib.view.NavigationBarButton android:id="@id/suw_navbar_back" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableLeft="@drawable/suw_navbar_ic_back" android:contentDescription="@string/suw_back_button_label" android:drawableStart="@drawable/suw_navbar_ic_back" style="@style/SuwNavBarButtonStyle" />
+    <View android:visibility="invisible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <com.android.setupwizardlib.view.NavigationBarButton android:gravity="end|center" android:id="@id/suw_navbar_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawableRight="@drawable/suw_navbar_ic_more" android:contentDescription="@string/suw_more_button_label" android:drawableEnd="@drawable/suw_navbar_ic_more" style="@style/SuwNavBarButtonStyle" />
+    <com.android.setupwizardlib.view.NavigationBarButton android:gravity="end|center" android:id="@id/suw_navbar_next" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/suw_next_button_label" android:drawableRight="@drawable/suw_navbar_ic_next" android:drawableEnd="@drawable/suw_navbar_ic_next" style="@style/SuwNavBarButtonStyle" />
+</merge>

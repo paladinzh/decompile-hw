@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_lock_and_password_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/lock_screen_category" android:key="other_category">
+        <PreferenceScreen android:persistent="false" android:layout="@layout/preference_status" android:title="@string/huawei_unlock_style_title" android:key="huawei_unlock_style" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="huawei.intent.action.HUAWEI_UNLOCK_STYLE" />
+        </PreferenceScreen>
+        <PreferenceScreen android:title="@string/magazine_unlock_title" android:key="magazine_unlock" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.keyguard" android:targetClass="com.huawei.keyguard.magazine.settings.MagazinePreferenceActivity" />
+        </PreferenceScreen>
+        <com.android.settings.SingleLineSummaryPreference android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/step_count_settings_title" android:key="step_count_settings" />
+        <PreferenceScreen android:persistent="false" android:layout="@layout/preference_status" android:title="@string/always_on_display_title" android:key="always_on_display" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="com.huawei.aodui.action.AOD_SETTINGS" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>

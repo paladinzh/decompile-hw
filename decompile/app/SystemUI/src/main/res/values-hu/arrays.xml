@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Kapcsolódás…</item>
+        <item>Hitelesítés...</item>
+        <item>IP-cím lekérése...</item>
+        <item>Csatlakozva</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Keresés...</item>
+        <item>Csatlakozás a(z) %1$s hálózathoz...</item>
+        <item>Hitelesítés a(z) %1$s hálózaton...</item>
+        <item>IP-cím lekérése a(z) %1$s hálózattól...</item>
+        <item>Kapcsolódva a(z) %1$s hálózathoz</item>
+        <item>Felfüggesztve</item>
+        <item>Kapcsolat bontása %1$s hálózattal...</item>
+        <item>Nincs kapcsolat</item>
+        <item>Sikertelen</item>
+        <item>Letiltva</item>
+        <item>A rossz minőségű kapcsolatok átmeneti elkerülése</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Soha ne ellenőrizze</item>
+        <item>Csak DRM-tartalom ellenőrzése</item>
+        <item>Mindig ellenőrizze</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Soha ne használjon HDCP ellenőrzést</item>
+        <item>Csak DRM-tartalomhoz használjon HDCP ellenőrzést</item>
+        <item>Mindig használjon HDCP ellenőrzést</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Ki</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Ki</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Ki</item>
+        <item>64 KB/naplópuffer</item>
+        <item>256 KB/naplópuffer</item>
+        <item>1 MB/naplópuffer</item>
+        <item>4 MB/naplópuffer</item>
+        <item>16 MB/naplópuffer</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animáció ki</item>
+        <item>Animáció tempója: 0,5x</item>
+        <item>Animáció tempója: 1x</item>
+        <item>Animáció tempója: 1,5x</item>
+        <item>Animáció tempója: 2x</item>
+        <item>Animáció tempója: 5x</item>
+        <item>Animáció tempója: 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Egyik sem</item>
+        <item>480p</item>
+        <item>480p (biztonságos)</item>
+        <item>720p</item>
+        <item>720p (biztonságos)</item>
+        <item>1080p</item>
+        <item>1080p (biztonságos)</item>
+        <item>4K</item>
+        <item>4K (biztonságos)</item>
+        <item>4K (felskálázott)</item>
+        <item>4K (felskálázott, biztonságos)</item>
+        <item>720p, 1080p (két képernyő)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Semelyik</item>
+        <item>Logcat</item>
+        <item>Systrace (grafika)</item>
+        <item>Verem meghívása glGetError esetén</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Kikapcsolva</item>
+        <item>Nem négyzetes kivágás kékkel</item>
+        <item>Tesztelt rajzolási parancsok kiemelése zölddel</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Ki</item>
+        <item>A képernyőn sávként</item>
+        <item>adb shell dumpsys gfxinfo elemben</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Ki</item>
+        <item>Tartalom-felülírási területek mutatása</item>
+        <item>A deuteranomália területeinek megjelenítése</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Normál korlátozás</item>
+        <item>Nincsenek háttérfolyamatok</item>
+        <item>Legfeljebb 1 folyamat</item>
+        <item>Legfeljebb 2 folyamat</item>
+        <item>Legfeljebb 3 folyamat</item>
+        <item>Legfeljebb 4 folyamat</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Töltés</item>
+        <item>MTP (Media Transfer Protocol, médiaátviteli protokoll)</item>
+        <item>PTP (Picture Transfer Protocol, képátviteli protokoll)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Hangforrás</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Nagyon lassú</item>
+        <item>Lassú</item>
+        <item>Normál</item>
+        <item>Gyors</item>
+        <item>Gyorsabb</item>
+        <item>Nagyon gyors</item>
+        <item>Igen gyors</item>
+        <item>Rendkívül gyors</item>
+        <item>Leggyorsabb</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Élénk (alapértelmezett)</item>
+        <item>Természetes</item>
+        <item>Normál</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Erős színek</item>
+        <item>Természetes színek, ahogyan azt az emberi szem is látja</item>
+        <item>Digitális tartalomhoz optimalizált színek</item>
+    </array>
+    <array name="clock_options">
+        <item>Óra, perc és másodperc megjelenítése</item>
+        <item>Óra és perc megjelenítése (alapértelmezett)</item>
+        <item>Ne jelenjen meg ez az ikon</item>
+    </array>
+    <array name="battery_options">
+        <item>Százalékos érték mindig látható</item>
+        <item>Százalékos érték töltés közben látható (alapértelmezett)</item>
+        <item>Ne jelenjen meg ez az ikon</item>
+    </array>
+</resources>

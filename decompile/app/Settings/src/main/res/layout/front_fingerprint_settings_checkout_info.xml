@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/abc_btn_check_to_on_mtrl_000_APKTOOL_DUPLICATENAME_0x7f020071" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/fp_startup_padding_start" android:paddingEnd="@dimen/fp_startup_padding_end">
+        <TextView android:id="@id/main_title" android:text="@string/fp_verification_title" style="@style/fpStartupMainTitleStyle" />
+        <View android:layout_marginTop="@dimen/divider_marginTop" style="@style/fpStartupDividerStyle" />
+        <ScrollView android:id="@id/anim_scroll" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip">
+                <TextView android:textSize="14.0sp" android:textColor="@color/color_85_alpha" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="8.0dip" android:text="@string/fp_verification_description" android:layout_alignParentStart="true" />
+                <GridLayout android:id="@id/keyguard_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+                    <ImageView android:id="@id/perm_icon1" android:layout_column="0" android:layout_row="0" style="@style/fpStartupDotStyle" />
+                    <TextView android:id="@id/title_key_guard_pref" android:layout_column="1" android:text="@string/title_key_guard_pref" android:layout_row="0" style="@style/fpStartupHelpTitleStyle" />
+                    <TextView android:id="@id/fp_unlock_description" android:layout_column="1" android:text="@string/fp_keyguard_notnone_open" android:layout_row="1" style="@style/fpStartupHelpSummaryStyle" />
+                </GridLayout>
+                <GridLayout android:id="@id/cabinet_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+                    <ImageView android:id="@id/perm_icon2" android:layout_column="0" android:layout_row="0" style="@style/fpStartupDotStyle" />
+                    <TextView android:id="@id/fp_confidential_cabinet" android:layout_column="1" android:text="@string/title_strong_box_pref" android:layout_row="0" style="@style/fpStartupHelpTitleStyle" />
+                    <TextView android:id="@id/fp_confidential_cabinet_description" android:layout_column="1" android:text="@string/fp_strongbox_notnone_open" android:layout_row="1" style="@style/fpStartupHelpSummaryStyle" />
+                </GridLayout>
+                <GridLayout android:id="@id/applock_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+                    <ImageView android:id="@id/perm_icon3" android:layout_column="0" android:layout_row="0" style="@style/fpStartupDotStyle" />
+                    <TextView android:id="@id/fp_app_lock" android:layout_column="1" android:text="@string/title_apps_security_pref" android:layout_row="0" style="@style/fpStartupHelpTitleStyle" />
+                    <TextView android:id="@id/fp_app_lock_description" android:layout_column="1" android:text="@string/fp_applock_notnone_open" android:layout_row="1" style="@style/fpStartupHelpSummaryStyle" />
+                </GridLayout>
+                <GridLayout android:id="@id/hw_account_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:rowCount="2" android:columnCount="2">
+                    <ImageView android:id="@id/perm_icon4" android:layout_column="0" android:layout_row="0" style="@style/fpStartupDotStyle" />
+                    <TextView android:id="@id/fp_hw_account" android:layout_column="1" android:text="@string/title_hw_account_pref" android:layout_row="0" style="@style/fpStartupHelpTitleStyle" />
+                    <TextView android:id="@id/fp_hw_account_description" android:layout_column="1" android:text="@string/summery_hw_account_pref" android:layout_row="1" style="@style/fpStartupHelpSummaryStyle" />
+                </GridLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View android:layout_marginBottom="@dimen/fp_startup_divider_style_bottom" style="@style/fpStartupDividerStyle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearLayout2" style="@style/fpStartupBottomButtonBarStyle">
+        <Button android:id="@id/skip_label" android:layout_width="0.0dip" android:text="@string/skip_label" android:layout_weight="1.0" android:contentDescription="@string/skip_label" android:layout_marginEnd="@dimen/fingerprint_settings_double_btn_distance" style="@style/fpStartupBottomTwoButtonBarStyle" />
+        <Button android:id="@id/fp_track" android:layout_width="0.0dip" android:text="@string/fp_start_enroll_button_text" android:layout_weight="1.0" android:contentDescription="@string/fp_pre_enroll_title" android:layout_marginStart="@dimen/fingerprint_settings_double_btn_distance" style="@style/fpStartupBottomTwoButtonBarStyle" />
+    </LinearLayout>
+</LinearLayout>

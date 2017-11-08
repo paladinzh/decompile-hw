@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:id="@+id/vendor_logo_img" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x3001" android:src="@drawable/img_avast_logo" />
+        <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/vendor_logo_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="2dp" android:layout_toEndOf="@+id/vendor_logo_img" />
+    </RelativeLayout>
+</RelativeLayout>

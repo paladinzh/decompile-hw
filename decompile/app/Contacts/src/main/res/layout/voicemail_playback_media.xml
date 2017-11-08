@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="4dp" android:layout_marginEnd="4dp">
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/playback_position_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/contact_calllog_duration_text_style" />
+    <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <SeekBar android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/playback_seek" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="0" android:progress="0" />
+    </LinearLayout>
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/total_duration_text" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/contact_calllog_duration_text_style" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/guidedactions_root" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" android:transitionName="guidedactions_root" android:transitionGroup="false">
+    <android.support.v17.leanback.widget.NonOverlappingView android:id="@id/guidedactions_list_background" android:background="?attr/guidedActionsBackgroundDark" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionName="guidedactions_list_background" />
+    <android.support.v17.leanback.widget.NonOverlappingFrameLayout android:id="@id/guidedactions_content" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionName="guidedactions_content" android:transitionGroup="false">
+        <android.support.v17.leanback.widget.VerticalGridView android:id="@id/guidedactions_list" android:transitionGroup="true" style="?attr/guidedActionsListStyle" />
+        <android.support.v17.leanback.widget.VerticalGridView android:id="@id/guidedactions_sub_list" android:background="?attr/guidedActionsBackgroundDark" android:visibility="invisible" android:transitionGroup="true" style="?attr/guidedSubActionsListStyle" />
+    </android.support.v17.leanback.widget.NonOverlappingFrameLayout>
+</RelativeLayout>

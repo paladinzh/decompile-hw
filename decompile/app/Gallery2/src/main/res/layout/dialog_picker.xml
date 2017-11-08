@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <include layout="@layout/gl_root_group" />
+    </FrameLayout>
+    <ImageView android:background="@drawable/btn_check_off_disable_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="0dp" android:layout_marginEnd="0dp" />
+    <Button android:id="@id/cancel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0x1040000" style="?unknown_attr_ref: 101032f" />
+</LinearLayout>

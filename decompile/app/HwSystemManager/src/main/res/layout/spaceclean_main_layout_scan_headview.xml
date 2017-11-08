@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:layout_width="match_parent" sm:layout_height="wrap_content">
+    <com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout sm:layout_width="match_parent" sm:layout_height="UNKNOWN_DATA_0x1" sm:heightString="16:9">
+        <ProgressBar sm:id="@+id/progress_bar" sm:layout_width="match_parent" sm:layout_height="UNKNOWN_DATA_0x201" sm:max="100" sm:progressDrawable="@drawable/spaceclean_progress_bg" sm:layout_alignParentTop="true" style="@*style/Widget.ProgressBar.Horizontal" />
+        <RelativeLayout sm:id="@+id/score_layout" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:layout_centerVertical="true">
+            <com.huawei.systemmanager.mainscreen.view.MainScreenRollingView sm:textSize="50dp" sm:textColor="@color/emui_list_primary_text" sm:id="@+id/score" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:layout_centerInParent="true" />
+            <TextView sm:textSize="13dp" sm:textColor="@color/emui_list_secondray_text" sm:id="@+id/score_unit" sm:paddingTop="40dp" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:paddingStart="4dp" sm:layout_toEndOf="@+id/score" />
+        </RelativeLayout>
+        <TextView sm:textSize="13dp" sm:textColor="@color/emui_list_secondray_text" sm:ellipsize="end" sm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/info" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:text="@string/scanning" sm:singleLine="true" sm:layout_below="@+id/score_layout" sm:paddingStart="@dimen/list_item_padding_start_end_emui" sm:paddingEnd="@dimen/list_item_padding_start_end_emui" />
+        <LinearLayout sm:id="@+id/spaceclean_scan_linearlayout" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:layout_alignParentTop="true" sm:layout_alignParentEnd="true">
+            <RelativeLayout sm:id="@+id/spaceclean_scan_spaceManager" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:layout_marginTop="16dp" sm:layout_alignParentTop="true" sm:layout_marginEnd="16dp" sm:layout_alignParentEnd="true">
+                <TextView sm:textSize="13dp" sm:textColor="@color/emui_list_secondray_text" sm:ellipsize="end" sm:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/spaceclean_scan_management_details" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:text="@string/space_clean_space_manager" sm:singleLine="true" sm:layout_centerVertical="true" sm:layout_marginEnd="4dp" />
+                <com.huawei.systemmanager.comm.widget.CommonClickImage sm:id="@+id/spaceclean_scan_list_arrow" sm:focusable="true" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:src="@drawable/ic_public_arrow" sm:layout_centerVertical="true" sm:layout_toEndOf="@+id/spaceclean_scan_management_details" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout>
+</RelativeLayout>

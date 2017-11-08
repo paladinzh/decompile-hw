@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/tips_view" android:tag="tips_view_tag" android:background="#99000000" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+    <TextView android:textSize="15sp" android:textColor="#ffffffff" android:id="@r$id/txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="36sp" android:text="@r$string/emui50_keyguard_swipe_magazine_tips" android:layout_above="@id/img" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_unlock_control_center_tips" android:layout_centerInParent="true" />
+</RelativeLayout>

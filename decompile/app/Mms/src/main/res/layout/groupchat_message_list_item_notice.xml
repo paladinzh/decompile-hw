@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.mms.ui.GroupChatNoticeMessageListItem xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background_transparent" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/mms_layout_view_super_parent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+        <com.huawei.mms.ui.SpandTextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="11sp" android:id="@+id/text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" android:textIsSelectable="true" style="@style/spantextview_style" />
+        <TextView android:textSize="9sp" android:textColor="#a5000000" android:id="@+id/date_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" android:layout_marginEnd="12dp" />
+    </LinearLayout>
+</com.android.mms.ui.GroupChatNoticeMessageListItem>

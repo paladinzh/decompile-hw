@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="fill_horizontal" android:id="@id/titleDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@android:drawable/APKTOOL_DUMMY_14" android:scaleType="fitXY" android:contentDescription="@null" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorAlertDialogListItem" android:gravity="center" android:id="@id/set_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/keyboard_layout_dialog_switch_hint" />
+</LinearLayout>

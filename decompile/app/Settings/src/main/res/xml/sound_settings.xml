@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/sound_settings" android:key="sound_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/all_volume_title" android:key="category_volume">
+        <com.android.settingslib.RestrictedPreference android:layout="@layout/preference_status" android:title="@string/all_volume_title" android:key="ring_volume" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="android.intent.action.TOOLBOX_ADJUST_VOLUME" />
+        </com.android.settingslib.RestrictedPreference>
+        <com.android.settings.CustomSwitchPreference android:title="@string/silent_mode_title" android:key="ring_volume_silent" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/vibirate_when_silent_title" android:key="vibirate_when_silent" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/sound_category_call_ringtone_vibrate_title" android:key="category_calls_and_notification" />
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/ringtone_title" android:key="ringtone" android:summary="@string/ringtone_summary" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/ringtone_title" android:ringtoneType="ringtone" />
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/ringtone_sim1_title_emui" android:key="ringtone1" android:summary="@string/ringtone_summary" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/ringtone_sim1_title_emtion" />
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/ringtone_sim2_title_emui" android:key="ringtone2" android:summary="@string/ringtone_summary" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/ringtone_sim2_title_emtion" />
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" />
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/vibrate_when_ringing_sim2_title" android:key="vibrate_when_ringing_sim2" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/karaoke_effect_settings_category" android:key="karaoke_effect_settings_category">
+        <Preference android:title="@string/karaoke_effect_settings_title" android:key="karaoke_effect_settings" android:summary="@string/karaoke_effect_settings_summary" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:action="com.huawei.android.karaokeeffect.KaraokeEffectSettingsActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/sound_category_feedback_title" android:key="sound_category_feedback" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/dolby_digital_plus_settings_title" android:key="dolby_mobile_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.android.globaldolbyeffect.GlobalDolbyEffectActivity" />
+    </Preference>
+    <com.android.settings.DefaultRingtonePreference android:persistent="false" android:layout="@layout/preference_status" android:title="@string/notification_sound_title_emotion2" android:key="notification_sound" android:summary="@string/ringtone_summary" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/notification_sound_title_emotion2" android:ringtoneType="notification" />
+    <Preference android:title="@string/dts_mode_enable_title" android:key="earphone_effect" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:permission="com.huawei.hpxsettings.LAUNCH_HPX_SETTINGS" android:action="android.settings.DTS_HEADPHONEX_SETTINGS" />
+    </Preference>
+    <com.android.settings.CustomSwitchPreference android:title="@string/dts_mode_enable_title" android:key="hw_dts" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/hpx_mode_enable_title" android:key="hw_hpx" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/stereo_mode_enable_title" android:key="hw_stereo" android:summary="@string/stereo_mode_enable_summary" android:defaultValue="true" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/musicfx_title" android:key="musicfx" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.android.musicfx" android:targetClass="com.android.musicfx.ControlPanelPicker" />
+    </Preference>
+    <com.android.settings.CustomSwitchPreference android:title="@string/ascend_title" android:key="ascend_ringtone" android:defaultValue="true" />
+    <ListPreference android:persistent="false" android:entries="@array/dialpad_entries" android:layout="@layout/preference_status" android:title="@string/dtmf_tone_enable_title_EMUI_5" android:key="dtmf_tone" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/dialpad_entries_values" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/sound_effects_enable_title" android:key="sound_effects" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/lock_sounds_enable_title" android:key="lock_sounds" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/shot_sounds_enable_title" android:key="shot_sounds" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/haptic_feedback_enable_title" android:key="haptic_feedback" android:summary="@string/haptic_feedback_enable_summary" android:defaultValue="true" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/physical_navi_key_haptic_feedback_title" android:key="physical_navi_haptic_feedback" android:summary="@string/physical_navi_key_haptic_feedback_summary" android:defaultValue="true" />
+    <ListPreference android:entries="@array/emergency_tone_entries" android:layout="@layout/preference_status" android:title="@string/emergency_tone_title" android:key="emergency_tone" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/emergency_tone_values" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/dock_settings" android:key="dock_category" />
+    <PreferenceScreen android:title="@string/dock_audio_settings_title" android:key="dock_audio">
+        <com.android.settings.CustomSwitchPreference android:enabled="true" android:title="@string/bluetooth_dock_settings_a2dp" android:key="dock_audio_media_enabled" />
+    </PreferenceScreen>
+    <com.android.settings.CustomSwitchPreference android:title="@string/dock_sounds_enable_title" android:key="dock_sounds" android:defaultValue="false" />
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/power_on_tone_title" android:key="system_boot_shut_sound" />
+    <com.android.settingslib.RestrictedPreference android:title="@string/cell_broadcast_settings" android:key="cell_broadcast_settings" android:widgetLayout="@layout/preference_widget_arrow" settings:useAdminDisabledSummary="true">
+        <intent android:targetPackage="com.android.cellbroadcastreceiver" android:action="android.intent.action.MAIN" android:targetClass="com.android.cellbroadcastreceiver.ui.CellBroadcastSettings" />
+    </com.android.settingslib.RestrictedPreference>
+</PreferenceScreen>

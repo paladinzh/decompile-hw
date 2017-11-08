@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/contact_menuitem_share" android:title="@string/contact_menu_share_contacts" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_detail_add_to_blacklist" android:title="@string/contact_menu_add_to_blacklist" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_copy_contact" android:visible="false" android:title="@string/copy_to_label" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_send_number" android:title="@string/recentCalls_sendNumberByMMS" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_detail_reset_mark" android:title="@string/contact_menu_detail_reset_mark" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_send_to_voicemail" android:title="@string/menu_redirect_calls_to_vm" android:checkable="true" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_join_contacts" android:title="@string/titleJoinContactDataWith" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_separate_contacts" android:title="@string/string_separate_contacts" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_create_contact_shortcut" android:title="@string/menu_create_contact_shortcut" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_delete" android:title="@string/menu_delete_contact" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_mark_as" android:title="@string/menu_mark_as" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@+id/menu_delete_calllog" android:title="@string/recentCalls_deleteAll" android:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

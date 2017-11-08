@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/persistent_notification"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/persistent_notification" android:key="persistent_notification" android:summary="@string/persistent_notification_summary" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/repeat_interval" android:key="repeat_interval" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

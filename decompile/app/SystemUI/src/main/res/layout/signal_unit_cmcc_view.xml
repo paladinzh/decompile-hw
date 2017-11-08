@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalUnitCmccView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/mobile_data" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.emui.tint.TintImageView android:id="@id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.emui.tint.TintImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/mobile_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <com.android.emui.tint.TintImageView android:id="@id/td_mobile_type_roam" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.emui.tint.TintImageView android:id="@id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.emui.tint.TintImageView android:id="@id/mobile_signal_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.emui.tint.TintImageView android:id="@id/mobile_signal_slave" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <com.android.emui.tint.TintImageView android:id="@id/mobile_type_slave" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.SignalUnitCmccView>

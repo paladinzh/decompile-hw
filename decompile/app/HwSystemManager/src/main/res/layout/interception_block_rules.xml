@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext " androidhwext:orientation="vertical" androidhwext:id="@+id/no_whitelist_view" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent">
+    <include androidhwext:id="@+id/duacardset" layout="@layout/common_list_item_singleline_switch" />
+    <TextView androidhwext:id="@+id/dualcard_divider" androidhwext:layout_width="match_parent" androidhwext:layout_height="UNKNOWN_DATA_0x801" style="?unknown_attr_ref: 1010208" />
+    <huawei.android.widget.SubTabWidget androidhwext:id="@+id/subTab_layout" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" />
+    <com.huawei.systemmanager.comm.widget.CustomViewPager androidhwext:id="@+id/view_pager" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" />
+</LinearLayout>

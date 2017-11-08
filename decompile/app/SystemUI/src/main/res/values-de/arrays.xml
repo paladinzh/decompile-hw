@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Suche…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Suche…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nie prüfen</item>
+        <item>Nur auf DRM-Inhalte prüfen</item>
+        <item>Immer prüfen</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP-Prüfung nie verwenden</item>
+        <item>HDCP-Prüfung nur für DRM-Inhalte verwenden</item>
+        <item>HDCP-Prüfung immer verwenden</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Aus</item>
+        <item>64.000</item>
+        <item>256.000</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Aus</item>
+        <item>64.000 pro Puffer</item>
+        <item>256.000 pro Puffer</item>
+        <item>1 MB pro Puffer</item>
+        <item>4 MB pro Puffer</item>
+        <item>16 MB pro Puffer</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsmaßstab: 0,5x</item>
+        <item>Animationsmaßstab: 1x</item>
+        <item>Animationsmaßstab: 1,5x</item>
+        <item>Animationsmaßstab: 2x</item>
+        <item>Animationsmaßstab: 5x</item>
+        <item>Animationsmaßstab: 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsmaßstab: 0,5x</item>
+        <item>Animationsmaßstab: 1x</item>
+        <item>Animationsmaßstab: 1,5x</item>
+        <item>Animationsmaßstab: 2x</item>
+        <item>Animationsmaßstab: 5x</item>
+        <item>Animationsmaßstab: 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animation aus</item>
+        <item>Animationsmaßstab: 0,5x</item>
+        <item>Animationsmaßstab: 1x</item>
+        <item>Animationsmaßstab: 1,5x</item>
+        <item>Animationsmaßstab: 2x</item>
+        <item>Animationsmaßstab: 5x</item>
+        <item>Animationsmaßstab: 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Keine</item>
+        <item>480p</item>
+        <item>480p (sicher)</item>
+        <item>720p</item>
+        <item>720p (sicher)</item>
+        <item>1080p</item>
+        <item>1080p (sicher)</item>
+        <item>4K</item>
+        <item>4K (sicher)</item>
+        <item>4K (hochskaliert)</item>
+        <item>4K (hochskaliert, sicher)</item>
+        <item>720p, 1080p (Dual-Screen)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Keine</item>
+        <item>Logcat</item>
+        <item>Systrace (Grafik)</item>
+        <item>Aufrufliste für glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Aus</item>
+        <item>Nicht rechteckigen Clipbereich blau zeichnen</item>
+        <item>Getestete Zeichenbefehle grün hervorheben</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Aus</item>
+        <item>Auf Bildschirm als Balken</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Aus</item>
+        <item>Overdraw-Bereiche anzeigen</item>
+        <item>Bereiche für Deuteranomalie anzeigen</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standardlimit</item>
+        <item>Keine Hintergrundprozesse</item>
+        <item>Höchstens 1 Prozess</item>
+        <item>Höchstens 2 Prozesse</item>
+        <item>Höchstens 3 Prozesse</item>
+        <item>Höchstens 4 Prozesse</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Wird aufgeladen</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Audioquelle</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Sehr langsam</item>
+        <item>Langsam</item>
+        <item>Mittel</item>
+        <item>Schnell</item>
+        <item>Schneller</item>
+        <item>Sehr schnell</item>
+        <item>Schnell</item>
+        <item>Sehr schnell</item>
+        <item>Am schnellsten</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Brillant (Standardeinstellung)</item>
+        <item>Natürlich</item>
+        <item>Standard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Verstärkte Farben</item>
+        <item>Natürliche Farben wie vom Auge wahrgenommen</item>
+        <item>Für digitale Inhalte optimierte Farben</item>
+    </array>
+    <array name="clock_options">
+        <item>Stunden, Minuten und Sekunden anzeigen</item>
+        <item>Stunden und Minuten anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </array>
+    <array name="battery_options">
+        <item>Prozentwert immer anzeigen</item>
+        <item>Prozentwert beim Laden anzeigen (Standardeinstellung)</item>
+        <item>Dieses Symbol nicht anzeigen</item>
+    </array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <ScrollView android:id="@id/scroll_root" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/state_root" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </ScrollView>
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/foot_background_1" android:background="@drawable/bg_toolbar_mask_top" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1801" android:contentDescription="@string/ok" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/foot_background_2" android:background="@drawable/bg_toolbar_mask_bottom" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1801" android:contentDescription="@string/cancel" />
+</FrameLayout>

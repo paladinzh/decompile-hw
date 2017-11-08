@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="harassment_settings">
+    <SwitchPreference androidhwext:persistent="true" androidhwext:title="@string/harassment_interception_message_title" androidhwext:key="harassment_interceptionsetting" androidhwext:summary="@string/harassment_interception_summary_configurable" androidhwext:defaultValue="true" androidhwext:preferenceID="@+id/prefs_harassment_interceptionsetting" />
+    <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emu12" />
+    <Preference androidhwext:title="@string/harassment_interception_rule_title" androidhwext:key="harassment_rules" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_harassment_rules" />
+    <PreferenceCategory androidhwext:title="@string/harassmentInterceptionBlackWhitelistTitle_subtitle" androidhwext:key="harassment_blackwhitelist_category">
+        <TextArrowPreference androidhwext:title="@string/harassmentInterception_blacklist_number" androidhwext:key="harassment_blacklist_entrance" androidhwext:preferenceID="@+id/prefs_harassment_blacklist_entrance" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui13" />
+        <TextArrowPreference androidhwext:title="@string/harassmentInterception_blacklist_keywords" androidhwext:key="harassment_keywords_entrance" androidhwext:preferenceID="@+id/prefs_harassment_keywords_entrance" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui14" />
+        <TextArrowPreference androidhwext:title="@string/harassmentInterception_whitelist_number" androidhwext:key="harassment_whitelist_entrance" androidhwext:preferenceID="@+id/prefs_harassment_whitelist_entrance" />
+    </PreferenceCategory>
+    <PreferenceCategory androidhwext:title="@string/harassment_setting_other_setting" androidhwext:key="harassment_update_depot_category">
+        <TextArrowPreference androidhwext:title="@string/harassmentInterception_notify_rule_title" androidhwext:key="harassment_notificationsetting" androidhwext:preferenceID="@+id/prefs_harassmentInterception_notify_rule_title" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui15" />
+        <Preference androidhwext:title="@string/harassment_manual_update_title" androidhwext:key="harassment_manual_update" androidhwext:preferenceID="@+id/prefs_harassment_manual_update_title" />
+        <TextArrowPreference androidhwext:title="@string/harassment_auto_update_intell_title" androidhwext:key="harassment_auto_update" androidhwext:preferenceID="@+id/prefs_harassment_auto_update_intell_title" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:key="split_line_emui16" androidhwext:preferenceID="@+id/prefs_split_line_emui16" />
+    </PreferenceCategory>
+</PreferenceScreen>

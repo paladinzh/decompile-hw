@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_tether_checkbox_text"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/wifi_tether_checkbox_text" android:key="enable_wifi_ap" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifiap_settings" android:key="wifiap_settings">
+        <Preference android:persistent="false" android:title="@string/wifi_tether_configure_ap_text" android:key="wifi_ap_ssid_and_security" android:summary="@string/wifiap_settings_summary" android:widgetLayout="@layout/preference_widget_arrow" />
+        <com.android.settings.wifi.ap.CustListPreference android:persistent="false" android:layout="@layout/preference_two_summay" android:title="@string/wifiap_one_usage_limit_title" android:key="wifiap_one_usage_limit" android:widgetLayout="@layout/preference_widget_arrow" />
+        <Preference android:persistent="false" android:title="@string/wifiap_manager_ap_devices" android:key="wifiap_manager_ap_devices" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$WifiApClientManagementActivity" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/wifiap_use_help_title" android:key="wifiap_use_help_category">
+        <Preference android:persistent="false" android:layout="@layout/preference_text" android:selectable="false" android:key="wifiap_use_help_content" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+</PreferenceScreen>

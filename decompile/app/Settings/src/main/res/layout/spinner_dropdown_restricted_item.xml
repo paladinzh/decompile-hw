@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="marquee" android:id="@android:id/text1" android:layout_width="0.0dip" android:layout_height="?android:listPreferredItemHeightSmall" android:singleLine="true" android:layout_weight="1.0" style="?android:attr/spinnerDropDownItemStyle" />
+    <ImageView android:gravity="end|center" android:id="@id/restricted_icon" android:visibility="gone" android:layout_width="@dimen/restricted_icon_size" android:layout_height="@dimen/restricted_icon_size" android:src="@drawable/ic_info" android:baselineAlignBottom="true" android:layout_marginEnd="@dimen/restricted_icon_padding" />
+</LinearLayout>

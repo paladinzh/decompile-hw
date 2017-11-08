@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/data_usage_restrict_background_wait" />
+    <ProgressBar android:id="@id/down_pb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" style="?android:attr/progressBarStyleHorizontal" mce_style="?android:attr/progressBarStyleHorizontal" />
+</LinearLayout>

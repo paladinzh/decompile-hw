@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/addview_app_item_icon" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_centerVertical="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" android:layout_alignParentStart="true" />
+        <Switch android:textSize="@dimen/prevent_list_title_size" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/addview_app_item_button" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/addview_app_item_button" android:layout_toEndOf="@+id/addview_app_item_icon">
+            <TextView android:textSize="15sp" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:id="@+id/addview_app_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/addview_app_item_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/app_restrict" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

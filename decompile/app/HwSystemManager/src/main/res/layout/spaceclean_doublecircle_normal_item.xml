@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.huawei.systemmanager.spacecleanner.view.RoundCircleView android:id="@+id/circle_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" style="@style/space_clean_roundcircle_view_style" />
+    <ImageView android:id="@+id/phone_space_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="0x0" />
+    <com.huawei.systemmanager.spacecleanner.view.CompleteView android:id="@+id/complete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

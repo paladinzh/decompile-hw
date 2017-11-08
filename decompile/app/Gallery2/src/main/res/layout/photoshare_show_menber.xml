@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/group_title" android:text="@string/photoshare_group_member" android:height="32dp" style="?unknown_attr_ref: 1010208" />
+        <com.huawei.gallery.photoshare.ui.PhotoShareEditFriendsGridview android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/group_member" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:horizontalSpacing="0dp" android:verticalSpacing="12dp" android:stretchMode="columnWidth" android:columnWidth="@dimen/photoshare_member_width" android:layout_below="@id/group_title" android:layout_marginStart="10dp" android:layout_marginEnd="10dp" />
+    </RelativeLayout>
+</ScrollView>

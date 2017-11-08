@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/com.android.contacts" ex:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" ex:orientation="vertical" ex:id="@+id/contacts_dialpad" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:stretchColumns="0,1,2" ex:layoutDirection="ltr">
+    <View ex:id="@+id/line_horizontal_top_table0" ex:background="@drawable/line_horizontal" ex:visibility="gone" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d01ec" />
+    <TableRow ex:id="@+id/table0" ex:visibility="gone" ex:layout_width="wrap_content" ex:layout_height="wrap_content" ex:layoutDirection="locale">
+        <LinearLayout ex:id="@+id/new_contact" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton ex:id="@+id/dialer_selector_new_contact" ex:contentDescription="@string/pickerNewContactText" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:text="@string/pickerNewContactText" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout ex:id="@+id/add_exist_contact" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton ex:id="@+id/dialer_selector_add_exist_contact" ex:contentDescription="@string/contact_saveto_existed_contact" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:id="@+id/saveto_existed_contact" ex:text="@string/contact_saveto_existed_contact" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout ex:id="@+id/video_call_button" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton ex:src="@drawable/ic_dialer_selector_video_call" ex:contentDescription="@string/contact_menu_video_call" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:id="@+id/video_call_text" ex:text="@string/contact_menu_video_call" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout ex:id="@+id/send_sms" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton ex:id="@+id/dialer_selector_send_sms" ex:contentDescription="@string/contact_menu_send_message" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:text="@string/contact_menu_send_message" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout ex:id="@+id/encrypt_call" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageButton ex:id="@+id/dialer_selector_encrypt_call" ex:src="@drawable/ic_contacts_encryption_dial" ex:scaleType="fitXY" ex:contentDescription="@string/encrypt_call" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:text="@string/encrypt_call" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+        <LinearLayout ex:id="@+id/rcs_call_view" ex:visibility="gone" style="@style/DialtactsDialpadFunctionButtonStyle">
+            <ImageView ex:id="@+id/rcs_call_icon" ex:src="@drawable/pre_call_mark_icon" ex:contentDescription="0x0" style="@style/DialtactsDialpadFunctionImageButtonStyle" />
+            <TextView ex:id="@+id/rcs_call_text" ex:text="@string/rcs_call_view_text" style="@style/DialtactsDialpadFunctionTextStyle" />
+        </LinearLayout>
+    </TableRow>
+    <View ex:id="@+id/dialpad_line" ex:background="@drawable/line_horizontal" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d034c" />
+    <View ex:id="@+id/white_space" ex:background="0x106000d" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x7f0d0345" />
+    <TableRow ex:id="@+id/table1" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x0" ex:layout_weight="1.0" ex:paddingStart="@dimen/dialpad_table_row_padding_start" ex:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_one" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_1_blk" ex:contentDescription="@string/description_image_button_one" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_two" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_2_blk" ex:contentDescription="@string/description_image_button_two" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_three" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_3_blk" ex:contentDescription="@string/description_image_button_three" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow ex:id="@+id/table2" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x0" ex:layout_weight="1.0" ex:paddingStart="@dimen/dialpad_table_row_padding_start" ex:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_four" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_4_blk" ex:contentDescription="@string/description_image_button_four" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_five" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_5_blk" ex:contentDescription="@string/description_image_button_five" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_six" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_6_blk" ex:contentDescription="@string/description_image_button_six" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow ex:id="@+id/table3" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x0" ex:layout_weight="1.0" ex:paddingStart="@dimen/dialpad_table_row_padding_start" ex:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_seven" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_7_blk" ex:contentDescription="@string/description_image_button_seven" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_eight" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_8_blk" ex:contentDescription="@string/description_image_button_eight" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_nine" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_9_blk" ex:contentDescription="@string/description_image_button_nine" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow ex:id="@+id/table4" ex:layout_width="match_parent" ex:layout_height="UNKNOWN_DATA_0x0" ex:layout_weight="1.0" ex:paddingStart="@dimen/dialpad_table_row_padding_start" ex:paddingEnd="@dimen/dialpad_table_row_padding_end">
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_star" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/xing" ex:contentDescription="@string/description_image_button_star" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_zero" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/dial_num_0_blk" ex:contentDescription="@string/description_image_button_zero" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+        <LinearLayout ex:orientation="vertical" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="UNKNOWN_DATA_0x7f0d005d" ex:layout_weight="1.0">
+            <com.android.contacts.hap.widget.DialpadButton ex:id="@+id/contacts_dialpad_pound" ex:background="@drawable/contacts_item_background_material" ex:src="@drawable/jing" ex:contentDescription="@string/description_image_button_pound" ex:dialpad_btn_background="@drawable/dial_num_bakground" style="@style/DialtactsDialpadButtonStyle" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

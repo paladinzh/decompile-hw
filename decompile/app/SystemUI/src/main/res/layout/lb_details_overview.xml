@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res-auto" lb:paddingBottom="@dimen/lb_details_overview_margin_bottom" lb:focusable="true" lb:focusableInTouchMode="true" lb:clipToPadding="false" lb:descendantFocusability="afterDescendants" lb:layout_width="match_parent" lb:layout_height="wrap_content" lb:paddingStart="@dimen/lb_details_overview_margin_start" lb:paddingEnd="@dimen/lb_details_overview_margin_end"
+    <FrameLayout lb:id="@id/details_frame" lb:layout_width="match_parent" lb:layout_height="UNKNOWN_DATA_0x7f0e00a8" lb:foreground="#ffffff" lb:elevation="@dimen/lb_details_overview_z">
+        <LinearLayout lb:orientation="horizontal" lb:id="@id/details_overview" lb:layout_width="match_parent" lb:layout_height="match_parent">
+            <ImageView lb:id="@id/details_overview_image" lb:layout_width="wrap_content" lb:layout_height="match_parent" lb:scaleType="fitStart" lb:adjustViewBounds="true" />
+            <LinearLayout lb:orientation="vertical" lb:id="@id/details_overview_right_panel" lb:paddingBottom="@dimen/lb_details_overview_description_margin_bottom" lb:layout_width="match_parent" lb:layout_height="match_parent">
+                <android.support.v17.leanback.widget.NonOverlappingFrameLayout lb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" lb:id="@id/details_overview_description" lb:paddingTop="@dimen/lb_details_overview_description_margin_top" lb:clipChildren="false" lb:clipToPadding="false" lb:layout_width="match_parent" lb:layout_height="UNKNOWN_DATA_0x1" lb:layout_weight="1.0" lb:layout_marginStart="@dimen/lb_details_overview_description_margin_start" lb:layout_marginEnd="@dimen/lb_details_overview_description_margin_end" />
+                <android.support.v17.leanback.widget.HorizontalGridView lb:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" lb:id="@id/details_overview_actions" lb:focusable="true" lb:focusableInTouchMode="true" lb:clipChildren="false" lb:clipToPadding="false" lb:layout_width="match_parent" lb:layout_height="wrap_content" lb:paddingStart="@dimen/lb_details_overview_description_margin_start" lb:paddingEnd="@dimen/lb_details_overview_description_margin_end" lb:horizontalMargin="@dimen/lb_details_overview_action_items_margin" lb:rowHeight="@dimen/lb_details_overview_actions_height" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

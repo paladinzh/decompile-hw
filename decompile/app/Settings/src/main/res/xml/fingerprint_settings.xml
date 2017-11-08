@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/fp_settings_entry_title" android:key="fingerprint_settings_root"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/title_fp_uses_cat" android:key="fp_uses_cat">
+        <com.android.settings.CustomSwitchPreference android:persistent="true" android:title="@string/title_key_guard_pref" android:key="key_guard_pref" android:summary="" />
+        <com.android.settings.CustomSwitchPreference android:persistent="true" android:title="@string/title_strong_box_pref" android:key="strong_box_pref" android:summary="" />
+        <com.android.settings.CustomSwitchPreference android:persistent="true" android:title="@string/title_apps_security_pref" android:key="app_lock_pref" android:summary="@string/summery_apps_security_pref" />
+        <com.android.settings.CustomSwitchPreference android:persistent="true" android:title="@string/title_hw_account_pref" android:key="hw_account_pref" android:summary="" />
+        <com.android.settings.fingerprint.ShortcutPaymentPreference android:layout="@layout/preference_two_summay" android:title="@string/shortcut_payment_hwpay_title" android:key="shortcut_payment" android:widgetLayout="@layout/preference_widget_arrow" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="fp_vibration_cat">
+        <com.android.settings.CustomSwitchPreference android:key="fp_vibration_pref" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/title_fp_list_cat" android:key="fp_list_cat">
+        <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/add_new_fingerprint" android:key="add_new_fp" android:order="12" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.fingerprint.enrollment.FingerprintEnrollFragment" />
+    </PreferenceCategory>
+</PreferenceScreen>

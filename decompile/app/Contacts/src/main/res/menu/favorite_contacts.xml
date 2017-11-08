@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/favorite_options">
+        <item android:icon="@drawable/ic_new_contact" android:id="@+id/favorites_menu_add_sharred_members" android:visible="true" android:title="@string/contact_menu_add_favorites" android:showAsAction="always" />
+        <item android:icon="@drawable/contacts_ic_edit" android:id="@+id/favorites_menu_edit_starred_member" android:visible="true" android:title="@string/menu_editContact" android:showAsAction="always" />
+    </group>
+</menu>

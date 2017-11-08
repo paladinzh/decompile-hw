@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container_material" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pinned_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <SearchView android:gravity="center_vertical" android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:imeOptions="actionDone" android:iconifiedByDefault="false" android:queryHint="@string/search_hint_city_country_timezone" android:layout_marginStart="14.0dip" android:layout_marginEnd="14.0dip" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@android:id/empty" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/timezone_empty_top">
+            <ImageView android:id="@id/empty_icon" android:layout_width="66.0dip" android:layout_height="66.0dip" android:src="@drawable/search_result_not_found" android:contentDescription="@null" />
+            <TextView android:id="@id/empty_title" android:focusable="true" android:layout_marginTop="1.0dip" android:text="@string/search_reslut_not_found" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" style="@style/EmuiEmptyTextFontStyle" />
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="end">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:id="@id/result_count" android:paddingTop="10.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_start" style="?android:attr/listSeparatorTextViewStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_weight="1.0">
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@android:id/list" android:paddingTop="0.0dip" android:paddingBottom="@android:dimen/preference_fragment_padding_bottom" android:scrollbars="none" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:layout_weight="1.0" android:paddingStart="@dimen/preference_item_padding_start" />
+        <huawei.android.widget.AlphaIndexerListView android:id="@id/letter_view_hw" android:visibility="visible" android:layout_width="32.0dip" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/loading_container" />
+    <RelativeLayout android:id="@id/button_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <Button android:id="@id/back_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@android:string/next_button_label" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+            <Button android:id="@id/skip_button" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@android:string/skip_button_label" />
+            <Button android:id="@id/next_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@android:string/next_button_label" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Ricerca...</item>
+        <item>Connessione...</item>
+        <item>Autenticazione...</item>
+        <item>Acquisizione indirizzo IP...</item>
+        <item>Connesso</item>
+        <item>Sospesa</item>
+        <item>Disconnessione...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+        <item>Bloccato</item>
+        <item>Al momento vengono evitate connessioni deboli</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Ricerca...</item>
+        <item>Connessione a %1$s...</item>
+        <item>Autenticazione con %1$s...</item>
+        <item>Acquisizione indirizzo IP da %1$s...</item>
+        <item>Connessa a %1$s</item>
+        <item>Sospesa</item>
+        <item>Disconnessione da %1$s...</item>
+        <item>Disconnessa</item>
+        <item>Operazione non riuscita</item>
+        <item>Bloccato</item>
+        <item>Al momento vengono evitate connessioni deboli</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Non verificare mai</item>
+        <item>Verifica solo per contenuti DRM</item>
+        <item>Verifica sempre</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Non utilizzare mai la verifica HDCP</item>
+        <item>Usa la verifica HDCP solo per contenuti DRM</item>
+        <item>Usa sempre la verifica HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64 kB</item>
+        <item>256 kB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64 kB/buffer log</item>
+        <item>256 kB/buffer log</item>
+        <item>1 MB/buffer log</item>
+        <item>4 MB/buffer log</item>
+        <item>16 MB/buffer log</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animazione disattivata</item>
+        <item>Scala animazione 0,5x</item>
+        <item>Scala animazione 1x</item>
+        <item>Scala animazione 1,5x</item>
+        <item>Scala animazione 2x</item>
+        <item>Scala animazione 5x</item>
+        <item>Scala animazione 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animazione disattivata</item>
+        <item>Scala animazione 0,5x</item>
+        <item>Scala animazione 1x</item>
+        <item>Scala animazione 1,5x</item>
+        <item>Scala animazione 2x</item>
+        <item>Scala animazione 5x</item>
+        <item>Scala animazione 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animazione disattivata</item>
+        <item>Scala animazione 0,5x</item>
+        <item>Scala animazione 1x</item>
+        <item>Scala animazione 1,5x</item>
+        <item>Scala animazione 2x</item>
+        <item>Scala animazione 5x</item>
+        <item>Scala animazione 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Nessuno</item>
+        <item>480p</item>
+        <item>480p (protetto)</item>
+        <item>720p</item>
+        <item>720p (protetto)</item>
+        <item>1080p</item>
+        <item>1080p (protetto)</item>
+        <item>4K</item>
+        <item>4K (protetto)</item>
+        <item>4K (ottimizzato)</item>
+        <item>4K (ottimizzato, protetto)</item>
+        <item>720p, 1080p (doppio schermo)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Nessuna</item>
+        <item>Logcat</item>
+        <item>Systrace (grafica)</item>
+        <item>Stack di chiamate su glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>OFF</item>
+        <item>Area ritaglio non rettangolare blu</item>
+        <item>Evidenzia cmd disegno test in verde</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>OFF</item>
+        <item>Su schermo sotto forma di barre</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>OFF</item>
+        <item>Mostra aree overdraw</item>
+        <item>Mostra aree con deuteranomalia</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Limite standard</item>
+        <item>Nessun processo in background</item>
+        <item>1 processo al massimo</item>
+        <item>2 processi al massimo</item>
+        <item>3 processi al massimo</item>
+        <item>4 processi al massimo</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Ricarica</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (Ethernet USB)</item>
+        <item>Fonte audio</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Molto lenta</item>
+        <item>Lenta</item>
+        <item>Normale</item>
+        <item>Veloce</item>
+        <item>Più veloce</item>
+        <item>Molto veloce</item>
+        <item>Rapida</item>
+        <item>Molto rapida</item>
+        <item>Massima velocità</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Vivaci (opzione predefinita)</item>
+        <item>Naturali</item>
+        <item>Standard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Colori migliorati</item>
+        <item>Colori naturali e realistici</item>
+        <item>Colori ottimizzati per i contenuti digitali</item>
+    </array>
+    <array name="clock_options">
+        <item>Mostra ore, minuti e secondi</item>
+        <item>Mostra ore e minuti (opzione predefinita)</item>
+        <item>Non mostrare questa icona</item>
+    </array>
+    <array name="battery_options">
+        <item>Mostra sempre la percentuale</item>
+        <item>Mostra la percentuale quando in carica (opzione predefinita)</item>
+        <item>Non mostrare questa icona</item>
+    </array>
+</resources>

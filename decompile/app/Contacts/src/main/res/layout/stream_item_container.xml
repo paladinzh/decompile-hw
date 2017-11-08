@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/detail_update_section_side_padding" android:paddingEnd="@dimen/detail_update_section_side_padding"
+    <LinearLayout android:orientation="vertical" android:id="@+id/stream_item_content" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/detail_update_section_item_vertical_padding" android:paddingBottom="@dimen/detail_update_section_item_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/detail_update_section_item_horizontal_padding" android:paddingEnd="@dimen/detail_update_section_item_horizontal_padding"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/stream_item_image_rows" android:paddingBottom="@dimen/detail_update_section_between_items_vertical_padding" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="16sp" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/stream_item_html" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/stream_item_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/stream_item_comments" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/detail_update_section_attribution_comments_padding" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/horizontal_divider" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ea" />
+</LinearLayout>

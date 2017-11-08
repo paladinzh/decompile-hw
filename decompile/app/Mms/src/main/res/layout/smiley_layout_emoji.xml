@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/smiley_grid_view" android:background="@color/attach_panel_item_color" android:paddingTop="@dimen/attach_panel_spacing" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a021b">
+    <android.support.v4.view.ViewPager android:id="@+id/smiley_grid_pager_emoji" android:background="@color/attach_panel_item_color" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a021e" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/smiley_current_sign_view" android:background="@color/attach_panel_item_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_above="@+id/emoji_category_panel" style="@style/attachment_layout_style" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/no_emoji_history" android:background="@color/attach_panel_item_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a021e" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_emoji_history_light_icon" android:background="@drawable/ic_no_emoji_history_light" android:layout_width="UNKNOWN_DATA_0x4801" android:layout_height="UNKNOWN_DATA_0x4801" android:layout_marginTop="@dimen/no_emoji_history_icon_to_top" />
+        <TextView android:textSize="15sp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/no_emoji_history_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/emoji_history_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/emoji_category_panel" android:background="@color/emoji_category_panel_dark" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0222" android:layout_alignParentBottom="true">
+        <TabHost android:id="@+id/emoji_category_tabhost" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="87.5">
+            <TabWidget android:id="0x1020013" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+            <FrameLayout android:id="0x1020011" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1">
+                <View android:id="@+id/emoji_keyboard_dummy" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1" />
+            </FrameLayout>
+        </TabHost>
+        <LinearLayout android:orientation="vertical" android:paddingTop="4dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="12.5">
+            <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/emoji_keyboard_delete" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:soundEffectsEnabled="false" android:hapticFeedbackEnabled="false" android:contentDescription="@string/delete" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

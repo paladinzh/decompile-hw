@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.systemmanager.mainscreen.view.CustomLayout ratio:id="@+id/upper_layout" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:width_weight="@integer/mainscreen_circel_parentvg_width_weight" ratio:height_weight="@integer/mainscreen_circel_parentvg_height_weight">
+        <include ratio:id="@+id/circle_layout" ratio:layout_width="match_parent" ratio:layout_height="wrap_content" ratio:layout_centerVertical="true" layout="@layout/main_screen_main_view_circle_layout" />
+    </com.huawei.systemmanager.mainscreen.view.CustomLayout>
+    <RelativeLayout ratio:id="@+id/setting_menu" ratio:layout_width="wrap_content" ratio:layout_height="wrap_content" ratio:layout_marginStart="4dp" ratio:layout_marginEnd="4dp" ratio:layout_alignParentEnd="true">
+        <com.huawei.systemmanager.comm.widget.CommonClickImage ratio:id="@+id/setting_menu_button" ratio:paddingTop="12dp" ratio:paddingBottom="12dp" ratio:layout_width="wrap_content" ratio:layout_height="wrap_content" ratio:src="@drawable/ic_public_settings" ratio:contentDescription="@string/main_screen_page_settings" ratio:paddingStart="12dp" ratio:paddingEnd="12dp" />
+    </RelativeLayout>
+    <include ratio:id="@+id/main_screen_entry" ratio:layout_width="match_parent" ratio:layout_height="match_parent" ratio:layout_marginTop="0dp" ratio:layout_below="@+id/upper_layout" layout="@layout/main_screen_entry_group" />
+</RelativeLayout>

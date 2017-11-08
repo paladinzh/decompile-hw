@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.view.charge.e40.ChargeAnimView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@r$id/charge_anim" android:background="#00000000" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0e041b" android:layout_height="UNKNOWN_DATA_0x7f0e041c">
+    <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/charge_level" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="5dp">
+        <TextView android:textSize="44sp" android:textColor="0x106000b" android:id="@r$id/charge_digital" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14sp" android:textColor="0x106000b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-20sp" android:text="@string/charge_percent_sign" />
+    </LinearLayout>
+</com.huawei.keyguard.view.charge.e40.ChargeAnimView>

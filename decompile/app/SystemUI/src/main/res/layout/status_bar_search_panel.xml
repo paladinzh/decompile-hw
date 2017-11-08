@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.assist.SearchPanelView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/search_panel_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.statusbar.AlphaOptimizedView android:id="@id/search_panel_scrim" android:background="@drawable/search_panel_scrim" style="@style/SearchPanelScrim" />
+    <com.android.systemui.assist.SearchPanelCircleView android:id="@id/search_panel_circle" style="@style/SearchPanelCircle">
+        <ImageView android:id="@id/search_logo" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="wrap_content" android:maxWidth="90dp" />
+    </com.android.systemui.assist.SearchPanelCircleView>
+</com.android.systemui.assist.SearchPanelView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/search_list_empty" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/contact_label_content_empty_text_size" android:textColor="@color/empty_contact_list_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/online_search_empty_text_land" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/noMatchingContacts" android:layout_weight="4.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="16dp" android:layout_weight="6.0">
+        <TextView android:id="@+id/search_exchange_contacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/contact_search_exchange_contacts" style="@style/online_search_button" />
+        <TextView android:id="@+id/search_w3_contacts" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/search_w3_online" style="@style/online_search_button" />
+    </LinearLayout>
+</LinearLayout>

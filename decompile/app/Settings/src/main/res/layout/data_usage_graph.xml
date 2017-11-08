@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settingslib.graph.UsageView android:gravity="end" android:id="@id/data_usage" android:layout_width="fill_parent" android:layout_height="@dimen/data_usage_chart_height" android:colorAccent="?android:colorAccent" settings:sideLabels="@array/battery_labels" settings:textColor="?android:textColorSecondary" />
+</LinearLayout>

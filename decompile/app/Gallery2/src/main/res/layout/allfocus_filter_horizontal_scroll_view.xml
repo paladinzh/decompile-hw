@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/com.android.gallery3d" custom:orientation="horizontal" custom:id="@id/allfocus_filters" custom:layout_width="match_parent" custom:layout_height="wrap_content" custom:layout_alignParentBottom="true">
+    <com.huawei.gallery.editor.ui.ElasticHorizontalScrollView custom:id="@id/itemScrollView" custom:visibility="invisible" custom:scrollbars="UNKNOWN_DATA_0x0" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:layout_centerInParent="true" custom:layoutDirection="ltr">
+        <com.huawei.gallery.refocus.wideaperture.ui.CategoryTrack custom:orientation="horizontal" custom:id="@id/listItems" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:scrollViewItemWidth="@dimen/category_panel_item_width" custom:scrollViewItemHeight="@dimen/category_panel_item_height" />
+    </com.huawei.gallery.editor.ui.ElasticHorizontalScrollView>
+</RelativeLayout>

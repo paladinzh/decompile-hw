@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dialog_frame_padding_start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/emui_primary_text" android:id="@android:id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_frame_padding_start" android:text="@string/usb_connect_mtp_dialog_msg" android:lineSpacingMultiplier="@dimen/alert_dialog_content_lineSpacing_Multiplier" style="@style/EmuiPrimaryTextFontStyle" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_yes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/usb_connect_mtp_dialog_btn_allow" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_no" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/usb_connect_mtp_dialog_btn_cancel" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    <PreferenceScreen android:persistent="false" android:layout="@layout/sms_encrypt_setting_summary" />
+    <com.android.mms.ui.EmuiSwitchPreference android:persistent="false" android:title="@string/sms_encrypt_sim_card1" android:key="pref_key_sim_card1" />
+    <com.android.mms.ui.EmuiSwitchPreference android:persistent="false" android:title="@string/sms_encrypt_sim_card2" android:key="pref_key_sim_card2" />
+</PreferenceScreen>

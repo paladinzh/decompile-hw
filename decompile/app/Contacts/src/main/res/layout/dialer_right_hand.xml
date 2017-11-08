@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/right_hand_mode_view" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0d01f7" android:layout_height="match_parent">
+    <View android:id="@+id/right_vertical_line" android:background="@drawable/line_vertical" android:layout_width="UNKNOWN_DATA_0x7f0d01ec" android:layout_height="match_parent" android:layout_alignParentEnd="true" />
+    <View android:background="@drawable/line_horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" android:layout_alignParentTop="true" />
+    <ImageButton android:id="@+id/right_hand_mode_btn" android:background="0x0" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialpad_right_hand_mode" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@string/image_content_description" />
+</RelativeLayout>

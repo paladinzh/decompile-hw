@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="virtual_key_settings_preference_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/virtual_key_title" android:key="virtual_key" />
+    <SwitchPreference android:title="@string/enable_navbar" android:key="enable_virtual_key" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/virtual_notification_key_title" android:key="virtual_notification_key_toggle" android:summary="@string/virtual_notification_key_summary_sub" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/SectionTitle_NavigationSettings_Title" />
+    <com.android.settings.RadioListPreference android:icon="@drawable/virtual_key_type_1" android:key="virtual_key_type_1" />
+    <com.android.settings.RadioListPreference android:icon="@drawable/virtual_key_type_2" android:key="virtual_key_type_2" />
+    <com.android.settings.RadioListPreference android:icon="@drawable/virtual_key_type_3" android:key="virtual_key_type_3" />
+    <com.android.settings.RadioListPreference android:icon="@drawable/virtual_key_type_4" android:key="virtual_key_type_4" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/brightness_mirror" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0e01ce" android:layout_height="wrap_content"
+    <FrameLayout android:background="@color/qs_detail_transition_end" android:layout_width="match_parent" android:layout_height="match_parent"
+        <FrameLayout android:background="@color/qs_detail_transition_end" android:paddingLeft="@dimen/qs_panel_padding_left" android:paddingRight="@dimen/qs_panel_padding_right" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="2dp">
+            <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/quick_settings_brightness_dialog" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

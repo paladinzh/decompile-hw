@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pressure_shortcut_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <Preference android:layout="@layout/preference_invisible" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/pressure_shorcut_launcher_title" android:key="launcher_shortcut_key_toggle" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_shorcut_mark_category" android:key="starred_option_category">
+        <com.android.settings.CustomSwitchPreference android:title="@string/pressure_shorcut_mark_title" android:key="starred_optioin_switch" android:summary="@string/pressure_shorcut_mark_summary_new" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/pressure_shorcut_press_action_category" android:key="one_step_action_category">
+        <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/pressure_shorcut_two_step_title" android:key="two_press_distributed" android:summary="@string/pressure_shorcut_two_step_summary" />
+        <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/pressure_shorcut_heavy_press_title" android:key="force_press_only" android:summary="@string/pressure_shorcut_heavy_press_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

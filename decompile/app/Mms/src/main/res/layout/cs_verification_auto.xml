@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textColor="@color/CS_black_100_percent" android:id="@+id/verifycode_edittext" android:layout_width="UNKNOWN_DATA_0x7f0a0142" android:hint="@string/CS_sms_verification_code" android:maxLength="32" android:layout_weight="1.0" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" style="@style/CS_EmoutionUI3_EditText_NewStyle" />
+    <Button android:ellipsize="marquee" android:id="@+id/btn_retrieve" android:layout_width="UNKNOWN_DATA_0x7f0a0143" android:layout_marginLeft="@dimen/cs_verification_margin" android:text="@string/CS_retrieve" android:layout_weight="1.0" android:layout_marginStart="@dimen/cs_verification_margin" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+</LinearLayout>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">已连接 (通过 WLAN 助手)</string>
+    <string name="accessibility_wifi_off">WLAN 已关闭。</string>
+    <string name="accessibility_no_wifi">WLAN 连接已断开。</string>
+    <string name="accessibility_wifi_one_bar">WLAN 信号强度为 1 格。</string>
+    <string name="accessibility_wifi_two_bars">WLAN 信号强度为 2 格。</string>
+    <string name="accessibility_wifi_three_bars">WLAN 信号强度为 3 格。</string>
+    <string name="accessibility_wifi_signal_full">WLAN 信号强度满格。</string>
+    <string name="wifi_verbose_logging">开启 WLAN 详细日志记录</string>
+    <string name="wifi_aggressive_handover">主动从 WLAN 网络切换到移动数据网络</string>
+    <string name="wifi_allow_scan_with_traffic">一律允许 WLAN 漫游扫描</string>
+    <string name="wifi_verbose_logging_summary">提升 WLAN 日志记录级别 (在 WLAN 选择器中显示每个 SSID 的 RSSI)</string>
+    <string name="wifi_aggressive_handover_summary">开启后，系统会在 WLAN 信号较弱时，主动将网络模式从 WLAN 网络切换到移动数据网络</string>
+    <string name="wifi_allow_scan_with_traffic_summary">根据接口中目前的数据流量允许/禁止 WLAN 漫游扫描</string>
+    <string name="mobile_data_always_on_summary">始终开启移动数据，即使 WLAN 网络已开启 (便于快速切换网络)</string>
+    <string name="radio_controls_summary">管理 WLAN、蓝牙、飞行模式、移动网络和 VPN</string>
+    <string name="wifi_assistant_title">WLAN 助手</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">开启 WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN 设置</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">选择 WLAN</string>
+    <string name="wifi_select_network">选择 WLAN 网络</string>
+    <string name="wifi_starting">正在开启 WLAN…</string>
+    <string name="wifi_stopping">正在关闭 WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">仅在 WLAN 互联网连接状况良好时使用 WLAN 网络</string>
+    <string name="wifi_automatically_connect_title">自动连接开放 WLAN 网络</string>
+    <string name="wifi_automatically_connect_summary">允许 WLAN 助手自动连接优质的开放网络</string>
+    <string name="wifi_scan_notify_text">为提高位置信息的精确度，系统应用和服务仍然会扫描 WLAN 网络。您可以在LINK_BEGIN扫描设置LINK_END中更改此设置。</string>
+    <string name="wifi_setting_sleep_policy_title">在休眠状态下保持 WLAN 连接</string>
+    <string name="wifi_suspend_optimizations">WLAN 优化</string>
+    <string name="wifi_suspend_optimizations_summary">开启 WLAN 时尽可能节约电池用量</string>
+    <string name="wifi_access_points">WLAN 网络</string>
+    <string name="wifi_menu_p2p">WLAN 直连</string>
+    <string name="wifi_empty_list_wifi_off">要查看可用网络，请开启 WLAN。</string>
+    <string name="wifi_empty_list_wifi_on">正在搜索 WLAN 网络</string>
+    <string name="wifi_empty_list_user_restricted">您无权更改 WLAN 网络。</string>
+    <string name="wifi_wps_setup_title">WLAN 保护设置</string>
+    <string name="wifi_wps_onstart_pbc">请按下您路由器上的 WLAN 保护设置按钮，它可能会标为“WPS”或包含此符号：</string>
+    <string name="wifi_wps_onstart_pin">请在 WLAN 路由器上输入 PIN 码 %1$s，设置过程可能需要 2 分钟。</string>
+    <string name="wifi_wps_connected">已连接到 WLAN 网络 %s</string>
+    <string name="wifi_scan_always_turnon_message">"为了提高位置信息精确度以及其他目的，“%1$s”请求启用网络扫描功能 (在关闭了 WLAN 时也可进行扫描)。
+
+是否对所有需要进行扫描的应用批准这项请求？"</string>
+    <string name="wifi_skipped_message">"警告：您可能需要额外支付运营商数据费用。
+
+手机设置过程可能会消耗大量网络流量。"</string>
+    <string name="wifi_and_mobile_skipped_message">警告：手机无法验证您的软件是否是最新版本。</string>
+    <string name="wifi_connect_failed_message">手机无法连接到此 WLAN 网络。</string>
+    <string name="wifi_advanced_titlebar">高级 WLAN 设置</string>
+    <string name="wifi_configure_titlebar">配置 WLAN</string>
+    <string name="wifi_advanced_not_available">此用户无法查看或修改 WLAN 网络高级设置</string>
+    <string name="wifi_p2p_settings_title">WLAN 直连</string>
+    <string name="wifi_tether_checkbox_text">便携式 WLAN 热点</string>
+    <string name="wifi_tether_failed_subtext">便携式 WLAN 热点错误</string>
+    <string name="wifi_tether_configure_ap_text">配置 WLAN 热点</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s 便携式 WLAN 热点</string>
+    <string name="wifi_calling_settings_title">WLAN 通话</string>
+    <string name="wifi_calling_suggestion_title">开启 WLAN 通话功能</string>
+    <string name="wifi_calling_suggestion_summary">使用 WLAN 网络（而非移动网络）</string>
+    <string name="wifi_calling_mode_title">通话偏好设置</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN 通话模式</string>
+    <string name="wifi_calling_off_explanation">开启“WLAN 通话”功能后，手机可根据您的偏好设置，通过 WLAN 网络或运营商网络通话 (优先使用信号较强的网络)。开启此功能前，请先向您的运营商咨询收费情况及其他详情。</string>
+    <string name="status_wifi_mac_address">WLAN MAC 地址</string>
+    <string name="reset_network_desc">"此操作将还原所有网络设置，包括：
+
+"<li>WLAN</li>"
+"<li>移动数据网络</li>"
+"<li>蓝牙</li></string>
+    <string name="network_scorer_change_active_dialog_title">是否变更 WLAN 助手？</string>
+    <string name="location_mode_high_accuracy_description">使用 GPS、WLAN 和移动网络定位</string>
+    <string name="location_mode_battery_saving_description">使用 WLAN 和移动网络估测位置</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN 扫描</string>
+    <string name="location_scanning_wifi_always_scanning_description">允许系统应用和服务随时检测 WLAN 网络，以提高位置信息的精度</string>
+    <string name="location_network_based">WLAN 和移动网络位置</string>
+    <string name="location_neighborhood_level">允许应用程序使用来自 WLAN 或移动网络的数据确定您的大致位置</string>
+    <string name="location_neighborhood_level_wifi">通过 WLAN 确定位置</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN 开启时间</string>
+    <string name="bluetooth_on_time">WLAN 开启时间</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN 正在运行</string>
+    <string name="usage_type_data_wifi_send">发送的 WLAN 数据量</string>
+    <string name="usage_type_data_wifi_recv">接收的 WLAN 数据量</string>
+    <string name="battery_action_wifi">WLAN 设置</string>
+    <string name="battery_desc_wifi">WLAN 所耗的电量</string>
+    <string name="battery_sugg_wifi">不使用或无法使用 WLAN 时将其关闭</string>
+    <string name="gadget_toggle_wifi">正在更新 WLAN 设置</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">将应用程序数据、WLAN 密码和其他设置备份到 Google 服务器</string>
+    <string name="backup_erase_dialog_message">要停止备份您的 WLAN 密码、书签、其他设置以及应用程序数据，并清除 Google 服务器上的所有副本吗？</string>
+    <string name="fullbackup_erase_dialog_message">是否停止备份设备数据 (例如 WLAN 密码和通话记录) 和应用数据 (例如应用存储的设置和文件)，并清除 Google 云端硬盘上的所有副本？</string>
+    <string name="fullbackup_data_summary">"自动远程备份设备数据 (例如 WLAN 密码和通话记录) 和应用数据 (例如应用存储的设置和文件)。
+
+启用自动备份功能后，系统将定期远程保存设备和应用数据。应用数据可以是应用根据开发者设置保存的任何数据，包括敏感数据 (例如通讯录、邮件或照片)。"</string>
+    <string name="wifi_setup_title">WLAN 设置</string>
+    <string name="wifi_setup_title_editing_network">连接到 WLAN 网络%s</string>
+    <string name="wifi_setup_title_connecting_network">正在连接到 WLAN 网络“%s”...</string>
+    <string name="wifi_setup_eap_not_supported">在设置过程中无法配置 EAP WLAN 连接。设置完毕后，您可以在“设置”>“无线和网络”中进行配置。</string>
+    <string name="wifi_setup_description_connected">触摸<b>下一步</b>"可继续进行设置。
+
+触摸"<b>返回</b>可连接到其他 WLAN 网络。</string>
+    <string name="data_usage_menu_show_wifi">显示 WLAN 使用情况</string>
+    <string name="data_usage_menu_hide_wifi">隐藏 WLAN 流量</string>
+    <string name="data_usage_disable_wifi_limit">设置 WLAN 数据流量限制</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">仅在使用移动数据网络时停用后台数据。系统会尽量使用 WLAN 连接。</string>
+    <string name="data_usage_app_restrict_dialog">"在没有 WLAN 连接的情况下，此功能可能导致需要后台数据的应用程序停止运行。
+
+您可以在相关应用程序内的设置中查找更合适的数据流量控制选项。"</string>
+    <string name="data_usage_restrict_background">如果限制后台移动数据，那么除非您已连接到 WLAN 网络，否则部分应用程序和服务会无法运行。</string>
+    <string name="data_usage_restrict_background_multiuser">"如果您限制后台移动数据，则在未连接到 WLAN 网络时，部分应用和服务将会无法运行。
+
+此设置会影响这部手机上的所有用户。"</string>
+    <string name="data_usage_metered_body">选择属于移动热点的 WLAN 网络，这样可以限制应用在后台使用网络资源。当使用这些网络下载较大文件时，应用可能发出警告。</string>
+    <string name="data_usage_metered_wifi">WLAN 网络</string>
+    <string name="data_usage_metered_wifi_disabled">要选择移动热点，请开启 WLAN。</string>
+    <string name="user_add_user_message_long">"您可以通过创建新用户来与其他人共享此设备。每个用户都会有自己的空间，其中可以容纳他们自己的应用、壁纸等内容。用户可以调整 WLAN 等会影响到所有用户的平板电脑设置。
+
+您创建新用户后，该用户必须完成设置流程。
+
+任何用户均可代表其他所有用户接受应用的新权限。"</string>
+    <string name="restriction_wifi_config_title">WLAN 和移动网络</string>
+    <string name="restriction_wifi_config_summary">允许修改 WLAN 和移动网络设置</string>
+    <string name="keywords_wifi">WLAN 网络连接</string>
+    <string name="keywords_wifi_calling">WLAN WLAN 通话 呼叫</string>
+    <string name="setup_wifi_nfc_tag">设置 WLAN NFC 标签</string>
+    <string name="condition_hotspot_summary">便携式 WLAN 热点“%1$s”已开启，因此系统关闭了该设备的 WLAN。</string>
+    <string name="condition_airplane_summary">WLAN、蓝牙和移动网络均已关闭。您无法拨打电话或连接到互联网。</string>
+    <string name="condition_cellular_summary">您只能通过 WLAN 网络连接到互联网</string>
+    <string name="condition_bg_data_summary">您必须连接 WLAN 网络才能使用后台数据，否则部分应用或服务可能受影响。</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN 信号桥</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN 信号桥设置</string>
+    <string name="wifi_tether_configure_bridge_text">配置 WLAN 信号桥</string>
+    <string name="wifi_bridge_settings_summary">设置 WLAN 名称、密码等</string>
+    <string name="wifi_bridge_use_help_title">帮助</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN 信号桥可大幅提高 WLAN 信号的传输范围和强度。其他终端设备可通过 WLAN 连接您的设备，并接入当前无线网络；
+2. WLAN 信号桥功能支持最多 4 个终端设备接入；
+3. WLAN 信号桥与 WLAN 热点和 WLAN 直连互斥。开启 WLAN 信号桥后，部分使用 P2P 功能的应用可能无法正常使用；
+4. 使用 WLAN 信号桥，将消耗更多电量。"</string>
+    <string name="wifi_bridge_switch_nowifi_summary">需要连接 WLAN 网络</string>
+    <string name="wifi_bridge_switch_wifi_summary">共享已连接的 WLAN 网络</string>
+    <string name="wifi_setup_title_connected_network_Toast">已连接到 WLAN 网络%s</string>
+    <string name="huawei_beam_explained">开启 Huawei Beam 后，您可通过紧贴设备将文件传送到其他 NFC 设备。例如，您可无线传输图片、视频、联系人、网址等。只需要将设备放在一起 (通常背对背)，然后轻触手机屏幕即可使用。因传输需要，可能会自动打开蓝牙或 WLAN，请放心使用。</string>
+    <string name="wifi_display_settings_summary">通过 WLAN 将手机屏幕显示在其他显示器上</string>
+    <string name="cell_switch_to_wifi_prompt">发现 WLAN 信号%s，是否要使用该 WLAN 网络？使用该网络将部分中断当前的数据连接。</string>
+    <string name="switch_to_wifi_manual_prompt">发现 WLAN 信号，是否要使用 WLAN 网络？</string>
+    <string name="switch_to_wifi_query_prompt">发现 WLAN 信号%s，是否要使用该 WLAN 网络？</string>
+    <string name="wifi_to_wifi_prompt">当前 WLAN 连接信号较弱，是否切换到其他 WLAN 网络？</string>
+    <string name="wifi_list_category">可用 WLAN 列表</string>
+    <string name="advanced_wifi_settings_title">高级设置</string>
+    <string name="huawei_beam_front_explained">"开启 Huawei Beam 后，您可通过将设备紧贴在一起将文件传输到其他 NFC 设备。例如您可无线传输图片、视频、联系人、网址等。操作如下：
+1、使用手机前面板碰触其他 NFC 设备，听到提示音后拿起手机；
+2、提示音响起后的 3 秒内轻触手机屏幕；
+3、再次使用手机前面板碰触其他 NFC 设备完成传输。因传输需要，可能会自动打开蓝牙或 WLAN，请放心使用。"</string>
+    <string name="wifiap_use_help_details">"1、可以使用便携式 WLAN 热点将您的设备用做互联网接入点。 周边设备可通过 WLAN 与您的设备连接，所连接设备将通过移动网络接入互联网；
+2、使用便携式 WLAN 热点，需要打开移动数据，并且会消耗您的数据流量；
+3、使用便携式 WLAN 热点，会带来更多的电量消耗。"</string>
+    <string name="wifiap_connect_help_details_open">"手动连接：
+1. 目标设备打开 WLAN，并找到热点 %1$s；
+2. 连接热点。"</string>
+    <string name="wifi_connected_to_cmcc_title">中国移动 WLAN 已连接</string>
+    <string name="wifi_connected_to_cmcc_warning">已连接中国移动 WLAN，继续使用有可能产生WLAN流量费用。</string>
+    <string name="wifi_connected_to_cmcc_never_notify">不再提示</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">中国移动 WLAN 连接提醒</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">仅在连接到中国移动 WLAN 网络后，弹框提醒</string>
+    <string name="wifi_cmcc_no_notification_summary">数据网络切换到 WLAN 或者 WLAN 间切换时不再提示</string>
+    <string name="location_mode_high_accuracy_description_wifionly">使用 GPS 和 WLAN 定位</string>
+    <string name="location_mode_battery_saving_description_wifionly">使用 WLAN 估测位置</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">智能选择 WLAN 或移动数据网络</string>
+    <string name="wifi_plus_description">"WLAN+ 开启后，将对 WLAN 网络进行连接性检测，可能会增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接 (从 WLAN 网络切换至移动数据网络时会发出通知提醒)；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络。"</string>
+    <string name="wifi_plus_settings_title">设置 WLAN+</string>
+    <string name="wifi_plus_intelligent_switch_description">根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接。</string>
+    <string name="wifi_plus_auto_turn_on_description">根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络。</string>
+    <string name="wifi_plus_global_description">"开启后，将对 WLAN 网络进行连接性检测，可能会增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络。"</string>
+    <string name="location_mode_high_accuracy_title_emui">使用 GPS、WLAN 和移动网络</string>
+    <string name="location_mode_battery_saving_title_emui">使用 WLAN 和移动网络</string>
+    <string name="pgps_switch_title">GPS 定位加速</string>
+    <string name="pgps_switch_summary">允许 GPS 收集附近基站以及您所在位置的 WLAN 热点信息，为您提供更快速精准的定位服务</string>
+    <string name="find_no_wlan_ap">搜不到 WLAN 热点</string>
+    <string name="cannot_connect_wlan">连不上 WLAN</string>
+    <string name="cannot_login_internet_with_wlan">不能通过 WLAN 上网</string>
+    <string name="wfd_connect_fail">WLAN 直连连接失败</string>
+    <string name="find_no_wfd_device">搜不到 WLAN 直连设备</string>
+    <string name="wfd_search_no_devices_causes">"没有搜索到可用设备，可能原因如下：
+1. 对端设备未处于搜索状态；
+2. 对端设备异常，可尝试重启 WLAN 开关，重新进入 WLAN 直连；
+3. 本设备异常，可尝试重启 WLAN 开关，重新进入 WLAN 直连。"</string>
+    <string name="wfd_connected_failed_causes">"连接失败，可能原因如下：
+1. 对端设备没有接受连接请求；
+2. 请确保双方设备没有与其他设备建立 WLAN 直连连接；
+3. 对端设备异常，可尝试重新连接。"</string>
+    <string name="wifi_qrcode_share_notice">扫一扫连接此 WLAN</string>
+    <string name="devices_not_found_solution_title">搜索不到可用设备，请尝试如下解决方案：</string>
+    <string name="devices_not_found_solution_message">"1. 确保对端设备处于搜索状态；
+2. 对端设备异常，可尝试重启 WLAN 开关，重新进入 WLAN 直连；
+3. 自身设备异常，可尝试重启 WLAN 开关，重新进入 WLAN 直连。"</string>
+    <string name="devices_not_connected_solution_message">"1. 确保对端设备接受连接请求；
+2. 确保双方设备没有与其他设备建立 WLAN 直连连接；
+3.对端设备异常，请尝试重新连接。"</string>
+    <string name="wifi_plus_description_emui">"开启后，将对 WLAN 网络进行连接性检测，可能增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接 (您可在移动网络设置中选择默认切换方式)；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络。"</string>
+    <string name="link_plus_live_update_description">开启后，将通过无线网络 (默认为 WLAN 网络) 自动更新数据，提升 Link+ 相关功能体验。</string>
+    <string name="wifi_plus_description_emui2">"开启后，将对 WLAN 网络进行连接性检测，可能增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接 (您可在移动网络设置中选择默认切换方式)；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络；
+3. 根据上网体验自动对可连接的热点进行网络质量评测，对于不可上网的已保存热点，将暂停自动连接；
+4. 连接特定免费热点时将为您自动读取短信，填充动态验证信息并登入 (目前仅支持中国地区)。"</string>
+    <string name="wifi_plus_global_description2">"开启后，将对 WLAN 网络进行连接性检测，可能会增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络；
+3. 根据上网体验自动对可连接的热点进行网络质量评测，对于不可上网的已保存热点，将暂停自动连接。"</string>
+    <string name="help_message">"1. 打印机和手机没有连接同一个 WLAN 热点；
+2. 打印机不支持该打印服务，可联系打印机厂家确认；
+3. 搜索超时，可尝试重新搜索打印机；
+4. 打印机死机，可尝试重启。"</string>
+    <string name="wifi_cloud_security_check_title">WLAN 安全检测</string>
+    <string name="wifi_cloud_security_check_summary">通过手机管家对已连接的热点进行联网安全检测，并暂停自动连接存在安全风险的热点</string>
+    <string name="wifi_plus_description_emui3">"开启后，将对 WLAN 网络进行连接性检测，并通过 WLAN 自动更新优化参数，可能增加用户的 WLAN 流量，其功能主要包括：
+1. 根据 WLAN 网络与移动数据网络信号强度，智能选择最佳的网络连接 (您可在移动网络设置中选择默认切换方式)；
+2. 根据已连接过的 WLAN 网络记录，在特定的位置自动开启或关闭 WLAN 网络；
+3. 根据上网体验自动对可连接的热点进行网络质量评测，对于不可上网的已保存热点，将暂停自动连接；
+4. 连接特定免费热点时将为您自动读取短信，填充动态验证信息并登入 (目前仅支持中国地区)。"</string>
+    <string name="user_add_user_message">"创建新用户之后，您将可以与其他人共享此设备。每位用户都会有自己的空间，可用来存储其应用、壁纸等内容。每位用户都可以调整 WLAN 等可影响到其他用户的设备设置。
+
+新用户添加后，该用户需要设置自己的空间。
+
+任何用户均可为其他所有用户更新应用。"</string>
+    <string name="print_user_warning">开启后，将通过 WLAN 搜索周围的打印机，可能增加用户的 WLAN 流量。</string>
+    <string name="wifi_calling_settings_title_emui">WLAN 通话</string>
+    <string name="wifi_calling_dialog_title">开启 WLAN 通话</string>
+    <string name="wifi_calling_dialog_message">开启该功能后，无法通过 WLAN 发起紧急呼叫。是否开启？</string>
+    <string name="device_name_settings_summary">使用蓝牙互联、WLAN直连和热点共享时，其他设备会看到此设备名称。</string>
+    <string name="device_name_settings_dialog">修改设备名称会断开当前WLAN热点连接。是否修改？</string>
+    <string name="write_wifi_nfc_tag">写入 WLAN NFC 标签</string>
+    <string name="wifi_plus_smart_switch_title">智能选择 WLAN 或移动数据</string>
+    <string name="wifi_plus_smart_switch_summary">通过对WLAN进行连接性检测 (可能增加WLAN流量 ) ，智能选择最佳网络连接。您可在移动网络设置中选择默认切换方式</string>
+    <string name="wifi_plus_smart_switch_summary_global">通过对 WLAN 进行连接性检测 (可能增加 WLAN 流量)，智能选择最佳网络连接</string>
+    <string name="wifi_plus_auto_turn_title">自动开启或关闭 WLAN</string>
+    <string name="wifi_plus_auto_turn_summary">根据连接过的 WLAN网络记录，在特定位置自动开启或关闭WLAN网络</string>
+    <string name="wifi_plus_quality_evaluation_title">对可连接的热点进行质量评测</string>
+    <string name="wifi_plus_quality_evaluation_summary">根据上网体验自动对可连接的热点进行网络质量评测，并暂停自动连接不可上网的已保存热点</string>
+    <string name="wifi_plus_fast_connect_title">优化免费热点登入体验</string>
+    <string name="wifi_plus_fast_connect_summary">连接特定免费热点时将为您自动读取短信，填充动态验证信息并登入 (此功能仅限中国大陆地区)</string>
+    <string name="link_plus_live_update_description_EMUI_5">开启后，将通过无线网络 (默认为 WLAN 网络) 自动更新数据，提升通信相关功能体验。</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>移动数据网络</li>"
+"<li>蓝牙</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>蓝牙</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">使用 GPS 和 WLAN</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">使用 WLAN</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN 信号桥可大幅提高 WLAN 信号的传输范围和强度。其他终端设备可通过 WLAN 连接您的设备，并接入当前无线网络；
+2. WLAN 信号桥功能支持最多 4 个终端设备接入；
+3. WLAN 信号桥与 WLAN 热点和 WLAN 直连互斥。开启 WLAN 信号桥后，部分使用 P2P 功能的应用可能无法正常使用；
+4. 使用 WLAN 信号桥，将消耗更多电量；
+5. WLAN 信号桥打开时如果提示“WLAN 资源被其他业务占用”，请在“设置”>“WLAN”>“WLAN 直连”页面里断开已连接设备，或关闭 WLAN 后再打开以自动断开所有连接设备。"</string>
+    <string name="wifi_qrcode_share_notice_new">扫一扫连接此 WLAN</string>
+    <string name="location_help_scheme_body_one">"1. 请确认“访问我的位置信息”是否已开启；
+2. 建议定位模式选择“使用 GPS、WLAN 和移动网络”；
+3. 建议连接 WLAN 热点或者打开数据业务开关；
+4. 请在“手机管家”>“权限管理”>“读取位置信息”，查看所使用应用的读取位置权限是否被禁止；
+5. 如果定位模式设置为“仅使用 GPS”，请在开阔无遮挡的环境下使用，保证正常接收 GPS 信号；
+6. 如果您连接的是公共热点，请尝试关闭 WLAN，开启移动数据后再次定位。"</string>
+    <string name="location_help_scheme_body_two">"1. 建议定位模式选择“使用 GPS、WLAN 和移动网络”，进行精确定位；
+2. 如果使用了金属保护壳，请卸除后重试或更换为其他材质保护壳；
+3. 请在“手机管家”>“权限管理”>“读取位置信息”，查看所使用应用的读取位置权限是否被禁止；
+4. 请在较开阔无遮挡的位置使用导航功能。在车内使用时，建议将手机放置在靠近挡风玻璃、仪表台上方等无遮挡的地方。"</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN 信号桥可大幅提高 WLAN 信号的传输范围和强度。其他终端设备可通过 WLAN 连接您的设备，并接入当前无线网络；
+%2$d. WLAN 信号桥功能支持最多 %6$d 个终端设备接入；
+%3$d. WLAN 信号桥与 WLAN 热点和 WLAN 直连互斥。开启 WLAN 信号桥后，部分使用 P2P 功能的应用可能无法正常使用；
+%4$d. 使用 WLAN 信号桥，将消耗更多电量；
+%5$d. WLAN 信号桥打开时如果提示“WLAN 资源被其他业务占用”，请在“设置”>“WLAN”>“WLAN 直连”页面里断开已连接设备，或关闭 WLAN 后再打开以自动断开所有连接设备。"</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. 可以使用便携式 WLAN 热点将您的设备用做互联网接入点。 周边设备可通过 WLAN 与您的设备连接，所连接设备将通过移动网络接入互联网；
+%2$d. 使用便携式 WLAN 热点，需要打开移动数据，并且会消耗您的数据流量；
+%3$d. 使用便携式 WLAN 热点，会消耗更多电量。"</string>
+    <string name="wifiap_connect_help_details_open_ex">"手动连接：
+%2$d. 目标设备打开 WLAN，并找到热点 %1$s；
+%3$d. 连接热点。"</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. 请确认“访问我的位置信息”是否已开启；
+%2$d. 建议定位模式选择“使用 GPS、WLAN 和移动网络”；
+%3$d. 建议连接 WLAN 热点或者打开数据业务开关；
+%4$d. 请在“手机管家”>“权限管理”>“读取位置信息”，查看所使用应用的读取位置权限是否被禁止；
+%5$d. 如果定位模式设置为“仅使用 GPS”，请在开阔无遮挡的环境下使用，保证正常接收 GPS 信号；
+%6$d. 如果您连接的是公共热点，请尝试关闭 WLAN，开启移动数据后再次定位。"</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. 建议定位模式选择“使用 GPS、WLAN 和移动网络”，进行精确定位；
+%2$d. 如果使用了金属保护壳，请卸除后重试或更换为其他材质保护壳；
+%3$d. 请在“手机管家”>“权限管理”>“读取位置信息”，查看所使用应用的读取位置权限是否被禁止；
+%4$d. 请在较开阔无遮挡的位置使用导航功能。在车内使用时，建议将手机放置在靠近挡风玻璃、仪表台上方等无遮挡的地方。"</string>
+    <string name="turn_off_data_saver_message">使用便携式 WLAN 热点需要关闭省流量模式，是否关闭？</string>
+    <string name="first_wlan_hotspot_text">打开热点后，可共享网络，但会增加耗电量和数据流量。</string>
+    <string name="hotspot_power_notification_title">WLAN热点已关闭</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN热点已关闭</string>
+    <string name="toast_entitle_wifi_need_close">WLAN连接的情况下无法使用此功能，请先关闭WLAN。</string>
+    <string name="wifi_activated_warning_Title">WLAN已激活</string>
+    <string name="wifi_turn_off_warning_message_wifiap">WLAN当前正在运行，移动热点和WLAN无法同时运行，是否关闭WLAN？</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN需要临时关闭，与AT&amp;T服务器确认完成后，WLAN会自动恢复。</string>
+    <string name="broadcast_ssid_is_show_dialog">如果您选择不发送网络名称（SSID），其他手机设备将无法看到您的手机并且不会出现在这些手机的可选WLAN列表中，但是其他手机仍可以通过输入网络名的方式连接到您的手机热点。</string>
+    <string name="enable">启用自动连接到AT&amp;T WLAN</string>
+    <string name="disable">禁用自动连接到AT&amp;T WLAN</string>
+    <string name="auto_connect_wifi_suggestion">请重新打开WLAN使自动连接配置生效</string>
+    <string name="wifi_network_detect_summary">连接 WLAN 热点时，检查是否可以连接互联网</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN 已被设备管理员关闭</string>
+    <string name="wifi_required_info_text">要完成设置，您的平板电脑需要访问 WLAN 网络。设置完毕后，您将可以在移动数据网络和 WLAN 网络之间切换。</string>
+    <string name="wifi_setting_frequency_band_title">WLAN 频带</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s将管理您的设备，且不允许修改或删除此 WLAN 网络。要了解详情，请与您的管理员联系。</string>
+    <string name="wifi_connect_fail_solutions_details">"1. 连接按钮为灰色：确认密码位数是否正确，路由器密码建议设为 8 位或以上数字；
+2. 提示密码错误：确认密码是否正确输入，请注意大小写和特殊字符中英文格式；
+3. 提示网络拒绝或网络接入已满：路由器此时限制接入，建议重启或更换路由器；
+4. 提示网络故障：无法获取服务器地址，建议重启路由器和手机。如果仍不能连接，建议设置静态地址。"</string>
+</resources>

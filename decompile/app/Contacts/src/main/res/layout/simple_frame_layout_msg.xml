@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_height="match_parent" class="com.android.contacts.widget.FullHeightLinearLayout" style="@style/ContactPickerLayout">
+    <huawei.android.widget.SubTabWidget android:id="@+id/subTab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/splitscreen_actionbar_padding" android:layout_marginEnd="@dimen/splitscreen_actionbar_padding" />
+    <com.android.contacts.hap.widget.HapViewPager android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@+id/list_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+</view>

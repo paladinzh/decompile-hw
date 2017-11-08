@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/help_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/preference_help_text_size" android:id="@id/mw_help_open_description" android:layout_height="@dimen/mw_help_open_description_height" android:layout_marginTop="@dimen/mw_help_open_description_top_margin" android:layout_marginBottom="@dimen/mw_help_open_description_bottom_margin" android:layout_marginStart="@dimen/mw_help_open_description_start_margin" android:layout_marginEnd="@dimen/mw_help_open_description_end_margin" style="@style/EmuiSecondaryTextFontStyle" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/mw_help_open_description_separator" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="@dimen/mw_help_open_description_separator_height" android:layout_below="@id/mw_help_open_description" />
+    <ImageView android:id="@id/mw_help_graphic" android:layout_width="wrap_content" android:layout_height="@dimen/mw_help_graphic_height" android:layout_below="@id/mw_help_open_description_separator" android:layout_centerHorizontal="true" />
+</RelativeLayout>

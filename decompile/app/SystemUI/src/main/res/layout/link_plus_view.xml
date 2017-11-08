@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.linkplus.LinkPlusView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.android.systemui.tint.TintImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/link_plus_switching" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/link_plus_focus" />
+    <com.android.systemui.tint.TintImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/link_plus_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/link_plus_data" />
+    <com.android.systemui.tint.TintImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/link_plus_wifi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/link_plus_wifi" />
+</com.android.systemui.linkplus.LinkPlusView>

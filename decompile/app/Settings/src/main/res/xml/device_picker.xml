@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/my_device_title_emotion" />
+    <Preference android:layout="@layout/preference_with_icon" android:title="@string/bluetooth_preference_scan_title" android:key="bt_scan" />
+    <com.android.settings.bluetooth.BluetoothProgressCategory android:title="@string/bluetooth_preference_found_devices" android:orderingFromXml="false" android:key="bt_device_list" />
+</PreferenceScreen>

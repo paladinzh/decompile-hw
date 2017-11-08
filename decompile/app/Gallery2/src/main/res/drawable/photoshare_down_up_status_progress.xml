@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/bar_background">
+        <shape>
+            <corners android:radius="12dp" />
+            <stroke android:width="3px" android:color="@color/photoshare_down_up_status_progress_bgd_color_1" />
+            <solid android:color="@color/photoshare_down_up_status_progress_bgd_color_2" />
+        </shape>
+    </item>
+    <item android:id="0x102000d">
+        <clip>
+            <shape>
+                <corners android:radius="12dp" />
+                <solid android:color="@color/photoshare_down_up_status_progress_color" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

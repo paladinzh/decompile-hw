@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/qs_tile_padding_top" android:paddingBottom="@dimen/qs_tile_padding_top" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/qs_tile_text_size" android:id="@id/footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/footer_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qs_vpn" android:layout_centerVertical="true" android:contentDescription="0x0" android:layout_marginEnd="8dp" android:layout_toStartOf="@id/footer_text" />
+</RelativeLayout>

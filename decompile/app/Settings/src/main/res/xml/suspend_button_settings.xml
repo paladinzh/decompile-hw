@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_suspend_button" android:selectable="false" android:key="suspend_button_tutorial" android:summary="@string/suspend_button_tutorial_text" />
+    <SwitchPreference android:persistent="false" android:title="@string/suspend_button_title" android:key="suspend_button_switch" />
+</PreferenceScreen>

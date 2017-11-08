@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/display_settings" settings:keywords="@string/display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/personalized_title" android:key="category_personalized" />
+    <com.android.settingslib.RestrictedPreference android:layout="@layout/preference_status" android:title="@string/wallpaper_settings_title" android:key="wallpaper" android:widgetLayout="@layout/preference_widget_arrow" settings:keywords="@string/keywords_display_wallpaper">
+        <intent android:action="com.huawei.launcher.wallpaper_setting" />
+    </com.android.settingslib.RestrictedPreference>
+    <com.android.settingslib.RestrictedPreference android:layout="@layout/preference_status" android:title="@string/wallpaper_settings_title" android:key="google_wallpaper" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.WallpaperTypeSettings" settings:useAdminDisabledSummary="true" settings:keywords="@string/keywords_display_wallpaper" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/display_mode_title" android:key="display_mode" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.android.settings.DISPLAY_MODE_SETTINGS" />
+    </PreferenceScreen>
+    <com.android.settings.display.ScreenZoomPreference android:layout="@layout/preference_status" android:title="@string/display_mode_title" android:key="screen_zoom" android:widgetLayout="@layout/preference_widget_arrow" settings:keywords="@string/screen_zoom_keywords" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/title_font_size" android:key="font_size" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.accessibility.ToggleFontSizePreferenceFragment" settings:keywords="@string/keywords_display_font_size" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/font_style_title" android:key="font_style" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="huawei.intent.action.FONT_STYLE" />
+    </PreferenceScreen>
+    <SwitchPreference android:title="@string/camera_gesture_title" android:key="camera_gesture" android:summary="@string/camera_gesture_desc" />
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/screensaver_settings_title" android:key="screensaver" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.DreamSettingsHw" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/tap_to_wake" android:key="tap_to_wake" android:summary="@string/tap_to_wake_summary" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/lift_to_wake_title" android:key="lift_to_wake" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/doze_title" android:key="doze" android:summary="@string/doze_summary" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/screen_titile" android:key="category_screen">
+        <com.android.settings.TwoSummaryPreference android:layout="@layout/preference_two_summay" android:title="@string/eyes_protection_settings_title" android:key="eyes_protection" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.EyeComfortSettings" />
+        <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/brightness" android:key="brightness" android:widgetLayout="@layout/preference_widget_arrow">
+            <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.Settings$BrightnessSettingsActivity" />
+        </PreferenceScreen>
+        <com.android.settings.colortemper.ColorTemperatureSettingsPreference android:layout="@layout/preference_two_summay" android:title="@string/color_temperature_title" android:key="color_temperature_rgb" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/color_temperature_title" />
+        <com.android.settings.colormode.ColorModeSettingsPreference android:layout="@layout/preference_status" android:title="@string/color_mode_title" android:key="color_mode" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/color_mode_title" />
+        <com.android.settings.TimeoutListPreference android:layout="@layout/preference_two_summay" android:title="@string/screen_timeout" android:key="screen_timeout" android:summary="@string/screen_timeout_summary" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/screen_timeout_values_emui" />
+        <com.android.settings.CustomSwitchPreference android:title="@string/accelerometer_title" android:key="accelerometer" />
+    </PreferenceCategory>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:summary="@string/wifi_display_settings_summary" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+    <DropDownPreference android:title="@string/display_vr_pref_title" android:key="vr_display_pref" android:summary="%s" />
+</PreferenceScreen>

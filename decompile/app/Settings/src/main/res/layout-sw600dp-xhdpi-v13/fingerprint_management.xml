@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/fp_defult_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/fingerprint_intro_002_APKTOOL_DUPLICATENAME_0x7f020177" android:scaleType="fitCenter" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/finger_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launcher_mode_menu_applied" android:singleLine="true" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/finger_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shortcut_payment_hwpay_caution_finger_desc" android:maxLines="4" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/SecurityPreferenceButtonContainerWithNormalMargin">
+        <Button android:id="@id/fp_rename_button" android:layout_width="@dimen/fp_rename_button_width" android:layout_height="@dimen/fp_button_height" android:layout_marginTop="0.0dip" android:layout_marginBottom="8.0dip" android:text="@string/fp_rename_button_str" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        <Button android:textColor="#ffff0000" android:id="@id/fp_delete_button" android:layout_width="@dimen/fp_rename_button_width" android:layout_height="@dimen/fp_button_height" android:layout_marginTop="8.0dip" android:layout_marginBottom="0.0dip" android:text="@string/fp_delete_button_str" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+        <Button android:id="@id/fp_diy_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fp_button_height" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext">
+    <Preference androidhwext:title="@string/merge_duplicated_contacts" androidhwext:key="@string/merge_duplicated_contacts" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_merge_duplicated_contacts" />
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/prefs_merge_duplicated_contacts_divider" />
+    <Preference androidhwext:title="@string/contacts_missing_items" androidhwext:key="@string/contacts_missing_items" androidhwext:summary="@string/contacts_missing_items_notes" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_contacts_missing_items" />
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/prefs_contacts_missing_items_divider" />
+    <Preference androidhwext:title="@string/copy_from_account" androidhwext:key="@string/key_prefs_copy" androidhwext:summary="@string/summary_prefs_copy_contacts" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_copy" />
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/prefs_copy_divider" />
+    <Preference androidhwext:title="@string/contacts_batch_delete" androidhwext:key="@string/contacts_batch_delete" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_contacts_batch_delete" />
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/prefs_contacts_batch_delete_divider" />
+    <Preference androidhwext:title="@string/contacts_rebuild_index_title" androidhwext:key="@string/contacts_rebuild_index_title" androidhwext:summary="@string/contacts_rebuild_index_summary" androidhwext:widgetLayout="@layout/preference_widget_arrow" androidhwext:preferenceID="@+id/prefs_contacts_rebuild_index_title" />
+    <Preference androidhwext:layout="@layout/listdivider" androidhwext:preferenceID="@+id/prefs_contacts_rebuild_index_title_divider" />
+</PreferenceScreen>

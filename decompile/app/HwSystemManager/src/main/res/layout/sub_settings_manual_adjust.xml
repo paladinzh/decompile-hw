@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/dialog_padding_style">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+        <EditText android:id="@+id/flow_limited_editText" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="9" android:inputType="textCapWords|number|numberSigned|numberDecimal|numberPassword|phone" android:paddingStart="16dp" android:paddingEnd="60dp">
+            <requestFocus />
+        </EditText>
+        <Button android:textSize="13sp" android:textColor="@color/hsm_common_button" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/size_type" android:background="0x0" android:layout_width="UNKNOWN_DATA_0x2e01" android:layout_height="wrap_content" android:layout_marginEnd="5dp" android:layout_alignParentEnd="true" />
+        <View android:id="@+id/line" android:background="@color/net_applist_vertical_dividerline" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_toStartOf="@+id/size_type" />
+    </RelativeLayout>
+    <Button android:textSize="14sp" android:textColor="@color/hsm_common_button" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/content_flow_limited_title" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/content_manual_adjust_description" android:layout_marginStart="5dp" style="?unknown_attr_ref: 101032b" />
+</LinearLayout>

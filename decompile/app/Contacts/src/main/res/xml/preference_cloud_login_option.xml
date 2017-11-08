@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/service_options" android:key="@string/cloud_options">
+        <com.android.contacts.hap.preference.ContactSwitchPreference android:title="@string/contacts_plus" android:key="@string/contacts_plus_switch" />
+        <com.android.contacts.hap.preference.ContactSwitchPreference android:title="@string/auto_update_cloud_profile" android:key="@string/auto_update" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tts_engine_pref" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <RadioButton android:layout_gravity="center" android:id="@id/tts_engine_radiobutton" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/preference_icon_margin_end" />
+        <RelativeLayout android:id="@id/tts_engine_pref_text" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="0.0dip" android:paddingEnd="@android:dimen/preference_item_padding_inner">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@android:id/summary" android:visibility="gone" android:maxLines="4" android:layout_below="@android:id/title" android:layout_alignStart="@android:id/title" style="@style/EmuiSecondaryTextFontStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

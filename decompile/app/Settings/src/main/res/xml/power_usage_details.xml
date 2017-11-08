@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.applications.LayoutPreference android:layout="@layout/two_buttons_panel" android:selectable="false" android:key="two_buttons" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/controls_subtitle" android:key="controls_parent">
+        <Preference android:title="@string/high_power_apps" android:key="high_power" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/details_subtitle" android:key="details_parent" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:key="messages_parent" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/packages_subtitle" android:key="packages_parent" />
+</PreferenceScreen>

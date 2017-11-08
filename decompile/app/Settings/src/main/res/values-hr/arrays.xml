@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item>test</item>
+        <item>Skeniranje...</item>
+        <item>Povezivanje…</item>
+        <item>Autentikacija…</item>
+        <item>Dohvaćanje IP adrese…</item>
+        <item>Povezano</item>
+        <item>Obustavljeno</item>
+        <item>Isključivanje…</item>
+        <item>Niste povezani</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loših veza</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item>test</item>
+        <item>Skeniranje...</item>
+        <item>Povezivanje na mrežu %1$s…</item>
+        <item>Autentikacija s mrežom %1$s…</item>
+        <item>Dohvaćanje IP adrese s mreže %1$s…</item>
+        <item>Povezano s mrežom %1$s</item>
+        <item>Obustavljeno</item>
+        <item>Isključivanje iz mreže %1$s…</item>
+        <item>Niste povezani</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loših veza</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>Nikad ne provjeravaj</item>
+        <item>Provjeri samo DRM sadržaj</item>
+        <item>Uvijek provjeri</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>Nikad ne upotrebljavaj HDCP provjeru</item>
+        <item>Upotrebljavaj HDCP provjeru samo za DRM sadržaj</item>
+        <item>Uvijek upotrebljavaj HDCP provjeru</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB po međusp. zapisa</item>
+        <item>256 KB po međus. zapisa</item>
+        <item>1 MB po međuspr. zapisa</item>
+        <item>4 MB po međuspr. zapisa</item>
+        <item>16 MB po međusp. zapisa</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera 0,5 x</item>
+        <item>Animacija razmjera 1x</item>
+        <item>Animacija razmjera 1,5 x</item>
+        <item>Animacija razmjera 2x</item>
+        <item>Animacija razmjera 5x</item>
+        <item>Animacija razmjera 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera 0,5 x</item>
+        <item>Animacija razmjera 1x</item>
+        <item>Animacija razmjera 1,5 x</item>
+        <item>Animacija razmjera 2x</item>
+        <item>Animacija razmjera 5x</item>
+        <item>Animacija razmjera 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>Animacija isključena</item>
+        <item>Animacija razmjera 0,5 x</item>
+        <item>Animacija razmjera 1 x</item>
+        <item>Animacija razmjera 1,5 x</item>
+        <item>Animacija razmjera 2 x</item>
+        <item>Animacija razmjera 5 x</item>
+        <item>Animacija razmjera 10 x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>Nijedan</item>
+        <item>480 p</item>
+        <item>480 p (sigurno)</item>
+        <item>720 p</item>
+        <item>720 p (sigurno)</item>
+        <item>1080 p</item>
+        <item>1080 p (sigurno)</item>
+        <item>4000</item>
+        <item>4000 (sigurno)</item>
+        <item>4000 (povećanje razlučivosti)</item>
+        <item>4000 (poveć. razlučiv., sigurno)</item>
+        <item>720 p, 1080 p (dvojni zaslon)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>Nijedan</item>
+        <item>Logcat</item>
+        <item>Systrace (slike)</item>
+        <item>Pozivni snop za funkciju glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>Isključeno</item>
+        <item>Nacrtaj nepravokutno područje izreza plavom bojom</item>
+        <item>Označi testirane naredbe za crtanje zelenom bojom</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>Isključeno</item>
+        <item>Na zaslonu kao pruge</item>
+        <item>Na zaslonu kao linije</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>Isključeno</item>
+        <item>Prikaži područja preopterećenja</item>
+        <item>Prikaži područja za daltonizam</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>Standardna granica</item>
+        <item>Nema pozadinskih procesa</item>
+        <item>Najviše 1 proces</item>
+        <item>Najviše 2 procesa</item>
+        <item>Najviše 3 procesa</item>
+        <item>Najviše 4 procesa</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>Samo punjenje</item>
+        <item>Protokol prijenosa medija (MTP)</item>
+        <item>Protokol prijenosa slike (PTP)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Izvor audiozapisa</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>Jako sporo</item>
+        <item>Sporo</item>
+        <item>Normalni</item>
+        <item>Brzo</item>
+        <item>Jako brzo</item>
+        <item>Vrlo brzo</item>
+        <item>Ubrzano</item>
+        <item>Vrlo brzo</item>
+        <item>Najbrže</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>Živopisno (zadano)</item>
+        <item>Prirodno</item>
+        <item>Standardno</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>Poboljšane boje</item>
+        <item>Prirodan doživljaj boje</item>
+        <item>Boje optimizirane za digitalni sadržaj</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>Amerika</item>
+        <item>Europa</item>
+        <item>Afrika</item>
+        <item>Azija</item>
+        <item>Australija</item>
+        <item>Pacifički</item>
+        <item>Sve</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 sekundi</item>
+        <item>30 sekundi</item>
+        <item>1 minuta</item>
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>30 minuta</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>Nikada</item>
+        <item>15 sekundi</item>
+        <item>30 sekundi</item>
+        <item>1 minuta</item>
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>30 minuta</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>Odmah</item>
+        <item>5 s</item>
+        <item>15 s</item>
+        <item>30 s</item>
+        <item>1 minuta</item>
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>30 minuta</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Malen</item>
+        <item>Normalan</item>
+        <item>Velik</item>
+        <item>Iznimno velik</item>
+        <item>Ogroman</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>Jako nisko</item>
+        <item>Niski</item>
+        <item>Normalno</item>
+        <item>Visoki</item>
+        <item>Vrlo visoko</item>
+    </string-array>
+    <string-array name="wifi_security">
+        <item>Otvori</item>
+        <item>WEP</item>
+        <item>WPA/WPA2 PSK</item>
+        <item>802.1x EAP</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>Gumb</item>
+        <item>PIN s paralelnog uređaja</item>
+        <item>PIN s ovog uređaja</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>Povezano</item>
+        <item>Povezivanje…</item>
+        <item>Poveži se s ovim uređajem</item>
+        <item>Dostupan</item>
+        <item>Izvan dometa</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>1 sat</item>
+        <item>Nikad ne prekidaj</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>Loše</item>
+        <item>Solidan</item>
+        <item>Dobro</item>
+        <item>Odlično</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>Uvijek</item>
+        <item>Samo kod punjenja</item>
+        <item>Nikada (povećava upotrebu podataka)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>Uvijek</item>
+        <item>Samo kad je uključeno</item>
+        <item>Nikad</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>Posljednjih 30 dana</item>
+        <item>Postavi ciklus uporabe...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatski</item>
+        <item>Samo 5 GHz</item>
+        <item>Samo 2,4 GHz</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>Vrijeme upotrebe</item>
+        <item>Pokreni brojanje</item>
+        <item>Naziv aplikacije</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>Ništa</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>Ništa</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>Isključeno</item>
+        <item>Pritisnuti gumb</item>
+        <item>PIN s pristupne točke</item>
+        <item>PIN s ovog uređaja</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>Statično</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>Ništa</item>
+        <item>Ručno</item>
+        <item>Automatski</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>Isključi</item>
+        <item>Upozorenje</item>
+        <item>Vibracija</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>Ništa</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ili CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>Neodređeno</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1 x RTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>Bez</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>Interno pohranjivanje na uređaj</item>
+        <item>Prijenosna SD kartica</item>
+        <item>Neka sustav odluči</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>Lokacija</item>
+        <item>Osobno</item>
+        <item>Razmjena poruka</item>
+        <item>Mediji</item>
+        <item>Uređaj</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>gruba lokacija</item>
+        <item>precizna lokacija</item>
+        <item>GPS</item>
+        <item>vibriraj</item>
+        <item>čitaj kontakte</item>
+        <item>izmijeni kontakte</item>
+        <item>čitanje dnevnika poziva</item>
+        <item>izmijeni zapisnik poziva</item>
+        <item>čitaj kalendar</item>
+        <item>izmijeni kalendar</item>
+        <item>skeniraj wi-fi mreže</item>
+        <item>obavijest</item>
+        <item>skeniranje ćelije</item>
+        <item>nazovi telefon</item>
+        <item>čitaj SMS</item>
+        <item>ispiši SMS</item>
+        <item>primanje SMS-a</item>
+        <item>primaj hitne SMS-ove</item>
+        <item>primanje MMS-a</item>
+        <item>primaj WAP push poruke</item>
+        <item>pošalji SMS</item>
+        <item>čitaj ICC SMS</item>
+        <item>ispiši ICC SMS</item>
+        <item>izmijeni postavke</item>
+        <item>nacrtaj na vrhu</item>
+        <item>pristup obavijestima</item>
+        <item>fotoaparat</item>
+        <item>snimanje zvuka</item>
+        <item>reproduciraj audio</item>
+        <item>čitaj međuspremnik</item>
+        <item>izmijeni međuspremnik</item>
+        <item>medijski gumbi</item>
+        <item>audio fokus</item>
+        <item>glavna glasnoća</item>
+        <item>glasnoća glasa</item>
+        <item>glasnoća zvona</item>
+        <item>glasnoća medija</item>
+        <item>glasnoća alarma</item>
+        <item>glasnoća obavijesti</item>
+        <item>Glasnoća Bluetootha</item>
+        <item>zadrži u aktivnom stanju</item>
+        <item>lokacija monitora</item>
+        <item>pratio lokacije velike potrošnje energije</item>
+        <item>pribavi statistiku o uporabi</item>
+        <item>isključivanje/uključivanje mikrofona</item>
+        <item>projiciranje medija</item>
+        <item>aktiviraj VPN</item>
+        <item>pozadinska slika za pisanje</item>
+        <item>pomoćna struktura</item>
+        <item>pomoćna snimka zaslona</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>Lokacija</item>
+        <item>Lokacija</item>
+        <item>Lokacija</item>
+        <item>Vibriraj</item>
+        <item>Čitaj kontakte</item>
+        <item>Promijeni kontakte</item>
+        <item>čitanje dnevnika poziva</item>
+        <item>Izmijeni zapisnik poziva</item>
+        <item>Čitaj kalendar</item>
+        <item>Izmijeni kalendar</item>
+        <item>Lokacija</item>
+        <item>Objavi obavijest</item>
+        <item>Lokacija</item>
+        <item>Nazovi telefon</item>
+        <item>Čitaj SMS/MMS</item>
+        <item>Ispiši SMS/MMS</item>
+        <item>Primaj SMS/MMS</item>
+        <item>Primaj SMS/MMS</item>
+        <item>Primaj SMS/MMS</item>
+        <item>Primaj SMS/MMS</item>
+        <item>Šalji SMS/MMS</item>
+        <item>Čitaj SMS/MMS</item>
+        <item>Ispiši SMS/MMS</item>
+        <item>Izmijeni postavke</item>
+        <item>Nacrtaj na vrhu</item>
+        <item>Pristup obavijestima</item>
+        <item>Fotoaparat</item>
+        <item>Snimi audio zapis</item>
+        <item>Reproduciraj audio</item>
+        <item>Čitaj međuspremnik</item>
+        <item>Izmijeni međuspremnik</item>
+        <item>Medijski gumbi</item>
+        <item>Audio fokus</item>
+        <item>Glavna glasnoća</item>
+        <item>Glasnoća glasa</item>
+        <item>Glasnoća zvona</item>
+        <item>Glasnoća medija</item>
+        <item>Glasnoća alarma</item>
+        <item>Glasnoća obavijesti</item>
+        <item>Glasnoća Bluetootha</item>
+        <item>Zadrži u aktivnom stanju</item>
+        <item>Lokacija</item>
+        <item>Lokacija</item>
+        <item>Pribavi statistiku o uporabi</item>
+        <item>Utišaj/uključi mikrofon</item>
+        <item>Projiciranje medija</item>
+        <item>Aktiviraj VPN</item>
+        <item>Pozadinska slika za pisanje</item>
+        <item>Pomoćna struktura</item>
+        <item>Pomoćna snimka zaslona</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>Kratko</item>
+        <item>Srednje</item>
+        <item>Dugo</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>Zadano</item>
+        <item>Sans-serif</item>
+        <item>Sans-serif condensed</item>
+        <item>Fiksna širina bez serifa</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+        <item>Jednostavno</item>
+        <item>Kurziv</item>
+        <item>Mala slova</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>Vrlo mala</item>
+        <item>Mala</item>
+        <item>Normalna</item>
+        <item>Velika</item>
+        <item>Vrlo velika</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>Zadano</item>
+        <item>Ništa</item>
+        <item>Ocrtaj</item>
+        <item>Spusti sjenu</item>
+        <item>Izdignuto</item>
+        <item>Utisnuto</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>25%</item>
+        <item>50%</item>
+        <item>75%</item>
+        <item>100%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>Uporaba zadanih postavki aplikacije</item>
+        <item>Bijelo na crnom</item>
+        <item>Crno na bijelom</item>
+        <item>Žuto na crnom</item>
+        <item>Žuto na plavom</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN s unaprijed dijeljenim ključevima</item>
+        <item>L2TP/IPSec VPN sa certifikatima</item>
+        <item>IPSec VPN s unaprijed dijeljenim ključevima i provjerom autentičnosti Xauth</item>
+        <item>IPSec VPN sa certifikatima i provjerom autentičnosti Xauth</item>
+        <item>IPSec VPN sa certifikatima i hibridnom provjerom autentičnosti</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>Nije povezano</item>
+        <item>Pokreće se...</item>
+        <item>Povezivanje…</item>
+        <item>Povezano</item>
+        <item>Privremeni prekid</item>
+        <item>Neuspješno</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>WAPI PSK heksadecimalno</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>Isključeno</item>
+        <item>Glazba</item>
+        <item>Film</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>1 korisnik</item>
+        <item>2 korisnika</item>
+        <item>3 korisnika</item>
+        <item>4 korisnika</item>
+        <item>5 korisnika</item>
+        <item>6 korisnika</item>
+        <item>7 korisnika</item>
+        <item>8 korisnika</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>PRET 1</item>
+        <item>PRET 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>Postavi pitanje</item>
+        <item>Ne dopuštaj nikada</item>
+        <item>Dopusti uvijek</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>normalno</item>
+        <item>umjereno</item>
+        <item>nisko</item>
+        <item>kritično</item>
+        <item>Nepoznato</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>Uobičajena</item>
+        <item>Umjerena</item>
+        <item>Niska</item>
+        <item>Kritična</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>Postojana</item>
+        <item>Glavna aktivnost</item>
+        <item>Važna (u prvom planu)</item>
+        <item>Važna (u pozadini)</item>
+        <item>Pričuvna</item>
+        <item>Teška</item>
+        <item>Usluga (izvodi se)</item>
+        <item>Usluga (ponovno pokretanje)</item>
+        <item>Prijamnik</item>
+        <item>Početna stranica</item>
+        <item>Posljednja aktivnost</item>
+        <item>Predmemorija (aktivnost)</item>
+        <item>Predmemorija (klijent aktivnosti)</item>
+        <item>Predmemorija (prazna)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>Tirkizno plava</item>
+        <item>Plava</item>
+        <item>Indigo</item>
+        <item>Ljubičasta</item>
+        <item>Ružičasta</item>
+        <item>Crvena</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>Automatski</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>Automatski poveži</item>
+        <item>Ručno povezivanje</item>
+        <item>Uvijek pitaj</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 minuta</item>
+        <item>15 minuta</item>
+        <item>30 minuta</item>
+        <item>1 sat</item>
+        <item>Uvijek</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>Pokretač</item>
+        <item>Poziv</item>
+        <item>Poruke</item>
+        <item>Fotoaparat</item>
+        <item>Galerija</item>
+        <item>Glazba</item>
+        <item>E-pošta</item>
+        <item>Preglednik</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>Mali</item>
+        <item>Srednji</item>
+        <item>Veliki</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>Pokraj ikone baterije</item>
+        <item>U ikoni baterije</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>Ne prikazuj</item>
+        <item>Pokraj ikone</item>
+        <item>U ikoni</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 sekundi</item>
+        <item>30 sekundi</item>
+        <item>1 minutu</item>
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>Nikad</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>Samo jednom</item>
+        <item>Od ponedjeljka do petka</item>
+        <item>Radni dani (presk. praznike)</item>
+        <item>Svaki dan</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>Ponedjeljak</item>
+        <item>Utorak</item>
+        <item>Srijeda</item>
+        <item>Četvrtak</item>
+        <item>Petak</item>
+        <item>Subota</item>
+        <item>Nedjelja</item>
+    </string-array>
+    <string-array name="agps_location_method_key">
+        <item>Autonomno</item>
+        <item>Zasnovano na mobilnoj postaji</item>
+        <item>Uz pomoć mobilne postaje</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>Omogući za lokalne mreže</item>
+        <item>Omogući za lokalne i roaming mreže</item>
+    </string-array>
+    <string-array name="gps_start_method_key">
+        <item>Vruće</item>
+        <item>Toplo</item>
+        <item>Hladno</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>Google</item>
+        <item>China Mobile</item>
+        <item>Drugo</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>Od ponedjeljka do petka</item>
+        <item>Subota, nedjelja</item>
+        <item>Svaki dan</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>Sve mreže (povećava se korišt. pod.)</item>
+        <item>Samo preko Wi-Fi veze</item>
+        <item>Nikad</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>Sve mreže</item>
+        <item>Samo preko Wi-Fi veze</item>
+        <item>Nikad</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>Ikone</item>
+        <item>Brojevi</item>
+        <item>Ništa</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>Zadano</item>
+        <item>Bijelo na crnom</item>
+        <item>Crno na bijelom</item>
+        <item>Žuto na crnom</item>
+        <item>Žuto na plavom</item>
+        <item>Prilagođeno</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferirani Wi‑Fi</item>
+        <item>Prednost ima mobilna mreža</item>
+        <item>Samo Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>Prednost ima Wi-Fi mreža</item>
+        <item>Prednost ima mobilna mreža</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>Zvuk zvona</item>
+        <item>Lokalna glazba</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>Wi-Fi preferirani</item>
+        <item>Mobilni podaci su preferirani</item>
+        <item>Samo Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>Wi-Fi preferirani</item>
+        <item>Mobilni podaci su preferirani</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>Wi-Fi preferirani</item>
+        <item>Preferirana mobilna mreža</item>
+        <item>Preferirana mreža 4G</item>
+        <item>Samo Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>Wi-Fi preferirani</item>
+        <item>Preferirana mobilna mreža</item>
+        <item>Preferirana mreža 4G</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>Wi-Fi preferirani</item>
+        <item>Preferirana mreža 4G</item>
+        <item>Samo Wi-Fi</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>Wi-Fi preferirani</item>
+        <item>Preferirana mreža 4G</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>10 sekundi</item>
+        <item>15 sekundi</item>
+        <item>30 sekundi</item>
+        <item>1 minuta</item>
+        <item>2 minute</item>
+        <item>5 minuta</item>
+        <item>10 minuta</item>
+        <item>30 minuta</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>5 min neaktivnos.</item>
+        <item>10 minuta neaktivnosti</item>
+        <item>Uvijek uključeno</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>Nakon 5 minuta</item>
+        <item>Nakon 10 minuta</item>
+        <item>Uvijek uključeno</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>PPTP VPN</item>
+        <item>L2TP</item>
+        <item>L2TP/IPSec VPN s unaprijed dijeljenim ključevima</item>
+        <item>L2TP/IPSec VPN sa certifikatima</item>
+        <item>IPSec VPN s unaprijed dijeljenim ključevima i provjerom autentičnosti Xauth</item>
+        <item>IPSec VPN sa certifikatima i provjerom autentičnosti Xauth</item>
+        <item>IPSec VPN sa certifikatima i hibridnom provjerom autentičnosti</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 sekundi</item>
+        <item>30 sekundi</item>
+        <item>60 sekundi</item>
+        <item>90 sekundi</item>
+        <item>120 sekundi</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>Vrsta 1</item>
+        <item>Vrsta 2</item>
+        <item>Vrsta 3</item>
+        <item>Vrsta 4</item>
+        <item>Vrsta 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>Pekinško vrijeme</item>
+        <item>Lokalno vrijeme</item>
+    </string-array>
+    <string-array name="display_mode_entries_special">
+        <item>Kompaktno</item>
+        <item>Mali</item>
+        <item>Standard</item>
+        <item>Uvećano</item>
+    </string-array>
+</resources>

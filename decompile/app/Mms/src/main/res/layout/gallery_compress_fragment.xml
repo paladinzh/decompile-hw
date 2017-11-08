@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:id="@+id/gallery_compress_viewpager" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:background="@drawable/ab_top_pic" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/gallery_compress_btn_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/gallery_compress_btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_white_back" android:contentDescription="@string/up_navigation" android:layout_marginStart="@dimen/gallery_compress_btn_back_marginstart" />
+            <TextView android:textSize="@dimen/gallery_compress_current_page_textsize" android:textColor="@color/gallery_compress_current_page_textcolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gallery_compress_current_page" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="HwChinese-medium" android:layout_marginStart="@dimen/gallery_compress_current_page_marginstart" />
+        </LinearLayout>
+        <CheckBox android:theme="0x20600cd" android:id="@+id/gallery_compress_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@+id/gallery_compress_btn_back" android:layout_marginEnd="@dimen/gallery_compress_checkbox_margin_end" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/fileInfoView" android:background="@color/gallery_foot_background_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0358" android:layout_marginBottom="0dp">
+        <RadioButton android:theme="0x20600cd" android:id="@+id/imageView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:checked="false" android:layout_marginStart="16dp" android:layout_marginEnd="4dp" />
+        <TextView android:textSize="16sp" android:textColor="0x106000b" android:id="@+id/textView1" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/rbtn_text_full_size" android:includeFontPadding="false" android:layout_toEndOf="@+id/imageView2" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/ab_bottom_pic" android:paddingBottom="@dimen/gallery_compress_checkbox_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/gallery_compress_checkbox_margin_end" />
+</FrameLayout>

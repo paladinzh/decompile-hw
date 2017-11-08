@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/uninstall_button_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0080" android:layout_marginBottom="@dimen/addetect_app_detail_button_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/addetect_app_detail_button_startend" android:layout_marginEnd="@dimen/addetect_app_detail_button_startend">
+        <Button android:textSize="@dimen/addetect_app_detail_button_textsize" android:id="@+id/uninstall_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_uninstall" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/uninstall_button_layout" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0084">
+                <ImageView android:id="@+id/app_icon" android:layout_width="UNKNOWN_DATA_0x4001" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginTop="@dimen/addetect_app_detail_icon_margin_top" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/listview_item_font_size_1" android:textColor="@color/emui_list_primary_text" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/addetect_app_detail_textview_margin_top" android:layout_below="@+id/app_icon" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/listview_item_font_size_2" android:textColor="@color/emui_list_primary_text" android:id="@+id/app_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@+id/app_name" android:layout_centerHorizontal="true" android:fontFamily="chnfzxh" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ad_action_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View style="@style/emui_horizontal_divider" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+                    <TextView android:id="@+id/ad_risk_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18dp" android:layout_marginEnd="18dp" style="?unknown_attr_ref: 1010208" />
+                </RelativeLayout>
+                <View style="@style/emui_horizontal_divider" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="18dp" android:layout_marginEnd="18dp">
+                    <TextView android:textSize="@dimen/addetect_app_detail_textview_textsize" android:textColor="@color/emui_list_primary_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/ad_risk_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginBottom="17dp" android:lineSpacingMultiplier="1.2" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/ad_platform_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <View style="@style/emui_horizontal_divider" />
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+                    <TextView android:id="@+id/ad_platform_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18dp" android:layout_marginEnd="18dp" style="?unknown_attr_ref: 1010208" />
+                </RelativeLayout>
+                <View style="@style/emui_horizontal_divider" />
+                <ScrollView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:layout_marginStart="18dp" android:layout_marginEnd="18dp">
+                    <TextView android:textSize="@dimen/addetect_app_detail_textview_textsize" android:textColor="@color/emui_list_primary_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/ad_platform_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" />
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

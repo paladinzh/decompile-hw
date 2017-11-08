@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RadioButton android:id="@+id/mode_radio_radiobutton" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="18dp" android:layout_toStartOf="@+id/mode_radio_radiobutton" android:layout_alignParentStart="true">
+        <RelativeLayout android:orientation="horizontal" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp">
+            <TextView android:id="@+id/mode_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentStart="true" style="@style/PowerPrimaryTextSytle" />
+            <TextView android:id="@+id/mode_summary_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="6.7dp" android:layout_toEndOf="@+id/mode_title_textview" style="@style/PowerSecondTextSytle" />
+        </RelativeLayout>
+        <TextView android:id="@+id/mode_content_textview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="14dp" style="@style/PowerSecondTextSytle" />
+    </LinearLayout>
+</com.huawei.systemmanager.emui.EmuiBackgroundRelativeLayout>

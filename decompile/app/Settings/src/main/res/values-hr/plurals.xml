@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="bluetooth_is_discoverable_toast_Toast">
+        <item quantity="other">Uključena je Bluetooth vidljivost. Otkrivanje će biti omogućeno za %1$d sekundi.</item>
+        <item quantity="one">Uključena je Bluetooth vidljivost. Otkrivanje će biti omogućeno za %1$d sekundu.</item>
+        <item quantity="few">Uključena je Bluetooth vidljivost. Otkrivanje će biti omogućeno za %1$d sekunde.</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Još &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> koraka i postat ćete razvojni programer .</item>
+        <item quantity="one">Još &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> korak i postat ćete razvojni programer.</item>
+        <item quantity="few">Još &lt;subnode ref="ml" index="1">%1$d&lt;/subnode> koraka i postat ćete razvojni programer .</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Želite li ukloniti odabrane jezike?</item>
+        <item quantity="one">Želite li ukloniti odabrane jezike?</item>
+        <item quantity="few">Želite li ukloniti odabrane jezike?</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d otisaka prsta postavljeno</item>
+        <item quantity="one">%1$d otisak prsta postavljen</item>
+        <item quantity="few">%1$d otiska prsta postavljena</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko slova: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko malih slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno malo slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko malih slova: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko velikih slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno veliko slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko velikih slova: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko brojčanih znamenki: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jednu brojčanu znamenku.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko brojčanih znamenki: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko posebnih znakova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedan posebni simbol.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko posebnih znakova: %d</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko znakova koji nisu slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedan znak koji nije slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem ovoliko znakova koji nisu slova: %d</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Netočan PIN kôd SIM kartice; imate još ovoliko preostalih pokušaja: %d.</item>
+        <item quantity="one">Netočan PIN kôd SIM kartice; imate još %d pokušaj prije nego što budete morali kontaktirati svog mobilnog operatera da bi otključao vaš uređaj.</item>
+        <item quantity="few">Netočan PIN kôd SIM kartice; imate još %d pokušaja.</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d stavki</item>
+        <item quantity="one">%d stavka</item>
+        <item quantity="few">%d stavke</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Izrazito kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Izrazito kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="few">Izrazito kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Vrlo kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Vrlo kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="few">Vrlo kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="few">Kratka odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="few">Duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Vrlo duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="one">Vrlo duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+        <item quantity="few">Vrlo duga odgoda (&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> ms)</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d zadataka ispisa</item>
+        <item quantity="one">%d zadatak ispisa</item>
+        <item quantity="few">%d zadatka ispisa</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Vjeruj ili ukloni certifikate</item>
+        <item quantity="one">Vjeruj ili ukloni certifikat</item>
+        <item quantity="few">Vjeruj ili ukloni certifikate</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s je instalirao certifikat za autorizacije na vaš uređaj, što mu može omogućiti nadzor mrežne aktivnosti vašeg uređaja, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti te certifikate.
+
+Za više informacija o tim certifikatima obratite sve svom administratoru."</item>
+        <item quantity="one">"%s je instalirao certifikat za autorizaciju na vaš uređaj, što mu može omogućiti nadzor mrežne aktivnosti vašeg uređaja, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti taj certifikat.
+
+Za više informacija o ovom certifikatu obratite sve svom administratoru."</item>
+        <item quantity="few">"%s je instalirao certifikat za autorizacije na vaš uređaj, što mu može omogućiti nadzor mrežne aktivnosti vašeg uređaja, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti te certifikate.
+
+Za više informacija o tim certifikatima obratite sve svom administratoru."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s je instalirao certifikat za autorizacije na vaš radni profil, što mu može omogućiti nadzor vaše mrežne aktivnosti, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti te certifikate.
+
+Za više informacija o tim certifikatima obratite sve svom administratoru."</item>
+        <item quantity="one">"%s je instalirao certifikat za autorizaciju na vaš radni profil, što mu može omogućiti nadzor vaše mrežne aktivnosti, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti taj certifikat.
+
+Za više informacija o ovom certifikatu obratite sve svom administratoru."</item>
+        <item quantity="few">"%s je instalirao certifikat za autorizacije na vaš radni profil, što mu može omogućiti nadzor vaše mrežne aktivnosti, uključujući e-poštu, aplikacije i sigurna web-mjesta. Možete vjerovati ili ukloniti te certifikate.
+
+Za više informacija o tim certifikatima obratite sve svom administratoru."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Provjeri certifikate</item>
+        <item quantity="one">Provjeri certifikat</item>
+        <item quantity="few">Provjeri certifikate</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d aplikacija može čitati obavijesti</item>
+        <item quantity="one">%d aplikacija može čitati obavijesti</item>
+        <item quantity="few">%d aplikacije mogu čitati obavijesti</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Promijeni na \"Samo alarmi\" u trajanju od %1$d minuta (do %2$s)</item>
+        <item quantity="one">Promijeni na \"Samo alarmi\" u trajanju od %1$d minute (do %2$s)</item>
+        <item quantity="few">Promijeni na \"Samo alarmi\" u trajanju od %1$d minute (do %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Promijeni na \"Samo alarmi\" u trajanju od %1$d sati do %2$s</item>
+        <item quantity="one">Promijeni na \"Samo alarmi\" u trajanju od %1$d sata do %2$s</item>
+        <item quantity="few">Promijeni na \"Samo alarmi\" u trajanju od %1$d sata do %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> dopuštenja odobreno</item>
+        <item quantity="one">&lt;subnode ref="ml" index="1">%d&lt;/subnode> dopuštenje odobreno</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%d&lt;/subnode> dopuštenja odobrena</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> od &lt;subnode ref="ml" index="2">%2$d&lt;/subnode> dopuštenja odobreno</item>
+        <item quantity="one">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> od &lt;subnode ref="ml" index="2">%2$d&lt;/subnode> dopuštenja odobreno</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> od &lt;subnode ref="ml" index="2">%2$d&lt;/subnode> dopuštenja odobreno</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d dodatnih dopuštenja</item>
+        <item quantity="one">%d dodatno dopuštenje</item>
+        <item quantity="few">%d dodatna dopuštenja</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacija može otvoriti podržane veze</item>
+        <item quantity="one">Jedna aplikacija može otvoriti podržane veze</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacije mogu otvoriti podržane veze</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacije(a) imaju (ima) dopuštenje za zanemarivanje optimizacije baterije.</item>
+        <item quantity="one">1 aplikacija ima dopuštenje za zanemarivanje optimizacije baterije.</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacije(a) imaju (ima) dopuštenje za zanemarivanje optimizacije baterije.</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplikacija upotrebljavalo je memoriju unatrag %2$s</item>
+        <item quantity="one">1 aplikacija koristila je memoriju u zadnjih %2$s</item>
+        <item quantity="few">%1$d aplikacija koristilo je memoriju u zadnjih %2$s</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">Blokirano je slanje s &lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacija</item>
+        <item quantity="one">Blokirano je slanje s &lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacije</item>
+        <item quantity="few">Blokirano je slanje s &lt;subnode ref="ml" index="1">%d&lt;/subnode> aplikacije</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> aplikacija smije upotrebljavati neograničene podatke kada je Ušteda podataka uključena</item>
+        <item quantity="one">1 aplikacija smije upotrebljavati neograničene podatke kada je Ušteda podataka uključena</item>
+        <item quantity="few">&lt;subnode ref="ml" index="1">%1$d&lt;/subnode> aplikacije smiju upotrebljavati neograničene podatke kada je Ušteda podataka uključena</item>
+    </plurals>
+    <plurals name="zen_mode_repeat_callers_summary">
+        <item quantity="other">Zvonit će pozivi iz drugog pokušaja ako su upućeni unutar %d min</item>
+        <item quantity="one">Zvonit će pozivi iz drugog pokušaja ako su upućeni unutar %d min</item>
+        <item quantity="few">Zvonit će pozivi iz drugog pokušaja ako su upućeni unutar %d min</item>
+    </plurals>
+    <plurals name="bluetooth_ask_discovery_emotion">
+        <item quantity="other">Aplikacija na vašem uređaju želi podesiti vaš uređaj tako da drugim Bluetooth uređajima omogući prepoznavanje na %1$d sekundi. Dopustiti?</item>
+        <item quantity="one">Aplikacija na vašem uređaju želi podesiti vaš uređaj tako da drugim Bluetooth uređajima omogući prepoznavanje na %1$d sekundu. Dopustiti?</item>
+        <item quantity="few">Aplikacija na vašem uređaju želi podesiti vaš uređaj tako da drugim Bluetooth uređajima omogući prepoznavanje na %1$d sekunde. Dopustiti?</item>
+    </plurals>
+    <plurals name="bluetooth_ask_enablement_and_discovery_emotion">
+        <item quantity="other">Aplikacija na vašem uređaju želi uključiti Bluetooth i drugim uređajima omogućiti prepoznavanje vašeg uređaja na %1$d sekundi. Dopustiti?</item>
+        <item quantity="one">Aplikacija na vašem uređaju želi uključiti Bluetooth i drugim uređajima omogućiti prepoznavanje vašeg uređaja na %1$d sekundu. Dopustiti?</item>
+        <item quantity="few">Aplikacija na vašem uređaju želi uključiti Bluetooth i drugim uređajima omogućiti prepoznavanje vašeg uređaja na %1$d sekunde. Dopustiti?</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short_emotion">
+        <item quantity="other">Lozinka mora imati najmanje %d znakova</item>
+        <item quantity="one">Lozinka mora imati najmanje %d znak</item>
+        <item quantity="few">Lozinka mora imati najmanje %d znaka</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_short_emotion">
+        <item quantity="other">PIN mora sadržavati najmanje %d znakova</item>
+        <item quantity="one">PIN mora sadržavati najmanje %d znak</item>
+        <item quantity="few">PIN mora sadržavati najmanje %d znaka</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_long_emotion">
+        <item quantity="other">Lozinka mora biti kraća od %d znakova</item>
+        <item quantity="one">Lozinka mora biti kraća od %d znaka</item>
+        <item quantity="few">Lozinka mora biti kraća od %d znaka</item>
+    </plurals>
+    <plurals name="lockpassword_pin_too_long_emotion">
+        <item quantity="other">PIN mora biti kraći od %d znamenki</item>
+        <item quantity="one">PIN mora biti kraći od %d znamenke</item>
+        <item quantity="few">PIN mora biti kraći od %d znamenke</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d malih slova</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d malo slovo</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d mala slova</item>
+    </plurals>
+    <plurals name="bluetooth_tethering_devices_connected_subtext_emotion">
+        <item quantity="other">Dijeljenje internetske veze uređaja s %1$d uređaja</item>
+        <item quantity="one">Dijeljenje internetske veze uređaja s %1$d uređajem</item>
+        <item quantity="few">Dijeljenje internetske veze uređaja s %1$d uređaja</item>
+    </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short_emotion">
+        <item quantity="other">Povežite najmanje %d točaka. Pokušajte ponovo.</item>
+        <item quantity="one">Povežite najmanje %d točku. Pokušajte ponovo.</item>
+        <item quantity="few">Povežite najmanje %d točke. Pokušajte ponovo.</item>
+    </plurals>
+    <plurals name="credentials_reset_warning_plural_emotion">
+        <item quantity="other">Netočna lozinka. Imate još %1$d pokušaja prije brisanja memorije vjerodajnica</item>
+        <item quantity="one">Netočna lozinka. Imate još %1$d pokušaj prije brisanja memorije vjerodajnica</item>
+        <item quantity="few">Netočna lozinka. Imate još %1$d pokušaja prije brisanja memorije vjerodajnica</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d velikih slova</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d veliko slovo</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d velika slova</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d znamenki</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d znamenku</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d znamenke</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d slova</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d slovo</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d slova</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d simbola</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d simbol</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d simbola</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter_emotion">
+        <item quantity="other">Lozinka mora sadržavati barem %d znakova koji nisu slova</item>
+        <item quantity="one">Lozinka mora sadržavati barem %d znak koji nije slovo</item>
+        <item quantity="few">Lozinka mora sadržavati barem %d znaka koji nisu slova</item>
+    </plurals>
+    <plurals name="show_dev_countdown_emotion_Toast">
+        <item quantity="other">Nedostaje vam %d koraka da postanete razvojni inženjer.</item>
+        <item quantity="one">Nedostaje vam %d korak da postanete razvojni inženjer.</item>
+        <item quantity="few">Nedostaje vam %d koraka da postanete razvojni inženjer.</item>
+    </plurals>
+    <plurals name="wifiap_connect_accounts">
+        <item quantity="other">Povezano je %d uređaja</item>
+        <item quantity="one">Povezan je %d uređaj</item>
+        <item quantity="few">Povezana su %d uređaja</item>
+    </plurals>
+    <plurals name="wifiap_wps_current_allow_devices">
+        <item quantity="other">Dopušteni uređaji (maks %d uređaja)</item>
+        <item quantity="one">Dopušteni uređaji (maks. %d uređaj)</item>
+        <item quantity="few">Dopušteni uređaji (maks %d uređaja)</item>
+    </plurals>
+    <plurals name="search_reslut_count">
+        <item quantity="other">Pronađeno %1$s postavki</item>
+        <item quantity="one">Pronađena %1$s postavka</item>
+        <item quantity="few">Pronađeno %1$s postavki</item>
+    </plurals>
+    <plurals name="search_reslut_count_ex">
+        <item quantity="other">Pronađeno %1$d postavki</item>
+        <item quantity="one">Pronađena %1$d postavka</item>
+        <item quantity="few">Pronađeno %1$d postavki</item>
+    </plurals>
+    <plurals name="timing_task_settings_interval_Toast">
+        <item quantity="other">Interval između programiranog uključivanja i isključivanja ne može biti manji od %1$d minuta.</item>
+        <item quantity="one">Interval između programiranog uključivanja i isključivanja ne može biti manji od %1$d minute.</item>
+        <item quantity="few">Interval između programiranog uključivanja i isključivanja ne može biti manji od %1$d minuta.</item>
+    </plurals>
+    <plurals name="shutdown_countdown_dialog_message">
+        <item quantity="other">Vaš će se uređaj automatski isključiti nakon %1$d sekunde.</item>
+        <item quantity="one">Vaš će se uređaj automatski isključiti nakon %1$d sekunde/i.</item>
+        <item quantity="few">Vaš će se uređaj automatski isključiti nakon %1$d sekunde.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_short">
+        <item quantity="other">Lozinka za SD karticu mora sadržavati najmanje %d znaka.</item>
+        <item quantity="one">Lozinka za SD karticu mora sadržavati najmanje %d znak.</item>
+        <item quantity="few">Lozinka za SD karticu mora sadržavati najmanje %d znaka.</item>
+    </plurals>
+    <plurals name="sdcard_pin_too_long">
+        <item quantity="other">Lozinka za SD karticu mora sadržavati manje od %d znakova.</item>
+        <item quantity="one">Lozinka za SD karticu mora sadržavati manje od %d znaka.</item>
+        <item quantity="few">Lozinka za SD karticu mora sadržavati manje od %d znaka.</item>
+    </plurals>
+    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
+        <item quantity="other">Previše netočnih pokušaja. Pokušajte ponovo za &lt;subnode ref="ml" index="1">%d&lt;/subnode> s.</item>
+        <item quantity="one">Previše netočnih pokušaja. Pokušajte ponovo za &lt;subnode ref="ml" index="1">%d&lt;/subnode> s.</item>
+        <item quantity="few">Previše netočnih pokušaja. Pokušajte ponovo za &lt;subnode ref="ml" index="1">%d&lt;/subnode> s.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_pin">
+        <item quantity="other">Unesite barem %1$d znamenki.</item>
+        <item quantity="one">Unesite barem %1$d znamenku.</item>
+        <item quantity="few">Unesite barem %1$d znamenki.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_short_password">
+        <item quantity="other">Unesite barem %1$d znakova.</item>
+        <item quantity="one">Unesite barem %1$d znak.</item>
+        <item quantity="few">Unesite barem %1$d znakova.</item>
+    </plurals>
+    <plurals name="lockscreen_err_msg_too_one_char_at_least">
+        <item quantity="other">Mora sadržavati barem %1$d slova.</item>
+        <item quantity="one">Mora sadržavati barem %1$d slovo.</item>
+        <item quantity="few">Mora sadržavati barem %1$d slova.</item>
+    </plurals>
+    <plurals name="lockscreen_warn_wrong_password">
+        <item quantity="other">Netočna lozinka. Preostalo vam je %1$d pokušaja.</item>
+        <item quantity="one">Netočna lozinka. Preostalo vam je %1$d pokušaja.</item>
+        <item quantity="few">Netočna lozinka. Preostalo vam je %1$d pokušaja.</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_seconds">
+        <item quantity="other">Pokušajte ponovo nakon %1$ds</item>
+        <item quantity="one">Pokušajte ponovo nakon %1$ds</item>
+        <item quantity="few">Pokušajte ponovo nakon %1$ds</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_minutes">
+        <item quantity="other">Pokušajte ponovo nakon %1$d min</item>
+        <item quantity="one">Pokušajte ponovo nakon %1$d min</item>
+        <item quantity="few">Pokušajte ponovo nakon %1$d min</item>
+    </plurals>
+    <plurals name="lockscreen_try_after_hours">
+        <item quantity="other">Pokušajte ponovo nakon %1$d h</item>
+        <item quantity="one">Pokušajte ponovo nakon %1$d h</item>
+        <item quantity="few">Pokušajte ponovo nakon %1$d h</item>
+    </plurals>
+    <plurals name="lockscreen_pattern_too_short">
+        <item quantity="other">Povežite najmanje %1$d točaka, pokušajte ponovo</item>
+        <item quantity="one">Povežite najmanje %1$d točku, pokušajte ponovo</item>
+        <item quantity="few">Povežite najmanje %1$d točaka, pokušajte ponovo</item>
+    </plurals>
+    <plurals name="blacklist_notification_signal_disableapp_title_multi_app">
+        <item quantity="other">%1$d aplikacija predstavlja sigurnosni rizik, zabranjene su</item>
+        <item quantity="one">%1$d aplikacija sadrži sigurnosne rizike, te je zabranjena</item>
+        <item quantity="few">%1$d aplikacija predstavlja sigurnosni rizik, zabranjene su</item>
+    </plurals>
+    <plurals name="blacklist_notification_title_multi_app">
+        <item quantity="other">%1$d aplikacije zabranjene</item>
+        <item quantity="one">%1$d aplikacija zabranjena</item>
+        <item quantity="few">%1$d aplikacije zabranjene</item>
+    </plurals>
+    <plurals name="timezones_results_count">
+        <item quantity="other">%d rezultata</item>
+        <item quantity="one">%d rezultat</item>
+        <item quantity="few">%d rezultata</item>
+    </plurals>
+    <plurals name="step">
+        <item quantity="other">%d koraka</item>
+        <item quantity="one">%d korak</item>
+        <item quantity="few">%d koraka</item>
+    </plurals>
+</resources>

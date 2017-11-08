@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/duoqu_switch_preference_layout" android:background="@drawable/duoqu_preference_selector" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/duoqu_preference_left_right_spacing" android:paddingEnd="@dimen/duoqu_preference_left_right_spacing">
+    <RelativeLayout android:paddingTop="@dimen/duoqu_preference_top_bottom_spacing" android:paddingBottom="@dimen/duoqu_preference_top_bottom_spacing" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="@dimen/duoqu_preference_content_spacing">
+        <TextView android:textSize="@dimen/duoqu_preference_title_text_size" android:id="@+id/duoqu_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/duoqu_preference_summary_text_size" android:textColor="@color/duoqu_preference_summary_text_color" android:id="@+id/duoqu_summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/duoqu_title" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <Switch android:id="@+id/duoqu_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

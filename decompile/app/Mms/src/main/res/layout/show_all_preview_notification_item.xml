@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@+id/arraw_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp">
+        <TextView android:textSize="@dimen/mms_message_text_size" android:textColor="@color/subtitle_color_primary_dark" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/hide_notification_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/arrow_down" android:background="@drawable/ic_public_arrow_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" android:paddingStart="@dimen/preference_item_margin_start" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/arrow_up" android:background="@drawable/ic_public_arrow_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="0x0" android:paddingStart="@dimen/preference_item_margin_start" />
+    </LinearLayout>
+    <ImageView android:id="@+id/mms_divider" android:background="@drawable/conversation_notification_preview_divider" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_below="@+id/arraw_layout" android:alpha="0.03" />
+</RelativeLayout>

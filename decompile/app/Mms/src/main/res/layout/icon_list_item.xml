@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/attach_panel_item_color" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" style="@style/icon_list_item_layout_style">
+    <ImageView android:id="@+id/icon" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:layout_centerHorizontal="true" />
+    <com.huawei.mms.ui.EmuiMenuText android:textColor="@color/mms_icon_list_item_text_color" android:id="@+id/text1" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/icon" style="@style/icon_list_item_text_style" />
+</RelativeLayout>

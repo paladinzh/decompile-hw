@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.watermark.ui.WMComponent xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/wm_component" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@id/wm_base_layout" android:background="@color/albumset_label_background" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@id/editor_head_layout" layout="@layout/editor_head_layout" />
+</com.huawei.watermark.ui.WMComponent>

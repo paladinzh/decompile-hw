@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x0" android:paddingBottom="1dp" android:paddingEnd="1dp" class="com.android.contacts.list.ContactTileStarredView">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.contacts.widget.LayoutSuppressingImageView android:id="@+id/contact_tile_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@color/contact_tile_shadow_box_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00ab" android:layout_alignParentBottom="true" android:paddingStart="8dp" android:paddingEnd="8dp">
+            <TextView android:textSize="16sp" android:textColor="0x106000b" android:ellipsize="marquee" android:id="@+id/contact_tile_name" android:fadingEdge="horizontal" android:fadingEdgeLength="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="@color/people_contact_tile_status_color" android:ellipsize="marquee" android:id="@+id/contact_tile_status" android:fadingEdge="horizontal" android:fadingEdgeLength="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-3dp" android:maxLines="1" android:drawablePadding="4dp" />
+        </LinearLayout>
+        <QuickContactBadge android:id="@+id/contact_tile_quick" android:background="0x0" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </RelativeLayout>
+</view>

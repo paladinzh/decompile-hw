@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.deskclock.alarmclock.CoverView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/snooze_add" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <TextView android:textSize="50dp" android:textColor="#ffffffff" android:id="@id/snooze_textview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_cover_snooze" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="50dp" android:textColor="#ffffffff" android:id="@id/snooze_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/smart_cover_snooze" android:layout_below="@id/snooze_textview1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</com.android.deskclock.alarmclock.CoverView>

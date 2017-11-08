@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/previewImageLayout" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/iv_img" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/rcs_add_attachment" android:scaleType="fitCenter" />
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/confirmView" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_above="@+id/previewImageLayout">
+            <ImageView android:textColor="0x106000b" android:id="@+id/btn_cancel" android:background="@drawable/rcs_ic_cancel_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginStart="14dp" />
+            <ImageView android:textColor="0x106000b" android:id="@+id/btn_send" android:background="@drawable/rcs_ic_send_msg_white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginEnd="14dp" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageButton android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/btn_play" android:background="@color/rcs_video_play_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rcs_btn_menu_play_dr" android:scaleType="center" android:onClick="doClick" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

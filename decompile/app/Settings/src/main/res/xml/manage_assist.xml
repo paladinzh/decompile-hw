@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="manage_assist"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.android.settings.applications.DefaultAssistPreference android:title="@string/default_assist_title" android:key="default_assist" android:summary="@string/default_assist_none" />
+    <SwitchPreference android:title="@string/assist_access_context_title" android:key="context" android:summary="@string/assist_access_context_summary" />
+    <SwitchPreference android:title="@string/assist_access_screenshot_title" android:key="screenshot" android:summary="@string/assist_access_screenshot_summary" />
+    <com.android.settings.voice.VoiceInputListPreference android:title="@string/voice_input_settings_title" android:key="voice_input_settings" />
+    <com.android.settings.DividerPreference android:selectable="false" android:summary="@string/assist_footer" settings:allowDividerAbove="true" />
+</PreferenceScreen>

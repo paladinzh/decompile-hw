@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_mcc_mnc" android:key="mcc_mnc" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_sid_nid" android:key="sid_nid" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_cell_id" android:key="cell_id" android:summary="@string/device_info_not_available" />
+    <Preference android:persistent="false" android:layout="@layout/preference_status_no_widget" android:title="@string/device_info_message_center" android:key="message_center" android:summary="@string/device_info_not_available" />
+</PreferenceScreen>

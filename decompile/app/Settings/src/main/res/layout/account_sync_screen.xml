@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/sync_settings_error_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title" />
+    <ImageView android:id="@id/set_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" android:scaleType="fitXY" />
+    <FrameLayout android:scrollbarStyle="outsideOverlay" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sync_settings_error_msg_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <ImageView android:id="@id/sync_settings_error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sync_error_holo" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="@dimen/preference_item_summary_end_size" android:id="@id/sync_settings_error_info" android:text="@string/sync_is_failing" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/finish_button_area" android:background="@android:drawable/APKTOOL_DUMMY_9a" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/finish_button" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:text="@string/finish_button_label" android:drawablePadding="3.0dip" android:drawableEnd="@drawable/abc_ic_commit_search_api_mtrl_alpha_APKTOOL_DUPLICATENAME_0x7f0202cf" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

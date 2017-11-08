@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:persistent="false" android:title="@string/network_selection_settings" android:key="pref_key_network_selection_settings">
+        <intent android:action="com.huawei.settings.intent.INTERNATIONAL_ROAMING" />
+    </PreferenceScreen>
+    <Preference android:persistent="false" android:title="@string/cdma_roaming_list" android:key="pref_key_roaming_list" />
+    <Preference android:persistent="false" android:title="@string/international_roaming_hotline" android:key="pref_key_roaming_hotline" android:summary="@string/roaming_hotline_number" />
+    <Preference android:persistent="false" android:title="@string/restore_default" android:key="pref_key_restore_default" />
+    <Preference android:persistent="false" android:title="@string/menu_instructions" android:key="pref_key_menu" />
+</PreferenceScreen>

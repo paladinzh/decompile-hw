@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/privacy" android:layout_alignParentTop="true" style="@style/camcard_about_app_style">
+        <ImageView android:id="@+id/app_icon" android:background="@drawable/cc_logo" android:layout_width="UNKNOWN_DATA_0x5c01" android:layout_height="UNKNOWN_DATA_0x5c01" android:scaleType="centerCrop" android:contentDescription="@string/camcard_setting" />
+        <TextView android:textSize="14sp" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/camcard_app_name" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="13sp" android:id="@+id/cc_href" android:background="@drawable/download_selector_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="24dp" android:paddingEnd="24dp" />
+    <TextView android:textSize="13sp" android:id="@+id/privacy" android:background="@drawable/download_selector_color" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3dp" android:layout_above="@+id/cc_href" android:layout_centerHorizontal="true" android:paddingStart="24dp" android:paddingEnd="24dp" />
+</RelativeLayout>

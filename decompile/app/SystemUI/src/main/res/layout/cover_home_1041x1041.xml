@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.keyguard.cover.CoverHome xmlns:android="http://schemas.android.com/apk/res/android" android:id="@r$id/cover_home" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <ImageView android:id="@r$id/cover_music_mask" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/cover_music_mask_1041x1041" android:layout_centerInParent="true" />
+    <include android:id="@id/cover_switch" layout="@layout/cover_switch_panel_1041x1041" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cover_navigation_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cover_navigation_bar_margin_bottom" android:layout_alignParentBottom="true" android:layoutDirection="ltr" android:layout_marginStart="11dp">
+        <ImageView android:id="@r$id/navigation_bar_clock" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@r$drawable/navigation_bar_bright" />
+        <ImageView android:id="@r$id/navigation_bar_music" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@r$drawable/navigation_bar_gray" android:layout_marginStart="6dp" />
+    </LinearLayout>
+</com.huawei.keyguard.cover.CoverHome>

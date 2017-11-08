@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/detail_min_line_item_height">
+    <com.android.contacts.detail.ActionsViewContainer android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/actions_view_container" android:background="?unknown_attr_ref: 101030e" android:paddingTop="@dimen/contact_list_item_padding_top" android:paddingBottom="@dimen/contact_list_item_padding_bottom" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/detail_min_line_item_height" android:paddingStart="@dimen/detail_item_side_margin" android:paddingEnd="@dimen/detail_item_button_margin_end">
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/primary_action_view" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+            <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:lineSpacingExtra="2dp" android:layout_alignParentStart="true" style="@style/contact_list_item_main_text_style" />
+                <View android:id="@+id/primary_indicator" android:background="@drawable/ic_list_default_mime_holo_dark" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_centerVertical="true" android:layout_marginStart="@dimen/call_log_inner_margin" android:layout_toEndOf="@+id/data" />
+            </RelativeLayout>
+            <TextView android:id="@+id/type" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" style="@style/ContactDetailItemType" />
+        </LinearLayout>
+        <ImageView android:id="@+id/indicator" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/btn_detail_normal" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentEnd="true" />
+    </com.android.contacts.detail.ActionsViewContainer>
+</RelativeLayout>

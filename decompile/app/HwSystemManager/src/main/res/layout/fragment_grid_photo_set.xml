@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/empty_view" android:layout="@layout/spaceclean_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/photo_tips" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/list_view_tips_style_normal" />
+        <include layout="@layout/divider_line_new" />
+        <com.huawei.systemmanager.spacecleanner.view.GridViewWithHeaderAndFooter android:id="@+id/content_list" android:paddingTop="0dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" />
+    </LinearLayout>
+</RelativeLayout>

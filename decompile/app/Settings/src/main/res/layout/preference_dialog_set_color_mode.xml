@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/color_mode_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_coloradgust_sample" android:layout_width="292.0dip" android:layout_height="192.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/image_coloradgust_sample" android:scaleType="center" />
+    <include layout="@layout/divider" />
+    <ListView android:id="@id/color_mode_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:choiceMode="singleChoice" android:headerDividersEnabled="true" android:footerDividersEnabled="true" />
+    <include layout="@layout/divider" />
+</LinearLayout>

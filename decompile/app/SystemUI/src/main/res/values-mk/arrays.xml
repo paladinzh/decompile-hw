@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Се скенира…</item>
+        <item>Се поврзува…</item>
+        <item>Се потврдува…</item>
+        <item>Добивање на ИП-адреса…</item>
+        <item>Поврзано</item>
+        <item>Одложено</item>
+        <item>Се исклучува…</item>
+        <item>Исклучено</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Привремено се избегнуваат слаби врски</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Скенирање…</item>
+        <item>Се поврзува на %1$s…</item>
+        <item>Автентикација со %1$s…</item>
+        <item>Добивање на IP адреса од %1$s…</item>
+        <item>Поврзан на %1$s</item>
+        <item>Одложено</item>
+        <item>Прекинување на врска со %1$s…</item>
+        <item>Исклучено</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Привремено се избегнуваат слаби врски</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Никогаш не проверувај</item>
+        <item>Провери само за DRM-содржини</item>
+        <item>Секогаш проверувај</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Никогаш не користете HDCP-проверка</item>
+        <item>Користете HDCP-проверка само за DRM-содржина</item>
+        <item>Секогаш користете HDCP-проверка</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Исклучено</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Исклучено</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Исклучено</item>
+        <item>64 MB по меѓумеморија за евиденција</item>
+        <item>256 KB по меѓумеморија за евиденција</item>
+        <item>1 MB по меѓумеморија за евиденција</item>
+        <item>4 MB по меѓумеморија за евиденција</item>
+        <item>16 MB по меѓумеморија за евиденција</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Анимацијата е исклучена</item>
+        <item>Скала на анимација ,5x</item>
+        <item>Скала на анимација 1x</item>
+        <item>Скала на анимација 1,5x</item>
+        <item>Скала на анимација 2x</item>
+        <item>Скала на анимација 5x</item>
+        <item>Скала на анимација 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Анимацијата е исклучена</item>
+        <item>Скала на анимација ,5x</item>
+        <item>Скала на анимација 1x</item>
+        <item>Скала на анимација 1,5x</item>
+        <item>Скала на анимација 2x</item>
+        <item>Скала на анимација 5x</item>
+        <item>Скала на анимација 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Аним. е исклучена</item>
+        <item>Скала на аним. ,5x</item>
+        <item>Скала на аним. 1x</item>
+        <item>Скала на аним. 1,5x</item>
+        <item>Скала на аним. 2x</item>
+        <item>Скала на аним. 5x</item>
+        <item>Скала на аним. 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Ништо</item>
+        <item>480p</item>
+        <item>480p (безбедно)</item>
+        <item>720p</item>
+        <item>720p (безбедно)</item>
+        <item>1080p</item>
+        <item>1080p (безбедно)</item>
+        <item>4K</item>
+        <item>4K (безбедно)</item>
+        <item>4K (подобро)</item>
+        <item>4K (подобро, безбедно)</item>
+        <item>720p, 1080p (двоен екран)</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Исклучено</item>
+        <item>Цртај регион за неправоаголно сечење со сина боја</item>
+        <item>Нагласи ги со зелена боја тестираните команди за цртање</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Исклучено</item>
+        <item>На екранот како ленти</item>
+        <item>Во adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Исклучено</item>
+        <item>Прикажи подрачја на цедење</item>
+        <item>Прикажи области за деутеранопија</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Станд. огранич.</item>
+        <item>Нема задн. процеси</item>
+        <item>Најмногу 1 процес</item>
+        <item>Најмногу 2 процеси</item>
+        <item>Најмногу 3 процеси</item>
+        <item>Најмногу 4 процеси</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Се полни</item>
+        <item>MTP (Прот. за пренос на медиуми)</item>
+        <item>PTP (Прот. за пренос на слики)</item>
+        <item>RNDIS (Етернет преку USB)</item>
+        <item>Извор на аудио</item>
+        <item>MIDI</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Живописно (основно)</item>
+        <item>Природно</item>
+        <item>Стандардно</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Подобрени бои</item>
+        <item>Природни бои како што ги гледа окото</item>
+        <item>Бои оптимизирани за дигитални содржини</item>
+    </array>
+    <array name="clock_options">
+        <item>Прикажи часови, минути и секунди</item>
+        <item>Прикажи часови и минути (стандардно)</item>
+        <item>Не прикажувај ја иконава</item>
+    </array>
+    <array name="battery_options">
+        <item>Секогаш прикажувај процент</item>
+        <item>Прикажи процент кога се полни (стандардно)</item>
+        <item>Не прикажувај ја иконава</item>
+    </array>
+</resources>

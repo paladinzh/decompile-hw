@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res-auto" sysui:title="@string/color_and_appearance">
+    <Preference sysui:title="@string/night_mode" sysui:key="night_mode" sysui:fragment="com.android.systemui.tuner.NightModeFragment" sysui:preferenceID="@id/id_night_mode" />
+    <com.android.systemui.tuner.CalibratePreference sysui:title="@string/calibrate_display" sysui:key="calibrate" sysui:preferenceID="@id/id_calibrate" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/usb_mode_chooser_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.RadioListPreference android:title="@string/usb_only_charging_title" android:key="usb_charging_only" />
+    <com.android.settings.RadioListPreference android:title="@string/usb_mtp_emotion_title" android:key="usb_mtp" />
+    <com.android.settings.RadioListPreference android:title="@string/usb_ptp_title" android:key="usb_ptp" />
+    <com.android.settings.RadioListPreference android:title="@string/usb_mode_power_supply_title" android:key="usb_power_supply" />
+    <com.android.settings.RadioListPreference android:title="@string/usb_mode_midi_title" android:key="usb_midi" />
+</PreferenceScreen>

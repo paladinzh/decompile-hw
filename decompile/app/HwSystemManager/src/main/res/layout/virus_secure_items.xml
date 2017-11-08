@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/antivirus_security_items_layout" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="10dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/antivirus_scan_security_items" android:textAllCaps="true" android:paddingStart="16dp" android:paddingEnd="16dp" style="?unknown_attr_ref: 1010208" />
+    </LinearLayout>
+    <com.huawei.systemmanager.antivirus.ui.AntiVirusScrollListView android:id="@+id/antivirus_security_listview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/divider_line_new" />
+</LinearLayout>

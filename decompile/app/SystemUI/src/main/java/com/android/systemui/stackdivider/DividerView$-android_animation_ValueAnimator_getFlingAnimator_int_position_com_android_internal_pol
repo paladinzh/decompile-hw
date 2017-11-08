@@ -1,0 +1,17 @@
+package com.android.systemui.stackdivider;
+
+import com.android.internal.policy.DividerSnapAlgorithm.SnapTarget;
+
+final /* synthetic */ class DividerView$-android_animation_ValueAnimator_getFlingAnimator_int_position_com_android_internal_policy_DividerSnapAlgorithm$SnapTarget_snapTarget_long_endDelay_LambdaImpl1 implements Runnable {
+    private /* synthetic */ SnapTarget val$snapTarget;
+    private /* synthetic */ DividerView val$this;
+
+    public /* synthetic */ DividerView$-android_animation_ValueAnimator_getFlingAnimator_int_position_com_android_internal_policy_DividerSnapAlgorithm$SnapTarget_snapTarget_long_endDelay_LambdaImpl1(DividerView dividerView, SnapTarget snapTarget) {
+        this.val$this = dividerView;
+        this.val$snapTarget = snapTarget;
+    }
+
+    public void run() {
+        this.val$this.-com_android_systemui_stackdivider_DividerView_lambda$2(this.val$snapTarget);
+    }
+}

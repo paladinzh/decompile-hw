@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/list_albumset" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/set_label_local_albums" />
+    <include android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/common_empty_layout" />
+</RelativeLayout>

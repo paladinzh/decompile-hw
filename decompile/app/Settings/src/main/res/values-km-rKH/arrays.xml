@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>កំពុង​វិភាគ​រក…</item>
+        <item>ការតភ្ជាប់…</item>
+        <item>ការបញ្ជាក់ការពិត…</item>
+        <item>កំពុងចាប់យកអាសយដ្ឋាន IP…</item>
+        <item>បានតភ្ជាប់</item>
+        <item>បាន​ពន្យារ​ពេល</item>
+        <item>ផ្តាច់ការតភ្ជាប់…</item>
+        <item>ត្រូវបានផ្តាច់ការតភ្ជាប់</item>
+        <item>មិនជោគជ័យ</item>
+        <item>បាន​ទប់​ស្កាត់</item>
+        <item>ជៀសវាង​ការ​តភ្ជាប់​ដែល​ខ្សោយ​ជា​បណ្ដោះ​អាសន្ន</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>ការស្កេន…</item>
+        <item>កំពុង​តភ្ជាប់​ទៅ %1$s…</item>
+        <item>កំពុង​ផ្ទៀងផ្ទាត់​ជា​មួយ %1$s…</item>
+        <item>កំពុង​យក​អាសយដ្ឋាន IP ពី %1$s…</item>
+        <item>បាន​តភ្ជាប់​ទៅ %1$s</item>
+        <item>បាន​ផ្អាក</item>
+        <item>កំពុង​ផ្ដាច់​ពីរ %1$s…</item>
+        <item>បាន​ផ្ដាច់</item>
+        <item>មិន​ជោគជ័យ</item>
+        <item>បាន​ទប់ស្កាត់</item>
+        <item>ជៀសវាង​ការ​តភ្ជាប់​​ខ្សោយ​ជា​បណ្ដោះអាសន្ន</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>កុំ​ពិនិត្យមើល</item>
+        <item>ពិនិត្យ​តែ​មាតិកា DRM</item>
+        <item>ពិនិត្យ​ជា​និច្ច</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>កុំ​ប្រើ​ការ​ពិនិត្យ HDCP</item>
+        <item>ប្រើ​ការ​ពិនិត្យ HDCP សម្រាប់​តែ​មាតិកា DRM ប៉ុណ្ណោះ</item>
+        <item>ប្រើ​ការ​ពិនិត្យ HDCP ជា​និច្ច</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>64 KB ក្នុងមួយប៊ូហ្វើចូលប្រព័ន្ធ</item>
+        <item>256 KB ក្នុងមួយប៊ូហ្វើចូលប្រព័ន្ធ</item>
+        <item>1 MB ក្នុងមួយប៊ូហ្វើចូលប្រព័ន្ធ</item>
+        <item>4 MB ក្នុងមួយប៊ូហ្វើចូលប្រព័ន្ធ</item>
+        <item>16 MB ក្នុងមួយប៊ូហ្វើចូលប្រព័ន្ធ</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>បិទ​ចលនា</item>
+        <item>មាត្រដ្ឋាន​ចលនា .5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 1.5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 2x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 5x</item>
+        <item>មាត្រដ្ឋាន​ចលនា 10x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>គ្មាន</item>
+        <item>480p</item>
+        <item>480p (សុវត្ថិភាព)</item>
+        <item>720p</item>
+        <item>720p (សុវត្ថិភាព)</item>
+        <item>1080p</item>
+        <item>1080p (សុវត្ថិភាព)</item>
+        <item>4K</item>
+        <item>4K (សុវត្ថិភាព)</item>
+        <item>4K (បង្កើនគុណភាព)</item>
+        <item>4K (បង្កើនគុណភាព, សុវត្ថិភាព)</item>
+        <item>720p, 1080p (អេក្រង់ទ្វេ)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>គ្មាន</item>
+        <item>Logcat</item>
+        <item>Systrace (ក្រាហ្វិក)</item>
+        <item>លំដាប់​ហៅ​លើ glGetError</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>បិទ</item>
+        <item>គូរ​តំបន់​កាត់​មិនមែន​រាង​ចតុកោណ​ជា​ពណ៌​ខៀវ</item>
+        <item>រំលេច​ពាក្យ​បញ្ជា​គូរ​បាន​សាកល្បង​ជា​ពណ៌​បៃតង</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>បិទ</item>
+        <item>លើ​អេក្រង់​ជា​របារ</item>
+        <item>លើ​អេក្រង់​ជា​បន្ទាត់</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>បិទ</item>
+        <item>បង្ហាញ​តំបន់​​ដែល​លើស</item>
+        <item>បង្ហាញ​តំបន់​សម្រាប់ Deuteranomaly</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>ដែន​កំណត់​ស្តង់ដារ</item>
+        <item>គ្មាន​ដំណើរការ​​ក្នុង​ផ្ទៃ​ខាង​ក្រោយ</item>
+        <item>ជិត ១ ដំណើរការ</item>
+        <item>ដំណើរការ​ច្រើន​បំផុត​ ២</item>
+        <item>ដំណើរ​ការ​ច្រើន​បំផុត ៣</item>
+        <item>ជិត ៤​ ដំណើរ​ការ</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>សាកថ្មតែប៉ុណ្ណោះ</item>
+        <item>ពិធីការបញ្ជូនមេឌៀរ (MTP)</item>
+        <item>ពិធីការផ្ទេររូបភាព (PTP)</item>
+        <item>RNDIS (អ៊ីសឺរណិត USB )</item>
+        <item>ប្រភពសម្លេងអូឌីយ៉ូ</item>
+        <item>MIDI</item>
+    </string-array>
+    <string-array name="tts_rate_entries">
+        <item>យឺត​ណាស់</item>
+        <item>យឺត</item>
+        <item>ធម្មតា</item>
+        <item>លឿន</item>
+        <item>លឿន​ជាង</item>
+        <item>លឿនណាស់</item>
+        <item>រហ័ស</item>
+        <item>រហ័ស​ណាស់</item>
+        <item>លឿន​បំផុត</item>
+    </string-array>
+    <string-array name="color_mode_names">
+        <item>រស់រវើក (លំនាំដើម)</item>
+        <item>ធម្មជាតិ</item>
+        <item>ស្តង់ដារ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ពណ៌ដែលធ្វើឲ្យប្រសើរជាងមុន</item>
+        <item>ពណ៌ធម្មជាតិដូចដែលបានឃើញដោយភ្នែក</item>
+        <item>ពណ៌ដែលបានសម្រួលសម្រាប់មាតិកាឌីជីថល</item>
+    </string-array>
+    <string-array name="timezone_filters">
+        <item>អាមេរិក</item>
+        <item>អឺរ៉ុប</item>
+        <item>អាហ្រ្វិក</item>
+        <item>អាស៊ី</item>
+        <item>អូស្ត្រាលី</item>
+        <item>ប៉ាស៊ីហ្វិក</item>
+        <item>ទាំងអស់</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>1 នាទី</item>
+        <item>2 នាទី</item>
+        <item>5 នាទី</item>
+        <item>10 នាទី</item>
+        <item>30 នាទី</item>
+    </string-array>
+    <string-array name="dream_timeout_entries">
+        <item>មិនដែល</item>
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>1 នាទី</item>
+        <item>2 នាទី</item>
+        <item>5 នាទី</item>
+        <item>10 នាទី</item>
+        <item>30 នាទី</item>
+    </string-array>
+    <string-array name="lock_after_timeout_entries">
+        <item>ភ្លាម​ៗ</item>
+        <item>5 វិនាទី</item>
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>1 នាទី</item>
+        <item>2 នាទី</item>
+        <item>5 នាទី</item>
+        <item>10 នាទី</item>
+        <item>30 នាទី</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>តូច</item>
+        <item>ធម្មតា</item>
+        <item>ធំ</item>
+        <item>ធំបន្ថែម</item>
+        <item>ធំសម្បើម</item>
+    </string-array>
+    <string-array name="tts_pitch_entries">
+        <item>ទាប​ណាស់</item>
+        <item>ទាប</item>
+        <item>ធម្មតា</item>
+        <item>ខ្ពស់</item>
+        <item>ខ្ពស់​ណាស់</item>
+    </string-array>
+    <string-array name="wifi_eap_method">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>SIM</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_only">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+        <item>AKA</item>
+        <item>"AKA'"</item>
+    </string-array>
+    <string-array name="eap_method_without_sim_auth">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_eap_method_plus">
+        <item>SIM</item>
+        <item>AKA</item>
+    </string-array>
+    <string-array name="wifi_p2p_wps_setup">
+        <item>ប៊ូតុង​ចុច</item>
+        <item>កូដ PIN ពី​ឧបករណ៍</item>
+        <item>កូដ PIN ពី​ឧបករណ៍​នេះ</item>
+    </string-array>
+    <string-array name="wifi_p2p_status">
+        <item>បាន​តភ្ជាប់</item>
+        <item>កំពុង​​ភ្ជាប់​…</item>
+        <item>បរាជ័យ</item>
+        <item>មាន</item>
+        <item>ក្រៅ​ជួរ</item>
+    </string-array>
+    <string-array name="bluetooth_visibility_timeout_entries">
+        <item>២ នាទី</item>
+        <item>៥ នាទី</item>
+        <item>១ ម៉ោង</item>
+        <item>មិនដែលអស់ពេល</item>
+    </string-array>
+    <string-array name="wifi_signal">
+        <item>ខ្សោយ</item>
+        <item>មធ្យម</item>
+        <item>ល្អ</item>
+        <item>ល្អប្រសើរ</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries">
+        <item>ជា​និច្ច</item>
+        <item>តែ​ពេល​ដោតប៉ុណ្ណោះ</item>
+        <item>កុំ (បង្កើន​ការ​ប្រើទិន្នន័យ)</item>
+    </string-array>
+    <string-array name="wifi_sleep_policy_entries_wifi_only">
+        <item>ជា​និច្ច</item>
+        <item>តែ​ពេល​ដោត</item>
+        <item>កុំ</item>
+    </string-array>
+    <string-array name="data_usage_data_range">
+        <item>30 ថ្ងៃ​មុន</item>
+        <item>កំណត់រង្វង់ប្រើប្រាស់...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>តែ ៥ ជីកាហឺត</item>
+        <item>តែ 2.4 GHz ប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="usage_stats_display_order_types">
+        <item>ពេលវេលា​ប្រើ</item>
+        <item>បាន​ប្រើ​​​ចុងក្រោយ</item>
+        <item>ឈ្មោះ​កម្មវិធី</item>
+    </string-array>
+    <string-array name="wifi_eap_entries">
+        <item>PEAP</item>
+        <item>TLS</item>
+        <item>TTLS</item>
+        <item>PWD</item>
+    </string-array>
+    <string-array name="wifi_peap_phase2_entries">
+        <item>គ្មាន</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_phase2_entries">
+        <item>គ្មាន</item>
+        <item>PAP</item>
+        <item>MSCHAP</item>
+        <item>MSCHAPV2</item>
+        <item>GTC</item>
+    </string-array>
+    <string-array name="wifi_network_setup">
+        <item>បិទ</item>
+        <item>ប៊ូតុងជូនដំណឹង</item>
+        <item>PIN ពីចំណុចចូលប្រើ</item>
+        <item>PIN ពីឧបករណ៍នេះ</item>
+    </string-array>
+    <string-array name="wifi_ip_settings">
+        <item>DHCP</item>
+        <item>ថេរ</item>
+    </string-array>
+    <string-array name="wifi_proxy_settings">
+        <item>គ្មាន</item>
+        <item>ដោយ​បញ្ចូល</item>
+        <item>ស្វ័យប្រវត្តិ</item>
+    </string-array>
+    <string-array name="emergency_tone_entries">
+        <item>បិទ</item>
+        <item>ជូន​ដំណឹង</item>
+        <item>ញ័រ</item>
+    </string-array>
+    <string-array name="apn_auth_entries">
+        <item>គ្មាន</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP ឬ CHAP</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item>មិន​បាន​បញ្ជាក់</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item>គ្មាន</item>
+        <item>SPN</item>
+        <item>IMSI</item>
+        <item>GID</item>
+    </string-array>
+    <string-array name="app_install_location_entries">
+        <item>ឧបករណ៍​ផ្ទុក​ខាង​ក្នុង</item>
+        <item>កាត​អេសឌី​​ដែល​អាច​ដក​បាន</item>
+        <item>ឲ្យ​ប្រព័ន្ធ​សម្រេចចិត្ត​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​</item>
+    </string-array>
+    <string-array name="app_ops_categories">
+        <item>ទី​តាំង​</item>
+        <item>ផ្ទាល់ខ្លួន</item>
+        <item>ការ​ផ្ញើ​សារ</item>
+        <item>មេឌៀ</item>
+        <item>ឧបករណ៍</item>
+    </string-array>
+    <string-array name="app_ops_summaries">
+        <item>ទីតាំង​មិន​ល្អ</item>
+        <item>ទីតាំង​ល្អ</item>
+        <item>GPS</item>
+        <item>ញ័រ</item>
+        <item>អាន​ទំនាក់ទំនង</item>
+        <item>កែ​ទំនាក់ទំនង</item>
+        <item>អាន​​បញ្ជី​​ហៅ</item>
+        <item>កែ​កំណត់​ហេតុ​ហៅ</item>
+        <item>អាន​ប្រតិទិន</item>
+        <item>កែ​ប្រតិទិន</item>
+        <item>វិភាគ​រក វ៉ាយហ្វាយ</item>
+        <item>ការ​ជូនដំណឹង</item>
+        <item>វិភាគ​រក​ក្រុម</item>
+        <item>ហៅ​ទូរស័ព្ទ</item>
+        <item>អាន​សារ SMS</item>
+        <item>សរសេរ SMS</item>
+        <item>ទទួល SMS</item>
+        <item>ទទួល​សារ SMS ពេល​អាសន្ន</item>
+        <item>ទទួល MMS</item>
+        <item>ទទួល WAP push</item>
+        <item>ផ្ញើ​សារ SMS</item>
+        <item>អាន​សារ SMS ICC</item>
+        <item>សរសេរ ICC SMS</item>
+        <item>កែ​ការ​កំណត់</item>
+        <item>គូរ​នៅ​ផ្នែក​ខាង​លើ</item>
+        <item>ចូល​មើល​ការ​ជូន​ដំណឹង</item>
+        <item>ម៉ាស៊ីន​ថត</item>
+        <item>ថត​សំឡេង</item>
+        <item>ចាក់​អូឌីយ៉ូ</item>
+        <item>អាន​ក្ដារតម្បៀតខ្ទាស់</item>
+        <item>កែ​ក្ដារតម្បៀតខ្ទាស់</item>
+        <item>ប៊ូតុង​មេឌៀ</item>
+        <item>ការ​ផ្ដោត​សំឡេង</item>
+        <item>កម្រិត​សំឡេង​មេ</item>
+        <item>កម្រិត​សំឡេង</item>
+        <item>កម្រិត​សំឡេង​រោទ៍</item>
+        <item>កម្រិត​សំឡេង​មេឌៀ</item>
+        <item>កម្រិត​សំឡេង​រោទ៍</item>
+        <item>កម្រិត​សំឡេង​ការ​ជូន​ដំណឹង</item>
+        <item>កម្រិត​សំឡេង​ប៊្លូធូស</item>
+        <item>មិន​ដេក</item>
+        <item>តាមដាន​ទីតាំង</item>
+        <item>​ពិនិត្យ​ទីតាំង​ថាមពល​​ខ្ពស់</item>
+        <item>ទទួល​​ស្ថិតិ​​ប្រើប្រាស់</item>
+        <item>បិទសំឡេង/បើកសំឡេងម៉ៃក្រូហ្វូន</item>
+        <item>មេឌៀគម្រោង</item>
+        <item>ធ្វើឱ្យសកម្ម VPN</item>
+        <item>ការបង្កើតផ្ទាំងរូបភាព</item>
+        <item>រចនាសម្ព័ន្ធជំនួយ</item>
+        <item>រូបថតអេក្រង់ជំនួយ</item>
+    </string-array>
+    <string-array name="app_ops_labels">
+        <item>ទី​តាំង</item>
+        <item>ទី​តាំង</item>
+        <item>ទី​តាំង</item>
+        <item>ញ័រ</item>
+        <item>អាន​ទំនាក់ទំនង</item>
+        <item>កែ​ទំនាក់ទំនង</item>
+        <item>អាន​កំណត់ហេតុ​ហៅ</item>
+        <item>កែ​បញ្ជី​ហៅ</item>
+        <item>អាន​ប្រតិទិន</item>
+        <item>កែ​ប្រតិទិន</item>
+        <item>ទី​តាំង</item>
+        <item>ប្រកាស​ការ​ជូន​ដំណឹង</item>
+        <item>ទី​តាំង</item>
+        <item>ហៅ​ទូរស័ព្ទ</item>
+        <item>អាន​សារ SMS/MMS</item>
+        <item>សរសេរ​សារ SMS/MMS</item>
+        <item>ទទួល SMS/MMS</item>
+        <item>ទទួល SMS/MMS</item>
+        <item>ទទួល SMS/MMS</item>
+        <item>ទទួល SMS/MMS</item>
+        <item>ផ្ញើ SMS/MMS</item>
+        <item>អាន​សារ SMS/MMS</item>
+        <item>សរសេរ​សារ SMS/MMS</item>
+        <item>កែ​ការ​កំណត់</item>
+        <item>គូរ​​​ខាង​លើ</item>
+        <item>​ជូន​ដំណឹង​ចូល​ដំណើរការ</item>
+        <item>ម៉ាស៊ីន​ថត</item>
+        <item>ថតអូឌីអូ</item>
+        <item>ចាក់អូឌីយ៉ូ</item>
+        <item>អាន​ក្ដារតម្បៀតខ្ទាស់</item>
+        <item>កែ​ក្ដារតម្បៀតខ្ទាស់</item>
+        <item>ប៊ូតុង​មេឌៀ</item>
+        <item>ការ​ផ្ដោត​សំឡេង</item>
+        <item>កម្រិត​សំឡេង​មេ</item>
+        <item>កម្រិត​សំឡេង</item>
+        <item>កម្រិត​សំឡេង​រោទ៍</item>
+        <item>កម្រិត​សំឡេង​មេឌៀ</item>
+        <item>កម្រិត​សំឡេង​រោទ៍</item>
+        <item>កម្រិត​សំឡេង​ការ​ជូន​ដំណឹង</item>
+        <item>កម្រិត​សំឡេង​ប៊្លូធូស</item>
+        <item>មិន​ដេក</item>
+        <item>ទី​តាំង</item>
+        <item>ទី​តាំង</item>
+        <item>ទទួល​​ស្ថិតិ​​ប្រើប្រាស់</item>
+        <item>បិទសំឡេង/បើកសំឡេងម៉ៃក្រូហ្វូន</item>
+        <item>មេឌៀគម្រោង</item>
+        <item>ធ្វើឱ្យសកម្ម VPN</item>
+        <item>ការបង្កើតផ្ទាំងរូបភាព</item>
+        <item>រចនាសម្ព័ន្ធជំនួយ</item>
+        <item>រូបថតអេក្រង់ជំនួយ</item>
+    </string-array>
+    <string-array name="long_press_timeout_selector_titles">
+        <item>ខ្លី</item>
+        <item>មធ្យម</item>
+        <item>វែង</item>
+    </string-array>
+    <string-array name="captioning_typeface_selector_titles">
+        <item>លំនាំដើម</item>
+        <item>អក្សរ Sans-serif</item>
+        <item>អក្សរ Sans-serif បង្រួម</item>
+        <item>Serif</item>
+        <item>Monospace</item>
+        <item>ធម្មតា</item>
+        <item>សរសេរ​ជាប់​គ្នា</item>
+        <item>អក្សរ​ពុម្ព​ធំ​ល្អិត</item>
+        <item>អក្សរតូច</item>
+    </string-array>
+    <string-array name="captioning_font_size_selector_titles">
+        <item>តូច​ណាស់</item>
+        <item>តូច</item>
+        <item>ធម្មតា</item>
+        <item>ធំ</item>
+        <item>ធំ​ណាស់</item>
+    </string-array>
+    <string-array name="captioning_edge_type_selector_titles">
+        <item>លំនាំដើម</item>
+        <item>គ្មាន</item>
+        <item>គ្រោង</item>
+        <item>ទម្លាក់​ស្រមោល</item>
+        <item>បង្កើន</item>
+        <item>បន្ថយ</item>
+    </string-array>
+    <string-array name="captioning_opacity_selector_titles">
+        <item>២៥%</item>
+        <item>៥០%</item>
+        <item>៧៥%</item>
+        <item>១០០%</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles">
+        <item>ប្រើ​លំនាំដើម​កម្មវិធី</item>
+        <item>ពណ៌ស​លើ​ពណ៌ខ្មៅ</item>
+        <item>ពណ៌ខ្មៅ​លើ​ពណ៌ស</item>
+        <item>ពណ៌លឿង​​លើ​​ខ្មៅ</item>
+        <item>ពណ៌​លឿង​​លើ​​​ខៀវ</item>
+        <item>តាម​តម្រូវ​ការ</item>
+    </string-array>
+    <string-array name="vpn_types_long">
+        <item>PPTP VPN</item>
+        <item>L2TP/IPSec VPN ជា​មួយ​សោ​ចែករំលែក​ជាមុន</item>
+        <item>L2TP/IPSec VPN ជា​មួយ​វិញ្ញាបនបត្រ</item>
+        <item>IPSec VPN ជា​មួយ​សោ​ចែករំលែក​ជាមុន និង​ការ​ផ្ទៀងផ្ទាត់ Xauth</item>
+        <item>IPSec VPN ជា​មួយ​ការ​ផ្ទៀងផ្ទាត់​វិញ្ញាបនបត្រ និង Xauth</item>
+        <item>IPSec VPN ជា​មួយ​វិញ្ញាបនបត្រ និង​ការ​ផ្ទៀងផ្ទាត់​ឆ្លង</item>
+    </string-array>
+    <string-array name="vpn_states">
+        <item>បាន​ផ្ដាច់</item>
+        <item>កំពុង​​ចាប់ផ្ដើម…</item>
+        <item>កំពុង​ត​ភ្ជាប់​…</item>
+        <item>បាន​តភ្ជាប់</item>
+        <item>អស់​​ពេល</item>
+        <item>មិន​ជោគជ័យ</item>
+    </string-array>
+    <string-array name="wifi_wapi_psk_type">
+        <item>WAPI PSK ASCII</item>
+        <item>ប្រព័ន្ធគោលដប់ប្រាំមួយ WAPI PSK</item>
+    </string-array>
+    <string-array name="dtsMode_entries">
+        <item>បិទ</item>
+        <item>តន្រ្តី</item>
+        <item>ភាពយន្ត</item>
+    </string-array>
+    <string-array name="max_connect_entries">
+        <item>អ្នកប្រើ 1 នាក់</item>
+        <item>អ្នកប្រើ 2 នាក់</item>
+        <item>អ្នកប្រើ 3 នាក់</item>
+        <item>អ្នកប្រើ 4 នាក់</item>
+        <item>អ្នកប្រើ 5 នាក់</item>
+        <item>អ្នកប្រើ 6 នាក់</item>
+        <item>អ្នកប្រើ 7 នាក់</item>
+        <item>អ្នកប្រើ 8 នាក់</item>
+    </string-array>
+    <string-array name="select_sub_items">
+        <item>ការជាវ 1</item>
+        <item>ការជាវ 2</item>
+    </string-array>
+    <string-array name="security_settings_premium_sms_values">
+        <item>សួរ</item>
+        <item>កុំ​អនុញ្ញាត</item>
+        <item>អនុញ្ញាត​ជា​និច្ច</item>
+    </string-array>
+    <string-array name="ram_states">
+        <item>ធម្មតា</item>
+        <item>សម្របសម្រួល</item>
+        <item>ទាប</item>
+        <item>សំខាន់</item>
+        <item>មិនស្គាល់</item>
+    </string-array>
+    <string-array name="proc_stats_memory_states">
+        <item>ធម្មតា</item>
+        <item>មធ្យម</item>
+        <item>ទាប</item>
+        <item>សំខាន់</item>
+    </string-array>
+    <string-array name="proc_stats_process_states">
+        <item>អចិន្ត្រៃយ៍</item>
+        <item>សកម្មភាពកំពូល</item>
+        <item>សំខាន់ (ផ្ទៃខាងមុខ)</item>
+        <item>សំខាន់ (ផ្ទៃខាងក្រោយ)</item>
+        <item>បម្រុងទុក</item>
+        <item>ទម្ងន់ធ្ងន់</item>
+        <item>សេវាកម្ម (កំពុងដំណើរការ)</item>
+        <item>សេវាកម្ម (កំពុងចាប់ផ្តើមឡើងវិញ)</item>
+        <item>អង្គទទួល</item>
+        <item>ទំព័រដើម</item>
+        <item>សកម្មភាពចុងក្រោយ</item>
+        <item>បានដាក់ឃ្លាំងសម្ងាត់ (សកម្មភាព)</item>
+        <item>បានដាក់ឃ្លាំងសម្ងាត់ (សកម្មភាពអតិថិជន)</item>
+        <item>បានដាក់ឃ្លាំងសម្ងាត់ (ទទេ)</item>
+    </string-array>
+    <string-array name="color_picker">
+        <item>បៃតង​​ចាស់</item>
+        <item>ពណ៌ខៀវ</item>
+        <item>ពណ៌​ឆ្លុះ</item>
+        <item>ស្វាយ</item>
+        <item>ផ្កាឈូក</item>
+        <item>ពណ៌ក្រហម</item>
+    </string-array>
+    <string-array name="wifi_ap_channel_entries">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="wifi_connect_type_entries">
+        <item>ភ្ជាប់ដោយស្វ័យប្រវត្តិ</item>
+        <item>ភ្ជាប់ដោយដៃ</item>
+        <item>សួរជានិច្ច</item>
+    </string-array>
+    <string-array name="screensaver_durations_title">
+        <item>5 នាទី</item>
+        <item>15 នាទី</item>
+        <item>30 នាទី</item>
+        <item>1 ម៉ោង</item>
+        <item>ជានិច្ច</item>
+    </string-array>
+    <string-array name="preferred_app_entries">
+        <item>ឧបករណ៍បើកកម្មវិធី</item>
+        <item>ការហៅទូរស័ព្ទ</item>
+        <item>ការផ្ញើសារ</item>
+        <item>កាមេរ៉ា​</item>
+        <item>វិចិត្រសាល</item>
+        <item>តន្រ្តី</item>
+        <item>អ៊ីមែល</item>
+        <item>ប្រូស័រ</item>
+    </string-array>
+    <string-array name="display_mode_entries">
+        <item>តូច</item>
+        <item>មធ្យម</item>
+        <item>ធំ</item>
+    </string-array>
+    <string-array name="ways_display_battery_percentage">
+        <item>នៅជាប់អាយខនថ្ម</item>
+        <item>ក្នុងអាយខនថ្ម</item>
+    </string-array>
+    <string-array name="entries_display_battery_percentage_EMUI_5">
+        <item>កុំបង្ហាញ</item>
+        <item>នៅបន្ទាប់នឹងរូបតំណាង</item>
+        <item>ក្នុងរូបតំណាង</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_emui">
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>1 នាទី</item>
+        <item>2 នាទី</item>
+        <item>5 នាទី</item>
+        <item>10 នាទី</item>
+        <item>មិនដែល</item>
+    </string-array>
+    <string-array name="List_alarmsetting_setrepeat">
+        <item>តែម្ដងប៉ុណ្ណោះ</item>
+        <item>ថ្ងៃច័ន្ទ ដល់ ថ្ងៃសុក្រ</item>
+        <item>ថ្ងៃធ្វើការ (រំលងថ្ងៃឈប់សម្រាក)</item>
+        <item>រៀងរាល់ថ្ងៃ</item>
+        <item>តាមបំណង</item>
+    </string-array>
+    <string-array name="alarm_set_select_mult_dialog_items">
+        <item>ថ្ងៃច័ន្ទ</item>
+        <item>ថ្ងៃ​អង្គារ</item>
+        <item>ថ្ងៃ​ពុធ</item>
+        <item>ថ្ងៃ​ព្រហស្បត្តិ៍</item>
+        <item>ថ្ងៃសុក្រ</item>
+        <item>ថ្ងៃសៅរ៍</item>
+        <item>ថ្ងៃអាទិត្យ</item>
+    </string-array>
+    <string-array name="agps_network_used">
+        <item>បើកសម្រាប់បណ្តាញក្នុងតំបន់</item>
+        <item>បើកសម្រាប់បណ្តាញក្នុងតំបន់ &amp; រ៉ូមីង</item>
+    </string-array>
+    <string-array name="entries_agps_profile">
+        <item>ហ្គូហ្កល</item>
+        <item>ទូរស័ព្ទចិន</item>
+        <item>ផ្សេងៗ</item>
+    </string-array>
+    <string-array name="zen_mode_schedule_repeat_entries">
+        <item>ថ្ងៃចន្ទដល់ថ្ងៃសុក្រ</item>
+        <item>ថ្ងៃសៅរ៍, ថ្ងៃអាទិត្យ</item>
+        <item>រៀងរាល់ថ្ងៃ</item>
+        <item>តាមបំណង</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries">
+        <item>បណ្តាញទាំងអស់ (បង្កើនការប្រើប្រាស់ទិន្នន័យ)</item>
+        <item>តាម Wi-Fi ប៉ុណ្ណោះ</item>
+        <item>មិនដែល</item>
+    </string-array>
+    <string-array name="link_plus_auto_update_policy_entries_wifi_only">
+        <item>បណ្តាញទាំងអស់</item>
+        <item>តាម Wi-Fi ប៉ុណ្ណោះ</item>
+        <item>មិនដែល</item>
+    </string-array>
+    <string-array name="entries_display_notification_way_title_emui">
+        <item>រូបតំណាង</item>
+        <item>លេខ</item>
+        <item>គ្មាន</item>
+    </string-array>
+    <string-array name="captioning_preset_selector_titles_short">
+        <item>លំនាំដើម</item>
+        <item>ពណ៌ស​លើ​ពណ៌ខ្មៅ</item>
+        <item>ពណ៌ខ្មៅ​លើ​ពណ៌ស</item>
+        <item>ពណ៌លឿង​​លើ​​ពណ៌ខ្មៅ</item>
+        <item>ពណ៌លឿង​លើ​ពណ៌ខៀវ</item>
+        <item>តាម​តម្រូវ​ការ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>ប្រព័ន្ធ Wi‑Fi ដែលពេញចិត្ត</item>
+        <item>គួរប្រើប្រព័ន្ធទូរស័ព្ទ</item>
+        <item>Wi-Fi តែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>ប្រើ Wi-Fi</item>
+        <item>ប្រើបណ្តាញចល័ត</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="ringtone_filters">
+        <item>សំឡេងរោទ៍</item>
+        <item>តន្រ្តីមូលដ្ឋាន</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_emui">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>ទិន្នន័យចល័តដែលពេញចិត្ត</item>
+        <item>វ៉ាយហ្វាយតែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_emui">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>ទិន្នន័យចល័តដែលពេញចិត្ត</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_cellular">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+        <item>4G បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+        <item>វ៉ាយហ្វាយតែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_cellular">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+        <item>4G បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_cellular">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>4G បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+        <item>វ៉ាយហ្វាយតែប៉ុណ្ណោះ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only_and_cellular">
+        <item>វ៉ាយហ្វាយដែលពេញចិត្ត</item>
+        <item>4G បណ្តាញទូរស័ព្ទចល័តដែលពេញចិត្ត</item>
+    </string-array>
+    <string-array name="screen_timeout_entries_with_10sec">
+        <item>10 វិនាទី</item>
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>1 នាទី</item>
+        <item>2 នាទី</item>
+        <item>5 នាទី</item>
+        <item>10 នាទី</item>
+        <item>30 នាទី</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_entries">
+        <item>អសកម្មរយពេល 5 នាទី</item>
+        <item>អសកម្មរយពេល 10 នាទី</item>
+        <item>បើកជានិច្ច</item>
+    </string-array>
+    <string-array name="wifi_hotspot_power_mode_values">
+        <item>5 នាទីទៀត</item>
+        <item>10 នាទីទៀត</item>
+        <item>បើកជានិច្ច</item>
+    </string-array>
+    <string-array name="vpn_types_long_l2tp">
+        <item>PPTP VPN</item>
+        <item>L2TP</item>
+        <item>L2TP/IPSec VPN ជា​មួយ​សោ​ចែករំលែក​ជាមុន</item>
+        <item>L2TP/IPSec VPN ជា​មួយ​វិញ្ញាបនបត្រ</item>
+        <item>IPSec VPN ជា​មួយ​សោ​ចែករំលែក​ជាមុន និង​ការ​ផ្ទៀងផ្ទាត់ Xauth</item>
+        <item>IPSec VPN ជា​មួយ​ការ​ផ្ទៀងផ្ទាត់​វិញ្ញាបនបត្រ និង Xauth</item>
+        <item>IPSec VPN ជា​មួយ​វិញ្ញាបនបត្រ និង​ការ​ផ្ទៀងផ្ទាត់​ឆ្លង</item>
+    </string-array>
+    <string-array name="notification_intervals">
+        <item>15 វិនាទី</item>
+        <item>30 វិនាទី</item>
+        <item>60 វិនាទី</item>
+        <item>90 វិនាទី</item>
+        <item>120 វិនាទី</item>
+    </string-array>
+    <string-array name="vibration_patterns_names">
+        <item>ប្រភេទ 1</item>
+        <item>ប្រភេទ 2</item>
+        <item>ប្រភេទ 3</item>
+        <item>ប្រភេទ 4</item>
+        <item>ប្រភេទ 5</item>
+    </string-array>
+    <string-array name="dt_notify_timescheme_items">
+        <item>ពេលវេលាទីក្រុងប៉េកាំង</item>
+        <item>ពេលវេលាក្នុងតំបន់</item>
+    </string-array>
+    <string-array name="display_mode_entries_special">
+        <item>តូចបំផុត</item>
+        <item>តូច</item>
+        <item>ស្តង់ដារ</item>
+        <item>បានពង្រីកបង្រួម</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/parent_layout_side_margin" android:layout_marginEnd="@dimen/parent_layout_side_margin">
+        <include android:id="@+id/account_header" layout="@layout/contact_editor_account_group" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3dp" android:paddingEnd="3dp" android:layout_marginStart="@dimen/parent_layout_side_margin" android:layout_marginEnd="@dimen/parent_layout_side_margin">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="bold" android:textColor="@color/people_app_theme_color" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingBottom="@dimen/group_editor_groupname_header_bottom_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_editor_groupname_header_top_margin" android:layout_marginBottom="@dimen/group_editor_groupname_header_top_margin" android:text="@string/group_edit_field_hint_text" android:maxLines="1" android:textAllCaps="true" android:paddingStart="@dimen/group_member_item_left_padding" style="?unknown_attr_ref: 1010208" />
+        <EditText android:textAppearance="?unknown_attr_ref: 1010041" android:id="@+id/group_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:hint="@string/group_name_hint" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|numberDecimal|phone" />
+        <include android:id="@+id/add_member_field" layout="@layout/group_editor_add_member_view" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="3dp" android:paddingEnd="6dp" android:layout_marginStart="@dimen/parent_layout_side_margin">
+        <include android:id="0x102000a" layout="@layout/group_editor_existing_member_list" />
+    </LinearLayout>
+</LinearLayout>

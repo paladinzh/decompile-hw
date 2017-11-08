@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <FrameLayout android:id="@+id/mediapicker_map_pager" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/missing_permission_view" android:background="@color/mediapicker_view_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_attachment_location_permisssion" android:scaleType="centerCrop" />
+        <TextView android:textSize="13sp" android:textColor="#7f000000" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/mediapicker_view_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/enable_permission_procedure_location" android:paddingStart="16dp" android:paddingEnd="16dp" />
+        <Button android:textSize="15sp" android:textColor="#007dff" android:id="@+id/request_perimission_btn" android:background="0x0" android:paddingTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mediapicker_perimission_request" android:fontFamily="HwChinese-medium" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.HwSplitScreenArrowView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+    <LinearLayout systemui:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="vertical" systemui:id="@id/prompt_info_area" systemui:layout_width="match_parent" systemui:layout_height="wrap_content" systemui:layout_alignParentTop="true">
+        <View systemui:id="@id/transparent_view" systemui:background="@color/mw_trans_bg" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0e0327" />
+        <TextView systemui:textSize="@dimen/split_screen_prompt_info_text_size" systemui:textColor="0x106000c" systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:id="@id/prompt_info" systemui:background="@drawable/abc_scrubber_control_to_pressed_mtrl_005" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:text="@string/split_screen_slide_help_text" />
+        <ImageView systemui:id="@id/arrow_icon" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_marginTop="@dimen/split_screen_arrow_icon_margin_port" systemui:layout_marginBottom="@dimen/split_screen_arrow_icon_margin_port" systemui:src="@drawable/mw_arrow_up" systemui:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout systemui:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="vertical" systemui:background="@color/mw_translucent_dark_bg" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:layout_below="@id/prompt_info_area">
+        <View systemui:id="@id/arrow_divider" systemui:background="@color/mw_divide_bg" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x7f0e0329" />
+    </LinearLayout>
+</com.android.systemui.statusbar.policy.HwSplitScreenArrowView>

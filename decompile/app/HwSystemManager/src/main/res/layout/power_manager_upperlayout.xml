@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" sm:orientation="vertical" sm:layout_width="match_parent" sm:layout_height="match_parent">
+    <FrameLayout sm:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/circleview" sm:layout_width="match_parent" sm:layout_height="match_parent">
+        <com.huawei.systemmanager.power.ui.PowerWaveView sm:id="@+id/circle" sm:layout_width="match_parent" sm:layout_height="match_parent" />
+        <RelativeLayout sm:id="@+id/power_battery_layout" sm:layout_width="match_parent" sm:layout_height="match_parent" sm:layout_marginStart="@dimen/power_manager_main_start_end_emui" sm:layout_marginEnd="@dimen/power_manager_main_start_end_emui"
+            <RelativeLayout sm:id="@+id/detail_arrow_relativelayout" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:layout_marginTop="16dp" sm:layout_alignParentTop="true" sm:layout_alignParentEnd="true">
+                <TextView sm:textSize="13dp" sm:textColor="?unknown_attr_ref: 1010038" sm:ellipsize="end" sm:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/cell_management_details" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:text="@string/power_management_moredetail" sm:singleLine="true" sm:layout_centerVertical="true" sm:layout_marginEnd="4dp" sm:layout_toStartOf="@+id/detail_list_arrow" />
+                <com.huawei.systemmanager.comm.widget.CommonClickImage sm:id="@+id/detail_list_arrow" sm:focusable="true" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:src="@drawable/ic_power_arrow" sm:layout_centerVertical="true" sm:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout sm:orientation="vertical" sm:layout_width="match_parent" sm:layout_height="match_parent"
+                <RelativeLayout sm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/battery_number_layout" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:layout_centerVertical="true">
+                    <com.huawei.systemmanager.comm.widget.RollingView sm:textSize="50dp" sm:textColor="?unknown_attr_ref: 1010036" sm:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/bettary_charge_textview" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:includeFontPadding="false" sm:layout_alignParentStart="true" />
+                    <com.huawei.systemmanager.comm.widget.SimpleTextView sm:textSize="13dp" sm:textColor="?unknown_attr_ref: 1010038" sm:id="@+id/percent_textview" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:layout_marginBottom="6dp" sm:text="@string/percent_identifier" sm:layout_alignBottom="@+id/bettary_charge_textview" sm:layout_marginStart="4dp" sm:layout_toEndOf="@+id/bettary_charge_textview" sm:wrap="true" />
+                </RelativeLayout>
+                <TextView sm:textSize="13dp" sm:textColor="?unknown_attr_ref: 1010038" sm:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sm:id="@+id/edutime_textview" sm:layout_width="match_parent" sm:layout_height="wrap_content" sm:layout_marginTop="-8dp" sm:singleLine="true" sm:layout_below="@+id/battery_number_layout" />
+                <TextView sm:textSize="13dp" sm:textColor="?unknown_attr_ref: 1010038" sm:ellipsize="end" sm:id="@+id/bettary_charging_textview" sm:visibility="gone" sm:layout_width="wrap_content" sm:layout_height="wrap_content" sm:singleLine="true" sm:layout_below="@+id/edutime_textview" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

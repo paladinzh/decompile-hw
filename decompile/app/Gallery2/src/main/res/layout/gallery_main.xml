@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/gallery_main_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.gallery.ui.GLCoverView android:id="@id/gl_Cover_view" android:background="@color/album_background" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/status_bar_height" />
+    <com.huawei.gallery.ui.GalleryViewPager android:id="@id/fragment_viewpage" android:background="@color/album_background" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <ImageView android:id="@id/gallery_head_background" android:background="@drawable/ab_top_pic" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ImageView android:id="@id/gallery_foot_background" android:background="@color/gallery_foot_background_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

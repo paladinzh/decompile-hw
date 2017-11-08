@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/navigation_key_dasboard_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.TwoSummaryPreference android:layout="@layout/preference_two_summay" android:title="@string/ActionBar_key_title" android:key="navigation_entry" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.VirtualKeySettings" />
+</PreferenceScreen>

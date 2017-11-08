@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content">
+    <com.android.mms.ui.views.MmsPreferenceLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:orientation="horizontal" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:baselineAligned="false" androidhwext:minHeight="@dimen/mms_preference_item_singleline_height" androidhwext:paddingStart="@dimen/mms_preference_status_paddingStart" androidhwext:paddingEnd="@dimen/mms_preference_status_paddingEnd">
+        <RelativeLayout androidhwext:id="@+id/title_frame" androidhwext:paddingTop="@dimen/mms_preference_item_padding_top" androidhwext:paddingBottom="@dimen/mms_preference_item_padding_bottom" androidhwext:layout_width="UNKNOWN_DATA_0x1" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="2.0">
+            <TextView androidhwext:textSize="@dimen/mms_preference_item_title_text_size" androidhwext:id="0x1020016" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" androidhwext:maxLines="2" />
+        </RelativeLayout>
+        <FrameLayout androidhwext:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:id="@+id/detail_frame" androidhwext:paddingTop="@dimen/mms_preference_item_padding_top" androidhwext:paddingBottom="@dimen/mms_preference_item_padding_bottom" androidhwext:layout_width="UNKNOWN_DATA_0x1" androidhwext:layout_height="wrap_content" androidhwext:layout_weight="1.0" androidhwext:paddingStart="8dp">
+            <TextView androidhwext:textAppearance="?unknown_attr_ref: 1010042" androidhwext:textSize="@dimen/mms_preference_item_summary_text_size" androidhwext:ellipsize="end" androidhwext:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:id="0x1020010" androidhwext:layout_width="wrap_content" androidhwext:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout androidhwext:gravity="top|bottom|center_vertical|fill_vertical|center|fill" androidhwext:orientation="vertical" androidhwext:id="0x1020018" androidhwext:layout_width="wrap_content" androidhwext:layout_height="match_parent" />
+    </com.android.mms.ui.views.MmsPreferenceLayout>
+    <View androidhwext:id="@+id/list_item_shadow" androidhwext:background="@drawable/hw_graphics_list_item_shadow" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:alpha="0.0" />
+</FrameLayout>

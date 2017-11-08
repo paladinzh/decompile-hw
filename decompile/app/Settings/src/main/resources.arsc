@@ -1,0 +1,16 @@
+Error decode arsc
+java.io.IOException: type chunk, res0, expected: 0x0, actual: 0x1f, offset: 0x1dea332
+	at jadx.core.xmlgen.ParserStream.throwException(ParserStream.java:117)
+	at jadx.core.xmlgen.ParserStream.checkInt8(ParserStream.java:102)
+	at jadx.core.xmlgen.ResTableParser.parseTypeChunk(ResTableParser.java:176)
+	at jadx.core.xmlgen.ResTableParser.parsePackage(ResTableParser.java:152)
+	at jadx.core.xmlgen.ResTableParser.decodeTableChunk(ResTableParser.java:99)
+	at jadx.core.xmlgen.ResTableParser.decode(ResTableParser.java:57)
+	at jadx.core.xmlgen.ResTableParser.decodeFiles(ResTableParser.java:62)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:110)
+	at jadx.api.ResourcesLoader.access$000(ResourcesLoader.java:30)
+	at jadx.api.ResourcesLoader$1.decode(ResourcesLoader.java:89)
+	at jadx.api.ResourcesLoader.decodeStream(ResourcesLoader.java:68)
+	at jadx.api.ResourcesLoader.loadContent(ResourcesLoader.java:86)
+	at jadx.api.ResourceFile.loadContent(ResourceFile.java:52)
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/advance_app_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ViewStub android:id="@+id/empty_view" android:layout="@layout/netassistant_traffic_ranking_empty_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include android:id="@+id/head_view" layout="@layout/advanced_app_fragment_head" />
+    <ListView android:id="@+id/list" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/head_view" android:headerDividersEnabled="true" />
+</RelativeLayout>

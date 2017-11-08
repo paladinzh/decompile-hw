@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/data_usage_summary_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/billing_cycle" android:key="billing_cycle" />
+    <Preference android:title="@string/data_warning" android:key="data_warning" />
+    <SwitchPreference android:title="@string/set_data_limit" android:key="set_data_limit" />
+    <Preference android:title="@string/data_limit" android:key="data_limit" />
+</PreferenceScreen>

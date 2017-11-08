@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_calling_settings_title_emui" android:key="wifi_calling_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_text" android:key="description_preference" android:summary="@string/wifi_calling_off_explanation" />
+    <SwitchPreference android:persistent="false" android:title="@string/wifi_calling_settings_title_emui" android:key="wifi_calling_switch" />
+    <ListPreference android:entries="@array/wifi_calling_mode_choices_cellular" android:layout="@layout/preference_status" android:title="@string/wifi_calling_mode_title_emui" android:key="wifi_calling_mode" android:summary="@string/wifi_calling_mode_title_emui" android:widgetLayout="@layout/preference_widget_arrow" android:dependency="wifi_calling_switch" android:dialogTitle="@string/wifi_calling_mode_title_emui" android:entryValues="@array/wifi_calling_mode_values_cellular" />
+</PreferenceScreen>

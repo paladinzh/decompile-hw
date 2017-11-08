@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/alarm_settingalarm_title_fontsize" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/duration_Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/setting_snooze_duration" android:alpha="0.65" android:layout_marginStart="15dp" />
+            <SeekBar android:id="@id/SnoozeMin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:max="100" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" style="?unknown_attr_ref: 101007b" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/SnoozeMin_index" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="16dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+                <TextView android:id="@id/snooze_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_1" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/snooze_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_2" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/snooze_text_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_3" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/snooze_text_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_4" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/snooze_text_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_5" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/snooze_text_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/snooze_value_6" style="@style/snooze_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/dialog_Line" android:background="0x1060000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0006" android:layout_marginTop="18dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+            <TextView android:textSize="@dimen/alarm_settingalarm_title_fontsize" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/timers_Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/setting_snooze_timers" android:alpha="0.65" android:paddingStart="15dp" />
+            <SeekBar android:id="@id/SnoozeTimers" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:max="90" android:layout_marginStart="5dp" android:layout_marginEnd="5dp" style="?unknown_attr_ref: 101007b" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/SnoozeTimers_index" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="15dp" android:paddingEnd="16dp" android:layout_marginStart="5dp" android:layout_marginEnd="5dp">
+                <TextView android:id="@id/repeat_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_value_0" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/repeat_text_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_value_1" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/repeat_text_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_value_2" style="@style/snooze_text_style" />
+                <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:id="@id/repeat_text_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/repeat_value_3" style="@style/snooze_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

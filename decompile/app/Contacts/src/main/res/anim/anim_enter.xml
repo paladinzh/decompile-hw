@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" android:shareInterpolator="false" android:ordering="together">
+    <scale android:interpolator="@interpolator/enter_scale_interpolator" android:duration="200" android:pivotX="50%" android:pivotY="90%" android:fromXScale="0.08" android:toXScale="1.0" android:fromYScale="0.08" android:toYScale="1.0" />
+    <alpha android:interpolator="@interpolator/enter_alpha_interpolator" android:duration="50" android:fromAlpha="0.0" android:toAlpha="1.0" />
+</set>

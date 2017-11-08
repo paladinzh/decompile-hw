@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/dual_clocks_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/dual_clocks_title" android:key="dual_clocks_switch" />
+    <Preference android:persistent="false" android:title="@string/set_home_city_title" android:key="set_home_city" android:widgetLayout="@layout/preference_widget_arrow" />
+</PreferenceScreen>

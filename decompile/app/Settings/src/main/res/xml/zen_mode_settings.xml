@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_mode_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/zen_mode_priority_settings_title" android:key="priority_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.notification.ZenModePrioritySettings" />
+    <PreferenceScreen android:title="@string/zen_mode_automation_settings_title" android:key="automation_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.notification.ZenModeAutomationSettings" />
+    <PreferenceScreen android:title="@string/zen_mode_visual_interruptions_settings_title" android:key="visual_interruptions_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.notification.ZenModeVisualInterruptionSettings" />
+</PreferenceScreen>

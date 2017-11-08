@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.gallery.editor.ui.IllusionBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/paint_illusion_bar" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <include layout="@layout/seekbar_item_land" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ScrollView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/scroll_root" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.gallery.editor.ui.PaintIllusionMenu android:orientation="vertical" android:id="@id/paint_illusion_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </ScrollView>
+        <include layout="@layout/editor_scroll_background_land" />
+        <include layout="@layout/editor_foot_bar_land" />
+    </FrameLayout>
+</com.huawei.gallery.editor.ui.IllusionBar>

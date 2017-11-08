@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module_list xmlns:android="http://schemas.android.com/apk/res/android" version="1">
+    <module name="displaypower.DisplayControl" modid="1">
+        <item name="enable"
+            true />
+        <item name="persist"
+            true />
+    </module>
+    <module name="resgovernor.CpuGovernor" modid="2">
+        <item name="enable"
+            true />
+        <item name="persist"
+            true />
+    </module>
+    <module name="apppower.AppsPower" modid="3">
+        <item name="enable"
+            true />
+        <item name="persist"
+            true />
+    </module>
+    <module name="fastrrc.PacketsControl" modid="4">
+        <item name="enable"
+            true />
+        <item name="persist"
+            true />
+    </module>
+    <module name="devicepower.SwitchManager" modid="5">
+        <item name="enable"
+            true />
+        <item name="persist"
+            true />
+    </module>
+</module_list>

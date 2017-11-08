@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/instructions_area" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Medium" android:id="@id/screen_pinning_description" android:paddingTop="@dimen/screen_pinning_textview_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/screen_pinning_description" android:layout_alignParentTop="true" android:paddingStart="@dimen/screen_margin_sides" android:paddingEnd="@dimen/screen_margin_sides" />
+</ScrollView>

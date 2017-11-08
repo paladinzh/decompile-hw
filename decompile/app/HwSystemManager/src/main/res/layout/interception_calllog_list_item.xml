@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/list_item_twolines_padding_top_bottom_emui" android:paddingBottom="@dimen/list_item_twolines_padding_top_bottom_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="46dp" android:paddingStart="@dimen/list_item_padding_start_end_emui" android:paddingEnd="@dimen/list_item_padding_start_end_emui">
+    <CheckBox android:id="@+id/calllog_checkbox" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/calllog_checkbox" android:layout_alignParentStart="true"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:id="@+id/calllog_contactInfo" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010432" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="8dp" />
+        </LinearLayout>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010432" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/calllog_location" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

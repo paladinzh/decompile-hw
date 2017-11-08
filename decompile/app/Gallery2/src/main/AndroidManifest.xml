@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50023001" android:versionName="5.0.23.1" package="com.android.gallery3d" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <original-package android:name="com.android.gallery3d" />
+    <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="23" />
+    <permission android:name="com.android.gallery3d.permission.GALLERY_PROVIDER" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:label="@string/gallery_support_photoshare_album_permission_label" android:name="com.huawei.android.permission.gallerysupportphotoshare" android:protectionLevel="dangerous|signature|signatureOrSystem" android:description="@string/gallery_support_photoshare_permission_desc" />
+    <permission android:name="com.huawei.gallery.permission.ACCESS_PHOTO_MANAGER" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.START_APP" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.GALLERY_PROVIDER" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.SHARE_CALLBACK" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.gallery3d.permission.VIEW_KIDS_ALBUM" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.PRIVATE_RECEIVER" android:protectionLevel="signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.WALLPAPER_FINISHED" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.gallery.permission.CLOUD_NOTIFICATION" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.huawei.gallery.permission.ACCESS_PHOTO_MANAGER" />
+    <uses-permission android:name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" />
+    <uses-permission android:name="android.permission.READ_FRAME_BUFFER" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="com.huawei.totemweather.permission.THIRD_REQUEST_WEATHER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BLUETOOTH_SHARE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.android.permission.WHITELIST_BLUETOOTH_DEVICE" />
+    <uses-permission android:name="com.huawei.android.permission.photoshareconfig" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="com.huawei.android.thememanager.permission.THEME_PROVIDER_ACCESS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WEATHERCLOCK_PROVIDER" />
+    <uses-permission android:name="com.huawei.android.totemweather.permission.ACCESS_WEATHERCLOCK_PROVIDER" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="com.android.huawei.magazineunlock.permission.READ" />
+    <uses-permission android:name="com.android.huawei.magazineunlock.permission.WRITE" />
+    <uses-permission android:name="com.huawei.cg.permission.SERVICE" />
+    <uses-permission android:name="com.huawei.hicloud.permission.hicloudLogin" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.android.permission.airsharing_play_interface" />
+    <uses-permission android:name="com.android.providers.media.permission.SCAN_FOLDER" />
+    <uses-permission android:name="com.android.permission.ENABLE_HWQRCODEDISPATCHER" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="com.huawei.kidsmode.permission.provider" />
+    <uses-permission android:name="com.huawei.hwresolver.resolverReceiver" />
+    <uses-permission android:name="com.huawei.systemmanager.permission.APPLY_TRIM_POLICY" />
+    <uses-permission android:name="com.android.huawei.permission.KIDS_CAMERA_ACTIVITY" />
+    <uses-permission android:name="com.huawei.kidsmode.kidspaint.permission" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.huawei.android.thememanager.permission.ACCESS_CHANGE_WALLPAPAER" />
+    <uses-permission android:name="com.huawei.camera.permission.REMOTECONTROLLER" />
+    <uses-permission android:name="android.permission.USES_HW_LOG_SERVICE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="huawei.android.permission.MULTIWINDOW_SERVICE" />
+    <uses-permission android:name="com.huawei.android.sns.sdk.permission" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="com.huawei.scanner.permission.SCAN_IMAGE" />
+    <uses-permission android:name="com.huawei.keyguard.permission.ACCESS_CHECKUPDATE" />
+    <uses-permission android:name="com.huawei.android.permission.cloudalbum" />
+    <uses-permission android:name="com.huawei.gallery.permission.WALLPAPER_FINISHED" />
+    <uses-permission android:name="com.huawei.gallery.permission.CLOUD_NOTIFICATION" />
+    <uses-permission android:name="com.huawei.hwid.ACTION_MAIN_SETTING_ACCESS" />
+    <uses-permission android:name="com.huawei.hwid.permission.ACCESS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.ACCESS_INTERFACE_NORMAL" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
+    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+    <supports-screens android:anyDensity="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <application android:theme="@style/Theme.HwGallery" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_gallery" android:name="com.android.gallery3d.app.GalleryAppImpl" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true" android:uiOptions="splitActionBarWhenNarrow" android:supportsRtl="true">
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.NoTitleBar" />
+        <uses-library android:name="com.google.android.media.effects" android:required="false" />
+        <uses-library android:name="com.huawei.hwextcamera" android:required="false" />
+        <activity android:theme="@style/Theme.MovieActivity" android:label="@string/multiscreen_title" android:name="com.android.gallery3d.app.DmrController" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|screenLayout|screenSize|smallestScreenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.map.app.MapAlbumActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.map.app.MapSlotAlbumActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.huawei.gallery.app.UserGuardPage" android:exported="false" />
+        <activity android:name="com.fyusion.sdk.ext.shareinterface.FyuseShareActivity" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/view_editor_name" android:name="com.huawei.gallery.app.SinglePhotoActivity" android:taskAffinity="com.huawei.gallery.app.SinglePhotoActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.SCREENSHOTEDIT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="com.android.camera.action.REVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="application/vnd.google.panorama360+jpg" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.HwCameraPhotoActivity" android:permission="com.huawei.gallery.permission.START_APP" android:exported="true" android:taskAffinity="com.huawei.gallery.app.HwCameraPhotoActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.VIEW_PHOTO_FROM_HWCAMERA" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/app_name" android:name="com.huawei.gallery.app.GalleryMain" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.ACCESS_HWGALLERY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_PHOTOSHARE_CONTENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.APP_GALLERY" />
+            </intent-filter>
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value="com.huawei.gallery.app.AlbumQuickActionService" />
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.SlotAlbumActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.PhotoShareTimeBucketActivity" android:permission="com.huawei.android.permission.gallerysupportphotoshare" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.huawei.android.intent.action.GET_FAMILY_PHOTOS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.PhotoShareAlbumActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.ListAlbumSetActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.PasteActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.refocus.wideaperture.photo3dview.app.WideAperturePhoto3DActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.ListAlbumPickerActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PHOTOSHARE_GET_CONTENT" />
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/image" />
+                <data android:mimeType="vnd.android.cursor.dir/video" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.ListAlbumHiddenActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity-alias android:label="@string/app_name" android:name="com.cooliris.media.Gallery" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:targetActivity="com.huawei.gallery.app.GalleryMain" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity-alias>
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/app_name" android:name="com.android.gallery3d.app.UsbDeviceActivity" android:taskAffinity="" android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" android:resource="@xml/device_filter" />
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.android.gallery3d.app.Wallpaper" android:screenOrientation="nosensor" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:logo="@drawable/bg_controller_top">
+            <intent-filter android:label="@string/camera_setas_wallpaper">
+                <action android:name="android.intent.action.ATTACH_DATA" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter android:label="@string/crop_label">
+                <action android:name="com.android.camera.action.CROP_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/CropTheme" android:name="com.huawei.gallery.wallpaper.CropWallpaperActivity" android:process=":crop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:logo="@drawable/bg_controller_top">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <receiver android:name="com.android.gallery3d.app.WallpaperRestoreReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.android.launcher.intent.action.RESTORE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.gallery3d.app.WallpaperService" android:exported="false" />
+        <service android:name="com.huawei.gallery.media.MediaSyncerService" android:exported="false" />
+        <service android:name="com.huawei.gallery.media.GeoService" android:exported="false" />
+        <service android:name="com.huawei.gallery.media.services.StorageService" android:exported="false" />
+        <service android:name="com.huawei.gallery.service.MediaMountService" android:exported="false" />
+        <service android:name="com.huawei.gallery.photoshare.uploadservice.UploadService" android:exported="false" />
+        <receiver android:name="com.huawei.gallery.service.CameraNewItemReceiver">
+            <intent-filter>
+                <action android:name="android.hardware.action.NEW_VIDEO" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.gallery.service.CameraNewItemThumbnailService" android:exported="false" />
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.android.gallery3d.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths" />
+        </provider>
+        <service android:name="com.android.gallery3d.util.GalleryBusinessMonitorService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.gallery3d.radarservice.action.REPORT_EVENT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/CropTheme" android:label="@string/crop_label" android:name="com.huawei.gallery.app.CropImageActivity" android:process=":crop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:logo="@drawable/bg_controller_top">
+            <intent-filter android:label="@string/crop_label">
+                <action android:name="com.android.camera.action.CROP" />
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:scheme="content" />
+                <data android:scheme="file" />
+                <data android:scheme="" />
+                <data android:mimeType="image/*" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.ALTERNATIVE" />
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE" />
+            </intent-filter>
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/keyguard_mgr_title" android:name="com.huawei.gallery.app.KeyguardManager" android:permission="com.huawei.gallery.permission.ACCESS_PHOTO_MANAGER" android:taskAffinity="com.huawei.gallery.keyguard" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="com.android.keyguard.PHOTO_MANAGER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/WhiteStatusBarTheme" android:name="com.huawei.gallery.kidsmode.KidsAlbumActivity" android:permission="com.android.gallery3d.permission.VIEW_KIDS_ALBUM" android:taskAffinity="com.huawei.gallery.kidsmode.KidsAlbumActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.VIEW_KIDS_ALBUM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.VIEW_PARENT_ADDED_ALBUM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/Theme.Gallery" android:name="com.android.gallery3d.settings.GallerySettings" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <activity android:theme="@style/Theme.Gallery" android:name="com.huawei.gallery.photoshare.ui.PhotoShareCreatingFamilyShareActivity">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <provider android:name="com.android.gallery3d.provider.GalleryProvider" android:permission="com.android.gallery3d.permission.GALLERY_PROVIDER" android:exported="true" android:authorities="com.android.gallery3d.provider" android:syncable="false" android:grantUriPermissions="true" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.android.gallery3d.app.DialogPicker" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.android.gallery3d.app.AlbumPicker" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/appwidget_title" android:name="com.android.gallery3d.gadget.PhotoAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_info" />
+        </receiver>
+        <activity android:theme="@style/Theme.Gallery.Dialog" android:name="com.android.gallery3d.gadget.WidgetPhotoChooseDialog" android:taskAffinity="com.android.gallery3d.gadget.ChooseActivity" android:excludeFromRecents="true" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <service android:name="com.android.gallery3d.gadget.WidgetIntentService" android:exported="false" />
+        <service android:name="com.huawei.gallery.app.GalleryAppSerivce" android:permission="com.huawei.gallery.permission.START_APP" android:exported="true" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.PhotoShareDownloadActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.app.photoshare.statusbar.main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.app.PhotoShareUploadActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.app.photoshare.statusbar.main" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareCreateNewShareActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareLoginActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareEditFriendsActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareShowMemberActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareInviteFriendsActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustResize|adjustNothing">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareNewInviteActivity" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.photoshare.ui.PhotoShareTagAlbumSetActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/share_album" android:icon="@drawable/ic_photoshare" android:name="com.huawei.gallery.photoshare.ui.ShareToCloudAlbumActivity" android:permission="com.huawei.gallery.permission.SHARE_CALLBACK" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:logo="@drawable/ic_photoshare">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.photoshare.ui.ShareToCloudAlbumActivity" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/GalleryActionBarTheme" android:label="@string/freeshare_title" android:icon="@drawable/ic_transfer" android:name="com.huawei.gallery.app.FreeshareStub" android:permission="com.huawei.gallery.permission.SHARE_CALLBACK" android:exported="true" android:logo="@drawable/ic_transfer">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.app.FreeshareStub" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" android:name="com.huawei.gallery.app.SlideShowSettings">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Dialog.NoActionBar" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.NoTitleBar.Fullscreen" android:label="Panorama3DActivity" android:name="com.huawei.gallery.panorama.Panorama3DActivity" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:name="com.huawei.gallery.extfile.UploadActivity" android:screenOrientation="portrait" />
+        <provider android:name="com.huawei.gallery.photoshare.GalleryPhotoShareFeatureProvider" android:permission="com.huawei.android.permission.gallerysupportphotoshare" android:exported="true" android:authorities="com.huawei.gallery3d.photoshare.provider" />
+        <provider android:name="com.huawei.gallery.provider.GalleryProvider" android:permission="com.huawei.gallery.permission.GALLERY_PROVIDER" android:exported="true" android:authorities="com.huawei.gallery.provider" android:syncable="false" android:grantUriPermissions="true" />
+        <provider android:name="com.huawei.gallery.provider.ExternalUnigueProvider" android:permission="com.huawei.gallery.permission.GALLERY_PROVIDER" android:exported="true" android:authorities="com.huawei.gallery.recycle" android:syncable="false" android:grantUriPermissions="true" />
+        <provider android:name="com.huawei.gallery.provider.StorageMonitorProvider" android:permission="com.huawei.gallery.permission.GALLERY_PROVIDER" android:exported="true" android:authorities="com.huawei.gallery.provider2" android:syncable="false" android:grantUriPermissions="true" />
+        <meta-data android:name="trim_policy" android:resource="@xml/trim_policy" />
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="b0ce18ddab7f8b8177d422478ed6dec2" />
+        <meta-data android:name="com.google.android.gms.version" android:value="4323000" />
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyBjY8NLAJdnUqHsCTyRMd_pnKy3JxjUClw" />
+        <service android:name="com.huawei.gallery.service.ScannerFavoriteService" />
+        <service android:name="com.huawei.gallery.app.AlbumQuickActionService" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.android.quickaction.QuickActionService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.story.app.StoryAlbumActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.story.app.StoryAlbumSetActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" />
+        <service android:name="com.huawei.gallery.media.StoryAlbumService" android:exported="false" />
+        <service android:name="com.huawei.gallery.media.RecycleClearService" android:exported="false" />
+        <receiver android:name="com.huawei.gallery.phonestatus.PowerStateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.spe3d.Spe3DViewer" android:exported="true" android:screenOrientation="portrait">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.huawei.gallery.threedmodel.ThreeDModelActivity" android:exported="true" android:launchMode="singleInstance" android:screenOrientation="portrait" android:resizeableActivity="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+        </activity>
+        <activity-alias android:theme="@*android:style/Theme.Black.NoTitleBar.Fullscreen" android:name="com.huawei.gallery.threedmodel.GalleryThreeDModelActivity" android:launchMode="singleInstance" android:screenOrientation="portrait" android:targetActivity="com.huawei.gallery.threedmodel.ThreeDModelActivity" android:resizeableActivity="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar.Fullscreen" />
+        </activity-alias>
+        <activity android:theme="@style/GalleryActionBarTheme" android:name="com.huawei.gallery.recycle.app.RecycleAlbumActivity" android:permission="com.huawei.gallery.permission.START_APP" android:exported="true" android:configChanges="keyboardHidden|orientation|screenSize|smallestScreenSize" android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.huawei.gallery.action.VIEW_RECYCLER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.fyusion.sdk.viewer.ext.localfyuse.module.LocalFyuseModule" android:value="ViewerModule" />
+    </application>
+    <permission android:name="com.huawei.permission.HW_SERVICE_HOST" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.permission.HW_SERVICE_HOST" />
+    <uses-permission android:name="android.permission.HW_SERVICE_HOST" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera2" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.level.full" android:required="false" />
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/tab_split_line_container" android:background="@drawable/ab_splitline_emui" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@id/actionbar_tab_container" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2901" android:divider="@drawable/subtab_divider" android:showDividers="middle" android:paddingStart="@dimen/actionbar_tabs_h_padding" android:paddingEnd="@dimen/actionbar_tabs_h_padding">
+        <com.huawei.gallery.actionbar.view.ActionbarTab android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/time" android:background="@drawable/tab_left" android:layout_marginStart="4dp" style="@style/actionbar_tab">
+            <TextView android:id="@id/time_text" android:text="@string/time" android:fontFamily="chnfzxh" style="@style/actionbar_tab_text" />
+            <ImageView android:id="@id/time_tab_arrow" android:contentDescription="@string/time" android:paddingStart="2dp" style="@style/actionbar_tab_icon" />
+        </com.huawei.gallery.actionbar.view.ActionbarTab>
+        <com.huawei.gallery.actionbar.view.ActionbarTab android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/size" android:background="@drawable/tab_middle" style="@style/actionbar_tab">
+            <TextView android:id="@id/size_text" android:text="@string/file_size_abbreviate" android:fontFamily="chnfzxh" style="@style/actionbar_tab_text" />
+            <ImageView android:id="@id/size_tab_arrow" android:contentDescription="@string/file_size_abbreviate" android:paddingStart="2dp" style="@style/actionbar_tab_icon" />
+        </com.huawei.gallery.actionbar.view.ActionbarTab>
+        <com.huawei.gallery.actionbar.view.ActionbarTab android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/name" android:background="@drawable/tab_right" android:layout_marginEnd="4dp" style="@style/actionbar_tab">
+            <TextView android:id="@id/name_text" android:text="@string/title" android:fontFamily="chnfzxh" style="@style/actionbar_tab_text" />
+            <ImageView android:id="@id/name_tab_arrow" android:contentDescription="@string/title" android:paddingStart="2dp" style="@style/actionbar_tab_icon" />
+        </com.huawei.gallery.actionbar.view.ActionbarTab>
+    </LinearLayout>
+</LinearLayout>

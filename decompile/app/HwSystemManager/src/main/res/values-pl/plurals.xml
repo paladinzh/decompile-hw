@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spaceclean_not_commonly_used_data_tip">
+        <item quantity="other">Nie używano od %1$d dni</item>
+        <item quantity="one">Nie używano od %1$d dnia</item>
+        <item quantity="few">Nie używano od %1$d dni</item>
+        <item quantity="many">Nie używano od %1$d dni</item>
+    </plurals>
+    <plurals name="power_closeapp_des">
+        <item quantity="other">%1$d aplikacji nadal działa po wyłączeniu wyświetlacza, zamknij je, aby zmniejszyć zużycie energii</item>
+        <item quantity="one">%1$d aplikacja nadal działa po wyłączeniu wyświetlacza, zamknij ją, aby zmniejszyć zużycie energii</item>
+        <item quantity="few">%1$d aplikacji nadal działa po wyłączeniu wyświetlacza, zamknij je, aby zmniejszyć zużycie energii</item>
+        <item quantity="many">%1$d aplikacji nadal działa po wyłączeniu wyświetlacza, zamknij je, aby zmniejszyć zużycie energii</item>
+    </plurals>
+    <plurals name="power_app_optimize_des">
+        <item quantity="other">Zamknięto %1$d aplikacji o dużym zużyciu energii</item>
+        <item quantity="one">Zamknięto %1$d aplikację o dużym zużyciu energii</item>
+        <item quantity="few">Zamknięto %1$d aplikacji o dużym zużyciu energii</item>
+        <item quantity="many">Zamknięto %1$d aplikacji o dużym zużyciu energii</item>
+    </plurals>
+    <plurals name="power_app_des">
+        <item quantity="other">%1$d aplikacji potajemnie zużywa energię. Ich zamknięcie może wydłużyć czas pracy na baterii o %2$s</item>
+        <item quantity="one">%1$d aplikacja potajemnie zużywa energię. Jej zamknięcie może wydłużyć czas pracy na baterii o %2$s</item>
+        <item quantity="few">%1$d aplikacji potajemnie zużywa energię. Ich zamknięcie może wydłużyć czas pracy na baterii o %2$s</item>
+        <item quantity="many">%1$d aplikacji potajemnie zużywa energię. Ich zamknięcie może wydłużyć czas pracy na baterii o %2$s</item>
+    </plurals>
+    <plurals name="NetWorkPermissionDescriptionAdd">
+        <item quantity="other">Nie zezwolono %d aplikacjom na włączenie komórkowej transmisji danych</item>
+        <item quantity="one">Nie zezwolono %d aplikacji na włączenie komórkowej transmisji danych</item>
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie komórkowej transmisji danych</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie komórkowej transmisji danych</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+        <item quantity="one">Nie zezwolono %d aplikacji na włączenie Wi-Fi</item>
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Nie zezwolono %d aplikacjom na włączenie WLAN</item>
+        <item quantity="one">Nie zezwolono %d aplikacji na włączenie WLAN</item>
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie WLAN</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Zabroniono %d aplikacjom włączania WLAN</item>
+        <item quantity="one">Zabroniono %d aplikacji włączania WLAN</item>
+        <item quantity="few">Zabroniono %d aplikacjom włączania WLAN</item>
+        <item quantity="many">Zabroniono %d aplikacjom włączania WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="other">Zabroniono %d aplikacjom włączania WLAN</item>
+        <item quantity="one">Zabroniono %d aplikacji włączania WLAN</item>
+        <item quantity="few">Zabroniono %d aplikacjom włączania WLAN</item>
+        <item quantity="many">Zabroniono %d aplikacjom włączania WLAN</item>
+    </plurals>
+    <plurals name="OpenWifiPermissionDescription">
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie Wi-Fi</item>
+    </plurals>
+    <plurals name="OpenBTPermissionDescription">
+        <item quantity="other">Nie zezwolono %d aplikacjom na włączenie Bluetooth</item>
+        <item quantity="one">Nie zezwolono %d aplikacji na włączenie Bluetooth</item>
+        <item quantity="few">Nie zezwolono %d aplikacjom na włączenie Bluetooth</item>
+        <item quantity="many">Nie zezwolono %d aplikacjom na włączenie Bluetooth</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_content">
+        <item quantity="other">Ta funkcja wymaga następujących uprawnień. Przejść do ustawień, aby je włączyć?</item>
+        <item quantity="one">Ta funkcja wymaga następującego uprawnienia. Przejść do ustawień, aby je włączyć?</item>
+        <item quantity="few">Ta funkcja wymaga następujących uprawnień. Przejść do ustawień, aby je włączyć?</item>
+        <item quantity="many">Ta funkcja wymaga następujących uprawnień. Przejść do ustawień, aby je włączyć?</item>
+    </plurals>
+    <plurals name="hw_grantpermission_dlg_tips">
+        <item quantity="other">Te uprawnienia można wyłączyć w każdej chwili w ustawieniach aplikacji.</item>
+        <item quantity="one">To uprawnienie można wyłączyć w każdej chwili w ustawieniach aplikacji.</item>
+        <item quantity="few">Te uprawnienia można wyłączyć w każdej chwili w ustawieniach aplikacji.</item>
+        <item quantity="many">Te uprawnienia można wyłączyć w każdej chwili w ustawieniach aplikacji.</item>
+    </plurals>
+    <plurals name="protect_app_explain">
+        <item quantity="other">Pozwól %1$d aplikacjom działać po wyłączeniu ekranu</item>
+        <item quantity="one">Pozwól %1$d aplikacji działać po wyłączeniu ekranu</item>
+        <item quantity="few">Pozwól %1$d aplikacjom działać po wyłączeniu ekranu</item>
+        <item quantity="many">Pozwól %1$d aplikacjom działać po wyłączeniu ekranu</item>
+    </plurals>
+    <plurals name="harassment_rule_summary_format">
+        <item quantity="other">Wybrane reguły: %1$d</item>
+        <item quantity="one">Wybrane reguły: %1$d</item>
+        <item quantity="few">Wybrane reguły: %1$d</item>
+        <item quantity="many">Wybrane reguły: %1$d</item>
+    </plurals>
+    <plurals name="space_clean_any_file_delete_title">
+        <item quantity="other">Usunąć wybrane pliki (%1$d)?</item>
+        <item quantity="one">Usunąć wybrane pliki (%1$d)?</item>
+        <item quantity="few">Usunąć wybrane pliki (%1$d)?</item>
+        <item quantity="many">Usunąć wybrane pliki (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_file_delete_message">
+        <item quantity="other">Plików nie będzie można już przywrócić.</item>
+        <item quantity="one">Pliku nie będzie można już przywrócić.</item>
+        <item quantity="few">Plików nie będzie można już przywrócić.</item>
+        <item quantity="many">Plików nie będzie można już przywrócić.</item>
+    </plurals>
+    <plurals name="space_clean_any_data_delete_title">
+        <item quantity="other">Usunąć wybrane pozycje danych (%1$d)?</item>
+        <item quantity="one">Usunąć wybrane pozycje danych (%1$d)?</item>
+        <item quantity="few">Usunąć wybrane pozycje danych (%1$d)?</item>
+        <item quantity="many">Usunąć wybrane pozycje danych (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_data_delete_message">
+        <item quantity="other">Danych nie będzie można już przywrócić.</item>
+        <item quantity="one">Danych nie będzie można już przywrócić.</item>
+        <item quantity="few">Danych nie będzie można już przywrócić.</item>
+        <item quantity="many">Danych nie będzie można już przywrócić.</item>
+    </plurals>
+    <plurals name="space_clean_any_app_uninstall_title">
+        <item quantity="other">Odinstalować wybrane aplikacje (%1$d)?</item>
+        <item quantity="one">Odinstalować wybrane aplikacje (%1$d)?</item>
+        <item quantity="few">Odinstalować wybrane aplikacje (%1$d)?</item>
+        <item quantity="many">Odinstalować wybrane aplikacje (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_any_app_restore_title">
+        <item quantity="other">Przywrócić wybrane aplikacje (%1$d)?</item>
+        <item quantity="one">Przywrócić wybrane aplikacje (%1$d)?</item>
+        <item quantity="few">Przywrócić wybrane aplikacje (%1$d)?</item>
+        <item quantity="many">Przywrócić wybrane aplikacje (%1$d)?</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message">
+        <item quantity="other">Wszystkie dane aplikacji zostaną usunięte. Aplikacje wrócą do stanu początkowego.</item>
+        <item quantity="one">Wszystkie dane aplikacji zostaną usunięte. Ta aplikacja wróci do stanu początkowego.</item>
+        <item quantity="few">Wszystkie dane aplikacji zostaną usunięte. Aplikacje wrócą do stanu początkowego.</item>
+        <item quantity="many">Wszystkie dane aplikacji zostaną usunięte. Aplikacje wrócą do stanu początkowego.</item>
+    </plurals>
+    <plurals name="scan_result_danger_virus_format">
+        <item quantity="other">Wirusy: %1$d</item>
+        <item quantity="one">Wirusy: %1$d</item>
+        <item quantity="few">Wirusy: %1$d</item>
+        <item quantity="many">Wirusy: %1$d</item>
+    </plurals>
+    <plurals name="scan_result_danger_risk">
+        <item quantity="other">%1$d niebezpiecznych aplikacji</item>
+        <item quantity="one">%1$d niebezpieczna aplikacja</item>
+        <item quantity="few">%1$d niebezpiecznych aplikacji</item>
+        <item quantity="many">%1$d niebezpiecznych aplikacji</item>
+    </plurals>
+    <plurals name="scan_result_danger_not_official">
+        <item quantity="other">%1$d nieoficjalnych aplikacji</item>
+        <item quantity="one">%1$d nieoficjalna aplikacja</item>
+        <item quantity="few">%1$d nieoficjalnych aplikacji</item>
+        <item quantity="many">%1$d nieoficjalnych aplikacji</item>
+    </plurals>
+    <plurals name="MsgPermissionDescription">
+        <item quantity="other">Zakazano dostępu do wiadomości %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do wiadomości %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do wiadomości %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do wiadomości %d aplikacjom</item>
+    </plurals>
+    <plurals name="CalllogPermissionDescription">
+        <item quantity="other">Zakazano dostępu do rejestru połączeń %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do rejestru połączeń %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do rejestru połączeń %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do rejestru połączeń %d aplikacjom</item>
+    </plurals>
+    <plurals name="ContactsPermissionDescription">
+        <item quantity="other">Zakazano dostępu do kontaktów %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do kontaktów %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do kontaktów %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do kontaktów %d aplikacjom</item>
+    </plurals>
+    <plurals name="ReadCalendarPermissionDescription">
+        <item quantity="other">Zakazano dostępu do kalendarza %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do kalendarza %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do kalendarza %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do kalendarza %d aplikacjom</item>
+    </plurals>
+    <plurals name="LocationPermissionDescription">
+        <item quantity="other">Zakazano dostępu do danych o lokalizacji %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do danych o lokalizacji %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do danych o lokalizacji %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do danych o lokalizacji %d aplikacjom</item>
+    </plurals>
+    <plurals name="ReadPhoneCodePermissionDescription">
+        <item quantity="other">Zakazano dostępu do identyfikatora telefonu %d aplikacjom</item>
+        <item quantity="one">Zakazano dostępu do identyfikatora telefonu %d aplikacji</item>
+        <item quantity="few">Zakazano dostępu do identyfikatora telefonu %d aplikacjom</item>
+        <item quantity="many">Zakazano dostępu do identyfikatora telefonu %d aplikacjom</item>
+    </plurals>
+    <plurals name="PhoneRecorderPermissionDescriptionAdd">
+        <item quantity="other">Zakazano nagrywania dźwięku %d aplikacjom</item>
+        <item quantity="one">Zakazano nagrywania dźwięku %d aplikacji</item>
+        <item quantity="few">Zakazano nagrywania dźwięku %d aplikacjom</item>
+        <item quantity="many">Zakazano nagrywania dźwięku %d aplikacjom</item>
+    </plurals>
+    <plurals name="CallPhonePermissionDescription">
+        <item quantity="other">Zakazano wykonywania połączeń %d aplikacjom</item>
+        <item quantity="one">Zakazano wykonywania połączeń %d aplikacji</item>
+        <item quantity="few">Zakazano wykonywania połączeń %d aplikacjom</item>
+        <item quantity="many">Zakazano wykonywania połączeń %d aplikacjom</item>
+    </plurals>
+    <plurals name="app_cnt_suffix">
+        <item quantity="other">%d aplikacji</item>
+        <item quantity="one">%d apl.</item>
+        <item quantity="few">%d aplikacje</item>
+        <item quantity="many">%d aplikacji</item>
+    </plurals>
+    <plurals name="have_virus">
+        <item quantity="other">%d wirusy</item>
+        <item quantity="one">%d wirus</item>
+        <item quantity="few">%d wirusy</item>
+        <item quantity="many">%d wirusy</item>
+    </plurals>
+    <plurals name="have_ad_application">
+        <item quantity="other">Znaleziono %d aplikacji z reklamami, można odinstalować ręcznie</item>
+        <item quantity="one">Znaleziono %d aplikację z reklamami, można odinstalować ręcznie</item>
+        <item quantity="few">Znaleziono %d aplikacji z reklamami, można odinstalować ręcznie</item>
+        <item quantity="many">Znaleziono %d aplikacji z reklamami, można odinstalować ręcznie</item>
+    </plurals>
+    <plurals name="harassment_noupdate_hours_summary_format">
+        <item quantity="other">Zaktualizowano %1$d h temu</item>
+        <item quantity="one">Zaktualizowano %1$d h temu</item>
+        <item quantity="few">Zaktualizowano %1$d h temu</item>
+        <item quantity="many">Zaktualizowano %1$d h temu</item>
+    </plurals>
+    <plurals name="harassment_noupdate_days_summary_format">
+        <item quantity="other">Zaktualizowano %1$d dni temu</item>
+        <item quantity="one">Zaktualizowano %1$d dzień temu</item>
+        <item quantity="few">Zaktualizowano %1$d dni temu</item>
+        <item quantity="many">Zaktualizowano %1$d dni temu</item>
+    </plurals>
+    <plurals name="harassment_noupdate_months_summary_format">
+        <item quantity="other">Zaktualizowano %1$d miesięcy temu</item>
+        <item quantity="one">Zaktualizowano %1$d miesiąc temu</item>
+        <item quantity="few">Zaktualizowano %1$d miesiące temu</item>
+        <item quantity="many">Zaktualizowano %1$d miesięcy temu</item>
+    </plurals>
+    <plurals name="prevent_remove_contacts_confirm_title">
+        <item quantity="other">Usunąć wybrane kontakty (%d)?</item>
+        <item quantity="one">Usunąć %d wybrany kontakt?</item>
+        <item quantity="few">Usunąć wybrane kontakty (%d)?</item>
+        <item quantity="many">Usunąć wybrane kontakty (%d)?</item>
+    </plurals>
+    <plurals name="widget_clean_message_optimal_all_Toast">
+        <item quantity="other">Zamknięto %1$d aplikacji i zwolniono %2$s pamięci. %3$s</item>
+        <item quantity="one">Zamknięto %1$d aplikację i zwolniono %2$s pamięci. %3$s</item>
+        <item quantity="few">Zamknięto %1$d aplikacje i zwolniono %2$s pamięci. %3$s</item>
+        <item quantity="many">Zamknięto %1$d aplikacji i zwolniono %2$s pamięci. %3$s</item>
+    </plurals>
+    <plurals name="app_day_not_used_text1">
+        <item quantity="other">Nie używane: %1$d dni, wielkość %2$s</item>
+        <item quantity="one">Nieuż.: %1$d dzień, rozmi.: %2$s</item>
+        <item quantity="few">Nieużywane: %1$d dni, rozmiar %2$s</item>
+        <item quantity="many">Nieużywane: %1$d dni, rozmiar %2$s</item>
+    </plurals>
+    <plurals name="scan_memory_before_clear">
+        <item quantity="other">Zamknij %1$d aplikacji, aby zwolnić %2$s pamięci</item>
+        <item quantity="one">Zamknij %1$d aplikację, aby zwolnić %2$s pamięci</item>
+        <item quantity="few">Zamknij %1$d aplikacje, aby zwolnić %2$s pamięci</item>
+        <item quantity="many">Zamknij %1$d aplikacji, aby zwolnić %2$s pamięci</item>
+    </plurals>
+    <plurals name="scan_memory_after_clear">
+        <item quantity="other">Zamknięto %1$d aplikacji, zwalniając %2$s pamięci</item>
+        <item quantity="one">Zamknięto %1$d aplikację, zwalniając %2$s pamięci</item>
+        <item quantity="few">Zamknięto %1$d aplikacji, zwalniając %2$s pamięci</item>
+        <item quantity="many">Zamknięto %1$d aplikacji, zwalniając %2$s pamięci</item>
+    </plurals>
+    <plurals name="MMSSendPermissionDescription">
+        <item quantity="other">Nie zezwolono na wysłanie wiadomości MMS z %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na wysłanie wiadomości MMS z %d aplikacji</item>
+        <item quantity="few">Nie zezwolono na wysłanie wiadomości MMS z %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na wysłanie wiadomości MMS z %d aplikacji</item>
+    </plurals>
+    <plurals name="WriteCalllogPermissionDescription">
+        <item quantity="other">Nie zezwolono na modyfikację rejestru połączeń przez %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na modyfikację rejestru połączeń przez %d aplikację</item>
+        <item quantity="few">Nie zezwolono na modyfikację rejestru połączeń przez %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na modyfikację rejestru połączeń przez %d aplikacji</item>
+    </plurals>
+    <plurals name="WriteContactsPermissionDescription">
+        <item quantity="other">Nie zezwolono na modyfikację kontaktów przez %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na modyfikację kontaktów przez %d aplikację</item>
+        <item quantity="few">Nie zezwolono na modyfikację kontaktów przez %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na modyfikację kontaktów przez %d aplikacji</item>
+    </plurals>
+    <plurals name="DeleteCalllogPermissionDescription">
+        <item quantity="other">Nie zezwolono na usuwanie rejestru połączeń przez %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na usuwanie rejestru połączeń przez %d aplikację</item>
+        <item quantity="few">Nie zezwolono na usuwanie rejestru połączeń przez %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na usuwanie rejestru połączeń przez %d aplikacji</item>
+    </plurals>
+    <plurals name="DeleteContactsPermissionDescription">
+        <item quantity="other">Nie zezwolono na usuwanie kontaktów przez %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na usuwanie kontaktów przez %d aplikację</item>
+        <item quantity="few">Nie zezwolono na usuwanie kontaktów przez %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na usuwanie kontaktów przez %d aplikacji</item>
+    </plurals>
+    <plurals name="CareraPermissionDescription_gongxin">
+        <item quantity="other">Zakazano robienia zdjęć i nagrywania filmów %d aplikacjom</item>
+        <item quantity="one">Zakazano robienia zdjęć i nagrywania filmów %d aplikacji</item>
+        <item quantity="few">Zakazano robienia zdjęć i nagrywania filmów %d aplikacjom</item>
+        <item quantity="many">Zakazano robienia zdjęć i nagrywania filmów %d aplikacjom</item>
+    </plurals>
+    <plurals name="PayProtectPermissionDescription_gongxin">
+        <item quantity="other">Nie zezwolono na wysłanie wiadomości SMS z %d aplikacji</item>
+        <item quantity="one">Nie zezwolono na wysłanie wiadomości SMS z %d aplikacji</item>
+        <item quantity="few">Nie zezwolono na wysłanie wiadomości SMS z %d aplikacji</item>
+        <item quantity="many">Nie zezwolono na wysłanie wiadomości SMS z %d aplikacji</item>
+    </plurals>
+    <plurals name="addview_app_explain">
+        <item quantity="other">Zezwolono %1$d aplikacjom na wyświetlanie miejsca upuszczania</item>
+        <item quantity="one">Zezwolono %1$d aplikacji na wyświetlanie miejsca upuszczania</item>
+        <item quantity="few">Zezwolono %1$d aplikacjom na wyświetlanie miejsca upuszczania</item>
+        <item quantity="many">Zezwolono %1$d aplikacjom na wyświetlanie miejsca upuszczania</item>
+    </plurals>
+    <plurals name="main_screen_day_unit">
+        <item quantity="other">dni</item>
+        <item quantity="one">dzień</item>
+        <item quantity="few">dni</item>
+        <item quantity="many">dni</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_AppLockMainView_Tips">
+        <item quantity="other">Zablokowano aplikacje: %1$d</item>
+        <item quantity="one">Zablokowano %1$d aplikację</item>
+        <item quantity="few">Zablokowano aplikacje: %1$d</item>
+        <item quantity="many">Zablokowano aplikacje: %1$d</item>
+    </plurals>
+    <plurals name="ListViewFirstLine_Accelerater_Tips01">
+        <item quantity="other">Działają aplikacje: %1$d</item>
+        <item quantity="one">Działa aplikacja: %1$d</item>
+        <item quantity="few">Działają aplikacje: %1$d</item>
+        <item quantity="many">Działają aplikacje: %1$d</item>
+    </plurals>
+    <plurals name="phone_spcae_uninstall_unused_app_message">
+        <item quantity="other">Odinstalować wybrane aplikacje?</item>
+        <item quantity="one">Odinstalować wybraną aplikację?</item>
+        <item quantity="few">Odinstalować wybrane aplikacje?</item>
+        <item quantity="many">Odinstalować wybrane aplikacje?</item>
+    </plurals>
+    <plurals name="spaceclean_items">
+        <item quantity="other">%1$d elementu</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elementy</item>
+        <item quantity="many">%1$d elementów</item>
+    </plurals>
+    <plurals name="Other_PermissionManager_Tip">
+        <item quantity="other">Uprawnienia: %1$d</item>
+        <item quantity="one">Uprawnienia: %1$d</item>
+        <item quantity="few">Uprawnienia: %1$d</item>
+        <item quantity="many">Uprawnienia: %1$d</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content">
+        <item quantity="other">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+        <item quantity="one">Usunąć poniższy plik? Nie będzie można go już przywrócić.</item>
+        <item quantity="few">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+        <item quantity="many">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+    </plurals>
+    <plurals name="common_trash_delete_dialog_content_new">
+        <item quantity="other">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+        <item quantity="one">Usunąć poniższy plik? Nie będzie można go już przywrócić.</item>
+        <item quantity="few">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+        <item quantity="many">Usunąć poniższe pliki? Nie będzie można ich już przywrócić.</item>
+    </plurals>
+    <plurals name="app_data_trash_delete_dialog_content_new">
+        <item quantity="other">System nieodwracalnie usunie wszystkie dane wybranych aplikacji. Aplikacje powrócą do stanu początkowego.</item>
+        <item quantity="one">System nieodwracalnie usunie wszystkie dane wybranej aplikacji. Aplikacja powróci do stanu początkowego.</item>
+        <item quantity="few">System nieodwracalnie usunie wszystkie dane wybranych aplikacji. Aplikacje powrócą do stanu początkowego.</item>
+        <item quantity="many">System nieodwracalnie usunie wszystkie dane wybranych aplikacji. Aplikacje powrócą do stanu początkowego.</item>
+    </plurals>
+    <plurals name="widget_clean_message_save_time_new_toast">
+        <item quantity="other">Czas pracy wydłużony o %1$d min.</item>
+        <item quantity="one">Czas pracy wydłużony o %1$d minutę.</item>
+        <item quantity="few">Czas pracy wydłużony o %1$d min.</item>
+        <item quantity="many">Czas pracy wydłużony o %1$d min.</item>
+    </plurals>
+    <plurals name="widget_clean_message_kill_proc_new_toast">
+        <item quantity="other">Zamknięto %1$d aplikacji i zwolniono %2$s pamięci.</item>
+        <item quantity="one">Zamknięto %1$d aplikację i zwolniono %2$s pamięci.</item>
+        <item quantity="few">Zamknięto %1$d aplikacje i zwolniono %2$s pamięci.</item>
+        <item quantity="many">Zamknięto %1$d aplikacji i zwolniono %2$s pamięci.</item>
+    </plurals>
+    <plurals name="power_time_min_array">
+        <item quantity="other">%1$d min</item>
+        <item quantity="one">%1$d min</item>
+        <item quantity="few">%1$d min</item>
+        <item quantity="many">%1$d min</item>
+    </plurals>
+    <plurals name="power_time_hour_array">
+        <item quantity="other">%1$d h</item>
+        <item quantity="one">%1$d h</item>
+        <item quantity="few">%1$d h</item>
+        <item quantity="many">%1$d h</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip02_array">
+        <item quantity="other">Zostało %1$s min</item>
+        <item quantity="one">Zostało %1$s min</item>
+        <item quantity="few">Zostało %1$s min</item>
+        <item quantity="many">Zostało %1$s min</item>
+    </plurals>
+    <plurals name="Other_SystemManager_Tip04_array">
+        <item quantity="other">%1$s min do naładowania</item>
+        <item quantity="one">%1$s min do naładowania</item>
+        <item quantity="few">%1$s min do pełnego naładowania</item>
+        <item quantity="many">%1$s min do pełnego naładowania</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title04_array">
+        <item quantity="other">Można wydłużyć o %1$d min</item>
+        <item quantity="one">Można wydłużyć o %1$d min</item>
+        <item quantity="few">Można wydłużyć o %1$d min</item>
+        <item quantity="many">Można wydłużyć o %1$d min</item>
+    </plurals>
+    <plurals name="Other_PowerManagerScanResult_Title02_array">
+        <item quantity="other">Wydłużono o %1$s min</item>
+        <item quantity="one">Wydłużono o %1$s min</item>
+        <item quantity="few">Wydłużono o %1$s min</item>
+        <item quantity="many">Wydłużono o %1$s min</item>
+    </plurals>
+    <plurals name="power_time_s_array">
+        <item quantity="other">%1$ds</item>
+        <item quantity="one">%1$ds</item>
+        <item quantity="few">%1$ds</item>
+        <item quantity="many">%1$ds</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_suggest_value">
+        <item quantity="other">%d raza (sug.)</item>
+        <item quantity="one">%d raz (sug.)</item>
+        <item quantity="few">%d razy (sug.)</item>
+        <item quantity="many">%d razy (sug.)</item>
+    </plurals>
+    <plurals name="harassment_blocking_threshold_value">
+        <item quantity="other">%d raza</item>
+        <item quantity="one">%d raz</item>
+        <item quantity="few">%d razy</item>
+        <item quantity="many">%d razy</item>
+    </plurals>
+    <plurals name="harassment_blockreason_mark_by_other">
+        <item quantity="other">Oznaczone przez %d osoby</item>
+        <item quantity="one">Oznaczone przez %d osobę</item>
+        <item quantity="few">Oznaczone przez %d osoby</item>
+        <item quantity="many">Oznaczone przez %d osób</item>
+    </plurals>
+    <plurals name="recommend_title_description">
+        <item quantity="other">Dostępne aplikacje: %1$d</item>
+        <item quantity="one">Dostępne aplikacje: %1$d</item>
+        <item quantity="few">Dostępne aplikacje: %1$d</item>
+        <item quantity="many">Dostępne aplikacje: %1$d</item>
+    </plurals>
+    <plurals name="recommend_application_tips">
+        <item quantity="other">%1$d można zoptymalizować</item>
+        <item quantity="one">%1$d można zoptymalizować</item>
+        <item quantity="few">%1$d można zoptymalizować</item>
+        <item quantity="many">%1$d można zoptymalizować</item>
+    </plurals>
+    <plurals name="super_high_power_notify_content2">
+        <item quantity="other">%1$d aplikacji zamknięto z powodu nadmiernego zużycia energii, dotknij, aby wyświetlić szczegóły</item>
+        <item quantity="one">%1$d aplikacja została zamknięta z powodu nadmiernego zużycia energii, dotknij, aby wyświetlić szczegóły</item>
+        <item quantity="few">%1$d aplikacje zamknięto z powodu nadmiernego zużycia energii, dotknij, aby wyświetlić szczegóły</item>
+        <item quantity="many">%1$d aplikacji zamknięto z powodu nadmiernego zużycia energii, dotknij, aby wyświetlić szczegóły</item>
+    </plurals>
+    <plurals name="photo_count">
+        <item quantity="other">%1$d zdjęć</item>
+        <item quantity="one">%1$d zdjęcie</item>
+        <item quantity="few">%1$d zdjęcia</item>
+        <item quantity="many">%1$d zdjęć</item>
+    </plurals>
+    <plurals name="update_before">
+        <item quantity="other">Zaktualizowano %d dni temu</item>
+        <item quantity="one">Zaktualizowano %d dzień temu</item>
+        <item quantity="few">Zaktualizowano %d dni temu</item>
+        <item quantity="many">Zaktualizowano %d dni temu</item>
+    </plurals>
+    <plurals name="space_clean_setting_timing_notification_content">
+        <item quantity="other">%d dni nie sprzątano, dotknij, aby posprzątać</item>
+        <item quantity="one">%d dzień nie sprzątano, dotknij, aby posprzątać</item>
+        <item quantity="few">%d dni nie sprzątano, dotknij, aby posprzątać</item>
+        <item quantity="many">%d dni nie sprzątano, dotknij, aby posprzątać</item>
+    </plurals>
+    <plurals name="EditShortcutPermissionDescription">
+        <item quantity="other">Zabroniono tworzenia skrótów na ekranie głównym %d aplikacjom.</item>
+        <item quantity="one">Zabroniono tworzenia skrótów na ekranie głównym %d aplikacji.</item>
+        <item quantity="few">Zabroniono tworzenia skrótów na ekranie głównym %d aplikacjom.</item>
+        <item quantity="many">Zabroniono tworzenia skrótów na ekranie głównym %d aplikacjom.</item>
+    </plurals>
+    <plurals name="space_clean_white_list_title_change">
+        <item quantity="other">Czyszczenie nie obejmie %1$d aplikacji.</item>
+        <item quantity="one">Czyszczenie nie obejmie %1$d aplikacji.</item>
+        <item quantity="few">Czyszczenie nie obejmie %1$d aplikacji.</item>
+        <item quantity="many">Czyszczenie nie obejmie %1$d aplikacji.</item>
+    </plurals>
+    <plurals name="GetAppListPermissionDescription">
+        <item quantity="other">Wzbroniono dostępu %d aplikacjom do listy zainstalowanych aplikacji.</item>
+        <item quantity="one">Wzbroniono dostępu %d aplikacji do listy zainstalowanych aplikacji.</item>
+        <item quantity="few">Wzbroniono dostępu %d aplikacjom do listy zainstalowanych aplikacji.</item>
+        <item quantity="many">Wzbroniono dostępu %d aplikacjom do listy zainstalowanych aplikacji.</item>
+    </plurals>
+    <plurals name="widget_clean_message_clean_app_toast">
+        <item quantity="other">Usunięte aplikacje: %d.</item>
+        <item quantity="one">Usunięte aplikacje: %d.</item>
+        <item quantity="few">Usunięte aplikacje: %d.</item>
+        <item quantity="many">Usunięte aplikacje: %d.</item>
+    </plurals>
+    <plurals name="RmdRestrictedAppDescription_New">
+        <item quantity="other">%d aplikacjom wzbroniono dostępu do Twoich danych o kondycji (aby umożliwić liczenie kroków i potrząsanie).</item>
+        <item quantity="one">%d aplikacji wzbroniono dostępu do Twoich danych o kondycji (aby umożliwić liczenie kroków i potrząsanie).</item>
+        <item quantity="few">%d aplikacjom wzbroniono dostępu do Twoich danych o kondycji (aby umożliwić liczenie kroków i potrząsanie).</item>
+        <item quantity="many">%d aplikacjom wzbroniono dostępu do Twoich danych o kondycji (aby umożliwić liczenie kroków i potrząsanie).</item>
+    </plurals>
+    <plurals name="RhdRestrictedAppDescription">
+        <item quantity="other">%d aplikacjom wzbroniono dostępu do danych o zdrowiu.</item>
+        <item quantity="one">%d aplikacji wzbroniono dostępu do danych o zdrowiu.</item>
+        <item quantity="few">%d aplikacjom wzbroniono dostępu do danych o zdrowiu.</item>
+        <item quantity="many">%d aplikacjom wzbroniono dostępu do danych o zdrowiu.</item>
+    </plurals>
+    <plurals name="main_screen_detect_result_optimize_manually">
+        <item quantity="other">%1$d elementów wymaga ręcznej optymalizacji</item>
+        <item quantity="one">%1$d element wymaga ręcznej optymalizacji</item>
+        <item quantity="few">%1$d elementy wymagają ręcznej optymalizacji</item>
+        <item quantity="many">%1$d elementów wymaga ręcznej optymalizacji</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_securitypath_unsafe">
+        <item quantity="other">Poprawki do zainstalowania: %1$d</item>
+        <item quantity="one">Poprawki do zainstalowania: %1$d</item>
+        <item quantity="few">Poprawki do zainstalowania: %1$d</item>
+        <item quantity="many">Poprawki do zainstalowania: %1$d</item>
+    </plurals>
+    <plurals name="scan_result_advertises">
+        <item quantity="other">Aplikacje z reklamami: %1$d</item>
+        <item quantity="one">Aplikacje z reklamami: %1$d</item>
+        <item quantity="few">Aplikacje z reklamami: %1$d</item>
+        <item quantity="many">Aplikacje z reklamami: %1$d</item>
+    </plurals>
+    <plurals name="startupmgr_allowed_count_tip">
+        <item quantity="other">Zezwolono na automatyczne uruchamianie %d aplikacji.</item>
+        <item quantity="one">Zezwolono na automatyczne uruchamianie %d aplikacji.</item>
+        <item quantity="few">Zezwolono na automatyczne uruchamianie %d aplikacji.</item>
+        <item quantity="many">Zezwolono na automatyczne uruchamianie %d aplikacji.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero">
+        <item quantity="other">%d aplikacji może być uruchamianych przez inne aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="one">%d aplikacja może być uruchamiana przez inne aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="few">%d aplikacje mogą być uruchamiane przez inne aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="many">%d aplikacji może być uruchamianych przez inne aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_count_tip_not_zero_content">
+        <item quantity="other">%1$d aplikacji może być uruchamianych przez inne aplikacje. To może sprawić, że %2$s będzie działać wolniej i będzie krócej działać na baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="one">%1$d aplikacja może być uruchamiana przez inne aplikacje. To może sprawić, że %2$s będzie działać wolniej i będzie krócej działać na baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="few">%1$d aplikacji może być uruchamianych przez inne aplikacje. To może sprawić, że %2$s będzie działać wolniej i będzie krócej działać na baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+        <item quantity="many">%1$d aplikacji może być uruchamianych przez inne aplikacje. To może sprawić, że %2$s będzie działać wolniej i będzie krócej działać na baterii. Zalecane jest cofnięcie tego uprawnienia.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head">
+        <item quantity="other">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zezwolić?</item>
+        <item quantity="one">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zezwolić?</item>
+        <item quantity="few">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zezwolić?</item>
+        <item quantity="many">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head">
+        <item quantity="other">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zabronić?</item>
+        <item quantity="one">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zabronić?</item>
+        <item quantity="few">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zabronić?</item>
+        <item quantity="many">Aplikacja może być uruchamiana automatycznie w przypadku %d sytuacji. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_forbid_msg_head_for_dual_app">
+        <item quantity="other">Aplikacja i jej kopia zostaną automatycznie uruchomione w przypadku następujących %d sytuacji. Zabronić?</item>
+        <item quantity="one">Aplikacja i jej kopia zostaną automatycznie uruchomione w przypadku następującej %d sytuacji. Zabronić?</item>
+        <item quantity="few">Aplikacja i jej kopia zostaną automatycznie uruchomione w przypadku następujących %d sytuacji. Zabronić?</item>
+        <item quantity="many">Aplikacja i jej kopia zostaną automatycznie uruchomione w przypadku następujących %d sytuacji. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_head">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacje. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może powodować spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_head">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacje. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_head">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacje. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje spowolnienie telefonu i szybsze zużywanie baterii. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_content">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_msg_content">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_compitition_msg_content">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_forbid_compitition_msg_content">
+        <item quantity="other">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="one">Aplikacja %1$s może być uruchamiana przez %2$d aplikację. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="few">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+        <item quantity="many">Aplikacja %1$s może być uruchamiana przez %2$d aplikacji. To spowoduje, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zabronić?</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_allow_description">
+        <item quantity="other">Uruchomiono: %1$d raza | Ostatnio: %2$s</item>
+        <item quantity="one">Uruchomiono: %1$d raz | Ostatnio: %2$s</item>
+        <item quantity="few">Uruchomiono: %1$d razy | Ostatnio: %2$s</item>
+        <item quantity="many">Uruchomiono: %1$d razy | Ostatnio: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_normal_record_item_forbid_description">
+        <item quantity="other">Zablokowano: %1$d raza | Ostatnio: %2$s</item>
+        <item quantity="one">Zablokowano: %1$d raz | Ostatnio: %2$s</item>
+        <item quantity="few">Zablokowano: %1$d razy | Ostatnio: %2$s</item>
+        <item quantity="many">Zablokowano: %1$d razy | Ostatnio: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_allow_description">
+        <item quantity="other">Uruchomiono: %1$d raza | Ostatnio: %2$s</item>
+        <item quantity="one">Uruchomiono: %1$d raz | Ostatnio: %2$s</item>
+        <item quantity="few">Uruchomiono: %1$d razy | Ostatnio: %2$s</item>
+        <item quantity="many">Uruchomiono: %1$d razy | Ostatnio: %2$s</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_record_item_forbid_description">
+        <item quantity="other">Zablokowano: %1$d raza | Ostatnio: %2$s</item>
+        <item quantity="one">Zablokowano: %1$d raz | Ostatnio: %2$s</item>
+        <item quantity="few">Zablokowano: %1$d razy | Ostatnio: %2$s</item>
+        <item quantity="many">Zablokowano: %1$d razy | Ostatnio: %2$s</item>
+    </plurals>
+    <plurals name="main_screen_detect_item_bootup_unsafe_1">
+        <item quantity="other">Znalezione aplikacje w autostarcie: %d</item>
+        <item quantity="one">Znalezione aplikacje w autostarcie: %d</item>
+        <item quantity="few">Znalezione aplikacje w autostarcie: %d</item>
+        <item quantity="many">Znalezione aplikacje w autostarcie: %d</item>
+    </plurals>
+    <plurals name="space_clean_files">
+        <item quantity="other">Łącznie pliki: %1$s</item>
+        <item quantity="one">Łącznie pliki: %1$s</item>
+        <item quantity="few">Łącznie pliki: %1$s</item>
+        <item quantity="many">Łącznie pliki: %1$s</item>
+    </plurals>
+    <plurals name="virus_timer_notify_message">
+        <item quantity="other">%d dni bez skanowania, wykonaj pełne skanowanie</item>
+        <item quantity="one">%d dzień bez skanowania, wykonaj pełne skanowanie</item>
+        <item quantity="few">%d dni bez skanowania, wykonaj pełne skanowanie</item>
+        <item quantity="many">%d dni bez skanowania, wykonaj pełne skanowanie</item>
+    </plurals>
+    <plurals name="virus_risk_permission_apps">
+        <item quantity="other">Aplikacje mające wrażliwe uprawnienia: %1$d</item>
+        <item quantity="one">Aplikacje mające wrażliwe uprawnienia: %1$d</item>
+        <item quantity="few">Aplikacje mające wrażliwe uprawnienia: %1$d</item>
+        <item quantity="many">Aplikacje mające wrażliwe uprawnienia: %1$d</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_try_more">
+        <item quantity="other">Nie można rozpoznać odcisku palca, pozostałe próby: %1$d</item>
+        <item quantity="one">Nie można rozpoznać odcisku palca, pozostałe próby: %1$d</item>
+        <item quantity="few">Nie można rozpoznać odcisku palca, pozostałe próby: %1$d</item>
+        <item quantity="many">Nie można rozpoznać odcisku palca, pozostałe próby: %1$d</item>
+    </plurals>
+    <plurals name="applock_fingerprint_error_locked">
+        <item quantity="other">Odcisk palca zawieszony. Spróbuj ponownie po upływie %1$d sekund</item>
+        <item quantity="one">Odcisk palca zawieszony. Spróbuj ponownie po upływie %1$d sekundy</item>
+        <item quantity="few">Odcisk palca zawieszony. Spróbuj ponownie po upływie %1$d sekund</item>
+        <item quantity="many">Odcisk palca zawieszony. Spróbuj ponownie po upływie %1$d sekund</item>
+    </plurals>
+    <plurals name="applock_verify_answer_failed">
+        <item quantity="other">Błędna odpowiedź. Pozostała liczba prób: %1$d.</item>
+        <item quantity="one">Błędna odpowiedź. Pozostała liczba prób: %1$d.</item>
+        <item quantity="few">Błędna odpowiedź. Pozostała liczba prób: %1$d.</item>
+        <item quantity="many">Błędna odpowiedź. Pozostała liczba prób: %1$d.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_hour">
+        <item quantity="other">Spróbuj jeszcze raz za %1$d h.</item>
+        <item quantity="one">Spróbuj jeszcze raz za %1$d h.</item>
+        <item quantity="few">Spróbuj jeszcze raz za %1$d h.</item>
+        <item quantity="many">Spróbuj jeszcze raz za %1$d h.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_minute">
+        <item quantity="other">Spróbuj jeszcze raz za %1$d min.</item>
+        <item quantity="one">Spróbuj jeszcze raz za %1$d min.</item>
+        <item quantity="few">Spróbuj jeszcze raz za %1$d min.</item>
+        <item quantity="many">Spróbuj jeszcze raz za %1$d min.</item>
+    </plurals>
+    <plurals name="applock_lockout_remaining_second">
+        <item quantity="other">Spróbuj jeszcze raz za %1$d s.</item>
+        <item quantity="one">Spróbuj jeszcze raz za %1$d s.</item>
+        <item quantity="few">Spróbuj jeszcze raz za %1$d s.</item>
+        <item quantity="many">Spróbuj jeszcze raz za %1$d s.</item>
+    </plurals>
+    <plurals name="power_battery_history_topapp_tip">
+        <item quantity="other">Główne aplikacje obciążające baterię (%1$d)</item>
+        <item quantity="one">Główne aplikacje obciążające baterię (%1$d)</item>
+        <item quantity="few">Główne aplikacje obciążające baterię (%1$d)</item>
+        <item quantity="many">Główne aplikacje obciążające baterię (%1$d)</item>
+    </plurals>
+    <plurals name="power_time_day_array">
+        <item quantity="other">%1$d d</item>
+        <item quantity="one">%1$d d</item>
+        <item quantity="few">%1$d d</item>
+        <item quantity="many">%1$d d</item>
+    </plurals>
+    <plurals name="space_clean_app_restore_message_for_dual_app">
+        <item quantity="other">Wszystkie wybrane dane tych aplikacji i ich aplikacji bliźniaczych zostaną usunięte. Aplikacje powrócą do stanu początkowego po instalacji.</item>
+        <item quantity="one">Wszystkie wybrane dane tej aplikacji i jej aplikacji bliźniaczej zostaną usunięte. Aplikacja powróci do stanu początkowego po instalacji.</item>
+        <item quantity="few">Wszystkie wybrane dane tych aplikacji i ich aplikacji bliźniaczych zostaną usunięte. Aplikacje powrócą do stanu początkowego po instalacji.</item>
+        <item quantity="many">Wszystkie wybrane dane tych aplikacji i ich aplikacji bliźniaczych zostaną usunięte. Aplikacje powrócą do stanu początkowego po instalacji.</item>
+    </plurals>
+    <plurals name="startupmgr_normal_allow_msg_head_for_dual_app">
+        <item quantity="other">Aplikacja i jej aplikacja bliźniacza mogą być uruchamiane automatycznie w przypadku %1$d sytuacji poniżej. Zezwolić?</item>
+        <item quantity="one">Aplikacja i jej aplikacja bliźniacza mogą być uruchamiane automatycznie w przypadku %1$d sytuacji poniżej. Zezwolić?</item>
+        <item quantity="few">Aplikacja i jej aplikacja bliźniacza mogą być uruchamiane automatycznie w przypadku %1$d sytuacji poniżej. Zezwolić?</item>
+        <item quantity="many">Aplikacja i jej aplikacja bliźniacza mogą być uruchamiane automatycznie w przypadku %1$d sytuacji poniżej. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app">
+        <item quantity="other">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może spowodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikację. To może spowodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może spowodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może spowodować spowolnienie telefonu i szybsze zużywanie baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="startupmgr_awaked_allow_msg_head_for_dual_app_content">
+        <item quantity="other">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="one">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikację. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="few">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+        <item quantity="many">Aplikacja %1$s i jej aplikacja bliźniacza mogą być uruchamiane przez %2$d aplikacji. To może sprawić, że %3$s będzie działać wolniej i będzie krócej działać na baterii. Zezwolić?</item>
+    </plurals>
+    <plurals name="power_protect_app_des">
+        <item quantity="other">%1$d aplikacje nie zostanie zamkniętych po zablokowaniu ekranu</item>
+        <item quantity="one">%1$d aplikacja nie zostanie zamknięta po zablokowaniu ekranu</item>
+        <item quantity="few">%1$d aplikacje nie zostaną zamknięte po zablokowaniu ekranu</item>
+        <item quantity="many">%1$d aplikacji nie zostanie zamkniętych po zablokowaniu ekranu</item>
+    </plurals>
+    <plurals name="power_protect_app_abroad_des">
+        <item quantity="other">%1$d aplikacji zostanie zamkniętych po zablokowaniu ekranu</item>
+        <item quantity="one">%1$d aplikacja zostanie zamknięta po zablokowaniu ekranu</item>
+        <item quantity="few">%1$d aplikacje zostaną zamknięte po zablokowaniu ekranu</item>
+        <item quantity="many">%1$d aplikacji zostanie zamkniętych po zablokowaniu ekranu</item>
+    </plurals>
+    <plurals name="read_calendar_permissiondescription">
+        <item quantity="other">Nie zezwolono na dostęp do kalendarza przez %d aplikacji.</item>
+        <item quantity="one">Nie zezwolono na dostęp do kalendarza przez %d aplikację.</item>
+        <item quantity="few">Nie zezwolono na dostęp do kalendarza przez %d aplikacje.</item>
+        <item quantity="many">Nie zezwolono na dostęp do kalendarza przez %d aplikacji.</item>
+    </plurals>
+    <plurals name="modify_calendar_permissiondescription">
+        <item quantity="other">Nie zezwolono na modyfikację kalendarza przez %d aplikacji.</item>
+        <item quantity="one">Nie zezwolono na modyfikację kalendarza przez %d aplikację.</item>
+        <item quantity="few">Nie zezwolono na modyfikację kalendarza przez %d aplikacje.</item>
+        <item quantity="many">Nie zezwolono na modyfikację kalendarza przez %d aplikacji.</item>
+    </plurals>
+    <plurals name="delete_calendar_permissiondescription">
+        <item quantity="other">Nie zezwolono na usuwanie wydarzeń z kalendarza przez %d aplikacji.</item>
+        <item quantity="one">Nie zezwolono na usuwanie wydarzeń z kalendarza przez %d aplikację.</item>
+        <item quantity="few">Nie zezwolono na usuwanie wydarzeń z kalendarza przez %d aplikacje.</item>
+        <item quantity="many">Nie zezwolono na usuwanie wydarzeń z kalendarza przez %d aplikacji.</item>
+    </plurals>
+    <plurals name="permission_access_browser_records_permissiondescription">
+        <item quantity="other">Nie zezwolono na dostęp do historii przeglądarki przez %d aplikacji.</item>
+        <item quantity="one">Nie zezwolono na dostęp do historii przeglądarki przez %d aplikację.</item>
+        <item quantity="few">Nie zezwolono na dostęp do historii przeglądarki przez %d aplikacje.</item>
+        <item quantity="many">Nie zezwolono na dostęp do historii przeglądarki przez %d aplikacji.</item>
+    </plurals>
+    <plurals name="permission_call_forward_permissiondescription">
+        <item quantity="other">Nie zezwolono na przekazywanie połączeń przez %d aplikacji.</item>
+        <item quantity="one">Nie zezwolono na przekazywanie połączeń przez %d aplikację.</item>
+        <item quantity="few">Nie zezwolono na przekazywanie połączeń przez %d aplikacje.</item>
+        <item quantity="many">Nie zezwolono na przekazywanie połączeń przez %d aplikacji.</item>
+    </plurals>
+    <plurals name="ad_blocked_num">
+        <item quantity="other">Zablokowano reklamy w %1$d aplikacjach</item>
+        <item quantity="one">Zablokowano reklamy w %1$d aplikacji</item>
+        <item quantity="few">Zablokowano reklamy w %1$d aplikacjach</item>
+        <item quantity="many">Zablokowano reklamy w %1$d aplikacjach</item>
+    </plurals>
+    <plurals name="power_optimize_manual_items_text">
+        <item quantity="other">%1$d elementu wymaga ręcznej optymalizacji</item>
+        <item quantity="one">%1$d element wymaga ręcznej optymalizacji</item>
+        <item quantity="few">%1$d elementy wymagają ręcznej optymalizacji</item>
+        <item quantity="many">%1$d elementów wymaga ręcznej optymalizacji</item>
+    </plurals>
+    <plurals name="power_wholecheck_close_bgApps">
+        <item quantity="other">Zamknięto %1$d aplikacji energochłonnej działającej w tle</item>
+        <item quantity="one">Zamknięto %1$d aplikację energochłonną działającą w tle</item>
+        <item quantity="few">Zamknięto %1$d aplikacje energochłonne działające w tle</item>
+        <item quantity="many">Zamknięto %1$d aplikacji energochłonnych działających w tle</item>
+    </plurals>
+    <plurals name="power_optimize_app_item_num">
+        <item quantity="other">%1$d elementu</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elementy</item>
+        <item quantity="many">%1$d elementów</item>
+    </plurals>
+    <plurals name="power_optimize_others_item_num">
+        <item quantity="other">%1$d elementu</item>
+        <item quantity="one">%1$d element</item>
+        <item quantity="few">%1$d elementy</item>
+        <item quantity="many">%1$d elementów</item>
+    </plurals>
+    <plurals name="power_optimize_protectApp_optimized">
+        <item quantity="other">%1$d aplikacji jest uruchomionych, gdy ekran jest wyłączony. Zamknij je, aby zmniejszyć zużycie energii</item>
+        <item quantity="one">%1$d aplikacja jest uruchomiona, gdy ekran jest wyłączony. Zamknij ją, aby zmniejszyć zużycie energii</item>
+        <item quantity="few">%1$d aplikacje są uruchomione, gdy ekran jest wyłączony. Zamknij je, aby zmniejszyć zużycie energii</item>
+        <item quantity="many">%1$d aplikacji jest uruchomionych, gdy ekran jest wyłączony. Zamknij je, aby zmniejszyć zużycie energii</item>
+    </plurals>
+    <plurals name="ad_dl_block_entity_message">
+        <item quantity="other">Zablokowano pobieranie %1$s aplikacji stwarzającej zagrożenie</item>
+        <item quantity="one">Zablokowano pobieranie %1$s aplikacji stwarzającej zagrożenie</item>
+        <item quantity="few">Zablokowano pobieranie %1$s aplikacji stwarzającej zagrożenie</item>
+        <item quantity="many">Zablokowano pobieranie %1$s aplikacji stwarzającej zagrożenie</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title">
+        <item quantity="other">%1$d niefabrycznej apl. Odinstaluj.</item>
+        <item quantity="one">%1$d niefabryczna apl. Odinstaluj.</item>
+        <item quantity="few">%1$d niefabryczne apl. Odinstaluj.</item>
+        <item quantity="many">%1$d niefabrycznych apl. Odinstaluj.</item>
+    </plurals>
+    <plurals name="anti_malware_notification_title_few">
+        <item quantity="other">Znaleziono %2$s aplikacji niezainstalowanych fabrycznie (np. %1$s). Odinstaluj.</item>
+        <item quantity="one">Znaleziono %2$s aplikację niezainstalowaną fabrycznie (np. %1$s). Odinstaluj.</item>
+        <item quantity="few">Znaleziono %2$s aplikacje niezainstalowane fabrycznie (np. %1$s). Odinstaluj.</item>
+        <item quantity="many">Znaleziono %2$s aplikacji niezainstalowanych fabrycznie (np. %1$s). Odinstaluj.</item>
+    </plurals>
+    <plurals name="toast_stop_app_Toast">
+        <item quantity="other">Pomyślnie zamknięto %d aplikacji.</item>
+        <item quantity="one">Pomyślnie zamknięto %d aplikację.</item>
+        <item quantity="few">Pomyślnie zamknięto %d aplikacji.</item>
+        <item quantity="many">Pomyślnie zamknięto %d aplikacji.</item>
+    </plurals>
+</resources>

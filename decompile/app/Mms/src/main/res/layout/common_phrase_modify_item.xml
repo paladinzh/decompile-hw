@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:paddingStart="16dp" androidhwext:paddingEnd="16dp">
+    <ScrollView androidhwext:layout_width="match_parent" androidhwext:layout_height="UNKNOWN_DATA_0x1" androidhwext:layout_weight="1.0">
+        <CounterTextLayout androidhwext:id="@+id/common_modify_counter_error" androidhwext:layout_width="match_parent" androidhwext:layout_height="wrap_content" androidhwext:shape_mode="0">
+            <com.huawei.mms.ui.EditTextWithSmiley android:textSize="15sp" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/common_modify" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:drawablePadding="5dp" android:lineSpacingMultiplier="1.1" />
+        </CounterTextLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/eyes_protection_settings_title" android:key="eye_comfort_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_text" android:selectable="false" android:key="eye_comfort_help" android:summary="@string/eyes_protection_effect_description" />
+    <com.android.settings.CustomSwitchPreference android:title="@string/eyes_protection_settings_title" android:key="eyes_protection_mode" />
+    <PreferenceCategory android:layout="@layout/preference_category_no_label" android:key="auto_rules">
+        <com.android.settings.CustomSwitchPreference android:title="@string/eyes_protection_schedule" android:key="eye_comfort_schedule_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/color_temperature_title" android:key="eye_comfort_color">
+        <com.android.settings.EyeComfortSeekBarPreference android:key="eyecomfort_seekbar_preference" />
+    </PreferenceCategory>
+</PreferenceScreen>

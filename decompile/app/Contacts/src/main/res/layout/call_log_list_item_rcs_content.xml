@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/rcs_pre_call" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/call_log_divider_margin_start">
+    <ImageView android:id="@+id/rcs_call_importance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rcs_call_log_important" android:scaleType="center" />
+    <TextView android:textSize="@dimen/contact_calllog_item_duration_font" android:textColor="@color/favorites_tile_name_text_pressed_color" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/rcs_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rcs_no_subject" android:singleLine="true" />
+</LinearLayout>

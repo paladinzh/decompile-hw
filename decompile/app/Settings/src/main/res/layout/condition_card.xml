@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/collapsed_group" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height">
+            <ImageView android:id="@android:id/icon" android:layout_width="@dimen/dashboard_tile_image_size" android:layout_height="@dimen/dashboard_tile_image_size" android:layout_marginStart="@dimen/dashboard_tile_image_margin_start" android:layout_marginEnd="@dimen/dashboard_tile_image_margin_end" />
+            <LinearLayout android:orientation="vertical" android:id="@id/text_group" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/expand_indicator" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_margin_end" android:paddingEnd="@dimen/preference_item_padding_end" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/detail_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:paddingStart="@dimen/preference_divider_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:id="@android:id/summary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/preference_item_padding_bottom" style="@style/EmuiSecondaryTextFontStyle" />
+            <View android:background="@color/preference_divider_grey" android:layout_width="fill_parent" android:layout_height="@dimen/preference_divider_height" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/buttonBar" android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height">
+                <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/color_yalan" android:layout_gravity="center_vertical" android:id="@id/first_action" android:focusable="true" android:clickable="true" android:textAllCaps="true" style="@style/EmuiPrimaryTextFontStyle" />
+                <TextView android:textSize="@dimen/preference_item_title_size" android:textColor="@color/color_yalan" android:layout_gravity="center_vertical" android:id="@id/second_action" android:focusable="true" android:clickable="true" android:textAllCaps="true" android:layout_marginStart="12.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

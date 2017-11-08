@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+    <ImageButton android:id="@+id/encrypted_sms_switch" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/encrypted_sms_switch_hints" />
+    <TextView android:textSize="14sp" android:textColor="@color/text_color" android:id="@+id/encrypted_sms_switch_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/encrypted_sms_switch_off" android:layout_toRightOf="@+id/encrypted_sms_switch" android:layout_centerVertical="true" android:contentDescription="@string/encrypted_sms_switch_hints" />
+    <ImageView android:id="@+id/switch_tips_splite_line" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/global_scan_layout" layout="@layout/virus_global_scan_item" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/antivirus_scan_item_status_img_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true">
+        <ImageView android:id="@+id/antivirus_scan_item_status_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:contentDescription="0x0" />
+        <ImageView android:id="@+id/antivirus_check_item_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_public_arrow" android:contentDescription="0x0" />
+        <Button android:textSize="11dp" android:id="@+id/antivirus_check_item_info_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_check_btn" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toStartOf="@+id/antivirus_scan_item_status_img_layout"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingTop="9dp" android:paddingBottom="9dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:minHeight="46dp" android:layout_weight="1.0" android:layout_marginStart="16dp" android:layout_marginEnd="8dp">
+            <TextView android:textSize="15sp" android:textColor="?unknown_attr_ref: 1010036" android:ellipsize="end" android:id="@+id/antivirus_scan_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/antivirus_scan_item_name_detail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/antivirus_scan_item_info" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

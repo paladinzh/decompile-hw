@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/btn_container" layout="@layout/spaceclean_main_common_btn_layout" />
+    <RelativeLayout android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/btn_container">
+        <ExpandableListView android:id="@+id/trash_expande_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:groupIndicator="0x0" />
+        <ListView android:id="@+id/spaceclean_normal_cleanned_list_view" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="0x106000d" />
+    </RelativeLayout>
+    <ScrollView android:id="@+id/scroll_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/btn_container">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout android:id="@+id/head_view_container" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:heightString="3:2">
+                <ImageView android:id="@+id/good_condition" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@drawable/img_good_condition" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="15dp" android:textColor="@color/emui_list_primary_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/info1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/good_condition" />
+                <TextView android:textSize="13dp" android:textColor="@color/emui_list_secondray_text" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/info2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_below="@+id/info1" />
+            </com.huawei.systemmanager.spacecleanner.view.AdaptiveRelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/items_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/head_view_container">
+                <TextView android:paddingTop="10dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/space_clean_save_more" android:paddingStart="16dp" android:paddingEnd="16dp" style="?unknown_attr_ref: 1010208" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

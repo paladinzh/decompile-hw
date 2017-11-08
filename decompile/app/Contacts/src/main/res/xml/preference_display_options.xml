@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.android.contacts">
+    <Preference contacts:title="@string/menu_accounts" contacts:key="@string/menu_accounts" contacts:widgetLayout="@layout/preference_widget_arrow" contacts:preferenceID="@+id/prefs_accounts" />
+    <Preference contacts:layout="@layout/listdivider" contacts:key="@string/key_prefs_contacts_account_divider" contacts:preferenceID="@+id/prefs_contacts_account_divider" />
+    <PreferenceCategory contacts:title="@string/contact_yellowpage_title" contacts:key="yellowpage_category">
+        <com.android.contacts.preference.TwoSummaryPreference contacts:layout="@layout/preference_two_summay" contacts:title="@string/update_yp_title" contacts:key="yellowpage_update" contacts:widgetLayout="@layout/preference_widget_arrow" contacts:preferenceID="@+id/prefs_yellowpage_update" />
+        <Preference contacts:layout="@layout/listdivider" contacts:key="@string/key_prefs_contacts_yellowpage_update_divider" contacts:preferenceID="@+id/prefs_contacts_account_divider" />
+    </PreferenceCategory>
+    <PreferenceCategory contacts:title="@string/camcard_card" contacts:key="camcard_category">
+        <SwitchPreference contacts:persistent="false" contacts:title="@string/camcard_precise_title" contacts:key="key_prefs_ccnotify" contacts:defaultValue="false" contacts:preferenceID="@+id/prefs_accurate_identification" />
+        <Preference contacts:layout="@layout/listdivider" contacts:key="key_prefs_ccnotify_divider" contacts:preferenceID="@+id/prefs_accurate_identification_divider" />
+        <com.android.contacts.preference.TwoSummaryPreference contacts:layout="@layout/preference_two_summay" contacts:title="@string/update_cc_title" contacts:key="camcard_update" contacts:widgetLayout="@layout/preference_widget_arrow" contacts:preferenceID="@+id/prefs_camcard_update" />
+        <Preference contacts:layout="@layout/listdivider" contacts:key="camcard_update_divider" contacts:preferenceID="@+id/prefs_camcard_update_divider" />
+        <Preference contacts:title="@string/lang_recognize" contacts:key="camcard_settings" contacts:widgetLayout="@layout/preference_widget_arrow" contacts:preferenceID="@+id/prefs_support_language" />
+        <Preference contacts:layout="@layout/listdivider" contacts:preferenceID="@+id/prefs_support_language_divider" />
+        <Preference contacts:title="@string/camcard_about" contacts:key="camcard_about" contacts:widgetLayout="@layout/preference_widget_arrow" contacts:preferenceID="@+id/prefs_camcard_about" />
+        <Preference contacts:layout="@layout/listdivider" contacts:key="camcard_about_divider" contacts:preferenceID="@+id/prefs_camcard_about_divider" />
+    </PreferenceCategory>
+    <PreferenceCategory contacts:title="@string/preference_displayOptions" contacts:key="key_display_options_category">
+        <com.android.contacts.preference.SortOrderPreference contacts:title="@string/display_options_sort_list_by" contacts:key="sortOrder" contacts:dialogTitle="@string/display_options_sort_list_by" contacts:preferenceID="@+id/prefs_sort_order" />
+        <Preference contacts:layout="@layout/listdivider" contacts:preferenceID="@+id/prefs_sort_order_divider" />
+        <com.android.contacts.preference.DisplayOrderPreference contacts:title="@string/display_options_view_names_as" contacts:key="displayOrder" contacts:dialogTitle="@string/display_options_view_names_as" contacts:preferenceID="@+id/prefs_display_order" />
+        <Preference contacts:layout="@layout/listdivider" contacts:preferenceID="@+id/prefs_display_order_divider" />
+    </PreferenceCategory>
+</PreferenceScreen>

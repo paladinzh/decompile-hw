@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent">
+    <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui1" />
+    <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_intelligent_call_blocking" androidhwext:key="harass_call_block_intell" androidhwext:preferenceID="@+id/prefs_call_block_intell" />
+    <PreferenceCategory androidhwext:title="@string/harassment_call_block_type">
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_harassing_calls" androidhwext:key="harass_call_harass_switch" androidhwext:preferenceID="@+id/prefs_harass_call_harass_switch" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_preference_split_line_emui" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_scam_calls" androidhwext:key="harass_call_scam_swith" androidhwext:preferenceID="@+id/prefs_harass_call_scam_switch" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui2" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_advertising_calls" androidhwext:key="harass_call_adver_switch" androidhwext:preferenceID="@+id/prefs_harass_call_adver_switch" />
+        <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui3" />
+        <SwitchPreference androidhwext:persistent="false" androidhwext:title="@string/harassment_real_estate_calls" androidhwext:key="harass_call_estate_switch" androidhwext:preferenceID="@+id/prefs_harass_call_estate_switch" />
+    </PreferenceCategory>
+    <PreferenceDivider androidhwext:dividerHeight="24dp" />
+    <TextArrowPreference androidhwext:title="@string/harassment_blocking_threshold" androidhwext:key="harassment_block_threshold" androidhwext:preferenceID="@+id/prefs_harassment_block_threshold" />
+    <Preference androidhwext:layout="@layout/preference_split_line_emui" androidhwext:preferenceID="@+id/prefs_split_line_emui4" />
+</PreferenceScreen>

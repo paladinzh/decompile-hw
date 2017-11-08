@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.android.contacts" ex:layout_width="match_parent" ex:layout_height="wrap_content" ex:layout_marginTop="@dimen/detail_update_section_between_items_padding">
+    <view ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="wrap_content" ex:layout_weight="1.0" ex:layout_marginEnd="@dimen/detail_update_section_between_items_padding" ex:direction="right_to_left" ex:ratio="1.0" class="com.android.contacts.widget.ProportionalLayout">
+        <include ex:id="@+id/stream_item_first_image" ex:layout_width="match_parent" ex:layout_height="match_parent" layout="@layout/stream_item_photo" />
+    </view>
+    <view ex:id="@+id/second_image_container" ex:layout_width="UNKNOWN_DATA_0x1" ex:layout_height="wrap_content" ex:layout_weight="1.0" ex:direction="right_to_left" ex:ratio="1.0" class="com.android.contacts.widget.ProportionalLayout">
+        <include ex:id="@+id/stream_item_second_image" ex:layout_width="match_parent" ex:layout_height="match_parent" layout="@layout/stream_item_photo" />
+    </view>
+</LinearLayout>

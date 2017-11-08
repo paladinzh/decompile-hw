@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/about_settings" android:key="info_screen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:layout="@layout/preference_status" android:title="@string/model_number" android:key="device_model" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/build_number" android:key="build_number" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/hardware_number" android:key="hardware_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/PRL_number" android:key="PRL_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/UIMID" android:key="uim_id" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/status_meid_number" android:key="meid" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/sid_number" android:key="sid" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/nid_number" android:key="nid" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/status_imei" android:key="imei" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/status_imei2" android:key="imei_1" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/MSPL_number" android:key="MSPL_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/MLPL_number" android:key="MLPL_version" android:summary="@string/device_info_default" />
+    <Preference android:layout="@layout/preference_status" android:title="@string/ICCID_number" android:key="ICCID_number" android:summary="@string/device_info_default" />
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/accessibility_settings_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.deviceinfo.RadioPreference android:persistent="false" android:title="@string/normal_mode" android:key="normal_mode" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:persistent="false" android:title="@string/single_hand_smart_title" android:key="smart_mode" android:summary="@string/accessibility_smart_summary" android:widgetLayout="@layout/radioview" />
+    <com.android.settings.deviceinfo.RadioPreference android:persistent="false" android:title="@string/close" android:key="close_mode" android:widgetLayout="@layout/radioview" />
+</PreferenceScreen>

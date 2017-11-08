@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/preview_seek_bar_outline" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.ViewPager android:id="@id/preview_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:contentDescription="@string/preview_pager_content_description" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Widget.ActionBar.Title" android:textColor="@color/seek_bar_preference_preview_text" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="8.0dip" android:importantForAccessibility="no" android:paddingStart="32.0dip" />
+</LinearLayout>

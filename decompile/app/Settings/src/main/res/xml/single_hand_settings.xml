@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.ImageViewPreference android:key="single_hand_tutorial" android:summary="@string/single_hand_keyboard_summary_ex" settings:drawable="@drawable/single_hand_keyboard_animation" />
+    <SwitchPreference android:persistent="false" android:title="@string/single_hand_keyboard_title" android:key="single_hand_switch" />
+</PreferenceScreen>

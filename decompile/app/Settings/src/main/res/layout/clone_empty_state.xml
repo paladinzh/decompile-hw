@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/clone_empty_state" android:paddingTop="@dimen/empty_status_layout_margintop" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/clone_empty_icon" android:layout_width="@dimen/empty_state_empty_icon_size_width" android:layout_height="@dimen/empty_state_empty_icon_size_height" android:src="@drawable/ic_app_emptypage" android:contentDescription="@null" />
+    <TextView android:focusable="true" android:layout_marginTop="1.0dip" android:text="@string/twinapp_open_tips_1" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/EmuiEmptyTextFontStyle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_connected_to_cmcc_warning" />
+    <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/wifi_connected_to_cmcc_never_notify" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_connected_to_cmcc_never_notify" />
+</LinearLayout>

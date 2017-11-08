@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:key="pref_key_detail_root">
+    <PreferenceCategory android:title="@string/group_members" android:key="groupchat_detail_groupmember_setting">
+        <com.android.mms.ui.GroupMemberPrefrence android:key="pref_key_groupmember" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/group_settings" android:key="pref_key_group_settings">
+        <Preference android:layout="@layout/group_detail_preference_status" android:title="@string/pref_groupchat_rename_title" android:key="pref_key_update_group_title" android:widgetLayout="@layout/mms_preference_widget_arrow" />
+        <com.android.mms.ui.EmuiSwitchPreference android:title="@string/groupchat_notify_silent" android:key="pref_key_notify_silent" android:defaultValue="false" />
+        <com.android.mms.ui.GroupExitPreference android:key="pref_key_exit_group" />
+    </PreferenceCategory>
+</PreferenceScreen>

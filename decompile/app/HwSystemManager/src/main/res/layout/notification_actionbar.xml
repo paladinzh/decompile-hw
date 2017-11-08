@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@+id/bar_container" android:background="@drawable/actionbar_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/bar_back_container" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x10102eb">
+        <ImageView android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_quit" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/bar_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x10102eb" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" style="@style/emui_title" />
+</LinearLayout>

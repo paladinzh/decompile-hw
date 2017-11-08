@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/rule_types" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkedButton="@id/rule_type_schedule">
+        <RadioButton android:textSize="13.0sp" android:id="@id/rule_type_schedule" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_time_rule" />
+        <RadioButton android:textSize="13.0sp" android:id="@id/rule_type_event" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/zen_mode_event_rule" />
+    </RadioGroup>
+</LinearLayout>

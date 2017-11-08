@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">WLAN सहायता द्वारा कनेक्ट किया गया</string>
+    <string name="accessibility_wifi_off">WLAN बंद.</string>
+    <string name="accessibility_no_wifi">WLAN डिस्कनेक्ट है.</string>
+    <string name="accessibility_wifi_one_bar">WLAN का एक बार.</string>
+    <string name="accessibility_wifi_two_bars">WLAN के दो बार.</string>
+    <string name="accessibility_wifi_three_bars">WLAN के तीन बार.</string>
+    <string name="accessibility_wifi_signal_full">पूर्ण WLAN सि‍ग्‍नल.</string>
+    <string name="wifi_verbose_logging">WLAN शब्दबहुल लॉगिंग सक्षम करें</string>
+    <string name="wifi_aggressive_handover">सेल्युलर हैंडओवर पर एग्रेसिव WLAN</string>
+    <string name="wifi_allow_scan_with_traffic">हमेशा WLAN रोमिंग स्कैन की अनुमति दें</string>
+    <string name="wifi_verbose_logging_summary">WLAN लॉगिंग स्तर बढ़ाएँ और WLAN पिकर में प्रति SSID RSSI दिखाएँ</string>
+    <string name="wifi_aggressive_handover_summary">सक्षम होने की स्थिति में, WLAN सिग्नल कम होने पर, WLAN सेल्युलर को डेटा कनेक्शन सौंपने में अधिक एग्रेसिव होगा</string>
+    <string name="wifi_allow_scan_with_traffic_summary">इंटरफ़ेस पर प्रस्तुत डेटा ट्रैफ़िक के आधार पर WLAN रोमिंग स्कैन अनुमत करें/प्रतिबंधित करें</string>
+    <string name="mobile_data_always_on_summary">मोबाइल डेटा को हमेशा सक्रिय रखें, WLAN के सक्रिय होने पर भी (तेज नेटवर्क स्विचिंग के लिए)</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, हवाई जहाज मोड, मोबाइल नेटवर्क और VPN प्रबंधित करें</string>
+    <string name="wifi_assistant_title">वाई-फ़ाई सहायक</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN चालू करें</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN सेटिंग</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN का चयन करें</string>
+    <string name="wifi_select_network">WLAN नेटवर्क चुनें</string>
+    <string name="wifi_starting">WLAN चालू कर रहे हैं…</string>
+    <string name="wifi_stopping">WLAN बंद कर रहा है…</string>
+    <string name="wifi_poor_network_detection_summary">जब तक अच्छा इंटरनेट कनेक्‍शन न हो, तब तक WLAN नेटवर्क का उपयोग न करें</string>
+    <string name="wifi_automatically_connect_title">स्वत: उपयोग WLAN खोलता है</string>
+    <string name="wifi_automatically_connect_summary">बेहतर इंटरनेट कनेक्शन वाले नेटवर्क खोलने के लिए WLAN सहायता को स्वत: कनेक्ट होने दें</string>
+    <string name="wifi_scan_notify_text">स्थान सटीकता में सुधार करने के लिए, सिस्टम ऐप्स और सेवाएँ अभी भी WLAN नेटवर्क के लिए स्कैन कर सकती हैं। आप इसे LINK_BEGINस्कैनिंग सेटिंग्सLINK_END में बदल सकते हैं।</string>
+    <string name="wifi_setting_sleep_policy_title">निष्क्रिय होने के दौरान WLAN चालू रखें</string>
+    <string name="wifi_suspend_optimizations">WLAN ऑप्टिमाइज़ेशन</string>
+    <string name="wifi_suspend_optimizations_summary">WLAN के चालू रहने पर बैटरी उपयोग को न्यूनतम करें</string>
+    <string name="wifi_access_points">WLAN नेटवर्क</string>
+    <string name="wifi_menu_p2p">WLAN डायरेक्ट</string>
+    <string name="wifi_empty_list_wifi_off">उपलब्‍ध नेटवर्क देखने के लिए, WLAN को चालू करें.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN नेटवर्क खोज रहा है…</string>
+    <string name="wifi_empty_list_user_restricted">आपको WLAN नेटवर्क बदलने की अनुमति नहीं है।</string>
+    <string name="wifi_wps_setup_title">WLAN सुरक्षित सेटअप</string>
+    <string name="wifi_wps_onstart_pbc">अपने रूटर पर WLAN सुरक्षित सेटअप बटन दबाएं. इसे \"WPS\" कहा जा सकता है या इसमें यह चिह्न हो सकता है:</string>
+    <string name="wifi_wps_onstart_pin">अपने WLAN राउटर पर पिन %1$s दर्ज करें. सेटअप पूर्ण होने में दो मिनट तक लग सकते हैं.</string>
+    <string name="wifi_wps_connected">WLAN नेटवर्क %s से कनेक्‍ट किया गया</string>
+    <string name="wifi_scan_always_turnon_message">"स्थान सटीकता बेहतर बनाने और अन्य उद्देश्यों के लिए, WLAN के बंद होने पर भी %1$s नेटवर्क स्कैनिंग चालू करना चाहता है।
+
+स्कैन किए जाने वाले सभी ऐप्स के लिए इसकी अनुमति दें?"</string>
+    <string name="wifi_skipped_message">"चेतावनी: आपको अतिरिक्त वाहक डेटा शुल्क लग सकते हैं.
+
+फ़ोन सेटअप के लिए महत्वपूर्ण नेटवर्क गतिविधि की आवश्यकता हो सकती है."</string>
+    <string name="wifi_and_mobile_skipped_message">चेतावनी: फ़ोन यह सत्यापित नहीं कर सकेगा कि आपका सॉफ़्टवेयर अद्यतित है.</string>
+    <string name="wifi_connect_failed_message">फ़ोन इस WLAN नेटवर्क से कनेक्ट नहीं कर सका.</string>
+    <string name="wifi_advanced_titlebar">उन्नत WLAN सेटिंग्स</string>
+    <string name="wifi_configure_titlebar">वाई-फ़ाई कॉन्‍फ़िगर करें</string>
+    <string name="wifi_advanced_not_available">वाई-फ़ाई की उन्नत सेटिंग इस उपयोगकर्ता के लिए उपलब्ध नहीं हैं</string>
+    <string name="wifi_p2p_settings_title">WLAN डायरेक्ट</string>
+    <string name="wifi_tether_checkbox_text">पोर्टेबल WLAN हॉट स्‍पॉट</string>
+    <string name="wifi_tether_failed_subtext">पोर्टेबल WLAN हॉटस्‍पॉट त्रुटि</string>
+    <string name="wifi_tether_configure_ap_text">WLAN हॉटस्‍पॉट कॉन्‍फ़िगर करें</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s पोर्टेबल WLAN हॉट स्‍पॉट</string>
+    <string name="wifi_calling_settings_title">WLAN कॉलिंग सेटिंग्स</string>
+    <string name="wifi_calling_suggestion_title">वाई-फ़ाई कॉलिंग चालू करें</string>
+    <string name="wifi_calling_suggestion_summary">मोबाइल नेटवर्क के बजाय वाई-फ़ाई का उपयोग करें</string>
+    <string name="wifi_calling_mode_title">WLAN कॉलिंग</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN कॉलिंग मोड</string>
+    <string name="wifi_calling_off_explanation">वाई-फ़ाई कॉलिंग चालू होने पर, आपका फ़ोन आपकी प्राथमिकता और अधिक सशक्त सिग्‍नल के आधार पर वाई-फ़ाई नेटवर्क या आपके वाहक के नेटवर्क के द्वारा कॉल को रूट कर सकता है. इस सुविधा को चालू करने से पहले, शुल्‍क और अन्‍य विवरणों के बारे में अपने वाहक से बात करें.</string>
+    <string name="status_wifi_mac_address">WLAN MAC पता</string>
+    <string name="reset_network_desc">"यह 
+
+"<li>WLAN</li>"
+"<li>मोबाइल डेटा</li>"
+"<li>ब्लूटूथ</li> सहित नेटवर्क सेटिंग्स रिसेट करेगा</string>
+    <string name="network_scorer_change_active_dialog_title">वाई-फ़ाई सहायक बदलें?</string>
+    <string name="location_mode_high_accuracy_description">"स्थान का अनुमान लगाने के लिए GPS,  WLAN और मोबाइल नेटवर्क का उपयोग करें "</string>
+    <string name="location_mode_battery_saving_description">"स्थान का अनुमान लगाने के लिए  WLAN और मोबाइल नेटवर्क का उपयोग करें"</string>
+    <string name="location_scanning_wifi_always_scanning_title">वाई-फ़ाई स्‍कैन करना</string>
+    <string name="location_scanning_wifi_always_scanning_description">सिस्टम ऐप्स और सेवाओं को किसी भी समय WLAN नेटवर्क की पहचान करने की अनुमति प्रदान कर स्थान में सुधार करें</string>
+    <string name="location_network_based">WLAN, मोबा. नेटवर्क स्थल</string>
+    <string name="location_neighborhood_level">एप्लिकेशन को आपका अनुमानित स्‍थान निर्धारित करने के लिए WLAN और मोबाइल नेटवर्क जैसे स्रोतों के डेटा का उपयोग करने दें</string>
+    <string name="location_neighborhood_level_wifi">WLAN द्वारा निर्धारित स्‍थान</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN चालू होने से अब तक समय</string>
+    <string name="bluetooth_on_time">WLAN चालू होने से अब तक समय</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN चल रहा है</string>
+    <string name="usage_type_data_wifi_send">WLAN डेटा भेजा गया</string>
+    <string name="usage_type_data_wifi_recv">WLAN डेटा प्राप्त हुआ</string>
+    <string name="battery_action_wifi">WLAN सेटिंग</string>
+    <string name="battery_desc_wifi">WLAN द्वारा उपयोग की गई बैटरी</string>
+    <string name="battery_sugg_wifi">जब WLAN का उपयोग नहीं हो रहा हो या वह उपलब्‍ध नहीं हो, तो उसे बंद कर दें</string>
+    <string name="gadget_toggle_wifi">WLAN सेटिंग अपडेट कर रहा है</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">एप्‍लिकेशन डेटा, WLAN पासवर्ड और अन्‍य सेटिंग का Google सर्वर पर बैकअप लें</string>
+    <string name="backup_erase_dialog_message">अपने WLAN पासवर्ड, बुकमार्क, अन्य सेटिंग और एप्लिकेशन डेटा का बैक अप लेना रोकें, साथ ही Google सर्वर से सभी प्रतिलिपि मिटाएं?</string>
+    <string name="fullbackup_erase_dialog_message">डिवाइस के डेटा (जैसे कि WLAN पासवर्ड और कॉल इतिहास) और ऐप डेटा (जैसे कि सेटिंग्स और ऐप्स द्वारा संग्रहीत फ़ाइलों) का बैकअप लेना बंद करें और Google Drive पर सभी प्रतिलिपियाँ मिटाएँ?</string>
+    <string name="fullbackup_data_summary">"दूरस्थ रूप से अपने आप डिवाइस डेटा (जैसे वाई-फ़ाई पासवर्ड और कॉल इतिहास) और ऐप डेटा (जैसे ऐप्स द्वारा संग्रहीत सेटिंग और फ़ाइलों) का बैक अप लें.
+
+जब आप स्वचालित बैकअप चालू करते हैं, तो डिवाइस और ऐप डेटा को दूरस्थ रूप से समय-समय पर सहेजा जाता है. ऐप डेटा कोई भी ऐसा डेटा हो सकता है जिसे किसी ऐप द्वारा सहेजा गया है (डेवलपर सेटिंग के आधार पर), जिसमें संभावित रूप से संवेदनशील डेटा जैसे संपर्क, संदेश और फ़ोटो शामिल हैं."</string>
+    <string name="wifi_setup_title">WLAN सेटअप</string>
+    <string name="wifi_setup_title_editing_network">WLAN नेटवर्क %s से कनेक्‍ट करें</string>
+    <string name="wifi_setup_title_connecting_network">WLAN नेटवर्क %s से कनेक्‍ट कर रहा है...</string>
+    <string name="wifi_setup_eap_not_supported">आप सेटअप करते समय किसी EAP WLAN कनेक्‍शन को कॉन्‍िफ़गर नहीं कर सकते. सेटअप करने के बाद, आप उसे सेटिंग > वायरलेस और नेटवर्क में कॉन्फ़िगर कर सकते हैं.</string>
+    <string name="wifi_setup_description_connected">सेटअप जारी रखने के लिए <b>अगला</b>" टच करें।
+
+भिन्न WLAN नेटवर्क से कनेक्ट करने के लिए "<b>वापस</b> टच करें।</string>
+    <string name="data_usage_menu_show_wifi">WLAN उपयोग दिखाएं</string>
+    <string name="data_usage_menu_hide_wifi">वाई-फ़ाई छिपाएं</string>
+    <string name="data_usage_disable_wifi_limit">WLAN डेटा सीमा सेट करें</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">केवल मो. डेटा नेटवर्क पर पृष्ठभूमि डेटा अक्षम करें. मौजूद होने पर WLAN का उपयोग होगा.</string>
+    <string name="data_usage_app_restrict_dialog">"WLAN के उपलब्‍ध न होने पर यह सुविधा पृष्ठभूमि डेटा पर निर्भर एप्‍लिकेशन को कार्य करने से रोक सकती है.
+
+आपको एप्‍लिकेशन में उपलब्ध सेटिंग में अधिक उपयुक्त डेटा उपयोग नियंत्रण मिल सकते हैं."</string>
+    <string name="data_usage_restrict_background">यदि आप पृष्ठभूमि मोबाइल डेटा को प्रतिबंधित करते हैं, तो जब तक आप WLAN नेटवर्क से कनेक्ट नहीं होते, कुछ एप्लिकेशन और सेवाएं काम नहीं करेंगी.</string>
+    <string name="data_usage_restrict_background_multiuser">"यदि आप पृष्ठभूमि मोबाइल डेटा प्रतिबंधित करते हैं, तो कुछ एप्लिकेशन और सेवाएं तब तक कार्य नहीं करेंगी जब तक कि आप WLAN नेटवर्क से कनेक्ट नहीं होते.
+
+यह सेटिंग इस फ़ोन के सभी उपयोगकर्ताओं को प्रभावित करती है."</string>
+    <string name="data_usage_metered_body">उन WLAN नेटवर्क का चयन करें जो मोबाइल हॉटस्पॉट हैं. पृष्ठभूमि में होने पर एप्ल‍िकेशन को इन नेटवर्क का उपयोग करने के लिए प्रतिबंधित किया जा सकता है. बड़े डाउनलोड के लिए इन नेटवर्क के उपयोग से पहले एप्लिकेशन चेतावनी भी दे सकते हैं.</string>
+    <string name="data_usage_metered_wifi">WLAN नेटवर्क</string>
+    <string name="data_usage_metered_wifi_disabled">मोबाइल हॉटस्पॉट का चयन करने के लिए, WLAN चालू करें.</string>
+    <string name="user_add_user_message_long">"आप अतिरिक्त उपयोगकर्ता बनाकर इस उपकरण को अन्य लोगों से साझा कर सकते हैं. प्रत्येक उपयोगकर्ता के पास अपना स्वयं का स्थान होता है, जिसे वे अपने एप्लिकेशन, वॉलपेपर, और ऐसी ही अन्य चीज़ों के साथ कस्टमाइज़ कर सकते हैं. उपयोगकर्ता WLAN जैसी अन्य टेबलेट सेटिंग भी एडजस्ट कर सकते हैं जो सभी को प्रभावित करती है.
+
+आपके द्वारा नया उपयोगकर्ता बनाने के बाद, उस व्यक्ति को सेटअप प्रक्रिया से गुज़रना आवश्यक है.
+
+कोई भी उपयोगकर्ता अन्य सभी उपयोगकर्ताओं की ओर से अपडेट की गई एप्लिकेशन अनुमतियां स्वीकार कर सकता है."</string>
+    <string name="restriction_wifi_config_title">WLAN और मोबाइल डेटा</string>
+    <string name="restriction_wifi_config_summary">WLAN और मोबाइल नेटवर्क सेटिंग्स के संशोधन की अनुमति दें</string>
+    <string name="keywords_wifi">WLAN वाई-फ़ाई नेटवर्क कनेक्शन</string>
+    <string name="keywords_wifi_calling">WLAN WLAN कॉल कॉलिंग</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC टैग सेट अप करें</string>
+    <string name="condition_hotspot_summary">पोर्टेबल वाई-फ़ाई हॉटस्पॉट %1$s सक्रिय है, इस डिवाइस के लिए वाई-फ़ाई बंद है.</string>
+    <string name="condition_airplane_summary">वाई-फ़ाई, ब्लूटूथ और सेल्युलर नेटवर्क बंद हैं. आप फ़ोन कॉल नहीं कर सकते या इंटरनेट से कनेक्ट नहीं कर सकते.</string>
+    <string name="condition_cellular_summary">इंटरनेट केवल वाई-फ़ाई के द्वारा उपलब्ध है</string>
+    <string name="condition_bg_data_summary">बैकग्राउंड डेटा केवल वाई-फ़ाई के द्वारा उपलब्ध है. इससे वाई-फ़ाई के उपलब्ध नहीं रहने पर कुछ ऐप्स या सेवाएं प्रभावित हो सकती हैं.</string>
+    <string name="wifi">वाई-फ़ाई</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN ब्रिज़</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN ब्रिज़ सेटिंग्स</string>
+    <string name="wifi_tether_configure_bridge_text">WLAN ब्रिज़ कॉन्फ़िगर करें</string>
+    <string name="wifi_bridge_settings_summary">ब्रिज़ नाम, पासवर्ड आदि सेट करें</string>
+    <string name="wifi_bridge_use_help_title">सहायता</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN ब्रिज़ WLAN सिग्नल की प्रसारण सीमा और तीव्रता में अत्यधिक सुधार करता है। आपके डिवाइस द्वारा अन्य डिवाइसेस को आपके वर्तमान WLAN नेटवर्क से कनेक्ट किया जा सकता है।
+2. WLAN ब्रिज़ अधिकतम 4 डिवाइसेस से पहुँच का समर्थन करता है।
+3. WLAN ब्रिज़ WLAN हॉटस्पॉट और WLAN डायरेक्ट सुविधाओं के साथ कार्य नहीं करता है। यदि WLAN ब्रिज़ सक्षम है, तो कुछ एप्लिकेशन जो P2P सेवाओं का उपयोग करती हैं वे संभवत: उचित प्रकार से कार्य न करें।
+4. WLAN ब्रिज़ का उपयोग करने से आपकी बैटरी के पॉवर की खपत बहुत तीव्रता के साथ होती है।"</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN कनेक्शन की आवश्यकता है</string>
+    <string name="wifi_bridge_switch_wifi_summary">कनेक्ट किए हुए WLAN नेटवर्क का साझा करें</string>
+    <string name="wifi_setup_title_connected_network_Toast">WLAN नेटवर्क %s से कनेक्‍ट किया गया</string>
+    <string name="huawei_beam_explained">हुअवी बीम से आप अपनी डिवाइस और अन्य NFC-सक्षम डिवाइस के बीच चित्र, वीडियो, संपर्क और URL जैसी फ़ाइलें स्थानांरित कर सकते हैं। हुअवी बीम को दो डिवाइस एक साथ पास-पास रखकर (आम तौर से जोड़कर) और अपनी स्क्रीन पर टैप करके सक्रिय किया जाता है। कृपया नोट करें कि आपका ब्लूटूथ या WLAN फ़ाइल प्रसारण से पूर्व स्वचालित रूप से चालू हो सकता है।</string>
+    <string name="wifi_display_settings_summary">WLAN कनेक्शन पर अन्य प्रदर्शन पर अपनी फ़ोन स्क्रीन प्रदर्शित करें</string>
+    <string name="cell_switch_to_wifi_prompt">WLAN नेटवर्क %s उपलब्ध है। क्या आप डेटा सेवा को रोकना और WLAN नेटवर्क से कनेक्ट होना चाहते हैं?</string>
+    <string name="switch_to_wifi_manual_prompt">"WLAN सिग्नल प्राप्त हुआ, क्या आप WLAN नेटवर्क का उपयोग करना चाहते हैं? "</string>
+    <string name="switch_to_wifi_query_prompt">WLAN नेटवर्क %s उपलब्ध है। क्या आप WLAN नेटवर्क से कनेक्ट होना चाहते हैं?</string>
+    <string name="wifi_to_wifi_prompt">"वर्तमान कनेक्शन सिग्नल कमजोर हैं क्या आप किसी अन्य WLAN नेटवर्क का उपयोग करना चाहते हैं? "</string>
+    <string name="advanced_wifi_settings_title">उन्नत सेटिंग</string>
+    <string name="huawei_beam_front_explained">"हुअवी बीम से आप डिवाइस को एक दूसरे के क़रीब रखकर अन्य NFC डिवाइस से फ़ाइलें स्थानांरित कर सकते हैं। उदाहरण के लिए, आप बिना तार के चित्रों, वीडियो, संपर्क, URL, और अधिक को दो NFC-सक्षम डिवाइस के बीच स्थानांतरित कर सकते हैं। केवल:
+1. अपने डिवाइस के सामने के पैनल को दूसरे NFC डिवाइस के सहारे रखें, और टोन सुनने के बाद अपने डिवाइस को पिक अप करें।
+2. टोन सुनने के तीन सेकंड के भीतर अपना स्क्रीन टच करें।
+3. स्थानांतरण पूर्ण करने के लिए अपने डिवाइस के सामने के पैनल को पुनः अन्य NFC डिवाइस के सहारे रखें। कृपया नोट करें कि आपका ब्लूटूथ या WLAN फ़ाइल प्रसारण से पूर्व स्वचालित रूप से चालू हो सकता है।"</string>
+    <string name="wifiap_use_help_details">"1. आप अपने इंटरनेट पहुँच बिंदु के रूप में पोर्टेबल WLAN हॉटस्पॉट डिवाइस का उपयोग कर सकते हैं। WLAN के माध्यम से बाह्य उपकरणों को आपके डिवाइस से कनेक्ट किया जा सकता है और कनेक्ट किए हुए डिवाइस मोबाइल नेटवर्क के माध्यम से इंटरनेट तक पहुँच प्राप्त करेंगे।
+2. पोर्टेबल WLAN हॉटस्पॉट उपयोग करने के लिए आपको डेटा कनेक्शन के चालू होने की आवश्यकता होगी और इसमे कुछ डेटा ट्रैफ़िक की खपत होगी। 
+3. पोर्टेबल WLAN हॉटस्पॉट का उपयोग करने से आपके बैटरी का जीवन तेजी खत्म होगा।"</string>
+    <string name="wifiap_connect_help_details_open">"मैन्युअल कनेक्शन:
+1. लक्षित डिवाइस पर WLAN चालू करें, और हॉटस्पॉट %1$sढूँढ़ें।
+2. हॉटस्पॉट से कनेक्ट करें।"</string>
+    <string name="wifi_connected_to_cmcc_title">चाइना मोबाइल WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">आप चाइना मोबाइल WLAN नेटवर्क से कनेक्टेड हैं। इस नेटवर्क का उपयोग करने पर उचित WLAN उपयोग शुल्क लागू हो सकता है।</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">चाइना मोबाइल WLAN अनुस्मारक</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">जब मैं चाइना मोबाइल WLAN नेटवर्क से कनेक्ट हूँ तो मुझे अनुस्मारक दें</string>
+    <string name="wifi_cmcc_no_notification_summary">नेटवर्क स्विच करते समय (मोबाइल डेटा से WLAN और इसके विपरित या WLAN नेटवर्क के बीच) कोई भी अधिसूचना प्रदर्शित नहीं करता</string>
+    <string name="location_mode_high_accuracy_description_wifionly">स्थान का अनुमान लगाने के लिए GPS और WLAN का उपयोग करें</string>
+    <string name="location_mode_battery_saving_description_wifionly">स्थान का अनुमान लगाने के लिए WLAN का उपयोग करें</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">WLAN या मोबाइल डेटा कनेक्शन का समझदारी से चयन करें</string>
+    <string name="wifi_plus_description">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने के लिए आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा (WLAN डेटा उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित:
+1. सुचारू इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट करता है।"</string>
+    <string name="wifi_plus_settings_title">WLAN+ सेटिंग्स</string>
+    <string name="wifi_plus_intelligent_switch_description">बेहतर इंटरनेट अनुभव के लिए WLAN और मोबाइल डेटा नेटवर्क के बीच बुद्धिमत्ता से स्विच करें।</string>
+    <string name="wifi_plus_auto_turn_on_description">ज्ञात स्थान पर पहुँचने पर स्वचालित रूप से WLAN चालू करें।</string>
+    <string name="wifi_plus_global_description">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने के लिए आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा (WLAN डेटा उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित:
+1. सुचारू इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट करता है।"</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS, WLAN, और मोबाइल नेटवर्क का उपयोग करें</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN और मोबाइल नेटवर्क का उपयोग करें</string>
+    <string name="pgps_switch_summary">शीघ्र और अधिक सटीक स्थान सेवाएँ प्रदान करने के लिए GPS को निकटतम सेलुलर बेस स्टेशन और WLAN डेटा एकत्र करने की अनुमति दें</string>
+    <string name="find_no_wlan_ap">WLAN hotspot ढूँढने में असमर्थ</string>
+    <string name="cannot_connect_wlan">WLAN से कनेक्ट करने में असमर्थ</string>
+    <string name="cannot_login_internet_with_wlan">WLAN पर इंटरनेट पर पहुँच प्राप्त करने में असमर्थ</string>
+    <string name="wfd_connect_fail">WLAN डायरेक्ट कनेक्शन विफल हुआ</string>
+    <string name="find_no_wfd_device">WLAN डायरेक्ट डिवाइस ढूँढने में असमर्थ</string>
+    <string name="wfd_search_no_devices_causes">"कोई उपलब्ध डिवाइस नहीं पाया गया, यह हो सकता है कि:
+1. युग्मित डिवाइस खोज योग्य नहीं है।
+2. युग्मित डिवाइस तकनीकी समस्याओं का सामना कर रहा है। WLAN पुनरारंभ करने का प्रयास करें और WLAN डायरेक्ट पुन: खोलें।
+3. आपका स्वयं का डिवाइस तकनीकी समस्याओं का सामना कर रहा है। WLAN पुनरारंभ करने का प्रयास करें और WLAN डायरेक्ट पुन: खोलें।"</string>
+    <string name="wfd_connected_failed_causes">"कनेक्शन स्थापित नहीं किया जा सकता है। संभावित कारण:
+1. युग्मित डिवाइस ने कनेक्शन अनुरोध को स्वीकार नहीं किया।
+2. या तो डिवाइस ने पहले से ही किसी अन्य WLAN डायरेक्ट कनेक्शन की स्थापना की है।
+3. युग्मित डिवाइस तकनीकी समस्याओं का सामना कर रहा है। इसे पुनरारंभ करने का प्रयास करें।"</string>
+    <string name="wifi_qrcode_share_notice">इस WLAN नेटवर्क से कनेक्ट करने के लिए QR कोड स्कैन करें</string>
+    <string name="devices_not_found_solution_title">यदि डिवाइस को ढूँढ़ा नहीं जा सकता, तो निम्नलिखित का प्रयास करें:</string>
+    <string name="devices_not_found_solution_message">"1. सुनिश्चित करें कि डिवाइस अन्य डिवाइसेस को स्कैन कर रहा है।
+2. यदि सहभागी डिवाइस समस्याओं का सामना कर रहा है, तो WLAN को पुनरारंभ करें और WLAN Direct पर पुन: पहुँच प्राप्त करें।
+3. यदि आपका डिवाइस समस्याओं का सामना कर रहा है, तो WLAN को पुनरारंभ करें और WLAN Direct पर पुन: पहुँच प्राप्त करें।"</string>
+    <string name="devices_not_connected_solution_message">"1. सुनिश्चित करें कि सहभागी डिवाइस ने कनेक्शन अनुरोध स्वीकार किया है।
+2. सुनिश्चित करें दोनों डिवाइसेस को अन्य डिवाइस से कनेक्ट न किया गया हो।
+3. यदि सहभागी डिवाइस समस्याओं का अनुभव कर रहा है, तो उसे पुन: कनेक्ट करने का प्रयास करें।"</string>
+    <string name="wifi_plus_description_emui">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने हेतु आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा (WLAN डेटा के उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित:
+1. एक सहज इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है (आप मोबाइल नेटवर्क सेटिंग्स में डिफ़ॉल्ट स्विचिग मोड का चयन कर सकते हैं)।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट हो जाता है।"</string>
+    <string name="link_plus_live_update_description">Link+ लाइव अद्यतन के सक्षम होने पर, प्रासंगिक Link+ सुविधाओं में सुधार करने के लिए आपका फ़ोन स्वचालित रूप से आपके वायरलेस नेटवर्क (डिफ़ॉल्ट रूप से WLAN द्वारा) के माध्यम से संचार मापदंडों के डेटा का अद्यतन करता है।</string>
+    <string name="wifi_plus_description_emui2">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने के लिए आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा (WLAN डेटा उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित रूप से:
+1. एक सहज इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है (आप मोबाइल नेटवर्क सेटिंग्स में डिफ़ॉल्ट स्विचिग मोड का चयन कर सकते हैं)।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट हो जाता है।
+3. उपलब्ध WLAN नेटवर्क का मूल्यांकन करता है। इंटरनेट कनेक्शन के बिना डिवाइस सहेजे गए नेटवर्क से स्वत: कनेक्ट नहीं होगा।
+4. कुछ नि:शुल्क WLAN हॉटस्पॉट के लिए, आवक SMS संदेश से सत्यापन कोड प्राप्त करता है और ब्राउज़र के माध्यम से नेटवर्क में लॉग इन करता है (वर्तमान में केवल चीन में समर्थित)।"</string>
+    <string name="wifi_plus_global_description2">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने के लिए आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा (WLAN डेटा उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित रूप से:
+1. सुचारू इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट हो जाता है।
+3. उपलब्ध WLAN नेटवर्क का मूल्यांकन करता है। इंटरनेट कनेक्शन के बिना डिवाइस सहेजे गए नेटवर्क से स्वत: कनेक्ट नहीं होगा।"</string>
+    <string name="help_message">"1. आपका प्रिंटर और फ़ोन समान WLAN नेटवर्क से कनेक्ट नहीं हैं।
+2. आपका प्रिंटर इस विशिष्ट प्रिंटिंग सेवा का समर्थन नहीं करता है (निर्माता से पुष्टि करें)।
+3. खोज करने का समय समाप्त हुआ। यदि यह मामला है, तो पुन: प्रयास करें।
+4. आपका प्रिंटर क्रैश हो गया है। अपना प्रिंटर पुनरारंभ करें और पुन: प्रयास करें।"</string>
+    <string name="wifi_cloud_security_check_title">WLAN सुरक्षा जाँच</string>
+    <string name="wifi_cloud_security_check_summary">फ़ोन प्रबंधक द्वारा कनेक्ट किए हुए WLAN नेटवर्क का सुरक्षा स्तर जाँचें और सहेजे गए नेटवर्क जो सुरक्षा जोखिम उत्पन्न करते हैं उनसे स्वत: कनेक्ट होने को विराम दें</string>
+    <string name="wifi_plus_description_emui3">"WLAN+ के सक्षम होने पर, स्मार्ट नेटवर्क स्विचिंग प्रदान करने के लिए आपकी WLAN कनेक्टिविटी का मूल्यांकन किया जाएगा और यह WLAN द्वारा स्वचालित रूप से अनुकूलन मापदंडों का अद्यतन करेगा (WLAN डेटा उपयोग में वृद्धि हो सकती है)। WLAN+ स्वचालित रूप से:
+1. एक सहज इंटरनेट अनुभव प्रदान करने के लिए WLAN और मोबाइल डेटा के बीच स्विच करता है (आप मोबाइल नेटवर्क सेटिंग्स में डिफ़ॉल्ट स्विचिग मोड का चयन कर सकते हैं)।
+2. ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करता है और उससे कनेक्ट हो जाता है।
+3. उपलब्ध WLAN नेटवर्क का मूल्यांकन करता है। सहेजे गए नेटवर्क जिनके पास इंटरनेट पहुँच नहीं है, उनके लिए स्वत: कनेक्ट को विराम दिया गया है।
+4. कुछ नि:शुल्क WLAN हॉटस्पॉट के लिए, आवक SMS सत्यापन संदेश से सत्यापन कोड की पहचान करता है और उनपर पहुँच प्राप्त करता है और ब्राउज़र के माध्यम से स्वचालित रूप से नेटवर्क में लॉग इन करता है (वर्तमान में केवल चीन में समर्थित)।"</string>
+    <string name="user_add_user_message">"अतिरिक्त उपयोगकर्ता बनाकर आप अन्य लोगों के साथ इस डिवाइस का साझा कर सकते हैं। प्रत्येक उपयोगकर्ता का अपना स्वयं का स्थान होता है जिसे वे ऐप्स, वॉलपेपर आदि के साथ अनुकूलित कर सकते हैं। उपयोगकर्ता डिवाइस की सेटिंग्स जैसे कि WLAN, जो सभी को प्रभावित करती है, को भी समायोजित कर सकते हैं।
+
+आपके द्वारा नया उपयोगकर्ता जोड़े जाने पर, उस व्यक्ति को अपना स्थान सेट करने की आवश्यकता होती है।
+
+कोई भी उपयोगकर्ता सभी उपयोगकर्ताओं की ऐप्स का अद्यतन कर सकता है।"</string>
+    <string name="print_user_warning">आपके द्वारा प्रिंटिंग सेवा सक्षम किए जाने के बाद आपका डिवाइस WLAN कनेक्शन पर आस-पास के प्रिंटर्स की खोज करेगा, जिसके कारण WLAN ट्रैफ़िक उत्पन्न होगा।</string>
+    <string name="wifi_calling_settings_title_emui">WLAN कॉलिंग</string>
+    <string name="wifi_calling_dialog_title">WLAN कॉलिंग सक्षम करें</string>
+    <string name="wifi_calling_dialog_message">सक्षम होने पर, आप WLAN के माध्यम से आपातकालीन कॉल करने में सक्षम नहीं होंगे। सक्षम करें?</string>
+    <string name="device_name_settings_summary">आपके द्वारा ब्लूटूथ, WLAN डायरेक्ट, टीदरिंग और पोर्टेबल हॉटस्पॉट का उपयोग करने पर, अन्य डिवाइस यह नाम देखेंगे।</string>
+    <string name="device_name_settings_dialog">डिवाइस नाम संशोधित करने से वर्तमान WLAN हॉटस्पॉट कनेक्शन डिस्कनेक्ट हो जाएगा। इसे संशोधित करें?</string>
+    <string name="write_wifi_nfc_tag">WLAN NFC टैग को लिखें</string>
+    <string name="wifi_plus_smart_switch_title">WLAN और मोबाइल डेटा के बीच स्मार्ट स्विचिंग</string>
+    <string name="wifi_plus_smart_switch_summary">WLAN कनेक्टिविटी का मूल्यांकन करें और सर्वश्रेष्ठ नेटवर्क कनेक्शन का चयन करने के लिए WLAN (ट्रैफ़िक में वृद्धि हो सकती है) और मोबाइल डेटा के बीच स्विच करें। मोबाइल नेटवर्क सेटिंग्स में डिफ़ॉल्ट स्विच मोड सेट होता है</string>
+    <string name="wifi_plus_smart_switch_summary_global">WLAN कनेक्टिविटी का मूल्यांकन करें और सर्वश्रेष्ठ नेटवर्क कनेक्शन का चयन करने के लिए WLAN (ट्रैफ़िक में वृद्धि हो सकती है) और मोबाइल डेटा के बीच स्विच करें</string>
+    <string name="wifi_plus_auto_turn_title">स्वचालित रूप से WLAN को चालू/बंद करें</string>
+    <string name="wifi_plus_auto_turn_summary">ज्ञात WLAN नेटवर्क की सीमा में होने पर WLAN को चालू करें और उससे कनेक्ट करें</string>
+    <string name="wifi_plus_quality_evaluation_title">उपलब्ध WLAN नेटवर्क का मूल्यांकन करें</string>
+    <string name="wifi_plus_quality_evaluation_summary">उपलब्ध WLAN नेटवर्क का मूल्यांकन करें। सहेजे गए नेटवर्क जिनके पास इंटरनेट पहुँच नहीं है उनके लिए स्वत: कनेक्ट को विराम दिया गया</string>
+    <string name="wifi_plus_fast_connect_title">नि:शुल्क WLAN हॉटस्पॉट्स के लिए लॉग इन अनुभव अनुकूलित करें</string>
+    <string name="wifi_plus_fast_connect_summary">कुछ नि:शुल्क WLAN हॉटस्पॉट्स के लिए, आवक SMS सत्यापन संदेश से सत्यापन कोड की पहचान करें और उस पर पहुँच प्राप्त करें और स्वचालित रूप से ब्राउज़र द्वारा नेटवर्क में लॉग इन करें (वर्तमान में केवल मैनलैंड चाइना में समर्थित)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Link+ लाइव अद्यतन सक्षम होने पर, प्रासंगिक संचार सुविधाओं में सुधार करने के लिए आपका फ़ोन आपके वायरलेस नेटवर्क (डिफ़ॉल्ट रूप से WLAN) के माध्यम से संचार मापदंडों का स्वचालित रूप से अद्यतन करता है।</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>मोबाइल डेटा</li>"
+"<li>ब्लूटूथ</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>ब्लूटूथ</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS और WLAN का उपयोग करें</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN का उपयोग करें</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN ब्रिज़ WLAN सिग्नल की प्रसारण सीमा और तीव्रता में अत्यधिक सुधार करता है। आपके डिवाइस द्वारा आपके वर्तमान WLAN नेटवर्क से अन्य डिवाइस कनेक्ट हो सकते हैं।
+2. WLAN ब्रिज़ अधिकतम 4 डिवाइसेस से पहुँच का समर्थन करता है।
+3. WLAN ब्रिज़ WLAN हॉटस्पॉट और WLAN डायरेक्ट सुविधाओं के साथ कार्य नहीं करता है। यदि WLAN ब्रिज़ सक्षम है, तो कुछ ऐप्स जो P2P सेवाओं का उपयोग करती हैं वे संभवत: उचित प्रकार से कार्य न करें।
+4. WLAN ब्रिज़ का उपयोग करने से बैटरी पॉवर का उपभोग तेजी से होता है।
+5. यदि आपको यह सूचित करता हुआ कोई संदेश प्राप्त होता है कि किसी अन्य सेवा द्वारा WLAN संसाधनों का उपयोग किया जा रहा है, सेटिंग्स > WLAN > WLAN डायरेक्ट पर जाएँ और किसी भी कनेक्ट किए हुए डिवाइस को डिस्कनेक्ट करें। या सभी डिवाइसेस को स्वत: डिस्कनेक्ट करने के लिए आप WLAN बंद कर सकते हैं और उसे पुन: चालू कर सकते हैं।"</string>
+    <string name="wifi_qrcode_share_notice_new">इस WLAN नेटवर्क से कनेक्ट करने के लिए स्कैन करें</string>
+    <string name="location_help_scheme_body_one">"1. सुनिश्चित करें कि मेरे स्थान पर पहुँच प्राप्त करें सक्षम है।
+2. स्थान मोड में GPS, WLAN और मोबाइल नेटवर्क का उपयोग करें चुनें।
+3. WLAN हॉटस्पॉट से कनेक्ट करें या मोबाइल डेटा सक्षम करें।
+4. जाँचें कि आप जिस ऐप का उपयोग कर रहे हैं उसे फ़ोन प्रबंधक > अनुमति प्रबंधक > स्थान जानकारी पर पहुँच प्राप्त करें में स्थान अनुमति में पहुँच प्राप्त है।
+5. यदि आपने स्थान मोड को केवल GPS उपयोग करें के रूप में सेट किया है, तो कृपया सुनिश्चित करें कि आप खुले और अबाधित परिवेश में स्थान पहुँच का उपयोग कर रहे हैं जहाँ GPS सिग्नलों को सामान्य रूप से प्राप्त किया जा सकता है।
+6. यदि आप सार्वजनिक हॉटस्पॉट से कनेक्टेड हैं, तो WLAN को बंद कर और मोबाइल डेटा को सक्षम कर देखने का उपयोग कर देखें। इसके बाद स्थान पर पुन: पहुँच प्राप्त करने का प्रयास करें।"</string>
+    <string name="location_help_scheme_body_two">"1. और अधिक स्थान पहुँच के लिए स्थान मोड में GPS, WLAN और मोबाइल नेटवर्क का उपयोग करें का चयन करें।
+2. यदि आप अपने डिवाइस पर धाउ के केस का उपयोग कर अहे हैं, तो केस को निकालें या गैर-धात्विक केस का उपयोग करें और पुन: प्रयास करें।
+3. जाँचें कि आप जिस ऐप का उपयोग कर रहे हैं उसे फ़ोन प्रबंधक > अनुमति प्रबंधक > स्थान जानकारी पर पहुँच प्राप्त करें में स्थान अनुमति में पहुँच प्राप्त है।
+4. नेविगेशन वृहत्, अबाधित क्षेत्रों में बेहतर रूप से कार्य करती है। अपने फ़ोन को अपने वाहन की विंडशील्ड के निकट रखें, जैसे कि डैशबोर्ड या अन्य अबाधित क्षेत्र आपकी कार में हैं।"</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN ब्रिज़ WLAN सिग्नल की प्रसारण सीमा और तीव्रता में अत्यधिक सुधार करता है। आपके डिवाइस द्वारा आपके वर्तमान WLAN नेटवर्क से अन्य डिवाइस कनेक्ट हो सकते हैं।
+%2$d. WLAN ब्रिज़ अधिकतम %6$d डिवाइसेस से पहुँच का समर्थन करता है।
+%3$d. WLAN ब्रिज़ WLAN हॉटस्पॉट और WLAN डायरेक्ट सुविधाओं के साथ कार्य नहीं करता है। यदि WLAN ब्रिज़ सक्षम है, तो कुछ ऐप्स जो P2P सेवाओं का उपयोग करती हैं वे संभवत: उचित प्रकार से कार्य न करें।
+%4$d. WLAN ब्रिज़ का उपयोग करने से बैटरी पॉवर का उपभोग तेजी से होता है।
+%5$d. यदि आपको यह सूचित करता हुआ कोई संदेश प्राप्त होता है कि किसी अन्य सेवा द्वारा WLAN संसाधनों का उपयोग किया जा रहा है, सेटिंग्स > WLAN > WLAN डायरेक्ट पर जाएँ और किसी भी कनेक्ट किए हुए डिवाइस को डिस्कनेक्ट करें। या सभी डिवाइसेस को स्वत: डिस्कनेक्ट करने के लिए आप WLAN बंद कर सकते हैं और उसे पुन: चालू कर सकते हैं।"</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. आप अपने इंटरनेट पहुँच बिंदु के रूप में पोर्टेबल WLAN हॉटस्पॉट डिवाइस का उपयोग कर सकते हैं। WLAN के माध्यम से बाह्य उपकरणों को आपके डिवाइस से कनेक्ट किया जा सकता है और कनेक्ट किए हुए डिवाइस मोबाइल नेटवर्क के माध्यम से इंटरनेट तक पहुँच प्राप्त करेंगे।
+%2$d. पोर्टेबल WLAN हॉटस्पॉट उपयोग करने के लिए आपको डेटा कनेक्शन को सक्षम करने की आवश्यकता होगी और इसमें कुछ डेटा की खपत होगी।
+%3$d. पोर्टेबल WLAN हॉटस्पॉट का उपयोग करने से आपकी बैटरी तेजी से खत्म हो सकती है।"</string>
+    <string name="wifiap_connect_help_details_open_ex">"मैन्युअल कनेक्शन:
+%2$d. लक्ष्य डिवाइस पर WLAN सक्षम करें और हॉटस्पॉट %1$s ढूँढ़ें।
+%3$d. हॉटस्पॉट से कनेक्ट करें।"</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. सुनिश्चित करें कि मेरे स्थान पर पहुँच प्राप्त करें सक्षम है।
+%2$d. स्थान मोड में GPS, WLAN और मोबाइल नेटवर्क का उपयोग करें चुनें।
+%3$d. WLAN हॉटस्पॉट से कनेक्ट करें या मोबाइल डेटा सक्षम करें।
+%4$d. जाँचें कि आप जिस ऐप का उपयोग कर रहे हैं उसे फ़ोन प्रबंधक > अनुमति प्रबंधक > स्थान जानकारी पर पहुँच प्राप्त करें में स्थान अनुमति में पहुँच प्राप्त है।
+%5$d. यदि आपने स्थान मोड को केवल GPS उपयोग करें के रूप में सेट किया है, तो कृपया सुनिश्चित करें कि आप खुले और अबाधित परिवेश में स्थान पहुँच का उपयोग कर रहे हैं जहाँ GPS सिग्नलों को सामान्य रूप से प्राप्त किया जा सकता है।
+%6$d. यदि आप सार्वजनिक हॉटस्पॉट से कनेक्टेड हैं, तो WLAN को बंद कर और मोबाइल डेटा को सक्षम कर देखने का उपयोग कर देखें। इसके बाद स्थान पर पुन: पहुँच प्राप्त करने का प्रयास करें।"</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. और अधिक स्थान पहुँच के लिए स्थान मोड में GPS, WLAN और मोबाइल नेटवर्क का उपयोग करें का चयन करें।
+%2$d. यदि आप अपने डिवाइस पर धातु के केस का उपयोग कर रहे हैं, तो केस को निकालें या गैर-धात्विक केस का उपयोग करें और पुन: प्रयास करें।
+%3$d. जाँचें कि आप जिस ऐप का उपयोग कर रहे हैं उसे फ़ोन प्रबंधक > अनुमति प्रबंधक > स्थान जानकारी पर पहुँच प्राप्त करें में स्थान अनुमति में पहुँच प्राप्त है।
+%4$d. नेविगेशन वृहत्, अबाधित क्षेत्रों में बेहतर रूप से कार्य करती है। अपने फ़ोन को अपने वाहन की विंडशील्ड के निकट रखें, जैसे कि आपकी कार में डैशबोर्ड या अन्य अबाधित क्षेत्र।"</string>
+    <string name="turn_off_data_saver_message">पोर्टेबल हॉटस्पॉट का उपयोग करने के लिए डेटा सर्वर अक्षम करना आवश्यक है। अक्षम करें?</string>
+    <string name="first_wlan_hotspot_text">WLAN हॉटस्पॉट आपके नेटवर्क कनेक्शन को दूसरों के साथ साझा करने की अनुमति देता है, लेकिन बैटरी तेजी से समाप्त हो सकती है और डेटा उपयोग शुल्क में वृद्धि हो सकती है।</string>
+    <string name="hotspot_power_notification_title">WLAN हॉटस्पॉट को अक्षम किया गया</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN हॉटस्पॉट को अक्षम किया गया</string>
+    <string name="toast_entitle_wifi_need_close">WLAN चालू रहने पर इस सुविधा का उपयोग करने में अक्षम। पहले WLAN को बंद करें।</string>
+    <string name="wifi_activated_warning_Title">WLAN चालू किया गया</string>
+    <string name="wifi_turn_off_warning_message_wifiap">मोबाइल हॉटस्पॉट और WLAN को एक ही समय पर चालू नहीं किया जा सकता है। WLAN बंद करें?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN को अब बंद होना चाहिए। एक बार आपके फ़ोन का AT&amp;T के सर्वर से संचार होने पर यह स्वचालित रूप से दोबारा चालू हो जाएगा।</string>
+    <string name="broadcast_ssid_is_show_dialog">यदि आप नेटवर्क नाम (SSID) प्रसारित करें विकल्प बंद करते हैं, तो आपका फ़ोन अन्य डिवाइसों के लिए दृष्टिगोचर नहीं होगा और उपलब्ध WLAN नेटवर्क की सूची में नहीं दिखेगा। आपके नेटवर्क नाम को मैन्यूअल रूप से दर्ज करने पर अन्य डिवाइस आपके हॉटस्पॉट से कनेक्ट हो सकते हैं।</string>
+    <string name="enable">AT&amp;T WLAN पर स्वत: कनेक्शन स</string>
+    <string name="disable">AT&amp;T WLAN पर स्वत: कनेक्शन अक्षम हो गया है</string>
+    <string name="auto_connect_wifi_suggestion">स्वतः-कनेक्शन सेटिंग्स प्रभावी करने के लिए WLAN पुनरारंभ करें।</string>
+    <string name="wifi_network_detect_summary">WLAN हॉटस्पॉट से कनेक्ट करते समय इंटरनेट पहुँच क्षमता की जाँच करें</string>
+    <string name="wifi_disable_by_deivice_admin">डिवाइस व्यवस्थापक द्वारा WLAN को अक्षम किया गया है</string>
+    <string name="wifi_required_info_text">सेटअप पूर्ण करने के लिए, आपके टेबलेट को WLAN का उपयोग करना होगा. सेटअप के बाद, आप मोबाइल डेटा और WLAN के बीच स्विच कर सकते हैं.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN फ़्रीक्वेंसी बैंड</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s आपके डिवाइस को प्रबंधित करता है और इस WLAN नेटवर्क को संशोधित करने या हटाने की आपको अनुमति नहीं देता है। अधिक जानकारी के लिए, अपने व्यवस्थापक से संपर्क करें।</string>
+</resources>

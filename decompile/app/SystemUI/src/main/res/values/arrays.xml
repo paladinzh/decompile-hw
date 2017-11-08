@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connections</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connections</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Never check</item>
+        <item>Check for DRM content only</item>
+        <item>Always check</item>
+    </array>
+    <array name="hdcp_checking_values">
+        <item>never</item>
+        <item>drm-only</item>
+        <item>always</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Never use HDCP checking</item>
+        <item>Use HDCP checking for DRM content only</item>
+        <item>Always use HDCP checking</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Off</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Off</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+    </array>
+    <array name="select_logd_size_values">
+        <item>32768</item>
+        <item>65536</item>
+        <item>262144</item>
+        <item>1048576</item>
+        <item>4194304</item>
+        <item>16777216</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Off</item>
+        <item>64 MB per log buffer</item>
+        <item>256 KB per log buffer</item>
+        <item>1 MB per log buffer</item>
+        <item>4 MB per log buffer</item>
+        <item>16 MB per log buffer</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </array>
+    <array name="window_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </array>
+    <array name="transition_animation_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animation off</item>
+        <item>Animation scale .5x</item>
+        <item>Animation scale 1x</item>
+        <item>Animation scale 1.5x</item>
+        <item>Animation scale 2x</item>
+        <item>Animation scale 5x</item>
+        <item>Animation scale 10x</item>
+    </array>
+    <array name="animator_duration_scale_values">
+        <item>0</item>
+        <item>.5</item>
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>None</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (upscaled)</item>
+        <item>4K (upscaled, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </array>
+    <array name="overlay_display_devices_values">
+        <item></item>
+        <item>720x480/142</item>
+        <item>720x480/142,secure</item>
+        <item>1280x720/213</item>
+        <item>1280x720/213,secure</item>
+        <item>1920x1080/320</item>
+        <item>1920x1080/320,secure</item>
+        <item>3840x2160/320</item>
+        <item>3840x2160/320,secure</item>
+        <item>1920x1080/320|3840x2160/640</item>
+        <item>1920x1080/320|3840x2160/640,secure</item>
+        <item>1280x720/213;1920x1080/320</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>None</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Call stack on glGetError</item>
+    </array>
+    <array name="enable_opengl_traces_values">
+        <item>0</item>
+        <item>1</item>
+        <item>systrace</item>
+        <item>error</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Off</item>
+        <item>Draw non-rectangular clip region in blue</item>
+        <item>Highlight tested drawing commands in green</item>
+    </array>
+    <array name="show_non_rect_clip_values">
+        <item>hide</item>
+        <item>region</item>
+        <item>highlight</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Off</item>
+        <item>On screen as bars</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="track_frame_time_values">
+        <item>false</item>
+        <item>visual_bars</item>
+        <item>true</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Off</item>
+        <item>Show overdraw areas</item>
+        <item>Show areas for deuteranomaly</item>
+    </array>
+    <array name="debug_hw_overdraw_values">
+        <item>false</item>
+        <item>show</item>
+        <item>show_deuteranomaly</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standard limit</item>
+        <item>No background processes</item>
+        <item>At most 1 process</item>
+        <item>At most 2 processes</item>
+        <item>At most 3 processes</item>
+        <item>At most 4 processes</item>
+    </array>
+    <array name="app_process_limit_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Charging</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Audio source</item>
+        <item>MIDI</item>
+    </array>
+    <array name="usb_configuration_values">
+        <item>none</item>
+        <item>mtp</item>
+        <item>ptp</item>
+        <item>rndis</item>
+        <item>audio_source</item>
+        <item>midi</item>
+    </array>
+    <array name="simulate_color_space_entries">
+        <item>@string/daltonizer_mode_disabled</item>
+        <item>@string/daltonizer_mode_monochromacy</item>
+        <item>@string/daltonizer_mode_deuteranomaly</item>
+        <item>@string/daltonizer_mode_protanomaly</item>
+        <item>@string/daltonizer_mode_tritanomaly</item>
+    </array>
+    <array name="simulate_color_space_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Very slow</item>
+        <item>Slow</item>
+        <item>Normal</item>
+        <item>Fast</item>
+        <item>Faster</item>
+        <item>Very fast</item>
+        <item>Rapid</item>
+        <item>Very rapid</item>
+        <item>Fastest</item>
+    </array>
+    <array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+    </array>
+    <array name="tts_demo_strings">
+        <item>This is an example of speech synthesis in English.</item>
+        <item>Voici un échantillon de synthèse vocale en français.</item>
+        <item>Dies ist ein Beispiel für Sprachsynthese in Deutsch.</item>
+        <item>Questo è un esempio di sintesi vocale in italiano.</item>
+        <item>Este es un ejemplo de síntesis de voz en español.</item>
+        <item>이것은 한국어 음성 합성의 예입니다.</item>
+    </array>
+    <array name="tts_demo_string_langs">
+        <item>eng</item>
+        <item>fra</item>
+        <item>deu</item>
+        <item>ita</item>
+        <item>spa</item>
+        <item>kor</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Enhanced colors</item>
+        <item>Natural colors as seen by the eye</item>
+        <item>Colors optimized for digital content</item>
+    </array>
+    <array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </array>
+    <array name="cover_analog_clock_arrays">
+        <item>@drawable/cover_clock_background_1</item>
+        <item>@drawable/cover_clock_bg_1</item>
+        <item>@drawable/cover_clock_h_1</item>
+        <item>@drawable/cover_clock_m_1</item>
+        <item>@drawable/cover_clock_s_1</item>
+        <item>@drawable/cover_clock_background_2</item>
+        <item>@drawable/cover_clock_bg_2</item>
+        <item>@drawable/cover_clock_h_2</item>
+        <item>@drawable/cover_clock_m_2</item>
+        <item>@drawable/cover_clock_s_2</item>
+        <item>@drawable/cover_clock_background_3</item>
+        <item>@drawable/cover_clock_bg_3</item>
+        <item>@drawable/cover_clock_h_3</item>
+        <item>@drawable/cover_clock_m_3</item>
+        <item>@drawable/cover_clock_s_3</item>
+        <item>@drawable/cover_clock_background_4</item>
+        <item>@drawable/cover_clock_bg_4</item>
+        <item>@drawable/cover_clock_h_4</item>
+        <item>@drawable/cover_clock_m_4</item>
+        <item>@drawable/cover_clock_s_4</item>
+        <item>@drawable/cover_clock_background_5</item>
+        <item>@drawable/cover_clock_bg_5</item>
+        <item>@drawable/cover_clock_h_5</item>
+        <item>@drawable/cover_clock_m_5</item>
+        <item>@drawable/cover_clock_s_5</item>
+        <item>@drawable/cover_clock_background_6</item>
+        <item>@drawable/cover_clock_bg_6</item>
+        <item>@drawable/cover_clock_h_6</item>
+        <item>@drawable/cover_clock_m_6</item>
+        <item>@drawable/cover_clock_s_6</item>
+        <item>@drawable/cover_clock_background_7</item>
+        <item>@drawable/cover_clock_bg_7</item>
+        <item>@drawable/cover_clock_h_7</item>
+        <item>@drawable/cover_clock_m_7</item>
+        <item>@drawable/cover_clock_s_7</item>
+        <item>@drawable/cover_clock_background_8</item>
+        <item>@drawable/cover_clock_bg_8</item>
+        <item>@drawable/cover_clock_h_8</item>
+        <item>@drawable/cover_clock_m_8</item>
+        <item>@drawable/cover_clock_s_8</item>
+    </array>
+    <array name="lockscreen_weather_icon_big">
+        <item>@drawable/lockscreen_weather_unknown_big</item>
+        <item>@drawable/lockscreen_weather_cloudy_big</item>
+        <item>@drawable/lockscreen_weather_cold_big</item>
+        <item>@drawable/lockscreen_weather_fog_big</item>
+        <item>@drawable/lockscreen_weather_hot_big</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy_big</item>
+        <item>@drawable/lockscreen_weather_rain_big</item>
+        <item>@drawable/lockscreen_weather_shower_big</item>
+        <item>@drawable/lockscreen_weather_snow_big</item>
+        <item>@drawable/lockscreen_weather_sunny_big</item>
+        <item>@drawable/lockscreen_weather_thunderstorms_big</item>
+        <item>@drawable/lockscreen_weather_wind_big</item>
+        <item>@drawable/lockscreen_weather_sand_devil_big</item>
+        <item>@drawable/lockscreen_weather_haze_big</item>
+        <item>@drawable/lockscreen_weather_lightrain_big</item>
+        <item>@drawable/lockscreen_weather_moderaterain_big</item>
+        <item>@drawable/lockscreen_weather_heavyrain_big</item>
+        <item>@drawable/lockscreen_weather_storm_big</item>
+        <item>@drawable/lockscreen_weather_severestorm_big</item>
+        <item>@drawable/lockscreen_weather_lightsnow_big</item>
+        <item>@drawable/lockscreen_weather_moderatesnow_big</item>
+        <item>@drawable/lockscreen_weather_heavysnow_big</item>
+        <item>@drawable/lockscreen_weather_snowstorm_big</item>
+    </array>
+    <array name="lockscreen_weather_icon_night_big">
+        <item>@drawable/lockscreen_weather_unknown_big</item>
+        <item>@drawable/lockscreen_weather_cloudy_night_big</item>
+        <item>@drawable/lockscreen_weather_cold_big</item>
+        <item>@drawable/lockscreen_weather_fog_big</item>
+        <item>@drawable/lockscreen_weather_hot_big</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy_night_big</item>
+        <item>@drawable/lockscreen_weather_rain_big</item>
+        <item>@drawable/lockscreen_weather_shower_big</item>
+        <item>@drawable/lockscreen_weather_snow_big</item>
+        <item>@drawable/lockscreen_weather_sunny_night_big</item>
+        <item>@drawable/lockscreen_weather_thunderstorms_big</item>
+        <item>@drawable/lockscreen_weather_wind_big</item>
+        <item>@drawable/lockscreen_weather_sand_devil_big</item>
+        <item>@drawable/lockscreen_weather_haze_big</item>
+        <item>@drawable/lockscreen_weather_lightrain_big</item>
+        <item>@drawable/lockscreen_weather_moderaterain_big</item>
+        <item>@drawable/lockscreen_weather_heavyrain_big</item>
+        <item>@drawable/lockscreen_weather_storm_big</item>
+        <item>@drawable/lockscreen_weather_severestorm_big</item>
+        <item>@drawable/lockscreen_weather_lightsnow_big</item>
+        <item>@drawable/lockscreen_weather_moderatesnow_big</item>
+        <item>@drawable/lockscreen_weather_heavysnow_big</item>
+        <item>@drawable/lockscreen_weather_snowstorm_big</item>
+    </array>
+    <array name="lockscreen_weather_icon_500x2560">
+        <item>@drawable/lockscreen_weather_unknown</item>
+        <item>@drawable/lockscreen_weather_cloudy</item>
+        <item>@drawable/lockscreen_weather_cold</item>
+        <item>@drawable/lockscreen_weather_fog</item>
+        <item>@drawable/lockscreen_weather_hot</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy</item>
+        <item>@drawable/lockscreen_weather_rain</item>
+        <item>@drawable/lockscreen_weather_shower</item>
+        <item>@drawable/lockscreen_weather_snow</item>
+        <item>@drawable/lockscreen_weather_sunny</item>
+        <item>@drawable/lockscreen_weather_thunderstorms</item>
+        <item>@drawable/lockscreen_weather_wind</item>
+        <item>@drawable/lockscreen_weather_sand_devil</item>
+        <item>@drawable/lockscreen_weather_haze</item>
+        <item>@drawable/lockscreen_weather_lightrain</item>
+        <item>@drawable/lockscreen_weather_moderaterain</item>
+        <item>@drawable/lockscreen_weather_heavyrain</item>
+        <item>@drawable/lockscreen_weather_storm</item>
+        <item>@drawable/lockscreen_weather_severestorm</item>
+        <item>@drawable/lockscreen_weather_lightsnow</item>
+        <item>@drawable/lockscreen_weather_moderatesnow</item>
+        <item>@drawable/lockscreen_weather_heavysnow</item>
+        <item>@drawable/lockscreen_weather_snowstorm</item>
+    </array>
+    <array name="lockscreen_weather_icon_night_500x2560">
+        <item>@drawable/lockscreen_weather_unknown</item>
+        <item>@drawable/lockscreen_weather_cloudy_night</item>
+        <item>@drawable/lockscreen_weather_cold</item>
+        <item>@drawable/lockscreen_weather_fog</item>
+        <item>@drawable/lockscreen_weather_hot</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy_night</item>
+        <item>@drawable/lockscreen_weather_rain</item>
+        <item>@drawable/lockscreen_weather_shower</item>
+        <item>@drawable/lockscreen_weather_snow</item>
+        <item>@drawable/lockscreen_weather_sunny_night</item>
+        <item>@drawable/lockscreen_weather_thunderstorms</item>
+        <item>@drawable/lockscreen_weather_wind</item>
+        <item>@drawable/lockscreen_weather_sand_devil</item>
+        <item>@drawable/lockscreen_weather_haze</item>
+        <item>@drawable/lockscreen_weather_lightrain</item>
+        <item>@drawable/lockscreen_weather_moderaterain</item>
+        <item>@drawable/lockscreen_weather_heavyrain</item>
+        <item>@drawable/lockscreen_weather_storm</item>
+        <item>@drawable/lockscreen_weather_severestorm</item>
+        <item>@drawable/lockscreen_weather_lightsnow</item>
+        <item>@drawable/lockscreen_weather_moderatesnow</item>
+        <item>@drawable/lockscreen_weather_heavysnow</item>
+        <item>@drawable/lockscreen_weather_snowstorm</item>
+    </array>
+    <array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </array>
+    <array name="batterymeter_color_values">
+        <item>?unknown_ref: 1060058</item>
+        <item>#ffffffff</item>
+    </array>
+    <array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </array>
+    <array name="batterymeter_plus_points">
+        <item>3</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </array>
+    <array name="car_facet_icons">
+    </array>
+    <array name="car_facet_intent_uris">
+    </array>
+    <array name="car_facet_longpress_intent_uris">
+    </array>
+    <array name="car_facet_package_filters">
+    </array>
+    <array name="car_facet_category_filters">
+    </array>
+    <array name="volume_stream_titles">
+        <item>Voice calls</item>
+        <item>System</item>
+        <item>Notifications</item>
+        <item>Media</item>
+        <item>Alarms</item>
+        <item></item>
+        <item>Bluetooth calls</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </array>
+    <array name="clock_options">
+        <item>Show hours, minutes, and seconds</item>
+        <item>Show hours and minutes (default)</item>
+        <item>Don&apos;t show this icon</item>
+    </array>
+    <array name="battery_options">
+        <item>Always show percentage</item>
+        <item>Show percentage when charging (default)</item>
+        <item>Don&apos;t show this icon</item>
+    </array>
+    <array name="recents_tv_blacklist_array">
+    </array>
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>?unknown_ref: 0</item>
+    </array>
+    <array name="lockscreen_targets_unlock_only">
+        <item>@drawable/ic_lockscreen_unlock</item>
+    </array>
+    <array name="lockscreen_target_descriptions_unlock_only">
+        <item>@string/description_target_unlock</item>
+    </array>
+    <array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </array>
+    <array name="infocenter_item_info">
+        <item>com.android.soundrecorder/.SoundRecorder</item>
+        <item>com.android.calculator2/.Calculator</item>
+        <item>com.huawei.flashlight/.Flashlight</item>
+        <item>com.android.deskclock/.AlarmsMainActivity</item>
+        <item>com.huawei.scanner/.view.ScannerActivity</item>
+    </array>
+    <array name="dynamic_lock_white_list">
+        <item>com.ibimuyu.lockscreen/com.ibimuyu.lockscreen.sdk.wrapper.LockscreenWrapper/cf7c11d4cb7cd23240a402eb7db92eca</item>
+        <item>com.vlife.huawei.emuilock/com.vlife.VlifeLockScreenForCommon/c7a2ba7bb12cc7e9ad39b9af3930d0cd</item>
+    </array>
+    <array name="lockscreen_weather_icon">
+        <item>@drawable/lockscreen_weather_unknown</item>
+        <item>@drawable/lockscreen_weather_cloudy</item>
+        <item>@drawable/lockscreen_weather_cold</item>
+        <item>@drawable/lockscreen_weather_fog</item>
+        <item>@drawable/lockscreen_weather_hot</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy</item>
+        <item>@drawable/lockscreen_weather_rain</item>
+        <item>@drawable/lockscreen_weather_shower</item>
+        <item>@drawable/lockscreen_weather_snow</item>
+        <item>@drawable/lockscreen_weather_sunny</item>
+        <item>@drawable/lockscreen_weather_thunderstorms</item>
+        <item>@drawable/lockscreen_weather_wind</item>
+        <item>@drawable/lockscreen_weather_sand_devil</item>
+        <item>@drawable/lockscreen_weather_haze</item>
+        <item>@drawable/lockscreen_weather_lightrain</item>
+        <item>@drawable/lockscreen_weather_moderaterain</item>
+        <item>@drawable/lockscreen_weather_heavyrain</item>
+        <item>@drawable/lockscreen_weather_storm</item>
+        <item>@drawable/lockscreen_weather_severestorm</item>
+        <item>@drawable/lockscreen_weather_lightsnow</item>
+        <item>@drawable/lockscreen_weather_moderatesnow</item>
+        <item>@drawable/lockscreen_weather_heavysnow</item>
+        <item>@drawable/lockscreen_weather_snowstorm</item>
+    </array>
+    <array name="lockscreen_weather_icon_night">
+        <item>@drawable/lockscreen_weather_unknown</item>
+        <item>@drawable/lockscreen_weather_cloudy_night</item>
+        <item>@drawable/lockscreen_weather_cold</item>
+        <item>@drawable/lockscreen_weather_fog</item>
+        <item>@drawable/lockscreen_weather_hot</item>
+        <item>@drawable/lockscreen_weather_mostlycloudy_night</item>
+        <item>@drawable/lockscreen_weather_rain</item>
+        <item>@drawable/lockscreen_weather_shower</item>
+        <item>@drawable/lockscreen_weather_snow</item>
+        <item>@drawable/lockscreen_weather_sunny_night</item>
+        <item>@drawable/lockscreen_weather_thunderstorms</item>
+        <item>@drawable/lockscreen_weather_wind</item>
+        <item>@drawable/lockscreen_weather_sand_devil</item>
+        <item>@drawable/lockscreen_weather_haze</item>
+        <item>@drawable/lockscreen_weather_lightrain</item>
+        <item>@drawable/lockscreen_weather_moderaterain</item>
+        <item>@drawable/lockscreen_weather_heavyrain</item>
+        <item>@drawable/lockscreen_weather_storm</item>
+        <item>@drawable/lockscreen_weather_severestorm</item>
+        <item>@drawable/lockscreen_weather_lightsnow</item>
+        <item>@drawable/lockscreen_weather_moderatesnow</item>
+        <item>@drawable/lockscreen_weather_heavysnow</item>
+        <item>@drawable/lockscreen_weather_snowstorm</item>
+    </array>
+    <array name="wallpapers">
+        <item>unlock_wallpaper_1</item>
+        <item>unlock_wallpaper_2</item>
+        <item>unlock_wallpaper_3</item>
+        <item>unlock_wallpaper_4</item>
+        <item>unlock_wallpaper_5</item>
+        <item>unlock_wallpaper_6</item>
+        <item>unlock_wallpaper_7</item>
+        <item>unlock_wallpaper_8</item>
+        <item>unlock_wallpaper_9</item>
+        <item>unlock_wallpaper_10</item>
+        <item>unlock_wallpaper_11</item>
+        <item>unlock_wallpaper_12</item>
+    </array>
+    <array name="degree">
+        <item>°C</item>
+        <item>°F</item>
+    </array>
+    <array name="music_package_names">
+        <item>com.android.mediacenter</item>
+        <item>com.google.android.music</item>
+    </array>
+    <array name="normal_12_time">
+    </array>
+    <array name="china_time">
+    </array>
+    <array name="persist_dpi">
+        <item>480</item>
+        <item>560</item>
+        <item>640</item>
+    </array>
+    <array name="persist_dpi">
+        <item>400</item>
+        <item>440</item>
+        <item>480</item>
+    </array>
+</resources>

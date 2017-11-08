@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:paddingStart="16dp">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/PermissionCfgAppIcon" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <Switch android:id="@+id/PermissionCfgSwitch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/permission_app_name_max_width" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" android:layout_toStartOf="@+id/PermissionCfgSwitch" android:layout_toEndOf="@+id/PermissionCfgAppIcon">
+            <TextView android:ellipsize="end" android:id="@+id/PermissionCfgAppName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ListviewItemTextPrimary" />
+            <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/PermissionRecommendDesp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:ellipsize="end" android:id="@+id/DefaultSmsApp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/permission_app_name_max_width" android:text="@string/default_sms_app" android:singleLine="true" />
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="13sp" android:textColor="@color/hsm_forbidden" android:ellipsize="end" android:id="@+id/PermissionCfgAppForbitContent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

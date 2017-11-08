@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/dailog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10dp" android:paddingEnd="10dp">
+    <TextView android:textSize="@dimen/dialog_message_text_size" android:id="@id/message_content" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_network_dialog_message" />
+    <com.huawei.gallery.util.DroidSansChineseslimTextView android:textAppearance="?unknown_attr_ref: 1010042" android:textColor="?unknown_attr_ref: 1010038" android:id="@id/message_summary" android:paddingTop="2dp" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/use_network_dialog_info" android:fontFamily="chnfzxh" />
+    <CheckBox android:textSize="@dimen/dialog_message_text_size" android:id="@id/check_notips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sharesimply_nohelp_again" />
+</LinearLayout>

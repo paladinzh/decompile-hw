@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.CheckableLinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorAlertDialogListItem" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="20.0dip" android:layout_weight="1.0" android:drawableEnd="?android:listChoiceIndicatorSingle" android:textAlignment="viewStart" />
+    <ImageView android:id="@id/restricted_lock_icon" android:visibility="gone" android:layout_width="@dimen/restricted_icon_size" android:layout_height="@dimen/restricted_icon_size" android:layout_marginLeft="@dimen/restricted_icon_padding" android:src="@drawable/ic_info" android:scaleType="centerInside" android:baselineAlignBottom="true" />
+</com.android.settings.CheckableLinearLayout>

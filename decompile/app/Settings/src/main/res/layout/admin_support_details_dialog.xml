@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/admin_details_dialog_padding" android:paddingTop="@dimen/admin_details_dialog_padding" android:paddingRight="@dimen/admin_details_dialog_padding" android:paddingBottom="@dimen/admin_details_dialog_link_padding_bottom1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/admins_alert_title" android:paddingBottom="@dimen/admin_details_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/admin_support_icon" android:layout_width="@dimen/admin_details_dialog_icon_size" android:layout_height="@dimen/admin_details_dialog_icon_size" android:src="@drawable/ic_info" android:scaleType="fitCenter" android:contentDescription="@null" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/admin_support_details_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end">
+        <TextView android:textSize="@dimen/dialog_frame_text_size" android:textColor="@color/emui_text_dark" android:id="@id/message" android:paddingTop="@dimen/dialog_frame_padding_top" android:paddingBottom="@dimen/widget_margin_bottom" android:layout_width="fill_parent" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" style="@style/EmuiSecondaryTextFontStyle" />
+        <CheckBox android:textSize="@dimen/dialog_message_size" android:textColor="@color/emui_text_dark" android:id="@id/choice_flag" android:visibility="gone" android:layout_width="fill_parent" android:text="@string/wifiap_donot_prompt" android:paddingStart="8.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+</ScrollView>

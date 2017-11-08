@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="14sp" android:id="@id/album_name_content" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" android:layout_marginStart="@dimen/alter_dialog_padding_left_right" android:layout_marginEnd="@dimen/alter_dialog_padding_left_right" android:labelFor="@id/album_name_content" />
+            <RadioGroup android:orientation="vertical" android:id="@id/location_radiogp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:divider="@drawable/divider_horizontal_gray_emui" android:showDividers="middle|end" android:dividerPadding="@dimen/alter_dialog_padding_left_right" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

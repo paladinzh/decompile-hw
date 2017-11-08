@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/message_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_frame_padding_start" android:paddingEnd="@dimen/dialog_frame_padding_end">
+        <TextView android:textSize="@dimen/dialog_message_size" android:textColor="@color/dialog_message_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_message_space" android:text="@string/install_all_warning" android:fontFamily="chnfzxh" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" />
+        <TextView android:textSize="@dimen/dialog_message_size" android:textColor="@color/dialog_message_color" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_message_space" android:text="@string/app_check_risk_message" android:fontFamily="chnfzxh" android:layout_marginStart="@dimen/dialog_padding_start" android:layout_marginEnd="@dimen/dialog_padding_end" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_message_space">
+            <CheckBox android:gravity="center_vertical" android:id="@id/open_app_verification" android:layout_width="37.0dip" android:layout_height="32.0dip" android:checked="true" />
+            <TextView android:textSize="@dimen/dialog_message_size" android:textColor="@color/dialog_checkbox_message_color" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_check_risk_checkbtn" android:fontFamily="chnfzxh" android:layout_marginEnd="@dimen/dialog_padding_end" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

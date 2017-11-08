@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <com.android.internal.widget.PreferenceImageView android:id="0x1020006" android:layout_width="UNKNOWN_DATA_0x7f0e001d" android:layout_height="UNKNOWN_DATA_0x7f0e001d" android:paddingEnd="@dimen/preference_icon_margin_end" />
+    </LinearLayout>
+    <RelativeLayout android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="0dp" android:paddingEnd="@dimen/preference_item_margin_end">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:id="0x1020016" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="0x1020010" android:layout_marginTop="2dp" android:maxLines="10" android:layout_below="0x1020016" android:layout_alignStart="0x1020016" style="@style/EmuiSecondaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:id="@r$id/additional_summary" android:visibility="gone" android:maxLines="10" android:layout_below="0x1020010" android:layout_alignStart="0x1020010" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="0x1020018" android:layout_width="wrap_content" android:layout_height="match_parent" /> />

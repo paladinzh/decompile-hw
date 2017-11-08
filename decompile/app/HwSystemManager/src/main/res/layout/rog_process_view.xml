@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/rog_process_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <FrameLayout android:id="@+id/rog_process_icon_frame" android:background="@drawable/ic_globalaction_confirm_bg" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/rog_process_circleImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_circle" />
+        </FrameLayout>
+        <TextView android:textSize="15sp" android:textColor="@color/hwsystemmanager_white_alpha50_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/rog_process_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" />
+    </LinearLayout>
+</RelativeLayout>

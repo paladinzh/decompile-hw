@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/usb_connected_help_os_windows" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_windows_descp1" android:layout_width="fill_parent" android:layout_marginTop="34.0dip" android:text="@string/usb_connected_help_mtp_windows_descp1" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_windows_descp2" android:layout_width="fill_parent" android:layout_marginTop="12.0dip" android:text="@string/usb_connected_help_mtp_windows_descp2" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+        <LinearLayout android:layout_gravity="center" android:id="@id/usb_connected_help_windows" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/windows_help_picture1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/windows_pic01" android:layout_weight="1.0" android:contentDescription="@null" android:paddingEnd="8.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/windows_help_picture2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/windows_pic02" android:layout_weight="1.0" android:contentDescription="@null" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_windows_descp3" android:layout_width="fill_parent" android:layout_marginTop="74.0dip" android:text="@string/usb_connected_help_mtp_windows_descp3" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiPrimaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_windows_descp4" android:layout_width="fill_parent" android:text="@string/usb_connected_help_mtp_windows_descp4" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+        <TextView android:textSize="@dimen/preference_item_title_size" android:id="@id/usb_connected_help_windows_descp5" android:layout_width="fill_parent" android:layout_marginBottom="74.0dip" android:text="@string/usb_connected_help_mtp_windows_descp5" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+</ScrollView>

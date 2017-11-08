@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.HDVoiceView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/hd_voice" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="@style/TextAppearance.StatusBar.Clock" android:textSize="13sp" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hd_voice_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="110dp" android:text="@string/attempting" android:singleLine="true" android:drawableRight="@drawable/abc_list_focused_holo" android:fontFamily="chnfzxh" />
+</com.android.systemui.statusbar.HDVoiceView>

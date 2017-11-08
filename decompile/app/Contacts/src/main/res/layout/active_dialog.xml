@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.dialer.voicemail.ActiveView xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:text="@string/voicemail_notifa_title" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/voicemail_active_icon_margin" android:text="@string/voicemail_active_description" android:drawableTop="@drawable/ic_contacts_no_voicemail" android:drawablePadding="@dimen/voicemail_active_icon_margin" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    <Button android:id="@+id/active" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/voicemail_free_activation" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    <Button android:id="@+id/later" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp" android:text="@string/voicemail_later" />
+</com.android.dialer.voicemail.ActiveView>

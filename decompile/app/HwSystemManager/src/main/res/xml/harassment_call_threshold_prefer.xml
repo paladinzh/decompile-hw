@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/com.huawei.systemmanager" hsm:orientation="vertical" hsm:layout_width="match_parent" hsm:layout_height="match_parent">
+    <TextArrowPreference hsm:title="@string/harassment_scam_calls" hsm:key="harass_call_scam_value" hsm:preferenceID="@+id/prefs_harass_call_scam_value" />
+    <TextArrowPreference hsm:title="@string/harassment_harassing_calls" hsm:key="harass_call_harass_value" hsm:preferenceID="@+id/prefs_harassment_harassing_calls" />
+    <TextArrowPreference hsm:title="@string/harassment_advertising_calls" hsm:key="harass_call_adver_value" hsm:preferenceID="@+id/prefs_harassment_advertising_calls" />
+    <TextArrowPreference hsm:title="@string/harassment_real_estate_calls" hsm:key="harass_call_estate_value" hsm:preferenceID="@+id/prefs_harassment_real_estate_calls" />
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+    <com.android.mms.attachment.ui.AttachMaxFrameLayout app:id="@+id/slide_pic_video_layout" app:layout_width="wrap_content" app:layout_height="wrap_content">
+        <FrameLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="4dp" app:layout_marginEnd="4dp">
+            <com.android.mms.attachment.ui.AsyncImageView app:id="@+id/attachment_vedio_icon" app:focusable="true" app:layout_width="wrap_content" app:layout_height="wrap_content" app:adjustViewBounds="true" app:minWidth="@dimen/attachment_preview_min_hw" app:minHeight="@dimen/attachment_preview_min_hw" app:contentDescription="@string/attachment_preview_video" app:fadeIn="false" app:placeholderDrawable="@drawable/attachment_image_placeholder_background" app:cornerRadius="@dimen/attachment_rounded_corner_radius" />
+            <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/video_sign" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/mms_ic_item_video" app:contentDescription="0x0" />
+        </FrameLayout>
+        <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/attachment_btn_delete" app:layout_width="wrap_content" app:layout_height="wrap_content" app:src="@drawable/ic_attachment_preview_cancle" app:contentDescription="@string/remove" />
+    </com.android.mms.attachment.ui.AttachMaxFrameLayout>
+    <TextView app:textSize="@dimen/attachment_preview_page_textsize" app:textColor="@color/attachment_preview_slide_page_textcolor" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@+id/slidepage_number" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+</LinearLayout>

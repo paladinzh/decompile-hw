@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:paddingTop="@dimen/preference_item_padding_top" android:paddingBottom="@dimen/preference_item_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:columnCount="4" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_rowSpan="2" android:layout_marginEnd="8.0dip" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:layout_gravity="fill_horizontal" android:id="@id/app_name" android:layout_width="0.0dip" android:layout_marginTop="2.0dip" android:singleLine="true" android:layout_columnSpan="2" android:textAlignment="viewStart" />
+    <Switch android:id="@id/op_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_rowSpan="2" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="fill_horizontal|center|top" android:id="@id/op_name" android:layout_width="0.0dip" android:textAlignment="viewStart" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:layout_gravity="top" android:id="@id/op_time" android:layout_marginStart="8.0dip" />
+</GridLayout>

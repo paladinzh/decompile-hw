@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="?unknown_attr_ref: 101030e" app:focusable="true" app:clipToPadding="false" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?unknown_attr_ref: 1010387" app:paddingStart="?unknown_attr_ref: 10103bd" app:paddingEnd="?unknown_attr_ref: 10103be"
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@r$id/icon_frame" app:paddingTop="4dp" app:paddingBottom="4dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:minWidth="60dp" app:paddingEnd="12dp" app:layout_marginStart="-4dp">
+        <android.support.v7.internal.widget.PreferenceImageView app:id="0x1020006" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxWidth="48dp" app:maxHeight="48dp" />
+    </LinearLayout>
+    <RelativeLayout app:paddingTop="16dp" app:paddingBottom="16dp" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_weight="1.0">
+        <TextView app:textAppearance="?unknown_attr_ref: 101039e" app:ellipsize="marquee" app:id="0x1020016" app:layout_width="wrap_content" app:layout_height="wrap_content" app:singleLine="true" />
+        <TextView app:textAppearance="?unknown_attr_ref: 1010432" app:textColor="?unknown_attr_ref: 1010038" app:id="0x1020010" app:layout_width="wrap_content" app:layout_height="wrap_content" app:maxLines="10" app:layout_below="0x1020016" app:layout_alignStart="0x1020016" />
+    </RelativeLayout>
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="0x1020018" app:layout_width="wrap_content" app:layout_height="match_parent" app:paddingStart="16dp" /> />

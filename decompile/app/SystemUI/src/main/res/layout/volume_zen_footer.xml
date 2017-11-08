@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.volume.ZenFooter xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/volume_zen_footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@id/zen_embedded_divider" android:background="@color/qs_tile_divider" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_marginTop="8dp" android:layout_marginBottom="12dp" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/volume_zen_icon" android:layout_width="UNKNOWN_DATA_0x7f0e0268" android:layout_height="UNKNOWN_DATA_0x7f0e0268" android:scaleType="center" android:layout_marginEnd="7dp" />
+        <LinearLayout android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textAppearance="@style/TextAppearance.Volume.ZenSummary" android:id="@id/volume_zen_summary_line_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" />
+            <TextView android:textAppearance="@style/TextAppearance.Volume.ZenDetail" android:id="@id/volume_zen_summary_line_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:textDirection="locale" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="@style/TextAppearance.QS.DetailButton" android:textColor="@color/system_accent_color" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/volume_zen_end_now" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/volume_zen_end_now" android:paddingStart="15dp" android:paddingEnd="15dp" android:layout_marginEnd="8dp" style="@style/QSBorderlessButton" />
+</com.android.systemui.volume.ZenFooter>

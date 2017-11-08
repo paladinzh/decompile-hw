@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/dailog_layout" android:paddingTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <TextView android:textAppearance="@*android:style/TextAppearance.Medium" android:textSize="15sp" android:textColor="#ff000000" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="13sp" android:textColor="#7f000000" android:id="@id/message_description" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="8dp" />
+</LinearLayout>

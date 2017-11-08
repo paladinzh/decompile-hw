@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTS2015011501086 wangjue/00302548 20150116 create -->
+<PermissionCvt>
+    <!-- ITEM_ID_READ_CONTACT 11 -->
+    <Item cloudId="11" permissionMask="1" power="0">
+        <androidPermission name="android.permission.READ_CONTACTS"/>
+        <androidPermission name="android.permission.WRITE_CONTACTS"/>
+    </Item>
+    <!-- ITEM_ID_READ_MESSAGE 12 -->
+    <Item cloudId="12" permissionMask="4" power="2">
+        <androidPermission name="android.permission.READ_SMS"/>
+        <androidPermission name="android.permission.WRITE_SMS"/>
+    </Item>
+    <!-- ITEM_ID_READ_CALLLOG 13 -->
+    <Item cloudId="13" permissionMask="2" power="1">
+        <androidPermission name="android.permission.READ_CALL_LOG"/>
+        <androidPermission name="android.permission.WRITE_CALL_LOG"/>
+    </Item>
+    <!-- ITEM_ID_READ_CALENDAR 14 -->
+    <Item cloudId="14" permissionMask="2048" power="11">
+        <androidPermission name="android.permission.READ_CALENDAR"/>
+    </Item>
+    <!-- ITEM_ID_READ_LOCATION 15 -->
+    <Item cloudId="15" permissionMask="8" power="3">
+        <androidPermission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <androidPermission name="android.permission.ACCESS_COARSE_LOCATION"/>
+    </Item>
+    <!-- ITEM_ID_READ_PHONE_CODE 16 -->
+    <Item cloudId="16" permissionMask="16" power="4">
+        <androidPermission name="android.permission.READ_PHONE_STATE"/>
+    </Item>
+    <!-- ITEM_ID_MODIFY_CONTACT 17 -->
+    <Item cloudId="17" permissionMask="16384" power="14">
+        <androidPermission name="android.permission.READ_CONTACTS"/>
+        <androidPermission name="android.permission.WRITE_CONTACTS"/>
+    </Item>
+    <!-- ITEM_ID_MODIFY_MESSAGE 18 -->
+    <!-- Has been removed from KK.
+    <Item cloudId="18" permissionMask="65536" power="16">
+        <androidPermission name="android.permission.READ_SMS"/>
+        <androidPermission name="android.permission.WRITE_SMS"/>
+    </Item>
+    -->
+    <!-- ITEM_ID_MODIFY_CALLLOG 19 -->
+    <Item cloudId="19" permissionMask="32768" power="15">
+        <androidPermission name="android.permission.READ_CALL_LOG"/>
+        <androidPermission name="android.permission.WRITE_CALL_LOG"/>
+    </Item>
+    <!-- ITEM_ID_DELETE_CONTACT 20 -->
+    <Item cloudId="20" permissionMask="131072" power="17">
+        <androidPermission name="android.permission.READ_CONTACTS"/>
+        <androidPermission name="android.permission.WRITE_CONTACTS"/>
+    </Item>
+    <!-- ITEM_ID_DELETE_MESSAGE 21 -->
+    <!-- Has been removed from KK.
+    <Item cloudId="21" permissionMask="524288" power="19">
+        <androidPermission name="android.permission.READ_SMS"/>
+        <androidPermission name="android.permission.WRITE_SMS"/>
+    </Item>
+    -->
+    <!-- ITEM_ID_DELETE_CALLLOG 22 -->
+    <Item cloudId="22" permissionMask="262144" power="18">
+        <androidPermission name="android.permission.READ_CALL_LOG"/>
+        <androidPermission name="android.permission.WRITE_CALL_LOG"/>
+    </Item>
+    <!-- ITEM_ID_MAKE_CALL 23 -->
+    <Item cloudId="23" permissionMask="64" power="6">
+        <androidPermission name="android.permission.CALL_PHONE"/>
+    </Item>
+    <!-- ITEM_ID_SEND_SMS 24 -->
+    <Item cloudId="24" permissionMask="32" power="5">
+        <androidPermission name="android.permission.SEND_SMS"/>
+    </Item>
+    <!-- ITEM_ID_SEND_MMS 25 -->
+    <Item cloudId="25" permissionMask="8192" power="13">
+        <androidPermission name="android.permission.SEND_SMS"/>
+    </Item>
+    <!-- ITEM_ID_TAKE_PHOTO 26 -->
+    <Item cloudId="26" permissionMask="1024" power="10">
+        <androidPermission name="android.permission.CAMERA"/>
+    </Item>
+    <!-- ITEM_ID_SOUND_RECORDER 27 -->
+    <Item cloudId="27" permissionMask="128" power="7">
+        <androidPermission name="android.permission.RECORD_AUDIO"/>
+    </Item>
+    <!-- ITEM_ID_OPEN_WIFI 28 -->
+    <Item cloudId="28" permissionMask="2097152" power="21">
+        <androidPermission name="android.permission.CHANGE_WIFI_STATE"/>
+    </Item>
+    <!-- ITEM_ID_OPEN_DATA 29 -->
+    <Item cloudId="29" permissionMask="4194304" power="22">
+        <androidPermission name="android.permission.CHANGE_NETWORK_STATE"/>
+    </Item>
+    <!-- ITEM_ID_OPEN_BT 30 -->
+    <Item cloudId="30" permissionMask="8388608" power="23">
+        <androidPermission name="android.permission.BLUETOOTH_ADMIN"/>
+    </Item>
+</PermissionCvt>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0032">
+    <ImageView android:id="@+id/child_img" android:background="@drawable/ic_arrow" android:layout_width="UNKNOWN_DATA_0x7f0a0031" android:layout_height="UNKNOWN_DATA_0x7f0a0031" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/security_patch_margin_end" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0a0032" android:layout_centerVertical="true" android:layout_marginStart="@dimen/security_patch_margin_start" android:layout_toStartOf="@+id/child_img" android:layout_alignParentStart="true"
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/security_patch_name_textview_textsize" android:ellipsize="middle" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/child_version_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/security_patch_detail_textview_textsize" android:textColor="@color/emui_list_secondray_text" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/child_patch_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/security_patch_second_textview_margin_top" android:maxWidth="@dimen/security_patch_description_max_width" android:singleLine="true" android:layout_below="@+id/child_version_num" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

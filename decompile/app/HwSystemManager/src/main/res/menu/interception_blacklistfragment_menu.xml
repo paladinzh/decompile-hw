@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/menu_add_status" android:id="@+id/menu_add_blacklist" android:title="@string/Button_Blacklist_Add" android:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/menu_add_manually" android:title="@string/harassmentInterceptionMenuManuallyAdd" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_add_header" android:title="@string/harassmentInterception_BlacklistHeader" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_add_from_contacts" android:title="@string/harassmentInterceptionAddToBlacklistFromContacts" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_add_from_calllog" android:title="@string/harassmentInterceptionAddToBlacklistFromCalllog" android:showAsAction="UNKNOWN_DATA_0x0" />
+            <item android:id="@+id/menu_add_from_sms" android:title="@string/harassmentInterceptionAddToBlacklistFromSMS" android:showAsAction="UNKNOWN_DATA_0x0" />
+        </menu> />
+</menu>

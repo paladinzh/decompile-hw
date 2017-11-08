@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.assist.AssistOrbContainer xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.systemui.statusbar.AlphaOptimizedView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/assist_orb_scrim" android:background="@drawable/assist_orb_scrim" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0241" />
+    <com.android.systemui.assist.AssistOrbView android:id="@id/assist_orb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/search_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.android.systemui.assist.AssistOrbView>
+    <com.android.systemui.statusbar.AlphaOptimizedView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/assist_orb_navbar_scrim" android:background="@drawable/assist_orb_navbar_scrim" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0e0242" android:elevation="50dp" android:outlineProvider="none" />
+</com.android.systemui.assist.AssistOrbContainer>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>S&apos;està cercant...</item>
+        <item>S&apos;està connectant…</item>
+        <item>S&apos;està autenticant…</item>
+        <item>S&apos;està obtenint l&apos;adreça IP…</item>
+        <item>Connectat</item>
+        <item>Suspesa</item>
+        <item>S&apos;està desconnectant...</item>
+        <item>Desconnectada</item>
+        <item>Incorrecte</item>
+        <item>Bloquejada</item>
+        <item>S&apos;està evitant temporalment una connexió feble</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>S&apos;està cercant...</item>
+        <item>S&apos;està connectant a %1$s...</item>
+        <item>S&apos;està autenticant amb %1$s…</item>
+        <item>S&apos;està obtenint l&apos;adreça IP de %1$s…</item>
+        <item>Connectat a %1$s</item>
+        <item>Suspesa</item>
+        <item>S&apos;està desconnectant de %1$s…</item>
+        <item>Desconnectada</item>
+        <item>Incorrecte</item>
+        <item>Bloquejada</item>
+        <item>S&apos;està evitant temporalment una connexió feble</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>No comprovis mai</item>
+        <item>Comprova només el contingut DRM</item>
+        <item>Comprova sempre</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>No utilitzis mai la comprovació HDCP</item>
+        <item>Utilitza la comprovació HDCP només per a contingut DRM</item>
+        <item>Utilitza sempre la comprovació HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>No</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>No</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>No</item>
+        <item>64 K / memòria intermèdia</item>
+        <item>256 K / memòria intermèdia</item>
+        <item>1 M / memòria intermèdia</item>
+        <item>4 M / memòria intermèdia</item>
+        <item>16 M / memòria intermèdia</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animació desactivada</item>
+        <item>Escala d&apos;animació 0,5x</item>
+        <item>Escala d&apos;animació 1x</item>
+        <item>Escala d&apos;animació 1,5x</item>
+        <item>Escala d&apos;animació 2x</item>
+        <item>Escala d&apos;animació 5x</item>
+        <item>Escala d&apos;animació 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animació desactivada</item>
+        <item>Escala d&apos;animació 0,5x</item>
+        <item>Escala d&apos;animació 1x</item>
+        <item>Escala d&apos;animació 1,5x</item>
+        <item>Escala d&apos;animació 2x</item>
+        <item>Escala d&apos;animació 5x</item>
+        <item>Escala d&apos;animació 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animació desactivada</item>
+        <item>Escala d&apos;animació 0,5x</item>
+        <item>Escala d&apos;animació 1x</item>
+        <item>Escala d&apos;animació 1,5x</item>
+        <item>Escala d&apos;animació 2x</item>
+        <item>Escala d&apos;animació 5x</item>
+        <item>Escala d&apos;animació 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Cap</item>
+        <item>480p</item>
+        <item>480p (segur)</item>
+        <item>720p</item>
+        <item>720p (segur)</item>
+        <item>1080p</item>
+        <item>1080p (segur)</item>
+        <item>4K</item>
+        <item>4K (segur)</item>
+        <item>4K (ampliat)</item>
+        <item>4K (ampliat, segur)</item>
+        <item>720p, 1080p (pantalla doble)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Cap</item>
+        <item>Logcat</item>
+        <item>Systrace (gràfics)</item>
+        <item>Pila de trucades a glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>No</item>
+        <item>Dibuixa àrea retall no rectangular en blau</item>
+        <item>Ressalta ordres de dibuix provats en verd</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>No</item>
+        <item>En pantalla en forma de barres</item>
+        <item>A adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>No</item>
+        <item>Mostra les àrees superposades</item>
+        <item>Mostra les àrees amb deuteranomalia</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Límit estàndard</item>
+        <item>Sense processos en segon pla</item>
+        <item>Com a màxim 1 procés</item>
+        <item>Com a màxim 2 processos</item>
+        <item>Com a màxim 3 processos</item>
+        <item>Com a màxim 4 processos</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>S&apos;està carregant</item>
+        <item>MTP (protocol de transferència de fitxers multimèdia)</item>
+        <item>PTP (protocol de transferència d&apos;imatges)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Origen d&apos;àudio</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Molt lenta</item>
+        <item>Lenta</item>
+        <item>Normal</item>
+        <item>Ràpida</item>
+        <item>Més ràpida</item>
+        <item>Molt ràpida</item>
+        <item>Veloç</item>
+        <item>Molt veloç</item>
+        <item>Màxima</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Vibrant (predeterminat)</item>
+        <item>Natural</item>
+        <item>Estàndard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Colors millorats</item>
+        <item>Colors naturals tal com els veu l&apos;ull humà</item>
+        <item>Colors optimitzats per al contingut digital</item>
+    </array>
+    <array name="clock_options">
+        <item>Mostra les hores, els minuts i els segons</item>
+        <item>Mostra les hores i els minuts (opció predeterminada)</item>
+        <item>No mostris aquesta icona</item>
+    </array>
+    <array name="battery_options">
+        <item>Mostra sempre el percentatge</item>
+        <item>Mostra el percentatge quan es carregui (opció predeterminada)</item>
+        <item>No mostris aquesta icona</item>
+    </array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_overflow" android:id="@+id/action_overflow_menu" android:title="@string/menu_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_move_up" android:visible="false" android:title="@string/move_up" />
+            <item android:id="@+id/menu_move_down" android:visible="false" android:title="@string/move_down" />
+            <item android:id="@+id/menu_add_slide" android:visible="false" android:title="@string/add_slide" />
+            <item android:id="@+id/menu_remove_slide" android:visible="false" android:title="@string/remove_slide" />
+            <item android:id="@+id/menu_discard_slideshow" android:visible="false" android:title="@string/discard_slideshow" />
+        </menu> />
+</menu>

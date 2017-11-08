@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.setupwizardlib.view.StickyHeaderScrollView android:id="@id/suw_bottom_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/suw_layout_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/suw_layout_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/suw_layout_header" android:tag="stickyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.android.setupwizardlib.view.Illustration android:orientation="vertical" android:id="@id/suw_layout_decor" android:background="@drawable/suw_layout_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/suw_title_area_elevation">
+                    <TextView android:id="@id/suw_layout_title" android:tag="sticky" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SuwHeaderTitle" />
+                </com.android.setupwizardlib.view.Illustration>
+                <include layout="@layout/suw_progress_bar_stub" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.android.setupwizardlib.view.StickyHeaderScrollView>
+    <com.android.setupwizardlib.view.NavigationBar android:id="@id/suw_layout_navigation_bar" android:layout_width="fill_parent" android:layout_height="@dimen/suw_navbar_height" style="@style/SuwNavBarTheme" />
+</LinearLayout>

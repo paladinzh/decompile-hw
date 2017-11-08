@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="horizontal" android:id="@id/currentTemperatureImage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12dp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/currentTemperatureText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/water_mark_weather_temperature_defaultvalue" android:singleLine="true" />
+    <ImageView android:id="@id/du" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/currentWeatherDesImage" android:background="#00000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="12dp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/currentWeatherDesText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="12dp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/currentWeatherWinddirection" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="12dp" android:textColor="#ffffffff" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/currentWeatherWindpower" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</RelativeLayout>

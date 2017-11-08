@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.gallery.burst.ui.BurstViewLayout xmlns:android="http://schemas.android.com/apk/res-auto" gallery:background="0x106000c" gallery:clickable="true" gallery:clipChildren="false" gallery:layout_width="match_parent" gallery:layout_height="match_parent" gallery:splitMotionEvents="false">
+    <com.huawei.gallery.burst.ui.BurstImageThumbGallery gallery:id="@id/burst_thumb_gallery" gallery:layout_width="match_parent" gallery:layout_height="UNKNOWN_DATA_0x4401" gallery:layout_marginTop="1dp" gallery:layout_marginBottom="1dp" gallery:layout_alignParentBottom="true" gallery:layout_centerVertical="true" gallery:spacing="1dp" gallery:unselectedAlpha="1.0" />
+    <RelativeLayout gallery:id="@id/burst_preview_gallery_container" gallery:clipChildren="false" gallery:layout_width="match_parent" gallery:layout_height="match_parent" gallery:layout_above="@id/burst_thumb_gallery" gallery:layout_centerVertical="true">
+        <LinearLayout gallery:orientation="vertical" gallery:layout_width="match_parent" gallery:layout_height="match_parent" gallery:weightSum="100.0">
+            <ImageView gallery:layout_width="match_parent" gallery:layout_height="UNKNOWN_DATA_0x1" gallery:src="0x106000d" gallery:layout_weight="95.0" />
+            <ImageView gallery:layout_width="match_parent" gallery:layout_height="UNKNOWN_DATA_0x1" gallery:src="@drawable/tab_selected_point" gallery:scaleType="center" gallery:layout_weight="5.0" />
+        </LinearLayout>
+        <com.huawei.gallery.burst.ui.BurstImagePreviewGallery gallery:gravity="top|bottom|center_vertical|fill_vertical|center|fill" gallery:id="@id/burst_preview_gallery" gallery:clipChildren="false" gallery:layout_width="match_parent" gallery:layout_height="match_parent" gallery:layout_centerInParent="true" gallery:spacing="@dimen/burst_photo_preview_spacing" gallery:unselectedAlpha="1.0" />
+    </RelativeLayout>
+</com.huawei.gallery.burst.ui.BurstViewLayout>

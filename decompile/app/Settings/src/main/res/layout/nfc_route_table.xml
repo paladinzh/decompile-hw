@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/explain_tv" android:text="@string/nfc_route_explain" style="@style/help_text_content_style" />
+    <ListView android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/app_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="false" android:layout_weight="7.0" android:paddingStart="@dimen/nfc_table_padding" android:paddingEnd="@dimen/nfc_table_padding" />
+    <Button android:id="@id/ok_set_btn" android:text="@string/nfc_set_ok" style="@style/bottom_single_button" />
+</LinearLayout>

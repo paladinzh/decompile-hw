@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+    <com.android.contacts.hap.calllog.PrimaryActionView android:id="@+id/primary_action_view" android:background="?unknown_attr_ref: 101030e" android:focusable="true" android:nextFocusRight="@+id/secondary_action_icon" android:longClickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:id="@+id/call_log_list_item_time_axis_child_content" android:layout_centerVertical="true" layout="@layout/call_log_list_item_time_axis_child_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@+id/secondary_action_icon_layout" android:nextFocusLeft="@+id/primary_action_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="0x0" android:layout_alignParentEnd="true">
+            <ImageButton android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/secondary_action_icon" android:background="0x106000d" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="UNKNOWN_DATA_0x7f0d0216" android:layout_height="UNKNOWN_DATA_0x7f0d0217" android:scaleType="fitXY" android:contentDescription="0x0" android:layout_marginStart="@dimen/call_log_secondaryaction_icon_marigin_start" />
+        </LinearLayout>
+        <include android:id="@+id/list_item_shadow" layout="@layout/contact_list_shadow_item_view" />
+    </com.android.contacts.hap.calllog.PrimaryActionView>
+    <ViewStub android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/call_log_entry_actions_stub" android:layout="@layout/call_log_list_item_actions" android:inflatedId="@+id/call_log_entry_actions" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="28dp" android:layout_marginEnd="@dimen/dailpad_tab_layout_margin_left_right_height" />
+    <View android:id="@+id/call_log_divider" android:background="?unknown_attr_ref: 101032c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" android:layout_marginStart="@dimen/call_log_divider_margin_start" android:layout_marginEnd="@dimen/call_log_divider_margin_end" />
+</LinearLayout>

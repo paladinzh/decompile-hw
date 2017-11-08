@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/set_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="@string/data_usage_cycle_editor_subtitle" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+    <NumberPicker android:id="@id/cycle_day" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_below="@id/set_tv" android:layout_centerInParent="true" />
+</RelativeLayout>

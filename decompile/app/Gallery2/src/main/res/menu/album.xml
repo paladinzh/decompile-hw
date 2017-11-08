@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/action_refresh" android:title="@string/dlna_refresh" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_camera" android:title="@string/switch_to_camera" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_share" android:visible="true" android:title="@string/share" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_add_picture" android:visible="false" android:title="@string/photoshare_add_picture" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_photoshare_download" android:visible="false" android:title="@string/photoshare_download" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_delete" android:visible="true" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_recovery" android:visible="true" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_thorough_delete" android:visible="true" android:title="@string/delete" android:showAsAction="ifRoom" />
+    <item android:id="@id/action_copy" android:visible="false" android:title="@string/copy" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_cut" android:visible="false" android:title="@string/cut" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_paste" android:visible="false" android:title="@string/paste" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_set_as_favorite" android:visible="true" android:title="@string/favorite_set_as_favorite_general" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_cancel_favorite" android:visible="false" android:title="@string/favorite_cancel_favorite" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_photoshare_download_short" android:visible="false" android:title="@string/photoshare_download_short" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_photoshare_edit" android:visible="false" android:title="@string/photoshare_edit_my_share" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_slideshow" android:title="@string/slideshow" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_select" android:visible="false" android:title="@string/select_item" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_group_by" android:title="@string/group_by" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/action_settings" android:visible="true" android:title="@string/settings" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/print" android:title="@string/print_or_export" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/remove_from_story_album" android:title="@string/print_or_export" android:showAsAction="UNKNOWN_DATA_0x0" />
+    <item android:id="@id/remove_story_album" android:title="@string/print_or_export" android:showAsAction="UNKNOWN_DATA_0x0" />
+</menu>

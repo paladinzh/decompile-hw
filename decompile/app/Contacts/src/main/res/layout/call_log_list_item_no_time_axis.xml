@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.android.contacts.hap.calllog.PrimaryActionView android:id="@+id/primary_action_view" android:background="?unknown_attr_ref: 101030e" android:focusable="true" android:nextFocusRight="@+id/secondary_action_icon" android:longClickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <include android:id="@+id/call_log_list_item_time_axis_child_content" android:layout_centerVertical="true" layout="@layout/call_log_list_item_time_axis_child_content" />
+        <ImageButton android:id="@+id/secondary_action_icon" android:background="0x106000d" android:paddingTop="@dimen/call_log_list_item_secondary_action_icon_padding_topandbottom" android:paddingBottom="@dimen/call_log_list_item_secondary_action_icon_padding_topandbottom" android:focusable="false" android:focusableInTouchMode="false" android:nextFocusLeft="@+id/primary_action_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="0x0" android:paddingStart="@dimen/call_log_list_item_secondary_action_icon_padding" android:paddingEnd="@dimen/call_log_list_item_secondary_action_icon_padding" android:layout_alignParentEnd="true" />
+    </com.android.contacts.hap.calllog.PrimaryActionView>
+    <View android:id="@+id/call_log_divider" android:background="@drawable/list_divider_horizontal_time_axis" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" />
+</LinearLayout>

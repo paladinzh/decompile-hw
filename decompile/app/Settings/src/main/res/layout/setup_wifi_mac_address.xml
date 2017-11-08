@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/setup_add_network_item_height" android:textDirection="locale" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wifi_advanced_mac_address_title" android:paddingStart="@dimen/setup_list_no_icon_padding" />
+    <TextView android:id="@id/mac_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/setup_list_no_icon_padding" />
+</LinearLayout>

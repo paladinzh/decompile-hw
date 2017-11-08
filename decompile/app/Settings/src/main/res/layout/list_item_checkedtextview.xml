@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckedTextView android:textSize="@dimen/preference_item_title_size" android:gravity="center_vertical" android:id="@id/checkedTextView1" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall" android:checkMark="?android:listChoiceIndicatorSingle" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end" style="@style/EmuiPrimaryTextFontStyle" />
+</RelativeLayout>

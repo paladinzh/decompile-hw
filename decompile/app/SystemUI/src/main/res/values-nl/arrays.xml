@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Scannen...</item>
+        <item>Verbinding maken...</item>
+        <item>Verifiëren...</item>
+        <item>IP-adres ophalen…</item>
+        <item>Verbonden</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken...</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+        <item>Geblokkeerd</item>
+        <item>Slechte verbinding tijdelijk vermijden</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scannen...</item>
+        <item>Verbinding maken met %1$s...</item>
+        <item>Verifiëren met %1$s…</item>
+        <item>IP-adres ophalen van %1$s…</item>
+        <item>Verbonden met %1$s</item>
+        <item>Opgeschort</item>
+        <item>Verbinding verbreken met %1$s…</item>
+        <item>Verbinding verbroken</item>
+        <item>Mislukt</item>
+        <item>Geblokkeerd</item>
+        <item>Slechte verbinding tijdelijk vermijden</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Nooit controleren</item>
+        <item>Alleen controleren op DRM-inhoud</item>
+        <item>Altijd controleren</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCP-controle nooit gebruiken</item>
+        <item>HDCP-controle alleen voor DRM-inhoud gebruiken</item>
+        <item>HDCP-controle altijd gebruiken</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Uit</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Uit</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Uit</item>
+        <item>64 K per logbuffer</item>
+        <item>256 K per logbuffer</item>
+        <item>1 M per logbuffer</item>
+        <item>4 M per logbuffer</item>
+        <item>16 M per logbuffer</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animatie uit</item>
+        <item>Animatieschaal 0,5x</item>
+        <item>Animatieschaal 1x</item>
+        <item>Animatieschaal 1,5x</item>
+        <item>Animatieschaal 2x</item>
+        <item>Animatieschaal 5x</item>
+        <item>Animatieschaal 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animatie uit</item>
+        <item>Animatieschaal 0,5x</item>
+        <item>Animatieschaal 1x</item>
+        <item>Animatieschaal 1,5x</item>
+        <item>Animatieschaal 2x</item>
+        <item>Animatieschaal 5x</item>
+        <item>Animatieschaal 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animatie uit</item>
+        <item>Animatieschaal 0,5x</item>
+        <item>Animatieschaal 1x</item>
+        <item>Animatieschaal 1,5x</item>
+        <item>Animatieschaal 2x</item>
+        <item>Animatieschaal 5x</item>
+        <item>Animatieschaal 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Geen</item>
+        <item>480p</item>
+        <item>480p (veilig)</item>
+        <item>720p</item>
+        <item>720p (veilig)</item>
+        <item>1080p</item>
+        <item>1080p (veilig)</item>
+        <item>4K</item>
+        <item>4K (veilig)</item>
+        <item>4K (opgeschaald)</item>
+        <item>4K (opgeschaald, veilig)</item>
+        <item>720p, 1080p (dubbel scherm)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Geen</item>
+        <item>Logcat</item>
+        <item>Systrace (graphics)</item>
+        <item>Oproepstack op glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Uit</item>
+        <item>Niet-rechthoekige bijsnijdregio tekenen in blauw</item>
+        <item>Geteste tekenopdrachten markeren in groen</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Uit</item>
+        <item>Op het scherm als balken</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Uit</item>
+        <item>Gedeeltes met overbelasting weergeven</item>
+        <item>Gebieden voor deuteranomalie weergeven</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Standaardlimiet</item>
+        <item>Geen achtergrondprocessen</item>
+        <item>Maximaal 1 proces</item>
+        <item>Maximaal 2 processen</item>
+        <item>Maximaal 3 processen</item>
+        <item>Maximaal 4 processen</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Opladen</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB-Ethernet)</item>
+        <item>Audiobron</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Zeer langzaam</item>
+        <item>Langzaam</item>
+        <item>Normaal</item>
+        <item>Snel</item>
+        <item>Sneller</item>
+        <item>Zeer snel</item>
+        <item>Vlug</item>
+        <item>Zeer vlug</item>
+        <item>Snelst</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Levendig (standaard)</item>
+        <item>Natuurlijk</item>
+        <item>Standaard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Verbeterde kleuren</item>
+        <item>Natuurlijke kleuren zoals gezien door het menselijk oog</item>
+        <item>Kleuren geoptimaliseerd voor digitale content</item>
+    </array>
+    <array name="clock_options">
+        <item>Uren, minuten en seconden weergeven</item>
+        <item>Uren en minuten weergeven (standaard)</item>
+        <item>Dit pictogram niet weergeven</item>
+    </array>
+    <array name="battery_options">
+        <item>Percentage altijd weergeven</item>
+        <item>Percentage weergeven tijdens opladen (standaard)</item>
+        <item>Dit pictogram niet weergeven</item>
+    </array>
+</resources>

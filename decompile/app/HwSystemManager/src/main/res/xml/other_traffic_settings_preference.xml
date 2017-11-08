@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/androidhwext" androidhwext:orientation="vertical" androidhwext:layout_width="match_parent" androidhwext:layout_height="match_parent" androidhwext:key="harassment_settings">
+    <Preference androidhwext:layout="@layout/preference_title_2" androidhwext:title="" androidhwext:summary="@string/no_traffic_notification" androidhwext:preferenceID="@+id/prefs_no_traffic_notification" />
+    <TextArrowPreference androidhwext:title="@string/extra_traffic_package_title" androidhwext:key="extra_traffic_package" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_extra_traffic_package" />
+    <TextArrowPreference androidhwext:title="@string/roaming_traffic_title" androidhwext:key="roaming_traffic_package" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_roaming_traffic_package" />
+    <TextArrowPreference androidhwext:title="@string/leisure_time_traffic_title" androidhwext:key="leisure_time_traffic" androidhwext:widgetLayout="0x2070013" androidhwext:preferenceID="@+id/prefs_leisure_time_traffic" />
+    <TextArrowPreference androidhwext:title="@string/no_traffic_app_title" androidhwext:key="no_traffic_app" androidhwext:widgetLayout="0x2070013" androidhwext:netherSummary="@string/no_traffic_app_subtitle" androidhwext:preferenceID="@+id/prefs_no_traffic_app" />
+</PreferenceScreen>

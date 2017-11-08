@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/CS_background" android:paddingLeft="@dimen/cs_page_padding" android:paddingRight="@dimen/cs_page_padding" android:paddingBottom="@dimen/cs_privacy_policy_button_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/cs_page_padding" android:paddingEnd="@dimen/cs_page_padding">
+    <LinearLayout android:id="@+id/content_lay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/cs_view_height" android:layout_alignParentTop="true">
+        <WebView android:textAppearance="?unknown_attr_ref: 1010042" android:id="@+id/webview" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/cs_privacy_policy_webview_margin" android:layout_marginBottom="@dimen/cs_privacy_policy_webview_margin" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/retry_lay" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/imageview" android:layout_width="UNKNOWN_DATA_0x7f0a0139" android:layout_height="UNKNOWN_DATA_0x7f0a0139" android:src="@drawable/cs_wifi" android:contentDescription="@string/CS_app_name" />
+                    <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="@dimen/cs_privacy_policy_textview_size" android:textColor="@color/CS_black_100_percent" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/privacy_policy_textview_2" android:paddingLeft="@dimen/cs_view_margin" android:paddingRight="@dimen/cs_view_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/CS_no_connection" android:paddingStart="@dimen/cs_view_margin" android:paddingEnd="@dimen/cs_view_margin" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/Btn_retry" android:text="@string/CS_retry" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button android:id="@+id/btn_ok" android:visibility="gone" android:text="@string/CS_know" android:layout_alignBottom="@+id/content_lay" android:layout_alignParentBottom="true" style="@style/CS_EmoutionUI3_HoloButtonStyle" />
+    <LinearLayout android:id="@+id/layout_agree" android:paddingLeft="@dimen/cs_page_padding_scrollView" android:paddingRight="@dimen/cs_page_padding_scrollView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignBottom="@+id/content_lay" android:layout_alignParentBottom="true" android:paddingStart="@dimen/cs_page_padding_scrollView" android:paddingEnd="@dimen/cs_page_padding_scrollView">
+        <include layout="@layout/cs_button_auto" />
+    </LinearLayout>
+</RelativeLayout>

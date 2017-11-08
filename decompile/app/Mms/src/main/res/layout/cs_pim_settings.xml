@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/CS_background" android:paddingLeft="@dimen/cs_page_padding" android:paddingTop="@dimen/cs_page_padding_top" android:paddingRight="@dimen/cs_page_padding" android:paddingBottom="@dimen/cs_page_padding_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/cs_page_padding" android:paddingEnd="@dimen/cs_page_padding">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="@dimen/cs_textview_jump_size" android:textColor="@color/CS_black_100_percent" android:id="@+id/pim_settings_textview_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cs_view_margin" android:layout_marginRight="@dimen/cs_view_margin" android:text="@string/CS_base_info_nickname" android:layout_marginStart="@dimen/cs_view_margin" android:layout_marginEnd="@dimen/cs_view_margin" />
+                <TextView android:textSize="@dimen/cs_textview_jump_size" android:textColor="@color/CS_black_100_percent" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/explain_nickname" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a0111" android:layout_marginLeft="@dimen/cs_view_margin" android:layout_marginRight="@dimen/cs_view_margin" android:text="@string/CS_nickname_first_change" android:layout_marginStart="@dimen/cs_view_margin" android:layout_marginEnd="@dimen/cs_view_margin" />
+                <EditText android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/edit_name" android:hint="@string/CS_edit_name_text" android:maxLength="20" style="@style/CS_EmoutionUI3_EditText_NewStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:textSize="@dimen/cs_textview_jump_size" android:textColor="@color/CS_black" android:id="@+id/pim_settings_textview_5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cs_view_margin" android:layout_marginRight="@dimen/cs_view_margin" android:text="@string/CS_base_info_device_name" android:layout_marginStart="@dimen/cs_view_margin" android:layout_marginEnd="@dimen/cs_view_margin" />
+                <EditText android:id="@+id/devicename_edit" android:hint="@string/CS_edit_devicename_text" android:maxLength="40" style="@style/CS_EmoutionUI3_EditText_NewStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/cs_button_auto" />
+</LinearLayout>

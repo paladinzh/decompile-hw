@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@r$id/weather_icon" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:contentDescription="0x0" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/coverscreen_temperature_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_below="@r$id/weather_icon">
+        <TextView android:textSize="15dp" android:textColor="#b3ffffff" android:id="@r$id/current_temperature" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/cover_temperature_text_style" />
+        <ImageView android:id="@r$id/cover_temperature_unit" android:paddingBottom="12dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/weather_unit_c" android:contentDescription="0x0" />
+    </LinearLayout>
+</RelativeLayout>

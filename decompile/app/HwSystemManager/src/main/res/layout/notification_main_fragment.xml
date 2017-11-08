@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/app_rule_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ViewStub android:id="@+id/actionbar_container" android:layout="@layout/notification_actionbar" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/app_rule_list_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <ProgressBar android:id="@+id/rule_loading_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/no_app_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:background="@drawable/ic_no_apps" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:layout_marginTop="160dp" />
+        <TextView android:textSize="12sp" android:textColor="@color/emui_list_secondray_text" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/harassmentInterception_rule_empty" android:layout_marginStart="28dp" android:layout_marginEnd="28dp" />
+    </LinearLayout>
+</RelativeLayout>

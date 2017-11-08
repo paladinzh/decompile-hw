@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_switch_category"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/wifi_switch_category" android:key="otg_switch_category">
+        <SwitchPreference android:title="@string/otg_feature_settings" android:key="otg_switch" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/otg_feature_help" android:key="otg_help_category">
+        <Preference android:layout="@layout/preference_text" android:key="help" android:summary="@string/otg_feature_notes_help" />
+    </PreferenceCategory>
+</PreferenceScreen>

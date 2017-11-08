@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/virus_notify_dialog_layout" android:paddingTop="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/virus_notify_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_padding_start_end_emui" android:paddingEnd="@dimen/list_item_padding_start_end_emui">
+        <TextView android:textSize="15sp" android:textColor="@color/emui_list_primary_text" android:ellipsize="end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/notification_firststart_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" android:fontFamily="sans-serif-medium" />
+        <TextView android:textSize="13sp" android:textColor="@color/emui_list_primary_text" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/notification_firststart_dialog_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" />
+    </LinearLayout>
+</RelativeLayout>

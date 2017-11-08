@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" systemui:orientation="horizontal" systemui:layout_width="match_parent" systemui:layout_height="match_parent"
+    <LinearLayout systemui:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" systemui:orientation="vertical" systemui:background="0x106000b" systemui:paddingTop="12dp" systemui:paddingBottom="12dp" systemui:layout_width="wrap_content" systemui:layout_height="match_parent" systemui:paddingStart="8dp" systemui:paddingEnd="8dp" systemui:elevation="4dp">
+        <TextView systemui:textAppearance="?unknown_attr_ref: 1010041" systemui:textColor="?unknown_attr_ref: 1010435" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:text="@string/preview" systemui:paddingStart="8dp" systemui:paddingEnd="8dp" />
+        <FrameLayout systemui:id="@id/nav_preview_frame" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView systemui:id="0x102000a" systemui:layout_width="match_parent" systemui:layout_height="match_parent" />
+</LinearLayout>

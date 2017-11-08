@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/location_settings_title" android:key="location_settings" settings:keywords="@string/keywords_location"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.android.settings.LocationProvisionPreference android:persistent="true" android:title="@string/location_access_title" android:key="location_toggle" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/location_mode_title" android:key="location_mode_category">
+        <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/location_mode_high_accuracy_title_emui" android:key="high_accuracy" android:summary="@string/location_mode_high_accuracy_description_emui" />
+        <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/location_mode_battery_saving_title_emui" android:key="battery_saving" android:summary="@string/location_mode_battery_saving_description_emui" />
+        <com.android.settings.location.RadioButtonPreference android:persistent="false" android:title="@string/location_mode_sensors_only_title_emui" android:key="sensors_only" android:summary="@string/location_mode_sensors_only_description_emui" />
+        <Preference android:title="@string/location_assist_settings_title" android:key="location_assist_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.location.LocationAssistSettings" />
+    </PreferenceCategory>
+    <com.android.settingslib.RestrictedSwitchPreference android:enabled="false" android:title="@string/managed_profile_location_switch_title" android:selectable="true" android:key="managed_profile_location_switch" settings:useAdminDisabledSummary="true" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/location_category_recent_location_requests" android:key="recent_location_requests" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/location_category_location_services" android:key="location_services" />
+</PreferenceScreen>

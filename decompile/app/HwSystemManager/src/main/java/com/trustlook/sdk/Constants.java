@@ -1,0 +1,44 @@
+package com.trustlook.sdk;
+
+public class Constants {
+    public static final String CLIENT_CONNECTION_TIMEOUT = "client_connection_timeout";
+    public static final String CLIENT_REGION = "client_region";
+    public static final int CLIENT_REGION_CHN = 1;
+    public static final int CLIENT_REGION_INT = 0;
+    public static final String CLIENT_SOCKET_TIMEOUT = "client_socket_timeout";
+    public static final String CLIENT_TOKEN = "client_token";
+    public static final String FREAK_VULNERABILITY = "FREAK";
+    public static final String HEARTBLEED_VULNERABILITY = "HEARTBLEED";
+    public static final String ID_THEFT_URL = "/drapp/api/v1/idtheft/";
+    public static final String Legit_Check_URL = "/serv/legit/query/";
+    public static final String MSG_200 = "msg_200";
+    public static final String MSG_201 = "msg_201";
+    public static final String MSG_401 = "msg_401";
+    public static final String MSG_402 = "msg_402";
+    public static final String MSG_403 = "msg_403";
+    public static final String MSG_412 = "msg_412";
+    public static final String PAYLOAD_MESSAGE = "message";
+    public static final String PAYLOAD_MSGID = "msgid";
+    public static final String PAYLOAD_RESULTS = "results";
+    public static final String PAYLOAD_SUCCESS = "success";
+    public static final String PREFERENCE_NAME = "trustlook_cloudscan_sdk_shared_pref";
+    public static final String QUERY = "/query";
+    public static final String Query_URL = "/drapp/api/v1/query/";
+    public static final String TAG = "TL";
+    public static final int UNKNOWN = -1;
+    public static final String VERSION_NUMBER = "2.0";
+    public static final String vulnerability_freak = "FREAK";
+    public static final String vulnerability_freak_desc = "The FREAK is a vulnerability on the OpenSSL library, which allows an attacker to steal or manipulate sensitive data (such as passwords and credit card numbers) sent via HTTPS secure connections.";
+    public static final String vulnerability_heart_bleed = "HeartBleed";
+    public static final String vulnerability_heart_bleed_desc = "\"Heartbleed\" is a serious vulnerability in the popular OpenSSL cryptographic software library. This weakness allows stealing the information protected, under normal conditions, by the HTTPS encrypted traffic used to secure the Internet. Leading to critical privacy leak.";
+    public static final String vulnerability_privacy_disaster = "Privacy Disaster";
+    public static final String vulnerability_privacy_disaster_decs = "Privacy Disaster is a critical vulnerability on Android 4.3 or below, involving a bypass of the universal browser safety mechanism \"Same Origin Policy (SOP)\". It allows an attacker to retrieve cookies and page information (such as entered passwords) from a normally trusted domain by using a carefully crafted webpage.";
+    public static final String vulnerability_stage_fright = "StageFright";
+    public static final String vulnerability_stage_fright_desc = "Stagefright is a series of critical vulnerabilities on the Android media library \"Stagefright\". These vulnerabilities are usually triggered by malformed video files. A successful attack could lead to remote code execution on your phone, such as accessing your SMS, payment information or Facebook messages.";
+    public static final String vulnerability_zip_bug_8219321 = "ZipBug 8219321";
+    public static final String vulnerability_zip_bug_8219321_desc = "Zip bug allows modifying apk files without breaking the signature. Essentially, you can replace existing files in an app. Fixed around Android 4.4.";
+    public static final String vulnerability_zip_bug_9695860 = "ZipBug 9695860";
+    public static final String vulnerability_zip_bug_9695860_desc = "Zip bug allows modifying apk files without breaking the signature. Based on reading unsigned 16 bit numbers from the zip header and interpreting them as signed 32 bit numbers.";
+    public static final String vulnerability_zip_bug_9950697 = "ZipBug 9950697";
+    public static final String vulnerability_zip_bug_9950697_desc = "Zip bug allows modifying apk files without breaking the signature. Based on improper parsing of the \"name\" length in the zip file.";
+}

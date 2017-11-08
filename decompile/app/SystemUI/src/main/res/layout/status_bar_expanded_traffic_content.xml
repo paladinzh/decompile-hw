@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.traffic.TrafficPanelViewContent xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:orientation="vertical" systemui:id="@id/traffic_panel" systemui:background="@drawable/notification_guts_background" systemui:paddingLeft="16dp" systemui:paddingRight="16dp" systemui:clickable="true" systemui:layout_width="match_parent" systemui:layout_height="wrap_content">
+    <include systemui:id="@id/traffic_info" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x2401" layout="@layout/status_bar_expanded_traffic" />
+    <RelativeLayout systemui:id="@id/content_tip" systemui:visibility="visible" systemui:layout_width="match_parent" systemui:layout_height="UNKNOWN_DATA_0x2401">
+        <ImageView systemui:id="@id/tip_image" systemui:background="@drawable/ic_notification_data" systemui:layout_width="UNKNOWN_DATA_0x1001" systemui:layout_height="UNKNOWN_DATA_0x1001" systemui:layout_centerVertical="true" systemui:layout_alignParentStart="true" />
+        <TextView systemui:textAppearance="@style/TextAppearance.StatusBar.Expanded.traffic" systemui:id="@id/traffic_tip" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_centerVertical="true" systemui:layout_marginStart="8dp" systemui:layout_toEndOf="@id/tip_image" />
+    </RelativeLayout>
+</com.android.systemui.traffic.TrafficPanelViewContent>

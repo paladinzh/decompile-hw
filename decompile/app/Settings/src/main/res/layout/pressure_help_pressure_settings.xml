@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/pressure_help_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pressure_help_bg_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/pressure_navi_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/pressure_tip_text_size" android:textColor="@color/pressure_tip_text_color" android:gravity="center" android:id="@id/top_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/pressure_launch_app_tip_marginTop" android:text="@string/pressure_launch_app_help_tip" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/pressure_launch_app_tip_marginLeft" android:layout_marginEnd="@dimen/pressure_launch_app_tip_marginRight" />
+        <TextView android:textSize="@dimen/pressure_tip_text_size" android:textColor="@color/pressure_tip_text_color" android:gravity="center" android:id="@id/bottom_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pressure_navigation_tip_marginBottom" android:text="@string/pressure_navigation_help_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/pressure_navigation_tip_marginLeft" android:layout_marginEnd="@dimen/pressure_navigation_tip_marginRight" />
+    </RelativeLayout>
+</RelativeLayout>

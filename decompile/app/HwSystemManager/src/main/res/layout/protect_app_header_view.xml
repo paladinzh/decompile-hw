@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/protect_app_header_view" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:id="@+id/protect_app_tip_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:text="@string/power_lock_clean_app_headtext" android:lineSpacingMultiplier="1.3" android:textAlignment="viewStart" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
+    <TextView android:textSize="13sp" android:textColor="?unknown_attr_ref: 1010038" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:text="@string/power_locked_save_func_guide" android:textAlignment="viewStart" android:layout_marginStart="24dp" android:layout_marginEnd="24dp" />
+    <include android:id="@+id/first_divider" layout="@layout/divider_line_new" />
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/allcheck_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_padding_start_end_emui" android:paddingEnd="@dimen/list_item_padding_start_end_emui">
+        <TextView android:textAppearance="?unknown_attr_ref: 101039e" android:textColor="?unknown_attr_ref: 1010036" android:id="@+id/main_switcher_view" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/power_locked_save_list_all_cleaned" android:layout_centerVertical="true" android:paddingEnd="8dp" android:layout_toStartOf="@+id/main_switcher" android:layout_alignParentStart="true" />
+        <Switch android:id="@+id/main_switcher" android:layout_width="UNKNOWN_DATA_0x7f0a004a" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <include android:id="@+id/second_divider" layout="@layout/divider_line_new" />
+</LinearLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="connected_via_wfa">WLAN köməkçisi vasitəsilə birləşdirilib</string>
+    <string name="accessibility_wifi_off">WLAN sönülü.</string>
+    <string name="accessibility_no_wifi">WLAN ilə bağlantı kəsildi.</string>
+    <string name="accessibility_wifi_one_bar">WLAN bir zolaq.</string>
+    <string name="accessibility_wifi_two_bars">WLAN iki zolaqdır.</string>
+    <string name="accessibility_wifi_three_bars">WLAN üç zolaqdır.</string>
+    <string name="accessibility_wifi_signal_full">WLAN siqnalı doludur.</string>
+    <string name="wifi_verbose_logging">WLAN Çoxsözlü Girişə icazə verin</string>
+    <string name="wifi_aggressive_handover">"Aqressiv WLAN'dan Şəbəkə ötürməsinə"</string>
+    <string name="wifi_allow_scan_with_traffic">WLAN axtarışlarına həmişə icazə verin</string>
+    <string name="wifi_verbose_logging_summary">WLAN giriş səviyyəsini qaldırın, WLAN seçəndə hər SSID RSSI üzrə göstərin</string>
+    <string name="wifi_aggressive_handover_summary">Aktiv olanda, WLAN sianqlı zəif olan zaman, Mobil şəbəkə data bağlantısına nisbətən, WLAN daha aqressiv olacaq</string>
+    <string name="wifi_allow_scan_with_traffic_summary">WLAN Axtarışlarına data trafikinə əsasən İcazə verin/Qadağan edin</string>
+    <string name="mobile_data_always_on_summary">Hətta WLAN aktiv olanda belə, həmişə mobil datanı aktiv saxlayın (sürətlə şəbəkəyə qoşulmaq üçün)</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN ayarları</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN seçin</string>
+    <string name="wifi_starting">WLAN yandırılır...</string>
+    <string name="wifi_stopping">WLAN söndürün...</string>
+    <string name="wifi_automatically_connect_title">Açıq WLAN şəbəkəsini avtm istif edin</string>
+    <string name="wifi_automatically_connect_summary">WLAN köməkçisinin yaxşı İnternet bağlantısı olan açıq şəbəkələrə avtm qoşulmasına imkan verin</string>
+    <string name="wifi_scan_notify_text">Məkan dəqiqliyini artırmaq üçün sistem tətbiqləri və xidmətləri yenə WLAN şəbəkələrini skanlaya bilər. Bunu LINK_BEGINskanlama parametrlərindənLINK_END dəyişə bilərsiniz.</string>
+    <string name="wifi_setting_sleep_policy_title">"Yuxu zamanı WLAN'ı açıq saxlayın"</string>
+    <string name="wifi_access_points">WLAN şəbəkələri</string>
+    <string name="wifi_menu_p2p">WLAN Direkt</string>
+    <string name="wifi_empty_list_wifi_off">Mövcud şəbəkələri görmək üçün, WLAN açın.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN şəbəkə axtarılır...</string>
+    <string name="wifi_wps_onstart_pbc">WLAN Qorunan Quraşdırma düyməsini marşrutunuzda basın. Onun adı \"WPS\" ola bilər və ya bu söz o adda ola bilər.</string>
+    <string name="wifi_scan_always_turnon_message">"Yerləşmə dəqiqliyini təkmilləşdirmək və digər məqsədlər üçün WLAN qapalı olsa da belə %1$s tətbiqi şəbəkə skanını yandırmaq istəyir. 
+ 
+ Skan etmək istəyən bütün tətbiqlərə icazə verilsin?"</string>
+    <string name="wifi_skipped_message">"XƏBƏRDARLIQ: Sizdən əlavə data rüsumları tutula bilər.
+
+Telefon quraşdırması zəruri şəbəkə aktivliyi tələb edə bilər."</string>
+    <string name="wifi_and_mobile_skipped_message">DİQQƏT: Telefon proqram təminatınızın yeni olduğunu yoxlaya bilmir.</string>
+    <string name="wifi_advanced_titlebar">Təkmil WLAN parametrləri</string>
+    <string name="wifi_configure_titlebar">WLAN konfiqurasiya edin</string>
+    <string name="wifi_advanced_not_available">Təkmilləşmiş WLAN ayarları bu istifadəçi üçün əlçatmazdır</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Portativ WLAN hotspot</string>
+    <string name="wifi_tether_configure_ap_text">WLAN hotspot ayarlayın</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s daşınan WLAN hotspot</string>
+    <string name="wifi_calling_settings_title">WLAN zəngi parametrləri</string>
+    <string name="wifi_calling_suggestion_title">WLAN Zəngini aktiv edin</string>
+    <string name="wifi_calling_suggestion_summary">WLAN əvəzinə mobil şəbəkə istifadə edin</string>
+    <string name="wifi_calling_mode_title">WLAN zəngi</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN zəng rejimi</string>
+    <string name="wifi_calling_off_explanation">WLAN çağrısı aktiv olan zaman, tərcihinizdən və siqnalın gücündən asılı olaraq telefon WLAN və ya mobil şəbəkə üzərindən çağrı edə bilər. Bu funksiyanı aktivləşdirmədən öncə operatorun tariflərini və digər şeylərini öyrənin.</string>
+    <string name="status_wifi_mac_address">WLAN MAC ünvanı</string>
+    <string name="reset_network_desc">"Bu, 
+
+"<li>WLAN</li>"
+"<li>Mobil data</li>"
+"<li>Bluetooth</li> daxil olmaqla bütün şəbəkə parametrlərini yenidən quraşdıracaq</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN skan edilir</string>
+    <string name="location_scanning_wifi_always_scanning_description">İstənilən vaxt WLAN şəbəkələrini aşkar etmək üçün sistem applikasiyaları və xidmətlərinə icazə verməklə məkanı yaxşılaşdırın</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN işlənir</string>
+    <string name="battery_desc_wifi">WLAN tərəfindən işlənən enerji</string>
+    <string name="battery_sugg_wifi">İstifadə edilməyən zaman və ya əhatədən xaricdə olan zaman WLAN söndürün</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Tətbiq datasını, WLAN parolları və digər ayarları Google serverlərinə rezerv kopyalayın</string>
+    <string name="backup_erase_dialog_message">WLAN parollarının, əlfəcinlərin, digər parametrlərin və proqram məlumatlarının ehtiyat nüsxəsinin yaradılması dayandırılsın və bütün nüsxələr Google serverlərində silinsin?</string>
+    <string name="fullbackup_erase_dialog_message">Cihaz məlumatlarının (WLAN parolları və zəng tarixçəsi) və applikasiya məlumatlarının (parametrlər və applikasiyaların saxladığı fayllar) ehtiyat nüsxələrini çıxarmaq dayandırılsın və Google Drive-dakı bütün nüsxələr silinsin?</string>
+    <string name="fullbackup_data_summary">"Cihaz datası (WLAN parolları və zəng tarixçəsi) və tətbiq datasını (tətbiqlər tərəfindən saxlanılan ayar və fayllar) uzaqdan avtomatik yedəkləyin.
+
+Avtomatik yedəkləməni aktiv etdikdə, cihaz və tətbiq datası dövri olaraq uzaqdan saxlanılacaq. Tətbiq datası tətbiqin yadda saxladığı (developer ayarlarından asılı olaraq) istənilən data ola bilər, buta kontant, mesaj və fotolar kimi həssas data da daxildir."</string>
+    <string name="wifi_setup_title">WLAN quraşdırma</string>
+    <string name="wifi_setup_title_editing_network">%s WLAN şəbəkəsinə qoşulun ...</string>
+    <string name="wifi_setup_title_connecting_network">%s WLAN şəbəkəsinə qoşulur...</string>
+    <string name="wifi_setup_eap_not_supported">Ayarlama zamanı EAP WLAN bağlantı konfiqurasiya edə bilməzsiniz. Ayarlamadan sonra Siz Ayarlar > Wireless &amp; şəbəkələrdə bunu edə bilərsiniz.</string>
+    <string name="wifi_setup_description_connected">Quraşdrımanı davam etdirmək üçün <b>Sonrakı</b>" düyməsinə toxunun. 
+ 
+ Digər WLAN şəbəkəsinə qoşulmaq üçün "<b>Geri</b> düyməsinə toxunun.</string>
+    <string name="data_usage_menu_show_wifi">WLAN istifadəsi göstər</string>
+    <string name="data_usage_menu_hide_wifi">WLAN gizlət</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_app_restrict_background_summary">Yalnız mobil məlumat şəbəkəsi üzrə fon məlumatı deaktiv edin. Əgər varsa, qeyri-mobil şəbəkə istifadə olunacaq.</string>
+    <string name="data_usage_app_restrict_dialog">"Bu özəllik fon datadan asılı tətbiqin mobil şəbəkə əlçatımlı olan zaman işləməsinin dayanmasına səbəb ola bilər.
+
+Siz tətbiq daxilində əlçatımlı olan ayarlarda daha uyğun data istifadə kontrolu tapa bilərsiniz."</string>
+    <string name="data_usage_restrict_background">Fon mobil datanı məhdudlaşdırsanız, bəzi tətbiqlər və xidmətlər Wi‑Fi şəbəkəsinə qoşulmayana kimi işləməyəcəklər.</string>
+    <string name="data_usage_restrict_background_multiuser">"Fon mobil datanı məhdudlaşdırsanız, bəzi tətbiqlər və xidmətlər Wi‑Fi şəbəkəsinə qoşulmayana kimi işləməyəcəklər.
+
+Bu ayarlama bu telefonun bütün istifadəçilərinə təsir edəcək."</string>
+    <string name="data_usage_metered_body">Mobil qaynar nöqtələr olan WLAN şəbəkələri seçin. Tətbiqlər fon rejimində olduqda bu şəbəkələrdən istifadə məhdudlaşdırıla bilər. Həmçinin, böyükhəcmli endirmələr üçün bu şəbəkələr istifadə edilməmişdən əvvəl tətbiqlər tərəfindən xəbərdarlıq oluna bilər.</string>
+    <string name="data_usage_metered_wifi">WLAN şəbəkələri</string>
+    <string name="user_add_user_message_long">"Siz əlavə istifadəçilər yaratmaq ilə bu cihazı digər adamlarla paylaşa bilərsiniz. Hər istifadəçinin öz yaddaş yeri var, buranı onlar öz tətbiqləri, divarkağızları və s. ilə fərdiləşdirə bilər. İstifadəçilər, həmçinin, hər kəsə təsir edən WLAN kimi planşet parametrlərini nizamlaya bilər.
+
+Siz yeni istifadəçi yaratdıqdan sonra həmin adam quraşdırma prosesindən keçməlidir.
+
+İstənilən istifadəçi bütün digər istifadəçilər adından güncəllənmiş tətbiq icazələrini qəbul edə bilər."</string>
+    <string name="keywords_wifi">WLAN şəbəkə bağlantı</string>
+    <string name="keywords_wifi_calling">WLAN WLAN zəng zəngi</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC etik. qur.</string>
+    <string name="condition_hotspot_summary">Daşınan WLAN hotspotu %1$s aktivdir, bu cihaz üçün WLAN söndürülüb.</string>
+    <string name="condition_airplane_summary">WLAN, Bluetooth, və mobil şəbəkə söndürülüb. Zəng edə və ya İnternetə qoşula bilməzsiniz.</string>
+    <string name="condition_cellular_summary">İnternet yalnız WLAN vasitəsilə əlçatandır</string>
+    <string name="condition_bg_data_summary">"Arxa fon datası yalnız  WLAN vasitəsilə əlçatandır. WLAN əlçatan olmadıqda, bəzi tətbiq və ya xidmətlərə təsir edə bilər."</string>
+    <string name="wifi">WLAN</string>
+    <string name="wifi_tether_bridge_checkbox_text">WLAN körpüsü</string>
+    <string name="wifi_tether_bridge_tittle_text">WLAN körpüsü parametrləri</string>
+    <string name="wifi_tether_configure_bridge_text">WLAN körpüsünu konfiqurasiya edin</string>
+    <string name="wifi_bridge_settings_summary">Körpü adını, parolunu və s. təyin edin</string>
+    <string name="wifi_bridge_use_help_title">Kömək</string>
+    <string name="wifi_bridge_use_help_details">"1. WLAN körpüsü ötürmə diapazonunu və WLAN siqnallarının intensivliyini əhəmiyyətli dərəcədə artıra bilər. Digər cihazlar cihazınız vasitəsilə cari WLAN şəbəkənizə qoşula bilər.
+2. WLAN körpüsü 4-ə qədər cihazdan girişi dəstəkləyir.
+3. WLAN körpüsü WLAN giriş nöqtəsi və WLAN Direct funksiyaları ilə işləmir. WLAN körpüsü aktivləşdirildikdə, P2P xidmətlərindən istifadə edən bəzi proqramlar düzgün işləməyə bilər.
+4. WLAN körpüsünün istifadəsi batareya enerjisiniz daha sürətlə sərf edir."</string>
+    <string name="wifi_bridge_switch_nowifi_summary">WLAN əlaqəsi tələb olunur</string>
+    <string name="wifi_bridge_switch_wifi_summary">Birləşdirilmiş WLAN şəbəkəsini bölüş</string>
+    <string name="huawei_beam_explained">Huawei Beam şəkillər, videolar, əlaqələr və URL-lər kimi faylları cihazınızla başqa bir NFC-ni dəstəkləyən cihaz arasında köçürməyə imkan verir. Huawei Beam adətən hər iki cihazı bir-birinə yaxın (adətən arxa arxaya) yerləşdirərək və ekrana vuraraq aktivləşdirilir. Lütfən nəzərə alın ki, sizin Bluetooth və ya WLAN fayl köçürülməsindən əvvəl avtomatik aktivləşdirilə bilər.</string>
+    <string name="wifi_display_settings_summary">WLAN bağlantısı vasitəsilə telefonunuzun ekranını başqa bir ekranda göstər</string>
+    <string name="advanced_wifi_settings_title">Qabaqcıl ayarlar</string>
+    <string name="huawei_beam_front_explained">"Huawei Beam cihazları bir-birinə yaxın yerləşdirərək digər NFC cihazlarına fayl köçürməyə imkan verir. Məsələn, siz şəkilləri, videoları, əlaqələri, URL-ləri və s. NFC-ni dəstəkləyən cihazlar arasında köçürə bilərsiniz. Sadəcə olaraq:
+1. Cihazınızın arxa hissəsini digər NFC cihazının arxa hissəsinə yaxınlaşdırın və ton eşitdikdə cihazınızı qaldırın.
+2. Tonu eşitdikdən sonra üç saniyə ərzində ekranınıza toxunun.
+3.Köçürməni tamamlamaq üçün cihazınızın ön tərəfini digər NFC cihazınızın ön tərəfinə yaxınlaşdırın. Lütfən nəzərə alın ki, sizin Bluetooth və ya WLAN fayl köçürülməsindən əvvəl avtomatik aktivləşdirilə bilər."</string>
+    <string name="wifiap_use_help_details">"1. Siz portativ WLAN giriş nöqtəsindən İnternetə çıxış nöqtəsi kimi istifadə edə bilərsiniz. Periferik cihazlar WLAN vasitəsilə sizin cihazınıza qoşula bilər və qoşulmuş cihazlar mobil şəbəkə vasitəsilə İnternetə daxil olacaqlar.
+2. Portativ WLAN giriş nöqtəsindən istifadə mobil məlumat bağlantınızın aktiv olmasını tələb edəcək və bir qədər məlumat trafiki sərf edəcək.
+3. Portativ WLAN giriş nöqtəsindən istifadə batareyasınızı sürətlə sərf edə bilər."</string>
+    <string name="wifiap_connect_help_details_open">"Əl ilə bağlantı:
+1. Hədəf cihazda WLAN-ı yandırın və giriş nöqtəsini tapın %1$s.
+2. Giriş nöqtəsinə qoşulun."</string>
+    <string name="wifi_connected_to_cmcc_title">China Mobile WLAN</string>
+    <string name="wifi_connected_to_cmcc_warning">Siz China Mobile WLAN şəbəkəsinə qoşulmusunuz. Bu şəbəkədən istifadə etmə müvafiq WLAN istifadə haqqını yarada bilər.</string>
+    <string name="wifi_connected_to_cmcc_notify_switch">China Mobile WLAN xatırladıcı</string>
+    <string name="wifi_connected_to_cmcc_notify_summary">Mən China Mobile WLAN şəbəkəsinə qoşulduqda mənə xatırlat</string>
+    <string name="wifi_cmcc_no_notification_summary">Şəbəkəni dəyişən zaman bildiriş göstərmə (mobil məlumatlardan WLAN və əksinə, yaxud WLAN şəbəkələri arasında)</string>
+    <string name="location_mode_high_accuracy_description_wifionly">Yeri təxmin etmək üçün GPS və WLAN istifadə edin</string>
+    <string name="location_mode_battery_saving_description_wifionly">Yeri təxmin etmək üçün WLAN istifadə edin</string>
+    <string name="wifi_plus_title">WLAN+</string>
+    <string name="wifi_plus_summary">WLAN və ya mobil məlumat şəbəkəsini smart seçin</string>
+    <string name="wifi_plus_description">"WLAN+ qoşulmuş olduqda, intellektual şəbəkə dəyişikliyini təmin etmək üçün WLAN əlaqənizin keyfiyyəti qiymətləndiriləcək (WLAN məlumat istifadəsi arta bilər). WLAN+ avtomatik olaraq:
+1. Səlis internet əlaqəsini təmin etmək üçün WLAN və mobil şəbəkə arasında dəyişir (bildiriş verməklə).
+2. Məlum WLAN şəbəkəsi diapazonuna daxil olduqda WLAN funksiyasını qoşur və həmin şəbəkəyə birləşir."</string>
+    <string name="wifi_plus_settings_title">WLAN+ parametrləri</string>
+    <string name="wifi_plus_intelligent_switch_description">Daha yaxşı İnternet təcrübəsi üçün WLAN və mobil məlumatlar arasında ağıllı dəyişiklik et.</string>
+    <string name="wifi_plus_auto_turn_on_description">Məlum yerə yaxınlaşdıqda, avtomatik olaraq WLAN funksiyasını qoş.</string>
+    <string name="wifi_plus_global_description">"WLAN+ aktiv edildikdə, intellektual şəbəkə dəyişikliyi təmin etmək üçün WLAN şəbəkəsi ilə əlaqə qiymətləndiriləcək (WLAN məlumat istifadəsi arta bilər). WLAN+ avtomatik olaraq:
+1. Rahat İnternet təcrübəsi təqdim etmək üçün WLAN və mobil məlumatlar arasında dəyişiklik edir.
+2. Məlum WLAN şəbəkəsinin diapazonuna daxil olduqda WLAN funksiyasını qoşur və ona birləşir."</string>
+    <string name="location_mode_high_accuracy_title_emui">GPS, WLAN və mobil şbklrdn istfdə et</string>
+    <string name="location_mode_battery_saving_title_emui">WLAN və mobil şbklrdn istfdə et</string>
+    <string name="pgps_switch_summary">Daha tez və daha dəqiq məkan xidməti göstərməsi üçün GPS-ə yaxınlıqdakı telefon stansiyası və WLAN məlumatları toplamağa icazə verin.</string>
+    <string name="find_no_wlan_ap">WLAN giriş nöqtəsini tapmaq alınmadı</string>
+    <string name="cannot_connect_wlan">WLAN-a qoşulmaq mümkün olmadı</string>
+    <string name="cannot_login_internet_with_wlan">WLAN vasitəsilə İnternetə daxil olmaq alınmadı</string>
+    <string name="wfd_connect_fail">WLAN Direct bağlantısı alınmadı</string>
+    <string name="find_no_wfd_device">WLAN Direct cihazını tapmaq alınmadı</string>
+    <string name="wfd_search_no_devices_causes">"Heç bir cihaz tapılmadı, bunun səbəbi o, ola bilər ki:
+1. Qoşulan cihaz aşkar edilə bilən cihaz deyil.
+2. Qoşulan cihazda texniki problemlər var. WLAN yenidən başlatmağa cəhd edin və WLAN Direct-i yenidən açın.
+3. Sizin öz cihazınızda texniki problemlər var. WLAN yenidən başlatmağa cəhd edin və WLAN Direct-i yenidən açın."</string>
+    <string name="wfd_connected_failed_causes">"Əlaqə yaratmaq mümkün olmadı. Mümkün səbəblər:
+1. Qoşulan cihaz əlaqə sorğusunu qəbul etmədi.
+2. Ya da cihaz başqa WLAN Direct ilə artıq əlaqə yaradıb.
+3. Qoşulan cihazda texniki problemlər var. Onu yenidən başlatmağa cəhd edin."</string>
+    <string name="wifi_qrcode_share_notice">Bu WLAN şəbəkəsinə qoşulmaq üçün QR koodunu skanlayın</string>
+    <string name="devices_not_found_solution_title">Əgər cihazı tapmaq mümkün deyilsə, aşağıdakıları sınayın:</string>
+    <string name="devices_not_found_solution_message">"1. Cihazın başqa cihazları axtardığından əmin olun.
+2.Əgər digər cihazda problemlər varsa, WLAN funksiyasını yenidən başladın və WLAN Direct funksiyasına təkrar daxil olun.
+3. Əgər sizin cihazınızda problemlər varsa, WLAN funksiyasını yenidən başladın və WLAN Direct funksiyasına təkrar daxil olun"</string>
+    <string name="devices_not_connected_solution_message">"1. Digər cihazın əlaqə sorğusunu qəbul etdiyinə əmin olun.
+2. Hər iki cihazın başqa cihazlarla birləşmədiyinə əmin olun.
+3. Əgər digər cihazda problemlər varsa, təkrar əlaqə yaratmağa çalışın."</string>
+    <string name="wifi_plus_description_emui">"WLAN+ aktiv olduqda smart şəbəkə keçidi təmin etmək üçün WLAN qoşulmanız dəyərləndiriləcək (WLAN verilənlər istifadəsi arta bilər). WLAN+ avtomatik olaraq:
+1. Rahat İnternet təcrübəsi təmin etmək üçün WLAN və mobil verilənlər arasında keçid edir (Mobil şəbəkə parametrlərində defolt keçid rejimini seçə bilərsiniz).
+2. Məlum WLAN şəbəkəsi diapazonunda olduqda WLAN-yı aktiv edir və qoşulur."</string>
+    <string name="link_plus_live_update_description">Link+ canlı yeniləmə aktiv olduqda telefonunuz müvafiq Link+ funksiyalarını yaxşılaşdırmaq üçün ünsiyyət parametrlərinin verilənlərini simsiz şəbəkə vasitəsilə (susmaya görə WLAN) avtomatik yeniləyir.</string>
+    <string name="wifi_plus_description_emui2">"WLAN+ aktiv olduqda smart şəbəkə keçidi təmin etmək üçün WLAN qoşulmanız dəyərləndiriləcək (WLAN məlumat istifadəsi arta bilər). WLAN+ avtomatik olaraq:
+1. Əngəlsiz İnternet əlaqəsini təmin etmək üçün WLAN və mobil məlumatlar şəbəkəsi arasında birindən digərinə keçir (Siz mobil şəbəkə parametrlərində susmaya görə dəyişdirmə rejimini seçə bilərsiniz).
+2. Məlum WLAN şəbəkəsi diapazonunda olduqda WLAN funksiyasını qoşur və həmin şəbəkəyə birləşir.
+3. Mövcud WLAN şəbəkələrini dəyərləndirir. Cihaz İnternet əlaqəsi olmadan yadda saxlanmış şəbəkələrə avtomatik birləşməyəcək.
+4. Bəzi pulsuz WLAN giriş nöqtələrində daxil olan SMS mesajından yoxlama kodunu əldə edir və brauzer vasitəsilə şəbəkəyə daxil olur (hal-hazırda yalnız Çində dəstəklənir)."</string>
+    <string name="wifi_plus_global_description2">"WLAN+ aktiv olduqda smart şəbəkə keçidi təmin etmək üçün WLAN qoşulmanız dəyərləndiriləcək (WLAN məlumat istifadəsi arta bilər). WLAN+ avtomatik olaraq:
+1. Əngəlsiz İnternet əlaqəsini təmin etmək üçün WLAN və mobil məlumatlar şəbəkəsi arasında birindən digərinə keçir.
+2. Məlum WLAN şəbəkəsi diapazonunda olduqda WLAN funksiyasını qoşur və həmin şəbəkəyə birləşir.
+3. Mövcud WLAN şəbəkələrini dəyərləndirir. Cihaz İnternet əlaqəsi olmadan yadda saxlanmış şəbəkələrə avtomatik birləşməyəcək."</string>
+    <string name="help_message">"1. Printeriniz və telefonunuz eyni WLAN şəbəkəsinə qoşulmayıb.
+2. Printeriniz bu xüsusi çap xidmətini dəstəkləmir (istehsalçı ilə dəqiqləşdirin).
+3 Axtarış vaxtı başa çatdı. Belə olarsa, təkrar cəhd edin.
+4. Printerinizdə nasazlıq baş verib. Printerinizi yenidən başladın və bir də cəhd edin."</string>
+    <string name="wifi_cloud_security_check_title">WLAN təhlükəsizlik yoxlaması</string>
+    <string name="wifi_cloud_security_check_summary">Qoşulmuş WLAN şəbəkələrinin təhlükəsizlik səviyyəsini Phone Manager vasitəsilə yoxlayın və təhlükəsizlik riski yaradan yaddaşdakı şəbəkələrə avtomatik qoşulmaya fasilə verin.</string>
+    <string name="wifi_plus_description_emui3">"WLAN+ aktiv edildikdə, ağıllı şəbəkə dəyişikliyi etmək üçün WLAN funksiyanızın qoşulma qabiliyyəti qiymətləndiriləcək və optimizasiya parametrləri WLAN vasitəsilə avtomatik yenilənəcək (WLAN məlumat istifadəsi arta bilər). WLAN+ avtomatik:
+1. Rahat İnternet təcrübəsi təmin etmək üçün WLAN və mobil məlumatlar arasında keçid edir (Mobil şəbəkə parametrlərində aid keçid rejimini seçə bilərsiniz).
+2. Məlum WLAN şəbəkəsi diapazonunda olduqda WLAN funksiyasını işə salır və şəbəkəyə qoşulur.
+3. Mövcud WLAN şəbəkələrini qiymətləndirir. İnternetə çıxışı olmayan yadda saxlanmış şəbəkələr üçün avtomatik qoşulmaya fasilə verilir.
+4. Bəzi WLAN giriş nöqtələrində gələn SMS yoxlama mesajı ilə yoxlama kodu əldə edilir və brauzer vasitəsilə avtomatik olaraq şəbəkəyə daxil olunur (hal-hazırda yalnız Çində dəstəklənir)."</string>
+    <string name="user_add_user_message">"Əlavə istifadəçilər yaratmaqla bu cihazı başqaları ilə paylaşa bilərsiniz. Hər istifadəçi özünə məxsus məkanı proqramlar, divar kağızı və daha çoxu ilə fərdiləşdirə bilər. İstifadəçilər həmçinin hər kəsə təsir edən WLAN kimi cihaz parametrlərini tənzimləyə bilər.
+
+Yeni istifadəçi əlavə etdiyiniz zaman həmin şəxs məkanını quraşdırmalıdır.
+
+İstənilən istifadəçi bütün digər istifadəçilər üçün proqramları yeniləyə bilər."</string>
+    <string name="print_user_warning">Cihazınız çap xidmətini aktivləşdirdiyiniz zaman WLAN bağlantısı üzərindən yaxınlıqdakı printerləri axtaracaq, bu da WLAN trafikinə səbəb olacaq.</string>
+    <string name="wifi_calling_settings_title_emui">WLAN zəngi</string>
+    <string name="wifi_calling_dialog_title">WLAN zəngini aktiv et</string>
+    <string name="wifi_calling_dialog_message">Əgər aktivdirsə, siz WLAN vasitəsilə təcili yardım zəngləri edə bilməyəcəksiniz. Aktiv edilsin?</string>
+    <string name="device_name_settings_summary">Bluetooth, WLAN Direct, teterinq və portativ giriş nöqtəsindən istifadə edərkən, başqa cihazlar bu adı görəcək.</string>
+    <string name="device_name_settings_dialog">Cihazın adının dəyişdirilməsi cari WLAN giriş nöqtəsi ilə əlaqəni kəsəcək. Dəyişdirilsin?</string>
+    <string name="write_wifi_nfc_tag">WLAN NFC teqinə yazın</string>
+    <string name="wifi_plus_smart_switch_title">WLAN və mobil məlumatlar arasında ağıllı keçid</string>
+    <string name="wifi_plus_smart_switch_summary">Ən yaxşı şəbəkə bağlantısını seçmək üçün WLAN bağlantısını qiymətləndirin və WLAN-dan (tarif arta bilər) mobil məlumatlara və ya əksinə keçin. Adi keçid rejimi mobil şəbəkə parametrlərində təyin edilib</string>
+    <string name="wifi_plus_smart_switch_summary_global">Ən yaxşı şəbəkə bağlantısını seçmək üçün WLAN bağlantısını qiymətləndirin və WLAN-dan (tarif arta bilər) mobil məlumatlara və ya əksinə keçin</string>
+    <string name="wifi_plus_auto_turn_title">WLAN-ı avtomatik yandır/söndür</string>
+    <string name="wifi_plus_auto_turn_summary">Məlum WLAN şəbəkəsi diapazonunda olduqda WLAN funksiyasını işə salın və şəbəkəyə qoşulun</string>
+    <string name="wifi_plus_quality_evaluation_title">Mövcud WLAN şəbəkələrini qiymətləndirin</string>
+    <string name="wifi_plus_quality_evaluation_summary">Mövcud WLAN şəbəkələrini qiymətləndirin. İnternet çıxışı olmayan saxlanılmış şəbəkələr üçün avtomatik qoşulmaya fasilə verilib</string>
+    <string name="wifi_plus_fast_connect_title">Ödənişsiz WLAN giriş nöqtələri üçün giriş təcrübəsini optimallaşdır</string>
+    <string name="wifi_plus_fast_connect_summary">Bəzi WLAN giriş nöqtələrində gələn SMS yoxlama mesajı ilə yoxlama kodu əldə edilir və brauzer vasitəsilə avtomatik olaraq şəbəkəyə daxil olunur (hal-hazırda yalnız Kontinental Çində dəstəklənir)</string>
+    <string name="link_plus_live_update_description_EMUI_5">Link+ canlı yeniləmə aktiv olduqda telefonunuz müvafiq kommunikasiya funksiyalarını təkmilləşdirmək məqsədilə simsiz şəbəkəniz (Adi qaydada WLAN) üzərindən avtomatik olaraq kommunikasiya parametrləri məlumatlarını yeniləyir.</string>
+    <string name="reset_network_desc_summary"><li>WLAN</li>"
+"<li>Mobil məlumatlar</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_desc_summary_wifi_only"><li>WLAN</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_mode_high_accuracy_title_emui_wifionly">GPS və WLAN istifadə edin</string>
+    <string name="location_mode_battery_saving_title_emui_wifionly">WLAN istifadə edin</string>
+    <string name="wifi_bridge_use_help_new_details">"1. WLAN körpüsü ötürmə diapazonunu və WLAN siqnallarının intensivliyini xeyli artırır. Digər cihazlar cihazınız vasitəsilə cari WLAN şəbəkənizə qoşula bilər.
+2. WLAN körpüsü 4-ə qədər cihazdan girişi dəstəkləyir.
+3. WLAN körpüsü WLAN giriş nöqtəsi və WLAN Direct funksiyaları ilə işləmir. WLAN körpüsü aktivləşdirildikdə, P2P xidmətlərindən istifadə edən bəzi proqramlar düzgün işləməyə bilər.
+4. WLAN körpüsündən istifadə etdikdə, batareya enerjisi daha sürətlə tükənir.
+5. WLAN resurslarının başqa xidmət tərəfindən istifadə edildiyinə dair mesaj alsanız, Parametrlər > WLAN > WLAN Direct bölməsinə keçin və qoşulmuş cihazları ayırın. Yaxud WLAN funksiyasını söndürüb yenidən yandırmaqla, bütün cihazları avtomatik ayıra bilərsiniz."</string>
+    <string name="wifi_qrcode_share_notice_new">Bu WLAN şəbəkəsinə qoşulmaq üçün skanlayın</string>
+    <string name="location_help_scheme_body_one">"1. \"Məkanıma daxil ol\" funksiyasının aktivləşdirildiyindən əmin olun.
+2. Məkan rejimində \"GPS, WLAN və mobil şəbəkələr istifadə et\" seçin.
+3. WLAN giriş nöqtəsinə qoşulun və ya mobil məlumatları aktivləşdirin.
+4. İstifadə etdiyiniz proqramın Telefon meneceri > İcazə meneceri > Məkana giriş məlumatı bölməsində Məkan icazəsinə girişinin olmasını yoxlayın.
+5. Məkan rejimini yalnız \"GPS istifadə et\" kimi təyin etmisinizsə, GPS siqnallarının normal qəbul edilə bildiyi açıq və maneəsiz mühitdə məkana giriş funksiyasını istifadə etdiyinizdən əmin olun.
+6. Ümumi giriş nöqtəsinə bağlanmısınızsa, WLAN-ı söndürməyə və mobil məlumatları aktivləşdirməyə çalışın. Daha sonra yenidən \"Məkana giriş\" funksiyasını yoxlayın."</string>
+    <string name="location_help_scheme_body_two">"1. Daha dəqiq məkan girişi üçün Məkan rejimində \"GPS, WLAN və mobil şəbəkələr istifadə et\" seçin.
+2. Cihazınızda metal üzlük istifadə edirsinizsə, üzlüyü çıxarın və ya metal olmayan üzlük istifadə edin və yenidən cəhd edin.
+3. İstifadə etdiyiniz proqramın Telefon meneceri > İcazə meneceri > Məkana giriş məlumatı bölməsində Məkan icazəsinə girişinin olmasını yoxlayın.
+4. Naviqasiya geniş və maneəsiz ərazilərdə daha yaxşı işləyir. Telefonunuzu avtomobilinizin ön şüşəsinin yanında bir yerə, məsələn, avtomobilin alətlər panelinə və ya digər maneəsiz hissələrinə qoyun."</string>
+    <string name="wifi_bridge_use_help_new_details_ex">"%1$d. WLAN körpüsü ötürmə diapazonunu və WLAN siqnallarının intensivliyini xeyli artırır. Digər cihazlar cihazınız vasitəsilə cari WLAN şəbəkənizə qoşula bilər.
+%2$d. WLAN körpüsü %6$d-ə qədər cihazdan girişi dəstəkləyir.
+%3$d. WLAN körpüsü WLAN giriş nöqtəsi və WLAN Direct funksiyaları ilə işləmir. WLAN körpüsü aktivləşdirildikdə, P2P xidmətlərindən istifadə edən bəzi proqramlar düzgün işləməyə bilər.
+%4$d. WLAN körpüsündən istifadə etdikdə, batareya enerjisi daha sürətlə tükənir.
+%5$d. WLAN resurslarının başqa xidmət tərəfindən istifadə edildiyinə dair mesaj alsanız, Parametrlər > WLAN > WLAN Direct bölməsinə keçin və qoşulmuş cihazları ayırın. Yaxud WLAN funksiyasını söndürüb yenidən yandırmaqla, bütün cihazları avtomatik ayıra bilərsiniz."</string>
+    <string name="wifiap_use_help_details_ex">"%1$d. Siz, şəbəkə giriş nöqtəsi kimi portativ WLAN giriş nöqtəsi qurğusundan istifadə edə bilərsiniz. Periferiya qurğuları WLAN vasitəsi ilə qurğunuza qoşula bilər, qoşulmuş qurğular isə İnternet şəbəkəsinə mobil şəbəkənin köməyi ilə daxil ola bilər.
+%2$d. Portativ WLAN giriş nöqtəsi mobil verilənlər bağlantınızın açıq olmasını tələb edəcək, bəzi verilənlərdən istifadə edəcəkdir.
+%3$d. Portativ WLAN giriş nöqtəsi batareyalarınızın daha tez tükənməsinə gətirib çıxara bilər."</string>
+    <string name="wifiap_connect_help_details_open_ex">"Əl ilə qoşulma:
+%2$d. Hədəf qurğusu üzərində WLAN aktiv et, giriş nöqtəsini tap %1$s.
+%3$d. Giriş nöqtəsinə qoşul."</string>
+    <string name="location_help_scheme_body_one_summary">"%1$d. \"Məkanıma daxil ol\" funksiyasının aktivləşdirildiyindən əmin olun.
+%2$d. Məkan rejimində \"GPS, WLAN və mobil şəbəkələr istifadə et\" seçin.
+%3$d. WLAN giriş nöqtəsinə qoşulun və ya mobil məlumatları aktivləşdirin.
+%4$d. İstifadə etdiyiniz proqramın Telefon meneceri > İcazə meneceri > Məkana giriş məlumatı bölməsində Məkan icazəsinə girişinin olmasını yoxlayın.
+%5$d. Məkan rejimini yalnız \"GPS istifadə et\" kimi təyin etmisinizsə, GPS siqnallarının normal qəbul edilə bildiyi açıq və maneəsiz mühitdə məkana giriş funksiyasını istifadə etdiyinizdən əmin olun.
+%6$d. Ümumi giriş nöqtəsinə bağlanmısınızsa, WLAN-ı söndürməyə və mobil məlumatları aktivləşdirməyə çalışın. Daha sonra yenidən \"Məkana giriş\" funksiyasını yoxlayın."</string>
+    <string name="location_help_scheme_body_two_summary">"%1$d. Daha dəqiq məkan girişi üçün Məkan rejimində \"GPS, WLAN və mobil şəbəkələr istifadə et\" seçin.
+%2$d. Cihazınızda metal üzlük istifadə edirsinizsə, üzlüyü çıxarın və ya metal olmayan üzlük istifadə edin və yenidən cəhd edin.
+%3$d. İstifadə etdiyiniz proqramın Telefon meneceri > İcazə meneceri > Məkana giriş məlumatı bölməsində Məkan icazəsinə girişinin olmasını yoxlayın.
+%4$d. Naviqasiya geniş və maneəsiz ərazilərdə daha yaxşı işləyir. Telefonunuzu avtomobilinizin ön şüşəsinin yanında bir yerə, məsələn, avtomobilin alətlər panelinə və ya digər maneəsiz hissələrinə qoyun."</string>
+    <string name="turn_off_data_saver_message">Portativ giriş nöqtəsindən istifadə Verilənlər serverinin qeyri-aktiv edilməsini tələb edir. Qeyri-aktiv edilsin?</string>
+    <string name="first_wlan_hotspot_text">WLAN giriş nöqtəsi şəbəkə bağlantınızı digərləri ilə paylaşmağa imkan verir, lakin akumulyatoru sürətlə sərf edə və məlumat istifadəsi xərclərini artıra bilər.</string>
+    <string name="hotspot_power_notification_title">WLAN giriş nöqtəsi qeyri-aktivdir</string>
+    <string name="hotspot_power_notification_ticker_text">WLAN giriş nöqtəsi qeyri-aktivdir</string>
+    <string name="toast_entitle_wifi_need_close">WLAN aktiv olduqda bu funksiyadan istifadə etmək mümkün deyil. Lütfən əvvəlcə WLAN-ı yandırın.</string>
+    <string name="wifi_activated_warning_Title">WLAN yandırılıb</string>
+    <string name="wifi_turn_off_warning_message_wifiap">Mobil giriş nöqtəsi və WLAN eyni vaxtda söndürülə bilməz. WLAN söndürülsün?</string>
+    <string name="wifi_turn_off_warning_message_usb">WLAN indi söndürülməlidir. Telefonunuz AT&amp;Tserverləri ilə qoşulduqda o, yenidən avtomatik aktiv ediləcək.</string>
+    <string name="broadcast_ssid_is_show_dialog">Şəbəkə adını yayımla (SSID) seçimini söndürsəniz, digər cihazlar telefonunuzu görməyəcək və telefonunuz mövcud WLAN şəbəkələrinin siyahısında görünməyəcək. Digər cihazlar şəbəkənizin adını əl ilə daxil edərək telefonunuzun giriş nöqtəsinə qoşula bilər.</string>
+    <string name="enable">AT&amp;T WLAN-a avto-bağlantı aktiv edilib</string>
+    <string name="disable">AT&amp;T WLAN-a avto-bağlantı qeyri-aktiv edilib</string>
+    <string name="auto_connect_wifi_suggestion">Avto-bağlantı parametrlərinin qüvvəyə minməsi üçün WLAN-ı yenidən başladın.</string>
+    <string name="wifi_disable_by_deivice_admin">WLAN funksiyası cihazın administratoru tərəfindən qeyri-aktiv edilib</string>
+    <string name="wifi_required_info_text">Quraşdırmanı tamamlamaq üçün planşetiniz WLAN şəbəkəsinə qoşulmalıdır. Quraşdırmadan sonra Siz WLAN və mobil data arasında seçim edə bilərsiniz.</string>
+    <string name="wifi_setting_frequency_band_title">WLAN tezlik diapazonu</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s cihazınızı idarə edir və bu WLAN şəbəkəsini dəyişmək və ya silmək üçün sizə icazə vermir. Ətraflı məlumat üçün administrator ilə əlaqə saxlayın.</string>
+</resources>

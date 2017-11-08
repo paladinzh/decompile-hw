@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/link_plus_live_update_title_EMUI_5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:layout="@layout/preference_text" android:key="description_preference" android:summary="@string/link_plus_live_update_description_EMUI_5" />
+    <ListPreference android:persistent="false" android:entries="@array/link_plus_auto_update_policy_entries" android:layout="@layout/preference_status" android:title="@string/link_plus_auto_update_policy_title" android:key="link_plus_auto_update_policy" android:widgetLayout="@layout/preference_widget_arrow" android:entryValues="@array/link_plus_auto_update_policy_values" />
+</PreferenceScreen>

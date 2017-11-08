@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/advanced_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/time_language_category" android:key="category_security" />
+    <PreferenceScreen android:title="@string/date_and_time_settings_title" android:key="date_time_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.DateTimeSettings" />
+    <PreferenceScreen android:title="@string/language_settings" android:key="language_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.inputmethod.InputMethodAndLanguageSettings" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/user_mode_category" android:key="category_security_user_mode" />
+    <PreferenceScreen android:title="@string/user_settings_title" android:key="user_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.users.UserSettings" />
+    <PreferenceScreen android:title="@string/simple_mode_title" android:key="simple_mode" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.android.settings.LauncherModeSimpleActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/wildkids_settings_title" android:key="wildkids_settings" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.wildkids" android:action="huawei.intent.action.WILDKIDS_SETTINGS" />
+    </PreferenceScreen>
+    <PreferenceScreen android:layout="@layout/preference_status" android:title="@string/parent_control_title" android:key="parent_control" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:targetPackage="com.huawei.parentcontrol" android:targetClass="com.huawei.parentcontrol.ui.activity.HomeActivity" />
+    </PreferenceScreen>
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/connection_assistance_category" android:key="category_connection_assistance" />
+    <PreferenceScreen android:title="@string/print_settings" android:key="print_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.print.PrintSettingsFragment" />
+    <PreferenceScreen android:title="@string/accessibility_settings" android:key="accessibility_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/screen_lock_other_settings_title" android:key="category_others" />
+    <PreferenceScreen android:title="@string/backup_data_transmission" android:key="data_transmission" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.huawei.hicloud.action.OOBE_DATA_MIGRATE" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/privacy_settings" android:key="privacy_settings" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.PrivacySettings" />
+    <PreferenceScreen android:title="@string/user_experience_improvement_plan_title" android:key="user_experience_improve_plan" android:widgetLayout="@layout/preference_widget_arrow">
+        <intent android:action="com.android.settings.userexperience.InvitationActivity" />
+    </PreferenceScreen>
+</PreferenceScreen>

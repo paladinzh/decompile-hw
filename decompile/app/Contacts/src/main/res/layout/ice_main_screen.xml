@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/tv_emergency_contact_911" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ice_contact_item_margin" android:text="@string/ice_emergency_contact_911" />
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@+id/tv_my_emergency_info" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f4">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ice_contact_item_margin" android:text="@string/my_emergency_info" />
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:src="@color/general_lisg_divider_normal" android:layout_marginStart="@dimen/ice_contact_item_devider_margin" android:layout_marginEnd="@dimen/ice_contact_item_devider_margin" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/tv_my_emergency_contacts_header" android:background="@drawable/contact_section_background" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d03f5" android:text="@string/my_emergency_contacts" />
+        <ListView android:id="@+id/ice_added_list" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/tv_ice_info" android:padding="@dimen/ice_contact_item_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ice_lock_screen_info" android:layout_alignParentBottom="true" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@id/discover_classify_layout_label_root" android:background="@color/album_set_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13dp" android:textColor="@color/time_line_text_color" android:id="@id/classify_title" android:paddingTop="10dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="HwChinese-medium" android:paddingStart="16dp" />
+        <TextView android:textSize="13dp" android:textColor="@color/half_black" android:id="@id/classify_more" android:paddingTop="10dp" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/string_more" android:paddingEnd="4dp" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/classify_arrow" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/ic_public_arrow_right" android:layout_marginEnd="16dp" />
+    </LinearLayout>
+    <com.android.gallery3d.ui.DiscoverItemView android:id="@id/classify_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

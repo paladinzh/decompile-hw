@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingBottom="@dimen/header_extra_top_padding_favourite" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="?attr/list_item_header_height" android:layout_marginStart="8dp" android:layout_marginEnd="?attr/list_item_padding_right">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textStyle="bold" android:textColor="@color/people_app_theme_color" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/favorite_header" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/contactsFavoritesLabel" android:maxLines="1" android:layout_weight="1.0" android:textAllCaps="true" />
+    </LinearLayout>
+    <View android:id="@+id/header_divider" android:background="@color/people_app_theme_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+</LinearLayout>

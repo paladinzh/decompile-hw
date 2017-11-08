@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start_navi" android:paddingEnd="@dimen/preference_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/icon_area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/preference_item_padding_top" android:layout_marginBottom="@dimen/preference_item_padding_bottom" android:layout_weight="1.0" android:layout_marginEnd="@dimen/preference_item_margin_end_shorter">
+        <ImageView android:id="@android:id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/preference_item_summary_below_size" android:ellipsize="end" android:gravity="start" android:id="@id/nether_summary" android:layout_marginTop="2.0dip" android:maxLines="2" android:layout_below="@android:id/icon" android:layout_marginStart="16.0dip" style="@style/EmuiSecondaryTextFontStyle" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

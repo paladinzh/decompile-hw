@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fingerprint_touch_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/fingerprint_touch_sample_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/fingerprint_touch_sample_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/fingerprint_touch_sample_image_description" />
+        <TextView android:id="@id/fingerprint_touch_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fingerprint_touch_sample_image" android:layout_marginEnd="30.0dip" android:layout_alignStart="@id/fingerprint_touch_sample_image" />
+    </RelativeLayout>
+</LinearLayout>

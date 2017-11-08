@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/phone_options">
+        <item android:icon="@drawable/ic_new_contact" android:id="@+id/menu_add_contact" android:orderInCategory="1" android:title="@string/menu_newContact" android:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_search_normal" android:id="@+id/menu_search_contact" android:orderInCategory="2" android:title="@string/contact_menu_search" android:showAsAction="ifRoom" />
+        <item android:icon="@drawable/ic_menu" android:id="@+id/overflow_menu_contacts" android:orderInCategory="3" android:title="@string/title_menu" android:showAsAction="always">
+            <menu>
+                <item android:id="@+id/menu_contacts_filter" android:orderInCategory="3" android:title="@string/menu_contacts_filter" />
+                <item android:id="@+id/menu_import_export" android:orderInCategory="4" android:title="@string/menu_importexport" />
+                <item android:id="@+id/menu_accounts" android:orderInCategory="5" android:title="@string/menu_accounts" />
+                <item android:id="@+id/menu_delete_contacts" android:orderInCategory="6" android:title="@string/menu_deleteContact" />
+                <item android:id="@+id/set_private_contacts" android:orderInCategory="7" android:title="@string/menu_set_private_contacts" />
+                <item android:id="@+id/menu_settings" android:orderInCategory="8" android:title="@string/contact_menu_settings" />
+                <item android:id="@+id/menu_msg_plus_addfriends" android:orderInCategory="9" android:title="@string/str_find_more_friends" />
+                <item android:id="@+id/menu_help" android:orderInCategory="10" android:title="@string/menu_help" />
+                <item android:id="@+id/menu_share" android:orderInCategory="11" android:title="@string/contact_menu_share_contacts" />
+            </menu> />
+    </group>
+    <group android:id="@+id/favorite_options">
+        <item android:icon="@drawable/ic_menu" android:id="@+id/overflow_menu_fav" android:title="@string/title_menu" android:showAsAction="always">
+            <menu>
+                <item android:id="@+id/edit_favorites" android:title="@string/edit_favorite" android:showAsAction="collapseActionView" />
+                <item android:id="@+id/menu_remove_favorites_action" android:title="@string/contact_menu_removeStar" android:showAsAction="collapseActionView" />
+                <item android:id="@+id/menu_new_group_action" android:title="@string/insertGroupDescription" android:showAsAction="collapseActionView" />
+                <item android:id="@+id/menu_delete_groups_action" android:title="@string/menu_delete_groups" android:showAsAction="collapseActionView" />
+            </menu> />
+    </group>
+    <group android:id="@+id/dialer_options">
+        <item android:icon="@drawable/ic_menu" android:id="@+id/overflow_menu_dialer" android:title="@string/title_menu" android:showAsAction="always">
+            <menu>
+                <item android:id="@+id/menu_paste" android:visible="true" android:orderInCategory="1" android:showAsAction="withText" />
+                <item android:id="@+id/show_voicemails_only" android:visible="false" android:orderInCategory="2" android:title="@string/menu_show_voicemails_only" android:showAsAction="UNKNOWN_DATA_0x0" />
+                <item android:id="@+id/show_all_calls" android:visible="false" android:orderInCategory="3" android:title="@string/menu_show_all_calls" android:showAsAction="UNKNOWN_DATA_0x0" />
+                <item android:id="@+id/delete_calllog" android:orderInCategory="4" android:title="@string/str_delete_call_log" android:showAsAction="withText" />
+                <item android:id="@+id/delete_all" android:orderInCategory="5" android:title="@string/recentCalls_deleteAll" android:showAsAction="withText" />
+                <item android:id="@+id/filter_calllog_type" android:orderInCategory="6" android:title="@string/menu_view_by" android:showAsAction="withText" />
+                <item android:id="@+id/menu_IPCall" android:orderInCategory="8" android:title="@string/IPCall" android:showAsAction="withText" />
+                <item android:id="@+id/menu_IPCall_One" android:orderInCategory="9" android:showAsAction="withText" />
+                <item android:id="@+id/menu_IPCall_Two" android:orderInCategory="10" android:showAsAction="withText" />
+                <item android:id="@+id/menu_2s_pause" android:orderInCategory="11" android:title="@string/add_2sec_pause" android:showAsAction="withText" />
+                <item android:id="@+id/menu_add_wait" android:orderInCategory="12" android:title="@string/add_wait" android:showAsAction="withText" />
+                <item android:id="@+id/add_to_contacts" android:orderInCategory="13" android:title="@string/non_phone_add_to_contacts" android:showAsAction="withText" />
+                <item android:id="@+id/tianyi_dialer_menu_option" android:orderInCategory="18" android:title="@string/str_tianyi_dialer_menu_option" android:showAsAction="withText" />
+                <item android:id="@+id/menu_speeddial" android:orderInCategory="14" android:title="@string/title_speed_dial_settings" android:showAsAction="withText" />
+                <item android:id="@+id/menu_privacy_protection" android:orderInCategory="15" android:title="@string/contact_menu_privacy_protection" android:showAsAction="withText" />
+                <item android:id="@+id/filter_harassment_dialpad" android:visible="false" android:orderInCategory="16" android:title="@string/menu_harassment_filter" android:showAsAction="withText" />
+                <item android:id="@+id/menu_settings_dialer" android:orderInCategory="17" android:title="@string/call_settings" />
+            </menu> />
+    </group>
+</menu>

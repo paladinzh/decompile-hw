@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <cn.com.xy.sms.sdk.ui.settings.DuoquScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="@dimen/duoqu_setting_provide" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:id="@+id/duoqu_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text="@string/duoqu_help_title1" android:layout_alignParentTop="true" android:alpha="@dimen/preference_item_summary_alpha" android:layout_marginStart="@dimen/duoqu_smart_setting_textivew_margin_start" android:layout_marginEnd="@dimen/duoqu_smart_setting_textivew_margin_end" />
+            <android.support.v4.view.ViewPager android:id="@+id/duoqu_help_page" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00ed" />
+            <cn.com.xy.sms.sdk.ui.settings.NavigationSpotsView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/navigation_dots" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1301" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" />
+            <include layout="@layout/duoqu_preference_split_line" />
+            <include layout="@layout/duoqu_switch_preference" />
+            <include layout="@layout/duoqu_preference_split_line" />
+            <cn.com.xy.sms.sdk.ui.popu.widget.DuoquListViewForScrollView android:id="0x102000a" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+            <include layout="@layout/duoqu_preference_split_line" />
+        </LinearLayout>
+    </cn.com.xy.sms.sdk.ui.settings.DuoquScrollView>
+    <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:textSize="12dp" android:textColor="@color/duoqu_setting_bottom_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/duoqu_provide" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0a00ef" android:text="@string/duoqu_setting_bottom_text" android:layout_alignParentBottom="true" />
+</LinearLayout>

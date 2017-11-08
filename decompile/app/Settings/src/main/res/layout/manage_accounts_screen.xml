@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/sync_settings_error_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/sync_settings_error_msg_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <ImageView android:id="@id/sync_settings_error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sync_error_holo" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="@dimen/preference_item_summary_end_size" android:id="@id/sync_settings_error_info" android:text="@string/sync_is_failing" style="@style/EmuiSecondaryTextFontStyle" />
+    </LinearLayout>
+</LinearLayout>

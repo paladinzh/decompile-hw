@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="50105004" android:versionName="5.1.5.4" package="com.android.deskclock" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+    <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="23" />
+    <uses-feature android:glEsVersion="20000" android:required="true" />
+    <supports-gl-texture android:name="GL_OES_compressed_ETC1_RGB8_texture" />
+    <supports-gl-texture android:name="GL_OES_compressed_paletted_texture" />
+    <original-package android:name="com.android.alarmclock" />
+    <original-package android:name="com.android.deskclock" />
+    <original-package android:name="com.android.util" />
+    <uses-permission android:name="com.android.calendar.huawei.permission.CALENDAR_RECESS" />
+    <uses-permission android:name="android.permission.STATUS_BAR" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.DEVICE_POWER" />
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="huawei.permission.BROADCAST_TOOLBOX" />
+    <permission android:name="com.huawei.alarm.provider.readPermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.alarm.provider.writePermission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.INSTALL_LOCATION_PROVIDER" />
+    <uses-permission android:name="com.huawei.motion.permission.START_MOTION_SERVICE" />
+    <uses-permission android:name="com.huawei.motion.permission.READ_DATA" />
+    <uses-permission android:name="com.huawei.motion.permission.WRITE_DATA" />
+    <uses-permission android:name="com.huawei.motion.permission.MOTION_ACTION_RECOGNITION" />
+    <uses-permission android:name="com.huawei.motion.permission.MOTION_ACTION_OPERATE" />
+    <uses-permission android:name="com.huawei.deskclock.broadcast.permission" />
+    <permission android:name="com.huawei.deskclock.broadcast.permission" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.android.deskclock.huawei.permission.UPDATE_ALARM" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="com.android.deskclock.huawei.permission.UPDATE_ALARM" />
+    <uses-permission android:name="com.android.calendar.huawei.permission.DOWNLOADSUBSCRIPTION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.MANAGE_USERS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.EDIT_MODE" />
+    <uses-permission android:name="com.huawei.systemmanager.permission.ROG_ACCESS_INTERFACE" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="huawei.android.permission.HW_SIGNATURE_OR_SYSTEM" />
+    <permission android:name="com.android.deskclock.huawei.permission.SYNC_DATA" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.android.deskclock.huawei.permission.SYNC_DATA" />
+    <application android:label="@string/app_label" android:icon="@mipmap/ic_launcher_icon" android:name=".DeskClockApplication" android:allowBackup="false" android:hardwareAccelerated="false" android:supportsRtl="true" android:multiArch="true">
+        <meta-data android:name="com.huawei.android.vr.application.mode" android:value="vr_only" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        <meta-data android:name="com.google.android.wearable.beta.app" android:resource="@xml/wearable_app_desc" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/android_wear_services_version" />
+        <meta-data android:name="com.google.android.wearable.version" android:value="@integer/android_wear_services_version" />
+        <meta-data android:name="com.google.android.wearable.local_edition_compatible" android:value="true" />
+        <provider android:name="com.android.deskclock.provider.AlarmProvider" android:readPermission="com.huawei.alarm.provider.readPermission" android:writePermission="com.huawei.alarm.provider.writePermission" android:exported="true" android:authorities="com.android.deskclock" android:directBootAware="true" />
+        <provider android:name="com.android.deskclock.provider.HwDeskClockBackupProvider" android:readPermission="com.huawei.alarm.provider.readPermission" android:writePermission="com.huawei.alarm.provider.readPermission" android:exported="true" android:authorities="com.android.deskclock.backup" android:directBootAware="true" />
+        <activity android:name=".AlarmsMainActivity" android:launchMode="singleTask" android:configChanges="navigation|screenSize" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustResize|adjustPan|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" android:resizeableActivity="false" android:directBootAware="true">
+            <meta-data android:name="com.huawei.android.quickaction.quick_action_service" android:value=".DeskClockQuickActionService" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DeskClockSecurityActivity" android:permission="com.huawei.deskclock.broadcast.permission" android:taskAffinity="com.android.deskclock.DeskClockSecurity" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:configChanges="navigation|screenSize" android:uiOptions="splitActionBarWhenNarrow" android:resizeableActivity="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.security.action.START_APP_SECURE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".DeskClockQuickActionService" android:permission="com.huawei.android.permission.BIND_QUICK_ACTION_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.android.quickaction.QuickActionService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Holo.Wallpaper.NoTitleBar" android:label="TimerAlert" android:name="com.android.deskclock.timer.TimerAlertActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:showOnLockScreen="true" android:resizeableActivity="false" android:directBootAware="true" />
+        <service android:name="com.android.deskclock.timer.TimerService" android:exported="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.android.timerservice.start" />
+                <action android:name="com.android.timerservice.resume" />
+                <action android:name="android.intent.action.timer_alert" />
+                <action android:name="com.android.timerservice.startplay" />
+                <action android:name="com.android.timerservice.stoppaly" />
+            </intent-filter>
+        </service>
+        <service android:name="com.android.deskclock.stopwatch.StopwatchService" android:exported="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.android.stopwatchservice" />
+            </intent-filter>
+        </service>
+        <activity-alias android:name="com.android.deskclock.alarmclock.AlarmClock" android:exported="true" android:targetActivity="com.android.deskclock.AlarmsMainActivity" />
+        <activity android:label="@string/set_alarm" android:name="com.android.deskclock.alarmclock.SetAlarm" android:exported="false" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/delete_alarms" android:name="com.android.deskclock.alarmclock.DeleteAlarmActivity" android:exported="false" android:configChanges="keyboardHidden|navigation|screenSize" />
+        <activity android:theme="@*android:style/Theme.Holo.Wallpaper.NoTitleBar" android:name="com.android.deskclock.alarmclock.LockAlarmFullActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" android:launchMode="singleTask" android:configChanges="keyboardHidden|orientation|screenSize" android:showOnLockScreen="true" android:resizeableActivity="false" android:directBootAware="true" />
+        <receiver android:name="AlarmReceiver" android:exported="false" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.android.deskclock.ALARM_ALERT" />
+                <action android:name="android.intent.action.timer_alert" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+                <action android:name="com.android.deskclock.ALARM_DELETE" />
+                <action android:name="com.android.deskclock.ALARM_CLOSE_NO_SNOOZE_ACTION" />
+                <action android:name="com.android.deskclock.watch_snooze_action" />
+                <action android:name="com.android.deskclock.watch_close_action" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="HandleSetAlarm" android:permission="com.android.alarm.permission.SET_ALARM" android:taskAffinity="" android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SHOW_ALARMS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.deskclock.android.intent.action.SET_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.huawei.deskclock.android.intent.action.CLOSE_ALL_ALARM" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:label="" android:name="com.android.alarmclock.MiddleActivity" android:configChanges="keyboardHidden|orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.android.deskclock.worldclock.LanguageChangeReceiver" android:permission="com.android.deskclock.huawei.permission.SYNC_DATA">
+            <intent-filter>
+                <action android:name="huawei.intent.action.ZONE_PICKER_LOAD_COMPLETED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.desk.syncData" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.android.deskclock.worldclock.TimeZoneService" android:directBootAware="true" />
+        <service android:name="com.android.deskclock.alarmclock.AlarmKlaxon" android:exported="false" android:description="@string/alarm_klaxon_service_desc" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.android.deskclock.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+        <receiver android:name="AlarmInitReceiver" android:permission="com.android.deskclock.huawei.permission.UPDATE_ALARM" android:exported="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+                <action android:name="com.android.calendar.downloaddatafinish" />
+                <action android:name="com.huawei.KoBackup.intent.action.RESTORE_COMPLETE" />
+                <action android:name="com.huawei.systemmamanger.action.KILL_ROGAPP_END" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".BootstrapService" android:exported="false" />
+        <receiver android:label="@string/digital_clock" android:name="com.android.alarmclock.DigitalClockAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.WIDGET_TO_APP" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.DigitalClockAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/digitalclock_appwidget" />
+        </receiver>
+        <receiver android:label="@string/widget_clock_Label" android:name="com.android.alarmclock.AnalogAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.WIDGET_TO_APP" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.AnalogAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/analogclock_appwidget" />
+        </receiver>
+        <receiver android:label="@string/widget_clock_Label" android:name="com.android.alarmclock.WorldClockAppWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.WIDGET_TO_APP" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.oldName" android:value="com.android.deskclock.WorldClockAppWidgetProvider" />
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/worldclock_appwidget" />
+        </receiver>
+        <activity android:label="@string/sort_city_title_new" android:name="com.android.deskclock.worldclock.SortCityActivity" android:exported="false" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" />
+        <receiver android:name=".AlarmDataBaseReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="switch_success" />
+                <action android:name="switch_exception" />
+                <action android:name="switch_back_success" />
+            </intent-filter>
+        </receiver>
+        <activity android:label="@string/settings" android:name="com.android.deskclock.alarmclock.SettingsActivity" android:configChanges="keyboard|keyboardHidden|navigation|screenSize" android:uiOptions="splitActionBarWhenNarrow" android:directBootAware="true" />
+        <service android:name="com.android.connection.AlarmWearableSendMsgService" android:exported="false" android:directBootAware="true" />
+        <service android:name="com.android.connection.AlarmWearableListenerService" android:enabled="true" android:exported="true" android:directBootAware="true">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

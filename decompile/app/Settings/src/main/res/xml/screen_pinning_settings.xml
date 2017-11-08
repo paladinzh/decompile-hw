@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/screen_pinning_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/screen_pinning_title" android:key="pinning_switch" />
+    <SwitchPreference android:title="@string/screen_pinning_unlock_switch_title" android:key="use_screen_lock" />
+    <PreferenceCategory android:layout="@layout/preference_category" android:title="@string/help_label" android:key="pinning_introduction"> /* DTS2016112909093 gugen/wx394242 20161206 begin */
+<Preference android:layout="@layout/preference_text" android:selectable="false" android:key="help_summary" /> /* DTS2016112909093 gugen/wx394242 20161206 end */
+</PreferenceCategory>
+</PreferenceScreen>

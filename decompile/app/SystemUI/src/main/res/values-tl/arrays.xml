@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Nag-i-scan…</item>
+        <item>Kumukonekta…</item>
+        <item>Pinapatunayan…</item>
+        <item>Kumukuha ng IP address…</item>
+        <item>Konektado</item>
+        <item>Nasuspinde</item>
+        <item>Nadidiskonekta…</item>
+        <item>Hindi nakakonekta</item>
+        <item>Hindi tagumpay</item>
+        <item>Naka-block</item>
+        <item>Pansamantalang iniiwasan ang mabagal na koneksyon</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Nag-ii-scan…</item>
+        <item>Kumukonekta sa %1$s…</item>
+        <item>Nagpapatotoo sa %1$s…</item>
+        <item>Pagkuha ng IP address mula sa %1$s…</item>
+        <item>Nakakonekta sa %1$s</item>
+        <item>Nasuspinde</item>
+        <item>Inaalis sa pagkakakonekta mula sa %1$s…</item>
+        <item>Hindi nakakonekta</item>
+        <item>Hindi tagumpay</item>
+        <item>Naka-block</item>
+        <item>Pansamantalang iniiwasan ang mabagal na koneksyon</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Huwag kailanman suriin</item>
+        <item>Suriin lang para sa DRM content</item>
+        <item>Palaging suriin</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Huwag kailanman gumamit ng pagsusuring HDCP</item>
+        <item>Gamitin lang ang pagsusuring HDCP para sa nilalamang DRM</item>
+        <item>Palaging gumamit ng pagsusuring HDCP</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>I-off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>I-off</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>I-off</item>
+        <item>64K kada log buffer</item>
+        <item>256K kada log buffer</item>
+        <item>1M kada log buffer</item>
+        <item>4M kada log buffer</item>
+        <item>16M kada log buffer</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Scale ng animation .5x</item>
+        <item>Scale ng animation 1x</item>
+        <item>Scale ng animation 1.5x</item>
+        <item>Scale ng animation 2x</item>
+        <item>Scale ng animation 5x</item>
+        <item>Scale ng animation 10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Scale ng animation .5x</item>
+        <item>Scale ng animation 1x</item>
+        <item>Scale ng animation 1.5x</item>
+        <item>Scale ng animation 2x</item>
+        <item>Scale ng animation 5x</item>
+        <item>Scale ng animation 10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Naka-off ang animation</item>
+        <item>Scale ng animation .5x</item>
+        <item>Scale ng animation 1x</item>
+        <item>Scale ng animation 1.5x</item>
+        <item>Scale ng animation 2x</item>
+        <item>Scale ng animation 5x</item>
+        <item>Scale ng animation 10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Wala</item>
+        <item>480p</item>
+        <item>480p (secure)</item>
+        <item>720p</item>
+        <item>720p (secure)</item>
+        <item>1080p</item>
+        <item>1080p (secure)</item>
+        <item>4K</item>
+        <item>4K (secure)</item>
+        <item>4K (na-upscale)</item>
+        <item>4K (na-upscale, secure)</item>
+        <item>720p, 1080p (dual screen)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Wala</item>
+        <item>Logcat</item>
+        <item>Systrace (Graphics)</item>
+        <item>Stack ng tawag sa glGetError</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>I-off</item>
+        <item>Iguhit sa asul ang di-parihabang clip region</item>
+        <item>I-higlight nang berde ang tested drawing commands</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Naka-off</item>
+        <item>Sa screen bilang mga bar</item>
+        <item>In adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>I-off</item>
+        <item>Tingnan ang mga overdraw na bahagi</item>
+        <item>Ipakita ang mga lugar para sa Deuteranomaly</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Karaniwang limitasyon</item>
+        <item>Walang mga proseso sa background</item>
+        <item>1 proseso sa pinakamarami</item>
+        <item>2 proseso sa pinakamarami</item>
+        <item>3 proseso sa pinakamarami</item>
+        <item>4 na proseso sa pinakamarami</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Nagcha-charge</item>
+        <item>MTP (Media Transfer Protocol)</item>
+        <item>PTP (Picture Transfer Protocol)</item>
+        <item>RNDIS (USB Ethernet)</item>
+        <item>Source ng audio</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Napakabagal</item>
+        <item>Mabagal</item>
+        <item>Normal</item>
+        <item>Mabilis</item>
+        <item>Mas Mabilis</item>
+        <item>Napakabilis</item>
+        <item>Matulin</item>
+        <item>Napakatulin</item>
+        <item>Pinakamabilis</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Vibrant (default)</item>
+        <item>Natural</item>
+        <item>Standard</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Mga pinagandang kulay</item>
+        <item>Mga natural na kulay tulad ng nakikita ng mata</item>
+        <item>Mga kulay na naka-optimize para sa digital na content</item>
+    </array>
+    <array name="clock_options">
+        <item>Ipakita ang oras, minuto at segundo</item>
+        <item>Ipakita ang oras at minuto (default)</item>
+        <item>Huwag ipakita ang icon na ito</item>
+    </array>
+    <array name="battery_options">
+        <item>Palaging ipakita ang porsyento</item>
+        <item>Ipakita ang porsyento kapag nagcha-charge (default)</item>
+        <item>Huwag ipakita ang icon na ito</item>
+    </array>
+</resources>

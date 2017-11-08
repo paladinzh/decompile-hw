@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/stopwatch_circle" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/stopwatch_ring_farmelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/stopwatch_ring_farmelayout_land_marginTop" android:layout_above="@id/btn_container" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_clock_stopwatch_dial" android:scaleType="centerInside" android:contentDescription="0x0" />
+                <com.android.deskclock.stopwatch.CircleStopWatch android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/stopwatch_ring_view" android:layout_width="UNKNOWN_DATA_0x7f0a0071" android:layout_height="UNKNOWN_DATA_0x7f0a0071" />
+                <com.android.deskclock.stopwatch.StopwatchTimesShow android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/stopwatch_ring_timetext" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+                <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/stopwatch_circle_bg_layout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="@integer/display_layout_layout_weight" />
+                <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginTop="@dimen/clock_layout_divider_height" android:layout_weight="@integer/menu_layout_layout_weight">
+                    <com.android.deskclock.stopwatch.AnaimationListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+                </RelativeLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/stopwatch_ring_farmelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/btn_container" android:layout_centerInParent="true">
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_clock_stopwatch_dial" android:scaleType="centerInside" android:contentDescription="0x0" />
+                <com.android.deskclock.stopwatch.CircleStopWatch android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/stopwatch_ring_view" android:layout_width="UNKNOWN_DATA_0x7f0a0071" android:layout_height="UNKNOWN_DATA_0x7f0a0071" />
+                <com.android.deskclock.stopwatch.StopwatchTimesShow android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/stopwatch_ring_timetext" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <include android:id="@id/btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="39dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/animation_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

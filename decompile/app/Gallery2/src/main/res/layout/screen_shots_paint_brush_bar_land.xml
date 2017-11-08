@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.gallery.editor.screenshotseditor.ui.ScreenShotsPaintBrushBar xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/paint_bar" android:layout_width="wrap_content" android:layout_height="match_parent" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:id="@id/paint_sub_menu_root" android:layout_width="wrap_content" android:layout_height="match_parent" />
+    <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/scroll_root" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="4dp">
+        <com.huawei.gallery.editor.screenshotseditor.ui.ScreenShotsPaintBrushMenu android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/paint_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</com.huawei.gallery.editor.screenshotseditor.ui.ScreenShotsPaintBrushBar>

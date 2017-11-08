@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_key_guard_pref" android:layout_marginTop="16.0dip" android:text="@string/title_key_guard_pref" style="@style/fpStartupFuncTitleStyle" />
+    <TextView android:id="@id/fp_unlock_description" android:text="@string/fp_keyguard_notnone_open" style="@style/fpStartupDescStyle" />
+    <TextView android:id="@id/fp_confidential_cabinet" android:text="@string/title_strong_box_pref" style="@style/fpStartupFuncTitleStyle" />
+    <TextView android:id="@id/fp_confidential_cabinet_description" android:text="@string/fp_strongbox_notnone_open" style="@style/fpStartupDescStyle" />
+    <TextView android:id="@id/fp_app_lock" android:text="@string/title_apps_security_pref" style="@style/fpStartupFuncTitleStyle" />
+    <TextView android:id="@id/fp_app_lock_description" android:text="@string/fp_applock_notnone_open" style="@style/fpStartupDescStyle" />
+    <TextView android:id="@id/fp_hw_account" android:text="@string/title_hw_account_pref" style="@style/fpStartupFuncTitleStyle" />
+    <TextView android:id="@id/fp_hw_account_description" android:text="@string/summery_hw_account_pref" style="@style/fpStartupDescStyle" />
+    <TextView android:id="@id/fp_hwpay" android:text="@string/shortcut_payment_hwpay_title" style="@style/fpStartupFuncTitleStyle" />
+    <TextView android:id="@id/fp_hwpay_description" android:text="@string/shortcut_payment_hwpay_caution_summary" style="@style/fpStartupDescStyle" />
+</LinearLayout>

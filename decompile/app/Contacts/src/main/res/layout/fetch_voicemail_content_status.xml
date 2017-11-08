@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/fetch_voicemail_content_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="10dp">
+        <TextView android:ellipsize="end" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/fetch_status_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxLines="2" style="@style/contact_calllog_detail_sub_text_style" />
+        <View android:background="@color/voicemail_status_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d01ec" />
+    </LinearLayout>
+</merge>

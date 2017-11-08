@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.android.gallery3d" custom:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:id="@id/base_root" custom:layout_width="wrap_content" custom:layout_height="match_parent" custom:layoutDirection="ltr">
+    <include layout="@layout/seekbar_item_land" />
+    <FrameLayout custom:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" custom:layout_width="wrap_content" custom:layout_height="match_parent">
+        <ScrollView custom:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" custom:id="@id/adjust_scroll" custom:scrollbars="UNKNOWN_DATA_0x0" custom:layout_width="wrap_content" custom:layout_height="wrap_content">
+            <com.huawei.gallery.editor.category.CategoryTrack custom:orientation="vertical" custom:id="@id/listItems" custom:layout_width="wrap_content" custom:layout_height="wrap_content" custom:itemWidth="@dimen/category_panel_item_width" custom:itemHeight="@dimen/category_panel_item_height" />
+        </ScrollView>
+        <include layout="@layout/editor_scroll_background_land" />
+        <include layout="@layout/editor_foot_bar_land" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/mediapicker_view_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.android.mms.attachment.ui.mediapicker.GalleryGridView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/gallery_grid_view" android:background="@color/mediapicker_view_background" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:horizontalSpacing="2dp" android:verticalSpacing="2dp" android:stretchMode="columnWidth" android:columnWidth="@dimen/gallery_image_cell_size" android:numColumns="auto_fit" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/missing_permission_view" android:background="@color/mediapicker_view_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</FrameLayout>

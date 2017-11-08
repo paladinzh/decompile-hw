@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/abc_btn_check_to_on_mtrl_000_APKTOOL_DUPLICATENAME_0x7f020071" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/fp_startup_padding_start" android:paddingEnd="@dimen/fp_startup_padding_end">
+        <TextView android:id="@id/main_title" android:text="@string/fp_create_password_title" style="@style/fpStartupMainTitleStyle" />
+        <TextView android:id="@id/tip_title" android:layout_height="114.0dip" android:text="@string/fp_chooselock_footer_tip" android:lineSpacingExtra="4.0dip" style="@style/fpStartupLargeSummaryStyle" />
+    </LinearLayout>
+    <ImageView android:id="@id/spinner_divider_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/list_divider" />
+    <FrameLayout android:scrollbarStyle="@integer/preference_scrollbar_style" android:id="@id/prefs_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <Button android:id="@id/wizard_back" android:text="@string/cancel" android:contentDescription="@string/cancel" style="@style/bottom_single_button" />
+</LinearLayout>

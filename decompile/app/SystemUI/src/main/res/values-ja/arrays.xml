@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>スキャン中...</item>
+        <item>接続中...</item>
+        <item>認証中...</item>
+        <item>IPアドレスを取得中...</item>
+        <item>接続済み</item>
+        <item>保留中</item>
+        <item>切断中...</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>スキャン中...</item>
+        <item>%1$sに接続中...</item>
+        <item>%1$sによる認証中...</item>
+        <item>IPアドレスを%1$sから取得中...</item>
+        <item>%1$sに接続しました</item>
+        <item>保留中</item>
+        <item>%1$sから切断中...</item>
+        <item>切断されました</item>
+        <item>失敗しました</item>
+        <item>ブロック中</item>
+        <item>接続不良により一時的に無効</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>チェックしない</item>
+        <item>DRMコンテンツのみをチェック</item>
+        <item>常にチェック</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>HDCPチェックを使用しない</item>
+        <item>DRMコンテンツにのみHDCPチェックを使用する</item>
+        <item>HDCPチェックを常に使用する</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>OFF</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+        <item>4 M</item>
+        <item>16 M</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>OFF</item>
+        <item>64 K</item>
+        <item>256 K</item>
+        <item>1 M</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>OFF</item>
+        <item>64 K / ログバッファ</item>
+        <item>256 K / ログバッファ</item>
+        <item>1 M / ログバッファ</item>
+        <item>4 M / ログバッファ</item>
+        <item>16 M / ログバッファ</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>アニメーションオフ</item>
+        <item>アニメーションスケール.5x</item>
+        <item>アニメーションスケール1x</item>
+        <item>アニメーションスケール1.5x</item>
+        <item>アニメーションスケール2x</item>
+        <item>アニメーションスケール5x</item>
+        <item>アニメーションスケール10x</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>なし</item>
+        <item>480p</item>
+        <item>480p（セキュア）</item>
+        <item>720p</item>
+        <item>720p（セキュア）</item>
+        <item>1080p</item>
+        <item>1080p（セキュア）</item>
+        <item>4K</item>
+        <item>4K（セキュア）</item>
+        <item>4K（アップスケール）</item>
+        <item>4K（アップスケール、セキュア）</item>
+        <item>720p、1080p（デュアルスクリーン）</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>なし</item>
+        <item>Logcat</item>
+        <item>Systrace（画像）</item>
+        <item>glGetErrorでのスタック呼び出し</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>OFF</item>
+        <item>非矩形クリップ領域を青で描画</item>
+        <item>テスト済み描画コマンドを緑でハイライト表示</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>OFF</item>
+        <item>バーとして画面に表示</item>
+        <item>adb shell dumpsys gfxinfoを使用</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>OFF</item>
+        <item>オーバードロー領域の表示</item>
+        <item>第二色弱の方向けの領域の表示</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>標準の上限</item>
+        <item>バックグラウンドプロセスを使用しない</item>
+        <item>プロセスの上限: 1</item>
+        <item>プロセスの上限: 2</item>
+        <item>プロセスの上限: 3</item>
+        <item>プロセスの上限: 4</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>充電しています</item>
+        <item>MTP（Media Transfer Protocol）</item>
+        <item>PTP（Picture Transfer Protocol）</item>
+        <item>RNDIS（USBイーサネット）</item>
+        <item>音源</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>非常に遅い</item>
+        <item>遅い</item>
+        <item>標準</item>
+        <item>速い</item>
+        <item>より速い</item>
+        <item>非常に速い</item>
+        <item>高速</item>
+        <item>非常に高速</item>
+        <item>最高速</item>
+    </array>
+    <array name="color_mode_names">
+        <item>鮮やか（既定）</item>
+        <item>自然</item>
+        <item>標準</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>拡張色</item>
+        <item>目に自然な色</item>
+        <item>デジタルコンテンツに最適な色</item>
+    </array>
+    <array name="clock_options">
+        <item>時間、分、秒を表示</item>
+        <item>時間、分を表示（デフォルト）</item>
+        <item>このアイコンを表示しない</item>
+    </array>
+    <array name="battery_options">
+        <item>常に割合を表示</item>
+        <item>変更時に割合を表示（デフォルト）</item>
+        <item>このアイコンを表示しない</item>
+    </array>
+</resources>

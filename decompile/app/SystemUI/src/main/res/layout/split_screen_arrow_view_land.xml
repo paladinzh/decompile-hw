@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.HwSplitScreenArrowView xmlns:android="http://schemas.android.com/apk/res/com.android.systemui" systemui:visibility="gone" systemui:layout_width="match_parent" systemui:layout_height="match_parent">
+    <View systemui:id="@id/transparent_view" systemui:background="@color/mw_trans_bg" systemui:layout_width="UNKNOWN_DATA_0x7f0e0327" systemui:layout_height="match_parent" systemui:layout_alignParentLeft="true" />
+    <ImageView systemui:id="@id/arrow_icon" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_marginRight="@dimen/split_screen_arrow_icon_margin_land" systemui:src="@drawable/mw_arrow_left" systemui:scaleType="center" systemui:layout_toRightOf="@id/transparent_view" systemui:layout_centerVertical="true" />
+    <RelativeLayout systemui:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" systemui:background="@color/mw_translucent_dark_bg" systemui:layout_width="match_parent" systemui:layout_height="match_parent" systemui:layout_toRightOf="@id/arrow_icon">
+        <View systemui:id="@id/arrow_divider" systemui:background="@color/mw_divide_bg" systemui:layout_width="UNKNOWN_DATA_0x7f0e0329" systemui:layout_height="match_parent" systemui:layout_alignParentLeft="true" />
+        <TextView systemui:textSize="@dimen/split_screen_prompt_info_text_size" systemui:textColor="0x106000b" systemui:id="@id/prompt_info" systemui:layout_width="wrap_content" systemui:layout_height="wrap_content" systemui:layout_marginLeft="@dimen/split_screen_prompt_info_margin" systemui:text="@string/split_screen_slide_help_text" systemui:layout_toRightOf="@id/arrow_divider" systemui:layout_centerVertical="true" systemui:textAlignment="viewStart" />
+    </RelativeLayout>
+</com.android.systemui.statusbar.policy.HwSplitScreenArrowView>

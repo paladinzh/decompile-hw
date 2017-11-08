@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/account_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp">
+    <TextView android:textSize="@dimen/contact_editor_account_type_size" android:textColor="@color/contact_eidtor_source_account_type_color" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/account_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <TextView android:textSize="@dimen/contact_editor_account_name_size" android:textColor="@color/contact_eidtor_source_account_name_color" android:ellipsize="end" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/account_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:maxLines="1" />
+</LinearLayout>

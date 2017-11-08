@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_paste" android:visible="true" android:orderInCategory="1" android:showAsAction="withText" />
+    <item android:id="@+id/delete_all" android:orderInCategory="5" android:title="@string/recentCalls_deleteAll" android:showAsAction="withText" />
+    <item android:id="@+id/menu_call_record" android:orderInCategory="6" android:title="@string/str_menu_call_record" android:showAsAction="withText" />
+    <item android:id="@+id/add_to_contacts" android:orderInCategory="13" android:title="@string/non_phone_add_to_contacts" android:showAsAction="withText" />
+    <item android:id="@+id/menu_privacy_protection" android:orderInCategory="15" android:title="@string/menu_privacy_protection" android:showAsAction="withText" />
+    <item android:id="@+id/filter_harassment_dialpad" android:visible="false" android:orderInCategory="16" android:title="@string/menu_harassment_filter" android:showAsAction="withText" />
+    <item android:id="@+id/menu_settings_dialer" android:orderInCategory="17" android:title="@string/dial_settings" android:showAsAction="withText" />
+    <item android:id="@+id/tianyi_dialer_menu_option" android:orderInCategory="19" android:title="@string/str_tianyi_dialer_menu_option" android:showAsAction="withText" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.gallery3d.ui.DetailLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/detail_layout" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d00ac" android:layout_height="UNKNOWN_DATA_0x7f0d0220">
+    <TextView android:textSize="@dimen/adjust_value_text_size" android:textColor="@color/adjust_value_color" android:ellipsize="end" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/detail_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="10dp" android:singleLine="true" android:drawablePadding="@dimen/action_bar_actionmode_drawable_padding" android:layout_marginStart="@dimen/action_bar_actionmode_item_whole_size" android:layout_marginEnd="@dimen/action_bar_actionmode_item_whole_size" />
+    <ScrollView android:scrollbarThumbVertical="@drawable/scrollbar_handle_dark_emui" android:id="@id/details_scroll" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/details_layout_camerainfo" />
+            <com.android.gallery3d.ui.HistogramView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/image_hist" android:layout_width="UNKNOWN_DATA_0x7f0d00b1" android:layout_height="UNKNOWN_DATA_0x7f0d00b2" android:layout_marginBottom="12dp" />
+            <include layout="@layout/details_layout_baseinfo" />
+        </LinearLayout>
+    </ScrollView>
+</com.android.gallery3d.ui.DetailLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:visibility="gone" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/car_lockscreen_disclaimer_title_size" android:paddingTop="@dimen/car_lockscreen_disclaimer_title_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/car_lockscreen_disclaimer_title" android:paddingStart="@dimen/car_lockscreen_disclaimer_title_padding_start" />
+        <TextView android:textSize="@dimen/car_lockscreen_disclaimer_text_size" android:paddingTop="@dimen/car_lockscreen_disclaimer_text_padding_top" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:text="@string/car_lockscreen_disclaimer_text" android:layout_weight="1.0" android:paddingStart="@dimen/car_lockscreen_disclaimer_text_padding_start" android:paddingEnd="@dimen/car_lockscreen_disclaimer_text_padding_end" />
+        <com.android.systemui.statusbar.car.UserGridView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/user_grid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchMode="columnWidth" />
+    </LinearLayout>
+</FrameLayout>

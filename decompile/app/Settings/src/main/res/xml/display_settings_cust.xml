@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.settings.ColorTemperatureSettingsPreference android:layout="@layout/preference_status" android:title="@string/color_temperature_title" android:key="color_temperature" android:widgetLayout="@layout/preference_widget_arrow" android:dialogTitle="@string/color_temperature_title" />
+    <Preference android:title="@string/accelerometer_title" android:key="accelerometer_smart" android:widgetLayout="@layout/preference_widget_arrow" android:fragment="com.android.settings.AccelerometerSettings" />
+    <SwitchPreference android:title="@string/smart_backlight_title" android:key="smart_backlight" />
+    <com.android.settings.CustomSwitchPreference android:persistent="false" android:title="@string/hide_notification_background_title" android:key="hide_notification_background" />
+</PreferenceScreen>

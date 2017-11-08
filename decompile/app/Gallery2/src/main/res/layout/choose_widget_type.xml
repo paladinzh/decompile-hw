@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/widget_type" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="0dp" android:paddingEnd="0dp">
+    <RadioButton android:id="@id/widget_type_album" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/widget_type_album" android:layout_weight="1.0" android:layout_marginStart="16dp" android:layout_marginEnd="32dp" />
+    <RadioButton android:id="@id/widget_type_photo" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/widget_type_photo" android:layout_weight="1.0" android:layout_marginStart="16dp" android:layout_marginEnd="32dp" />
+    <RadioButton android:id="@id/widget_type_shuffle" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp" android:text="@string/widget_type_shuffle" android:layout_weight="1.0" android:layout_marginStart="16dp" android:layout_marginEnd="32dp" />
+    delete view
+    <Button android:id="@id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0x1040000" android:layout_weight="0.0" style="?unknown_attr_ref: 101032f" />
+</RadioGroup>

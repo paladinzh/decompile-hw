@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="wifi_status">
+        <item></item>
+        <item>Etsitään...</item>
+        <item>Yhdistetään…</item>
+        <item>Varmennetaan…</item>
+        <item>Haetaan IP-osoitetta...</item>
+        <item>Yhdistetty</item>
+        <item>Pidätetty</item>
+        <item>Katkaistaan yhteyttä...</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Estetty</item>
+        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
+    </array>
+    <array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Etsitään...</item>
+        <item>Yhdistetään verkkoon %1$s...</item>
+        <item>Varmennetaan verkkoon %1$s...</item>
+        <item>Haetaan IP-osoitetta verkosta %1$s...</item>
+        <item>Yhdistetty verkkoon %1$s</item>
+        <item>Pidätetty</item>
+        <item>Katkaistaan yhteys verkkoon %1$s…</item>
+        <item>Yhteys katkaistu</item>
+        <item>Epäonnistui</item>
+        <item>Estetty</item>
+        <item>Vältetään huonoa yhteyttä tilapäisesti</item>
+    </array>
+    <array name="hdcp_checking_titles">
+        <item>Älä tarkista koskaan</item>
+        <item>Tarkista vain DRM-suojattu sisältö</item>
+        <item>Tarkista aina</item>
+    </array>
+    <array name="hdcp_checking_summaries">
+        <item>Älä koskaan käytä HDCP-tarkistusta</item>
+        <item>Käytä HDCP-tarkistusta vain DRM-suojatulle sisällölle</item>
+        <item>Käytä aina HDCP-tarkistusta</item>
+    </array>
+    <array name="select_logd_size_titles">
+        <item>Ei käytössä</item>
+        <item>64 kt</item>
+        <item>256 kt</item>
+        <item>1 Mt</item>
+        <item>4 Mt</item>
+        <item>16 Mt</item>
+    </array>
+    <array name="select_logd_size_lowram_titles">
+        <item>Ei käytössä</item>
+        <item>64 kt</item>
+        <item>256 kt</item>
+        <item>1 Mt</item>
+    </array>
+    <array name="select_logd_size_summaries">
+        <item>Ei käytössä</item>
+        <item>64 kt / lokipuskuri</item>
+        <item>256 kt / lokipuskuri</item>
+        <item>1 Mt / lokipuskuri</item>
+        <item>4 Mt / lokipuskuri</item>
+        <item>16 Mt / lokipuskuri</item>
+    </array>
+    <array name="window_animation_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 1,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </array>
+    <array name="transition_animation_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </array>
+    <array name="animator_duration_scale_entries">
+        <item>Animaatio pois käytöstä</item>
+        <item>Animaatioasteikko 0,5-kertainen</item>
+        <item>Animaatioasteikko 1-kertainen</item>
+        <item>Animaatioasteikko 1,5-kertainen</item>
+        <item>Animaatioasteikko 2-kertainen</item>
+        <item>Animaatioasteikko 5-kertainen</item>
+        <item>Animaatioasteikko 10-kertainen</item>
+    </array>
+    <array name="overlay_display_devices_entries">
+        <item>Ei mitään</item>
+        <item>480p</item>
+        <item>480p (turvallinen)</item>
+        <item>720p</item>
+        <item>720p (turvallinen)</item>
+        <item>1080p</item>
+        <item>1080p (turvallinen)</item>
+        <item>4K</item>
+        <item>4K (turvallinen)</item>
+        <item>4K (skaalattu)</item>
+        <item>4K (skaalattu, turvallinen)</item>
+        <item>720p, 1080p (kaksoisnäyttö)</item>
+    </array>
+    <array name="enable_opengl_traces_entries">
+        <item>Ei mitään</item>
+        <item>Logcat</item>
+        <item>Systrace (grafiikka)</item>
+        <item>Kutsu pinoa, jos glGetError tapaht.</item>
+    </array>
+    <array name="show_non_rect_clip_entries">
+        <item>Pois</item>
+        <item>Piirrä ei-suorakulm. leikealue sinisellä</item>
+        <item>Korosta testatut piirtokom. vihreällä</item>
+    </array>
+    <array name="track_frame_time_entries">
+        <item>Pois käytöstä</item>
+        <item>Ruudulla palkkeina</item>
+        <item>Adb shell dumpsys gfxinfo</item>
+    </array>
+    <array name="debug_hw_overdraw_entries">
+        <item>Ei käytössä</item>
+        <item>Näytä päällekkäiset alueet</item>
+        <item>Näytä alueet puna-vihersokeille näkyvinä</item>
+    </array>
+    <array name="app_process_limit_entries">
+        <item>Vakioraja</item>
+        <item>Ei taustaprosesseja</item>
+        <item>Enintään 4 prosessia</item>
+        <item>Enintään 2 prosessia</item>
+        <item>Enintään 3 prosessia</item>
+        <item>Enintään 4 prosessia</item>
+    </array>
+    <array name="usb_configuration_titles">
+        <item>Lataaminen</item>
+        <item>MTP (median siirtoprotokolla)</item>
+        <item>PTP (kuvan siirtoprotokolla)</item>
+        <item>RNDIS (USB-ethernet)</item>
+        <item>Audiolähde</item>
+        <item>MIDI</item>
+    </array>
+    <array name="tts_rate_entries">
+        <item>Hyvin hidas</item>
+        <item>Hidas</item>
+        <item>Normaali</item>
+        <item>Nopea</item>
+        <item>Nopeampi</item>
+        <item>Hyvin nopea</item>
+        <item>Nopea</item>
+        <item>Erittäin nopea</item>
+        <item>Nopein</item>
+    </array>
+    <array name="color_mode_names">
+        <item>Voimakas (oletus)</item>
+        <item>Luonnollinen</item>
+        <item>Normaali</item>
+    </array>
+    <array name="color_mode_descriptions">
+        <item>Tehostetut värit</item>
+        <item>Ihmissilmän näkemät luonnolliset värit</item>
+        <item>Digitaaliselle sisällölle parhaiten sopivat värit</item>
+    </array>
+    <array name="clock_options">
+        <item>Näytä tunnit, minuutit ja sekunnit</item>
+        <item>Näytä tunnit ja minuutit (oletus)</item>
+        <item>Älä näytä tätä kuvaketta</item>
+    </array>
+    <array name="battery_options">
+        <item>Näytä prosenttiluku aina</item>
+        <item>Näytä prosenttiluku latauksen aikana (oletus)</item>
+        <item>Älä näytä tätä kuvaketta</item>
+    </array>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/dot_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/super_power_saving_dot_margin_buttom" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/icon_first" android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x601" android:src="@drawable/navi_dot_selected" android:contentDescription="@string/super_power_saving_about_first_page" android:layout_alignParentStart="true" />
+        <ImageView android:id="@+id/icon_second" android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x601" android:src="@drawable/navi_dot_unselected" android:contentDescription="@string/super_power_saving_about_second_page" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/icon_first" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@+id/about_viewpager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/dot_layout" />
+</RelativeLayout>

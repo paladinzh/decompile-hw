@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/camcard_options">
+        <item android:icon="@drawable/contacts_scan" android:id="@+id/menu_scan_card" android:title="@string/camcard_scan_card" android:showAsAction="always" />
+    </group>
+    <group android:id="@+id/update_options">
+        <item android:icon="@drawable/contact_ic_menu_share" android:id="@+id/menu_action_operation" android:visible="true" android:title="@string/camcard_menu_update" android:showAsAction="always" />
+        <item android:id="@+id/menu_action_selectall" android:title="@string/contact_menu_select_all" android:showAsAction="always" />
+    </group>
+</menu>

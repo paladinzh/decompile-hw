@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.ImageRadioRelativeLayout android:textAppearance="?android:textAppearanceListItemSmall" android:id="@id/image_radio_layout" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeightSmall" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_img" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <RadioButton android:id="@id/radio_btn" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</com.android.settings.ImageRadioRelativeLayout>

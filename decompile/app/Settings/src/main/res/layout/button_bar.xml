@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/button_bar" android:background="@color/button_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/oobe_button_bar_padding" android:paddingEnd="@dimen/oobe_button_bar_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@drawable/control_button_text" android:gravity="start|center" android:id="@id/prev_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/button_height" android:text="@string/wifi_setup_back" android:drawablePadding="@dimen/oobe_arrow_drawable_padding" android:layout_weight="1.0" android:textAllCaps="true" android:drawableStart="@drawable/ic_public_arrow_left" />
+    <TextView android:textSize="15.0sp" android:textColor="@drawable/control_button_text" android:gravity="end|center" android:id="@id/next_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/button_height" android:text="@string/wifi_setup_skip" android:drawablePadding="@dimen/oobe_arrow_drawable_padding" android:layout_weight="1.0" android:textAllCaps="true" android:drawableEnd="@drawable/ic_public_arrow_right" />
+</LinearLayout>

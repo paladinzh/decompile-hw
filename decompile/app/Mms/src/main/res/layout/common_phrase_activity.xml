@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/gravity_style">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="0x102000a" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@+id/phrase_nomessage_image_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/mms_nomessageview_height">
+        <LinearLayout android:orientation="vertical" android:id="0x1020004" style="@style/empty_layout_style">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/hint_image" android:background="@drawable/ic_empty_message" android:layout_width="UNKNOWN_DATA_0x7f0a02c4" android:layout_height="UNKNOWN_DATA_0x7f0a02c5" android:scaleType="centerInside" android:contentDescription="@string/mms_common_phrase_list_empty" />
+            <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="@string/mms_common_phrase_list_empty" style="@style/text_color_weak" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

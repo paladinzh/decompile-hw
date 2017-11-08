@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_overflow" android:id="@+id/action_overflow_menu" android:title="@string/menu_overflow" android:showAsAction="always">
+        <menu>
+            <item android:id="@+id/menu_preview_slideshow" android:title="@string/preview_slideshow" />
+            <item android:id="@+id/menu_remove_text" android:visible="false" android:title="@string/remove_text" />
+            <item android:id="@+id/menu_del_picture" android:visible="false" android:title="@string/remove_picture" />
+            <item android:id="@+id/menu_add_picture" android:visible="false" android:title="@string/add_picture" />
+            <item android:id="@+id/menu_take_picture" android:visible="false" android:title="@string/attach_take_photo" />
+            <item android:id="@+id/menu_del_audio" android:visible="false" android:title="@string/remove_music" />
+            <item android:id="@+id/menu_sub_audio" android:visible="false" android:title="@string/add_music">
+                <menu>
+                    <item android:id="@+id/menu_add_audio" android:title="@string/attach_sound" />
+                    <item android:id="@+id/menu_record_sound" android:title="@string/attach_record_sound" />
+                </menu> />
+            <item android:id="@+id/menu_del_video" android:visible="false" android:title="@string/remove_video" />
+            <item android:id="@+id/menu_add_video" android:visible="false" android:title="@string/add_video" />
+            <item android:id="@+id/menu_take_video" android:visible="false" android:title="@string/attach_record_video" />
+            <item android:id="@+id/menu_add_slide" android:title="@string/add_slide" />
+            <item android:id="@+id/menu_duration" android:title="@string/duration_sec" />
+            <item android:id="@+id/menu_layout" />
+        </menu> />
+</menu>

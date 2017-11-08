@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:id="@+id/battery_history_upper_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/power_battery_history_upper_des_layout" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layoutDirection="ltr"
+            <RelativeLayout android:id="@+id/battery_history_choose_time_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-6dp" android:layout_alignParentTop="true">
+                <TextView android:textSize="13dp" android:textColor="@color/hwsystemmanager_white_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/battery_history_choose_time" android:background="@drawable/power_time_picker_battery_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:paddingStart="8dp" android:paddingEnd="8dp" />
+            </RelativeLayout>
+            <FrameLayout android:id="@+id/battery_history_chart_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/battery_history_choose_time_layout" android:layout_alignParentBottom="true">
+                <com.huawei.systemmanager.power.batterychart.BatteryHistoryOnlyChart android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/battery_history_chart" android:layout_width="match_parent" android:layout_height="match_parent" />
+                <com.huawei.systemmanager.power.batterychart.BatteryDraggingBar android:orientation="vertical" android:id="@+id/dragging_bar" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/battery_history_chart_top_padding" android:layout_marginBottom="@dimen/battery_history_chart_bar_bottom_padding">
+                    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/wrap" android:background="0x106000d" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="match_parent" android:layout_marginLeft="@dimen/battery_history_chart_right_margin_bar">
+                        <com.huawei.systemmanager.power.batterychart.BatteryBarView android:id="@+id/dragging_bar_image" android:layout_width="UNKNOWN_DATA_0x5400021" android:layout_height="match_parent" android:layout_centerHorizontal="true" />
+                    </RelativeLayout>
+                </com.huawei.systemmanager.power.batterychart.BatteryDraggingBar>
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/battery_history_lines_layout" style="@style/power_battery_history_only_chart_style">
+        <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" style="@style/power_battery_history_only_chart_style">
+            <com.huawei.systemmanager.power.batterychart.BatteryHistoryText android:id="@+id/batter_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/list_wrap" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@+id/battery_history_no_apps" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/no_power_intensive_icon" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/ic_no_apps" />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/battery_history_no_apps" style="@style/PowerSecondTextSytle" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/battery_history_topApp_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="13sp" android:textColor="@color/emui_list_secondray_text" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/top_consume_des" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_consume_des_margin_top" android:layout_marginBottom="@dimen/top_consume_des_margin_bottom" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+            <ListView android:scrollbarStyle="outsideOverlay" android:id="@+id/listview" android:clickable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="0x106000d" android:drawSelectorOnTop="false" android:divider="0x0" android:dividerHeight="16dp" android:layout_weight="1.46" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

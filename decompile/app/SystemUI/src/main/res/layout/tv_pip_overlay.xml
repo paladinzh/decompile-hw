@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/tv_pip_overlay_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14sp" android:textColor="#eeeeee" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/guide_overlay" android:background="@drawable/tv_pip_overlay_text_background" android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pip_hold_home" android:maxLines="2" android:layout_alignParentBottom="true" android:lineSpacingMultiplier="1.465" android:fontFamily="sans-serif" android:paddingStart="10dp" android:paddingEnd="10dp" />
+</RelativeLayout>

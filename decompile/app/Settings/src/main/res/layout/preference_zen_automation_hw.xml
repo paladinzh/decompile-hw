@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:androidhwext="http://schemas.android.com/apk/res/androidhwext">
+    <LinearLayout android:gravity="center_vertical" android:paddingTop="@dimen/preference_item_margin_top" android:paddingBottom="@dimen/preference_item_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/preference_item_min_height" android:paddingStart="@dimen/preference_item_padding_start" android:paddingEnd="@dimen/preference_item_padding_end">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/preference_icon_margin_end">
+            <ImageView android:layout_gravity="center" android:id="@id/rule_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:paddingEnd="0.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/l_rule_info" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="0.0dip">
+            <TextView android:textSize="@dimen/preference_item_title_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/rule_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/preference_title_max_width" android:minWidth="@dimen/preference_title_min_width" android:singleLine="true" style="@style/EmuiPrimaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/rule_summary1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/preference_summary_min_width" android:singleLine="true" style="@style/EmuiSecondaryTextFontStyle" />
+            <TextView android:textSize="@dimen/preference_item_summary_end_size" android:ellipsize="end" android:gravity="start" android:layout_gravity="center_vertical" android:id="@id/rule_summary2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/preference_summary_min_width" android:singleLine="true" style="@style/EmuiSecondaryTextFontStyle" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Switch android:layout_gravity="center" android:id="@id/rule_switch" android:paddingLeft="8.0dip" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

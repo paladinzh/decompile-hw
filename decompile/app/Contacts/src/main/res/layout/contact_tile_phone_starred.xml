@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" android:background="0x0" android:paddingBottom="1dp" android:paddingEnd="1dp" class="com.android.contacts.list.ContactTilePhoneStarredView">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.contacts.widget.LayoutSuppressingImageView android:id="@+id/contact_tile_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="16sp" android:textColor="0x106000b" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/contact_tile_name" android:background="@color/contact_tile_shadow_box_color" android:fadingEdge="horizontal" android:fadingEdgeLength="3dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00ab" android:singleLine="true" android:layout_alignParentBottom="true" android:drawableEnd="@drawable/ic_divider_dashed_holo_dark" android:paddingStart="8dp" android:paddingEnd="47dp" />
+        <View android:id="@+id/contact_tile_push_state" android:background="?unknown_attr_ref: 101030e" android:focusable="true" android:nextFocusRight="@+id/contact_tile_secondary_button" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageButton android:id="@+id/contact_tile_secondary_button" android:background="?unknown_attr_ref: 101030e" android:layout_width="UNKNOWN_DATA_0x3001" android:layout_height="UNKNOWN_DATA_0x7f0d00ab" android:src="@drawable/ic_contacts_holo_dark" android:layout_alignParentBottom="true" android:contentDescription="@string/description_view_contact_detail" android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</view>
